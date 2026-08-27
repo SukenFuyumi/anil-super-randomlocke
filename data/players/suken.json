@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 30,
   "champion": false,
-  "notes": "Importado del save · 7h 45m jugadas · 785,962₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 7h 46m jugadas · 785,962₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Jonh Milton",
@@ -22,6 +22,24 @@
         "Zona Extraña",
         "Hidrobomba",
         "Destello"
+      ]
+    },
+    {
+      "nickname": "NIDRANA",
+      "species": "Shelgon",
+      "level": 49,
+      "types": [
+        "Dragón"
+      ],
+      "ability": "Muro Mágico",
+      "nature": "Alocada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Ciclón",
+        "Multiataque",
+        "Garra Metal",
+        "Estruendo Escama"
       ]
     }
   ],
@@ -94,24 +112,6 @@
         "Plumerazo",
         "Mandato",
         "Escalofrio"
-      ]
-    },
-    {
-      "nickname": "NIDRANA",
-      "species": "Shelgon",
-      "level": 49,
-      "types": [
-        "Dragón"
-      ],
-      "ability": "Muro Mágico",
-      "nature": "Alocada",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Ciclón",
-        "Multiataque",
-        "Garra Metal",
-        "Estruendo Escama"
       ]
     },
     {
@@ -189,27 +189,6 @@
       ],
       "cause": "",
       "route": "Ciudad Carmín",
-      "date": ""
-    },
-    {
-      "nickname": "Caine",
-      "species": "Carnivine",
-      "level": 49,
-      "types": [
-        "Planta"
-      ],
-      "ability": "Caparazón",
-      "nature": "Activa",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Fuego Fatuo",
-        "Acua Jet",
-        "Drenadoras",
-        "Chupavidas"
-      ],
-      "cause": "",
-      "route": "Ciudad Azulona",
       "date": ""
     },
     {
@@ -816,9 +795,35 @@
       "cause": "",
       "route": "Ruta 5",
       "date": ""
+    },
+    {
+      "nickname": "Caine",
+      "species": "Carnivine",
+      "level": 49,
+      "types": [
+        "Planta"
+      ],
+      "ability": "Caparazón",
+      "nature": "Activa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Fuego Fatuo",
+        "Acua Jet",
+        "Drenadoras",
+        "Chupavidas"
+      ],
+      "cause": "",
+      "route": "Ciudad Azulona",
+      "date": ""
     }
   ],
   "captures": [
+    {
+      "route": "ruta_6",
+      "mon": "Shelgon",
+      "status": "captured"
+    },
     {
       "route": "ruta_11",
       "mon": "Mamoswine",
@@ -832,11 +837,6 @@
     {
       "route": "ruta_13",
       "mon": "Dugtrio",
-      "status": "captured"
-    },
-    {
-      "route": "ruta_6",
-      "mon": "Shelgon",
       "status": "captured"
     },
     {
@@ -940,10 +940,10 @@
     "bosses": {},
     "npcs": {},
     "routes": {
+      "ruta_6": true,
       "ruta_11": true,
       "ruta_12": true,
       "ruta_13": true,
-      "ruta_6": true,
       "ruta_14": true,
       "ruta_10_sur": true,
       "ruta_2_sur": true,
