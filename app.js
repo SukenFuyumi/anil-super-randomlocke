@@ -70,7 +70,13 @@ function renderFooter() {
 /* ---------- Carga de datos ---------- */
 async function loadJSON(path) {
   try {
-    const res = await fetch(path, { cache: "no-store" });
+    // Cache-busting para datos que cambian (config y fichas de jugador),
+    // así se ve siempre lo último sin esperar a la caché de la CDN.
+    let url = path;
+    if (/config\.json|\/players\//.test(path)) {
+      url += (path.includes("?") ? "&" : "?") + "t=" + Date.now();
+    }
+    const res = await fetch(url, { cache: "no-store" });
     if (!res.ok) throw new Error(res.status);
     return await res.json();
   } catch (e) {
