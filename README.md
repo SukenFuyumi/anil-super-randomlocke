@@ -1,6 +1,10 @@
 # Pokémon Añil — Super Randomlocke
 
+**Web en vivo: https://sukenfuyumi.github.io/anil-super-randomlocke/**
+
 Web estática para seguir un randomlocke de Pokémon Añil: equipos, cajas, cementerio, progreso (rutas, capturas, gimnasios, bosses, NPCs) y brackets de torneos. Mismo diseño que [Cobbleverse Dex](https://sukenfuyumi.github.io/).
+
+Incluye **auto-save**: el programa en [`companion/`](companion/) lee la partida `.rxdata` de Pokémon Añil y sube la ficha de cada jugador a la web automáticamente. Ver [companion/README.md](companion/README.md).
 
 ## Estructura
 
@@ -18,11 +22,10 @@ data/players/*.json · Datos de cada jugador
 favicon.svg
 ```
 
-## Cómo publicar en GitHub Pages
+## Publicación (ya activa)
 
-1. Sube todos estos archivos a un repositorio (por ejemplo `anil-randomlocke`).
-2. En **Settings → Pages**, elige la rama (`main`) y carpeta `/root`.
-3. Listo: la web queda en `https://<usuario>.github.io/anil-randomlocke/`.
+Repositorio: **SukenFuyumi/anil-super-randomlocke** · Pages sirve la rama `main` (raíz).
+Para actualizar la web, haz `git push` a `main` (o deja que el companion suba las fichas).
 
 > Nota: la web carga los JSON con `fetch`, así que **no funciona abriendo el HTML con doble clic** (`file://`). Para verla en local usa un servidor:
 > ```bash
