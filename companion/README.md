@@ -78,10 +78,10 @@ npx @yao-pkg/pkg . --output dist/AnilSync.exe
 
 Cada Pokémon: especie, apodo (`@name`), nivel, tipos, habilidad, naturaleza, objeto, shiny y 4 movimientos (traducidos al español).
 
-### Nombres de ruta (opcional): `map-names.json`
-El save guarda el mapa de captura como un **número** (`@obtain_map`). Para mostrar el **nombre de la ruta** (dónde se capturó/murió cada Pokémon), coloca un `map-names.json` (id → nombre) **junto al `.exe`**. Si está, el companion rellena el sitio de muerte en el cementerio; si no, lo deja vacío.
+### Nombres de ruta: `map-names.json` (ya incluido)
+El save guarda el mapa de captura como un **número** (`@obtain_map`). El archivo **`map-names.json`** (id → nombre, ya generado para **Añil V4.13**, 219 mapas) traduce esos números a nombres de ruta reales. **Debe estar en la misma carpeta que `AnilSync.exe`** — así el cementerio muestra dónde se capturó cada Pokémon.
 
-Genéralo desde el juego con el `MapInfos.rxdata` de Añil (carpeta `Data/`):
+Si sale una versión nueva de Añil con mapas distintos, regenéralo con:
 ```bash
 node mapnames.js "ruta\a\Pokemon Anil\Data\MapInfos.rxdata" map-names.json
 ```
