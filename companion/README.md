@@ -78,7 +78,16 @@ npx @yao-pkg/pkg . --output dist/AnilSync.exe
 
 Cada Pokémon: especie, apodo (`@name`), nivel, tipos, habilidad, naturaleza, objeto, shiny y 4 movimientos (traducidos al español).
 
-### Pendiente / mejorable
-- Mapear IDs de mapa (`@obtain_map`, `visitedMaps`) → nombres de ruta de Añil, para autollenar **capturas/rutas** y el sitio de muerte en el cementerio.
-- Mapa de **habilidades** y **objetos** al español (ahora salen en inglés prettificado).
-- Algunas especies con formas (Gourgeist, Aegislash, Basculin) no resuelven tipos por el nombre base; afinar el mapa de tipos.
+### Nombres de ruta (opcional): `map-names.json`
+El save guarda el mapa de captura como un **número** (`@obtain_map`). Para mostrar el **nombre de la ruta** (dónde se capturó/murió cada Pokémon), coloca un `map-names.json` (id → nombre) **junto al `.exe`**. Si está, el companion rellena el sitio de muerte en el cementerio; si no, lo deja vacío.
+
+Genéralo desde el juego con el `MapInfos.rxdata` de Añil (carpeta `Data/`):
+```bash
+node mapnames.js "ruta\a\Pokemon Anil\Data\MapInfos.rxdata" map-names.json
+```
+
+### Estado
+- ✅ Tipos (incluidas especies con formas: Gourgeist, Aegislash, Basculin…).
+- ✅ Habilidades y objetos en español (los custom de Añil sin equivalente caen a texto prettificado).
+- ✅ Movimientos en español y coloreados por tipo en la web.
+- ⏳ Autollenar **capturas/rutas** de la web a partir de `visitedMaps` (requiere el `map-names.json` + una tabla mapa→ruta de la config; pendiente).

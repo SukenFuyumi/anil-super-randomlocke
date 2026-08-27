@@ -3,6 +3,8 @@
 const { parse, RSymbol } = require('./marshal.js');
 const MOVES_ES = require('./move-es.json');
 const TYPES = require('./pokemon-types.json');
+const ABILITIES_ES = require('./ability-es.json');
+const ITEMS_ES = require('./item-es.json');
 
 const NATURES = { HARDY:'Fuerte',LONELY:'Huraña',BRAVE:'Audaz',ADAMANT:'Firme',NAUGHTY:'Pícara',BOLD:'Osada',DOCILE:'Dócil',RELAXED:'Plácida',IMPISH:'Agitada',LAX:'Floja',TIMID:'Miedosa',HASTY:'Activa',SERIOUS:'Seria',JOLLY:'Alegre',NAIVE:'Ingenua',MODEST:'Modesta',MILD:'Afable',QUIET:'Mansa',BASHFUL:'Tímida',RASH:'Alocada',CALM:'Serena',GENTLE:'Amable',SASSY:'Grosera',CAREFUL:'Cauta',QUIRKY:'Rara' };
 
@@ -17,26 +19,29 @@ function pretty(sym) {
 }
 const moveName = sym => sym ? (MOVES_ES[norm(sym)] || pretty(sym)) : null;
 const speciesTypes = sym => TYPES[norm(sym)] || [];
+const abilityName = sym => sym ? (ABILITIES_ES[norm(sym)] || pretty(sym)) : '';
+const itemName = sym => sym ? (ITEMS_ES[norm(sym)] || pretty(sym)) : '';
 
 function mon(p) {
   const species = sname(iv(p, '@species'));
   const nick = sname(iv(p, '@name'));
   const moves = (iv(p, '@moves') || []).map(m => moveName(m && m.ivars ? sname(m.ivars['@id']) : sname(m))).filter(Boolean);
-  const item = sname(iv(p, '@item'));
   return {
     nickname: nick || pretty(species),
     species: pretty(species),
     level: iv(p, '@level') ?? null,
     types: speciesTypes(species),
-    ability: pretty(sname(iv(p, '@ability'))),
+    ability: abilityName(sname(iv(p, '@ability'))),
     nature: NATURES[sname(iv(p, '@nature'))] || pretty(sname(iv(p, '@nature'))),
-    item: item ? pretty(item) : '',
+    item: itemName(sname(iv(p, '@item'))),
     shiny: !!iv(p, '@shiny'),
     moves,
   };
 }
 
-function extract(buf, playerId) {
+function extract(buf, playerId, opts = {}) {
+  const mapNames = opts.mapNames || null; // { "3": "Ruta 3", ... } opcional
+  const mapName = id => (mapNames && id != null && mapNames[String(id)]) || '';
   const { root } = parse(buf);
   const player = hget(root, 'player');
   const gm = hget(root, 'global_metadata');
@@ -50,7 +55,7 @@ function extract(buf, playerId) {
   const pushMon = (p, where) => {
     if (!p) return;
     if (iv(p, '@perma_faint') === true) {
-      const m = mon(p); m.cause = ''; m.route = ''; m.date = '';
+      const m = mon(p); m.cause = ''; m.route = mapName(iv(p, '@obtain_map')); m.date = '';
       graveyard.push(m);
     } else if (where === 'party') team.push(mon(p));
     else box.push(mon(p));

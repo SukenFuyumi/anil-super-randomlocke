@@ -129,6 +129,17 @@ async function upload(cfg, jsonStr) {
   throw new Error('GitHub respondió ' + put.status + ': ' + (put.body && put.body.message || ''));
 }
 
+// map-names.json opcional (id de mapa -> nombre de ruta), junto al .exe
+let _mapNames = undefined;
+function loadMapNames() {
+  if (_mapNames !== undefined) return _mapNames;
+  const p = path.join(BASE_DIR, 'map-names.json');
+  try { _mapNames = fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')) : null; }
+  catch (e) { err('map-names.json inválido, se ignora: ' + e.message); _mapNames = null; }
+  if (_mapNames) log('Usando nombres de mapa de map-names.json (' + Object.keys(_mapNames).length + ' rutas).');
+  return _mapNames;
+}
+
 let lastHash = null;
 
 async function syncOnce(cfg, reason) {
@@ -136,7 +147,7 @@ async function syncOnce(cfg, reason) {
   let buf;
   try { buf = await readStable(file); } catch (e) { err('No pude leer el save (' + e.message + '), reintento luego.'); return; }
   let data;
-  try { data = extract(buf, cfg.playerId); }
+  try { data = extract(buf, cfg.playerId, { mapNames: loadMapNames() }); }
   catch (e) { err('No pude interpretar el save: ' + e.message); return; }
   const jsonStr = JSON.stringify(data, null, 2);
   const hash = crypto.createHash('sha1').update(jsonStr).digest('hex');
