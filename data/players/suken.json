@@ -2,912 +2,2236 @@
   "id": "suken",
   "name": "Suken",
   "lives": 30,
-  "livesUsed": 8,
-  "champion": false,
-  "notes": "Importado del save · 7h 40m jugadas · 69,250₽ · vidas en el juego: 7",
+  "livesUsed": 7,
+  "champion": true,
+  "notes": "Importado del save · 39h 43m jugadas · 275,060₽ · vidas en el juego: 10",
   "team": [
     {
-      "nickname": "Metagross",
-      "species": "Metagross",
-      "level": 54,
+      "nickname": "Cracatoa",
+      "species": "Skeledirge",
+      "level": 75,
       "types": [
-        "Acero",
-        "Psíquico"
+        "Fuego",
+        "Fantasma"
       ],
-      "ability": "Olor Persistente",
-      "nature": "Alegre",
-      "item": "",
+      "ability": "",
+      "nature": "Floja",
+      "item": "Chaleco Asalto",
       "shiny": false,
       "moves": [
-        "Patada Tropical",
-        "Choque Anímico",
+        "Poder Pasado",
+        "Flarembestida",
+        "Núcleo Castigo",
+        "Orbes Espectro"
+      ]
+    },
+    {
+      "nickname": "Slaking",
+      "species": "Slaking",
+      "level": 75,
+      "types": [
+        "Normal"
+      ],
+      "ability": "",
+      "nature": "Miedosa",
+      "item": "Llamasfera",
+      "shiny": false,
+      "moves": [
+        "Aguijón Letal",
+        "Puño Drenaje",
         "Terremoto",
-        "Cuerpo Pesado"
+        "Doble Filo"
       ]
     },
     {
-      "nickname": "Reptar",
-      "species": "Typhlosion",
-      "level": 54,
+      "nickname": "Luigi",
+      "species": "Breloom",
+      "level": 75,
       "types": [
-        "Fuego"
+        "Planta",
+        "Lucha"
       ],
-      "ability": "Oportunista",
-      "nature": "Huraña",
-      "item": "",
+      "ability": "",
+      "nature": "Audaz",
+      "item": "Banda Aguante",
       "shiny": false,
       "moves": [
-        "Fuego Fatuo",
-        "Poder Místico",
-        "Canto Ardiente",
-        "Láser Veleidoso"
+        "Plancha Voladora",
+        "Envite Ígneo",
+        "Mazazo",
+        "Rompecoraza"
       ]
     },
     {
-      "nickname": "Pikaboo",
-      "species": "Gourgeist",
-      "level": 54,
+      "nickname": "Mojo Jojo",
+      "species": "Fluttermane",
+      "level": 75,
       "types": [
         "Fantasma",
-        "Planta"
+        "Hada"
       ],
-      "ability": "Acero Templado",
-      "nature": "Pícara",
-      "item": "",
-      "shiny": false,
+      "ability": "",
+      "nature": "Huraña",
+      "item": "Vidasfera",
+      "shiny": true,
       "moves": [
-        "Joltioparálisis",
-        "Rayo Confuso",
-        "Espora",
-        "Drenadoras"
-      ]
-    },
-    {
-      "nickname": "Ninjago",
-      "species": "Greninja",
-      "level": 54,
-      "types": [
-        "Agua",
-        "Siniestro"
-      ],
-      "ability": "Nado Rápido",
-      "nature": "Ingenua",
-      "item": "Greninjite",
-      "shiny": false,
-      "moves": [
-        "Joltioparálisis",
-        "Hidrovapor",
-        "Canto Ardiente",
-        "Vaho Gélido"
-      ]
-    },
-    {
-      "nickname": "Minecraft",
-      "species": "Garganacl",
-      "level": 54,
-      "types": [
-        "Roca"
-      ],
-      "ability": "Polvo Escudo",
-      "nature": "Floja",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Esquirla Helada",
-        "Salazón",
-        "Ovocuración",
-        "Moflete Estático"
-      ]
-    },
-    {
-      "nickname": "Sun",
-      "species": "Sunflora",
-      "level": 54,
-      "types": [
-        "Planta"
-      ],
-      "ability": "Entusiasmo",
-      "nature": "Alegre",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Sable Místico",
-        "Voz Cautivadora",
-        "Agua Fría",
-        "Estallido"
+        "Bola Sombra",
+        "Fuerza Lunar",
+        "Brillo Mágico",
+        "Liofilización"
       ]
     }
   ],
   "box": [
     {
-      "nickname": "Homunculo",
-      "species": "Burmy",
-      "level": 10,
+      "nickname": "Piccoro",
+      "species": "Toxicroak",
+      "level": 39,
       "types": [
-        "Bicho"
+        "Veneno",
+        "Lucha"
       ],
-      "ability": "Unísono",
-      "nature": "Cauta",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Bombardeo",
-        "Señuelo"
-      ]
-    },
-    {
-      "nickname": "Emily",
-      "species": "Kirlia",
-      "level": 21,
-      "types": [
-        "Psíquico",
-        "Hada"
-      ],
-      "ability": "Allanamiento",
-      "nature": "Alocada",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Adaptación",
-        "Puño Incremento",
-        "Cambio de Banda",
-        "Gota Vital"
-      ]
-    },
-    {
-      "nickname": "Navidad",
-      "species": "Pineco",
-      "level": 10,
-      "types": [
-        "Bicho"
-      ],
-      "ability": "Pielherbacea",
+      "ability": "",
       "nature": "Osada",
       "item": "",
       "shiny": false,
       "moves": [
-        "Golpe Cabeza",
-        "Polvo Veneno",
-        "Clemencia",
-        "Gas Corrosivo"
+        "Asalto Espadón",
+        "Pico Taladro",
+        "Leafitobombas",
+        "Patada Relámpago"
       ]
     },
     {
-      "nickname": ".EXE",
-      "species": "Exeggutor",
-      "level": 50,
+      "nickname": "Amongus",
+      "species": "Foongus",
+      "level": 23,
       "types": [
         "Planta",
-        "Psíquico"
+        "Veneno"
+      ],
+      "ability": "",
+      "nature": "Mansa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Relajo",
+        "Carga Tóxica",
+        "Señuelo",
+        "Tóxico"
+      ]
+    },
+    {
+      "nickname": "Robin Hood",
+      "species": "Dartrix",
+      "level": 20,
+      "types": [
+        "Planta",
+        "Volador"
       ],
       "ability": "",
       "nature": "Alocada",
       "item": "",
       "shiny": false,
       "moves": [
-        "Drenadoras",
-        "Anticura",
-        "Follaje",
-        "Ascuas"
-      ]
-    },
-    {
-      "nickname": "Grappler",
-      "species": "Clobbopus",
-      "level": 5,
-      "types": [
-        "Lucha"
-      ],
-      "ability": "Fuerza Cerebral",
-      "nature": "Firme",
-      "item": "Parte Azul",
-      "shiny": false,
-      "moves": [
-        "Gota Vital",
-        "Buena Baza",
-        "Amnesia"
-      ]
-    },
-    {
-      "nickname": "SimSimi",
-      "species": "Simipour",
-      "level": 43,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Flaqueza",
-      "nature": "Cauta",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Clavo Cañón",
-        "Acupresión",
-        "Tajo Acuático",
-        "Lanzarrocas"
-      ]
-    },
-    {
-      "nickname": "Florinda",
-      "species": "Floette",
-      "level": 15,
-      "types": [
-        "Hada"
-      ],
-      "ability": "Ausente",
-      "nature": "Ingenua",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Viento Plata",
-        "Cuerno Certero",
-        "Somnífero",
-        "Acupresión"
-      ]
-    },
-    {
-      "nickname": "Larvesta",
-      "species": "Larvesta",
-      "level": 32,
-      "types": [
-        "Bicho",
-        "Fuego"
-      ],
-      "ability": "Gran Encanto",
-      "nature": "Amable",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Furia Natural",
-        "Viento Feérico",
-        "Pisotón",
-        "Cambiapoder"
-      ]
-    },
-    {
-      "nickname": "Rollback",
-      "species": "Whirlipede",
-      "level": 19,
-      "types": [
-        "Bicho",
-        "Veneno"
-      ],
-      "ability": "Podersabio",
-      "nature": "Alegre",
-      "item": "",
-      "shiny": false,
-      "moves": [
+        "Bombardeo",
+        "Cambio de Marcha",
         "Rompecoraza",
-        "Roca Veloz",
-        "Polución",
-        "Daño Secreto"
+        "Carga"
       ]
     },
     {
-      "nickname": "Mankey",
-      "species": "Mankey",
-      "level": 21,
-      "types": [
-        "Lucha"
-      ],
-      "ability": "Competitivo",
-      "nature": "Modesta",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Prensa Metálica",
-        "Día Soleado",
-        "Fría Acogida",
-        "Paisaje Nevado"
-      ]
-    },
-    {
-      "nickname": "Suzu",
-      "species": "Eevee",
-      "level": 21,
-      "types": [
-        "Normal"
-      ],
-      "ability": "Olor Persistente",
-      "nature": "Alegre",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Limpieza General",
-        "Resarcimiento",
-        "Hoja Afilada",
-        "Pulimento"
-      ]
-    },
-    {
-      "nickname": "Caine",
-      "species": "Shellder",
-      "level": 22,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Simbiosis",
-      "nature": "Floja",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Aullido",
-        "Represalia",
-        "Condena Silvana",
-        "Pantalla de Humo"
-      ]
-    },
-    {
-      "nickname": "Soldier",
-      "species": "Aegislash",
-      "level": 34,
+      "nickname": "Brokenblade",
+      "species": "Doublade",
+      "level": 39,
       "types": [
         "Acero",
         "Fantasma"
       ],
-      "ability": "Cálculo Final",
+      "ability": "",
+      "nature": "Alocada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Quemarrueda",
+        "Pikaturbo",
+        "Tormenta Floral",
+        "Tajo Metralla"
+      ]
+    },
+    {
+      "nickname": "Marina",
+      "species": "Toxapex",
+      "level": 39,
+      "types": [
+        "Veneno",
+        "Agua"
+      ],
+      "ability": "",
       "nature": "Fuerte",
       "item": "",
       "shiny": false,
       "moves": [
-        "Doble Bofetón",
-        "Bomba Imán",
-        "Impactrueno",
-        "Látigo Cepa"
+        "Telatrampa",
+        "Vapodrenaje",
+        "Gota Vital",
+        "Bomba Ácida"
       ]
     },
     {
-      "nickname": "DuranDuran",
-      "species": "Dunsparce",
-      "level": 26,
+      "nickname": "Fortnite Bus",
+      "species": "Vikavolt",
+      "level": 39,
       "types": [
-        "Normal"
+        "Bicho",
+        "Eléctrico"
       ],
-      "ability": "Cuerpo Áureo",
-      "nature": "Alegre",
+      "ability": "",
+      "nature": "Agitada",
       "item": "",
       "shiny": false,
       "moves": [
-        "Agilidad",
-        "Rastreo",
-        "Desarme",
-        "Vasto Impacto"
+        "Escudo Real",
+        "Rayo",
+        "Viento Plata",
+        "Moluscañón"
       ]
     },
     {
-      "nickname": "KFC",
-      "species": "Combusken",
-      "level": 27,
+      "nickname": "Frillish",
+      "species": "Frillish",
+      "level": 23,
+      "types": [
+        "Agua",
+        "Fantasma"
+      ],
+      "ability": "",
+      "nature": "Osada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Campo de Hierba",
+        "Confidencia",
+        "Cuerno Certero",
+        "Yo Primero"
+      ]
+    },
+    {
+      "nickname": "Fenix",
+      "species": "Fletchinder",
+      "level": 1,
       "types": [
         "Fuego",
-        "Lucha"
+        "Volador"
       ],
-      "ability": "Ultraimpulso",
+      "ability": "",
       "nature": "Serena",
       "item": "",
       "shiny": false,
       "moves": [
-        "Ultrapuño",
-        "Empujón",
-        "Fotosíntesis",
-        "Pisotón"
+        "Auxilio",
+        "Viento Hielo",
+        "Golpe Aéreo",
+        "Infortunio"
       ]
     },
     {
-      "nickname": "Culin",
-      "species": "Basculin",
-      "level": 28,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Poder Solar",
-      "nature": "Afable",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Recuperación",
-        "Viraje",
-        "Gas Corrosivo",
-        "Abatidoras"
-      ]
-    },
-    {
-      "nickname": "CR7",
-      "species": "Raboot",
-      "level": 32,
+      "nickname": "Sonora",
+      "species": "Tepig",
+      "level": 10,
       "types": [
         "Fuego"
       ],
-      "ability": "Insonorizar",
-      "nature": "Grosera",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Psicocambio",
-        "Ascuas",
-        "Cerrojo Feérico",
-        "Armadura Ácida"
-      ]
-    },
-    {
-      "nickname": "Nes",
-      "species": "Sneasel",
-      "level": 34,
-      "types": [
-        "Siniestro",
-        "Hielo"
-      ],
-      "ability": "Adaptable",
-      "nature": "Pícara",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Vendetta",
-        "Rodillo de Púas",
-        "Giro Bola",
-        "Golpe Aéreo"
-      ]
-    },
-    {
-      "nickname": "Hieloco",
-      "species": "Sandslash",
-      "level": 34,
-      "types": [
-        "Tierra"
-      ],
-      "ability": "Geofagia",
-      "nature": "Afable",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Golpe Roca",
-        "Atiborramiento",
-        "Arenas Ardientes",
-        "Triple Patada"
-      ]
-    },
-    {
-      "nickname": "Hitman",
-      "species": "Hitmonlee",
-      "level": 25,
-      "types": [
-        "Lucha"
-      ],
-      "ability": "Cuerpo Áureo",
-      "nature": "Fuerte",
-      "item": "Mejora",
-      "shiny": false,
-      "moves": [
-        "Batido",
-        "Copión",
-        "Golpe Roca",
-        "Polvo Mágico"
-      ]
-    },
-    {
-      "nickname": "Seaking",
-      "species": "Seaking",
-      "level": 33,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Perro Guardián",
+      "ability": "",
       "nature": "Seria",
       "item": "",
       "shiny": false,
       "moves": [
-        "Agua Fría",
-        "Salmuera",
-        "Beso Drenaje",
-        "Pistola Agua"
+        "Psicoonda",
+        "Pikaturbo",
+        "Envidia Ardiente",
+        "Clemencia"
       ]
     },
     {
-      "nickname": "Jimmy",
-      "species": "Gastrodon",
-      "level": 44,
+      "nickname": "Perrillo",
+      "species": "Growlithe",
+      "level": 14,
       "types": [
-        "Agua",
-        "Tierra"
-      ],
-      "ability": "Acero Templado",
-      "nature": "Amable",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Antojo",
-        "Bramido Dragón",
-        "Moluscañón",
-        "Pantalla de Luz"
-      ]
-    },
-    {
-      "nickname": "Tauros",
-      "species": "Tauros",
-      "level": 35,
-      "types": [
-        "Normal"
-      ],
-      "ability": "Rivalidad",
-      "nature": "Miedosa",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Palma Rauda",
-        "Danza Lunar",
-        "Pirotecnia",
-        "Electropunzada"
-      ]
-    },
-    {
-      "nickname": "Sasalele",
-      "species": "Salazzle",
-      "level": 40,
-      "types": [
-        "Veneno",
         "Fuego"
       ],
-      "ability": "Ímpetu Arena",
-      "nature": "Agitada",
+      "ability": "",
+      "nature": "Activa",
       "item": "",
       "shiny": false,
       "moves": [
-        "Fuego Fatuo",
-        "Enrosque",
-        "Electrotela",
-        "Pantalla de Luz"
+        "Torbellino",
+        "Campo de Hierba",
+        "Rastreo",
+        "Paisaje Nevado"
       ]
     },
     {
-      "nickname": "PauPau",
-      "species": "Toucannon",
-      "level": 42,
+      "nickname": "Azote",
+      "species": "Pidgeotto",
+      "level": 26,
       "types": [
         "Normal",
         "Volador"
       ],
-      "ability": "Gélido",
-      "nature": "Dócil",
+      "ability": "",
+      "nature": "Fuerte",
       "item": "",
       "shiny": false,
       "moves": [
-        "Guardia Baja",
-        "Atiborramiento",
-        "Armadura Ácida",
-        "Paliza"
+        "Pirotecnia",
+        "Bomba Fango",
+        "Ataque Arena",
+        "Escalofrio"
       ]
     },
     {
-      "nickname": "Taza",
-      "species": "Sinistcha",
-      "level": 42,
+      "nickname": "MotoMoto",
+      "species": "Hippopotas",
+      "level": 23,
       "types": [
-        "Planta",
-        "Fantasma"
+        "Tierra"
       ],
-      "ability": "Alma Acerada",
+      "ability": "",
+      "nature": "Afable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Espabila",
+        "Desarme",
+        "Bomba Fango",
+        "Sombra Vil"
+      ]
+    },
+    {
+      "nickname": "Pulparindo",
+      "species": "Sizzlipede",
+      "level": 54,
+      "types": [
+        "Fuego",
+        "Bicho"
+      ],
+      "ability": "",
+      "nature": "Audaz",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Amago",
+        "Palma Rauda",
+        "Pulso de Campo",
+        "Deseo Cura"
+      ]
+    },
+    {
+      "nickname": "Mike Morales",
+      "species": "Dewpider",
+      "level": 14,
+      "types": [
+        "Agua",
+        "Bicho"
+      ],
+      "ability": "",
+      "nature": "Serena",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Copión",
+        "Finta",
+        "Cosquillas",
+        "Fachada"
+      ]
+    },
+    {
+      "nickname": "Emily",
+      "species": "Hatterene",
+      "level": 49,
+      "types": [
+        "Psíquico",
+        "Hada"
+      ],
+      "ability": "",
+      "nature": "Osada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Sustituto",
+        "Mirada Heladora",
+        "Canto Encantador",
+        "Doble Equipo"
+      ]
+    },
+    {
+      "nickname": "Juana",
+      "species": "Timburr",
+      "level": 18,
+      "types": [
+        "Lucha"
+      ],
+      "ability": "",
+      "nature": "Alegre",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Púas Tóxicas",
+        "Ataque Furia",
+        "Niebla",
+        "Magnitud"
+      ]
+    },
+    {
+      "nickname": "Warlord",
+      "species": "Wailmer",
+      "level": 39,
+      "types": [
+        "Agua"
+      ],
+      "ability": "",
+      "nature": "Seria",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Recuperación",
+        "Cola Dragón",
+        "Ladrón",
+        "Rayo Burbuja"
+      ]
+    },
+    {
+      "nickname": "Fern",
+      "species": "Milotic",
+      "level": 39,
+      "types": [
+        "Agua"
+      ],
+      "ability": "",
+      "nature": "Afable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Maquinación",
+        "Rencor",
+        "Dragoaliento",
+        "Trampa Rocas"
+      ]
+    },
+    {
+      "nickname": "Copito",
+      "species": "Sandshrew",
+      "level": 39,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "",
+      "nature": "Alegre",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Puño Bala",
+        "Masa Cósmica",
+        "Alquitranazo",
+        "Bola Hielo"
+      ]
+    },
+    {
+      "nickname": "Riz",
+      "species": "Koffing",
+      "level": 17,
+      "types": [
+        "Veneno"
+      ],
+      "ability": "",
+      "nature": "Grosera",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Onda Vacío",
+        "Sustituto",
+        "Mandato",
+        "Niebla"
+      ]
+    },
+    {
+      "nickname": "OsmisisJones",
+      "species": "Duosion",
+      "level": 23,
+      "types": [
+        "Psíquico"
+      ],
+      "ability": "",
+      "nature": "Cauta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Confusión",
+        "Detección",
+        "Danza Aleteo",
+        "Hierba Lazo"
+      ]
+    },
+    {
+      "nickname": "Flores",
+      "species": "Flabebe",
+      "level": 21,
+      "types": [
+        "Hada"
+      ],
+      "ability": "",
+      "nature": "Firme",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Estruendo Escama",
+        "Gran Ojo",
+        "Rompecoraza",
+        "Falso Tortazo"
+      ]
+    },
+    {
+      "nickname": "Skibidi",
+      "species": "Skorupi",
+      "level": 21,
+      "types": [
+        "Veneno",
+        "Bicho"
+      ],
+      "ability": "",
+      "nature": "Mansa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Niebla Clara",
+        "Homenaje Póstumo",
+        "Carga",
+        "Veneno X"
+      ]
+    },
+    {
+      "nickname": "Rodolfo",
+      "species": "Drilbur",
+      "level": 22,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "",
+      "nature": "Activa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Esporagodón",
+        "Arañazo",
+        "Tajo Umbrío",
+        "Golpe Bajo"
+      ]
+    },
+    {
+      "nickname": "Torracat",
+      "species": "Torracat",
+      "level": 21,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "",
+      "nature": "Grosera",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Trampa Rocas",
+        "Polvo Veneno",
+        "Aligerar",
+        "Zona Extraña"
+      ]
+    },
+    {
+      "nickname": "AL",
+      "species": "Froakie",
+      "level": 23,
+      "types": [
+        "Agua"
+      ],
+      "ability": "",
+      "nature": "Huraña",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Ataque Rápido",
+        "Fijar Blanco",
+        "Deseo",
+        "Tenaza"
+      ]
+    },
+    {
+      "nickname": "Crocodilo",
+      "species": "Feraligatr",
+      "level": 39,
+      "types": [
+        "Agua"
+      ],
+      "ability": "",
       "nature": "Floja",
       "item": "",
       "shiny": false,
       "moves": [
-        "Voto Planta",
-        "Tinieblas",
-        "Golpe Roca",
-        "Fotosíntesis"
+        "Señuelo",
+        "Colmillo Rayo",
+        "Aullido",
+        "Lariat Oscuro"
       ]
     },
     {
-      "nickname": "Piegrande",
-      "species": "Tropius",
-      "level": 43,
+      "nickname": "Glacor",
+      "species": "Corsola",
+      "level": 20,
       "types": [
-        "Planta",
+        "Agua",
+        "Roca"
+      ],
+      "ability": "",
+      "nature": "Miedosa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Esquirla Helada",
+        "Conjuro",
+        "Supersónico",
+        "Reflejo"
+      ]
+    },
+    {
+      "nickname": "Candelabro",
+      "species": "Litwick",
+      "level": 23,
+      "types": [
+        "Fantasma",
+        "Fuego"
+      ],
+      "ability": "",
+      "nature": "Amable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Meteorobola",
+        "Llama Protectora",
+        "Espora",
+        "Hidrocañón"
+      ]
+    },
+    {
+      "nickname": "San lucas",
+      "species": "Quaxwell",
+      "level": 25,
+      "types": [
+        "Agua"
+      ],
+      "ability": "",
+      "nature": "Cauta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Conjuro Funesto",
+        "Roca Afilada",
+        "Cortina Plasma",
+        "Afilar"
+      ]
+    },
+    {
+      "nickname": "Faldero",
+      "species": "Raichu",
+      "level": 54,
+      "types": [
+        "Eléctrico"
+      ],
+      "ability": "",
+      "nature": "Grosera",
+      "item": "Raichuitex",
+      "shiny": false,
+      "moves": [
+        "Fuerza Telúrica",
+        "Tambor",
+        "Asta Drenaje",
+        "Pikaturbo"
+      ]
+    },
+    {
+      "nickname": "DunDunSahur",
+      "species": "Dunsparce",
+      "level": 23,
+      "types": [
+        "Normal"
+      ],
+      "ability": "",
+      "nature": "Audaz",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Telaraña",
+        "Represión Metal",
+        "Bilis",
+        "Presa Maxilar"
+      ]
+    },
+    {
+      "nickname": "Marge",
+      "species": "Persian",
+      "level": 25,
+      "types": [
+        "Normal"
+      ],
+      "ability": "",
+      "nature": "Tímida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Rayo Gélido",
+        "Bola Voltio",
+        "Puntapié",
+        "Llama Fusión"
+      ]
+    },
+    {
+      "nickname": "Mierdon",
+      "species": "Wormadam",
+      "level": 26,
+      "types": [
+        "Bicho",
+        "Planta"
+      ],
+      "ability": "",
+      "nature": "Audaz",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Esporagodón",
+        "Sorpresa",
+        "Tóxico",
+        "Arraigo"
+      ]
+    },
+    {
+      "nickname": "Experimento6",
+      "species": "Pawmo",
+      "level": 39,
+      "types": [
+        "Eléctrico",
+        "Lucha"
+      ],
+      "ability": "",
+      "nature": "Pícara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Viraje",
+        "Aullido",
+        "Pikaturbo",
+        "Hipertaladro"
+      ]
+    },
+    {
+      "nickname": "EricLostie",
+      "species": "Spidops",
+      "level": 25,
+      "types": [
+        "Bicho"
+      ],
+      "ability": "",
+      "nature": "Floja",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Empujón",
+        "Triturar",
+        "Llama Azul",
+        "Cuerno Certero"
+      ]
+    },
+    {
+      "nickname": "Blacky",
+      "species": "Murkrow",
+      "level": 28,
+      "types": [
+        "Siniestro",
         "Volador"
       ],
-      "ability": "Cuerpo Vívido",
+      "ability": "",
+      "nature": "Afable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Chirrido",
+        "Fitoimpulso",
+        "Rayo Confuso",
+        "Cosquillas"
+      ]
+    },
+    {
+      "nickname": "Florges",
+      "species": "Florges",
+      "level": 31,
+      "types": [
+        "Hada"
+      ],
+      "ability": "",
+      "nature": "Amable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Plegaria Lunar",
+        "Sonámbulo",
+        "Canon",
+        "Llave Giro"
+      ]
+    },
+    {
+      "nickname": "Club penguin",
+      "species": "Eiscue",
+      "level": 39,
+      "types": [
+        "Hielo"
+      ],
+      "ability": "",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Absorbefuerza",
+        "Danza Espada",
+        "Confusión",
+        "Megapuño"
+      ]
+    },
+    {
+      "nickname": "Jonny Sins",
+      "species": "Sawk",
+      "level": 33,
+      "types": [
+        "Lucha"
+      ],
+      "ability": "",
+      "nature": "Alocada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Vasta Guardia",
+        "Llama Gélida",
+        "Viento Hielo",
+        "Afilagarras"
+      ]
+    },
+    {
+      "nickname": "Morrison",
+      "species": "Xatu",
+      "level": 34,
+      "types": [
+        "Psíquico",
+        "Volador"
+      ],
+      "ability": "",
+      "nature": "Fuerte",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Filo del Abismo",
+        "Vasta Fuerza",
+        "Respiro",
+        "Puntada Sombría"
+      ]
+    },
+    {
+      "nickname": "Fredybenzon",
+      "species": "Spinda",
+      "level": 34,
+      "types": [
+        "Normal"
+      ],
+      "ability": "",
+      "nature": "Tímida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Estruendo",
+        "Leafitobombas",
+        "Patada Ígnea",
+        "Metaláser"
+      ]
+    },
+    {
+      "nickname": "Magmortar",
+      "species": "Magmortar",
+      "level": 25,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "",
+      "nature": "Rara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Choque Anímico",
+        "Acua Cola",
+        "Genufendiente",
+        "Balón Ígneo"
+      ]
+    },
+    {
+      "nickname": "Piepequeño",
+      "species": "Amaura",
+      "level": 34,
+      "types": [
+        "Roca",
+        "Hielo"
+      ],
+      "ability": "",
+      "nature": "Fuerte",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Danza Espada",
+        "Asta Drenaje",
+        "Absorbefuerza",
+        "Clemencia"
+      ]
+    },
+    {
+      "nickname": "Chiqui Ibai",
+      "species": "Vullaby",
+      "level": 35,
+      "types": [
+        "Siniestro",
+        "Volador"
+      ],
+      "ability": "",
+      "nature": "Ingenua",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Electroderrape",
+        "Anillo Ígneo",
+        "Fanfarronear",
+        "Beso Drenaje"
+      ]
+    },
+    {
+      "nickname": "Homero",
+      "species": "Weepinbell",
+      "level": 35,
+      "types": [
+        "Planta",
+        "Veneno"
+      ],
+      "ability": "",
+      "nature": "Pícara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Psicocarga",
+        "Ayuda",
+        "Desquite",
+        "Premonición"
+      ]
+    },
+    {
+      "nickname": "Abeja Reina",
+      "species": "Vespiquen",
+      "level": 34,
+      "types": [
+        "Bicho",
+        "Volador"
+      ],
+      "ability": "",
+      "nature": "Audaz",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Puntapié",
+        "Cañón Resplandor",
+        "Electropico",
+        "Fría Acogida"
+      ]
+    },
+    {
+      "nickname": "Chavalito",
+      "species": "Archen",
+      "level": 34,
+      "types": [
+        "Roca",
+        "Volador"
+      ],
+      "ability": "",
+      "nature": "Pícara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Rugido de Guerra",
+        "Llama Azul",
+        "Triataque",
+        "Al Ataque"
+      ]
+    },
+    {
+      "nickname": "Sidra",
+      "species": "Seadra",
+      "level": 34,
+      "types": [
+        "Agua"
+      ],
+      "ability": "",
+      "nature": "Pícara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Eco Metálico",
+        "Masa Cósmica",
+        "Hidropulso",
+        "Octopresa"
+      ]
+    },
+    {
+      "nickname": "Cadilac",
+      "species": "Carnivine",
+      "level": 34,
+      "types": [
+        "Planta"
+      ],
+      "ability": "",
+      "nature": "Tímida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Látigo Ígneo",
+        "Defensa Floral",
+        "Hilo Venenoso",
+        "Umbreozona"
+      ]
+    },
+    {
+      "nickname": "Don Cangrejo",
+      "species": "Krabby",
+      "level": 32,
+      "types": [
+        "Agua"
+      ],
+      "ability": "",
+      "nature": "Osada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Esporagodón",
+        "Foco",
+        "Psicorrayo",
+        "Venganza"
+      ]
+    },
+    {
+      "nickname": "Guanajuato",
+      "species": "Cofagrigus",
+      "level": 35,
+      "types": [
+        "Fantasma"
+      ],
+      "ability": "",
+      "nature": "Firme",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Confusión",
+        "Atadura",
+        "Llama Protectora",
+        "Púas Tóxicas"
+      ]
+    },
+    {
+      "nickname": "Spyro",
+      "species": "Jangmoo",
+      "level": 19,
+      "types": [
+        "Dragón"
+      ],
+      "ability": "",
+      "nature": "Modesta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Aligerar",
+        "Alud",
+        "Relajo",
+        "Patada Giro"
+      ]
+    },
+    {
+      "nickname": "Pennywise",
+      "species": "Drifblim",
+      "level": 40,
+      "types": [
+        "Fantasma",
+        "Volador"
+      ],
+      "ability": "",
+      "nature": "Alegre",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Cautivapor",
+        "Viento Carámbano",
+        "Retribución",
+        "Electrojaula"
+      ]
+    },
+    {
+      "nickname": "White Adam",
+      "species": "Darmanitan",
+      "level": 42,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Vapodrenaje",
+        "Agitacola",
+        "Golpe Roca",
+        "Llama Protectora"
+      ]
+    },
+    {
+      "nickname": "ElMonky Cana",
+      "species": "Ambipom",
+      "level": 41,
+      "types": [
+        "Normal"
+      ],
+      "ability": "",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Pin Misil",
+        "Azote",
+        "Lanzarrocas",
+        "Patada Hacha"
+      ]
+    },
+    {
+      "nickname": "Jun Park",
+      "species": "Pachirisu",
+      "level": 41,
+      "types": [
+        "Eléctrico"
+      ],
+      "ability": "",
+      "nature": "Firme",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Meteoimpacto",
+        "Autotomía",
+        "Recuperación",
+        "Terratemblor"
+      ]
+    },
+    {
+      "nickname": "AL",
+      "species": "Sudowoodo",
+      "level": 44,
+      "types": [
+        "Roca"
+      ],
+      "ability": "",
+      "nature": "Fuerte",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Patada Baja",
+        "Electropunzada",
+        "Paz Mental",
+        "Arraigo"
+      ]
+    },
+    {
+      "nickname": "Sitting duck",
+      "species": "Krookodile",
+      "level": 44,
+      "types": [
+        "Tierra",
+        "Siniestro"
+      ],
+      "ability": "",
+      "nature": "Alegre",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Hueso Sombrío",
+        "Sol Matinal",
+        "Viento Aciago",
+        "Perforador"
+      ]
+    },
+    {
+      "nickname": "Xerneas",
+      "species": "Stantler",
+      "level": 42,
+      "types": [
+        "Normal"
+      ],
+      "ability": "",
+      "nature": "Tímida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Cura Selvática",
+        "Pantalla de Humo",
+        "Buena Baza",
+        "Esfera Aural"
+      ]
+    },
+    {
+      "nickname": "Rey Misterio",
+      "species": "Hawlucha",
+      "level": 44,
+      "types": [
+        "Lucha",
+        "Volador"
+      ],
+      "ability": "",
+      "nature": "Huraña",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Deseo Oculto",
+        "Golpe Cabeza",
+        "Escaramuza",
+        "Canto Mortal"
+      ]
+    },
+    {
+      "nickname": "Rotoplas",
+      "species": "Rotom",
+      "level": 45,
+      "types": [
+        "Eléctrico",
+        "Fantasma"
+      ],
+      "ability": "",
+      "nature": "Dócil",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Triturar",
+        "Prensa Metálica",
+        "Ala de Acero",
+        "Golpe Roca"
+      ]
+    },
+    {
+      "nickname": "KitCat",
+      "species": "Delcatty",
+      "level": 44,
+      "types": [
+        "Normal"
+      ],
+      "ability": "",
+      "nature": "Activa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Romperrocas",
+        "Amago",
+        "Plancha",
+        "Ultrapuño"
+      ]
+    },
+    {
+      "nickname": "Wololofara",
+      "species": "Drakloak",
+      "level": 42,
+      "types": [
+        "Dragón",
+        "Fantasma"
+      ],
+      "ability": "",
+      "nature": "Rara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Gravedad",
+        "Beso Dulce",
+        "Viento Hielo",
+        "Eructo"
+      ]
+    },
+    {
+      "nickname": "Messi",
+      "species": "Beartic",
+      "level": 45,
+      "types": [
+        "Hielo"
+      ],
+      "ability": "",
       "nature": "Agitada",
       "item": "",
       "shiny": false,
       "moves": [
-        "Lengüetazo",
-        "Deseo Oculto",
-        "Ataque Aéreo",
-        "Meteoros"
+        "Agilidad",
+        "Encanto",
+        "Semilladora",
+        "Persecución"
+      ]
+    },
+    {
+      "nickname": "Altair",
+      "species": "Altaria",
+      "level": 44,
+      "types": [
+        "Dragón",
+        "Volador"
+      ],
+      "ability": "",
+      "nature": "Mansa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Cabeza Sorpresa",
+        "Pico Taladro",
+        "Lanza Glacial",
+        "Puntapié"
+      ]
+    },
+    {
+      "nickname": "Soul Eater",
+      "species": "Minior",
+      "level": 40,
+      "types": [
+        "Roca",
+        "Volador"
+      ],
+      "ability": "",
+      "nature": "Amable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Danza Triunfal",
+        "Láser Doble",
+        "Bombardeo",
+        "Fertilizante"
+      ]
+    },
+    {
+      "nickname": "Eren Jaeger",
+      "species": "Grimmsnarl",
+      "level": 54,
+      "types": [
+        "Siniestro",
+        "Hada"
+      ],
+      "ability": "",
+      "nature": "Afable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Isoguardia",
+        "Granizo",
+        "Flarembestida",
+        "Acua Jet"
+      ]
+    },
+    {
+      "nickname": "5to Elemento",
+      "species": "Grapploct",
+      "level": 48,
+      "types": [
+        "Lucha"
+      ],
+      "ability": "",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Esquirla Helada",
+        "Hachazo Pétreo",
+        "Rugido",
+        "Ronquido"
+      ]
+    },
+    {
+      "nickname": "Vicente Fox",
+      "species": "Zoroark",
+      "level": 60,
+      "types": [
+        "Siniestro"
+      ],
+      "ability": "",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Teraclúster",
+        "Nieve Polvo",
+        "Sustituto",
+        "Garra Umbría"
+      ]
+    },
+    {
+      "nickname": "Sheldon",
+      "species": "Gastrodon",
+      "level": 50,
+      "types": [
+        "Agua",
+        "Tierra"
+      ],
+      "ability": "",
+      "nature": "Afable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Quemarrueda",
+        "Vapodrenaje",
+        "Electroderrape",
+        "Truco Floral"
+      ]
+    },
+    {
+      "nickname": "Green Ranger",
+      "species": "Yanmega",
+      "level": 51,
+      "types": [
+        "Bicho",
+        "Volador"
+      ],
+      "ability": "",
+      "nature": "Amable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Danza Llama",
+        "Hidrocañón",
+        "Golpe Cuerpo",
+        "Velocidad Extrema"
+      ]
+    },
+    {
+      "nickname": "Abominación",
+      "species": "Dracovish",
+      "level": 52,
+      "types": [
+        "Agua",
+        "Dragón"
+      ],
+      "ability": "",
+      "nature": "Floja",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Puya Nociva",
+        "Fuerza",
+        "Danza Llama",
+        "Rayo Señal"
+      ]
+    },
+    {
+      "nickname": "Baldurs Gate",
+      "species": "Boldore",
+      "level": 50,
+      "types": [
+        "Roca"
+      ],
+      "ability": "",
+      "nature": "Pícara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Palma Rauda",
+        "Golpe Cabeza",
+        "Aerochorro",
+        "Chulería"
+      ]
+    },
+    {
+      "nickname": "Elvis",
+      "species": "Squawkabilly",
+      "level": 52,
+      "types": [
+        "Normal",
+        "Volador"
+      ],
+      "ability": "",
+      "nature": "Tímida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Ala Bis",
+        "Mil Flechas",
+        "Cabeza de Hierro",
+        "Fuerza G"
+      ]
+    },
+    {
+      "nickname": "Poperyes",
+      "species": "Annihilape",
+      "level": 54,
+      "types": [
+        "Lucha",
+        "Fantasma"
+      ],
+      "ability": "",
+      "nature": "Ingenua",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Puño Mareo",
+        "Rompecoraza",
+        "Reducción",
+        "Autotomía"
+      ]
+    },
+    {
+      "nickname": "ThePonkis25",
+      "species": "Shaymin",
+      "level": 1,
+      "types": [
+        "Planta"
+      ],
+      "ability": "",
+      "nature": "Huraña",
+      "item": "Tabla Draco",
+      "shiny": false,
+      "moves": [
+        "Rayo Infinito"
+      ]
+    },
+    {
+      "nickname": "Firestorm",
+      "species": "Torkoal",
+      "level": 1,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "",
+      "nature": "Agitada",
+      "item": "Piedra Agua",
+      "shiny": false,
+      "moves": [
+        "Cabeza Sorpresa",
+        "Retribución"
+      ]
+    },
+    {
+      "nickname": "Florentina",
+      "species": "Florges",
+      "level": 1,
+      "types": [
+        "Hada"
+      ],
+      "ability": "",
+      "nature": "Alocada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Patada Ígnea",
+        "Asalto Barrera",
+        "Hoja Aguda",
+        "Desahogo"
+      ]
+    },
+    {
+      "nickname": "JAJA",
+      "species": "Spectrier",
+      "level": 1,
+      "types": [
+        "Fantasma"
+      ],
+      "ability": "",
+      "nature": "Alocada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Brillo Mágico",
+        "Aerochorro"
+      ]
+    },
+    {
+      "nickname": "ElXokas",
+      "species": "Shiftry",
+      "level": 1,
+      "types": [
+        "Planta",
+        "Siniestro"
+      ],
+      "ability": "",
+      "nature": "Activa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Retribución",
+        "Autodestrucción",
+        "Ala de Acero",
+        "Escaramuza"
+      ]
+    },
+    {
+      "nickname": "Mikes",
+      "species": "Dugtrio",
+      "level": 1,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "",
+      "nature": "Mansa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Erupción de Ira",
+        "Simún de Arena",
+        "Vendaval Gélido",
+        "Paz Mental"
+      ]
+    },
+    {
+      "nickname": "AL",
+      "species": "Torterra",
+      "level": 1,
+      "types": [
+        "Planta",
+        "Tierra"
+      ],
+      "ability": "",
+      "nature": "Grosera",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Poder Oculto",
+        "Vapodrenaje",
+        "Patada Salto Alta",
+        "Garrote Liana"
+      ]
+    },
+    {
+      "nickname": "Genesis",
+      "species": "Espeon",
+      "level": 1,
+      "types": [
+        "Psíquico"
+      ],
+      "ability": "",
+      "nature": "Osada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Tenaza",
+        "Remolino",
+        "Disparo Demora",
+        "Danza Dragón"
+      ]
+    },
+    {
+      "nickname": "Abalon",
+      "species": "Avalugg",
+      "level": 50,
+      "types": [
+        "Hielo"
+      ],
+      "ability": "",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Acróbata",
+        "Martillo Dragón",
+        "Ciclón Primavera",
+        "Llama Embrujada"
+      ]
+    },
+    {
+      "nickname": "Davy Jones",
+      "species": "Dhelmise",
+      "level": 52,
+      "types": [
+        "Fantasma",
+        "Planta"
+      ],
+      "ability": "",
+      "nature": "Dócil",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Fragor Escamas",
+        "Pájaro Osado",
+        "Golpe Umbrío",
+        "Vendaval Gélido"
+      ]
+    },
+    {
+      "nickname": "Gold Ship",
+      "species": "Mudsdale",
+      "level": 50,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "",
+      "nature": "Activa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Roca Afilada",
+        "Voto Planta",
+        "Azote Torrencial",
+        "Hidrocañón"
+      ]
+    },
+    {
+      "nickname": "Riley",
+      "species": "Lycanroc",
+      "level": 50,
+      "types": [
+        "Roca"
+      ],
+      "ability": "",
+      "nature": "Seria",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Pirochoque",
+        "Cola Férrea",
+        "Cabezazo",
+        "Agua Lodosa"
+      ]
+    },
+    {
+      "nickname": "Mauri",
+      "species": "Crabominable",
+      "level": 51,
+      "types": [
+        "Lucha",
+        "Hielo"
+      ],
+      "ability": "",
+      "nature": "Alocada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Zumbido",
+        "Canto Encantador",
+        "Golpe Cuerpo",
+        "Coraza Trampa"
+      ]
+    },
+    {
+      "nickname": "Silksong",
+      "species": "Salazzle",
+      "level": 55,
+      "types": [
+        "Veneno",
+        "Fuego"
+      ],
+      "ability": "",
+      "nature": "Alocada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Envite Ígneo",
+        "Canto Arcaico",
+        "Sentencia",
+        "Pulso Dragón"
+      ]
+    },
+    {
+      "nickname": "Aguamala",
+      "species": "Golisopod",
+      "level": 54,
+      "types": [
+        "Bicho",
+        "Agua"
+      ],
+      "ability": "",
+      "nature": "Firme",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Umbreozona",
+        "Cola Férrea",
+        "Salpicar",
+        "Placaje Eléctrico"
+      ]
+    },
+    {
+      "nickname": "Springair",
+      "species": "Ursaring",
+      "level": 58,
+      "types": [
+        "Normal"
+      ],
+      "ability": "",
+      "nature": "Floja",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Giro Bola",
+        "Golpe Aéreo",
+        "Dracoenergía",
+        "Rayo Fusión"
+      ]
+    },
+    {
+      "nickname": "Toro quintac",
+      "species": "Tauros",
+      "level": 60,
+      "types": [
+        "Normal"
+      ],
+      "ability": "",
+      "nature": "Activa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Clorofiláser",
+        "Veneno X",
+        "Carantoña",
+        "Hoja Aguda"
+      ]
+    },
+    {
+      "nickname": "Cascarudo",
+      "species": "Crustle",
+      "level": 60,
+      "types": [
+        "Bicho",
+        "Roca"
+      ],
+      "ability": "",
+      "nature": "Rara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Ciclón Primavera",
+        "Sincrorruido",
+        "Orbes Espectro",
+        "Glaceoprisma"
+      ]
+    },
+    {
+      "nickname": "Red Ranger",
+      "species": "Kingambit",
+      "level": 54,
+      "types": [
+        "Siniestro",
+        "Acero"
+      ],
+      "ability": "",
+      "nature": "Osada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Cambio de Marcha",
+        "Pirueta Helada",
+        "Plancha Voladora",
+        "Golpe Bajo"
+      ]
+    },
+    {
+      "nickname": "CFE",
+      "species": "Electabuzz",
+      "level": 63,
+      "types": [
+        "Eléctrico"
+      ],
+      "ability": "",
+      "nature": "Osada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Superdiente",
+        "Viraje",
+        "Branquibocado",
+        "Cambiafuerza"
+      ]
+    },
+    {
+      "nickname": "Frozona",
+      "species": "Froslass",
+      "level": 63,
+      "types": [
+        "Hielo",
+        "Fantasma"
+      ],
+      "ability": "",
+      "nature": "Serena",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Llave Vital",
+        "Golpe Oscuro",
+        "Luz Aniquiladora",
+        "Cañón Armadura"
+      ]
+    },
+    {
+      "nickname": "Toxicity",
+      "species": "Toxtricity",
+      "level": 64,
+      "types": [
+        "Eléctrico",
+        "Veneno"
+      ],
+      "ability": "",
+      "nature": "Fuerte",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Relámpago Súbito",
+        "Doble Golpe",
+        "Azote Torrencial",
+        "Espada Lamento"
       ]
     }
   ],
   "graveyard": [
     {
-      "nickname": "Ruffles",
-      "species": "Rufflet",
-      "level": 14,
+      "nickname": "Daddy Yankee",
+      "species": "Gliscor",
+      "level": 75,
       "types": [
-        "Normal",
+        "Tierra",
         "Volador"
       ],
-      "ability": "Fuerza Cerebral",
-      "nature": "Alegre",
-      "item": "",
+      "ability": "",
+      "nature": "Grosera",
+      "item": "Casco Dentado",
       "shiny": false,
       "moves": [
-        "Pisotón",
-        "Palma Rauda",
-        "Pin Misil",
-        "Patada Tropical"
+        "Fuerza Telúrica",
+        "Tóxico",
+        "Bola de Polen",
+        "Relajo"
       ],
       "cause": "",
-      "route": "Ruta 1",
+      "route": "Camino de Bicis",
       "date": ""
     },
     {
-      "nickname": "Mencho",
-      "species": "Mienfoo",
-      "level": 23,
+      "nickname": "ManosTijeras",
+      "species": "Scizor",
+      "level": 75,
       "types": [
-        "Lucha"
+        "Bicho",
+        "Acero"
       ],
-      "ability": "Robustez",
+      "ability": "",
+      "nature": "Floja",
+      "item": "Restos",
+      "shiny": false,
+      "moves": [
+        "Flarembestida",
+        "Electropico",
+        "Ferropuño Doble",
+        "Leafitobombas"
+      ],
+      "cause": "",
+      "route": "Ruta 18",
+      "date": ""
+    },
+    {
+      "nickname": "Nautilus",
+      "species": "Arctovish",
+      "level": 62,
+      "types": [
+        "Agua",
+        "Hielo"
+      ],
+      "ability": "Absorbe Agua",
       "nature": "Mansa",
       "item": "",
       "shiny": false,
       "moves": [
-        "Deslizamiento",
-        "Hueso Palo",
-        "Patada Tropical",
-        "Puño Incremento"
+        "Masa Cósmica",
+        "Absorbefuerza",
+        "Liofilización",
+        "Tóxico"
       ],
       "cause": "",
-      "route": "Ruta 22",
+      "route": "Ruta 14",
       "date": ""
     },
     {
-      "nickname": "Nidrana",
-      "species": "Shelgon",
-      "level": 39,
+      "nickname": "Black Knight",
+      "species": "Corviknight",
+      "level": 66,
       "types": [
-        "Dragón"
-      ],
-      "ability": "Escudo Recio",
-      "nature": "Huraña",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Cepo",
-        "Carámbano",
-        "Hachazo Pétreo",
-        "Arrumaco"
-      ],
-      "cause": "",
-      "route": "Ciudad Verde",
-      "date": ""
-    },
-    {
-      "nickname": "Sunny",
-      "species": "Eldegoss",
-      "level": 49,
-      "types": [
-        "Planta"
-      ],
-      "ability": "Velo Agua",
-      "nature": "Alegre",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Drenadoras",
-        "Viento Hielo",
-        "Giro Fuego",
-        "Hierba Lazo"
-      ],
-      "cause": "",
-      "route": "Ruta 2 Sur",
-      "date": ""
-    },
-    {
-      "nickname": "Tanque",
-      "species": "Swampert",
-      "level": 49,
-      "types": [
-        "Agua",
-        "Tierra"
-      ],
-      "ability": "",
-      "nature": "Fuerte",
-      "item": "Swampertita",
-      "shiny": false,
-      "moves": [
-        "Patada Tropical",
-        "Terremoto",
-        "Triple Inmersión",
-        "Ataque Ala"
-      ],
-      "cause": "",
-      "route": "Laboratorio",
-      "date": ""
-    },
-    {
-      "nickname": "Red Ranger",
-      "species": "Kingambit",
-      "level": 49,
-      "types": [
-        "Siniestro",
+        "Volador",
         "Acero"
       ],
-      "ability": "Herbívoro",
-      "nature": "Modesta",
-      "item": "",
+      "ability": "",
+      "nature": "Plácida",
+      "item": "Corviknightite",
       "shiny": false,
       "moves": [
-        "Golpe Bajo",
-        "Llama Protectora",
-        "Colmillo Rayo",
-        "Giro Bola"
+        "Desarme",
+        "Leafitobombas",
+        "Tóxico",
+        "Deseo"
       ],
       "cause": "",
       "route": "Ruta 20",
       "date": ""
     },
     {
-      "nickname": "Samantha",
-      "species": "Stoutland",
-      "level": 49,
+      "nickname": "Weona",
+      "species": "Togetic",
+      "level": 66,
       "types": [
-        "Normal"
+        "Hada",
+        "Volador"
       ],
-      "ability": "Mandíbula Dragón",
-      "nature": "Serena",
-      "item": "",
+      "ability": "",
+      "nature": "Grosera",
+      "item": "Mineral Evol",
       "shiny": false,
       "moves": [
-        "Homenaje Póstumo",
-        "Golpe Calor",
-        "Desarrollo",
-        "Gas Corrosivo"
+        "Espora",
+        "Señuelo",
+        "Leafitobombas",
+        "Escudo Tatami"
       ],
       "cause": "",
-      "route": "Ruta 12",
+      "route": "Laboratorio",
       "date": ""
     },
     {
-      "nickname": "Globox",
-      "species": "Swalot",
-      "level": 49,
+      "nickname": "Porongol",
+      "species": "Porygonz",
+      "level": 66,
       "types": [
-        "Veneno"
+        "Normal"
       ],
-      "ability": "Coránima",
-      "nature": "Ingenua",
+      "ability": "",
+      "nature": "Huraña",
       "item": "",
       "shiny": false,
       "moves": [
-        "Confusión",
-        "Tóxico",
-        "Mil Púas Tóxicas",
-        "Cuerpo Pesado"
+        "Espeaura",
+        "Vozarrón",
+        "Absorbefuerza",
+        "Maquinación"
       ],
       "cause": "",
-      "route": "Bosque Verde",
+      "route": "Ciudad Plateada",
+      "date": ""
+    },
+    {
+      "nickname": "Elektra",
+      "species": "Eelektross",
+      "level": 75,
+      "types": [
+        "Eléctrico"
+      ],
+      "ability": "",
+      "nature": "Huraña",
+      "item": "Globo Helio",
+      "shiny": false,
+      "moves": [
+        "Pikaturbo",
+        "Carantoña",
+        "Puño Drenaje",
+        "Fuerza Telúrica"
+      ],
+      "cause": "",
+      "route": "Ruta 15",
       "date": ""
     }
   ],
   "captures": [
     {
+      "route": "ruta_1",
+      "mon": "Skeledirge",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_18",
+      "mon": "Scizor",
+      "status": "dead"
+    },
+    {
+      "route": "zona_safari",
+      "mon": "Slaking",
+      "status": "captured"
+    },
+    {
       "route": "monte_moon",
-      "mon": "Metagross",
+      "mon": "Breloom",
       "status": "captured"
     },
     {
-      "route": "ruta_3",
-      "mon": "Typhlosion",
+      "route": "ruta_4",
+      "mon": "Toxicroak",
       "status": "captured"
     },
     {
-      "route": "ruta_2_norte",
-      "mon": "Gourgeist",
-      "status": "captured"
-    },
-    {
-      "route": "ruta_15",
-      "mon": "Garganacl",
-      "status": "captured"
-    },
-    {
-      "route": "ruta_11",
-      "mon": "Sunflora",
+      "route": "ruta_2_sur",
+      "mon": "Foongus",
       "status": "captured"
     },
     {
       "route": "ruta_5",
-      "mon": "Kirlia",
+      "mon": "Dartrix",
       "status": "captured"
     },
     {
-      "route": "zona_safari",
-      "mon": "Simipour",
+      "route": "ruta_3",
+      "mon": "Doublade",
       "status": "captured"
     },
     {
-      "route": "monte_moon_exterior",
-      "mon": "Floette",
+      "route": "bosque_verde",
+      "mon": "Toxapex",
       "status": "captured"
     },
     {
-      "route": "ruta_21",
-      "mon": "Whirlipede",
-      "status": "captured"
-    },
-    {
-      "route": "ruta_6",
-      "mon": "Eevee",
-      "status": "captured"
-    },
-    {
-      "route": "ruta_12",
-      "mon": "Aegislash",
+      "route": "ruta_2_norte",
+      "mon": "Tepig",
       "status": "captured"
     },
     {
       "route": "ruta_9",
+      "mon": "Pidgeotto",
+      "status": "captured"
+    },
+    {
+      "route": "monte_moon_exterior",
+      "mon": "Dewpider",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_20",
+      "mon": "Hatterene",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_22",
+      "mon": "Duosion",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_21",
+      "mon": "Flabebe",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_6",
+      "mon": "Drilbur",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_15",
+      "mon": "Quaxwell",
+      "status": "captured"
+    },
+    {
+      "route": "tunel_diglett",
       "mon": "Dunsparce",
       "status": "captured"
     },
     {
+      "route": "ruta_10_norte",
+      "mon": "Wormadam",
+      "status": "captured"
+    },
+    {
       "route": "tunel_roca",
-      "mon": "Combusken",
+      "mon": "Murkrow",
       "status": "captured"
     },
     {
-      "route": "ruta_10_sur",
-      "mon": "Basculin",
-      "status": "captured"
-    },
-    {
-      "route": "ruta_8",
-      "mon": "Sneasel",
+      "route": "torre_pokemon",
+      "mon": "Eiscue",
       "status": "captured"
     },
     {
       "route": "ruta_7",
-      "mon": "Sandslash",
+      "mon": "Xatu",
       "status": "captured"
     },
     {
-      "route": "ruta_16",
-      "mon": "Gastrodon",
+      "route": "ruta_25_norte",
+      "mon": "Magmortar",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_12",
+      "mon": "Archen",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_8",
+      "mon": "Carnivine",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_11",
+      "mon": "Cofagrigus",
       "status": "captured"
     },
     {
       "route": "ruta_13",
-      "mon": "Toucannon",
+      "mon": "Darmanitan",
       "status": "captured"
     },
     {
       "route": "ruta_14",
-      "mon": "Sinistcha",
+      "mon": "Pachirisu",
       "status": "captured"
     },
     {
-      "route": "ruta_1",
-      "mon": "Rufflet",
-      "status": "dead"
+      "route": "ruta_16",
+      "mon": "Rotom",
+      "status": "captured"
     },
     {
-      "route": "ruta_22",
-      "mon": "Mienfoo",
-      "status": "dead"
+      "route": "ruta_17",
+      "mon": "Drakloak",
+      "status": "captured"
     },
     {
-      "route": "ruta_2_sur",
-      "mon": "Eldegoss",
-      "status": "dead"
+      "route": "islas_espuma",
+      "mon": "Yanmega",
+      "status": "captured"
     },
     {
-      "route": "ruta_20",
-      "mon": "Kingambit",
-      "status": "dead"
+      "route": "isla_canela",
+      "mon": "Squawkabilly",
+      "status": "captured"
     },
     {
-      "route": "bosque_verde",
-      "mon": "Swalot",
-      "status": "dead"
+      "route": "ruta_19",
+      "mon": "Mudsdale",
+      "status": "captured"
+    },
+    {
+      "route": "mansion_quemada",
+      "mon": "Salazzle",
+      "status": "captured"
+    },
+    {
+      "route": "cueva_celeste",
+      "mon": "Ursaring",
+      "status": "captured"
+    },
+    {
+      "route": "bosque_celeste",
+      "mon": "Tauros",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_23",
+      "mon": "Electabuzz",
+      "status": "captured"
+    },
+    {
+      "route": "cataratas_tohjo",
+      "mon": "Froslass",
+      "status": "captured"
     }
   ],
   "progress": {
@@ -916,40 +2240,56 @@
       "gym2": true,
       "gym3": true,
       "gym4": true,
-      "gym5": true
+      "gym5": true,
+      "gym6": true,
+      "gym7": true,
+      "gym8": true
     },
     "bosses": {},
     "npcs": {},
     "routes": {
-      "monte_moon": true,
-      "ruta_3": true,
-      "ruta_2_norte": true,
-      "ruta_15": true,
-      "ruta_11": true,
-      "ruta_5": true,
+      "ruta_1": true,
+      "ruta_18": true,
       "zona_safari": true,
+      "monte_moon": true,
+      "ruta_4": true,
+      "ruta_2_sur": true,
+      "ruta_5": true,
+      "ruta_3": true,
+      "bosque_verde": true,
+      "ruta_2_norte": true,
+      "ruta_9": true,
       "monte_moon_exterior": true,
+      "ruta_20": true,
+      "ruta_22": true,
       "ruta_21": true,
       "ruta_6": true,
-      "ruta_12": true,
-      "ruta_9": true,
-      "tunel_roca": true,
-      "ruta_10_sur": true,
-      "ruta_8": true,
-      "ruta_7": true,
-      "ruta_16": true,
-      "ruta_13": true,
-      "ruta_14": true,
-      "ruta_1": true,
-      "ruta_22": true,
-      "ruta_2_sur": true,
-      "ruta_20": true,
-      "bosque_verde": true,
-      "ruta_4": true,
+      "ruta_15": true,
       "tunel_diglett": true,
       "ruta_10_norte": true,
+      "tunel_roca": true,
       "torre_pokemon": true,
-      "ruta_17": true
+      "ruta_7": true,
+      "ruta_25_norte": true,
+      "ruta_12": true,
+      "ruta_8": true,
+      "ruta_11": true,
+      "ruta_13": true,
+      "ruta_14": true,
+      "ruta_16": true,
+      "ruta_17": true,
+      "islas_espuma": true,
+      "isla_canela": true,
+      "ruta_19": true,
+      "mansion_quemada": true,
+      "cueva_celeste": true,
+      "bosque_celeste": true,
+      "ruta_23": true,
+      "cataratas_tohjo": true,
+      "ruta_10_sur": true,
+      "ruta_24": true,
+      "ruta_25_sur": true,
+      "monte_plateado": true
     },
     "items": {}
   }
