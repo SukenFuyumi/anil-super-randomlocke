@@ -1,0 +1,60 @@
+{
+  "id": "suken",
+  "name": "Suken",
+  "lives": 30,
+  "livesUsed": 2,
+  "champion": false,
+  "notes": "Partida de ejemplo. Edítala en el Editor o reemplaza este archivo.",
+  "team": [
+    {
+      "nickname": "Chispita", "species": "Pikachu", "level": 24, "types": ["Electrico"],
+      "ability": "Electricidad Estática", "nature": "Alegre", "item": "Baya Zidra", "shiny": false,
+      "moves": ["Rayo", "Cola Férrea", "Ataque Rápido", "Bola Voltio"]
+    },
+    {
+      "nickname": "Rocoso", "species": "Geodude", "level": 22, "types": ["Roca", "Tierra"],
+      "ability": "Robustez", "nature": "Firme", "item": "", "shiny": false,
+      "moves": ["Avalancha", "Terremoto", "Defensa Férrea", "Golpe Roca"]
+    },
+    {
+      "nickname": "Solete", "species": "Growlithe", "level": 23, "types": ["Fuego"],
+      "ability": "Absorbe Fuego", "nature": "Osada", "item": "Piedra Fuego", "shiny": true,
+      "moves": ["Lanzallamas", "Colmillo Ígneo", "Rugido", "Voluta"]
+    }
+  ],
+  "box": [
+    {
+      "nickname": "Bicho", "species": "Caterpie", "level": 8, "types": ["Bicho"],
+      "ability": "Polvo Escudo", "nature": "Miedosa", "item": "", "shiny": false,
+      "moves": ["Placaje", "Disparo Demora"]
+    }
+  ],
+  "graveyard": [
+    {
+      "nickname": "Volaris", "species": "Pidgey", "level": 12, "types": ["Normal", "Volador"],
+      "cause": "K.O. contra el Gimnasio 1", "route": "Ciudad del Gimnasio 1", "date": "Día 3", "shiny": false,
+      "moves": ["Tornado", "Ataque Arena"]
+    },
+    {
+      "nickname": "Colmillos", "species": "Rattata", "level": 6, "types": ["Normal"],
+      "cause": "Crítico enemigo", "route": "Ruta 1", "date": "Día 1", "shiny": false,
+      "moves": ["Ataque Rápido"]
+    }
+  ],
+  "captures": [
+    { "route": "pueblo_paleta", "mon": "Pikachu (inicial)", "status": "captured" },
+    { "route": "ruta1", "mon": "Rattata", "status": "dead" },
+    { "route": "ruta2", "mon": "Pidgey", "status": "dead" },
+    { "route": "bosque_verde", "mon": "Caterpie", "status": "captured" },
+    { "route": "ruta3", "mon": "Geodude", "status": "captured" },
+    { "route": "monte_moon", "mon": "Growlithe", "status": "captured" },
+    { "route": "ruta4", "mon": "", "status": "fled" }
+  ],
+  "progress": {
+    "gyms": { "gym1": true, "gym2": true },
+    "bosses": { "rival1": true },
+    "npcs": { "npc_r1": true, "npc_bosque": true },
+    "routes": { "pueblo_paleta": true, "ruta1": true, "ruta2": true, "bosque_verde": true, "ciudad_plateada": true, "ruta3": true, "monte_moon": true, "ruta4": true, "ciudad_celeste": true },
+    "items": { "gi_r1_1": true, "gi_bosque_1": true, "gi_moon_1": true, "gi_moon_2": true }
+  }
+}

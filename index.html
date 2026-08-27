@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Inicio · Pokémon Añil Randomlocke</title>
+  <meta name="description" content="Seguimiento del Super Randomlocke de Pokémon Añil: equipos, cajas, cementerio, progreso y torneos." />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1 id="title">Pokémon Añil — Super Randomlocke</h1>
+    <p class="lead" id="subtitle"></p>
+
+    <div class="stat-row" id="globalStats"></div>
+
+    <h2>Participantes</h2>
+    <div class="grid wide" id="players"><p class="muted">Cargando…</p></div>
+
+    <h2>Cementerio global reciente</h2>
+    <div id="graveyard" class="mon-team"></div>
+  </main>
+
+  <script src="app.js"></script>
+  <script>
+    (async function () {
+      const cfg = await loadConfig();
+      document.getElementById("title").textContent = cfg.title;
+      document.getElementById("subtitle").textContent = cfg.subtitle || "";
+      document.title = cfg.title + " · Inicio";
+      renderHeader("index.html");
+      renderFooter();
+
+      const players = await loadAllPlayers(cfg);
+
+      // ---- Stats globales ----
+      let totalAlive = 0, totalDead = 0, gymsCleared = 0, champs = 0;
+      players.forEach((p) => {
+        const s = playerStats(p.data);
+        totalAlive += s.alive; totalDead += s.dead;
+        gymsCleared += Object.values(p.data.progress?.gyms || {}).filter(Boolean).length;
+        if (p.data.champion) champs++;
+      });
+      document.getElementById("globalStats").innerHTML = `
+        <div class="stat-tile"><div class="num">${players.length}</div><div class="lbl">Jugadores</div></div>
+        <div class="stat-tile"><div class="num ok">${totalAlive}</div><div class="lbl">Pokémon vivos</div></div>
+        <div class="stat-tile"><div class="num bad">${totalDead}</div><div class="lbl">En el cementerio</div></div>
+        <div class="stat-tile"><div class="num">${gymsCleared}</div><div class="lbl">Medallas totales</div></div>`;
+
+      // ---- Tarjetas de jugador ----
+      const grid = document.getElementById("players");
+      grid.innerHTML = players.map((p) => {
+        const s = playerStats(p.data);
+        const pct = Math.round((s.livesLeft / s.lives) * 100);
+        const cls = pct <= 20 ? "crit" : pct <= 50 ? "low" : "";
+        const medals = Object.values(p.data.progress?.gyms || {}).filter(Boolean).length;
+        const avSrc = p.data.avatar || p.avatar;
+        const avatar = avSrc
+          ? `<img class="player-avatar" src="${escapeHtml(avSrc)}" alt="">`
+          : `<div class="player-avatar">${initials(p.name)}</div>`;
+        return `
+          <a class="player-card${s.eliminated ? " eliminated" : ""}" href="jugador.html?id=${encodeURIComponent(p.id)}">
+            <div class="player-card-head">
+              ${avatar}
+              <div class="grow">
+                <div class="player-name">${escapeHtml(p.name)} ${p.data.champion ? championBadge(18) : ""}${p.data._local ? ' <span class="pill warn" style="font-size:.55rem">borrador local</span>' : ""}</div>
+                <div class="player-sub">${medals}/8 medallas · ${s.eliminated ? "Sin vidas" : "En juego"}</div>
+              </div>
+            </div>
+            <div class="player-card-stats">
+              <div><span class="n" style="color:var(--ok)">${s.alive}</span><span class="l">Vivos</span></div>
+              <div><span class="n" style="color:var(--bad)">${s.dead}</span><span class="l">Muertos</span></div>
+              <div><span class="n">${s.livesLeft}</span><span class="l">Vidas</span></div>
+            </div>
+            <div class="lives-bar"><span class="${cls}" style="width:${pct}%"></span></div>
+            ${teamSpritesRow(p.data.team)}
+          </a>`;
+      }).join("");
+
+      // ---- Cementerio global ----
+      const graves = [];
+      players.forEach((p) => (p.data.graveyard || []).forEach((m) => graves.push({ ...m, owner: p.name })));
+      const gEl = document.getElementById("graveyard");
+      if (!graves.length) {
+        gEl.innerHTML = `<p class="empty-state">Nadie ha caído todavía.</p>`;
+      } else {
+        gEl.innerHTML = graves.slice(-12).reverse()
+          .map((m) => monCard(m, { dead: true, owner: m.owner }))
+          .join("");
+      }
+    })();
+  </script>
+</body>
+</html>

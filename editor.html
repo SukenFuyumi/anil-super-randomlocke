@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Editor · Pokémon Añil Randomlocke</title>
+  <meta name="color-scheme" content="light dark" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .ed-mon { border:1px solid var(--border); border-radius:var(--radius); background:var(--subtle-bg); padding:.75rem; margin-bottom:.6rem; }
+    .ed-mon-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(150px,100%),1fr)); gap:.5rem; }
+    .ed-mon-head { display:flex; justify-content:space-between; align-items:center; gap:.5rem; margin-bottom:.5rem; }
+    .ed-sprite { width:80px; height:80px; object-fit:contain; image-rendering:pixelated; }
+    .prog-checks { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(200px,100%),1fr)); gap:.35rem; }
+    .prog-checks label { display:flex; align-items:center; gap:.4rem; font-size:.85rem; padding:.3rem .4rem; border:1px solid var(--border); border-radius:6px; background:var(--panel); }
+    .cap-row { display:grid; grid-template-columns: 1fr 1fr 130px; gap:.4rem; margin-bottom:.35rem; align-items:center; }
+    .cap-row .rname { font-size:.82rem; font-weight:600; }
+    @media (width<=560px){ .cap-row{ grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>Editor de jugador</h1>
+    <p class="lead">Rellena tus datos, guárdalos como borrador (se verán en la web en este navegador) y expórtalos a JSON para publicarlos en el repositorio.</p>
+
+    <div class="callout">
+      <strong>Cómo publicar:</strong> edita → <em>Guardar borrador</em> (lo ves ya en tu navegador) → <em>Exportar JSON</em> → coloca el archivo en <code>data/players/&lt;id&gt;.json</code> del repositorio (o pásaselo al organizador).
+    </div>
+
+    <div class="panel">
+      <div class="row between">
+        <div class="field grow" style="max-width:320px">
+          <span>Jugador</span>
+          <select class="input" id="playerSelect"></select>
+        </div>
+        <div class="btn-row" style="align-items:flex-end">
+          <button class="btn" id="importBtn">Importar JSON</button>
+          <input type="file" id="importFile" accept="application/json" class="hidden" />
+          <button class="btn" id="saveBtn">Guardar borrador</button>
+          <button class="btn primary" id="exportBtn">Exportar JSON</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="tabs" id="tabs">
+      <button data-tab="info" class="active">Info</button>
+      <button data-tab="team">Equipo</button>
+      <button data-tab="box">Caja</button>
+      <button data-tab="grave">Cementerio</button>
+      <button data-tab="captures">Rutas / Capturas</button>
+      <button data-tab="items">Objetos</button>
+      <button data-tab="progress">Progreso</button>
+      <button data-tab="json">JSON</button>
+    </div>
+
+    <div class="tab-panel active" id="tab-info"></div>
+    <div class="tab-panel" id="tab-team"></div>
+    <div class="tab-panel" id="tab-box"></div>
+    <div class="tab-panel" id="tab-grave"></div>
+    <div class="tab-panel" id="tab-captures"></div>
+    <div class="tab-panel" id="tab-items"></div>
+    <div class="tab-panel" id="tab-progress"></div>
+    <div class="tab-panel" id="tab-json"></div>
+  </main>
+
+  <script src="app.js"></script>
+  <script>
+    let CFG, P, currentId;
+
+    (async function () {
+      CFG = await loadConfig();
+      renderHeader("editor.html");
+      const sel = document.getElementById("playerSelect");
+      sel.innerHTML = (CFG.players||[]).map((p)=>`<option value="${p.id}">${escapeHtml(p.name)}</option>`).join("");
+      sel.addEventListener("change", () => selectPlayer(sel.value));
+      currentId = sel.value;
+      await selectPlayer(currentId);
+
+      document.getElementById("tabs").addEventListener("click", (e) => {
+        const b = e.target.closest("button"); if (!b) return;
+        document.querySelectorAll("#tabs button").forEach((x)=>x.classList.remove("active"));
+        document.querySelectorAll(".tab-panel").forEach((x)=>x.classList.remove("active"));
+        b.classList.add("active");
+        document.getElementById("tab-"+b.dataset.tab).classList.add("active");
+        if (b.dataset.tab === "json") renderJSON();
+      });
+
+      document.getElementById("saveBtn").onclick = saveDraft;
+      document.getElementById("exportBtn").onclick = exportJSON;
+      document.getElementById("importBtn").onclick = () => document.getElementById("importFile").click();
+      document.getElementById("importFile").addEventListener("change", importJSON);
+      renderFooter();
+    })();
+
+    async function selectPlayer(id) {
+      currentId = id;
+      const meta = CFG.players.find((p)=>p.id===id);
+      const data = await loadPlayer(id);
+      P = data ? structuredClone(data) : emptyPlayerData(meta);
+      P.id = id; P.name = meta.name;
+      delete P._local;
+      renderAll();
+    }
+
+    function renderAll() {
+      renderInfo(); renderMonList("team"); renderMonList("box"); renderMonList("grave");
+      renderCaptures(); renderItems(); renderProgress();
+    }
+
+    // ---------- OBJETOS DEL SUELO (marcar los ya obtenidos) ----------
+    function renderItems() {
+      P.progress = P.progress || {}; P.progress.items = P.progress.items || {};
+      const gItems = CFG.groundItems || [];
+      const el = document.getElementById("tab-items");
+      if (!gItems.length) {
+        el.innerHTML = `<div class="panel"><p class="muted">No hay ubicaciones de objetos en <code>data/config.json</code> (<code>groundItems</code>). El organizador las define ahí y aquí cada jugador marca las que obtuvo.</p></div>`;
+        return;
+      }
+      const got = gItems.filter((it)=>P.progress.items[it.id]).length;
+      const zones=[], byZone={};
+      gItems.forEach((it)=>{ const z=it.zone||"Otros"; if(!byZone[z]){byZone[z]=[];zones.push(z);} byZone[z].push(it); });
+      el.innerHTML = `<div class="panel">
+        <p class="muted" style="font-size:.85rem;margin-top:0">Marca los objetos del suelo que ya obtuviste (${got}/${gItems.length}). Las ubicaciones son fijas y compartidas; el contenido lo randomiza tu partida.</p>
+        ${zones.map((z)=>`<h3>${escapeHtml(z)}</h3><div class="prog-checks">${byZone[z].map((it)=>`
+          <label><input type="checkbox" ${P.progress.items[it.id]?"checked":""} onchange="setProg('items','${it.id}',this.checked); markItemsDirty()"> ${escapeHtml(it.note||it.id)}</label>
+        `).join("")}</div>`).join("")}
+      </div>`;
+    }
+    function markItemsDirty(){ /* re-render ligero del contador */ const gItems=CFG.groundItems||[]; const got=gItems.filter((it)=>P.progress.items[it.id]).length; const p=document.querySelector('#tab-items .muted'); if(p) p.innerHTML=p.innerHTML.replace(/\(\d+\/\d+\)/, `(${got}/${gItems.length})`); }
+
+    // ---------- INFO ----------
+    function renderInfo() {
+      document.getElementById("tab-info").innerHTML = `
+        <div class="panel">
+          <div class="ed-mon-grid">
+            <label class="field"><span>Vidas totales</span><input class="input" type="number" id="f-lives" value="${P.lives ?? 30}"></label>
+            <label class="field"><span>Vidas gastadas (muertes)</span><input class="input" type="number" id="f-livesUsed" value="${P.livesUsed ?? 0}"></label>
+            <label class="field"><span>¿Campeón?</span>
+              <select class="input" id="f-champion"><option value="false"${!P.champion?" selected":""}>No</option><option value="true"${P.champion?" selected":""}>Sí, campeón</option></select>
+            </label>
+          </div>
+          <div class="row" style="gap:1rem;align-items:center;margin-top:.9rem">
+            <img id="avatarPreview" class="player-avatar xl" alt="" style="${(P.avatar||(CFG.players.find(p=>p.id===P.id)||{}).avatar)?'':'display:none'}" src="${escapeHtml(P.avatar||(CFG.players.find(p=>p.id===P.id)||{}).avatar||'')}">
+            <label class="field grow"><span>Avatar del jugador</span>
+              <select class="input" id="f-avatar">
+                <option value="">— sin avatar —</option>
+                ${(CFG._avatarsDisponibles||[]).map(a=>`<option value="${escapeHtml(a)}"${P.avatar===a?" selected":""}>${escapeHtml(a.split('/').pop().replace('.png',''))}</option>`).join("")}
+              </select>
+            </label>
+          </div>
+          <label class="field" style="margin-top:.6rem"><span>...o URL de avatar personalizada</span><input class="input" id="f-avatar-url" placeholder="https://..." value="${escapeHtml((CFG._avatarsDisponibles||[]).includes(P.avatar)?"":(P.avatar||""))}"></label>
+          <label class="field" style="margin-top:.6rem"><span>Notas</span><textarea class="input" id="f-notes" style="font-family:inherit;min-height:60px">${escapeHtml(P.notes||"")}</textarea></label>
+          <p class="muted" style="font-size:.8rem;margin-top:.6rem">Consejo: deja "Vidas gastadas" sincronizado con el nº de muertos, o ajústalo si alguna muerte no gastó vida.</p>
+        </div>`;
+      bind("f-lives", (v)=>P.lives=+v);
+      bind("f-livesUsed", (v)=>P.livesUsed=+v);
+      bind("f-champion", (v)=>P.champion=(v==="true"));
+      bind("f-notes", (v)=>P.notes=v);
+      const avSel=document.getElementById("f-avatar"), avUrl=document.getElementById("f-avatar-url");
+      function applyAvatar(val){ P.avatar=val||""; const img=document.getElementById("avatarPreview"); if(img){ if(val){img.src=val;img.style.display="";} else {img.style.display="none";} } }
+      avSel.addEventListener("change", ()=>{ if(avSel.value){ avUrl.value=""; } applyAvatar(avSel.value); });
+      avUrl.addEventListener("input", ()=>{ if(avUrl.value){ avSel.value=""; } applyAvatar(avUrl.value.trim()); });
+    }
+
+    // ---------- MON LISTS ----------
+    const MON_LISTS = { team: "Equipo", box: "Caja", grave: "Cementerio" };
+    function listKey(t){ return t==="grave" ? "graveyard" : t; }
+
+    function renderMonList(t) {
+      const key = listKey(t);
+      const arr = P[key] = P[key] || [];
+      const isGrave = t === "grave";
+      const html = arr.map((m, i) => monEditor(t, m, i, isGrave)).join("");
+      document.getElementById("tab-"+t).innerHTML = `
+        <div class="row between" style="margin-bottom:.6rem">
+          <h3 style="margin:0">${MON_LISTS[t]} (${arr.length})</h3>
+          <button class="btn primary sm" onclick="addMon('${t}')">+ Agregar Pokémon</button>
+        </div>
+        <div id="list-${t}">${html || '<p class="empty-state">Vacío.</p>'}</div>`;
+    }
+
+    function monEditor(t, m, i, isGrave) {
+      const types = (m.types||[]).join(", ");
+      const moves = (m.moves||[]).join(", ");
+      const _ani = speciesAniSprite(m.species), _stat = speciesSprite(m.species);
+      const spSrc = m.sprite || _ani || _stat || "";
+      const spFb = JSON.stringify([m.sprite ? _ani : null, _stat].filter((u) => u && u !== spSrc));
+      return `<div class="ed-mon" data-t="${t}" data-i="${i}">
+        <div class="ed-mon-head">
+          <div class="row" style="gap:.5rem;align-items:center">
+            <img class="ed-sprite" id="sp-${t}-${i}" src="${escapeHtml(spSrc)}" alt="" data-fb='${spFb}' onerror="edImgErr(this)" style="${spSrc?"":"visibility:hidden"}">
+            <strong>#${i+1} ${escapeHtml(m.nickname||"(sin apodo)")}</strong>
+          </div>
+          <div class="btn-row">
+            ${i>0?`<button class="btn sm" onclick="moveMon('${t}',${i},-1)">↑</button>`:""}
+            <button class="btn sm danger" onclick="removeMon('${t}',${i})">Eliminar</button>
+          </div>
+        </div>
+        <div class="ed-mon-grid">
+          <label class="field"><span>Apodo *</span><input class="input" value="${escapeHtml(m.nickname||"")}" oninput="setMon('${t}',${i},'nickname',this.value)"></label>
+          <label class="field"><span>Especie</span><input class="input" value="${escapeHtml(m.species||"")}" oninput="setMon('${t}',${i},'species',this.value); updateSprite('${t}',${i})"></label>
+          <label class="field"><span>Nivel</span><input class="input" type="number" value="${m.level??""}" oninput="setMon('${t}',${i},'level',this.value)"></label>
+          <label class="field"><span>Tipos (coma)</span><input class="input" value="${escapeHtml(types)}" oninput="setMonTypes('${t}',${i},this.value)" placeholder="Fuego, Volador"></label>
+          <label class="field"><span>Habilidad</span><input class="input" value="${escapeHtml(m.ability||"")}" oninput="setMon('${t}',${i},'ability',this.value)"></label>
+          <label class="field"><span>Naturaleza</span><input class="input" value="${escapeHtml(m.nature||"")}" oninput="setMon('${t}',${i},'nature',this.value)"></label>
+          <label class="field"><span>Objeto</span><input class="input" value="${escapeHtml(m.item||"")}" oninput="setMon('${t}',${i},'item',this.value)"></label>
+          <label class="field"><span>Sprite (URL, opc.)</span><input class="input" value="${escapeHtml(m.sprite||"")}" oninput="setMon('${t}',${i},'sprite',this.value); updateSprite('${t}',${i})" placeholder="auto por especie"></label>
+          <label class="field" style="align-self:end"><span>&nbsp;</span><label class="row" style="gap:.4rem;font-size:.85rem"><input type="checkbox" ${m.shiny?"checked":""} onchange="setMon('${t}',${i},'shiny',this.checked)"> ${shinyStar(12)} Shiny</label></label>
+        </div>
+        <label class="field" style="margin-top:.4rem"><span>Movimientos (coma, máx 4 · opcional "Nombre|Tipo" para colorear)</span><input class="input" value="${escapeHtml(moves)}" oninput="setMonMoves('${t}',${i},this.value)" placeholder="Rayo|Electrico, Cola Férrea|Acero, Ataque Rápido, Bola Voltio|Electrico"></label>
+        ${isGrave ? `<div class="ed-mon-grid" style="margin-top:.4rem">
+          <label class="field"><span>Causa de muerte</span><input class="input" value="${escapeHtml(m.cause||"")}" oninput="setMon('${t}',${i},'cause',this.value)"></label>
+          <label class="field"><span>Ruta / zona</span><input class="input" value="${escapeHtml(m.route||"")}" oninput="setMon('${t}',${i},'route',this.value)"></label>
+          <label class="field"><span>Fecha / día</span><input class="input" value="${escapeHtml(m.date||"")}" oninput="setMon('${t}',${i},'date',this.value)"></label>
+        </div>` : ""}
+      </div>`;
+    }
+
+    function addMon(t){ const key=listKey(t); (P[key]=P[key]||[]).push({nickname:"",species:"",level:"",types:[],moves:[]}); renderMonList(t); }
+    function removeMon(t,i){ P[listKey(t)].splice(i,1); renderMonList(t); }
+    function moveMon(t,i,d){ const a=P[listKey(t)]; const j=i+d; [a[i],a[j]]=[a[j],a[i]]; renderMonList(t); }
+    function setMon(t,i,k,v){ const m=P[listKey(t)][i]; if(k==="level") v = v===""?"":+v; m[k]=v; }
+    function edImgErr(el){ let l=[]; try{ l=JSON.parse(el.dataset.fb||"[]"); }catch(e){} if(l.length){ el.dataset.fb=JSON.stringify(l.slice(1)); el.src=l[0]; } else { el.style.visibility="hidden"; } }
+    function updateSprite(t,i){ const m=P[listKey(t)][i]; const el=document.getElementById(`sp-${t}-${i}`); if(!el) return; const ani=speciesAniSprite(m.species), stat=speciesSprite(m.species); const src=m.sprite||ani||stat||""; el.dataset.fb=JSON.stringify([m.sprite?ani:null,stat].filter(u=>u&&u!==src)); el.src=src; el.style.visibility=src?"visible":"hidden"; }
+    function setMonTypes(t,i,v){ P[listKey(t)][i].types = v.split(",").map(s=>s.trim()).filter(Boolean); }
+    function setMonMoves(t,i,v){ P[listKey(t)][i].moves = v.split(",").map(s=>s.trim()).filter(Boolean).slice(0,4); }
+
+    // ---------- CAPTURES ----------
+    function renderCaptures() {
+      const routes = CFG.routes || [];
+      const byId = {}; (P.captures||[]).forEach((c)=>byId[c.route]=c);
+      const rows = routes.map((r)=>{
+        const c = byId[r.id] || { route:r.id, mon:"", status:"" };
+        return `<div class="cap-row">
+          <span class="rname">${escapeHtml(r.name)}</span>
+          <input class="input" placeholder="Pokémon capturado" value="${escapeHtml(c.mon||"")}" oninput="setCap('${r.id}','mon',this.value)">
+          <select class="input" onchange="setCap('${r.id}','status',this.value)">
+            <option value=""${!c.status?" selected":""}>— sin visitar —</option>
+            <option value="captured"${c.status==="captured"?" selected":""}>✓ Capturado</option>
+            <option value="dead"${c.status==="dead"?" selected":""}>Debilitado / K.O.</option>
+            <option value="fled"${c.status==="fled"?" selected":""}>Huyó / sin captura</option>
+          </select>
+        </div>`;
+      }).join("");
+      document.getElementById("tab-captures").innerHTML = `<div class="panel">
+        <p class="muted" style="font-size:.85rem;margin-top:0">Registra el primer Pokémon de cada ruta y su resultado (regla de captura).</p>
+        ${rows || '<p class="muted">No hay rutas en config.json.</p>'}</div>`;
+    }
+    function setCap(routeId, field, value) {
+      P.captures = P.captures || [];
+      let c = P.captures.find((x)=>x.route===routeId);
+      if (!c) { c = { route: routeId, mon:"", status:"" }; P.captures.push(c); }
+      c[field] = value;
+      // marca la ruta como visitada si hay algún estado
+      P.progress = P.progress || {}; P.progress.routes = P.progress.routes || {};
+      P.progress.routes[routeId] = !!(c.status || c.mon);
+    }
+
+    // ---------- PROGRESS ----------
+    function renderProgress() {
+      P.progress = P.progress || { gyms:{}, bosses:{}, npcs:{}, routes:{} };
+      const section = (cat, title, items) => {
+        if (!items.length) return `<h3>${title}</h3><p class="muted" style="font-size:.85rem">Nada en config.json.</p>`;
+        return `<h3>${title}</h3><div class="prog-checks">${items.map((it)=>`
+          <label><input type="checkbox" ${P.progress[cat]?.[it.id]?"checked":""} onchange="setProg('${cat}','${it.id}',this.checked)"> ${escapeHtml(it.name)}</label>
+        `).join("")}</div>`;
+      };
+      document.getElementById("tab-progress").innerHTML = `<div class="panel">
+        ${section("gyms","Gimnasios", CFG.gyms||[])}
+        ${section("bosses","Bosses / combates clave", CFG.bosses||[])}
+        ${section("npcs","NPCs", CFG.npcs||[])}
+        ${section("routes","Rutas visitadas", CFG.routes||[])}
+      </div>`;
+    }
+    function setProg(cat, id, val) { P.progress[cat] = P.progress[cat]||{}; P.progress[cat][id] = val; }
+
+    // ---------- JSON ----------
+    function cleanData() {
+      const d = structuredClone(P);
+      delete d._local;
+      return d;
+    }
+    function renderJSON() {
+      document.getElementById("tab-json").innerHTML = `<div class="panel">
+        <p class="muted" style="font-size:.85rem;margin-top:0">Este es el contenido para <code>data/players/${escapeHtml(P.id)}.json</code>.</p>
+        <textarea class="input" id="jsonOut" style="min-height:340px">${escapeHtml(JSON.stringify(cleanData(), null, 2))}</textarea>
+        <div class="btn-row" style="margin-top:.6rem">
+          <button class="btn" onclick="navigator.clipboard.writeText(document.getElementById('jsonOut').value).then(()=>toast('Copiado'))">Copiar</button>
+          <button class="btn primary" onclick="exportJSON()">Exportar archivo</button>
+        </div>
+      </div>`;
+    }
+
+    // ---------- SAVE / IO ----------
+    function saveDraft() {
+      localStorage.setItem("player:"+P.id, JSON.stringify(cleanData()));
+      toast("Borrador guardado (visible en la web en este navegador)");
+    }
+    function exportJSON() {
+      saveDraft();
+      download(P.id + ".json", JSON.stringify(cleanData(), null, 2));
+    }
+    function importJSON(e) {
+      const file = e.target.files[0]; if (!file) return;
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const d = JSON.parse(reader.result);
+          P = d; currentId = d.id || currentId;
+          const sel = document.getElementById("playerSelect");
+          if ([...sel.options].some(o=>o.value===currentId)) sel.value = currentId;
+          renderAll(); toast("JSON importado");
+        } catch (err) { toast("Archivo inválido"); }
+      };
+      reader.readAsText(file); e.target.value = "";
+    }
+
+    function bind(id, fn){ const el=document.getElementById(id); if(el) el.addEventListener("input", ()=>fn(el.value)); }
+  </script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Progresión · Pokémon Añil Randomlocke</title>
+  <meta name="color-scheme" content="light dark" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Progresión general</h1>
+    <p class="lead">Comparativa del avance de todos los participantes. Verde = superado.</p>
+    <div class="tabs" id="tabs">
+      <button data-cat="gyms" class="active">Gimnasios</button>
+      <button data-cat="bosses">Bosses</button>
+      <button data-cat="npcs">NPCs</button>
+      <button data-cat="routes">Rutas</button>
+      <button data-cat="items">Objetos</button>
+    </div>
+    <div id="matrix"><p class="muted">Cargando…</p></div>
+  </main>
+
+  <script src="app.js"></script>
+  <script>
+    let CFG, PLAYERS;
+    (async function () {
+      CFG = await loadConfig();
+      renderHeader("progresion.html");
+      PLAYERS = await loadAllPlayers(CFG);
+      render("gyms");
+      document.getElementById("tabs").addEventListener("click", (e) => {
+        const b = e.target.closest("button"); if (!b) return;
+        document.querySelectorAll("#tabs button").forEach((x)=>x.classList.remove("active"));
+        b.classList.add("active");
+        render(b.dataset.cat);
+      });
+      renderFooter();
+    })();
+
+    function render(cat) {
+      const items = cat === "items" ? (CFG.groundItems || []) : (CFG[cat] || []);
+      const el = document.getElementById("matrix");
+      if (!items.length) { el.innerHTML = `<p class="empty-state">Nada configurado en esta categoría (edita <code>data/config.json</code>).</p>`; return; }
+
+      const headLabel = cat === "items" ? "Objeto / pista" : cat === "routes" ? "Ruta / zona" : "Reto";
+      const header = `<tr><th class="rowhead">${headLabel}</th>${
+        PLAYERS.map((p)=>`<th title="${escapeHtml(p.name)}">${escapeHtml(p.name)}</th>`).join("")
+      }<th>Total</th></tr>`;
+
+      const rows = items.map((it) => {
+        let clears = 0;
+        const cells = PLAYERS.map((p) => {
+          let done = !!p.data.progress?.[cat]?.[it.id];
+          // rutas: cuenta también captura registrada
+          if (cat === "routes" && !done) {
+            const c = (p.data.captures||[]).find((x)=>x.route===it.id);
+            if (c && c.status === "captured") done = true;
+          }
+          if (done) clears++;
+          return `<td class="${done?"yes":"no"}">${done?"✓":"·"}</td>`;
+        }).join("");
+        const itName = it.name || it.note || it.id;
+        const label = it.image
+          ? `<img class="rh-img" src="${escapeHtml(it.image)}" alt="" loading="lazy">${escapeHtml(itName)}`
+          : escapeHtml(itName);
+        return `<tr><td class="rowhead">${label}</td>${cells}<td><strong>${clears}/${PLAYERS.length}</strong></td></tr>`;
+      }).join("");
+
+      // fila de totales por jugador
+      const totalsRow = `<tr><td class="rowhead"><strong>Total superado</strong></td>${
+        PLAYERS.map((p)=>{
+          let n = 0;
+          items.forEach((it)=>{
+            let done = !!p.data.progress?.[cat]?.[it.id];
+            if (cat === "routes" && !done) { const c=(p.data.captures||[]).find((x)=>x.route===it.id); if (c&&c.status==="captured") done=true; }
+            if (done) n++;
+          });
+          return `<td><strong>${n}</strong></td>`;
+        }).join("")
+      }<td></td></tr>`;
+
+      el.innerHTML = `<div class="matrix-wrap"><table class="matrix"><thead>${header}</thead><tbody>${rows}${totalsRow}</tbody></table></div>`;
+    }
+  </script>
+</body>
+</html>

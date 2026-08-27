@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Objetos · Pokémon Añil Randomlocke</title>
+  <meta name="color-scheme" content="light dark" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Objetos del suelo</h1>
+    <p class="lead">Guía compartida de dónde hay objetos por el mapa, para que a nadie se le olvide obtenerlos. El contenido lo randomiza cada partida; aquí solo se marcan las <strong>ubicaciones</strong>. Cada jugador marca en el <a href="editor.html">Editor</a> los que ya obtuvo.</p>
+
+    <div class="stat-row" id="summary"></div>
+
+    <div class="row between" id="controls" style="margin:1rem 0; display:none">
+      <label class="field" style="max-width:320px">
+        <span>Ver pendientes de</span>
+        <select class="input" id="filterPlayer"></select>
+      </label>
+      <div class="muted" id="filterCount" style="align-self:flex-end"></div>
+    </div>
+
+    <div id="zones"><p class="muted">Cargando…</p></div>
+  </main>
+
+  <script src="app.js"></script>
+  <script>
+    (async function () {
+      const cfg = await loadConfig();
+      renderHeader("objetos.html");
+      const players = await loadAllPlayers(cfg);
+      const items = cfg.groundItems || [];
+      const zonesEl = document.getElementById("zones");
+
+      if (!items.length) {
+        zonesEl.innerHTML = `<p class="empty-state">No hay ubicaciones configuradas. Agrégalas en <code>data/config.json</code> → <code>groundItems</code>.</p>`;
+        renderFooter();
+        return;
+      }
+
+      // resumen por jugador
+      document.getElementById("summary").innerHTML = players.map((p) => {
+        const got = items.filter((it) => p.data.progress?.items?.[it.id]).length;
+        return `<div class="stat-tile"><div class="num">${got}<span style="font-size:.9rem;color:var(--text-muted)">/${items.length}</span></div><div class="lbl">${escapeHtml(p.name)}</div></div>`;
+      }).join("");
+
+      // agrupar por zona conservando orden de aparición
+      const zones = [];
+      const byZone = {};
+      items.forEach((it) => {
+        const z = it.zone || "Otros";
+        if (!byZone[z]) { byZone[z] = []; zones.push(z); }
+        byZone[z].push(it);
+      });
+
+      // control de filtro
+      const controls = document.getElementById("controls");
+      controls.style.display = "flex";
+      const sel = document.getElementById("filterPlayer");
+      sel.innerHTML = `<option value="">Todos (mostrar todo)</option>` +
+        players.map((p) => `<option value="${p.id}">${escapeHtml(p.name)} — solo lo que le falta</option>`).join("");
+      sel.addEventListener("change", () => renderZones(sel.value));
+
+      function renderZones(filterId) {
+        const player = players.find((p) => p.id === filterId);
+        let shownItems = 0;
+        let body = "";
+        zones.forEach((z) => {
+          const list = byZone[z].filter((it) => !filterId || !player?.data.progress?.items?.[it.id]);
+          if (!list.length) return;
+          shownItems += list.length;
+          body += `<tr class="zone-row"><td colspan="${players.length + 2}">${escapeHtml(z)}</td></tr>`;
+          list.forEach((it) => {
+            const cells = players.map((p) => {
+              const got = !!p.data.progress?.items?.[it.id];
+              return `<td class="${got ? "yes" : "no"}">${got ? "✓" : "·"}</td>`;
+            }).join("");
+            const total = players.filter((p) => p.data.progress?.items?.[it.id]).length;
+            body += `<tr><td class="rowhead">${escapeHtml(it.note || it.id)}</td>${cells}<td><strong>${total}/${players.length}</strong></td></tr>`;
+          });
+        });
+        zonesEl.innerHTML = body
+          ? `<div class="matrix-wrap"><table class="matrix">
+              <thead><tr><th class="rowhead">Objeto / pista</th>${players.map((p)=>`<th>${escapeHtml(p.name)}</th>`).join("")}<th>Obtenido</th></tr></thead>
+              <tbody>${body}</tbody></table></div>`
+          : `<p class="empty-state">¡Nada pendiente aquí!</p>`;
+        const fc = document.getElementById("filterCount");
+        fc.textContent = filterId
+          ? `${shownItems} objeto(s) por obtener`
+          : `${items.length} ubicaciones en total`;
+      }
+
+      renderZones("");
+      renderFooter();
+    })();
+  </script>
+</body>
+</html>

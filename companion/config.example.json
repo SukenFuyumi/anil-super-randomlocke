@@ -1,0 +1,14 @@
+{
+  "playerId": "suken",
+  "saveFolder": "",
+  "saveSlot": "auto",
+  "github": {
+    "owner": "TU_USUARIO_GITHUB",
+    "repo": "anil-randomlocke",
+    "branch": "main",
+    "token": "github_pat_PEGA_AQUI_TU_TOKEN",
+    "pathTemplate": "data/players/{id}.json"
+  },
+  "watch": true,
+  "dryRun": false
+}

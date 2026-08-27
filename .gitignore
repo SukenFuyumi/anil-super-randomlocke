@@ -1,0 +1,12 @@
+# Companion: el ejecutable se distribuye aparte (57 MB), no en Pages
+companion/dist/
+# Config del jugador con TOKEN — nunca subir
+companion/config.json
+# Borradores de jugador generados por el companion en local
+companion/*.local.json
+
+# Sistema / editores
+node_modules/
+.DS_Store
+Thumbs.db
+*.log

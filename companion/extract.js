@@ -1,0 +1,83 @@
+'use strict';
+// Convierte un save .rxdata de Pokémon Añil (Essentials v21) al formato JSON de la web.
+const { parse, RSymbol } = require('./marshal.js');
+const MOVES_ES = require('./move-es.json');
+const TYPES = require('./pokemon-types.json');
+
+const NATURES = { HARDY:'Fuerte',LONELY:'Huraña',BRAVE:'Audaz',ADAMANT:'Firme',NAUGHTY:'Pícara',BOLD:'Osada',DOCILE:'Dócil',RELAXED:'Plácida',IMPISH:'Agitada',LAX:'Floja',TIMID:'Miedosa',HASTY:'Activa',SERIOUS:'Seria',JOLLY:'Alegre',NAIVE:'Ingenua',MODEST:'Modesta',MILD:'Afable',QUIET:'Mansa',BASHFUL:'Tímida',RASH:'Alocada',CALM:'Serena',GENTLE:'Amable',SASSY:'Grosera',CAREFUL:'Cauta',QUIRKY:'Rara' };
+
+const norm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]/g, '');
+const hget = (h, key) => { if (!h || !h.__isHash) return undefined; for (const [k, v] of h.entries()) { const kn = (k instanceof RSymbol) ? k.name : (Buffer.isBuffer(k) ? k.toString('utf8') : String(k)); if (kn === key) return v; } };
+const iv = (o, n) => o && o.ivars ? o.ivars[n] : undefined;
+const sname = s => s instanceof RSymbol ? s.name : (Buffer.isBuffer(s) ? s.toString('utf8') : (s == null ? null : String(s)));
+
+function pretty(sym) {
+  if (!sym) return '';
+  return String(sym).toLowerCase().split(/[_\s]+/).map(w => w ? w[0].toUpperCase() + w.slice(1) : '').join(' ');
+}
+const moveName = sym => sym ? (MOVES_ES[norm(sym)] || pretty(sym)) : null;
+const speciesTypes = sym => TYPES[norm(sym)] || [];
+
+function mon(p) {
+  const species = sname(iv(p, '@species'));
+  const nick = sname(iv(p, '@name'));
+  const moves = (iv(p, '@moves') || []).map(m => moveName(m && m.ivars ? sname(m.ivars['@id']) : sname(m))).filter(Boolean);
+  const item = sname(iv(p, '@item'));
+  return {
+    nickname: nick || pretty(species),
+    species: pretty(species),
+    level: iv(p, '@level') ?? null,
+    types: speciesTypes(species),
+    ability: pretty(sname(iv(p, '@ability'))),
+    nature: NATURES[sname(iv(p, '@nature'))] || pretty(sname(iv(p, '@nature'))),
+    item: item ? pretty(item) : '',
+    shiny: !!iv(p, '@shiny'),
+    moves,
+  };
+}
+
+function extract(buf, playerId) {
+  const { root } = parse(buf);
+  const player = hget(root, 'player');
+  const gm = hget(root, 'global_metadata');
+  const storage = hget(root, 'storage_system');
+  const stats = hget(root, 'stats');
+
+  const party = iv(player, '@party') || [];
+  const boxes = iv(storage, '@boxes') || [];
+
+  const team = [], box = [], graveyard = [];
+  const pushMon = (p, where) => {
+    if (!p) return;
+    if (iv(p, '@perma_faint') === true) {
+      const m = mon(p); m.cause = ''; m.route = ''; m.date = '';
+      graveyard.push(m);
+    } else if (where === 'party') team.push(mon(p));
+    else box.push(mon(p));
+  };
+  party.forEach(p => pushMon(p, 'party'));
+  boxes.forEach(b => (iv(b, '@pokemon') || []).forEach(p => pushMon(p, 'box')));
+
+  const badges = iv(player, '@badges') || [];
+  const gyms = {};
+  badges.forEach((b, i) => { if (b) gyms['gym' + (i + 1)] = true; });
+
+  const money = iv(player, '@money') || 0;
+  const playSecs = Math.round(iv(stats, '@play_time') || 0);
+  const gameLives = iv(gm, '@challenge_lives');
+  const hh = Math.floor(playSecs / 3600), mm = Math.floor((playSecs % 3600) / 60);
+
+  return {
+    id: playerId,
+    name: sname(iv(player, '@name')) || playerId,
+    lives: 30,
+    livesUsed: graveyard.length,
+    champion: badges.filter(Boolean).length >= 8,
+    notes: `Importado del save · ${hh}h ${mm}m jugadas · ${money.toLocaleString('es')}₽ · vidas en el juego: ${gameLives ?? '?'}`,
+    team, box, graveyard,
+    captures: [],
+    progress: { gyms, bosses: {}, npcs: {}, routes: {}, items: {} },
+  };
+}
+
+module.exports = { extract };

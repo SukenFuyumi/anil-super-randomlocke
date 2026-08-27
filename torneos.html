@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Torneos · Pokémon Añil Randomlocke</title>
+  <meta name="color-scheme" content="light dark" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Torneos</h1>
+    <p class="lead">Crea brackets de eliminación directa. Haz clic en un jugador para marcarlo como ganador de su combate y avanzar. Se guarda automáticamente en este navegador; usa Exportar para compartirlo o publicarlo.</p>
+
+    <div class="panel">
+      <div class="row between">
+        <div class="field grow" style="max-width:340px">
+          <span>Torneo</span>
+          <select class="input" id="tourSelect"></select>
+        </div>
+        <div class="btn-row" style="align-items:flex-end">
+          <button class="btn" id="loadPlayers">Cargar participantes del randomlocke</button>
+          <button class="btn" id="exportBtn">Exportar</button>
+          <button class="btn" id="importBtn">Importar</button>
+          <input type="file" id="importFile" accept="application/json" class="hidden" />
+        </div>
+      </div>
+
+      <h3>Participantes</h3>
+      <div class="field">
+        <span>Un nombre por línea. El orden es la siembra (seed 1, 2, 3…). Se rellenan huecos (BYE) automáticamente.</span>
+        <textarea class="input" id="participants" placeholder="Suken&#10;Jugador 2&#10;Jugador 3&#10;…"></textarea>
+      </div>
+      <div class="row between" style="margin-top:.6rem">
+        <label class="row" style="gap:.4rem;font-size:.85rem"><input type="checkbox" id="shuffle" /> Barajar antes de generar</label>
+        <div class="btn-row">
+          <button class="btn danger" id="resetBtn">Reiniciar resultados</button>
+          <button class="btn primary" id="generateBtn">Generar bracket</button>
+        </div>
+      </div>
+    </div>
+
+    <h2 id="bracketTitle" style="display:none"></h2>
+    <div id="bracket"></div>
+    <div id="champion"></div>
+  </main>
+
+  <script src="app.js"></script>
+  <script>
+    let CFG;
+    let state = null; // { name, slots:[], size, results:[[...]] }
+    let currentTourId = "t1";
+
+    const LS = () => "bracket:" + currentTourId;
+
+    (async function () {
+      CFG = await loadConfig();
+      renderHeader("torneos.html");
+      const sel = document.getElementById("tourSelect");
+      sel.innerHTML = (CFG.tournaments || [{id:"t1",name:"Torneo 1"}])
+        .map((t)=>`<option value="${t.id}">${escapeHtml(t.name)}</option>`).join("");
+      sel.addEventListener("change", () => { currentTourId = sel.value; loadState(); });
+      currentTourId = sel.value;
+      loadState();
+
+      document.getElementById("generateBtn").onclick = generate;
+      document.getElementById("resetBtn").onclick = resetResults;
+      document.getElementById("loadPlayers").onclick = () => {
+        document.getElementById("participants").value = (CFG.players||[]).map((p)=>p.name).join("\n");
+        toast("Participantes cargados");
+      };
+      document.getElementById("exportBtn").onclick = exportBracket;
+      document.getElementById("importBtn").onclick = () => document.getElementById("importFile").click();
+      document.getElementById("importFile").addEventListener("change", importBracket);
+      renderFooter();
+    })();
+
+    function loadState() {
+      const raw = localStorage.getItem(LS());
+      if (raw) { try { state = JSON.parse(raw); } catch(e){ state = null; } }
+      else state = null;
+      const ta = document.getElementById("participants");
+      if (state && state.entrants) ta.value = state.entrants.join("\n");
+      else if (!ta.value) ta.value = (CFG.players||[]).map((p)=>p.name).join("\n");
+      render();
+    }
+
+    function save() { localStorage.setItem(LS(), JSON.stringify(state)); }
+
+    // ---- Siembra estándar (reparte los BYE) ----
+    function seedOrder(size) {
+      let pls = [1, 2];
+      const rounds = Math.log2(size);
+      for (let r = 1; r < rounds; r++) {
+        const sum = pls.length * 2 + 1;
+        const out = [];
+        for (const p of pls) { out.push(p); out.push(sum - p); }
+        pls = out;
+      }
+      return pls; // seeds 1-indexed en orden de bracket
+    }
+
+    function generate() {
+      let entrants = document.getElementById("participants").value
+        .split("\n").map((s)=>s.trim()).filter(Boolean);
+      if (entrants.length < 2) { toast("Necesitas al menos 2 participantes"); return; }
+      if (document.getElementById("shuffle").checked) {
+        for (let i = entrants.length - 1; i > 0; i--) { const j = Math.floor(Math.random()*(i+1)); [entrants[i],entrants[j]]=[entrants[j],entrants[i]]; }
+      }
+      let size = 1; while (size < entrants.length) size *= 2;
+      const order = seedOrder(size);
+      const slots = order.map((seed) => entrants[seed-1] || null); // null = BYE
+      const rounds = Math.log2(size);
+      const results = [];
+      for (let r = 0; r < rounds; r++) results.push(new Array(size / Math.pow(2, r+1)).fill(null));
+
+      state = { tourId: currentTourId, name: (CFG.tournaments||[]).find(t=>t.id===currentTourId)?.name || "Torneo", entrants, size, slots, results };
+      autoByes();
+      save();
+      render();
+      toast("Bracket generado");
+    }
+
+    function resetResults() {
+      if (!state) return;
+      if (!confirm("¿Borrar todos los resultados de este bracket?")) return;
+      state.results = state.results.map((r)=>r.map(()=>null));
+      autoByes();
+      save(); render();
+    }
+
+    // Participante que llega a (round, matchIndex, side 0/1)
+    function participantAt(round, matchIndex, side) {
+      const idx = matchIndex * 2 + side;
+      if (round === 0) return state.slots[idx];
+      return state.results[round-1][idx];
+    }
+
+    function autoByes() {
+      // resuelve automáticamente combates de ronda 0 donde hay un BYE
+      state.results[0].forEach((w, m) => {
+        const a = participantAt(0, m, 0), b = participantAt(0, m, 1);
+        if (a && !b) state.results[0][m] = a;
+        else if (b && !a) state.results[0][m] = b;
+        else if (!a && !b) state.results[0][m] = null;
+      });
+      propagate();
+    }
+
+    // Limpia resultados inconsistentes cuando cambia algo aguas arriba
+    function propagate() {
+      for (let r = 1; r < state.results.length; r++) {
+        state.results[r].forEach((w, m) => {
+          if (w == null) return;
+          const a = participantAt(r, m, 0), b = participantAt(r, m, 1);
+          if (w !== a && w !== b) state.results[r][m] = null;
+        });
+      }
+    }
+
+    function pick(round, matchIndex, side) {
+      const who = participantAt(round, matchIndex, side);
+      if (!who) return; // BYE / vacío
+      state.results[round][matchIndex] = (state.results[round][matchIndex] === who) ? null : who;
+      propagate();
+      save(); render();
+    }
+
+    function render() {
+      const el = document.getElementById("bracket");
+      const champEl = document.getElementById("champion");
+      const titleEl = document.getElementById("bracketTitle");
+      if (!state) { el.innerHTML = `<p class="empty-state">Aún no hay bracket. Agrega participantes y haz clic en <strong>Generar bracket</strong>.</p>`; champEl.innerHTML=""; titleEl.style.display="none"; return; }
+
+      titleEl.style.display = "block";
+      titleEl.textContent = state.name;
+
+      const rounds = state.results.length;
+      const roundNames = (n) => {
+        const map = { 1: "Final", 2: "Semifinales", 4: "Cuartos", 8: "Octavos" };
+        return map[state.results[n].length] || `Ronda ${n+1}`;
+      };
+
+      let html = '<div class="bracket">';
+      for (let r = 0; r < rounds; r++) {
+        html += `<div class="bracket-round"><h4>${roundNames(r)}</h4>`;
+        for (let m = 0; m < state.results[r].length; m++) {
+          const a = participantAt(r, m, 0), b = participantAt(r, m, 1);
+          const w = state.results[r][m];
+          html += `<div class="match">${slot(r,m,0,a,w)}${slot(r,m,1,b,w)}</div>`;
+        }
+        html += `</div>`;
+      }
+      // columna campeón
+      const champ = state.results[rounds-1][0];
+      html += `<div class="bracket-round champion-box"><h4>Campeón</h4>
+        <div class="match"><div class="slot ${champ?"winner":"empty"}">
+          <span class="trophy">${championBadge(34)}</span><span class="nm">${champ?escapeHtml(champ):"—"}</span></div></div></div>`;
+      html += '</div>';
+      el.innerHTML = html;
+
+      champEl.innerHTML = champ
+        ? `<div class="callout"><strong>${championBadge(18)} ${escapeHtml(champ)}</strong> gana ${escapeHtml(state.name)}.</div>`
+        : "";
+    }
+
+    function slot(r, m, side, name, winner) {
+      const seed = r === 0 && name ? state.entrants.indexOf(name) + 1 : "";
+      if (name === null) return `<div class="slot empty"><span class="seed"></span><span class="nm">— BYE —</span></div>`;
+      if (!name) return `<div class="slot empty"><span class="seed"></span><span class="nm">por definir</span></div>`;
+      const isWin = winner === name;
+      return `<div class="slot${isWin?" winner":""}" onclick="pick(${r},${m},${side})">
+        <span class="seed">${seed||""}</span><span class="nm">${escapeHtml(name)}</span><span class="score">${isWin?"✓":""}</span></div>`;
+    }
+
+    function exportBracket() {
+      if (!state) { toast("No hay bracket que exportar"); return; }
+      download(`bracket-${currentTourId}.json`, JSON.stringify(state, null, 2));
+    }
+    function importBracket(e) {
+      const file = e.target.files[0]; if (!file) return;
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          state = JSON.parse(reader.result);
+          currentTourId = state.tourId || currentTourId;
+          document.getElementById("tourSelect").value = currentTourId;
+          save(); loadState(); toast("Bracket importado");
+        } catch (err) { toast("Archivo inválido"); }
+      };
+      reader.readAsText(file);
+      e.target.value = "";
+    }
+  </script>
+</body>
+</html>
