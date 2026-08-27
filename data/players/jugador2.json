@@ -26,14 +26,14 @@
     }
   ],
   "captures": [
-    { "route": "pueblo_paleta", "mon": "Squirtle (inicial)", "status": "captured" },
-    { "route": "ruta1", "mon": "Oddish", "status": "captured" },
+    { "route": "ruta_1", "mon": "Oddish", "status": "captured" },
+    { "route": "ruta_22", "mon": "Spearow", "status": "captured" },
     { "route": "monte_moon", "mon": "Zubat", "status": "dead" }
   ],
   "progress": {
     "gyms": { "gym1": true },
     "bosses": { "rival1": true },
     "npcs": { "npc_r1": true },
-    "routes": { "pueblo_paleta": true, "ruta1": true, "ciudad_verde": true, "ruta2": true, "bosque_verde": true, "ciudad_plateada": true, "monte_moon": true }
+    "routes": { "ruta_1": true, "ruta_22": true, "ruta_2_sur": true, "bosque_verde": true, "monte_moon": true }
   }
 }

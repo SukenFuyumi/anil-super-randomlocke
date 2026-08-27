@@ -39,9 +39,15 @@ function mon(p) {
   };
 }
 
+// zonas de captura (mismas reglas que gen-routes.js / config.routes)
+const SLUG = n => n.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
+const ENC_RE = /(ruta|bosque|monte|cueva|t[uú]nel|zona safari|safari|isla|caminos|catarata|central energ|roca|mansi[oó]n|torre|calle victoria|meseta|volc[aá]n|islas espuma)/i;
+const ENC_INT = /(casa|gimnasio|centro pok|tienda|laboratorio|liga|barco|guarida|museo|club|intro|ss anne|s\.s\.)/i;
+
 function extract(buf, playerId, opts = {}) {
   const mapNames = opts.mapNames || null; // { "3": "Ruta 3", ... } opcional
   const mapName = id => (mapNames && id != null && mapNames[String(id)]) || '';
+  const routeSlug = id => { const n = mapName(id); if (!n) return null; return (ENC_RE.test(n) && !ENC_INT.test(n)) ? SLUG(n) : null; };
   const { root } = parse(buf);
   const player = hget(root, 'player');
   const gm = hget(root, 'global_metadata');
@@ -52,9 +58,20 @@ function extract(buf, playerId, opts = {}) {
   const boxes = iv(storage, '@boxes') || [];
 
   const team = [], box = [], graveyard = [];
+  const capturesByRoute = {}; // slug -> {route, mon, status}
+  const routesVisited = {};
+  const recordCapture = (p, dead) => {
+    const oid = iv(p, '@obtain_map');
+    const slug = routeSlug(oid);
+    if (!slug) return; // interior/inicial/regalo: no cuenta como captura
+    routesVisited[slug] = true;
+    if (!capturesByRoute[slug]) capturesByRoute[slug] = { route: slug, mon: pretty(sname(iv(p, '@species'))), status: dead ? 'dead' : 'captured' };
+  };
   const pushMon = (p, where) => {
     if (!p) return;
-    if (iv(p, '@perma_faint') === true) {
+    const dead = iv(p, '@perma_faint') === true;
+    recordCapture(p, dead);
+    if (dead) {
       const m = mon(p); m.cause = ''; m.route = mapName(iv(p, '@obtain_map')); m.date = '';
       graveyard.push(m);
     } else if (where === 'party') team.push(mon(p));
@@ -62,6 +79,10 @@ function extract(buf, playerId, opts = {}) {
   };
   party.forEach(p => pushMon(p, 'party'));
   boxes.forEach(b => (iv(b, '@pokemon') || []).forEach(p => pushMon(p, 'box')));
+
+  // rutas visitadas desde visitedMaps (índice = id de mapa, valor true)
+  const vm = iv(gm, '@visitedMaps');
+  if (Array.isArray(vm)) vm.forEach((v, id) => { if (v) { const s = routeSlug(id); if (s) routesVisited[s] = true; } });
 
   const badges = iv(player, '@badges') || [];
   const gyms = {};
@@ -80,8 +101,8 @@ function extract(buf, playerId, opts = {}) {
     champion: badges.filter(Boolean).length >= 8,
     notes: `Importado del save · ${hh}h ${mm}m jugadas · ${money.toLocaleString('es')}₽ · vidas en el juego: ${gameLives ?? '?'}`,
     team, box, graveyard,
-    captures: [],
-    progress: { gyms, bosses: {}, npcs: {}, routes: {}, items: {} },
+    captures: Object.values(capturesByRoute),
+    progress: { gyms, bosses: {}, npcs: {}, routes: routesVisited, items: {} },
   };
 }
 

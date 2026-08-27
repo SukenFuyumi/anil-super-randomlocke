@@ -15,13 +15,13 @@
   "box": [],
   "graveyard": [],
   "captures": [
-    { "route": "pueblo_paleta", "mon": "Charmander (inicial)", "status": "captured" },
-    { "route": "ruta1", "mon": "", "status": "fled" }
+    { "route": "ruta_1", "mon": "Pidgey", "status": "captured" },
+    { "route": "ruta_22", "mon": "", "status": "fled" }
   ],
   "progress": {
     "gyms": {},
     "bosses": {},
     "npcs": {},
-    "routes": { "pueblo_paleta": true, "ruta1": true }
+    "routes": { "ruta_1": true, "ruta_22": true }
   }
 }

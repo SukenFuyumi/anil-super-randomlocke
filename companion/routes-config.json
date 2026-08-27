@@ -1,0 +1,214 @@
+[
+  {
+    "id": "ruta_1",
+    "name": "Ruta 1"
+  },
+  {
+    "id": "ruta_22",
+    "name": "Ruta 22"
+  },
+  {
+    "id": "ruta_2_sur",
+    "name": "Ruta 2 Sur"
+  },
+  {
+    "id": "ruta_2_norte",
+    "name": "Ruta 2 Norte"
+  },
+  {
+    "id": "bosque_verde",
+    "name": "Bosque Verde"
+  },
+  {
+    "id": "ruta_3",
+    "name": "Ruta 3"
+  },
+  {
+    "id": "monte_moon",
+    "name": "Monte Moon"
+  },
+  {
+    "id": "monte_moon_exterior",
+    "name": "Monte Moon Exterior"
+  },
+  {
+    "id": "ruta_4",
+    "name": "Ruta 4"
+  },
+  {
+    "id": "ruta_20",
+    "name": "Ruta 20"
+  },
+  {
+    "id": "ruta_5",
+    "name": "Ruta 5"
+  },
+  {
+    "id": "ruta_6",
+    "name": "Ruta 6"
+  },
+  {
+    "id": "ruta_15",
+    "name": "Ruta 15"
+  },
+  {
+    "id": "tunel_diglett",
+    "name": "Túnel Diglett"
+  },
+  {
+    "id": "ruta_9",
+    "name": "Ruta 9"
+  },
+  {
+    "id": "ruta_10_norte",
+    "name": "Ruta 10 Norte"
+  },
+  {
+    "id": "ruta_10_sur",
+    "name": "Ruta 10 Sur"
+  },
+  {
+    "id": "tunel_roca",
+    "name": "Túnel Roca"
+  },
+  {
+    "id": "torre_pokemon",
+    "name": "Torre Pokémon"
+  },
+  {
+    "id": "ruta_8",
+    "name": "Ruta 8"
+  },
+  {
+    "id": "ruta_7",
+    "name": "Ruta 7"
+  },
+  {
+    "id": "ruta_12",
+    "name": "Ruta 12"
+  },
+  {
+    "id": "ruta_11",
+    "name": "Ruta 11"
+  },
+  {
+    "id": "ruta_13",
+    "name": "Ruta 13"
+  },
+  {
+    "id": "ruta_14",
+    "name": "Ruta 14"
+  },
+  {
+    "id": "ruta_16",
+    "name": "Ruta 16"
+  },
+  {
+    "id": "ruta_17",
+    "name": "Ruta 17"
+  },
+  {
+    "id": "ruta_18",
+    "name": "Ruta 18"
+  },
+  {
+    "id": "ruta_19",
+    "name": "Ruta 19"
+  },
+  {
+    "id": "ruta_21",
+    "name": "Ruta 21"
+  },
+  {
+    "id": "zona_safari",
+    "name": "Zona Safari"
+  },
+  {
+    "id": "isla_canela",
+    "name": "Isla Canela"
+  },
+  {
+    "id": "mansion_quemada",
+    "name": "Mansión Quemada"
+  },
+  {
+    "id": "islas_espuma",
+    "name": "Islas Espuma"
+  },
+  {
+    "id": "central_energia",
+    "name": "Central Energía"
+  },
+  {
+    "id": "volcan_canela",
+    "name": "Volcán Canela"
+  },
+  {
+    "id": "ruta_23",
+    "name": "Ruta 23"
+  },
+  {
+    "id": "ruta_24",
+    "name": "Ruta 24"
+  },
+  {
+    "id": "cataratas_tohjo",
+    "name": "Cataratas Tohjo"
+  },
+  {
+    "id": "ruta_25_sur",
+    "name": "Ruta 25 Sur"
+  },
+  {
+    "id": "monte_plateado",
+    "name": "Monte Plateado"
+  },
+  {
+    "id": "ruta_25_norte",
+    "name": "Ruta 25 Norte"
+  },
+  {
+    "id": "cueva_celeste",
+    "name": "Cueva Celeste"
+  },
+  {
+    "id": "bosque_celeste",
+    "name": "Bosque Celeste"
+  },
+  {
+    "id": "ruta_26",
+    "name": "Ruta 26"
+  },
+  {
+    "id": "ruta_27",
+    "name": "Ruta 27"
+  },
+  {
+    "id": "ruta_28",
+    "name": "Ruta 28"
+  },
+  {
+    "id": "ruta_29",
+    "name": "Ruta 29"
+  },
+  {
+    "id": "ruta_30",
+    "name": "Ruta 30"
+  },
+  {
+    "id": "cueva_glaciada",
+    "name": "Cueva Glaciada"
+  },
+  {
+    "id": "bosque_arcoiris",
+    "name": "Bosque Arcoiris"
+  },
+  {
+    "id": "cueva_perdida",
+    "name": "Cueva Perdida"
+  },
+  {
+    "id": "torre_batalla",
+    "name": "Torre Batalla"
+  }
+]
