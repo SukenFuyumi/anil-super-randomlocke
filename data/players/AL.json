@@ -1,0 +1,37 @@
+{
+  "id": "AL",
+  "name": "AL",
+  "lives": 30,
+  "livesUsed": 0,
+  "champion": false,
+  "notes": "Importado del save · 0h 26m jugadas · 3,500₽ · vidas en el juego: ?",
+  "team": [
+    {
+      "nickname": "ElFokas",
+      "species": "Popplio",
+      "level": 6,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Amor Filial",
+      "nature": "Seria",
+      "item": "Galleta Lava",
+      "shiny": false,
+      "moves": [
+        "Impresionar",
+        "Cambiafuerza",
+        "Reversión"
+      ]
+    }
+  ],
+  "box": [],
+  "graveyard": [],
+  "captures": [],
+  "progress": {
+    "gyms": {},
+    "bosses": {},
+    "npcs": {},
+    "routes": {},
+    "items": {}
+  }
+}
