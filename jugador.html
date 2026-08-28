@@ -29,14 +29,15 @@
       }
 
       const data = (await loadPlayer(id)) || emptyPlayerData(meta);
-      document.title = meta.name + " · Randomlocke";
+      const dispName = meta.displayName || data.name || meta.name;
+      document.title = dispName + " · Randomlocke";
       const s = playerStats(data);
       const pct = Math.round((s.livesLeft / s.lives) * 100);
       const barCls = pct <= 20 ? "crit" : pct <= 50 ? "low" : "";
       const avSrc = data.avatar || meta.avatar;
       const avatar = avSrc
         ? `<img class="player-avatar xl" src="${escapeHtml(avSrc)}" alt="">`
-        : `<div class="player-avatar xl">${initials(meta.name)}</div>`;
+        : `<div class="player-avatar xl">${initials(dispName)}</div>`;
 
       // progreso
       const gymTotal = (cfg.gyms || []).length;
@@ -49,7 +50,7 @@
             <div class="row" style="align-items:center;gap:1rem">
               ${avatar}
               <div>
-                <h1 style="margin:0">${escapeHtml(meta.name)} ${data.champion ? championBadge(26) : ""}</h1>
+                <h1 style="margin:0">${escapeHtml(dispName)} ${data.champion ? championBadge(26) : ""}</h1>
                 <div class="muted">${s.eliminated ? "Eliminado (sin vidas)" : "En juego"} · ${gymDone}/${gymTotal} medallas ${data._local ? '· <span class="pill warn">borrador local sin publicar</span>' : ""}</div>
               </div>
             </div>

@@ -409,7 +409,7 @@
       sel.innerHTML = (CFG.players||[]).map(p=>`<option value="${p.id}">${escapeHtml(p.name)}${p.hidden?" (oculto)":""}</option>`).join("");
       if([...sel.options].some(o=>o.value===cur)) sel.value = cur;
     }
-    function adminRename(id, name){ commitPlayers(cfg=>{ const p=cfg.players.find(x=>x.id===id); if(p) p.name=name; }, "Nombre actualizado."); }
+    function adminRename(id, val){ commitPlayers(cfg=>{ const p=cfg.players.find(x=>x.id===id); if(p){ const v=(val||"").trim(); if(v) p.displayName=v; else delete p.displayName; } }, "Nombre actualizado."); }
     function adminHide(id, hidden){ commitPlayers(cfg=>{ const p=cfg.players.find(x=>x.id===id); if(p){ if(hidden) p.hidden=true; else delete p.hidden; } }, hidden?"Jugador oculto.":"Jugador visible."); }
     function adminDelete(id){ if(!confirm("¿Eliminar a \""+id+"\" de la lista? (su ficha data/players/"+id+".json no se borra)\n\nOjo: si su companion sigue abierto, se volverá a añadir solo.")) return; commitPlayers(cfg=>{ cfg.players = cfg.players.filter(x=>x.id!==id); }, "Jugador eliminado."); }
     function renderAdmin(){
@@ -418,7 +418,7 @@
         const av = p.avatar ? `<img class="ed-sprite" src="${escapeHtml(p.avatar)}" style="width:38px;height:38px;border-radius:50%">` : `<span class="team-mini-x" style="width:38px;height:38px">${escapeHtml(initials(p.name))}</span>`;
         return `<div class="ed-mon" style="display:flex;gap:.6rem;align-items:center;flex-wrap:wrap">
           ${av}
-          <input class="input" style="max-width:170px" value="${escapeHtml(p.name)}" onchange="adminRename('${p.id}', this.value)">
+          <input class="input" style="max-width:170px" value="${escapeHtml(p.displayName||'')}" placeholder="${escapeHtml(p.name||p.id)}" onchange="adminRename('${p.id}', this.value)">
           <span class="muted" style="font-size:.72rem">id: ${escapeHtml(p.id)}</span>
           <label class="row" style="gap:.35rem;font-size:.85rem;margin-left:auto"><input type="checkbox" ${p.hidden?"checked":""} onchange="adminHide('${p.id}', this.checked)"> Oculto</label>
           <button class="btn sm danger" onclick="adminDelete('${p.id}')">Eliminar</button>
@@ -426,7 +426,7 @@
       }).join("");
       document.getElementById("tab-admin").innerHTML = `<div class="panel">
         <h3 style="margin-top:0">Gestionar jugadores</h3>
-        <p class="muted" style="font-size:.85rem;margin-top:0">Renombra, oculta o elimina jugadores. Los cambios se guardan directamente en la web. Necesita tu token de GitHub (el mismo del companion, con permiso Contents: Read and write).</p>
+        <p class="muted" style="font-size:.85rem;margin-top:0">Oculta, elimina o pon un nombre personalizado. Si dejas el nombre en blanco, se usa el del juego (se actualiza solo con cada partida). Los cambios se guardan directamente en la web; necesita tu token de GitHub (Contents: Read and write).</p>
         <label class="field"><span>Token de GitHub (se guarda solo en este navegador)</span>
           <input class="input" type="password" id="adminToken" value="${escapeHtml(token)}" placeholder="github_pat_..."></label>
         <div style="margin:.9rem 0">${rows || '<p class="muted">No hay jugadores todavía.</p>'}</div>

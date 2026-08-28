@@ -67,7 +67,7 @@
             <div class="player-card-head">
               ${avatar}
               <div class="grow">
-                <div class="player-name">${escapeHtml(p.name)} ${p.data.champion ? championBadge(18) : ""}${p.data._local ? ' <span class="pill warn" style="font-size:.55rem">borrador local</span>' : ""}</div>
+                <div class="player-name">${escapeHtml(p.displayName || p.data.name || p.name)} ${p.data.champion ? championBadge(18) : ""}${p.data._local ? ' <span class="pill warn" style="font-size:.55rem">borrador local</span>' : ""}</div>
                 <div class="player-sub">${medals}/8 medallas · ${s.eliminated ? "Sin vidas" : "En juego"}</div>
               </div>
             </div>
