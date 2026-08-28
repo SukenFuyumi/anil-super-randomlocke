@@ -1,0 +1,219 @@
+{
+  "id": "Copy",
+  "name": "Raheem",
+  "lives": 30,
+  "livesUsed": 1,
+  "champion": false,
+  "notes": "Importado del save · 0h 43m jugadas · 1,337₽ · vidas en el juego: 24",
+  "team": [
+    {
+      "nickname": "Gignac",
+      "species": "Scorbunny",
+      "level": 14,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "Caparazón",
+      "nature": "Floja",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Desquite",
+        "Nitrocarga",
+        "Chispa",
+        "Vendetta"
+      ]
+    },
+    {
+      "nickname": "La Katrina",
+      "species": "Duskull",
+      "level": 14,
+      "types": [
+        "Fantasma"
+      ],
+      "ability": "Firmeza",
+      "nature": "Dócil",
+      "item": "Casco Dentado",
+      "shiny": false,
+      "moves": [
+        "Pikaturbo",
+        "Tinieblas",
+        "Danza Espada",
+        "Cura Selvática"
+      ]
+    },
+    {
+      "nickname": "Coquita",
+      "species": "Sandshrew",
+      "level": 14,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Iluminación",
+      "nature": "Floja",
+      "item": "Polvo Brillo",
+      "shiny": false,
+      "moves": [
+        "Pin Misil",
+        "Acua Aro",
+        "Veneno X",
+        "Palmeo"
+      ]
+    },
+    {
+      "nickname": "Borrador",
+      "species": "Wingull",
+      "level": 14,
+      "types": [
+        "Agua",
+        "Volador"
+      ],
+      "ability": "Manto Níveo",
+      "nature": "Modesta",
+      "item": "Roca Lluvia",
+      "shiny": false,
+      "moves": [
+        "Danza Lluvia",
+        "Cascabel Cura",
+        "Cola Dragón",
+        "Salmuera"
+      ]
+    },
+    {
+      "nickname": "Jair",
+      "species": "Zubat",
+      "level": 14,
+      "types": [
+        "Veneno",
+        "Volador"
+      ],
+      "ability": "Mandíbula Fuerte",
+      "nature": "Alegre",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Brinco",
+        "Danza Espada",
+        "Llave Vital",
+        "Vendetta"
+      ]
+    }
+  ],
+  "box": [
+    {
+      "nickname": "Bubbaloo",
+      "species": "Ditto",
+      "level": 12,
+      "types": [
+        "Normal"
+      ],
+      "ability": "Cortante",
+      "nature": "Afable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Desquite",
+        "Danza Espada"
+      ]
+    },
+    {
+      "nickname": "Dragon bolas",
+      "species": "Axew",
+      "level": 11,
+      "types": [
+        "Dragón"
+      ],
+      "ability": "Primer Auxilio",
+      "nature": "Floja",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Pulimento",
+        "Danza Caos",
+        "Nitrocarga",
+        "Brazo Pincho"
+      ]
+    },
+    {
+      "nickname": "Civi",
+      "species": "Flabebe",
+      "level": 11,
+      "types": [
+        "Hada"
+      ],
+      "ability": "Poder Fúngico",
+      "nature": "Grosera",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Motivación",
+        "Poder Pasado",
+        "Ayuda",
+        "Escalofrio"
+      ]
+    }
+  ],
+  "graveyard": [
+    {
+      "nickname": "Samoa joe",
+      "species": "Makuhita",
+      "level": 14,
+      "types": [
+        "Lucha"
+      ],
+      "ability": "Alma Acerada",
+      "nature": "Huraña",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Tajo Umbrío",
+        "Brinco",
+        "Retracción",
+        "Adaptación"
+      ],
+      "cause": "",
+      "route": "Bosque Verde",
+      "date": ""
+    }
+  ],
+  "captures": [
+    {
+      "route": "ruta_2_sur",
+      "mon": "Duskull",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_22",
+      "mon": "Wingull",
+      "status": "captured"
+    },
+    {
+      "route": "bosque_verde",
+      "mon": "Makuhita",
+      "status": "dead"
+    },
+    {
+      "route": "ruta_2_norte",
+      "mon": "Zubat",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_1",
+      "mon": "Ditto",
+      "status": "captured"
+    }
+  ],
+  "progress": {
+    "gyms": {},
+    "bosses": {},
+    "npcs": {},
+    "routes": {
+      "ruta_2_sur": true,
+      "ruta_22": true,
+      "bosque_verde": true,
+      "ruta_2_norte": true,
+      "ruta_1": true
+    },
+    "items": {}
+  }
+}
