@@ -1,206 +1,194 @@
 {
   "id": "Copy",
-  "name": "Raheem",
+  "name": "COPY",
   "lives": 30,
-  "livesUsed": 1,
+  "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 0h 43m jugadas · 1,337₽ · vidas en el juego: 24",
+  "notes": "Importado del save · 0h 43m jugadas · 23,450₽ · vidas en el juego: 18",
   "team": [
     {
-      "nickname": "Gignac",
-      "species": "Scorbunny",
+      "nickname": "JUAREZ",
+      "species": "Koffing",
+      "level": 14,
+      "types": [
+        "Veneno"
+      ],
+      "ability": "Quitanieves",
+      "nature": "Cauta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Torbellino",
+        "Paz Mental",
+        "Viento Aciago",
+        "Bomba Caramelo"
+      ]
+    },
+    {
+      "nickname": "KUNG LAO",
+      "species": "Hattrem",
+      "level": 14,
+      "types": [
+        "Psíquico"
+      ],
+      "ability": "Inmunidad",
+      "nature": "Modesta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Pistola Agua",
+        "Yo Primero",
+        "Viento Aciago",
+        "Mundo Gélido"
+      ]
+    },
+    {
+      "nickname": "BANANA",
+      "species": "Pichu",
+      "level": 14,
+      "types": [
+        "Eléctrico"
+      ],
+      "ability": "Amor Filial",
+      "nature": "Amable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Corpulencia",
+        "Relajo",
+        "Arrumaco",
+        "Relámpago Súbito"
+      ]
+    },
+    {
+      "nickname": "POCKET",
+      "species": "Charmander",
       "level": 14,
       "types": [
         "Fuego"
       ],
-      "ability": "Caparazón",
-      "nature": "Floja",
+      "ability": "Espejo Mágico",
+      "nature": "Agitada",
       "item": "",
       "shiny": false,
       "moves": [
-        "Desquite",
-        "Nitrocarga",
-        "Chispa",
-        "Vendetta"
+        "Fuego Fatuo",
+        "Ultrapuño",
+        "Voltiocambio",
+        "Nitrocarga"
       ]
     },
     {
-      "nickname": "La Katrina",
-      "species": "Duskull",
+      "nickname": "VERSTAPPEN",
+      "species": "Varoom",
       "level": 14,
       "types": [
-        "Fantasma"
+        "Acero",
+        "Veneno"
       ],
-      "ability": "Firmeza",
-      "nature": "Dócil",
-      "item": "Casco Dentado",
-      "shiny": false,
-      "moves": [
-        "Pikaturbo",
-        "Tinieblas",
-        "Danza Espada",
-        "Cura Selvática"
-      ]
-    },
-    {
-      "nickname": "Coquita",
-      "species": "Sandshrew",
-      "level": 14,
-      "types": [
-        "Tierra"
-      ],
-      "ability": "Iluminación",
+      "ability": "Electromotor",
       "nature": "Floja",
-      "item": "Polvo Brillo",
+      "item": "Brazal Firme",
       "shiny": false,
       "moves": [
-        "Pin Misil",
-        "Acua Aro",
-        "Veneno X",
-        "Palmeo"
-      ]
-    },
-    {
-      "nickname": "Borrador",
-      "species": "Wingull",
-      "level": 14,
-      "types": [
-        "Agua",
-        "Volador"
-      ],
-      "ability": "Manto Níveo",
-      "nature": "Modesta",
-      "item": "Roca Lluvia",
-      "shiny": false,
-      "moves": [
-        "Danza Lluvia",
-        "Cascabel Cura",
-        "Cola Dragón",
-        "Salmuera"
-      ]
-    },
-    {
-      "nickname": "Jair",
-      "species": "Zubat",
-      "level": 14,
-      "types": [
-        "Veneno",
-        "Volador"
-      ],
-      "ability": "Mandíbula Fuerte",
-      "nature": "Alegre",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Brinco",
-        "Danza Espada",
-        "Llave Vital",
-        "Vendetta"
+        "Impresionar",
+        "Ala de Acero",
+        "Espabila",
+        "Arrumaco"
       ]
     }
   ],
   "box": [
     {
-      "nickname": "Bubbaloo",
-      "species": "Ditto",
+      "nickname": "BAMBINA",
+      "species": "Deerling",
       "level": 12,
       "types": [
-        "Normal"
+        "Normal",
+        "Planta"
       ],
-      "ability": "Cortante",
-      "nature": "Afable",
+      "ability": "Coleoptero",
+      "nature": "Ingenua",
       "item": "",
       "shiny": false,
       "moves": [
-        "Desquite",
-        "Danza Espada"
-      ]
-    },
-    {
-      "nickname": "Dragon bolas",
-      "species": "Axew",
-      "level": 11,
-      "types": [
-        "Dragón"
-      ],
-      "ability": "Primer Auxilio",
-      "nature": "Floja",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Pulimento",
-        "Danza Caos",
-        "Nitrocarga",
-        "Brazo Pincho"
-      ]
-    },
-    {
-      "nickname": "Civi",
-      "species": "Flabebe",
-      "level": 11,
-      "types": [
-        "Hada"
-      ],
-      "ability": "Poder Fúngico",
-      "nature": "Grosera",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Motivación",
-        "Poder Pasado",
-        "Ayuda",
-        "Escalofrio"
+        "Último Lugar",
+        "Disparo Lodo",
+        "Pedrada",
+        "Viraje"
       ]
     }
   ],
   "graveyard": [
     {
-      "nickname": "Samoa joe",
-      "species": "Makuhita",
+      "nickname": "TCG",
+      "species": "Gastly",
       "level": 14,
       "types": [
-        "Lucha"
+        "Fantasma",
+        "Veneno"
       ],
-      "ability": "Alma Acerada",
+      "ability": "Ojo Mental",
       "nature": "Huraña",
+      "item": "Roca del Rey",
+      "shiny": false,
+      "moves": [
+        "Carga Tóxica",
+        "Ataque Rápido",
+        "Levitón",
+        "Hilo Venenoso"
+      ],
+      "cause": "",
+      "route": "Laboratorio",
+      "date": ""
+    },
+    {
+      "nickname": "RIGBEE",
+      "species": "Zigzagoon",
+      "level": 9,
+      "types": [
+        "Normal"
+      ],
+      "ability": "Cambio Color",
+      "nature": "Agitada",
       "item": "",
       "shiny": false,
       "moves": [
-        "Tajo Umbrío",
-        "Brinco",
-        "Retracción",
-        "Adaptación"
+        "Garra Metal",
+        "Superdiente",
+        "Brecha Negra",
+        "Danza Espada"
       ],
       "cause": "",
-      "route": "Bosque Verde",
+      "route": "Ruta 1",
       "date": ""
     }
   ],
   "captures": [
     {
       "route": "ruta_2_sur",
-      "mon": "Duskull",
-      "status": "captured"
-    },
-    {
-      "route": "ruta_22",
-      "mon": "Wingull",
+      "mon": "Hattrem",
       "status": "captured"
     },
     {
       "route": "bosque_verde",
-      "mon": "Makuhita",
-      "status": "dead"
+      "mon": "Pichu",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_22",
+      "mon": "Varoom",
+      "status": "captured"
     },
     {
       "route": "ruta_2_norte",
-      "mon": "Zubat",
+      "mon": "Deerling",
       "status": "captured"
     },
     {
       "route": "ruta_1",
-      "mon": "Ditto",
-      "status": "captured"
+      "mon": "Zigzagoon",
+      "status": "dead"
     }
   ],
   "progress": {
@@ -209,8 +197,8 @@
     "npcs": {},
     "routes": {
       "ruta_2_sur": true,
-      "ruta_22": true,
       "bosque_verde": true,
+      "ruta_22": true,
       "ruta_2_norte": true,
       "ruta_1": true
     },
