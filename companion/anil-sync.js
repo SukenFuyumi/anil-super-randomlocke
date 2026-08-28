@@ -30,7 +30,7 @@ function pauseExit(code) {
 const CONFIG_TEMPLATE = {
   playerId: "tu_id",
   saveFolder: "",
-  saveSlot: "auto",
+  saveSlot: "ask",
   github: { owner: "usuario", repo: "anil-randomlocke", branch: "main", token: "github_pat_XXXXXXXX", pathTemplate: "data/players/{id}.json" },
   watch: true,
   dryRun: false
@@ -72,6 +72,45 @@ function findSave(cfg) {
     if (st.mtimeMs > nt) { nt = st.mtimeMs; newest = f; }
   }
   return path.join(dir, newest);
+}
+
+// Pregunta interactiva por consola
+function ask(q) {
+  return new Promise(res => {
+    const rl = require('readline').createInterface({ input: process.stdin, output: process.stdout });
+    rl.question(q, a => { rl.close(); res((a || '').trim()); });
+  });
+}
+// Guarda solo saveSlot en config.json, conservando lo demás tal cual lo escribió el usuario
+function saveSlotToFile(value) {
+  try {
+    const raw = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
+    raw.saveSlot = value;
+    fs.writeFileSync(CONFIG_PATH, JSON.stringify(raw, null, 2));
+  } catch (e) { err('No pude guardar la elección en config.json: ' + e.message); }
+}
+// Primera vez: elegir slot y recordarlo
+async function chooseSlot(cfg) {
+  const dir = cfg.saveFolder;
+  let files = [];
+  try { files = fs.readdirSync(dir).filter(f => /\.rxdata$/i.test(f) && !/\.bak$/i.test(f)); } catch (e) {}
+  if (!files.length) { err('No encontré partidas en ' + dir + '. Usaré "auto".'); cfg.saveSlot = 'auto'; saveSlotToFile('auto'); return; }
+  files.sort();
+  console.log('\n¿Qué partida quieres seguir? (esto solo se pregunta una vez)\n');
+  files.forEach((f, i) => {
+    let m = ''; try { m = new Date(fs.statSync(path.join(dir, f)).mtime).toLocaleString('es'); } catch (e) {}
+    console.log('   [' + (i + 1) + ']  ' + f + '   (último guardado: ' + m + ')');
+  });
+  console.log('   [0]  Automático — usar siempre la partida más reciente\n');
+  let choice = null;
+  while (choice === null) {
+    const a = await ask('Escribe el número y pulsa Enter: ');
+    if (a === '0') choice = 'auto';
+    else { const n = parseInt(a, 10); if (n >= 1 && n <= files.length) choice = files[n - 1]; else console.log('   Opción no válida, inténtalo de nuevo.'); }
+  }
+  cfg.saveSlot = choice;
+  saveSlotToFile(choice);
+  log('Slot elegido: ' + (choice === 'auto' ? 'automático (más reciente)' : choice) + '  → guardado en config.json (no volveré a preguntar).');
 }
 
 // Espera a que el archivo deje de crecer (el juego termina de escribir)
@@ -220,6 +259,10 @@ async function main() {
   if (!cfg.playerId || cfg.playerId === 'tu_id') { err('Falta "playerId" en config.json.'); pauseExit(1); }
   if (!cfg.dryRun && (!cfg.github.token || /XXXX/.test(cfg.github.token))) { err('Falta el token de GitHub en config.json (github.token).'); pauseExit(1); }
   log('Jugador: ' + cfg.playerId + '  |  Repo: ' + cfg.github.owner + '/' + cfg.github.repo + (cfg.dryRun ? '  |  MODO PRUEBA' : ''));
+
+  // Primera vez: preguntar qué slot de guardado usar (se recuerda en config.json)
+  const slot = String(cfg.saveSlot || '').toLowerCase();
+  if (!slot || slot === 'ask' || slot === 'preguntar') await chooseSlot(cfg);
 
   try { log('Save detectado: ' + path.basename(findSave(cfg))); }
   catch (e) { err(e.message); pauseExit(1); }
