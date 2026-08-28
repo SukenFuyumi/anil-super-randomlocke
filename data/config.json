@@ -10,7 +10,13 @@
     "branch": "main"
   },
   "_comentario": "Los líderes van randomizados en equipo pero mantienen identidad, orden y ciudad de Kanto. Edita a tu gusto; los 'id' deben ser únicos y no cambiar una vez creados.",
-  "players": [],
+  "players": [
+    {
+      "id": "AL",
+      "name": "AL",
+      "avatar": "assets/avatars/red.png"
+    }
+  ],
   "_avatarsDisponibles": [
     "assets/avatars/red.png",
     "assets/avatars/blue.png",
