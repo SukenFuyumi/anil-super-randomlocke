@@ -4,6 +4,7 @@
   "season": "2026",
   "totalLives": 30,
   "region": "Kanto",
+  "repo": { "owner": "SukenFuyumi", "name": "anil-super-randomlocke", "branch": "main" },
   "_comentario": "Los líderes van randomizados en equipo pero mantienen identidad, orden y ciudad de Kanto. Edita a tu gusto; los 'id' deben ser únicos y no cambiar una vez creados.",
   "players": [
     {

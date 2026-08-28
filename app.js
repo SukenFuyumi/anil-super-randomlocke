@@ -139,6 +139,7 @@ async function loadPlayer(id) {
 async function loadAllPlayers(config) {
   const out = [];
   for (const p of config.players) {
+    if (p.hidden) continue; // jugadores ocultados por el organizador
     const data = await loadPlayer(p.id);
     out.push({ ...p, data: data || emptyPlayerData(p) });
   }

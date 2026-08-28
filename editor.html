@@ -51,6 +51,7 @@
       <button data-tab="items">Objetos</button>
       <button data-tab="progress">Progreso</button>
       <button data-tab="json">JSON</button>
+      <button data-tab="admin">Jugadores</button>
     </div>
 
     <div class="tab-panel active" id="tab-info"></div>
@@ -61,6 +62,7 @@
     <div class="tab-panel" id="tab-items"></div>
     <div class="tab-panel" id="tab-progress"></div>
     <div class="tab-panel" id="tab-json"></div>
+    <div class="tab-panel" id="tab-admin"></div>
   </main>
 
   <script src="app.js"></script>
@@ -130,6 +132,7 @@
         b.classList.add("active");
         document.getElementById("tab-"+b.dataset.tab).classList.add("active");
         if (b.dataset.tab === "json") renderJSON();
+        if (b.dataset.tab === "admin") renderAdmin();
       });
 
       document.getElementById("saveBtn").onclick = saveDraft;
@@ -363,6 +366,74 @@
     }
 
     function bind(id, fn){ const el=document.getElementById(id); if(el) el.addEventListener("input", ()=>fn(el.value)); }
+
+    // ---------- PANEL DE JUGADORES (admin) ----------
+    const b64utf8 = s => btoa(unescape(encodeURIComponent(s)));
+    const unb64utf8 = s => decodeURIComponent(escape(atob(s)));
+    function adminMsg(t, bad){ const el=document.getElementById("adminMsg"); if(el){ el.textContent=t; el.style.color = bad ? "var(--bad)" : "var(--ok)"; } }
+    function repoInfo(){ const r = CFG.repo || {}; return { owner: r.owner, name: r.name, branch: r.branch || "main" }; }
+    async function gh(method, apiPath, token, body){
+      const res = await fetch("https://api.github.com" + apiPath, {
+        method,
+        headers: { "Authorization": "Bearer " + token, "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28", ...(body?{"Content-Type":"application/json"}:{}) },
+        body: body ? JSON.stringify(body) : undefined
+      });
+      let j = null; try { j = await res.json(); } catch(e){}
+      return { status: res.status, body: j };
+    }
+    async function commitPlayers(mutate, okMsg){
+      const token = (document.getElementById("adminToken").value || "").trim();
+      if(!token){ adminMsg("Pega tu token de GitHub arriba.", true); return; }
+      const r = repoInfo();
+      if(!r.owner || !r.name){ adminMsg("Falta el repo en config.json.", true); return; }
+      const path = `/repos/${r.owner}/${r.name}/contents/data/config.json`;
+      adminMsg("Guardando…");
+      for(let i=0;i<4;i++){
+        const get = await gh("GET", path + "?ref=" + encodeURIComponent(r.branch), token);
+        if(get.status===401){ adminMsg("Token inválido o sin permiso (401).", true); return; }
+        if(get.status!==200 || !get.body || !get.body.content){ adminMsg("No pude leer config.json ("+get.status+").", true); return; }
+        let cfg;
+        try { cfg = JSON.parse(unb64utf8(get.body.content.replace(/\n/g,""))); } catch(e){ adminMsg("config.json remoto ilegible.", true); return; }
+        cfg.players = cfg.players || [];
+        mutate(cfg);
+        const put = await gh("PUT", path, token, { message: "editar jugadores (panel)", content: b64utf8(JSON.stringify(cfg, null, 2)), branch: r.branch, sha: get.body.sha });
+        if(put.status===200 || put.status===201){ CFG = cfg; adminMsg(okMsg); refreshPlayerSelect(); renderAdmin(); return; }
+        if(put.status===409 || put.status===422) continue; // conflicto: reintenta
+        adminMsg("Error al guardar ("+put.status+": "+(put.body&&put.body.message||"")+").", true); return;
+      }
+      adminMsg("No pude guardar tras varios intentos (conflictos).", true);
+    }
+    function refreshPlayerSelect(){
+      const sel = document.getElementById("playerSelect");
+      const cur = sel.value;
+      sel.innerHTML = (CFG.players||[]).map(p=>`<option value="${p.id}">${escapeHtml(p.name)}${p.hidden?" (oculto)":""}</option>`).join("");
+      if([...sel.options].some(o=>o.value===cur)) sel.value = cur;
+    }
+    function adminRename(id, name){ commitPlayers(cfg=>{ const p=cfg.players.find(x=>x.id===id); if(p) p.name=name; }, "Nombre actualizado."); }
+    function adminHide(id, hidden){ commitPlayers(cfg=>{ const p=cfg.players.find(x=>x.id===id); if(p){ if(hidden) p.hidden=true; else delete p.hidden; } }, hidden?"Jugador oculto.":"Jugador visible."); }
+    function adminDelete(id){ if(!confirm("¿Eliminar a \""+id+"\" de la lista? (su ficha data/players/"+id+".json no se borra)\n\nOjo: si su companion sigue abierto, se volverá a añadir solo.")) return; commitPlayers(cfg=>{ cfg.players = cfg.players.filter(x=>x.id!==id); }, "Jugador eliminado."); }
+    function renderAdmin(){
+      const token = localStorage.getItem("anil_admin_token") || "";
+      const rows = (CFG.players||[]).map(p=>{
+        const av = p.avatar ? `<img class="ed-sprite" src="${escapeHtml(p.avatar)}" style="width:38px;height:38px;border-radius:50%">` : `<span class="team-mini-x" style="width:38px;height:38px">${escapeHtml(initials(p.name))}</span>`;
+        return `<div class="ed-mon" style="display:flex;gap:.6rem;align-items:center;flex-wrap:wrap">
+          ${av}
+          <input class="input" style="max-width:170px" value="${escapeHtml(p.name)}" onchange="adminRename('${p.id}', this.value)">
+          <span class="muted" style="font-size:.72rem">id: ${escapeHtml(p.id)}</span>
+          <label class="row" style="gap:.35rem;font-size:.85rem;margin-left:auto"><input type="checkbox" ${p.hidden?"checked":""} onchange="adminHide('${p.id}', this.checked)"> Oculto</label>
+          <button class="btn sm danger" onclick="adminDelete('${p.id}')">Eliminar</button>
+        </div>`;
+      }).join("");
+      document.getElementById("tab-admin").innerHTML = `<div class="panel">
+        <h3 style="margin-top:0">Gestionar jugadores</h3>
+        <p class="muted" style="font-size:.85rem;margin-top:0">Renombra, oculta o elimina jugadores. Los cambios se guardan directamente en la web. Necesita tu token de GitHub (el mismo del companion, con permiso Contents: Read and write).</p>
+        <label class="field"><span>Token de GitHub (se guarda solo en este navegador)</span>
+          <input class="input" type="password" id="adminToken" value="${escapeHtml(token)}" placeholder="github_pat_..."></label>
+        <div style="margin:.9rem 0">${rows || '<p class="muted">No hay jugadores todavía.</p>'}</div>
+        <div id="adminMsg" style="font-size:.85rem;min-height:1.2rem"></div>
+      </div>`;
+      document.getElementById("adminToken").addEventListener("change", e=>localStorage.setItem("anil_admin_token", e.target.value.trim()));
+    }
   </script>
 </body>
 </html>
