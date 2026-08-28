@@ -67,9 +67,56 @@
   <script>
     let CFG, P, currentId;
 
+    async function sha256(s) {
+      const b = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s));
+      return [...new Uint8Array(b)].map(x => x.toString(16).padStart(2, "0")).join("");
+    }
+    async function passGate(cfg) {
+      const hash = cfg.editorPassHash;
+      const main = document.querySelector("main.container");
+      if (hash) {
+        if (localStorage.getItem("anil_editor_auth") === hash) return true;
+        main.innerHTML = `<div class="panel" style="max-width:440px;margin:3rem auto">
+          <h2 style="margin-top:0">Editor privado 🔒</h2>
+          <p class="muted">Introduce la contraseña del organizador.</p>
+          <input id="gp" class="input" type="password" placeholder="Contraseña" autofocus>
+          <div id="gm" style="color:var(--bad);font-size:.82rem;min-height:1.1rem;margin:.4rem 0"></div>
+          <button id="gb" class="btn primary" style="width:100%">Entrar</button></div>`;
+        const go = async () => {
+          const h = await sha256(document.getElementById("gp").value);
+          if (h === hash) { localStorage.setItem("anil_editor_auth", hash); location.reload(); }
+          else document.getElementById("gm").textContent = "Contraseña incorrecta.";
+        };
+        document.getElementById("gb").onclick = go;
+        document.getElementById("gp").addEventListener("keydown", e => { if (e.key === "Enter") go(); });
+        return false;
+      }
+      // Sin contraseña configurada aún
+      if (sessionStorage.getItem("anil_gate_skip")) return true;
+      main.innerHTML = `<div class="panel" style="max-width:560px;margin:3rem auto">
+        <h2 style="margin-top:0">Proteger el editor</h2>
+        <p class="muted">El editor todavía no tiene contraseña. Escribe una y pulsa <b>Generar código</b>; pega el resultado en <code>data/config.json</code> y súbelo. Desde entonces el editor pedirá esa contraseña a todos.</p>
+        <input id="sp" class="input" type="password" placeholder="Nueva contraseña">
+        <button id="sb" class="btn primary" style="margin:.5rem 0;width:100%">Generar código</button>
+        <div id="sr" style="display:none">
+          <p class="muted" style="font-size:.82rem;margin:.4rem 0 .2rem">Añade esta línea dentro de <code>{ ... }</code> en config.json (p. ej. tras <code>"region": "Kanto",</code>):</p>
+          <textarea class="input" id="so" readonly rows="2" style="font-family:monospace"></textarea>
+        </div>
+        <button id="cont" class="btn" style="width:100%;margin-top:1rem">Entrar al editor sin proteger</button></div>`;
+      document.getElementById("sb").onclick = async () => {
+        const h = await sha256(document.getElementById("sp").value);
+        document.getElementById("sr").style.display = "block";
+        document.getElementById("so").value = `"editorPassHash": "${h}",`;
+      };
+      return new Promise(res => {
+        document.getElementById("cont").onclick = () => { sessionStorage.setItem("anil_gate_skip", "1"); location.reload(); };
+      });
+    }
+
     (async function () {
       CFG = await loadConfig();
       renderHeader("editor.html");
+      if (!(await passGate(CFG))) return;
       const sel = document.getElementById("playerSelect");
       sel.innerHTML = (CFG.players||[]).map((p)=>`<option value="${p.id}">${escapeHtml(p.name)}</option>`).join("");
       sel.addEventListener("change", () => selectPlayer(sel.value));

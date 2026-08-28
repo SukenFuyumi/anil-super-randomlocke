@@ -40,7 +40,6 @@ const NAV = [
   { href: "objetos.html", label: "Objetos" },
   { href: "torneos.html", label: "Torneos" },
   { href: "reglas.html", label: "Reglas" },
-  { href: "editor.html", label: "Editor" },
 ];
 
 function renderHeader(active) {
