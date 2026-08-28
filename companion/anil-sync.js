@@ -140,6 +140,36 @@ function loadMapNames() {
   return _mapNames;
 }
 
+// Auto-registro: añade al jugador a la lista de config.json si no está (una sola vez).
+let registered = false;
+async function ensureRegistered(cfg, data) {
+  if (registered) return;
+  const rel = (cfg.github.configPath) || 'data/config.json';
+  const apiPath = `/repos/${cfg.github.owner}/${cfg.github.repo}/contents/${rel}`;
+  for (let attempt = 0; attempt < 4; attempt++) {
+    const get = await apiRequest('GET', apiPath + '?ref=' + encodeURIComponent(cfg.github.branch), cfg.github.token);
+    if (get.status !== 200 || !get.body || !get.body.content) { err('No pude leer config.json para el alta automática (' + get.status + ').'); return; }
+    let cj;
+    try { cj = JSON.parse(Buffer.from(get.body.content, 'base64').toString('utf8')); }
+    catch (e) { err('config.json remoto ilegible, omito el alta automática.'); return; }
+    cj.players = cj.players || [];
+    if (cj.players.some(p => p.id === cfg.playerId)) { registered = true; return; }
+    const used = new Set(cj.players.map(p => p.avatar).filter(Boolean));
+    const pool = cj._avatarsDisponibles || [];
+    const avatar = pool.find(a => !used.has(a)) || (pool.length ? pool[cj.players.length % pool.length] : '');
+    cj.players.push({ id: cfg.playerId, name: data.name || cfg.playerId, avatar });
+    const put = await apiRequest('PUT', apiPath, cfg.github.token, {
+      message: `alta jugador ${cfg.playerId}`,
+      content: Buffer.from(JSON.stringify(cj, null, 2), 'utf8').toString('base64'),
+      branch: cfg.github.branch, sha: get.body.sha
+    });
+    if (put.status === 200 || put.status === 201) { registered = true; log('✓ Jugador "' + cfg.playerId + '" añadido a la lista de la web.'); return; }
+    if (put.status === 409 || put.status === 422) continue; // conflicto con otra alta: reintenta
+    err('No pude registrar al jugador (' + put.status + ': ' + (put.body && put.body.message || '') + ').'); return;
+  }
+  err('No pude registrar al jugador tras varios intentos (conflictos simultáneos).');
+}
+
 let lastHash = null;
 
 async function syncOnce(cfg, reason) {
@@ -162,6 +192,7 @@ async function syncOnce(cfg, reason) {
 
   try {
     await upload(cfg, jsonStr);
+    await ensureRegistered(cfg, data);
     lastHash = hash;
     log('✓ Subido a GitHub (' + reason + '): ' + summary);
   } catch (e) { err('Falló la subida: ' + e.message); }

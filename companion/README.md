@@ -8,6 +8,8 @@ Funciona leyendo el save `.rxdata` (Pokémon Essentials v21) y subiéndolo al re
 
 ## Para el jugador (uso)
 
+> **Auto-registro:** no hace falta que el organizador te añada a mano. La primera vez que sincronizas, tu jugador se crea solo en la web (con tu `playerId` y tu nombre del juego). El organizador puede renombrarte luego en `data/config.json` si quiere.
+
 1. Descarga **`AnilSync.exe`** (carpeta `dist/`) y ponlo en una carpeta suya, p. ej. `C:\AnilSync\`.
 2. **Doble clic** una vez. Se creará un archivo **`config.json`** al lado y se cerrará pidiendo que lo rellenes.
 3. Abre `config.json` con el Bloc de notas y rellena:

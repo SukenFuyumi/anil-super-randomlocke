@@ -10,16 +10,6 @@
       "id": "suken",
       "name": "Suken",
       "avatar": "assets/avatars/red.png"
-    },
-    {
-      "id": "jugador2",
-      "name": "Jugador 2",
-      "avatar": "assets/avatars/ethan.png"
-    },
-    {
-      "id": "jugador3",
-      "name": "Jugador 3",
-      "avatar": "assets/avatars/may.png"
     }
   ],
   "_avatarsDisponibles": [

@@ -50,6 +50,9 @@
 
       // ---- Tarjetas de jugador ----
       const grid = document.getElementById("players");
+      if (!players.length) {
+        grid.innerHTML = `<p class="empty-state">Aún no hay jugadores. Cada participante aparece aquí automáticamente en cuanto ejecuta el programa <strong>AnilSync</strong> y guarda su partida.</p>`;
+      } else
       grid.innerHTML = players.map((p) => {
         const s = playerStats(p.data);
         const pct = Math.round((s.livesLeft / s.lives) * 100);
