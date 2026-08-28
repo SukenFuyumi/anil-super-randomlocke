@@ -62,7 +62,7 @@ function renderHeader(active) {
 function renderFooter() {
   const f = document.createElement("footer");
   f.className = "site-footer";
-  f.innerHTML = `Pokémon Añil — Super Randomlocke · sitio hecho con el diseño de <a href="https://sukenfuyumi.github.io/" target="_blank" rel="noopener">Cobbleverse Dex</a>. Los datos se editan en la sección <a href="editor.html">Editor</a>.`;
+  f.innerHTML = `Pokémon Añil — Super Randomlocke · 2026.`;
   document.body.appendChild(f);
 }
 
