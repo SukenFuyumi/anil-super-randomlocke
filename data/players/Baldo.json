@@ -121,24 +121,70 @@
   "graveyard": [],
   "captures": [
     {
+      "route": "",
+      "where": "Laboratorio",
+      "species": "Chimchar",
+      "nickname": "goku",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Chimchar"
+    },
+    {
       "route": "ruta_1",
-      "mon": "Pumpkaboo",
-      "status": "captured"
+      "where": "Ruta 1",
+      "species": "Pumpkaboo",
+      "nickname": "lola",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 3,
+      "mon": "Pumpkaboo"
+    },
+    {
+      "route": "ciudad_verde",
+      "where": "Ciudad Verde",
+      "species": "Skiddo",
+      "nickname": "faker",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 4,
+      "mon": "Skiddo"
     },
     {
       "route": "ruta_2_sur",
-      "mon": "Skitty",
-      "status": "captured"
+      "where": "Ruta 2 Sur",
+      "species": "Skitty",
+      "nickname": "gato",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 6,
+      "mon": "Skitty"
     },
     {
       "route": "bosque_verde",
-      "mon": "Voltorb",
-      "status": "captured"
+      "where": "Bosque Verde",
+      "species": "Voltorb",
+      "nickname": "toni",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 6,
+      "mon": "Voltorb"
     },
     {
       "route": "ruta_2_norte",
-      "mon": "Ledyba",
-      "status": "captured"
+      "where": "Ruta 2 Norte",
+      "species": "Ledyba",
+      "nickname": "el bicho",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 9,
+      "mon": "Ledyba"
     }
   ],
   "progress": {
@@ -147,10 +193,13 @@
     "npcs": {},
     "routes": {
       "ruta_1": true,
+      "ciudad_verde": true,
       "ruta_2_sur": true,
       "bosque_verde": true,
       "ruta_2_norte": true,
-      "ruta_22": true
+      "pueblo_paleta": true,
+      "ruta_22": true,
+      "ciudad_plateada": true
     },
     "items": {}
   }
