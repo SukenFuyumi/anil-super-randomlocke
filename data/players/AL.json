@@ -4,26 +4,8 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 5h 21m jugadas · 39,590₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 5h 26m jugadas · 43,040₽ · vidas en el juego: ?",
   "team": [
-    {
-      "nickname": "ElFokas",
-      "species": "Brionne",
-      "level": 23,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Alas Vendaval",
-      "nature": "Seria",
-      "item": "Incienso Suave",
-      "shiny": false,
-      "moves": [
-        "Impactrueno",
-        "Rayo Burbuja",
-        "Arenas Ardientes",
-        "Empapar"
-      ]
-    },
     {
       "nickname": "McPato",
       "species": "Psyduck",
@@ -40,6 +22,24 @@
         "Ciclón de Hojas",
         "Calamidad",
         "Viraje"
+      ]
+    },
+    {
+      "nickname": "ElFokas",
+      "species": "Brionne",
+      "level": 23,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Alas Vendaval",
+      "nature": "Seria",
+      "item": "Incienso Suave",
+      "shiny": false,
+      "moves": [
+        "Impactrueno",
+        "Rayo Burbuja",
+        "Arenas Ardientes",
+        "Empapar"
       ]
     },
     {
@@ -388,6 +388,24 @@
         "Fanfarronear",
         "Marcha Espectral"
       ]
+    },
+    {
+      "nickname": "RAMBO",
+      "species": "Machoke",
+      "level": 21,
+      "types": [
+        "Lucha"
+      ],
+      "ability": "Compiescolta",
+      "nature": "Fuerte",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Ala de Acero",
+        "Homenaje Póstumo",
+        "Cola Dragón",
+        "Puño Jet"
+      ]
     }
   ],
   "graveyard": [],
@@ -441,11 +459,17 @@
       "route": "ruta_2_sur",
       "mon": "Cubone",
       "status": "captured"
+    },
+    {
+      "route": "ruta_5",
+      "mon": "Machoke",
+      "status": "captured"
     }
   ],
   "progress": {
     "gyms": {
-      "gym1": true
+      "gym1": true,
+      "gym2": true
     },
     "bosses": {},
     "npcs": {},
@@ -460,6 +484,7 @@
       "ruta_20": true,
       "ruta_2_norte": true,
       "ruta_2_sur": true,
+      "ruta_5": true,
       "ruta_3": true
     },
     "items": {}
