@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 26m jugadas · 2,960₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 0h 30m jugadas · 2,960₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "GREYMON",
       "species": "Dratini",
-      "level": 8,
+      "level": 14,
       "types": [
         "Dragón"
       ],
@@ -27,7 +27,7 @@
     {
       "nickname": "KING",
       "species": "Poliwag",
-      "level": 9,
+      "level": 14,
       "types": [
         "Agua"
       ],
@@ -45,7 +45,7 @@
     {
       "nickname": "SMEGMA",
       "species": "Slugma",
-      "level": 8,
+      "level": 14,
       "types": [
         "Fuego"
       ],
@@ -63,7 +63,7 @@
     {
       "nickname": "CONEJO BLAZ",
       "species": "Bunnelby",
-      "level": 4,
+      "level": 14,
       "types": [
         "Normal"
       ],
@@ -73,9 +73,27 @@
       "shiny": false,
       "moves": [
         "Brazo Pincho",
-        "Tragar",
+        "Falso Tortazo",
         "Arraigo",
-        "Imitación"
+        "Protección"
+      ]
+    },
+    {
+      "nickname": "MOTITA2",
+      "species": "Flabebe",
+      "level": 14,
+      "types": [
+        "Hada"
+      ],
+      "ability": "Velo Pastel",
+      "nature": "Cauta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Viento Feérico",
+        "Levitón",
+        "Follaje",
+        "Cortina Plasma"
       ]
     }
   ],
@@ -85,6 +103,11 @@
     {
       "route": "ruta_1",
       "mon": "Slugma",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_22",
+      "mon": "Flabebe",
       "status": "captured"
     }
   ],
