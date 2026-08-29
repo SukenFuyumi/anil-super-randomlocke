@@ -219,8 +219,16 @@
   ],
   "routes": [
     {
+      "id": "pueblo_paleta",
+      "name": "Pueblo Paleta"
+    },
+    {
       "id": "ruta_1",
       "name": "Ruta 1"
+    },
+    {
+      "id": "ciudad_verde",
+      "name": "Ciudad Verde"
     },
     {
       "id": "ruta_22",
@@ -239,6 +247,10 @@
       "name": "Bosque Verde"
     },
     {
+      "id": "ciudad_plateada",
+      "name": "Ciudad Plateada"
+    },
+    {
       "id": "ruta_3",
       "name": "Ruta 3"
     },
@@ -255,6 +267,10 @@
       "name": "Ruta 4"
     },
     {
+      "id": "ciudad_celeste",
+      "name": "Ciudad Celeste"
+    },
+    {
       "id": "ruta_20",
       "name": "Ruta 20"
     },
@@ -265,6 +281,10 @@
     {
       "id": "ruta_6",
       "name": "Ruta 6"
+    },
+    {
+      "id": "ciudad_carmin",
+      "name": "Ciudad Carmín"
     },
     {
       "id": "ruta_15",
@@ -291,6 +311,10 @@
       "name": "Túnel Roca"
     },
     {
+      "id": "pueblo_lavanda",
+      "name": "Pueblo Lavanda"
+    },
+    {
       "id": "torre_pokemon",
       "name": "Torre Pokémon"
     },
@@ -303,12 +327,20 @@
       "name": "Ruta 7"
     },
     {
+      "id": "ciudad_azulona",
+      "name": "Ciudad Azulona"
+    },
+    {
       "id": "ruta_12",
       "name": "Ruta 12"
     },
     {
       "id": "ruta_11",
       "name": "Ruta 11"
+    },
+    {
+      "id": "pueblo_marengo",
+      "name": "Pueblo Marengo"
     },
     {
       "id": "ruta_13",
@@ -319,12 +351,20 @@
       "name": "Ruta 14"
     },
     {
+      "id": "ciudad_fucsia",
+      "name": "Ciudad Fucsia"
+    },
+    {
       "id": "ruta_16",
       "name": "Ruta 16"
     },
     {
       "id": "ruta_17",
       "name": "Ruta 17"
+    },
+    {
+      "id": "ciudad_azafran",
+      "name": "Ciudad Azafrán"
     },
     {
       "id": "ruta_18",
@@ -385,6 +425,10 @@
     {
       "id": "ruta_25_norte",
       "name": "Ruta 25 Norte"
+    },
+    {
+      "id": "ciudad_anil",
+      "name": "Ciudad Añil"
     },
     {
       "id": "cueva_celeste",

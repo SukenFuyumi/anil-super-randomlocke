@@ -129,7 +129,14 @@
         ${trainerChecklist(cfg.npcs||[], data.progress?.npcs)}`;
 
       // ----- Capturas (pestaña propia) -----
-      const caps = data.captures || [];
+      // correcciones manuales del organizador (el save no distingue regalo/comprado de salvaje)
+      const capOverrides = (cfg.captureOverrides && cfg.captureOverrides[id]) || [];
+      const applyOverride = (c) => {
+        const ov = capOverrides.find((o) => normName(o.species) === normName(c.species || c.mon) && (!o.where || o.where === c.where));
+        if (ov) { c.category = ov.category; if (ov.category !== "salvaje" && ov.category !== "ciudad") c.route = ""; }
+        return c;
+      };
+      const caps = (data.captures || []).map((c) => applyOverride({ ...c })).filter((c) => c.category !== "ignore");
       const capLink = (c) => {
         const sp = c.species || c.mon || "?";
         const inner = `${escapeHtml(c.nickname || sp)}${c.shiny ? " " + shinyStar(10) : ""}${c.nickname ? ` <span style="opacity:.7">(${escapeHtml(sp)})</span>` : ""}`;

@@ -41,15 +41,15 @@ function mon(p) {
 
 // zonas de captura (mismas reglas que gen-routes.js / config.routes)
 const SLUG = n => n.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
-// Zonas salvajes (con hierba/encuentros) — SOLO estas cuentan como captura de ruta
-const ROUTE_RE = /(ruta|bosque|monte|cueva|t[uú]nel|zona safari|safari|isla|caminos|catarata|central energ|roca|mansi[oó]n|torre|calle victoria|meseta|volc[aá]n|islas espuma)/i;
+// Zonas con encuentros (rutas/cuevas/bosques Y ciudades/pueblos: en Añil también tienen hierba/pesca)
+const ZONE_RE = /(ruta|bosque|monte|cueva|t[uú]nel|zona safari|safari|isla|caminos|catarata|central energ|roca|mansi[oó]n|torre|calle victoria|meseta|volc[aá]n|islas espuma|ciudad|pueblo)/i;
 const ENC_INT = /(casa|gimnasio|centro pok|tienda|laboratorio|liga|barco|guarida|museo|club|intro|ss anne|s\.s\.)/i;
 const CITY_RE = /(ciudad|pueblo)/i;
 
 function extract(buf, playerId, opts = {}) {
   const mapNames = opts.mapNames || null; // { "3": "Ruta 3", ... } opcional
   const mapName = id => (mapNames && id != null && mapNames[String(id)]) || '';
-  const routeSlug = id => { const n = mapName(id); if (!n) return null; return (ROUTE_RE.test(n) && !ENC_INT.test(n)) ? SLUG(n) : null; };
+  const routeSlug = id => { const n = mapName(id); if (!n) return null; return (ZONE_RE.test(n) && !ENC_INT.test(n)) ? SLUG(n) : null; };
   const { root } = parse(buf);
   const player = hget(root, 'player');
   const gm = hget(root, 'global_metadata');
@@ -69,15 +69,14 @@ function extract(buf, playerId, opts = {}) {
     if (method === 2) return 'intercambio';
     if (method === 4) return 'don_prodigio';
     const name = mapName(iv(p, '@obtain_map'));
-    if (name && ROUTE_RE.test(name) && !ENC_INT.test(name)) return 'salvaje';
-    if (name && CITY_RE.test(name)) return 'ciudad';
+    if (name && ZONE_RE.test(name) && !ENC_INT.test(name)) return CITY_RE.test(name) ? 'ciudad' : 'salvaje';
     return 'estatico_regalo'; // método 0 en interior/lab/museo/especial
   };
   const recordCapture = (p, dead) => {
     const oid = iv(p, '@obtain_map');
     const cat = categoryOf(p);
-    // solo las salvajes ocupan una "ruta" (regla de 1 captura por ruta)
-    const slug = cat === 'salvaje' ? routeSlug(oid) : '';
+    // salvaje y ciudad ocupan una "zona" (regla de 1 captura por zona)
+    const slug = (cat === 'salvaje' || cat === 'ciudad') ? routeSlug(oid) : '';
     if (slug) routesVisited[slug] = true;
     captures.push({
       route: slug || '',

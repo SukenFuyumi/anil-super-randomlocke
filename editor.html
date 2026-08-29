@@ -52,6 +52,7 @@
       <button data-tab="progress">Progreso</button>
       <button data-tab="json">JSON</button>
       <button data-tab="admin">Jugadores</button>
+      <button data-tab="fixes">Correcciones</button>
     </div>
 
     <div class="tab-panel active" id="tab-info"></div>
@@ -63,6 +64,7 @@
     <div class="tab-panel" id="tab-progress"></div>
     <div class="tab-panel" id="tab-json"></div>
     <div class="tab-panel" id="tab-admin"></div>
+    <div class="tab-panel" id="tab-fixes"></div>
   </main>
 
   <script src="app.js"></script>
@@ -133,6 +135,7 @@
         document.getElementById("tab-"+b.dataset.tab).classList.add("active");
         if (b.dataset.tab === "json") renderJSON();
         if (b.dataset.tab === "admin") renderAdmin();
+        if (b.dataset.tab === "fixes") renderFixes();
       });
 
       document.getElementById("saveBtn").onclick = saveDraft;
@@ -410,6 +413,56 @@
       if([...sel.options].some(o=>o.value===cur)) sel.value = cur;
     }
     function adminRename(id, val){ commitPlayers(cfg=>{ const p=cfg.players.find(x=>x.id===id); if(p){ const v=(val||"").trim(); if(v) p.displayName=v; else delete p.displayName; } }, "Nombre actualizado."); }
+
+    // ---------- CORRECCIONES DE CAPTURAS ----------
+    const FIX_CATS = [["","(auto)"],["salvaje","Salvaje"],["ciudad","Ciudad"],["estatico_regalo","Estático / Regalo"],["intercambio","Intercambio"],["don_prodigio","Don Prodigio"],["huevo","Huevo"],["ignore","No contar"]];
+    async function renderFixes(){
+      const el = document.getElementById("tab-fixes");
+      el.innerHTML = `<div class="panel"><p class="muted">Cargando capturas de <b>${escapeHtml(currentId)}</b>…</p></div>`;
+      const data = await loadJSON("data/players/" + currentId + ".json");
+      const caps = (data && data.captures) || [];
+      const overrides = (CFG.captureOverrides && CFG.captureOverrides[currentId]) || [];
+      const ovOf = (c) => { const o = overrides.find(o => normName(o.species)===normName(c.species||c.mon) && (!o.where || o.where===(c.where||""))); return o ? o.category : ""; };
+      if (!caps.length) { el.innerHTML = `<div class="panel"><p class="muted">"${escapeHtml(currentId)}" aún no tiene capturas sincronizadas.</p></div>`; return; }
+      el.innerHTML = `<div class="panel">
+        <h3 style="margin-top:0">Correcciones de capturas — ${escapeHtml(currentId)}</h3>
+        <p class="muted" style="font-size:.85rem;margin-top:0">El save no distingue regalo/comprado/estático de una captura salvaje en zonas con hierba. Aquí recategorizas capturas concretas; "(auto)" deja lo detectado. Se guarda en la web.</p>
+        <label class="field"><span>Token de GitHub</span><input class="input" type="password" id="fixToken" value="${escapeHtml(localStorage.getItem("anil_admin_token")||"")}" placeholder="github_pat_..."></label>
+        <div style="margin:.8rem 0">${caps.map((c)=>`
+          <div class="ed-mon" style="display:flex;gap:.6rem;align-items:center;flex-wrap:wrap">
+            <span>${c.nickname?escapeHtml(c.nickname)+" ":""}<strong>${escapeHtml(c.species||c.mon)}</strong> <span class="muted" style="font-size:.74rem">@${escapeHtml(c.where||c.route||"?")}${c.shiny?" ✦":""} · ${escapeHtml(c.category||"?")}</span></span>
+            <select class="input fix-sel" data-sp="${escapeHtml(c.species||c.mon)}" data-where="${escapeHtml(c.where||"")}" style="max-width:190px;margin-left:auto">
+              ${FIX_CATS.map(([v,l])=>`<option value="${v}"${ovOf(c)===v?" selected":""}>${l}</option>`).join("")}
+            </select>
+          </div>`).join("")}</div>
+        <div class="btn-row"><button class="btn primary" id="fixSave">Guardar correcciones</button></div>
+        <div id="fixMsg" style="font-size:.85rem;min-height:1.2rem;margin-top:.4rem"></div>
+      </div>`;
+      document.getElementById("fixToken").addEventListener("change", e=>localStorage.setItem("anil_admin_token", e.target.value.trim()));
+      document.getElementById("fixSave").onclick = saveFixes;
+    }
+    async function saveFixes(){
+      const msg = document.getElementById("fixMsg");
+      const token = (document.getElementById("fixToken").value||"").trim();
+      if(!token){ msg.style.color="var(--bad)"; msg.textContent="Pega tu token de GitHub."; return; }
+      const ovs = [];
+      document.querySelectorAll("#tab-fixes .fix-sel").forEach(s=>{ if(s.value){ const o={species:s.dataset.sp, category:s.value}; if(s.dataset.where) o.where=s.dataset.where; ovs.push(o); } });
+      const r = repoInfo(); const path = `/repos/${r.owner}/${r.name}/contents/data/config.json`;
+      msg.style.color="var(--text-muted)"; msg.textContent="Guardando…";
+      for(let i=0;i<4;i++){
+        const get = await gh("GET", path+"?ref="+encodeURIComponent(r.branch), token);
+        if(get.status===401){ msg.style.color="var(--bad)"; msg.textContent="Token inválido (401)."; return; }
+        if(get.status!==200 || !get.body || !get.body.content){ msg.style.color="var(--bad)"; msg.textContent="No pude leer config ("+get.status+")."; return; }
+        let cfg; try { cfg = JSON.parse(unb64utf8(get.body.content.replace(/\n/g,""))); } catch(e){ msg.style.color="var(--bad)"; msg.textContent="config ilegible."; return; }
+        cfg.captureOverrides = cfg.captureOverrides || {};
+        if(ovs.length) cfg.captureOverrides[currentId] = ovs; else delete cfg.captureOverrides[currentId];
+        const put = await gh("PUT", path, token, { message:"correcciones de capturas "+currentId, content:b64utf8(JSON.stringify(cfg,null,2)), branch:r.branch, sha:get.body.sha });
+        if(put.status===200||put.status===201){ CFG=cfg; msg.style.color="var(--ok)"; msg.textContent="✓ Guardado ("+ovs.length+" correcciones). Se verá en la web en ~1 min."; return; }
+        if(put.status===409||put.status===422) continue;
+        msg.style.color="var(--bad)"; msg.textContent="Error al guardar ("+put.status+")."; return;
+      }
+      msg.style.color="var(--bad)"; msg.textContent="Conflictos, inténtalo otra vez.";
+    }
     function adminHide(id, hidden){ commitPlayers(cfg=>{ const p=cfg.players.find(x=>x.id===id); if(p){ if(hidden) p.hidden=true; else delete p.hidden; } }, hidden?"Jugador oculto.":"Jugador visible."); }
     function adminDelete(id){ if(!confirm("¿Eliminar a \""+id+"\" de la lista? (su ficha data/players/"+id+".json no se borra)\n\nOjo: si su companion sigue abierto, se volverá a añadir solo.")) return; commitPlayers(cfg=>{ cfg.players = cfg.players.filter(x=>x.id!==id); }, "Jugador eliminado."); }
     function renderAdmin(){
