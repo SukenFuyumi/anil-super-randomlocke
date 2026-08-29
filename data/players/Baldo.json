@@ -1,0 +1,37 @@
+{
+  "id": "Baldo",
+  "name": "Baldo",
+  "lives": 30,
+  "livesUsed": 0,
+  "champion": false,
+  "notes": "Importado del save · 0h 10m jugadas · 2,960₽ · vidas en el juego: ?",
+  "team": [
+    {
+      "nickname": "goku",
+      "species": "Chimchar",
+      "level": 5,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "Rompemoldes",
+      "nature": "Ingenua",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Sustituto",
+        "Defensa Férrea",
+        "Veneno X"
+      ]
+    }
+  ],
+  "box": [],
+  "graveyard": [],
+  "captures": [],
+  "progress": {
+    "gyms": {},
+    "bosses": {},
+    "npcs": {},
+    "routes": {},
+    "items": {}
+  }
+}
