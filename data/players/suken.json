@@ -117,7 +117,8 @@
     "npcs": {},
     "routes": {
       "ruta_1": true,
-      "ruta_22": true
+      "ruta_22": true,
+      "ruta_2_sur": true
     },
     "items": {}
   }
