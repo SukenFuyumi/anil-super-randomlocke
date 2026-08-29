@@ -4,8 +4,26 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 3h 30m jugadas · 17,860₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 33m jugadas · 17,860₽ · vidas en el juego: ?",
   "team": [
+    {
+      "nickname": "PUTA MIERDA2",
+      "species": "Raticate",
+      "level": 23,
+      "types": [
+        "Normal"
+      ],
+      "ability": "Garra Dura",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Rodillo de Púas",
+        "Asalto Barrera",
+        "Mordisco",
+        "Daño Secreto"
+      ]
+    },
     {
       "nickname": "GASPARIN",
       "species": "Poltchageist",
@@ -23,24 +41,6 @@
         "Patada Tropical",
         "Campo de Hierba",
         "Marcha Espectral"
-      ]
-    },
-    {
-      "nickname": "CRAWLER",
-      "species": "Corphish",
-      "level": 23,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Gran Encanto",
-      "nature": "Osada",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Aguijón Letal",
-        "Llave Giro",
-        "Tenaza",
-        "Puño Bala"
       ]
     },
     {
@@ -89,7 +89,7 @@
       ],
       "ability": "Compiescolta",
       "nature": "Plácida",
-      "item": "",
+      "item": "Lupa",
       "shiny": false,
       "moves": [
         "Marcha Espectral",
@@ -99,21 +99,21 @@
       ]
     },
     {
-      "nickname": "PUTA MIERDA2",
-      "species": "Raticate",
+      "nickname": "CRAWLER",
+      "species": "Corphish",
       "level": 23,
       "types": [
-        "Normal"
+        "Agua"
       ],
-      "ability": "Garra Dura",
-      "nature": "Plácida",
+      "ability": "Gran Encanto",
+      "nature": "Osada",
       "item": "",
       "shiny": false,
       "moves": [
-        "Rodillo de Púas",
-        "Asalto Barrera",
-        "Mordisco",
-        "Daño Secreto"
+        "Aguijón Letal",
+        "Llave Giro",
+        "Tenaza",
+        "Puño Bala"
       ]
     }
   ],
@@ -288,8 +288,8 @@
   ],
   "captures": [
     {
-      "route": "ruta_2_sur",
-      "mon": "Corphish",
+      "route": "monte_moon",
+      "mon": "Raticate",
       "status": "captured"
     },
     {
@@ -298,8 +298,8 @@
       "status": "captured"
     },
     {
-      "route": "monte_moon",
-      "mon": "Raticate",
+      "route": "ruta_2_sur",
+      "mon": "Corphish",
       "status": "captured"
     },
     {
@@ -335,9 +335,9 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_2_sur": true,
-      "ruta_22": true,
       "monte_moon": true,
+      "ruta_22": true,
+      "ruta_2_sur": true,
       "ruta_3": true,
       "monte_moon_exterior": true,
       "ruta_1": true,
