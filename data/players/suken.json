@@ -4,25 +4,25 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 3h 20m jugadas · 15,040₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 23m jugadas · 17,860₽ · vidas en el juego: ?",
   "team": [
     {
-      "nickname": "TECATA",
-      "species": "Ivysaur",
+      "nickname": "GASPARIN",
+      "species": "Poltchageist",
       "level": 23,
       "types": [
         "Planta",
-        "Veneno"
+        "Fantasma"
       ],
-      "ability": "Compiescolta",
-      "nature": "Plácida",
+      "ability": "Recogida",
+      "nature": "Osada",
       "item": "",
       "shiny": false,
       "moves": [
-        "Marcha Espectral",
-        "Bostezo",
-        "Bálsamo Osado",
-        "Bomba Caramelo"
+        "Magnitud",
+        "Patada Tropical",
+        "Campo de Hierba",
+        "Marcha Espectral"
       ]
     },
     {
@@ -80,22 +80,22 @@
       ]
     },
     {
-      "nickname": "GASPARIN",
-      "species": "Poltchageist",
+      "nickname": "TECATA",
+      "species": "Ivysaur",
       "level": 23,
       "types": [
         "Planta",
-        "Fantasma"
+        "Veneno"
       ],
-      "ability": "Recogida",
-      "nature": "Osada",
+      "ability": "Compiescolta",
+      "nature": "Plácida",
       "item": "",
       "shiny": false,
       "moves": [
-        "Magnitud",
-        "Patada Tropical",
-        "Campo de Hierba",
-        "Marcha Espectral"
+        "Marcha Espectral",
+        "Bostezo",
+        "Bálsamo Osado",
+        "Bomba Caramelo"
       ]
     }
   ],
