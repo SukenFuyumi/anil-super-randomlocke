@@ -274,44 +274,158 @@
   ],
   "captures": [
     {
+      "route": "",
+      "where": "Laboratorio",
+      "species": "Golbat",
+      "nickname": "Vampi",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Golbat"
+    },
+    {
       "route": "ruta_1",
-      "mon": "Phantump",
-      "status": "captured"
+      "where": "Ruta 1",
+      "species": "Phantump",
+      "nickname": "Tonquito ",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 4,
+      "mon": "Phantump"
     },
     {
       "route": "ruta_3",
-      "mon": "Corvisquire",
-      "status": "captured"
+      "where": "Ruta 3",
+      "species": "Corvisquire",
+      "nickname": "Taxi",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 13,
+      "mon": "Corvisquire"
     },
     {
       "route": "monte_moon_exterior",
-      "mon": "Cranidos",
-      "status": "captured"
+      "where": "Monte Moon Exterior",
+      "species": "Cranidos",
+      "nickname": "Fola03",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 14,
+      "mon": "Cranidos"
+    },
+    {
+      "route": "ciudad_verde",
+      "where": "Ciudad Verde",
+      "species": "Phanpy",
+      "nickname": "Dumbo",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 6,
+      "mon": "Phanpy"
     },
     {
       "route": "ruta_20",
-      "mon": "Nidorino",
-      "status": "captured"
+      "where": "Ruta 20",
+      "species": "Nidorino",
+      "nickname": "Reymo",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 18,
+      "mon": "Nidorino"
+    },
+    {
+      "route": "",
+      "where": "Museo Pokémon",
+      "species": "Flabebe",
+      "nickname": "rayo laser",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 1,
+      "mon": "Flabebe"
     },
     {
       "route": "ruta_2_norte",
-      "mon": "Cubone",
-      "status": "captured"
+      "where": "Ruta 2 Norte",
+      "species": "Cubone",
+      "nickname": "Cuernito",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 7,
+      "mon": "Cubone"
     },
     {
-      "route": "monte_moon",
-      "mon": "Shroodle",
-      "status": "captured"
+      "route": "ciudad_plateada",
+      "where": "Ciudad Plateada",
+      "species": "Noibat",
+      "nickname": "La noibat",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 9,
+      "mon": "Noibat"
+    },
+    {
+      "route": "",
+      "where": "Monte Moon",
+      "species": "Shroodle",
+      "nickname": "",
+      "shiny": false,
+      "status": "captured",
+      "category": "intercambio",
+      "level": 9,
+      "mon": "Shroodle"
     },
     {
       "route": "ruta_22",
-      "mon": "Shroodle",
-      "status": "captured"
+      "where": "Ruta 22",
+      "species": "Shroodle",
+      "nickname": "Pulga",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 5,
+      "mon": "Shroodle"
+    },
+    {
+      "route": "ciudad_celeste",
+      "where": "Ciudad Celeste",
+      "species": "Magby",
+      "nickname": "Calenton",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 18,
+      "mon": "Magby"
     },
     {
       "route": "ruta_21",
-      "mon": "Snover",
-      "status": "captured"
+      "where": "Ruta 21",
+      "species": "Snover",
+      "nickname": "Pinote",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 21,
+      "mon": "Snover"
+    },
+    {
+      "route": "ciudad_plateada",
+      "where": "Ciudad Plateada",
+      "species": "Eevee",
+      "nickname": "Goliat",
+      "shiny": false,
+      "status": "dead",
+      "category": "ciudad",
+      "level": 10,
+      "mon": "Eevee"
     }
   ],
   "progress": {
@@ -324,13 +438,17 @@
       "ruta_1": true,
       "ruta_3": true,
       "monte_moon_exterior": true,
+      "ciudad_verde": true,
       "ruta_20": true,
       "ruta_2_norte": true,
-      "monte_moon": true,
+      "ciudad_plateada": true,
       "ruta_22": true,
+      "ciudad_celeste": true,
       "ruta_21": true,
+      "pueblo_paleta": true,
       "ruta_2_sur": true,
       "bosque_verde": true,
+      "monte_moon": true,
       "ruta_4": true
     },
     "items": {}
