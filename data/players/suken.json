@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 3h 48m jugadas · 28,590₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 50m jugadas · 28,590₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -25,20 +25,21 @@
       ]
     },
     {
-      "nickname": "ZEN",
-      "species": "Darumaka",
-      "level": 1,
+      "nickname": "SMEGMA",
+      "species": "Slugma",
+      "level": 23,
       "types": [
         "Fuego"
       ],
-      "ability": "Telepatía",
-      "nature": "Seria",
-      "item": "Baya Grana",
+      "ability": "Puño Invisible",
+      "nature": "Afable",
+      "item": "",
       "shiny": false,
       "moves": [
-        "Conjuro",
-        "Bastión Final",
-        "Bombardeo"
+        "Daño Secreto",
+        "Golpe Bajo",
+        "Pirotecnia",
+        "Ultrapuño"
       ]
     },
     {
@@ -223,21 +224,21 @@
       ]
     },
     {
-      "nickname": "SMEGMA",
-      "species": "Slugma",
+      "nickname": "ZEN",
+      "species": "Darumaka",
       "level": 23,
       "types": [
         "Fuego"
       ],
-      "ability": "Puño Invisible",
-      "nature": "Afable",
+      "ability": "Telepatía",
+      "nature": "Seria",
       "item": "",
       "shiny": false,
       "moves": [
-        "Daño Secreto",
-        "Golpe Bajo",
-        "Pirotecnia",
-        "Ultrapuño"
+        "Carámbano",
+        "Bastión Final",
+        "Bombardeo",
+        "Puño Incremento"
       ]
     },
     {
@@ -349,6 +350,11 @@
       "status": "captured"
     },
     {
+      "route": "ruta_1",
+      "mon": "Slugma",
+      "status": "captured"
+    },
+    {
       "route": "ruta_22",
       "mon": "Floette",
       "status": "captured"
@@ -374,11 +380,6 @@
       "status": "captured"
     },
     {
-      "route": "ruta_1",
-      "mon": "Slugma",
-      "status": "captured"
-    },
-    {
       "route": "ruta_2_norte",
       "mon": "Bonsly",
       "status": "captured"
@@ -397,12 +398,12 @@
     "npcs": {},
     "routes": {
       "monte_moon": true,
+      "ruta_1": true,
       "ruta_22": true,
       "ruta_2_sur": true,
       "ruta_3": true,
       "monte_moon_exterior": true,
       "ruta_4": true,
-      "ruta_1": true,
       "ruta_2_norte": true,
       "bosque_verde": true,
       "ruta_20": true
