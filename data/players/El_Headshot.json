@@ -4,12 +4,122 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 1h 59m jugadas · 3,420₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 44m jugadas · 9,210₽ · vidas en el juego: ?",
   "team": [
+    {
+      "nickname": "Motita",
+      "species": "Flabebe",
+      "level": 15,
+      "types": [
+        "Hada"
+      ],
+      "ability": "Toque Tóxico",
+      "nature": "Fuerte",
+      "item": "Banda Aguante",
+      "shiny": false,
+      "moves": [
+        "Yo Primero",
+        "Bruma Explosiva",
+        "Brinco",
+        "Trampa Rocas"
+      ]
+    },
+    {
+      "nickname": "Cricri",
+      "species": "Rolycoly",
+      "level": 15,
+      "types": [
+        "Roca"
+      ],
+      "ability": "Simbiosis",
+      "nature": "Mansa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Salazón",
+        "Clemencia",
+        "Tormento",
+        "Lanzarrocas"
+      ]
+    },
+    {
+      "nickname": "Changomojao",
+      "species": "Panpour",
+      "level": 15,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Mal Sueño",
+      "nature": "Firme",
+      "item": "Tabla Linfa",
+      "shiny": false,
+      "moves": [
+        "Canto",
+        "Puño Incremento",
+        "Rayo Burbuja",
+        "Rodillo de Púas"
+      ]
+    },
+    {
+      "nickname": "Empanada",
+      "species": "Shellder",
+      "level": 15,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Escama de Hielo",
+      "nature": "Serena",
+      "item": "",
+      "shiny": true,
+      "moves": [
+        "Cuerpo Pesado",
+        "Voltiocambio",
+        "Gruñido",
+        "Tóxico"
+      ]
+    },
+    {
+      "nickname": "VvHeadshotvV",
+      "species": "Teddiursa",
+      "level": 15,
+      "types": [
+        "Normal"
+      ],
+      "ability": "Dinamo",
+      "nature": "Floja",
+      "item": "Tabla Fuerte",
+      "shiny": false,
+      "moves": [
+        "Palmeo",
+        "Plumerazo",
+        "Acua Jet",
+        "Envidia Ardiente"
+      ]
+    },
+    {
+      "nickname": "El cocas",
+      "species": "Darumaka",
+      "level": 15,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "Rompeaura",
+      "nature": "Alegre",
+      "item": "Garra Afilada",
+      "shiny": false,
+      "moves": [
+        "Mil Púas Tóxicas",
+        "Protección",
+        "Doble Patada",
+        "Beso Amoroso"
+      ]
+    }
+  ],
+  "box": [
     {
       "nickname": "Mamona",
       "species": "Purrloin",
-      "level": 8,
+      "level": 12,
       "types": [
         "Siniestro"
       ],
@@ -25,101 +135,9 @@
       ]
     },
     {
-      "nickname": "Cricri",
-      "species": "Rolycoly",
-      "level": 14,
-      "types": [
-        "Roca"
-      ],
-      "ability": "Simbiosis",
-      "nature": "Mansa",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Salazón",
-        "Clemencia",
-        "Tormento",
-        "Alquitranazo"
-      ]
-    },
-    {
-      "nickname": "Motita",
-      "species": "Flabebe",
-      "level": 14,
-      "types": [
-        "Hada"
-      ],
-      "ability": "Toque Tóxico",
-      "nature": "Fuerte",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Yo Primero",
-        "Bruma Explosiva",
-        "Brinco",
-        "Trampa Rocas"
-      ]
-    },
-    {
-      "nickname": "VvHeadshotvV",
-      "species": "Teddiursa",
-      "level": 14,
-      "types": [
-        "Normal"
-      ],
-      "ability": "Dinamo",
-      "nature": "Floja",
-      "item": "Baya Arabol",
-      "shiny": false,
-      "moves": [
-        "Palmeo",
-        "Plumerazo",
-        "Buena Baza",
-        "Esquema"
-      ]
-    },
-    {
-      "nickname": "Changomojao",
-      "species": "Panpour",
-      "level": 8,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Mal Sueño",
-      "nature": "Firme",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Canto",
-        "Pistola Agua",
-        "Hidropulso",
-        "Rodillo de Púas"
-      ]
-    },
-    {
-      "nickname": "El cocas",
-      "species": "Darumaka",
-      "level": 7,
-      "types": [
-        "Fuego"
-      ],
-      "ability": "Rompeaura",
-      "nature": "Alegre",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Mil Púas Tóxicas",
-        "Bomba Imán",
-        "Beso Amoroso",
-        "Rueda Fuego"
-      ]
-    }
-  ],
-  "box": [
-    {
       "nickname": "Pussycat",
       "species": "Skitty",
-      "level": 8,
+      "level": 14,
       "types": [
         "Normal"
       ],
@@ -131,17 +149,49 @@
         "Vendetta",
         "Estoicismo",
         "Gas Venenoso",
-        "Prensa Metálica"
+        "Tornado"
+      ]
+    },
+    {
+      "nickname": "spiterwat",
+      "species": "Dewpider",
+      "level": 11,
+      "types": [
+        "Agua",
+        "Bicho"
+      ],
+      "ability": "Rompeaura",
+      "nature": "Amable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Pulso Cura",
+        "A Defender",
+        "Truco",
+        "Bombardeo"
+      ]
+    },
+    {
+      "nickname": "Arenita",
+      "species": "Sandshrew",
+      "level": 5,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "",
+      "nature": "Dócil",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Búnker",
+        "Polvo Veneno",
+        "Corte",
+        "Paga Extra"
       ]
     }
   ],
   "graveyard": [],
   "captures": [
-    {
-      "route": "ruta_22",
-      "mon": "Purrloin",
-      "status": "captured"
-    },
     {
       "route": "ruta_1",
       "mon": "Rolycoly",
@@ -154,19 +204,34 @@
     },
     {
       "route": "bosque_verde",
-      "mon": "Darumaka",
+      "mon": "Shellder",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_22",
+      "mon": "Purrloin",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_3",
+      "mon": "Dewpider",
       "status": "captured"
     }
   ],
   "progress": {
-    "gyms": {},
+    "gyms": {
+      "gym1": true
+    },
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_22": true,
       "ruta_1": true,
       "ruta_2_sur": true,
-      "bosque_verde": true
+      "bosque_verde": true,
+      "ruta_22": true,
+      "ruta_3": true,
+      "ruta_2_norte": true,
+      "monte_moon": true
     },
     "items": {}
   }
