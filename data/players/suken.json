@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 3h 4m jugadas · 11,580₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 4m jugadas · 5,580₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "CONEJO BLAZ",
@@ -289,7 +289,8 @@
       "ruta_3": true,
       "ruta_1": true,
       "ruta_2_norte": true,
-      "bosque_verde": true
+      "bosque_verde": true,
+      "monte_moon": true
     },
     "items": {}
   }
