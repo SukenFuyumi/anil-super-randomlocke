@@ -119,23 +119,7 @@
           return `<div class="check-item${done?" done":""}"><span class="dot"></span>${escapeHtml(it.name)}${done?'<span class="tag">✓ hecho</span>':""}</div>`;
         }).join("")}</div>`;
       }
-      // capturas por ruta
-      const capByRoute = {};
-      (data.captures||[]).forEach((c)=>{ capByRoute[c.route] = c; });
-      const routesHtml = (cfg.routes||[]).map((r)=>{
-        const c = capByRoute[r.id];
-        const visited = data.progress?.routes?.[r.id];
-        let statusPill = '<span class="pill">sin visitar</span>';
-        if (c) {
-          if (c.status === "captured") statusPill = `<span class="pill ok">✓ ${escapeHtml(c.mon||"capturado")}</span>`;
-          else if (c.status === "dead") statusPill = `<span class="pill bad">${faintIcon(12)} ${escapeHtml(c.mon||"debilitado")}</span>`;
-          else if (c.status === "fled") statusPill = `<span class="pill warn">huyó / sin captura</span>`;
-        } else if (visited) {
-          statusPill = '<span class="pill">sin captura</span>';
-        }
-        return `<tr><td>${escapeHtml(r.name)}</td><td>${statusPill}</td></tr>`;
-      }).join("");
-
+      // ----- Progreso (solo combates) -----
       document.getElementById("tab-progreso").innerHTML = `
         <h3>Gimnasios</h3>
         ${trainerChecklist(cfg.gyms||[], data.progress?.gyms)}
@@ -145,7 +129,35 @@
         ${trainerChecklist(cfg.npcs||[], data.progress?.npcs)}`;
 
       // ----- Capturas (pestaña propia) -----
-      const capturedCount = (data.captures||[]).filter((c)=>c.status==="captured").length;
+      const caps = data.captures || [];
+      const capLink = (c) => {
+        const sp = c.species || c.mon || "?";
+        const inner = `${escapeHtml(c.nickname || sp)}${c.shiny ? " " + shinyStar(10) : ""}${c.nickname ? ` <span style="opacity:.7">(${escapeHtml(sp)})</span>` : ""}`;
+        return `<span class="pill ${c.status==='dead'?'bad':(c.status==='fled'?'warn':'ok')}" style="margin:.1rem .15rem">${c.status==='dead'?faintIcon(12)+' ':(c.status==='captured'?'✓ ':'')}${inner}</span>`;
+      };
+      const capsByRoute = {};
+      caps.filter((c)=>c.route).forEach((c)=>{ (capsByRoute[c.route]=capsByRoute[c.route]||[]).push(c); });
+      const routesRows = (cfg.routes||[]).map((r)=>{
+        const list = capsByRoute[r.id] || [];
+        const visited = data.progress?.routes?.[r.id];
+        let cell;
+        if (list.length) cell = list.map(capLink).join("");
+        else if (visited) cell = '<span class="pill">sin captura</span>';
+        else cell = '<span class="pill" style="opacity:.6">sin visitar</span>';
+        const many = list.length > 1;
+        return `<tr${many?' class="cap-multi"':''}><td>${escapeHtml(r.name)}${many?` <span class="pill bad" title="Más de una captura en esta ruta">×${list.length}</span>`:''}</td><td>${cell}</td></tr>`;
+      }).join("");
+
+      const CAT_LABEL = { estatico_regalo:"Estáticos / Regalos", intercambio:"Intercambios", don_prodigio:"Don Prodigio", huevo:"Huevos", ciudad:"Ciudad", salvaje:"Salvaje", otros:"Otras" };
+      const otras = caps.filter((c)=>!c.route);
+      const otrasByCat = {};
+      otras.forEach((c)=>{ const k=c.category||"otros"; (otrasByCat[k]=otrasByCat[k]||[]).push(c); });
+      const otrasHtml = Object.keys(otrasByCat).length
+        ? Object.entries(otrasByCat).map(([cat,list])=>`<div style="margin:.5rem 0"><strong>${escapeHtml(CAT_LABEL[cat]||cat)}</strong> <span class="muted">(${list.length})</span><div style="margin-top:.25rem">${list.map((c)=>capLink(c)+(c.where?` <span class="muted" style="font-size:.7rem">@${escapeHtml(c.where)}</span>`:"")).join(" ")}</div></div>`).join("")
+        : "";
+
+      const capturedCount = caps.filter((c)=>c.status==="captured").length;
+      const multiCount = Object.values(capsByRoute).filter((l)=>l.length>1).length;
       const ec = extraCaptures(data);
       const allMons = [...(data.team||[]), ...(data.box||[]), ...(data.graveyard||[])];
       const shinyList = allMons.filter((m)=>m.shiny);
@@ -155,23 +167,25 @@
       const extraDetail = (ec.total ? `
         <div class="callout">
           <strong>Capturas extra ganadas: ${ec.total}</strong> — ${ec.shiny} shiny + ${ec.dups} por duplicado.
-          <div class="muted" style="font-size:.82rem;margin-top:.3rem">Un shiny o un Pokémon repetido (hierba, estático o regalo) dan derecho a una captura extra.</div>
-          ${shinyList.length ? `<div style="margin-top:.4rem">✦ Shiny: ${shinyList.map((m)=>escapeHtml((m.nickname||m.species)+" ("+m.species+")")).join(", ")}</div>` : ""}
+          <div class="muted" style="font-size:.82rem;margin-top:.3rem">Un shiny o un Pokémon repetido dan derecho a una captura extra.</div>
+          ${shinyList.length ? `<div style="margin-top:.4rem">${shinyStar(11)} Shiny: ${shinyList.map((m)=>escapeHtml((m.nickname||m.species)+" ("+m.species+")")).join(", ")}</div>` : ""}
           ${dupGroups.length ? `<div style="margin-top:.2rem">Duplicados: ${dupGroups.map((g)=>escapeHtml(g[0].species)+" ×"+g.length).join(", ")}</div>` : ""}
         </div>` : `<p class="muted">Sin capturas extra todavía.</p>`);
 
       document.getElementById("tab-capturas").innerHTML = `
         <div class="stat-row">
-          <div class="stat-tile"><div class="num ok">${capturedCount}</div><div class="lbl">Rutas con captura</div></div>
-          <div class="stat-tile"><div class="num">${(data.captures||[]).length}</div><div class="lbl">Rutas registradas</div></div>
+          <div class="stat-tile"><div class="num ok">${capturedCount}</div><div class="lbl">Capturas totales</div></div>
           <div class="stat-tile"><div class="num" style="color:var(--warn)">${ec.total}</div><div class="lbl">Capturas extra</div></div>
+          <div class="stat-tile"><div class="num" style="color:${multiCount?'var(--bad)':'var(--text)'}">${multiCount}</div><div class="lbl">Rutas con 2+</div></div>
         </div>
         ${extraDetail}
         <h3>Capturas por ruta</h3>
+        <p class="muted" style="font-size:.82rem;margin-top:-.3rem">Se listan TODAS las capturas de cada ruta. Una ruta marcada con ×N (2+) solo es válida si tiene capturas extra que la justifiquen (shiny/duplicado).</p>
         <div class="table-wrap"><table>
-          <thead><tr><th>Ruta / zona</th><th>Captura (primer Pokémon)</th></tr></thead>
-          <tbody>${routesHtml || '<tr><td colspan="2" class="muted">Sin rutas configuradas.</td></tr>'}</tbody>
-        </table></div>`;
+          <thead><tr><th>Ruta / zona</th><th>Capturas</th></tr></thead>
+          <tbody>${routesRows || '<tr><td colspan="2" class="muted">Sin rutas configuradas.</td></tr>'}</tbody>
+        </table></div>
+        ${otrasHtml ? `<h3>Otras capturas</h3>${otrasHtml}` : ""}`;
 
       // tabs
       document.getElementById("tabs").addEventListener("click", (e) => {

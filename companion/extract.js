@@ -41,8 +41,9 @@ function mon(p) {
 
 // zonas de captura (mismas reglas que gen-routes.js / config.routes)
 const SLUG = n => n.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '');
-const ENC_RE = /(ruta|bosque|monte|cueva|t[uú]nel|zona safari|safari|isla|caminos|catarata|central energ|roca|mansi[oó]n|torre|calle victoria|meseta|volc[aá]n|islas espuma)/i;
+const ENC_RE = /(ruta|bosque|monte|cueva|t[uú]nel|zona safari|safari|isla|caminos|catarata|central energ|roca|mansi[oó]n|torre|calle victoria|meseta|volc[aá]n|islas espuma|ciudad|pueblo)/i;
 const ENC_INT = /(casa|gimnasio|centro pok|tienda|laboratorio|liga|barco|guarida|museo|club|intro|ss anne|s\.s\.)/i;
+const CITY_RE = /(ciudad|pueblo|isla canela)/i;
 
 function extract(buf, playerId, opts = {}) {
   const mapNames = opts.mapNames || null; // { "3": "Ruta 3", ... } opcional
@@ -58,14 +59,33 @@ function extract(buf, playerId, opts = {}) {
   const boxes = iv(storage, '@boxes') || [];
 
   const team = [], box = [], graveyard = [];
-  const capturesByRoute = {}; // slug -> {route, mon, status}
+  const captures = [];       // lista COMPLETA de todo lo obtenido
   const routesVisited = {};
+  // categoría de obtención
+  const categoryOf = (p) => {
+    const method = iv(p, '@obtain_method'); // 0 met, 1 huevo, 2 intercambio, 4 evento
+    if (method === 1) return 'huevo';
+    if (method === 2) return 'intercambio';
+    if (method === 4) return 'don_prodigio';
+    const name = mapName(iv(p, '@obtain_map'));
+    if (name && ENC_RE.test(name) && !ENC_INT.test(name)) return CITY_RE.test(name) ? 'ciudad' : 'salvaje';
+    return 'estatico_regalo'; // método 0 en interior/mapa especial
+  };
   const recordCapture = (p, dead) => {
     const oid = iv(p, '@obtain_map');
     const slug = routeSlug(oid);
-    if (!slug) return; // interior/inicial/regalo: no cuenta como captura
-    routesVisited[slug] = true;
-    if (!capturesByRoute[slug]) capturesByRoute[slug] = { route: slug, mon: pretty(sname(iv(p, '@species'))), status: dead ? 'dead' : 'captured' };
+    if (slug) routesVisited[slug] = true;
+    captures.push({
+      route: slug || '',
+      where: mapName(oid) || '',
+      species: pretty(sname(iv(p, '@species'))),
+      nickname: sname(iv(p, '@name')) || '',
+      shiny: !!iv(p, '@shiny'),
+      status: dead ? 'dead' : 'captured',
+      category: categoryOf(p),
+      level: iv(p, '@obtain_level') ?? iv(p, '@level') ?? null,
+      mon: pretty(sname(iv(p, '@species'))), // compat con web/matriz antiguos
+    });
   };
   const pushMon = (p, where) => {
     if (!p) return;
@@ -101,7 +121,7 @@ function extract(buf, playerId, opts = {}) {
     champion: badges.filter(Boolean).length >= 8,
     notes: `Importado del save · ${hh}h ${mm}m jugadas · ${money.toLocaleString('es')}₽ · vidas en el juego: ${gameLives ?? '?'}`,
     team, box, graveyard,
-    captures: Object.values(capturesByRoute),
+    captures,
     progress: { gyms, bosses: {}, npcs: {}, routes: routesVisited, items: {} },
   };
 }

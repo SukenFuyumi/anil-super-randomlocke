@@ -292,6 +292,9 @@ img.player-avatar.xl { padding: 6px; }
 .tm-nick { font-size: .72rem; font-weight: 700; line-height: 1.15; margin-top: .1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 74px; }
 .tm-sp { font-size: .64rem; color: var(--text-muted); line-height: 1.1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 74px; }
 
+/* fila de ruta con 2+ capturas (posible captura extra sin justificar) */
+.cap-multi td { background: var(--bad-bg); }
+
 /* medallas */
 .medals { display: flex; gap: .2rem; flex-wrap: wrap; align-items: center; }
 .medal { line-height: 0; }
