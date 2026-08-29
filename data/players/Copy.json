@@ -4,12 +4,49 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 20m jugadas · 4,000₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 0h 52m jugadas · 5,200₽ · vidas en el juego: ?",
   "team": [
+    {
+      "nickname": "Peter",
+      "species": "Dewpider",
+      "level": 11,
+      "types": [
+        "Agua",
+        "Bicho"
+      ],
+      "ability": "Polvo Escudo",
+      "nature": "Amable",
+      "item": "Seguro Fallo",
+      "shiny": false,
+      "moves": [
+        "Corte",
+        "Tóxico",
+        "Triple Inmersión",
+        "Fotosíntesis"
+      ]
+    },
+    {
+      "nickname": "Crayola",
+      "species": "Shellos",
+      "level": 11,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Electricidad Estática",
+      "nature": "Ingenua",
+      "item": "Capa Furtiva",
+      "shiny": false,
+      "moves": [
+        "Bastión Final",
+        "Tóxico",
+        "Alarido",
+        "Antiaéreo"
+      ]
+    },
     {
       "nickname": "Miguelito",
       "species": "Grookey",
-      "level": 6,
+      "level": 12,
       "types": [
         "Planta"
       ],
@@ -18,22 +55,142 @@
       "item": "Cinta Elección",
       "shiny": false,
       "moves": [
-        "Relajo",
+        "Colmillo Veneno",
         "Colmillo Ígneo",
-        "Rizo Algodón",
+        "Terratemblor",
         "Agarrón"
+      ]
+    },
+    {
+      "nickname": "Hopper",
+      "species": "Nymble",
+      "level": 11,
+      "types": [
+        "Bicho"
+      ],
+      "ability": "Teraformación 0",
+      "nature": "Dócil",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Colmillo Veneno",
+        "Brinco",
+        "Agarrón",
+        "Antiaéreo"
+      ]
+    },
+    {
+      "nickname": "Curita",
+      "species": "Flabebe",
+      "level": 10,
+      "types": [
+        "Hada"
+      ],
+      "ability": "Voz Fluida",
+      "nature": "Pícara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Niebla Aromática",
+        "Onda Anómala",
+        "Fitoimpulso",
+        "Beso Drenaje"
+      ]
+    },
+    {
+      "nickname": "TriMike",
+      "species": "Diglett",
+      "level": 11,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Carrillo",
+      "nature": "Modesta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Rayo Burbuja",
+        "Bomba Fango",
+        "Buena Baza",
+        "Prensa Metálica"
       ]
     }
   ],
-  "box": [],
+  "box": [
+    {
+      "nickname": "Kofi",
+      "species": "Jangmoo",
+      "level": 9,
+      "types": [
+        "Dragón"
+      ],
+      "ability": "Camorrista",
+      "nature": "Audaz",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Luminicola",
+        "Ronquido",
+        "Embargo",
+        "Estruendo Escama"
+      ]
+    },
+    {
+      "nickname": "Dr Pepper",
+      "species": "Cherubi",
+      "level": 11,
+      "types": [
+        "Planta"
+      ],
+      "ability": "Cólera",
+      "nature": "Firme",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Recuperación",
+        "Onda Anómala",
+        "Llave Giro",
+        "Corte Furia"
+      ]
+    }
+  ],
   "graveyard": [],
-  "captures": [],
+  "captures": [
+    {
+      "route": "ruta_1",
+      "mon": "Dewpider",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_2_sur",
+      "mon": "Nymble",
+      "status": "captured"
+    },
+    {
+      "route": "bosque_verde",
+      "mon": "Flabebe",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_2_norte",
+      "mon": "Jangmoo",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_22",
+      "mon": "Cherubi",
+      "status": "captured"
+    }
+  ],
   "progress": {
     "gyms": {},
     "bosses": {},
     "npcs": {},
     "routes": {
       "ruta_1": true,
+      "ruta_2_sur": true,
+      "bosque_verde": true,
+      "ruta_2_norte": true,
       "ruta_22": true
     },
     "items": {}
