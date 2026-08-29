@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 4h 35m jugadas · 1,700₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 4h 38m jugadas · 1,700₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "El tortas",
@@ -46,7 +46,7 @@
     {
       "nickname": "el chupas",
       "species": "Zubat",
-      "level": 4,
+      "level": 5,
       "types": [
         "Veneno",
         "Volador"
@@ -57,7 +57,26 @@
       "shiny": false,
       "moves": [
         "Veneno X",
-        "Picotazo Veneno"
+        "Picotazo Veneno",
+        "Fuego Fatuo"
+      ]
+    },
+    {
+      "nickname": "el rayo",
+      "species": "Luxio",
+      "level": 4,
+      "types": [
+        "Eléctrico"
+      ],
+      "ability": "Cólera",
+      "nature": "Seria",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Telatrampa",
+        "Hoja Mágica",
+        "Rayo Carga",
+        "Onda Trueno"
       ]
     }
   ],
@@ -76,7 +95,8 @@
     "npcs": {},
     "routes": {
       "ruta_1": true,
-      "ruta_22": true
+      "ruta_22": true,
+      "ruta_2_sur": true
     },
     "items": {}
   }
