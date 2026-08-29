@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 2h 4m jugadas · 4,300₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 2h 50m jugadas · 8,250₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "ElFokas",
@@ -94,22 +94,22 @@
       ]
     },
     {
-      "nickname": "Litterbox",
-      "species": "Sandygast",
-      "level": 10,
+      "nickname": "ROWLETROWLET",
+      "species": "Rowlet",
+      "level": 14,
       "types": [
-        "Fantasma",
-        "Tierra"
+        "Planta",
+        "Volador"
       ],
-      "ability": "Perro Guardián",
-      "nature": "Agitada",
+      "ability": "Cuerpo Áureo",
+      "nature": "Seria",
       "item": "",
       "shiny": false,
       "moves": [
-        "Ataque Óseo",
-        "Halloween",
-        "Cambiaalmas",
-        "Meditación"
+        "Megaagotar",
+        "Golpe Aéreo",
+        "Protección",
+        "Picotazo Veneno"
       ]
     }
   ],
@@ -131,6 +131,62 @@
         "Cambio de Banda",
         "Vendetta"
       ]
+    },
+    {
+      "nickname": "Sandman2",
+      "species": "Sandshrew",
+      "level": 10,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Liviano",
+      "nature": "Dócil",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Viento Plata",
+        "Anulación",
+        "Cambio de Marcha",
+        "Magnitud"
+      ]
+    },
+    {
+      "nickname": "semposuchil",
+      "species": "Skiploom",
+      "level": 10,
+      "types": [
+        "Planta",
+        "Volador"
+      ],
+      "ability": "Espejo Mágico",
+      "nature": "Amable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Daño Secreto",
+        "Chirrido",
+        "Antojo",
+        "Aromaterapia"
+      ]
+    },
+    {
+      "nickname": "Litterbox",
+      "species": "Sandygast",
+      "level": 14,
+      "types": [
+        "Fantasma",
+        "Tierra"
+      ],
+      "ability": "Perro Guardián",
+      "nature": "Agitada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Ataque Óseo",
+        "Halloween",
+        "Cambiaalmas",
+        "Meditación"
+      ]
     }
   ],
   "graveyard": [],
@@ -151,26 +207,29 @@
       "status": "captured"
     },
     {
-      "route": "bosque_verde",
-      "mon": "Sandygast",
+      "route": "ruta_2_norte",
+      "mon": "Wynaut",
       "status": "captured"
     },
     {
-      "route": "ruta_2_norte",
-      "mon": "Wynaut",
+      "route": "bosque_verde",
+      "mon": "Sandygast",
       "status": "captured"
     }
   ],
   "progress": {
-    "gyms": {},
+    "gyms": {
+      "gym1": true
+    },
     "bosses": {},
     "npcs": {},
     "routes": {
       "ruta_1": true,
       "ruta_22": true,
       "ruta_2_sur": true,
+      "ruta_2_norte": true,
       "bosque_verde": true,
-      "ruta_2_norte": true
+      "ruta_3": true
     },
     "items": {}
   }
