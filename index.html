@@ -69,6 +69,7 @@
               <div class="grow">
                 <div class="player-name">${escapeHtml(p.displayName || p.data.name || p.name)} ${p.data.champion ? championBadge(18) : ""}${p.data._local ? ' <span class="pill warn" style="font-size:.55rem">borrador local</span>' : ""}</div>
                 <div class="player-sub">${medals}/8 medallas · ${s.eliminated ? "Sin vidas" : "En juego"}</div>
+                ${medalsRow(cfg, p.data.progress?.gyms)}
               </div>
             </div>
             <div class="player-card-stats">
@@ -77,7 +78,7 @@
               <div><span class="n">${s.livesLeft}</span><span class="l">Vidas</span></div>
             </div>
             <div class="lives-bar"><span class="${cls}" style="width:${pct}%"></span></div>
-            ${teamSpritesRow(p.data.team)}
+            ${teamSpritesRow(p.data.team, { labels: true })}
           </a>`;
       }).join("");
 

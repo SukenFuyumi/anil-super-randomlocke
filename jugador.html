@@ -70,6 +70,7 @@
           <button data-tab="equipo" class="active">Equipo (${(data.team||[]).length})</button>
           <button data-tab="caja">Caja (${(data.box||[]).length})</button>
           <button data-tab="cementerio">Cementerio (${(data.graveyard||[]).length})</button>
+          <button data-tab="capturas">Capturas (${(data.captures||[]).length})</button>
           <button data-tab="objetos">Objetos (${(cfg.groundItems||[]).filter((it)=>data.progress?.items?.[it.id]).length}/${(cfg.groundItems||[]).length})</button>
           <button data-tab="progreso">Progreso</button>
         </div>
@@ -77,6 +78,7 @@
         <div class="tab-panel active" id="tab-equipo"></div>
         <div class="tab-panel" id="tab-caja"></div>
         <div class="tab-panel" id="tab-cementerio"></div>
+        <div class="tab-panel" id="tab-capturas"></div>
         <div class="tab-panel" id="tab-objetos"></div>
         <div class="tab-panel" id="tab-progreso"></div>
       `;
@@ -140,8 +142,32 @@
         <h3>Bosses / combates clave</h3>
         ${trainerChecklist(cfg.bosses||[], data.progress?.bosses)}
         <h3>NPCs</h3>
-        ${trainerChecklist(cfg.npcs||[], data.progress?.npcs)}
-        <h3>Rutas y capturas</h3>
+        ${trainerChecklist(cfg.npcs||[], data.progress?.npcs)}`;
+
+      // ----- Capturas (pestaña propia) -----
+      const capturedCount = (data.captures||[]).filter((c)=>c.status==="captured").length;
+      const ec = extraCaptures(data);
+      const allMons = [...(data.team||[]), ...(data.box||[]), ...(data.graveyard||[])];
+      const shinyList = allMons.filter((m)=>m.shiny);
+      const bySpecies = {};
+      allMons.forEach((m)=>{ const k = normName(m.species); if(k){ (bySpecies[k]=bySpecies[k]||[]).push(m); } });
+      const dupGroups = Object.values(bySpecies).filter((g)=>g.length>1);
+      const extraDetail = (ec.total ? `
+        <div class="callout">
+          <strong>Capturas extra ganadas: ${ec.total}</strong> — ${ec.shiny} shiny + ${ec.dups} por duplicado.
+          <div class="muted" style="font-size:.82rem;margin-top:.3rem">Un shiny o un Pokémon repetido (hierba, estático o regalo) dan derecho a una captura extra.</div>
+          ${shinyList.length ? `<div style="margin-top:.4rem">✦ Shiny: ${shinyList.map((m)=>escapeHtml((m.nickname||m.species)+" ("+m.species+")")).join(", ")}</div>` : ""}
+          ${dupGroups.length ? `<div style="margin-top:.2rem">Duplicados: ${dupGroups.map((g)=>escapeHtml(g[0].species)+" ×"+g.length).join(", ")}</div>` : ""}
+        </div>` : `<p class="muted">Sin capturas extra todavía.</p>`);
+
+      document.getElementById("tab-capturas").innerHTML = `
+        <div class="stat-row">
+          <div class="stat-tile"><div class="num ok">${capturedCount}</div><div class="lbl">Rutas con captura</div></div>
+          <div class="stat-tile"><div class="num">${(data.captures||[]).length}</div><div class="lbl">Rutas registradas</div></div>
+          <div class="stat-tile"><div class="num" style="color:var(--warn)">${ec.total}</div><div class="lbl">Capturas extra</div></div>
+        </div>
+        ${extraDetail}
+        <h3>Capturas por ruta</h3>
         <div class="table-wrap"><table>
           <thead><tr><th>Ruta / zona</th><th>Captura (primer Pokémon)</th></tr></thead>
           <tbody>${routesHtml || '<tr><td colspan="2" class="muted">Sin rutas configuradas.</td></tr>'}</tbody>

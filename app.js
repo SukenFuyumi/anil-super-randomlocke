@@ -266,18 +266,51 @@ function spriteEl(mon, cls = "mon-sprite") {
   return `<span class="${cls}"><img src="${escapeHtml(primary)}" alt="${escapeHtml(mon.species || "")}" loading="lazy" data-fb='${fb}' data-ini="${escapeHtml(ini)}" onerror="imgFallback(this)"></span>`;
 }
 
-/* Fila de mini-sprites del equipo (para tarjetas de jugador) */
-function teamSpritesRow(team) {
+/* Fila de mini-sprites del equipo (para tarjetas de jugador).
+   opts.labels = muestra mote + especie bajo cada sprite. */
+function teamSpritesRow(team, opts = {}) {
   if (!team || !team.length) return `<div class="team-mini muted" style="font-size:.72rem">Sin equipo</div>`;
-  return `<div class="team-mini">${team.slice(0, 6).map((m) => {
+  const labels = !!opts.labels;
+  return `<div class="team-mini${labels ? " labeled" : ""}">${team.slice(0, 6).map((m) => {
     const ini = initials(m.species || m.nickname);
     const ani = speciesAniSprite(m.species), stat = speciesSprite(m.species);
     const primary = m.sprite || ani || stat;
-    if (!primary) return `<span class="team-mini-x" title="${escapeHtml(m.nickname || "")}">${escapeHtml(ini)}</span>`;
-    const fb = JSON.stringify([m.sprite ? ani : null, stat].filter((u) => u && u !== primary));
     const title = escapeHtml((m.nickname || "") + (m.species ? " (" + m.species + ")" : ""));
-    return `<img src="${escapeHtml(primary)}" alt="" title="${title}" loading="lazy" data-fb='${fb}' data-ini="${escapeHtml(ini)}" data-fbclass="team-mini-x" onerror="imgFallback(this)">`;
+    const fb = JSON.stringify([m.sprite ? ani : null, stat].filter((u) => u && u !== primary));
+    const img = primary
+      ? `<img src="${escapeHtml(primary)}" alt="" title="${title}" loading="lazy" data-fb='${fb}' data-ini="${escapeHtml(ini)}" data-fbclass="team-mini-x" onerror="imgFallback(this)">`
+      : `<span class="team-mini-x" title="${escapeHtml(m.nickname || "")}">${escapeHtml(ini)}</span>`;
+    if (!labels) return img;
+    return `<span class="tm-cell">${img}<span class="tm-nick">${escapeHtml(m.nickname || m.species || "?")}${m.shiny ? " " + shinyStar(9) : ""}</span><span class="tm-sp">${escapeHtml(m.species || "")}</span></span>`;
   }).join("")}</div>`;
+}
+
+/* Medalla de gimnasio (SVG). earned=false -> gris. */
+function badgeIcon(color, earned, size) {
+  size = size || 22;
+  return `<svg viewBox="0 0 24 24" width="${size}" height="${size}" style="display:block"${earned ? "" : ' opacity="0.4"'}>
+    <polygon points="12,1.5 21,6.75 21,17.25 12,22.5 3,17.25 3,6.75" fill="${color}" stroke="#00000055" stroke-width="1"/>
+    <circle cx="12" cy="12" r="3.1" fill="#ffffffcc"/></svg>`;
+}
+/* Fila de las 8 medallas: color por tipo si conseguida, gris si no. */
+function medalsRow(cfg, gymsProgress) {
+  const gyms = (cfg.gyms || []).slice().sort((a, b) => (a.order || 0) - (b.order || 0));
+  if (!gyms.length) return "";
+  return `<div class="medals">${gyms.map((g) => {
+    const earned = !!(gymsProgress && gymsProgress[g.id]);
+    const color = earned ? `var(--type-${typeKey(g.type)})` : "#4a515c";
+    return `<span class="medal" title="${escapeHtml((g.leader || g.name) + (earned ? " ✓" : " — pendiente"))}">${badgeIcon(color, earned, 22)}</span>`;
+  }).join("")}</div>`;
+}
+
+/* Capturas extra ganadas (shiny y duplicados de especie dan captura extra). */
+function extraCaptures(pdata) {
+  const all = [...(pdata.team || []), ...(pdata.box || []), ...(pdata.graveyard || [])];
+  const shiny = all.filter((m) => m.shiny).length;
+  const counts = {};
+  all.forEach((m) => { const k = normName(m.species); if (k) counts[k] = (counts[k] || 0) + 1; });
+  const dups = Object.values(counts).reduce((s, c) => s + Math.max(0, c - 1), 0);
+  return { shiny, dups, total: shiny + dups };
 }
 
 /* Checklist de retos con imagen de entrenador (gimnasios / bosses / npcs) */
