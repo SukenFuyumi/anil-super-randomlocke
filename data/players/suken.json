@@ -4,25 +4,25 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 3h 8m jugadas · 9,600₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 10m jugadas · 11,100₽ · vidas en el juego: ?",
   "team": [
     {
-      "nickname": "CONEJO BLAZ",
-      "species": "Diggersby",
+      "nickname": "TECATA",
+      "species": "Ivysaur",
       "level": 23,
       "types": [
-        "Normal",
-        "Tierra"
+        "Planta",
+        "Veneno"
       ],
-      "ability": "Huida",
-      "nature": "Amable",
+      "ability": "Compiescolta",
+      "nature": "Plácida",
       "item": "",
       "shiny": false,
       "moves": [
-        "Brazo Pincho",
-        "Falso Tortazo",
-        "Arraigo",
-        "Protección"
+        "Marcha Espectral",
+        "Bostezo",
+        "Bálsamo Osado",
+        "Bomba Caramelo"
       ]
     },
     {
@@ -44,22 +44,22 @@
       ]
     },
     {
-      "nickname": "TECATA",
-      "species": "Ivysaur",
+      "nickname": "CONEJO BLAZ",
+      "species": "Diggersby",
       "level": 23,
       "types": [
-        "Planta",
-        "Veneno"
+        "Normal",
+        "Tierra"
       ],
-      "ability": "Compiescolta",
-      "nature": "Plácida",
+      "ability": "Huida",
+      "nature": "Amable",
       "item": "",
       "shiny": false,
       "moves": [
-        "Marcha Espectral",
-        "Bostezo",
-        "Bálsamo Osado",
-        "Bomba Caramelo"
+        "Brazo Pincho",
+        "Falso Tortazo",
+        "Arraigo",
+        "Protección"
       ]
     },
     {
@@ -108,7 +108,7 @@
       ],
       "ability": "Recogida",
       "nature": "Osada",
-      "item": "Super Ball",
+      "item": "",
       "shiny": false,
       "moves": [
         "Magnitud",
@@ -136,20 +136,20 @@
       ]
     },
     {
-      "nickname": "PUTA MIERDA",
-      "species": "Skiddo",
+      "nickname": "Zigzagoon",
+      "species": "Zigzagoon",
       "level": 5,
       "types": [
-        "Planta"
+        "Normal"
       ],
-      "ability": "",
-      "nature": "Alegre",
-      "item": "Defensa X 6",
+      "ability": "Cobardía",
+      "nature": "Fuerte",
+      "item": "",
       "shiny": false,
       "moves": [
-        "Cuerpo Pesado",
-        "Neblina",
-        "Bofetón Lodo"
+        "Campo Psíquico",
+        "Puño Cometa",
+        "Resarcimiento"
       ]
     },
     {
@@ -281,7 +281,7 @@
     },
     {
       "route": "monte_moon",
-      "mon": "Rattata",
+      "mon": "Zigzagoon",
       "status": "captured"
     },
     {
