@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 57m jugadas · 4,010₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 1h 5m jugadas · 4,810₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "goku",
       "species": "Chimchar",
-      "level": 10,
+      "level": 12,
       "types": [
         "Fuego"
       ],
@@ -21,13 +21,13 @@
         "Sustituto",
         "Defensa Férrea",
         "Veneno X",
-        "Truco Fuerza"
+        "Lengüetazo"
       ]
     },
     {
       "nickname": "lola",
       "species": "Pumpkaboo",
-      "level": 9,
+      "level": 10,
       "types": [
         "Fantasma",
         "Planta"
@@ -46,7 +46,7 @@
     {
       "nickname": "faker",
       "species": "Skiddo",
-      "level": 9,
+      "level": 10,
       "types": [
         "Planta"
       ],
@@ -64,7 +64,7 @@
     {
       "nickname": "gato",
       "species": "Skitty",
-      "level": 8,
+      "level": 10,
       "types": [
         "Normal"
       ],
@@ -75,14 +75,14 @@
       "moves": [
         "Agitacola",
         "Ojitos Tiernos",
-        "Reciclaje",
+        "Telaraña",
         "Pulimento"
       ]
     },
     {
       "nickname": "toni",
       "species": "Voltorb",
-      "level": 7,
+      "level": 9,
       "types": [
         "Eléctrico"
       ],
@@ -92,9 +92,28 @@
       "shiny": false,
       "moves": [
         "Brazo Pincho",
-        "Campo Eléctrico",
+        "Cura Floral",
         "Levitón",
         "Drenadoras"
+      ]
+    },
+    {
+      "nickname": "el bicho",
+      "species": "Ledyba",
+      "level": 9,
+      "types": [
+        "Bicho",
+        "Volador"
+      ],
+      "ability": "Sal Purificadora",
+      "nature": "Grosera",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Doble Equipo",
+        "Rugido",
+        "Golpe Rastrero",
+        "Motivación"
       ]
     }
   ],
@@ -115,6 +134,11 @@
       "route": "bosque_verde",
       "mon": "Voltorb",
       "status": "captured"
+    },
+    {
+      "route": "ruta_2_norte",
+      "mon": "Ledyba",
+      "status": "captured"
     }
   ],
   "progress": {
@@ -125,6 +149,7 @@
       "ruta_1": true,
       "ruta_2_sur": true,
       "bosque_verde": true,
+      "ruta_2_norte": true,
       "ruta_22": true
     },
     "items": {}
