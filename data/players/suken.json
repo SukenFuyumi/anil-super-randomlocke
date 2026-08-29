@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 2h 21m jugadas · 8,680₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 2h 25m jugadas · 8,680₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "DUNAS",
       "species": "Bramblin",
-      "level": 14,
+      "level": 23,
       "types": [
         "Planta",
         "Fantasma"
@@ -28,7 +28,7 @@
     {
       "nickname": "AL",
       "species": "Bonsly",
-      "level": 14,
+      "level": 23,
       "types": [
         "Roca"
       ],
@@ -38,15 +38,15 @@
       "shiny": false,
       "moves": [
         "Follaje",
-        "Aura Magnética",
-        "Absorber",
+        "Cola Veneno",
+        "Auxilio",
         "Aguzar"
       ]
     },
     {
       "nickname": "GREYMON",
       "species": "Dratini",
-      "level": 14,
+      "level": 23,
       "types": [
         "Dragón"
       ],
@@ -58,13 +58,13 @@
         "Golpe Roca",
         "Colmillo Veneno",
         "Destello",
-        "Absorber"
+        "Eco Voz"
       ]
     },
     {
       "nickname": "SMEGMA",
       "species": "Slugma",
-      "level": 14,
+      "level": 23,
       "types": [
         "Fuego"
       ],
@@ -74,7 +74,7 @@
       "shiny": false,
       "moves": [
         "Daño Secreto",
-        "Gas Venenoso",
+        "Golpe Bajo",
         "Pirotecnia",
         "Ultrapuño"
       ]
@@ -82,7 +82,7 @@
     {
       "nickname": "MOTITA2",
       "species": "Flabebe",
-      "level": 14,
+      "level": 23,
       "types": [
         "Hada"
       ],
@@ -92,7 +92,7 @@
       "shiny": false,
       "moves": [
         "Viento Feérico",
-        "Levitón",
+        "Hilo Venenoso",
         "Follaje",
         "Marcha Espectral"
       ]
@@ -100,7 +100,7 @@
     {
       "nickname": "KING",
       "species": "Poliwag",
-      "level": 14,
+      "level": 23,
       "types": [
         "Agua"
       ],
