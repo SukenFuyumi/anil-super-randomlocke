@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 35m jugadas · 3,760₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 0h 39m jugadas · 1,460₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "GREYMON",
@@ -95,6 +95,24 @@
         "Follaje",
         "Cortina Plasma"
       ]
+    },
+    {
+      "nickname": "CRAWLER",
+      "species": "Corphish",
+      "level": 7,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Gran Encanto",
+      "nature": "Osada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Placaje",
+        "Llave Giro",
+        "Clavo Cañón",
+        "Puño Bala"
+      ]
     }
   ],
   "box": [],
@@ -108,6 +126,11 @@
     {
       "route": "ruta_22",
       "mon": "Flabebe",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_2_sur",
+      "mon": "Corphish",
       "status": "captured"
     }
   ],
