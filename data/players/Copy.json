@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 52m jugadas · 5,200₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 2h 30m jugadas · 18,120₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Peter",
       "species": "Dewpider",
-      "level": 11,
+      "level": 20,
       "types": [
         "Agua",
         "Bicho"
@@ -19,100 +19,101 @@
       "item": "Seguro Fallo",
       "shiny": false,
       "moves": [
-        "Corte",
+        "Pikaturbo",
         "Tóxico",
         "Triple Inmersión",
         "Fotosíntesis"
       ]
     },
     {
-      "nickname": "Crayola",
-      "species": "Shellos",
-      "level": 11,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Electricidad Estática",
-      "nature": "Ingenua",
-      "item": "Capa Furtiva",
-      "shiny": false,
-      "moves": [
-        "Bastión Final",
-        "Tóxico",
-        "Alarido",
-        "Antiaéreo"
-      ]
-    },
-    {
       "nickname": "Miguelito",
-      "species": "Grookey",
-      "level": 12,
+      "species": "Thwackey",
+      "level": 20,
       "types": [
         "Planta"
       ],
-      "ability": "Piel Celeste",
+      "ability": "Velo Agua",
       "nature": "Audaz",
       "item": "Cinta Elección",
       "shiny": false,
       "moves": [
-        "Colmillo Veneno",
+        "Pikaturbo",
         "Colmillo Ígneo",
         "Terratemblor",
         "Agarrón"
       ]
     },
     {
+      "nickname": "Polla",
+      "species": "Staravia",
+      "level": 20,
+      "types": [
+        "Normal",
+        "Volador"
+      ],
+      "ability": "Escudo Recio",
+      "nature": "Seria",
+      "item": "Tubérculo",
+      "shiny": false,
+      "moves": [
+        "Psicocorte",
+        "Corpulencia",
+        "Agarrón",
+        "Picotazo"
+      ]
+    },
+    {
+      "nickname": "Crayola",
+      "species": "Shellos",
+      "level": 20,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Electricidad Estática",
+      "nature": "Ingenua",
+      "item": "Baya Ziuela",
+      "shiny": false,
+      "moves": [
+        "Obstrucción",
+        "Tóxico",
+        "Alarido",
+        "Bucle Arena"
+      ]
+    },
+    {
+      "nickname": "Dr Pepper",
+      "species": "Alakazam",
+      "level": 21,
+      "types": [
+        "Psíquico"
+      ],
+      "ability": "Tinovictoria",
+      "nature": "Ingenua",
+      "item": "Banda Aguante",
+      "shiny": false,
+      "moves": [
+        "Relajo",
+        "Relámpago Súbito",
+        "Psicorrayo",
+        "Tóxico"
+      ]
+    },
+    {
       "nickname": "Hopper",
       "species": "Nymble",
-      "level": 11,
+      "level": 20,
       "types": [
         "Bicho"
       ],
       "ability": "Teraformación 0",
       "nature": "Dócil",
-      "item": "",
+      "item": "Tarjeta Roja",
       "shiny": false,
       "moves": [
         "Colmillo Veneno",
         "Brinco",
-        "Agarrón",
+        "Pikaturbo",
         "Antiaéreo"
-      ]
-    },
-    {
-      "nickname": "Curita",
-      "species": "Flabebe",
-      "level": 10,
-      "types": [
-        "Hada"
-      ],
-      "ability": "Voz Fluida",
-      "nature": "Pícara",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Niebla Aromática",
-        "Onda Anómala",
-        "Fitoimpulso",
-        "Beso Drenaje"
-      ]
-    },
-    {
-      "nickname": "TriMike",
-      "species": "Diglett",
-      "level": 11,
-      "types": [
-        "Tierra"
-      ],
-      "ability": "Carrillo",
-      "nature": "Modesta",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Rayo Burbuja",
-        "Bomba Fango",
-        "Buena Baza",
-        "Prensa Metálica"
       ]
     }
   ],
@@ -136,21 +137,169 @@
       ]
     },
     {
-      "nickname": "Dr Pepper",
-      "species": "Cherubi",
-      "level": 11,
+      "nickname": "TriMike",
+      "species": "Diglett",
+      "level": 15,
       "types": [
-        "Planta"
+        "Tierra"
       ],
-      "ability": "Cólera",
-      "nature": "Firme",
+      "ability": "Carrillo",
+      "nature": "Modesta",
       "item": "",
       "shiny": false,
       "moves": [
-        "Recuperación",
+        "Rayo Burbuja",
+        "Bomba Fango",
+        "Residuos",
+        "Pikaturbo"
+      ]
+    },
+    {
+      "nickname": "Huevona",
+      "species": "Jigglypuff",
+      "level": 17,
+      "types": [
+        "Normal",
+        "Hada"
+      ],
+      "ability": "Quitanieves",
+      "nature": "Tímida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Escudo Tatami",
+        "Deslome",
+        "Mundo Gélido",
+        "Desarrollo"
+      ]
+    },
+    {
+      "nickname": "Curita",
+      "species": "Flabebe",
+      "level": 12,
+      "types": [
+        "Hada"
+      ],
+      "ability": "Voz Fluida",
+      "nature": "Pícara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Niebla Aromática",
         "Onda Anómala",
-        "Llave Giro",
-        "Corte Furia"
+        "Fitoimpulso",
+        "Beso Drenaje"
+      ]
+    },
+    {
+      "nickname": "Neomexa",
+      "species": "Kirlia",
+      "level": 15,
+      "types": [
+        "Psíquico",
+        "Hada"
+      ],
+      "ability": "Burntouch",
+      "nature": "Alocada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Marcha Espectral",
+        "Picadura",
+        "Beso Dulce",
+        "Abrecaminos"
+      ]
+    },
+    {
+      "nickname": "Bolillo",
+      "species": "Dottler",
+      "level": 10,
+      "types": [
+        "Bicho",
+        "Psíquico"
+      ],
+      "ability": "Gas Reactivo",
+      "nature": "Alegre",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Auxilio",
+        "Burbuja",
+        "Picotazo",
+        "Mandato"
+      ]
+    },
+    {
+      "nickname": "CFE",
+      "species": "Geodude",
+      "level": 14,
+      "types": [
+        "Roca",
+        "Tierra"
+      ],
+      "ability": "Velo Agua",
+      "nature": "Modesta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Llave Vital",
+        "Autotomía",
+        "Cambiaalmas",
+        "Telépata"
+      ]
+    },
+    {
+      "nickname": "Master",
+      "species": "Riolu",
+      "level": 15,
+      "types": [
+        "Lucha"
+      ],
+      "ability": "Espanto",
+      "nature": "Grosera",
+      "item": "",
+      "shiny": true,
+      "moves": [
+        "Sísmico",
+        "Arañazo",
+        "A Defender",
+        "Paisaje Nevado"
+      ]
+    },
+    {
+      "nickname": "Don riaton",
+      "species": "Wiglett",
+      "level": 19,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Guardia Espectro",
+      "nature": "Fuerte",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Cola Veneno",
+        "Corte Furia",
+        "Tóxico",
+        "Aligerar"
+      ]
+    },
+    {
+      "nickname": "Salchicha",
+      "species": "Munchlax",
+      "level": 11,
+      "types": [
+        "Normal"
+      ],
+      "ability": "Torrente",
+      "nature": "Ingenua",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Bilis",
+        "Seducción",
+        "Corte Furia",
+        "Luminicola"
       ]
     }
   ],
@@ -162,13 +311,13 @@
       "status": "captured"
     },
     {
-      "route": "ruta_2_sur",
-      "mon": "Nymble",
+      "route": "monte_moon",
+      "mon": "Alakazam",
       "status": "captured"
     },
     {
-      "route": "bosque_verde",
-      "mon": "Flabebe",
+      "route": "ruta_2_sur",
+      "mon": "Nymble",
       "status": "captured"
     },
     {
@@ -177,20 +326,41 @@
       "status": "captured"
     },
     {
-      "route": "ruta_22",
-      "mon": "Cherubi",
+      "route": "ruta_4",
+      "mon": "Jigglypuff",
+      "status": "captured"
+    },
+    {
+      "route": "bosque_verde",
+      "mon": "Flabebe",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_3",
+      "mon": "Dottler",
+      "status": "captured"
+    },
+    {
+      "route": "monte_moon_exterior",
+      "mon": "Riolu",
       "status": "captured"
     }
   ],
   "progress": {
-    "gyms": {},
+    "gyms": {
+      "gym1": true
+    },
     "bosses": {},
     "npcs": {},
     "routes": {
       "ruta_1": true,
+      "monte_moon": true,
       "ruta_2_sur": true,
-      "bosque_verde": true,
       "ruta_2_norte": true,
+      "ruta_4": true,
+      "bosque_verde": true,
+      "ruta_3": true,
+      "monte_moon_exterior": true,
       "ruta_22": true
     },
     "items": {}
