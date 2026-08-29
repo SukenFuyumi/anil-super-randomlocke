@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 5h 58m jugadas · 42,130₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 6h 17m jugadas · 41,810₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "ElFokas",
@@ -43,21 +43,21 @@
       ]
     },
     {
-      "nickname": "Sandman",
-      "species": "Sandslash",
+      "nickname": "Tortilla",
+      "species": "Grotle",
       "level": 30,
       "types": [
-        "Tierra"
+        "Planta"
       ],
-      "ability": "Manto Frondoso",
-      "nature": "Plácida",
+      "ability": "Ensañamiento",
+      "nature": "Rara",
       "item": "",
       "shiny": false,
       "moves": [
-        "Cambio de Marcha",
-        "Truco Floral",
-        "Anulación",
-        "Giro Rápido"
+        "Estoicismo",
+        "Lanzarrocas",
+        "Follaje",
+        "Puño Incremento"
       ]
     },
     {
@@ -408,21 +408,78 @@
       ]
     },
     {
-      "nickname": "Tortilla",
-      "species": "Grotle",
-      "level": 18,
+      "nickname": "Sandman",
+      "species": "Sandslash",
+      "level": 30,
       "types": [
-        "Planta"
+        "Tierra"
       ],
-      "ability": "Ensañamiento",
-      "nature": "Rara",
+      "ability": "Manto Frondoso",
+      "nature": "Plácida",
       "item": "",
       "shiny": false,
       "moves": [
-        "Estoicismo",
-        "Lanzarrocas",
-        "Acoso",
-        "Meteoros"
+        "Cambio de Marcha",
+        "Truco Floral",
+        "Anulación",
+        "Giro Rápido"
+      ]
+    },
+    {
+      "nickname": "BUNKER",
+      "species": "Mareanie",
+      "level": 24,
+      "types": [
+        "Veneno",
+        "Agua"
+      ],
+      "ability": "Rompeaura",
+      "nature": "Alegre",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Telatrampa",
+        "Rayo Burbuja",
+        "Dragoaliento",
+        "Rabia"
+      ]
+    },
+    {
+      "nickname": "Sardina",
+      "species": "Barboach",
+      "level": 23,
+      "types": [
+        "Agua",
+        "Tierra"
+      ],
+      "ability": "Ímpetu Tóxico",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Palma Rauda",
+        "Desarrollo",
+        "Escudo Tatami",
+        "Fertilizante"
+      ]
+    },
+    {
+      "nickname": "HarlyQuin",
+      "species": "Tinkatink",
+      "level": 25,
+      "types": [
+        "Hada",
+        "Acero"
+      ],
+      "ability": "Perro Guardián",
+      "nature": "Alegre",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Triple Inmersión",
+        "Reflejo",
+        "Aligerar",
+        "Presente"
       ]
     }
   ],
@@ -431,6 +488,11 @@
     {
       "route": "ruta_22",
       "mon": "Golduck",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_6",
+      "mon": "Grotle",
       "status": "captured"
     },
     {
@@ -484,8 +546,13 @@
       "status": "captured"
     },
     {
-      "route": "ruta_6",
-      "mon": "Grotle",
+      "route": "ruta_15",
+      "mon": "Barboach",
+      "status": "captured"
+    },
+    {
+      "route": "tunel_diglett",
+      "mon": "Tinkatink",
       "status": "captured"
     }
   ],
@@ -498,6 +565,7 @@
     "npcs": {},
     "routes": {
       "ruta_22": true,
+      "ruta_6": true,
       "ruta_1": true,
       "ruta_21": true,
       "bosque_verde": true,
@@ -508,7 +576,8 @@
       "ruta_2_norte": true,
       "ruta_2_sur": true,
       "ruta_5": true,
-      "ruta_6": true,
+      "ruta_15": true,
+      "tunel_diglett": true,
       "ruta_3": true
     },
     "items": {}
