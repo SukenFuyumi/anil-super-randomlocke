@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 25m jugadas · 2,960₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 0h 42m jugadas · 2,960₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "goku",
       "species": "Chimchar",
-      "level": 5,
+      "level": 8,
       "types": [
         "Fuego"
       ],
@@ -20,19 +20,63 @@
       "moves": [
         "Sustituto",
         "Defensa Férrea",
-        "Veneno X"
+        "Veneno X",
+        "Truco Fuerza"
+      ]
+    },
+    {
+      "nickname": "lola",
+      "species": "Pumpkaboo",
+      "level": 6,
+      "types": [
+        "Fantasma",
+        "Planta"
+      ],
+      "ability": "Mandíbula Dragón",
+      "nature": "Alocada",
+      "item": "Rocío Bondad",
+      "shiny": false,
+      "moves": [
+        "Meditación",
+        "Lengüetazo",
+        "Disparo Demora",
+        "Bilis"
+      ]
+    },
+    {
+      "nickname": "faker",
+      "species": "Skiddo",
+      "level": 6,
+      "types": [
+        "Planta"
+      ],
+      "ability": "Piel Seca",
+      "nature": "Audaz",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Confidencia",
+        "Punzada Rama"
       ]
     }
   ],
   "box": [],
   "graveyard": [],
-  "captures": [],
+  "captures": [
+    {
+      "route": "ruta_1",
+      "mon": "Pumpkaboo",
+      "status": "captured"
+    }
+  ],
   "progress": {
     "gyms": {},
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_1": true
+      "ruta_1": true,
+      "ruta_22": true,
+      "ruta_2_sur": true
     },
     "items": {}
   }
