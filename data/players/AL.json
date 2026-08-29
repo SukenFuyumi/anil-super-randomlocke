@@ -4,64 +4,12 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 3h 10m jugadas · 9,900₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 59m jugadas · 25,410₽ · vidas en el juego: ?",
   "team": [
-    {
-      "nickname": "ElFokas",
-      "species": "Popplio",
-      "level": 16,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Amor Filial",
-      "nature": "Seria",
-      "item": "Galleta Lava",
-      "shiny": false,
-      "moves": [
-        "Impactrueno",
-        "Puño Jet",
-        "Puntapié",
-        "Empapar"
-      ]
-    },
-    {
-      "nickname": "Mojarra",
-      "species": "Magikarp",
-      "level": 15,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Armadura Frágil",
-      "nature": "Serena",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Desquite",
-        "Mordisco"
-      ]
-    },
-    {
-      "nickname": "Sandman",
-      "species": "Sandshrew",
-      "level": 15,
-      "types": [
-        "Tierra"
-      ],
-      "ability": "Liviano",
-      "nature": "Plácida",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Cambio de Marcha",
-        "Truco Floral",
-        "Anulación",
-        "Residuos"
-      ]
-    },
     {
       "nickname": "McPato",
       "species": "Psyduck",
-      "level": 15,
+      "level": 23,
       "types": [
         "Agua"
       ],
@@ -72,14 +20,69 @@
       "moves": [
         "Tornado",
         "Ciclón de Hojas",
-        "Prensa Metálica",
+        "Calamidad",
         "Viraje"
+      ]
+    },
+    {
+      "nickname": "Mojarra",
+      "species": "Gyarados",
+      "level": 23,
+      "types": [
+        "Agua",
+        "Volador"
+      ],
+      "ability": "Sturdyroot",
+      "nature": "Serena",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Impactrueno",
+        "Mordisco",
+        "Psicocorte",
+        "Puntapié"
+      ]
+    },
+    {
+      "nickname": "Sandman",
+      "species": "Sandslash",
+      "level": 23,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Manto Frondoso",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Cambio de Marcha",
+        "Truco Floral",
+        "Anulación",
+        "Giro Rápido"
+      ]
+    },
+    {
+      "nickname": "ElFokas",
+      "species": "Brionne",
+      "level": 23,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Alas Vendaval",
+      "nature": "Seria",
+      "item": "Galleta Lava",
+      "shiny": false,
+      "moves": [
+        "Impactrueno",
+        "Rayo Burbuja",
+        "Arenas Ardientes",
+        "Empapar"
       ]
     },
     {
       "nickname": "Pronebone",
       "species": "Cubone",
-      "level": 15,
+      "level": 23,
       "types": [
         "Tierra"
       ],
@@ -90,19 +93,19 @@
       "moves": [
         "Terratemblor",
         "Danza Dragón",
-        "Amago",
-        "Bilis"
+        "Alud",
+        "Persecución"
       ]
     },
     {
       "nickname": "ROWLETROWLET",
-      "species": "Rowlet",
-      "level": 16,
+      "species": "Dartrix",
+      "level": 23,
       "types": [
         "Planta",
         "Volador"
       ],
-      "ability": "Cuerpo Áureo",
+      "ability": "Voz Fluida",
       "nature": "Seria",
       "item": "",
       "shiny": false,
@@ -110,7 +113,7 @@
         "Megaagotar",
         "Golpe Aéreo",
         "Protección",
-        "Picotazo Veneno"
+        "Viento Hielo"
       ]
     }
   ],
@@ -223,18 +226,54 @@
         "Plumerazo",
         "Hierba Lazo"
       ]
+    },
+    {
+      "nickname": "Pelusa",
+      "species": "Yamper",
+      "level": 15,
+      "types": [
+        "Eléctrico"
+      ],
+      "ability": "Cadena Tóxica",
+      "nature": "Firme",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Psicoonda",
+        "Voltiocambio",
+        "Confidencia",
+        "Danza Amiga"
+      ]
+    },
+    {
+      "nickname": "BetterAudino",
+      "species": "Clefairy",
+      "level": 16,
+      "types": [
+        "Hada"
+      ],
+      "ability": "Poder Solar",
+      "nature": "Audaz",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Fría Acogida",
+        "Cosquillas",
+        "Tormento",
+        "Moflete Estático"
+      ]
     }
   ],
   "graveyard": [],
   "captures": [
     {
-      "route": "ruta_1",
-      "mon": "Magikarp",
+      "route": "ruta_22",
+      "mon": "Psyduck",
       "status": "captured"
     },
     {
-      "route": "ruta_22",
-      "mon": "Psyduck",
+      "route": "ruta_1",
+      "mon": "Gyarados",
       "status": "captured"
     },
     {
@@ -256,6 +295,16 @@
       "route": "monte_moon",
       "mon": "Bounsweet",
       "status": "captured"
+    },
+    {
+      "route": "monte_moon_exterior",
+      "mon": "Yamper",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_4",
+      "mon": "Clefairy",
+      "status": "captured"
     }
   ],
   "progress": {
@@ -265,12 +314,14 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_1": true,
       "ruta_22": true,
+      "ruta_1": true,
       "ruta_2_sur": true,
       "ruta_2_norte": true,
       "bosque_verde": true,
       "monte_moon": true,
+      "monte_moon_exterior": true,
+      "ruta_4": true,
       "ruta_3": true
     },
     "items": {}
