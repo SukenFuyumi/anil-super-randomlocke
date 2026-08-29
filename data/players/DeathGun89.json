@@ -1,0 +1,37 @@
+{
+  "id": "DeathGun89",
+  "name": "DeathGun89",
+  "lives": 30,
+  "livesUsed": 0,
+  "champion": false,
+  "notes": "Importado del save · 3h 59m jugadas · 3,500₽ · vidas en el juego: ?",
+  "team": [
+    {
+      "nickname": "El tortas",
+      "species": "Squirtle",
+      "level": 6,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Absorbe Electricidad",
+      "nature": "Activa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Somnífero",
+        "Ataque Furia",
+        "Pesadilla"
+      ]
+    }
+  ],
+  "box": [],
+  "graveyard": [],
+  "captures": [],
+  "progress": {
+    "gyms": {},
+    "bosses": {},
+    "npcs": {},
+    "routes": {},
+    "items": {}
+  }
+}
