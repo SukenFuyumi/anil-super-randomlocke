@@ -4,24 +4,24 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 46m jugadas · 1,760₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 0h 52m jugadas · 1,960₽ · vidas en el juego: ?",
   "team": [
     {
-      "nickname": "SMEGMA",
-      "species": "Slugma",
+      "nickname": "CONEJO BLAZ",
+      "species": "Bunnelby",
       "level": 14,
       "types": [
-        "Fuego"
+        "Normal"
       ],
-      "ability": "Puño Invisible",
-      "nature": "Afable",
+      "ability": "Pompa",
+      "nature": "Amable",
       "item": "",
       "shiny": false,
       "moves": [
-        "Daño Secreto",
-        "Gas Venenoso",
-        "Pirotecnia",
-        "Ultrapuño"
+        "Brazo Pincho",
+        "Falso Tortazo",
+        "Arraigo",
+        "Protección"
       ]
     },
     {
@@ -43,24 +43,6 @@
       ]
     },
     {
-      "nickname": "CONEJO BLAZ",
-      "species": "Bunnelby",
-      "level": 14,
-      "types": [
-        "Normal"
-      ],
-      "ability": "Pompa",
-      "nature": "Amable",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Brazo Pincho",
-        "Falso Tortazo",
-        "Arraigo",
-        "Protección"
-      ]
-    },
-    {
       "nickname": "GREYMON",
       "species": "Dratini",
       "level": 14,
@@ -76,6 +58,24 @@
         "Colmillo Veneno",
         "Destello",
         "Absorber"
+      ]
+    },
+    {
+      "nickname": "SMEGMA",
+      "species": "Slugma",
+      "level": 14,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "Puño Invisible",
+      "nature": "Afable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Daño Secreto",
+        "Gas Venenoso",
+        "Pirotecnia",
+        "Ultrapuño"
       ]
     },
     {
@@ -134,6 +134,24 @@
         "Ofrenda",
         "Veneno X"
       ]
+    },
+    {
+      "nickname": "AL",
+      "species": "Bonsly",
+      "level": 8,
+      "types": [
+        "Roca"
+      ],
+      "ability": "Retirada",
+      "nature": "Firme",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Follaje",
+        "Barrera Espinosa",
+        "Mil Púas Tóxicas",
+        "Aguzar"
+      ]
     }
   ],
   "graveyard": [],
@@ -157,6 +175,11 @@
       "route": "bosque_verde",
       "mon": "Bramblin",
       "status": "captured"
+    },
+    {
+      "route": "ruta_2_norte",
+      "mon": "Bonsly",
+      "status": "captured"
     }
   ],
   "progress": {
@@ -167,7 +190,8 @@
       "ruta_1": true,
       "ruta_22": true,
       "ruta_2_sur": true,
-      "bosque_verde": true
+      "bosque_verde": true,
+      "ruta_2_norte": true
     },
     "items": {}
   }
