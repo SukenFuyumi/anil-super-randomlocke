@@ -556,5 +556,14 @@
       "id": "final",
       "name": "Final por el título de Campeón"
     }
-  ]
+  ],
+  "captureOverrides": {
+    "suken": [
+      {
+        "species": "Tinkatuff",
+        "category": "estatico_regalo",
+        "where": "Ruta 3"
+      }
+    ]
+  }
 }
