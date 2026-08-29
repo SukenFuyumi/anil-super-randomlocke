@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 1h 15m jugadas · 3,500₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 1h 43m jugadas · 2,500₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "ElFokas",
       "species": "Popplio",
-      "level": 8,
+      "level": 14,
       "types": [
         "Agua"
       ],
@@ -19,15 +19,15 @@
       "shiny": false,
       "moves": [
         "Impresionar",
-        "Cambiafuerza",
-        "Reversión",
+        "Puño Jet",
+        "Puntapié",
         "Empapar"
       ]
     },
     {
       "nickname": "Mojarra",
       "species": "Magikarp",
-      "level": 6,
+      "level": 14,
       "types": [
         "Agua"
       ],
@@ -42,7 +42,7 @@
     {
       "nickname": "Sandman",
       "species": "Sandshrew",
-      "level": 5,
+      "level": 14,
       "types": [
         "Tierra"
       ],
@@ -51,8 +51,8 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Aullido",
-        "Cura Floral",
+        "Cambio de Marcha",
+        "Truco Floral",
         "Anulación",
         "Residuos"
       ]
@@ -60,7 +60,7 @@
     {
       "nickname": "McPato",
       "species": "Psyduck",
-      "level": 4,
+      "level": 14,
       "types": [
         "Agua"
       ],
@@ -70,9 +70,27 @@
       "shiny": false,
       "moves": [
         "Tornado",
-        "Confidencia",
+        "Ciclón de Hojas",
         "Prensa Metálica",
-        "Doble Patada"
+        "Viraje"
+      ]
+    },
+    {
+      "nickname": "Pronebone",
+      "species": "Cubone",
+      "level": 14,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Latido Oricalco",
+      "nature": "Osada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Terratemblor",
+        "Danza Dragón",
+        "Amago",
+        "Bilis"
       ]
     }
   ],
@@ -88,6 +106,11 @@
       "route": "ruta_22",
       "mon": "Psyduck",
       "status": "captured"
+    },
+    {
+      "route": "ruta_2_sur",
+      "mon": "Cubone",
+      "status": "captured"
     }
   ],
   "progress": {
@@ -96,7 +119,8 @@
     "npcs": {},
     "routes": {
       "ruta_1": true,
-      "ruta_22": true
+      "ruta_22": true,
+      "ruta_2_sur": true
     },
     "items": {}
   }
