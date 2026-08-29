@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 2h 32m jugadas · 8,680₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 2h 38m jugadas · 8,680₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "DUNAS",
@@ -81,38 +81,38 @@
     },
     {
       "nickname": "MOTITA2",
-      "species": "Flabebe",
+      "species": "Floette",
       "level": 23,
       "types": [
         "Hada"
       ],
-      "ability": "Velo Pastel",
+      "ability": "Regia Presencia",
       "nature": "Cauta",
       "item": "",
       "shiny": false,
       "moves": [
         "Viento Feérico",
         "Hilo Venenoso",
-        "Follaje",
+        "Luz Lunar",
         "Marcha Espectral"
       ]
     },
     {
       "nickname": "KING",
-      "species": "Poliwag",
+      "species": "Poliwhirl",
       "level": 23,
       "types": [
         "Agua"
       ],
-      "ability": "Prestidigitador",
+      "ability": "Espanto",
       "nature": "Afable",
       "item": "",
       "shiny": false,
       "moves": [
         "Salazón",
-        "A Defender",
-        "Chulería",
-        "Golpe Roca"
+        "Puntapié",
+        "Viraje",
+        "Clavo Cañón"
       ]
     }
   ],
@@ -228,7 +228,7 @@
     },
     {
       "route": "ruta_22",
-      "mon": "Flabebe",
+      "mon": "Floette",
       "status": "captured"
     },
     {
