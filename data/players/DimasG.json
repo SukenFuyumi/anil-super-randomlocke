@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 1h 16m jugadas · 4,600₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 2h 0m jugadas · 23,000₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Dumbo",
       "species": "Phanpy",
-      "level": 14,
+      "level": 21,
       "types": [
         "Tierra"
       ],
@@ -21,32 +21,13 @@
         "Púas",
         "Arenas Ardientes",
         "Hipnosis",
-        "Bucle Arena"
-      ]
-    },
-    {
-      "nickname": "Pulga",
-      "species": "Shroodle",
-      "level": 14,
-      "types": [
-        "Veneno",
-        "Normal"
-      ],
-      "ability": "Fuente Energía",
-      "nature": "Fuerte",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Giro Mortífero",
-        "Rayo Confuso",
-        "Ciclón",
-        "Fría Acogida"
+        "Divide Dolor"
       ]
     },
     {
       "nickname": "Tonquito ",
       "species": "Phantump",
-      "level": 14,
+      "level": 20,
       "types": [
         "Fantasma",
         "Planta"
@@ -63,42 +44,81 @@
       ]
     },
     {
-      "nickname": "Cuernito",
-      "species": "Cubone",
-      "level": 14,
+      "nickname": "Taxi",
+      "species": "Corvisquire",
+      "level": 20,
       "types": [
-        "Tierra"
+        "Volador"
       ],
-      "ability": "Disemillar",
-      "nature": "Firme",
+      "ability": "Recogida",
+      "nature": "Floja",
       "item": "",
       "shiny": false,
       "moves": [
-        "Rompecoraza",
-        "Beso Drenaje",
-        "Absorbefuerza",
-        "Protección"
+        "Confidencia",
+        "Encanto",
+        "Confusión",
+        "Tumba Rocas"
       ]
     },
     {
-      "nickname": "La noibat",
-      "species": "Noibat",
-      "level": 14,
+      "nickname": "Fola03",
+      "species": "Cranidos",
+      "level": 20,
       "types": [
-        "Volador",
-        "Dragón"
+        "Roca"
       ],
-      "ability": "Flaqueza",
-      "nature": "Alegre",
+      "ability": "Reacción Química",
+      "nature": "Amable",
       "item": "",
       "shiny": false,
       "moves": [
-        "Chirrido",
-        "Deslizamiento",
-        "Aire Afilado",
-        "Bramido Dragón"
+        "Cepo",
+        "Cerrojo Feérico",
+        "Visegrip",
+        "Rayo Burbuja"
       ]
     },
+    {
+      "nickname": "Pulga",
+      "species": "Shroodle",
+      "level": 20,
+      "types": [
+        "Veneno",
+        "Normal"
+      ],
+      "ability": "Fuente Energía",
+      "nature": "Fuerte",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Giro Mortífero",
+        "Rayo Confuso",
+        "Ciclón",
+        "Fría Acogida"
+      ]
+    },
+    {
+      "nickname": "Vampi",
+      "species": "Golbat",
+      "level": 23,
+      "types": [
+        "Veneno",
+        "Volador"
+      ],
+      "ability": "Presión",
+      "nature": "Grosera",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Limpieza General",
+        "Patada Tropical",
+        "Caída Libre",
+        "Búnker"
+      ]
+    }
+  ],
+  "box": [
     {
       "nickname": "rayo laser",
       "species": "Flabebe",
@@ -116,57 +136,132 @@
         "Alto Voltaje",
         "Mil Púas Tóxicas"
       ]
-    }
-  ],
-  "box": [],
-  "graveyard": [
+    },
     {
-      "nickname": "Vampi",
-      "species": "Zubat",
-      "level": 8,
+      "nickname": "Cuernito",
+      "species": "Cubone",
+      "level": 17,
       "types": [
-        "Veneno",
-        "Volador"
+        "Tierra"
       ],
-      "ability": "Clorofila",
-      "nature": "Grosera",
+      "ability": "Disemillar",
+      "nature": "Firme",
       "item": "",
       "shiny": false,
       "moves": [
-        "Limpieza General",
-        "Patada Tropical",
-        "Tornado"
+        "Psicorrayo",
+        "Beso Drenaje",
+        "Absorbefuerza",
+        "Protección"
+      ]
+    },
+    {
+      "nickname": "La noibat",
+      "species": "Noibat",
+      "level": 17,
+      "types": [
+        "Volador",
+        "Dragón"
+      ],
+      "ability": "Flaqueza",
+      "nature": "Alegre",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Chirrido",
+        "Deslizamiento",
+        "Aire Afilado",
+        "Bramido Dragón"
+      ]
+    },
+    {
+      "nickname": "Shroodle",
+      "species": "Shroodle",
+      "level": 13,
+      "types": [
+        "Veneno",
+        "Normal"
+      ],
+      "ability": "Hidrorrefuerzo",
+      "nature": "Amable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Velo Sagrado",
+        "Isoguardia",
+        "Fría Acogida",
+        "Rayo Confuso"
+      ]
+    }
+  ],
+  "graveyard": [
+    {
+      "nickname": "Goliat",
+      "species": "Eevee",
+      "level": 18,
+      "types": [
+        "Normal"
+      ],
+      "ability": "Cola Armadura",
+      "nature": "Pícara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Fotosíntesis",
+        "Ovocuración",
+        "Picotazo Veneno",
+        "Semilladora"
       ],
       "cause": "",
-      "route": "Laboratorio",
+      "route": "Ciudad Plateada",
       "date": ""
     }
   ],
   "captures": [
-    {
-      "route": "ruta_22",
-      "mon": "Shroodle",
-      "status": "captured"
-    },
     {
       "route": "ruta_1",
       "mon": "Phantump",
       "status": "captured"
     },
     {
+      "route": "ruta_3",
+      "mon": "Corvisquire",
+      "status": "captured"
+    },
+    {
+      "route": "monte_moon_exterior",
+      "mon": "Cranidos",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_22",
+      "mon": "Shroodle",
+      "status": "captured"
+    },
+    {
       "route": "ruta_2_norte",
       "mon": "Cubone",
+      "status": "captured"
+    },
+    {
+      "route": "monte_moon",
+      "mon": "Shroodle",
       "status": "captured"
     }
   ],
   "progress": {
-    "gyms": {},
+    "gyms": {
+      "gym1": true
+    },
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_22": true,
       "ruta_1": true,
+      "ruta_3": true,
+      "monte_moon_exterior": true,
+      "ruta_22": true,
       "ruta_2_norte": true,
+      "monte_moon": true,
       "ruta_2_sur": true,
       "bosque_verde": true
     },
