@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 1h 29m jugadas · 2,310₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 1h 31m jugadas · 2,310₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "DUNAS",
@@ -152,6 +152,24 @@
         "Confusión",
         "Bálsamo Osado",
         "Gota Vital"
+      ]
+    },
+    {
+      "nickname": "GASPARIN",
+      "species": "Poltchageist",
+      "level": 1,
+      "types": [
+        "Planta",
+        "Fantasma"
+      ],
+      "ability": "",
+      "nature": "Osada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Magnitud",
+        "Patada Tropical",
+        "Cepo"
       ]
     },
     {
