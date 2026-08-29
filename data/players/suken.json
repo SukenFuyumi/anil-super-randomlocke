@@ -4,42 +4,43 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 1h 17m jugadas · 2,310₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 1h 29m jugadas · 2,310₽ · vidas en el juego: ?",
   "team": [
     {
-      "nickname": "CONEJO BLAZ",
-      "species": "Bunnelby",
+      "nickname": "DUNAS",
+      "species": "Bramblin",
       "level": 14,
       "types": [
-        "Normal"
+        "Planta",
+        "Fantasma"
       ],
-      "ability": "Pompa",
-      "nature": "Amable",
+      "ability": "Manto Frondoso",
+      "nature": "Ingenua",
       "item": "",
       "shiny": false,
       "moves": [
-        "Brazo Pincho",
-        "Falso Tortazo",
-        "Arraigo",
-        "Protección"
+        "Giro Bola",
+        "Sombra Vil",
+        "Veneno X",
+        "Absorber"
       ]
     },
     {
-      "nickname": "KING",
-      "species": "Poliwag",
+      "nickname": "AL",
+      "species": "Bonsly",
       "level": 14,
       "types": [
-        "Agua"
+        "Roca"
       ],
-      "ability": "Prestidigitador",
-      "nature": "Afable",
+      "ability": "Retirada",
+      "nature": "Firme",
       "item": "",
       "shiny": false,
       "moves": [
-        "Salazón",
-        "A Defender",
-        "Chulería",
-        "Gas Venenoso"
+        "Follaje",
+        "Aura Magnética",
+        "Absorber",
+        "Aguzar"
       ]
     },
     {
@@ -97,6 +98,63 @@
       ]
     },
     {
+      "nickname": "KING",
+      "species": "Poliwag",
+      "level": 14,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Prestidigitador",
+      "nature": "Afable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Salazón",
+        "A Defender",
+        "Chulería",
+        "Gas Venenoso"
+      ]
+    }
+  ],
+  "box": [
+    {
+      "nickname": "CONEJO BLAZ",
+      "species": "Bunnelby",
+      "level": 14,
+      "types": [
+        "Normal"
+      ],
+      "ability": "Pompa",
+      "nature": "Amable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Brazo Pincho",
+        "Falso Tortazo",
+        "Arraigo",
+        "Protección"
+      ]
+    },
+    {
+      "nickname": "TECATA",
+      "species": "Bulbasaur",
+      "level": 14,
+      "types": [
+        "Planta",
+        "Veneno"
+      ],
+      "ability": "Manto Frondoso",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Marcha Espectral",
+        "Confusión",
+        "Bálsamo Osado",
+        "Gota Vital"
+      ]
+    },
+    {
       "nickname": "CRAWLER",
       "species": "Corphish",
       "level": 14,
@@ -115,66 +173,18 @@
       ]
     }
   ],
-  "box": [
-    {
-      "nickname": "DUNAS",
-      "species": "Bramblin",
-      "level": 7,
-      "types": [
-        "Planta",
-        "Fantasma"
-      ],
-      "ability": "Manto Frondoso",
-      "nature": "Ingenua",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Giro Bola",
-        "Sombra Vil",
-        "Ofrenda",
-        "Veneno X"
-      ]
-    },
-    {
-      "nickname": "AL",
-      "species": "Bonsly",
-      "level": 8,
-      "types": [
-        "Roca"
-      ],
-      "ability": "Retirada",
-      "nature": "Firme",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Follaje",
-        "Barrera Espinosa",
-        "Mil Púas Tóxicas",
-        "Aguzar"
-      ]
-    },
-    {
-      "nickname": "TECATA",
-      "species": "Bulbasaur",
-      "level": 10,
-      "types": [
-        "Planta",
-        "Veneno"
-      ],
-      "ability": "",
-      "nature": "Plácida",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Cornada",
-        "Confusión",
-        "Corpulencia",
-        "Furia"
-      ]
-    }
-  ],
   "graveyard": [],
   "captures": [
+    {
+      "route": "bosque_verde",
+      "mon": "Bramblin",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_2_norte",
+      "mon": "Bonsly",
+      "status": "captured"
+    },
     {
       "route": "ruta_1",
       "mon": "Slugma",
@@ -189,16 +199,6 @@
       "route": "ruta_2_sur",
       "mon": "Corphish",
       "status": "captured"
-    },
-    {
-      "route": "bosque_verde",
-      "mon": "Bramblin",
-      "status": "captured"
-    },
-    {
-      "route": "ruta_2_norte",
-      "mon": "Bonsly",
-      "status": "captured"
     }
   ],
   "progress": {
@@ -206,11 +206,11 @@
     "bosses": {},
     "npcs": {},
     "routes": {
+      "bosque_verde": true,
+      "ruta_2_norte": true,
       "ruta_1": true,
       "ruta_22": true,
-      "ruta_2_sur": true,
-      "bosque_verde": true,
-      "ruta_2_norte": true
+      "ruta_2_sur": true
     },
     "items": {}
   }
