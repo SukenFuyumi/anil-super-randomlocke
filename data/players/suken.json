@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 3h 52m jugadas · 28,590₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 53m jugadas · 30,870₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -428,7 +428,8 @@
       "monte_moon_exterior": true,
       "ruta_4": true,
       "ruta_2_norte": true,
-      "bosque_verde": true
+      "bosque_verde": true,
+      "ruta_21": true
     },
     "items": {}
   }
