@@ -1,0 +1,146 @@
+{
+  "id": "El_Headshot",
+  "name": "Maikolllll",
+  "lives": 30,
+  "livesUsed": 0,
+  "champion": false,
+  "notes": "Importado del save · 1h 11m jugadas · 2,720₽ · vidas en el juego: ?",
+  "team": [
+    {
+      "nickname": "Mamona",
+      "species": "Purrloin",
+      "level": 6,
+      "types": [
+        "Siniestro"
+      ],
+      "ability": "Viscosidad",
+      "nature": "Agitada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Daño Secreto",
+        "Maldición",
+        "Nitrocarga",
+        "Finta"
+      ]
+    },
+    {
+      "nickname": "Cricri",
+      "species": "Rolycoly",
+      "level": 14,
+      "types": [
+        "Roca"
+      ],
+      "ability": "Simbiosis",
+      "nature": "Mansa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Salazón",
+        "Clemencia",
+        "Tormento",
+        "Alquitranazo"
+      ]
+    },
+    {
+      "nickname": "Motita",
+      "species": "Flabebe",
+      "level": 14,
+      "types": [
+        "Hada"
+      ],
+      "ability": "Toque Tóxico",
+      "nature": "Fuerte",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Yo Primero",
+        "Bruma Explosiva",
+        "Brinco",
+        "Trampa Rocas"
+      ]
+    },
+    {
+      "nickname": "VvHeadshotvV",
+      "species": "Teddiursa",
+      "level": 14,
+      "types": [
+        "Normal"
+      ],
+      "ability": "Dinamo",
+      "nature": "Floja",
+      "item": "Baya Arabol",
+      "shiny": false,
+      "moves": [
+        "Palmeo",
+        "Plumerazo",
+        "Buena Baza",
+        "Esquema"
+      ]
+    },
+    {
+      "nickname": "Changomojao",
+      "species": "Panpour",
+      "level": 5,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Mal Sueño",
+      "nature": "Firme",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Canto",
+        "Pistola Agua",
+        "Hidropulso"
+      ]
+    },
+    {
+      "nickname": "Pussycat",
+      "species": "Skitty",
+      "level": 2,
+      "types": [
+        "Normal"
+      ],
+      "ability": "Velo Agua",
+      "nature": "Ingenua",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Vendetta",
+        "Onda Simple",
+        "Gas Venenoso"
+      ]
+    }
+  ],
+  "box": [],
+  "graveyard": [],
+  "captures": [
+    {
+      "route": "ruta_22",
+      "mon": "Purrloin",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_1",
+      "mon": "Rolycoly",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_2_sur",
+      "mon": "Panpour",
+      "status": "captured"
+    }
+  ],
+  "progress": {
+    "gyms": {},
+    "bosses": {},
+    "npcs": {},
+    "routes": {
+      "ruta_22": true,
+      "ruta_1": true,
+      "ruta_2_sur": true
+    },
+    "items": {}
+  }
+}
