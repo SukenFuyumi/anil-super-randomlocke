@@ -4,30 +4,30 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 2h 47m jugadas · 46,700₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 2h 49m jugadas · 47,800₽ · vidas en el juego: ?",
   "team": [
     {
-      "nickname": "Miguelito",
-      "species": "Thwackey",
+      "nickname": "Dr Pepper",
+      "species": "Alakazam",
       "level": 23,
       "types": [
-        "Planta"
+        "Psíquico"
       ],
-      "ability": "Velo Agua",
-      "nature": "Audaz",
-      "item": "Cinta Elección",
+      "ability": "Tinovictoria",
+      "nature": "Ingenua",
+      "item": "Banda Aguante",
       "shiny": false,
       "moves": [
-        "Pikaturbo",
-        "Colmillo Ígneo",
-        "Terratemblor",
-        "Agarrón"
+        "Relajo",
+        "Relámpago Súbito",
+        "Psicorrayo",
+        "Tóxico"
       ]
     },
     {
       "nickname": "Hopper",
       "species": "Nymble",
-      "level": 22,
+      "level": 23,
       "types": [
         "Bicho"
       ],
@@ -45,7 +45,7 @@
     {
       "nickname": "Crayola",
       "species": "Shellos",
-      "level": 22,
+      "level": 23,
       "types": [
         "Agua"
       ],
@@ -82,7 +82,7 @@
     {
       "nickname": "Peter",
       "species": "Dewpider",
-      "level": 22,
+      "level": 23,
       "types": [
         "Agua",
         "Bicho"
@@ -99,21 +99,21 @@
       ]
     },
     {
-      "nickname": "Dr Pepper",
-      "species": "Alakazam",
+      "nickname": "Miguelito",
+      "species": "Thwackey",
       "level": 23,
       "types": [
-        "Psíquico"
+        "Planta"
       ],
-      "ability": "Tinovictoria",
-      "nature": "Ingenua",
-      "item": "Banda Aguante",
+      "ability": "Velo Agua",
+      "nature": "Audaz",
+      "item": "Cinta Elección",
       "shiny": false,
       "moves": [
-        "Relajo",
-        "Relámpago Súbito",
-        "Psicorrayo",
-        "Tóxico"
+        "Pikaturbo",
+        "Colmillo Ígneo",
+        "Terratemblor",
+        "Agarrón"
       ]
     }
   ],
@@ -343,6 +343,11 @@
   "graveyard": [],
   "captures": [
     {
+      "route": "monte_moon",
+      "mon": "Alakazam",
+      "status": "captured"
+    },
+    {
       "route": "ruta_2_sur",
       "mon": "Nymble",
       "status": "captured"
@@ -350,11 +355,6 @@
     {
       "route": "ruta_1",
       "mon": "Dewpider",
-      "status": "captured"
-    },
-    {
-      "route": "monte_moon",
-      "mon": "Alakazam",
       "status": "captured"
     },
     {
@@ -395,9 +395,9 @@
     "bosses": {},
     "npcs": {},
     "routes": {
+      "monte_moon": true,
       "ruta_2_sur": true,
       "ruta_1": true,
-      "monte_moon": true,
       "ruta_2_norte": true,
       "ruta_4": true,
       "bosque_verde": true,
