@@ -4,8 +4,27 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 10m jugadas · 3,000₽ · vidas en el juego: ?",
-  "team": [],
+  "notes": "Importado del save · 0h 20m jugadas · 4,000₽ · vidas en el juego: ?",
+  "team": [
+    {
+      "nickname": "Miguelito",
+      "species": "Grookey",
+      "level": 6,
+      "types": [
+        "Planta"
+      ],
+      "ability": "Piel Celeste",
+      "nature": "Audaz",
+      "item": "Cinta Elección",
+      "shiny": false,
+      "moves": [
+        "Relajo",
+        "Colmillo Ígneo",
+        "Rizo Algodón",
+        "Agarrón"
+      ]
+    }
+  ],
   "box": [],
   "graveyard": [],
   "captures": [],
@@ -13,7 +32,10 @@
     "gyms": {},
     "bosses": {},
     "npcs": {},
-    "routes": {},
+    "routes": {
+      "ruta_1": true,
+      "ruta_22": true
+    },
     "items": {}
   }
 }
