@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 1h 5m jugadas · 4,810₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 1h 10m jugadas · 4,810₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "goku",
@@ -64,7 +64,7 @@
     {
       "nickname": "gato",
       "species": "Skitty",
-      "level": 10,
+      "level": 11,
       "types": [
         "Normal"
       ],
@@ -82,7 +82,7 @@
     {
       "nickname": "toni",
       "species": "Voltorb",
-      "level": 9,
+      "level": 10,
       "types": [
         "Eléctrico"
       ],
