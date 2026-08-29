@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 42m jugadas · 1,760₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 0h 43m jugadas · 1,760₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "SMEGMA",
@@ -99,7 +99,7 @@
     {
       "nickname": "CRAWLER",
       "species": "Corphish",
-      "level": 9,
+      "level": 14,
       "types": [
         "Agua"
       ],
@@ -108,7 +108,7 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Placaje",
+        "Aguijón Letal",
         "Llave Giro",
         "Clavo Cañón",
         "Puño Bala"
