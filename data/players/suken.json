@@ -2,9 +2,9 @@
   "id": "suken",
   "name": "Suken",
   "lives": 30,
-  "livesUsed": 1,
+  "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 3h 37m jugadas · 21,090₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 48m jugadas · 28,590₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -25,22 +25,20 @@
       ]
     },
     {
-      "nickname": "GASPARIN",
-      "species": "Poltchageist",
-      "level": 23,
+      "nickname": "ZEN",
+      "species": "Darumaka",
+      "level": 1,
       "types": [
-        "Planta",
-        "Fantasma"
+        "Fuego"
       ],
-      "ability": "Recogida",
-      "nature": "Osada",
-      "item": "Super Ball",
+      "ability": "Telepatía",
+      "nature": "Seria",
+      "item": "Baya Grana",
       "shiny": false,
       "moves": [
-        "Magnitud",
-        "Patada Tropical",
-        "Campo de Hierba",
-        "Marcha Espectral"
+        "Conjuro",
+        "Bastión Final",
+        "Bombardeo"
       ]
     },
     {
@@ -152,23 +150,6 @@
       ]
     },
     {
-      "nickname": "ZEN",
-      "species": "Darumaka",
-      "level": 1,
-      "types": [
-        "Fuego"
-      ],
-      "ability": "",
-      "nature": "Seria",
-      "item": "Baya Grana",
-      "shiny": false,
-      "moves": [
-        "Conjuro",
-        "Bastión Final",
-        "Bombardeo"
-      ]
-    },
-    {
       "nickname": "CAMION",
       "species": "Charjabug",
       "level": 16,
@@ -185,6 +166,42 @@
         "Pikaturbo",
         "Amago",
         "Defensa Férrea"
+      ]
+    },
+    {
+      "nickname": "ABRAMERO",
+      "species": "Abra",
+      "level": 16,
+      "types": [
+        "Psíquico"
+      ],
+      "ability": "Poder Fúngico",
+      "nature": "Pícara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Cepo",
+        "Geocontrol",
+        "Rabia",
+        "Foco Energía"
+      ]
+    },
+    {
+      "nickname": "PSI",
+      "species": "Psyduck",
+      "level": 18,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Combustible",
+      "nature": "Serena",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Deslizamiento",
+        "Empapar",
+        "Rugido de Guerra",
+        "Reciclaje"
       ]
     },
     {
@@ -301,6 +318,28 @@
       "cause": "",
       "route": "Ciudad Verde",
       "date": ""
+    },
+    {
+      "nickname": "GASPARIN",
+      "species": "Poltchageist",
+      "level": 23,
+      "types": [
+        "Planta",
+        "Fantasma"
+      ],
+      "ability": "Recogida",
+      "nature": "Osada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Magnitud",
+        "Patada Tropical",
+        "Campo de Hierba",
+        "Marcha Espectral"
+      ],
+      "cause": "",
+      "route": "Museo Pokémon",
+      "date": ""
     }
   ],
   "captures": [
@@ -327,6 +366,11 @@
     {
       "route": "monte_moon_exterior",
       "mon": "Charjabug",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_4",
+      "mon": "Abra",
       "status": "captured"
     },
     {
@@ -357,10 +401,11 @@
       "ruta_2_sur": true,
       "ruta_3": true,
       "monte_moon_exterior": true,
+      "ruta_4": true,
       "ruta_1": true,
       "ruta_2_norte": true,
       "bosque_verde": true,
-      "ruta_4": true
+      "ruta_20": true
     },
     "items": {}
   }
