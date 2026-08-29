@@ -4,16 +4,17 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 1h 10m jugadas · 4,810₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 1h 16m jugadas · 5,510₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "goku",
-      "species": "Chimchar",
-      "level": 12,
+      "species": "Monferno",
+      "level": 14,
       "types": [
-        "Fuego"
+        "Fuego",
+        "Lucha"
       ],
-      "ability": "Rompemoldes",
+      "ability": "Ignífugo",
       "nature": "Ingenua",
       "item": "",
       "shiny": false,
@@ -27,7 +28,7 @@
     {
       "nickname": "lola",
       "species": "Pumpkaboo",
-      "level": 10,
+      "level": 14,
       "types": [
         "Fantasma",
         "Planta"
@@ -39,14 +40,14 @@
       "moves": [
         "Masa Cósmica",
         "Lengüetazo",
-        "Disparo Demora",
+        "Sorpresa",
         "Bilis"
       ]
     },
     {
       "nickname": "faker",
       "species": "Skiddo",
-      "level": 10,
+      "level": 14,
       "types": [
         "Planta"
       ],
@@ -55,7 +56,7 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Confidencia",
+        "Meteoros",
         "Punzada Rama",
         "Púas",
         "Abatidoras"
@@ -64,7 +65,7 @@
     {
       "nickname": "gato",
       "species": "Skitty",
-      "level": 11,
+      "level": 14,
       "types": [
         "Normal"
       ],
@@ -75,14 +76,14 @@
       "moves": [
         "Agitacola",
         "Ojitos Tiernos",
-        "Telaraña",
+        "Picoteo",
         "Pulimento"
       ]
     },
     {
       "nickname": "toni",
       "species": "Voltorb",
-      "level": 10,
+      "level": 14,
       "types": [
         "Eléctrico"
       ],
@@ -92,7 +93,7 @@
       "shiny": false,
       "moves": [
         "Brazo Pincho",
-        "Cura Floral",
+        "Clavo Cañón",
         "Levitón",
         "Drenadoras"
       ]
@@ -100,7 +101,7 @@
     {
       "nickname": "el bicho",
       "species": "Ledyba",
-      "level": 9,
+      "level": 14,
       "types": [
         "Bicho",
         "Volador"
@@ -110,10 +111,10 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Doble Equipo",
-        "Rugido",
+        "Viento Plata",
+        "Colmillo Rayo",
         "Golpe Rastrero",
-        "Motivación"
+        "Patada Baja"
       ]
     }
   ],
@@ -123,13 +124,13 @@
     {
       "route": "",
       "where": "Laboratorio",
-      "species": "Chimchar",
+      "species": "Monferno",
       "nickname": "goku",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
       "level": 5,
-      "mon": "Chimchar"
+      "mon": "Monferno"
     },
     {
       "route": "ruta_1",
