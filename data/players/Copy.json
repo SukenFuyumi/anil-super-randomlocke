@@ -4,12 +4,31 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 3h 6m jugadas · 51,250₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 14m jugadas · 50,950₽ · vidas en el juego: ?",
   "team": [
+    {
+      "nickname": "Peter",
+      "species": "Araquanid",
+      "level": 26,
+      "types": [
+        "Agua",
+        "Bicho"
+      ],
+      "ability": "Espada Debacle",
+      "nature": "Amable",
+      "item": "Garra Afilada",
+      "shiny": false,
+      "moves": [
+        "Ida y Vuelta",
+        "Tóxico",
+        "Triple Inmersión",
+        "Telatrampa"
+      ]
+    },
     {
       "nickname": "Dr Pepper",
       "species": "Alakazam",
-      "level": 23,
+      "level": 25,
       "types": [
         "Psíquico"
       ],
@@ -27,7 +46,7 @@
     {
       "nickname": "Polla",
       "species": "Staravia",
-      "level": 23,
+      "level": 24,
       "types": [
         "Normal",
         "Volador"
@@ -44,28 +63,9 @@
       ]
     },
     {
-      "nickname": "Peter",
-      "species": "Araquanid",
-      "level": 26,
-      "types": [
-        "Agua",
-        "Bicho"
-      ],
-      "ability": "Espada Debacle",
-      "nature": "Amable",
-      "item": "Seguro Fallo",
-      "shiny": false,
-      "moves": [
-        "Ida y Vuelta",
-        "Tóxico",
-        "Triple Inmersión",
-        "Telatrampa"
-      ]
-    },
-    {
       "nickname": "Miguelito",
       "species": "Thwackey",
-      "level": 23,
+      "level": 24,
       "types": [
         "Planta"
       ],
@@ -83,7 +83,7 @@
     {
       "nickname": "Cobblemon",
       "species": "Naclstack",
-      "level": 23,
+      "level": 24,
       "types": [
         "Roca"
       ],
@@ -101,7 +101,7 @@
     {
       "nickname": "CFE",
       "species": "Graveler",
-      "level": 25,
+      "level": 26,
       "types": [
         "Roca",
         "Tierra"
@@ -357,18 +357,55 @@
         "Tóxico",
         "Aligerar"
       ]
+    },
+    {
+      "nickname": "Midas",
+      "species": "Luxio",
+      "level": 20,
+      "types": [
+        "Eléctrico"
+      ],
+      "ability": "Torrente",
+      "nature": "Firme",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Poder Reserva",
+        "Carga Parábola",
+        "Voltiocambio",
+        "Electrotela"
+      ]
+    },
+    {
+      "nickname": "Mamá Carlos",
+      "species": "Stunky",
+      "level": 18,
+      "types": [
+        "Veneno",
+        "Siniestro"
+      ],
+      "ability": "Regeneración",
+      "nature": "Cauta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Conversión",
+        "Búnker",
+        "Arañazo",
+        "Embargo"
+      ]
     }
   ],
   "graveyard": [],
   "captures": [
     {
-      "route": "monte_moon",
-      "mon": "Alakazam",
+      "route": "ruta_1",
+      "mon": "Araquanid",
       "status": "captured"
     },
     {
-      "route": "ruta_1",
-      "mon": "Araquanid",
+      "route": "monte_moon",
+      "mon": "Alakazam",
       "status": "captured"
     },
     {
@@ -405,6 +442,16 @@
       "route": "ruta_2_sur",
       "mon": "Lokix",
       "status": "captured"
+    },
+    {
+      "route": "ruta_5",
+      "mon": "Luxio",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_6",
+      "mon": "Stunky",
+      "status": "captured"
     }
   ],
   "progress": {
@@ -415,8 +462,8 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "monte_moon": true,
       "ruta_1": true,
+      "monte_moon": true,
       "ruta_2_norte": true,
       "ruta_4": true,
       "bosque_verde": true,
@@ -424,6 +471,8 @@
       "monte_moon_exterior": true,
       "ruta_20": true,
       "ruta_2_sur": true,
+      "ruta_5": true,
+      "ruta_6": true,
       "ruta_22": true,
       "ruta_21": true
     },
