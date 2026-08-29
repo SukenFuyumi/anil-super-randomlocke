@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 2h 49m jugadas · 47,800₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 6m jugadas · 51,250₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Dr Pepper",
@@ -22,42 +22,6 @@
         "Relámpago Súbito",
         "Psicorrayo",
         "Tóxico"
-      ]
-    },
-    {
-      "nickname": "Hopper",
-      "species": "Nymble",
-      "level": 23,
-      "types": [
-        "Bicho"
-      ],
-      "ability": "Teraformación 0",
-      "nature": "Dócil",
-      "item": "Tarjeta Roja",
-      "shiny": false,
-      "moves": [
-        "Colmillo Veneno",
-        "Brinco",
-        "Pikaturbo",
-        "Antiaéreo"
-      ]
-    },
-    {
-      "nickname": "Crayola",
-      "species": "Shellos",
-      "level": 23,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Electricidad Estática",
-      "nature": "Ingenua",
-      "item": "Baya Ziuela",
-      "shiny": false,
-      "moves": [
-        "Obstrucción",
-        "Tóxico",
-        "Alarido",
-        "Bucle Arena"
       ]
     },
     {
@@ -81,21 +45,21 @@
     },
     {
       "nickname": "Peter",
-      "species": "Dewpider",
-      "level": 23,
+      "species": "Araquanid",
+      "level": 26,
       "types": [
         "Agua",
         "Bicho"
       ],
-      "ability": "Polvo Escudo",
+      "ability": "Espada Debacle",
       "nature": "Amable",
       "item": "Seguro Fallo",
       "shiny": false,
       "moves": [
-        "Pikaturbo",
+        "Ida y Vuelta",
         "Tóxico",
         "Triple Inmersión",
-        "Fotosíntesis"
+        "Telatrampa"
       ]
     },
     {
@@ -114,6 +78,43 @@
         "Colmillo Ígneo",
         "Terratemblor",
         "Agarrón"
+      ]
+    },
+    {
+      "nickname": "Cobblemon",
+      "species": "Naclstack",
+      "level": 23,
+      "types": [
+        "Roca"
+      ],
+      "ability": "Anticipación",
+      "nature": "Pícara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Golpe Calor",
+        "Terratemblor",
+        "Superdiente",
+        "Sorpresa"
+      ]
+    },
+    {
+      "nickname": "CFE",
+      "species": "Graveler",
+      "level": 25,
+      "types": [
+        "Roca",
+        "Tierra"
+      ],
+      "ability": "Francotirador",
+      "nature": "Modesta",
+      "item": "Baya Ziuela",
+      "shiny": false,
+      "moves": [
+        "Llama Protectora",
+        "Pikaturbo",
+        "Puño Furia",
+        "Puño Bala"
       ]
     }
   ],
@@ -134,24 +135,6 @@
         "Ronquido",
         "Embargo",
         "Estruendo Escama"
-      ]
-    },
-    {
-      "nickname": "TriMike",
-      "species": "Diglett",
-      "level": 15,
-      "types": [
-        "Tierra"
-      ],
-      "ability": "Carrillo",
-      "nature": "Modesta",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Rayo Burbuja",
-        "Bomba Fango",
-        "Residuos",
-        "Pikaturbo"
       ]
     },
     {
@@ -230,25 +213,6 @@
       ]
     },
     {
-      "nickname": "CFE",
-      "species": "Geodude",
-      "level": 14,
-      "types": [
-        "Roca",
-        "Tierra"
-      ],
-      "ability": "Velo Agua",
-      "nature": "Modesta",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Llave Vital",
-        "Autotomía",
-        "Cambiaalmas",
-        "Telépata"
-      ]
-    },
-    {
       "nickname": "Master",
       "species": "Riolu",
       "level": 15,
@@ -264,24 +228,6 @@
         "Arañazo",
         "A Defender",
         "Paisaje Nevado"
-      ]
-    },
-    {
-      "nickname": "Don riaton",
-      "species": "Wiglett",
-      "level": 19,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Guardia Espectro",
-      "nature": "Fuerte",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Cola Veneno",
-        "Corte Furia",
-        "Tóxico",
-        "Aligerar"
       ]
     },
     {
@@ -338,6 +284,79 @@
         "Telaraña",
         "Motivación"
       ]
+    },
+    {
+      "nickname": "Crayola",
+      "species": "Shellos",
+      "level": 23,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Electricidad Estática",
+      "nature": "Ingenua",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Obstrucción",
+        "Tóxico",
+        "Alarido",
+        "Bucle Arena"
+      ]
+    },
+    {
+      "nickname": "Hopper",
+      "species": "Lokix",
+      "level": 24,
+      "types": [
+        "Bicho",
+        "Siniestro"
+      ],
+      "ability": "Abalorio Debacle",
+      "nature": "Dócil",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Tajo Umbrío",
+        "Brinco",
+        "Pikaturbo",
+        "Truco Floral"
+      ]
+    },
+    {
+      "nickname": "TriMike",
+      "species": "Dugtrio",
+      "level": 26,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Nerviosismo",
+      "nature": "Modesta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Hoja Afilada",
+        "Bucle Arena",
+        "Recogearena",
+        "Pikaturbo"
+      ]
+    },
+    {
+      "nickname": "Don riaton",
+      "species": "Wugtrio",
+      "level": 26,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Alma Cura",
+      "nature": "Fuerte",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Cola Veneno",
+        "Corte Furia",
+        "Tóxico",
+        "Aligerar"
+      ]
     }
   ],
   "graveyard": [],
@@ -348,13 +367,8 @@
       "status": "captured"
     },
     {
-      "route": "ruta_2_sur",
-      "mon": "Nymble",
-      "status": "captured"
-    },
-    {
       "route": "ruta_1",
-      "mon": "Dewpider",
+      "mon": "Araquanid",
       "status": "captured"
     },
     {
@@ -386,17 +400,22 @@
       "route": "ruta_20",
       "mon": "Venonat",
       "status": "captured"
+    },
+    {
+      "route": "ruta_2_sur",
+      "mon": "Lokix",
+      "status": "captured"
     }
   ],
   "progress": {
     "gyms": {
-      "gym1": true
+      "gym1": true,
+      "gym2": true
     },
     "bosses": {},
     "npcs": {},
     "routes": {
       "monte_moon": true,
-      "ruta_2_sur": true,
       "ruta_1": true,
       "ruta_2_norte": true,
       "ruta_4": true,
@@ -404,6 +423,7 @@
       "ruta_3": true,
       "monte_moon_exterior": true,
       "ruta_20": true,
+      "ruta_2_sur": true,
       "ruta_22": true,
       "ruta_21": true
     },
