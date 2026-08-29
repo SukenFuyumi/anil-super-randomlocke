@@ -560,6 +560,11 @@
   "captureOverrides": {
     "suken": [
       {
+        "species": "Ivysaur",
+        "category": "estatico_regalo",
+        "where": "Ciudad Plateada"
+      },
+      {
         "species": "Tinkatuff",
         "category": "estatico_regalo",
         "where": "Ruta 3"
