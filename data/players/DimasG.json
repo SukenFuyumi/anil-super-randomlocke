@@ -4,56 +4,18 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 0h 58m jugadas · 1,100₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 1h 16m jugadas · 4,600₽ · vidas en el juego: ?",
   "team": [
-    {
-      "nickname": "Tonquito ",
-      "species": "Phantump",
-      "level": 12,
-      "types": [
-        "Fantasma",
-        "Planta"
-      ],
-      "ability": "Clorofila",
-      "nature": "Ingenua",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Bastión Final",
-        "Somnífero",
-        "Castigo",
-        "Doble Golpe"
-      ]
-    },
-    {
-      "nickname": "Pulga",
-      "species": "Shroodle",
-      "level": 12,
-      "types": [
-        "Veneno",
-        "Normal"
-      ],
-      "ability": "Fuente Energía",
-      "nature": "Fuerte",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Amago",
-        "Rayo Confuso",
-        "Isoguardia",
-        "Fría Acogida"
-      ]
-    },
     {
       "nickname": "Dumbo",
       "species": "Phanpy",
-      "level": 12,
+      "level": 14,
       "types": [
         "Tierra"
       ],
       "ability": "Iluminación",
       "nature": "Cauta",
-      "item": "",
+      "item": "Tabla Terrax",
       "shiny": false,
       "moves": [
         "Púas",
@@ -63,9 +25,47 @@
       ]
     },
     {
+      "nickname": "Pulga",
+      "species": "Shroodle",
+      "level": 14,
+      "types": [
+        "Veneno",
+        "Normal"
+      ],
+      "ability": "Fuente Energía",
+      "nature": "Fuerte",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Giro Mortífero",
+        "Rayo Confuso",
+        "Ciclón",
+        "Fría Acogida"
+      ]
+    },
+    {
+      "nickname": "Tonquito ",
+      "species": "Phantump",
+      "level": 14,
+      "types": [
+        "Fantasma",
+        "Planta"
+      ],
+      "ability": "Clorofila",
+      "nature": "Ingenua",
+      "item": "Pañuelo de Seda",
+      "shiny": false,
+      "moves": [
+        "Bastión Final",
+        "Somnífero",
+        "Deslizamiento",
+        "Doble Golpe"
+      ]
+    },
+    {
       "nickname": "Cuernito",
       "species": "Cubone",
-      "level": 12,
+      "level": 14,
       "types": [
         "Tierra"
       ],
@@ -75,7 +75,7 @@
       "shiny": false,
       "moves": [
         "Rompecoraza",
-        "Burbuja",
+        "Beso Drenaje",
         "Absorbefuerza",
         "Protección"
       ]
@@ -83,7 +83,7 @@
     {
       "nickname": "La noibat",
       "species": "Noibat",
-      "level": 12,
+      "level": 14,
       "types": [
         "Volador",
         "Dragón"
@@ -94,9 +94,27 @@
       "shiny": false,
       "moves": [
         "Chirrido",
-        "Tornado",
+        "Deslizamiento",
         "Aire Afilado",
         "Bramido Dragón"
+      ]
+    },
+    {
+      "nickname": "rayo laser",
+      "species": "Flabebe",
+      "level": 14,
+      "types": [
+        "Hada"
+      ],
+      "ability": "Poder Solar",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Fertilizante",
+        "Recuperación",
+        "Alto Voltaje",
+        "Mil Púas Tóxicas"
       ]
     }
   ],
@@ -126,13 +144,13 @@
   ],
   "captures": [
     {
-      "route": "ruta_1",
-      "mon": "Phantump",
+      "route": "ruta_22",
+      "mon": "Shroodle",
       "status": "captured"
     },
     {
-      "route": "ruta_22",
-      "mon": "Shroodle",
+      "route": "ruta_1",
+      "mon": "Phantump",
       "status": "captured"
     },
     {
@@ -146,8 +164,8 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_1": true,
       "ruta_22": true,
+      "ruta_1": true,
       "ruta_2_norte": true,
       "ruta_2_sur": true,
       "bosque_verde": true
