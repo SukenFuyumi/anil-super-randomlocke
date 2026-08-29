@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 3h 55m jugadas · 33,670₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 57m jugadas · 33,670₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -223,6 +223,24 @@
       ]
     },
     {
+      "nickname": "ISRAELÍ",
+      "species": "Voltorb",
+      "level": 20,
+      "types": [
+        "Eléctrico"
+      ],
+      "ability": "Clorofila",
+      "nature": "Pícara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Pikaturbo",
+        "Dulce Aroma",
+        "Rencor",
+        "Paralizador"
+      ]
+    },
+    {
       "nickname": "GREYMON",
       "species": "Dratini",
       "level": 23,
@@ -402,6 +420,11 @@
       "status": "captured"
     },
     {
+      "route": "ruta_21",
+      "mon": "Voltorb",
+      "status": "captured"
+    },
+    {
       "route": "ruta_2_norte",
       "mon": "Bonsly",
       "status": "captured"
@@ -427,9 +450,9 @@
       "ruta_20": true,
       "monte_moon_exterior": true,
       "ruta_4": true,
+      "ruta_21": true,
       "ruta_2_norte": true,
-      "bosque_verde": true,
-      "ruta_21": true
+      "bosque_verde": true
     },
     "items": {}
   }
