@@ -4,8 +4,26 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 4h 37m jugadas · 33,720₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 5h 1m jugadas · 38,490₽ · vidas en el juego: ?",
   "team": [
+    {
+      "nickname": "ElFokas",
+      "species": "Brionne",
+      "level": 23,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Alas Vendaval",
+      "nature": "Seria",
+      "item": "Galleta Lava",
+      "shiny": false,
+      "moves": [
+        "Impactrueno",
+        "Rayo Burbuja",
+        "Arenas Ardientes",
+        "Empapar"
+      ]
+    },
     {
       "nickname": "McPato",
       "species": "Psyduck",
@@ -22,6 +40,24 @@
         "Ciclón de Hojas",
         "Calamidad",
         "Viraje"
+      ]
+    },
+    {
+      "nickname": "Sandman",
+      "species": "Sandslash",
+      "level": 23,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Manto Frondoso",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Cambio de Marcha",
+        "Truco Floral",
+        "Anulación",
+        "Giro Rápido"
       ]
     },
     {
@@ -44,57 +80,21 @@
       ]
     },
     {
-      "nickname": "Sandman",
-      "species": "Sandslash",
+      "nickname": "GYMBRO",
+      "species": "Gurdurr",
       "level": 23,
       "types": [
-        "Tierra"
+        "Lucha"
       ],
-      "ability": "Manto Frondoso",
-      "nature": "Plácida",
+      "ability": "Don Floral",
+      "nature": "Cauta",
       "item": "",
       "shiny": false,
       "moves": [
-        "Cambio de Marcha",
-        "Truco Floral",
-        "Anulación",
-        "Giro Rápido"
-      ]
-    },
-    {
-      "nickname": "ElFokas",
-      "species": "Brionne",
-      "level": 23,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Alas Vendaval",
-      "nature": "Seria",
-      "item": "Galleta Lava",
-      "shiny": false,
-      "moves": [
-        "Impactrueno",
-        "Rayo Burbuja",
-        "Arenas Ardientes",
-        "Empapar"
-      ]
-    },
-    {
-      "nickname": "Pronebone",
-      "species": "Cubone",
-      "level": 23,
-      "types": [
-        "Tierra"
-      ],
-      "ability": "Latido Oricalco",
-      "nature": "Osada",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Terratemblor",
-        "Danza Dragón",
-        "Alud",
-        "Persecución"
+        "Bomba Imán",
+        "Somnífero",
+        "Llave Giro",
+        "Puño Incremento"
       ]
     },
     {
@@ -318,6 +318,76 @@
         "Cambio de Banda",
         "Vendetta"
       ]
+    },
+    {
+      "nickname": "QLOP2KKPIS",
+      "species": "Koffing",
+      "level": 1,
+      "types": [
+        "Veneno"
+      ],
+      "ability": "",
+      "nature": "Serena",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Giro Mortífero",
+        "Resarcimiento"
+      ]
+    },
+    {
+      "nickname": "WEREVER2MORR",
+      "species": "Mankey",
+      "level": 1,
+      "types": [
+        "Lucha"
+      ],
+      "ability": "Alma Acerada",
+      "nature": "Rara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Patada Baja",
+        "Granizo",
+        "Bramido Dragón",
+        "Colmillo Hielo"
+      ]
+    },
+    {
+      "nickname": "Pronebone",
+      "species": "Cubone",
+      "level": 23,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Latido Oricalco",
+      "nature": "Osada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Terratemblor",
+        "Danza Dragón",
+        "Alud",
+        "Persecución"
+      ]
+    },
+    {
+      "nickname": "Hojita",
+      "species": "Sewaddle",
+      "level": 1,
+      "types": [
+        "Bicho",
+        "Planta"
+      ],
+      "ability": "",
+      "nature": "Amable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Fotosíntesis",
+        "Fanfarronear",
+        "Marcha Espectral"
+      ]
     }
   ],
   "graveyard": [],
@@ -330,11 +400,6 @@
     {
       "route": "ruta_1",
       "mon": "Gyarados",
-      "status": "captured"
-    },
-    {
-      "route": "ruta_2_sur",
-      "mon": "Cubone",
       "status": "captured"
     },
     {
@@ -371,6 +436,11 @@
       "route": "ruta_2_norte",
       "mon": "Wobbuffet",
       "status": "captured"
+    },
+    {
+      "route": "ruta_2_sur",
+      "mon": "Cubone",
+      "status": "captured"
     }
   ],
   "progress": {
@@ -382,7 +452,6 @@
     "routes": {
       "ruta_22": true,
       "ruta_1": true,
-      "ruta_2_sur": true,
       "ruta_21": true,
       "bosque_verde": true,
       "monte_moon": true,
@@ -390,6 +459,7 @@
       "ruta_4": true,
       "ruta_20": true,
       "ruta_2_norte": true,
+      "ruta_2_sur": true,
       "ruta_3": true
     },
     "items": {}
