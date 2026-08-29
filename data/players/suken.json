@@ -2,29 +2,10 @@
   "id": "suken",
   "name": "Suken",
   "lives": 30,
-  "livesUsed": 0,
+  "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 3h 16m jugadas · 12,800₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 18m jugadas · 13,920₽ · vidas en el juego: ?",
   "team": [
-    {
-      "nickname": "CONEJO BLAZ",
-      "species": "Diggersby",
-      "level": 23,
-      "types": [
-        "Normal",
-        "Tierra"
-      ],
-      "ability": "Huida",
-      "nature": "Amable",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Brazo Pincho",
-        "Falso Tortazo",
-        "Arraigo",
-        "Protección"
-      ]
-    },
     {
       "nickname": "CRAWLER",
       "species": "Corphish",
@@ -281,7 +262,30 @@
       ]
     }
   ],
-  "graveyard": [],
+  "graveyard": [
+    {
+      "nickname": "CONEJO BLAZ",
+      "species": "Diggersby",
+      "level": 23,
+      "types": [
+        "Normal",
+        "Tierra"
+      ],
+      "ability": "Huida",
+      "nature": "Amable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Brazo Pincho",
+        "Falso Tortazo",
+        "Arraigo",
+        "Protección"
+      ],
+      "cause": "",
+      "route": "Ciudad Verde",
+      "date": ""
+    }
+  ],
   "captures": [
     {
       "route": "ruta_2_sur",
