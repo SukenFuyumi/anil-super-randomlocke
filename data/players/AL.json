@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 1h 7m jugadas · 3,500₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 1h 15m jugadas · 3,500₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "ElFokas",
@@ -56,6 +56,24 @@
         "Anulación",
         "Residuos"
       ]
+    },
+    {
+      "nickname": "McPato",
+      "species": "Psyduck",
+      "level": 4,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Hélice Caudal",
+      "nature": "Alegre",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Tornado",
+        "Confidencia",
+        "Prensa Metálica",
+        "Doble Patada"
+      ]
     }
   ],
   "box": [],
@@ -65,6 +83,11 @@
       "route": "ruta_1",
       "mon": "Magikarp",
       "status": "captured"
+    },
+    {
+      "route": "ruta_22",
+      "mon": "Psyduck",
+      "status": "captured"
     }
   ],
   "progress": {
@@ -72,7 +95,8 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_1": true
+      "ruta_1": true,
+      "ruta_22": true
     },
     "items": {}
   }
