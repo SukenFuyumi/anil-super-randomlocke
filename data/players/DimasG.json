@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 2h 0m jugadas · 23,000₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 2h 15m jugadas · 27,730₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Dumbo",
       "species": "Phanpy",
-      "level": 21,
+      "level": 22,
       "types": [
         "Tierra"
       ],
@@ -27,7 +27,7 @@
     {
       "nickname": "Tonquito ",
       "species": "Phantump",
-      "level": 20,
+      "level": 21,
       "types": [
         "Fantasma",
         "Planta"
@@ -46,13 +46,13 @@
     {
       "nickname": "Taxi",
       "species": "Corvisquire",
-      "level": 20,
+      "level": 22,
       "types": [
         "Volador"
       ],
       "ability": "Recogida",
       "nature": "Floja",
-      "item": "",
+      "item": "Cura Total",
       "shiny": false,
       "moves": [
         "Confidencia",
@@ -64,7 +64,7 @@
     {
       "nickname": "Fola03",
       "species": "Cranidos",
-      "level": 20,
+      "level": 21,
       "types": [
         "Roca"
       ],
@@ -77,25 +77,6 @@
         "Cerrojo Feérico",
         "Visegrip",
         "Rayo Burbuja"
-      ]
-    },
-    {
-      "nickname": "Pulga",
-      "species": "Shroodle",
-      "level": 20,
-      "types": [
-        "Veneno",
-        "Normal"
-      ],
-      "ability": "Fuente Energía",
-      "nature": "Fuerte",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Giro Mortífero",
-        "Rayo Confuso",
-        "Ciclón",
-        "Fría Acogida"
       ]
     },
     {
@@ -115,6 +96,22 @@
         "Patada Tropical",
         "Caída Libre",
         "Búnker"
+      ]
+    },
+    {
+      "nickname": "Reymo",
+      "species": "Nidoranma",
+      "level": 18,
+      "types": [],
+      "ability": "Amor Filial",
+      "nature": "Floja",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Rodillo de Púas",
+        "Picotazo Veneno",
+        "Voz Cautivadora",
+        "Aullido"
       ]
     }
   ],
@@ -192,6 +189,25 @@
         "Fría Acogida",
         "Rayo Confuso"
       ]
+    },
+    {
+      "nickname": "Pulga",
+      "species": "Shroodle",
+      "level": 22,
+      "types": [
+        "Veneno",
+        "Normal"
+      ],
+      "ability": "Fuente Energía",
+      "nature": "Fuerte",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Giro Mortífero",
+        "Rayo Confuso",
+        "Ciclón",
+        "Barrera Espinosa"
+      ]
     }
   ],
   "graveyard": [
@@ -234,8 +250,8 @@
       "status": "captured"
     },
     {
-      "route": "ruta_22",
-      "mon": "Shroodle",
+      "route": "ruta_20",
+      "mon": "Nidoranma",
       "status": "captured"
     },
     {
@@ -245,6 +261,11 @@
     },
     {
       "route": "monte_moon",
+      "mon": "Shroodle",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_22",
       "mon": "Shroodle",
       "status": "captured"
     }
@@ -259,11 +280,13 @@
       "ruta_1": true,
       "ruta_3": true,
       "monte_moon_exterior": true,
-      "ruta_22": true,
+      "ruta_20": true,
       "ruta_2_norte": true,
       "monte_moon": true,
+      "ruta_22": true,
       "ruta_2_sur": true,
-      "bosque_verde": true
+      "bosque_verde": true,
+      "ruta_4": true
     },
     "items": {}
   }
