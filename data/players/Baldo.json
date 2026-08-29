@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 47m jugadas · 2,960₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 0h 53m jugadas · 3,660₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "goku",
       "species": "Chimchar",
-      "level": 9,
+      "level": 10,
       "types": [
         "Fuego"
       ],
@@ -27,7 +27,7 @@
     {
       "nickname": "lola",
       "species": "Pumpkaboo",
-      "level": 7,
+      "level": 8,
       "types": [
         "Fantasma",
         "Planta"
@@ -37,7 +37,7 @@
       "item": "Rocío Bondad",
       "shiny": false,
       "moves": [
-        "Meditación",
+        "Masa Cósmica",
         "Lengüetazo",
         "Disparo Demora",
         "Bilis"
@@ -46,7 +46,7 @@
     {
       "nickname": "faker",
       "species": "Skiddo",
-      "level": 7,
+      "level": 8,
       "types": [
         "Planta"
       ],
@@ -63,7 +63,7 @@
     {
       "nickname": "gato",
       "species": "Skitty",
-      "level": 6,
+      "level": 8,
       "types": [
         "Normal"
       ],
@@ -72,10 +72,28 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Cepo",
+        "Agitacola",
         "Ojitos Tiernos",
         "Reciclaje",
         "Pulimento"
+      ]
+    },
+    {
+      "nickname": "toni",
+      "species": "Voltorb",
+      "level": 6,
+      "types": [
+        "Eléctrico"
+      ],
+      "ability": "Ímpetu Tóxico",
+      "nature": "Osada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Brazo Pincho",
+        "Campo Eléctrico",
+        "Levitón",
+        "Drenadoras"
       ]
     }
   ],
@@ -91,6 +109,11 @@
       "route": "ruta_2_sur",
       "mon": "Skitty",
       "status": "captured"
+    },
+    {
+      "route": "bosque_verde",
+      "mon": "Voltorb",
+      "status": "captured"
     }
   ],
   "progress": {
@@ -100,6 +123,7 @@
     "routes": {
       "ruta_1": true,
       "ruta_2_sur": true,
+      "bosque_verde": true,
       "ruta_22": true
     },
     "items": {}
