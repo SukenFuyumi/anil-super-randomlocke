@@ -4,25 +4,24 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 2h 34m jugadas · 32,810₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 2h 35m jugadas · 32,810₽ · vidas en el juego: ?",
   "team": [
     {
-      "nickname": "Vampi",
-      "species": "Golbat",
+      "nickname": "Reymo",
+      "species": "Nidorino",
       "level": 23,
       "types": [
-        "Veneno",
-        "Volador"
+        "Veneno"
       ],
-      "ability": "Presión",
-      "nature": "Grosera",
+      "ability": "Pelaje Recio",
+      "nature": "Floja",
       "item": "",
       "shiny": false,
       "moves": [
-        "Mil Púas Tóxicas",
-        "Patada Tropical",
-        "Caída Libre",
-        "Búnker"
+        "Rodillo de Púas",
+        "Superdiente",
+        "Aguijón Letal",
+        "Red Viscosa"
       ]
     },
     {
@@ -99,21 +98,22 @@
       ]
     },
     {
-      "nickname": "Reymo",
-      "species": "Nidorino",
-      "level": 19,
+      "nickname": "Vampi",
+      "species": "Golbat",
+      "level": 23,
       "types": [
-        "Veneno"
+        "Veneno",
+        "Volador"
       ],
-      "ability": "Pelaje Recio",
-      "nature": "Floja",
+      "ability": "Presión",
+      "nature": "Grosera",
       "item": "",
       "shiny": false,
       "moves": [
-        "Rodillo de Púas",
-        "Superdiente",
-        "Aguijón Letal",
-        "Aullido"
+        "Mil Púas Tóxicas",
+        "Patada Tropical",
+        "Caída Libre",
+        "Búnker"
       ]
     }
   ],
@@ -274,15 +274,15 @@
   ],
   "captures": [
     {
-      "route": "",
-      "where": "Laboratorio",
-      "species": "Golbat",
-      "nickname": "Vampi",
+      "route": "ruta_20",
+      "where": "Ruta 20",
+      "species": "Nidorino",
+      "nickname": "Reymo",
       "shiny": false,
       "status": "captured",
-      "category": "estatico_regalo",
-      "level": 5,
-      "mon": "Golbat"
+      "category": "salvaje",
+      "level": 18,
+      "mon": "Nidorino"
     },
     {
       "route": "ruta_1",
@@ -329,15 +329,15 @@
       "mon": "Phanpy"
     },
     {
-      "route": "ruta_20",
-      "where": "Ruta 20",
-      "species": "Nidorino",
-      "nickname": "Reymo",
+      "route": "",
+      "where": "Laboratorio",
+      "species": "Golbat",
+      "nickname": "Vampi",
       "shiny": false,
       "status": "captured",
-      "category": "salvaje",
-      "level": 18,
-      "mon": "Nidorino"
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Golbat"
     },
     {
       "route": "",
@@ -435,11 +435,11 @@
     "bosses": {},
     "npcs": {},
     "routes": {
+      "ruta_20": true,
       "ruta_1": true,
       "ruta_3": true,
       "monte_moon_exterior": true,
       "ciudad_verde": true,
-      "ruta_20": true,
       "ruta_2_norte": true,
       "ciudad_plateada": true,
       "ruta_22": true,
