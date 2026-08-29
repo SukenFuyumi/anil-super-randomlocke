@@ -2,38 +2,109 @@
   "id": "DimasG",
   "name": "DimasG",
   "lives": 30,
-  "livesUsed": 0,
+  "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 0h 16m jugadas · 3,500₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 0h 41m jugadas · 1,300₽ · vidas en el juego: ?",
   "team": [
+    {
+      "nickname": "Tonquito ",
+      "species": "Phantump",
+      "level": 8,
+      "types": [
+        "Fantasma",
+        "Planta"
+      ],
+      "ability": "Clorofila",
+      "nature": "Ingenua",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Bastión Final",
+        "Danza Aleteo",
+        "Castigo",
+        "Doble Golpe"
+      ]
+    },
+    {
+      "nickname": "Dumbo",
+      "species": "Phanpy",
+      "level": 8,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Iluminación",
+      "nature": "Cauta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Púas",
+        "Arenas Ardientes",
+        "Hipnosis",
+        "Bucle Arena"
+      ]
+    },
+    {
+      "nickname": "Pulga",
+      "species": "Shroodle",
+      "level": 5,
+      "types": [
+        "Veneno",
+        "Normal"
+      ],
+      "ability": "Fuente Energía",
+      "nature": "Fuerte",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Amago",
+        "Velo Sagrado",
+        "Isoguardia"
+      ]
+    }
+  ],
+  "box": [],
+  "graveyard": [
     {
       "nickname": "Vampi",
       "species": "Zubat",
-      "level": 6,
+      "level": 8,
       "types": [
         "Veneno",
         "Volador"
       ],
       "ability": "Clorofila",
       "nature": "Grosera",
-      "item": "Elixir",
+      "item": "",
       "shiny": false,
       "moves": [
         "Limpieza General",
         "Patada Tropical",
         "Tornado"
-      ]
+      ],
+      "cause": "",
+      "route": "Laboratorio",
+      "date": ""
     }
   ],
-  "box": [],
-  "graveyard": [],
-  "captures": [],
+  "captures": [
+    {
+      "route": "ruta_1",
+      "mon": "Phantump",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_22",
+      "mon": "Shroodle",
+      "status": "captured"
+    }
+  ],
   "progress": {
     "gyms": {},
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_1": true
+      "ruta_1": true,
+      "ruta_22": true
     },
     "items": {}
   }
