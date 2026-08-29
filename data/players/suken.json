@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 3h 33m jugadas · 17,860₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 37m jugadas · 21,090₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -34,7 +34,7 @@
       ],
       "ability": "Recogida",
       "nature": "Osada",
-      "item": "",
+      "item": "Super Ball",
       "shiny": false,
       "moves": [
         "Magnitud",
@@ -149,6 +149,23 @@
         "Campo Psíquico",
         "Puño Cometa",
         "Resarcimiento"
+      ]
+    },
+    {
+      "nickname": "ZEN",
+      "species": "Darumaka",
+      "level": 1,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "",
+      "nature": "Seria",
+      "item": "Baya Grana",
+      "shiny": false,
+      "moves": [
+        "Conjuro",
+        "Bastión Final",
+        "Bombardeo"
       ]
     },
     {
@@ -342,7 +359,8 @@
       "monte_moon_exterior": true,
       "ruta_1": true,
       "ruta_2_norte": true,
-      "bosque_verde": true
+      "bosque_verde": true,
+      "ruta_4": true
     },
     "items": {}
   }
