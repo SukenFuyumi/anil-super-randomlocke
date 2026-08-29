@@ -4,26 +4,8 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 3h 18m jugadas · 13,920₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 20m jugadas · 15,040₽ · vidas en el juego: ?",
   "team": [
-    {
-      "nickname": "CRAWLER",
-      "species": "Corphish",
-      "level": 23,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Gran Encanto",
-      "nature": "Osada",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Aguijón Letal",
-        "Llave Giro",
-        "Tenaza",
-        "Puño Bala"
-      ]
-    },
     {
       "nickname": "TECATA",
       "species": "Ivysaur",
@@ -41,6 +23,24 @@
         "Bostezo",
         "Bálsamo Osado",
         "Bomba Caramelo"
+      ]
+    },
+    {
+      "nickname": "CRAWLER",
+      "species": "Corphish",
+      "level": 23,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Gran Encanto",
+      "nature": "Osada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Aguijón Letal",
+        "Llave Giro",
+        "Tenaza",
+        "Puño Bala"
       ]
     },
     {
