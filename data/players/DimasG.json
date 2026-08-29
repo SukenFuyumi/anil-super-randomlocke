@@ -1,0 +1,38 @@
+{
+  "id": "DimasG",
+  "name": "DimasG",
+  "lives": 30,
+  "livesUsed": 0,
+  "champion": false,
+  "notes": "Importado del save · 0h 11m jugadas · 3,000₽ · vidas en el juego: ?",
+  "team": [
+    {
+      "nickname": "Vampi",
+      "species": "Zubat",
+      "level": 5,
+      "types": [
+        "Veneno",
+        "Volador"
+      ],
+      "ability": "Clorofila",
+      "nature": "Grosera",
+      "item": "Elixir",
+      "shiny": false,
+      "moves": [
+        "Limpieza General",
+        "Patada Tropical",
+        "Tornado"
+      ]
+    }
+  ],
+  "box": [],
+  "graveyard": [],
+  "captures": [],
+  "progress": {
+    "gyms": {},
+    "bosses": {},
+    "npcs": {},
+    "routes": {},
+    "items": {}
+  }
+}
