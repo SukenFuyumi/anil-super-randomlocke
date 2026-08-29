@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 0h 42m jugadas · 2,960₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 0h 47m jugadas · 2,960₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "goku",
       "species": "Chimchar",
-      "level": 8,
+      "level": 9,
       "types": [
         "Fuego"
       ],
@@ -27,7 +27,7 @@
     {
       "nickname": "lola",
       "species": "Pumpkaboo",
-      "level": 6,
+      "level": 7,
       "types": [
         "Fantasma",
         "Planta"
@@ -46,7 +46,7 @@
     {
       "nickname": "faker",
       "species": "Skiddo",
-      "level": 6,
+      "level": 7,
       "types": [
         "Planta"
       ],
@@ -56,7 +56,26 @@
       "shiny": false,
       "moves": [
         "Confidencia",
-        "Punzada Rama"
+        "Punzada Rama",
+        "Púas"
+      ]
+    },
+    {
+      "nickname": "gato",
+      "species": "Skitty",
+      "level": 6,
+      "types": [
+        "Normal"
+      ],
+      "ability": "Electromotor",
+      "nature": "Floja",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Cepo",
+        "Ojitos Tiernos",
+        "Reciclaje",
+        "Pulimento"
       ]
     }
   ],
@@ -67,6 +86,11 @@
       "route": "ruta_1",
       "mon": "Pumpkaboo",
       "status": "captured"
+    },
+    {
+      "route": "ruta_2_sur",
+      "mon": "Skitty",
+      "status": "captured"
     }
   ],
   "progress": {
@@ -75,8 +99,8 @@
     "npcs": {},
     "routes": {
       "ruta_1": true,
-      "ruta_22": true,
-      "ruta_2_sur": true
+      "ruta_2_sur": true,
+      "ruta_22": true
     },
     "items": {}
   }
