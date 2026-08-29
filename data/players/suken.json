@@ -4,45 +4,121 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 2h 38m jugadas · 8,680₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 2h 52m jugadas · 8,680₽ · vidas en el juego: ?",
   "team": [
     {
-      "nickname": "DUNAS",
-      "species": "Bramblin",
+      "nickname": "CONEJO BLAZ",
+      "species": "Diggersby",
+      "level": 23,
+      "types": [
+        "Normal",
+        "Tierra"
+      ],
+      "ability": "Huida",
+      "nature": "Amable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Brazo Pincho",
+        "Falso Tortazo",
+        "Arraigo",
+        "Protección"
+      ]
+    },
+    {
+      "nickname": "CRAWLER",
+      "species": "Corphish",
+      "level": 23,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Gran Encanto",
+      "nature": "Osada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Aguijón Letal",
+        "Llave Giro",
+        "Tenaza",
+        "Puño Bala"
+      ]
+    },
+    {
+      "nickname": "TECATA",
+      "species": "Ivysaur",
+      "level": 23,
+      "types": [
+        "Planta",
+        "Veneno"
+      ],
+      "ability": "Compiescolta",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Marcha Espectral",
+        "Bostezo",
+        "Bálsamo Osado",
+        "Bomba Caramelo"
+      ]
+    },
+    {
+      "nickname": "KING",
+      "species": "Poliwhirl",
+      "level": 23,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Espanto",
+      "nature": "Afable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Salazón",
+        "Puntapié",
+        "Viraje",
+        "Clavo Cañón"
+      ]
+    },
+    {
+      "nickname": "MOTITA2",
+      "species": "Floette",
+      "level": 23,
+      "types": [
+        "Hada"
+      ],
+      "ability": "Regia Presencia",
+      "nature": "Cauta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Viento Feérico",
+        "Hilo Venenoso",
+        "Luz Lunar",
+        "Marcha Espectral"
+      ]
+    },
+    {
+      "nickname": "GASPARIN",
+      "species": "Poltchageist",
       "level": 23,
       "types": [
         "Planta",
         "Fantasma"
       ],
-      "ability": "Manto Frondoso",
-      "nature": "Ingenua",
+      "ability": "Recogida",
+      "nature": "Osada",
       "item": "",
       "shiny": false,
       "moves": [
-        "Giro Bola",
-        "Sombra Vil",
-        "Veneno X",
-        "Absorber"
+        "Magnitud",
+        "Patada Tropical",
+        "Campo de Hierba",
+        "Marcha Espectral"
       ]
-    },
-    {
-      "nickname": "AL",
-      "species": "Bonsly",
-      "level": 23,
-      "types": [
-        "Roca"
-      ],
-      "ability": "Retirada",
-      "nature": "Firme",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Follaje",
-        "Cola Veneno",
-        "Auxilio",
-        "Aguzar"
-      ]
-    },
+    }
+  ],
+  "box": [
     {
       "nickname": "GREYMON",
       "species": "Dratini",
@@ -80,102 +156,27 @@
       ]
     },
     {
-      "nickname": "MOTITA2",
-      "species": "Floette",
+      "nickname": "AL",
+      "species": "Bonsly",
       "level": 23,
       "types": [
-        "Hada"
+        "Roca"
       ],
-      "ability": "Regia Presencia",
-      "nature": "Cauta",
+      "ability": "Retirada",
+      "nature": "Firme",
       "item": "",
       "shiny": false,
       "moves": [
-        "Viento Feérico",
-        "Hilo Venenoso",
-        "Luz Lunar",
-        "Marcha Espectral"
-      ]
-    },
-    {
-      "nickname": "KING",
-      "species": "Poliwhirl",
-      "level": 23,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Espanto",
-      "nature": "Afable",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Salazón",
-        "Puntapié",
-        "Viraje",
-        "Clavo Cañón"
-      ]
-    }
-  ],
-  "box": [
-    {
-      "nickname": "CONEJO BLAZ",
-      "species": "Bunnelby",
-      "level": 14,
-      "types": [
-        "Normal"
-      ],
-      "ability": "Pompa",
-      "nature": "Amable",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Brazo Pincho",
-        "Falso Tortazo",
-        "Arraigo",
-        "Protección"
-      ]
-    },
-    {
-      "nickname": "TECATA",
-      "species": "Bulbasaur",
-      "level": 14,
-      "types": [
-        "Planta",
-        "Veneno"
-      ],
-      "ability": "Manto Frondoso",
-      "nature": "Plácida",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Marcha Espectral",
-        "Confusión",
-        "Bálsamo Osado",
-        "Gota Vital"
-      ]
-    },
-    {
-      "nickname": "GASPARIN",
-      "species": "Poltchageist",
-      "level": 1,
-      "types": [
-        "Planta",
-        "Fantasma"
-      ],
-      "ability": "Recogida",
-      "nature": "Osada",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Magnitud",
-        "Patada Tropical",
-        "Cepo"
+        "Follaje",
+        "Cola Veneno",
+        "Auxilio",
+        "Aguzar"
       ]
     },
     {
       "nickname": "TAZA",
       "species": "Sinistea",
-      "level": 9,
+      "level": 23,
       "types": [
         "Fantasma"
       ],
@@ -186,44 +187,35 @@
       "moves": [
         "Puño Mareo",
         "Contraataque",
-        "Impresionar",
-        "Campo Psíquico"
+        "Residuos",
+        "Marcha Espectral"
       ]
     },
     {
-      "nickname": "CRAWLER",
-      "species": "Corphish",
-      "level": 14,
+      "nickname": "DUNAS",
+      "species": "Bramblin",
+      "level": 23,
       "types": [
-        "Agua"
+        "Planta",
+        "Fantasma"
       ],
-      "ability": "Gran Encanto",
-      "nature": "Osada",
+      "ability": "Manto Frondoso",
+      "nature": "Ingenua",
       "item": "",
       "shiny": false,
       "moves": [
-        "Aguijón Letal",
-        "Llave Giro",
-        "Clavo Cañón",
-        "Puño Bala"
+        "Giro Bola",
+        "Sombra Vil",
+        "Veneno X",
+        "Absorber"
       ]
     }
   ],
   "graveyard": [],
   "captures": [
     {
-      "route": "bosque_verde",
-      "mon": "Bramblin",
-      "status": "captured"
-    },
-    {
-      "route": "ruta_2_norte",
-      "mon": "Bonsly",
-      "status": "captured"
-    },
-    {
-      "route": "ruta_1",
-      "mon": "Slugma",
+      "route": "ruta_2_sur",
+      "mon": "Corphish",
       "status": "captured"
     },
     {
@@ -232,8 +224,18 @@
       "status": "captured"
     },
     {
-      "route": "ruta_2_sur",
-      "mon": "Corphish",
+      "route": "ruta_1",
+      "mon": "Slugma",
+      "status": "captured"
+    },
+    {
+      "route": "ruta_2_norte",
+      "mon": "Bonsly",
+      "status": "captured"
+    },
+    {
+      "route": "bosque_verde",
+      "mon": "Bramblin",
       "status": "captured"
     }
   ],
@@ -244,11 +246,11 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "bosque_verde": true,
-      "ruta_2_norte": true,
-      "ruta_1": true,
-      "ruta_22": true,
       "ruta_2_sur": true,
+      "ruta_22": true,
+      "ruta_1": true,
+      "ruta_2_norte": true,
+      "bosque_verde": true,
       "ruta_3": true
     },
     "items": {}
