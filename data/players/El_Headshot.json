@@ -193,29 +193,114 @@
   "graveyard": [],
   "captures": [
     {
+      "route": "ciudad_verde",
+      "where": "Ciudad Verde",
+      "species": "Flabebe",
+      "nickname": "Motita",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 4,
+      "mon": "Flabebe"
+    },
+    {
       "route": "ruta_1",
-      "mon": "Rolycoly",
-      "status": "captured"
+      "where": "Ruta 1",
+      "species": "Rolycoly",
+      "nickname": "Cricri",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 3,
+      "mon": "Rolycoly"
     },
     {
       "route": "ruta_2_sur",
-      "mon": "Panpour",
-      "status": "captured"
+      "where": "Ruta 2 Sur",
+      "species": "Panpour",
+      "nickname": "Changomojao",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 5,
+      "mon": "Panpour"
     },
     {
       "route": "bosque_verde",
-      "mon": "Shellder",
-      "status": "captured"
+      "where": "Bosque Verde",
+      "species": "Shellder",
+      "nickname": "Empanada",
+      "shiny": true,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 8,
+      "mon": "Shellder"
+    },
+    {
+      "route": "",
+      "where": "Laboratorio",
+      "species": "Teddiursa",
+      "nickname": "VvHeadshotvV",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Teddiursa"
+    },
+    {
+      "route": "bosque_verde",
+      "where": "Bosque Verde",
+      "species": "Darumaka",
+      "nickname": "El cocas",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 7,
+      "mon": "Darumaka"
     },
     {
       "route": "ruta_22",
-      "mon": "Purrloin",
-      "status": "captured"
+      "where": "Ruta 22",
+      "species": "Purrloin",
+      "nickname": "Mamona",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 6,
+      "mon": "Purrloin"
+    },
+    {
+      "route": "pueblo_paleta",
+      "where": "Pueblo Paleta",
+      "species": "Skitty",
+      "nickname": "Pussycat",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 2,
+      "mon": "Skitty"
     },
     {
       "route": "ruta_3",
-      "mon": "Dewpider",
-      "status": "captured"
+      "where": "Ruta 3",
+      "species": "Dewpider",
+      "nickname": "spiterwat",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 11,
+      "mon": "Dewpider"
+    },
+    {
+      "route": "",
+      "where": "Centro Pokémon",
+      "species": "Sandshrew",
+      "nickname": "Arenita",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Sandshrew"
     }
   ],
   "progress": {
@@ -225,12 +310,15 @@
     "bosses": {},
     "npcs": {},
     "routes": {
+      "ciudad_verde": true,
       "ruta_1": true,
       "ruta_2_sur": true,
       "bosque_verde": true,
       "ruta_22": true,
+      "pueblo_paleta": true,
       "ruta_3": true,
       "ruta_2_norte": true,
+      "ciudad_plateada": true,
       "monte_moon": true
     },
     "items": {}
