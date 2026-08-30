@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 6h 9m jugadas · 43,380₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 6h 11m jugadas · 43,380₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -152,6 +152,25 @@
         "Campo Psíquico",
         "Puño Cometa",
         "Resarcimiento"
+      ]
+    },
+    {
+      "nickname": "KILLER POLLO",
+      "species": "Staravia",
+      "level": 23,
+      "types": [
+        "Normal",
+        "Volador"
+      ],
+      "ability": "Veleta",
+      "nature": "Seria",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Homenaje Póstumo",
+        "Golpe Kárate",
+        "Seducción",
+        "Relevo"
       ]
     },
     {
@@ -568,6 +587,17 @@
       "mon": "Zigzagoon"
     },
     {
+      "route": "ciudad_carmin",
+      "where": "Ciudad Carmín",
+      "species": "Staravia",
+      "nickname": "KILLER POLLO",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 23,
+      "mon": "Staravia"
+    },
+    {
       "route": "monte_moon_exterior",
       "where": "Monte Moon Exterior",
       "species": "Charjabug",
@@ -770,6 +800,7 @@
       "tunel_diglett": true,
       "ruta_2_sur": true,
       "ruta_3": true,
+      "ciudad_carmin": true,
       "monte_moon_exterior": true,
       "ruta_4": true,
       "ciudad_celeste": true,
@@ -782,13 +813,13 @@
       "ruta_1": true,
       "ciudad_verde": true,
       "ruta_22": true,
-      "ciudad_carmin": true,
       "ruta_12": true
     },
     "items": {},
     "encounters": {
       "pueblo_paleta": true,
-      "ruta_1": true
+      "ruta_1": true,
+      "ciudad_carmin": true
     }
   }
 }
