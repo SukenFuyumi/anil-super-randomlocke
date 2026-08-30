@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 4h 11m jugadas · 38,220₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 4h 16m jugadas · 38,220₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -257,6 +257,24 @@
         "Conjuro",
         "Mandato",
         "Psicocorte"
+      ]
+    },
+    {
+      "nickname": "DREAMS",
+      "species": "Drowzee",
+      "level": 21,
+      "types": [
+        "Psíquico"
+      ],
+      "ability": "Ráfaga Delta",
+      "nature": "Huraña",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Meditación",
+        "Agilidad",
+        "Sorpresa",
+        "Halloween"
       ]
     },
     {
@@ -553,6 +571,17 @@
       "mon": "Tinkatuff"
     },
     {
+      "route": "ruta_5",
+      "where": "Ruta 5",
+      "species": "Drowzee",
+      "nickname": "DREAMS",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 21,
+      "mon": "Drowzee"
+    },
+    {
       "route": "",
       "where": "Laboratorio",
       "species": "Dratini",
@@ -650,6 +679,7 @@
       "ruta_4": true,
       "ciudad_celeste": true,
       "ruta_21": true,
+      "ruta_5": true,
       "ruta_2_norte": true,
       "bosque_verde": true,
       "ciudad_verde": true
