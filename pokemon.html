@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pokédex · Pokémon Añil Randomlocke</title>
+  <meta name="color-scheme" content="light dark" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .pk-hero { display:flex; gap:1.5rem; align-items:center; flex-wrap:wrap; }
+    .pk-art { width:200px; height:200px; flex-shrink:0; display:flex; align-items:center; justify-content:center; background:var(--subtle-bg); border-radius:50%; }
+    .pk-art img { width:180px; height:180px; object-fit:contain; image-rendering:pixelated; }
+    .pk-num { color:var(--text-muted); font-weight:800; font-size:1rem; }
+    .pk-name { font-size:2.2rem; font-weight:800; margin:.1rem 0 .4rem; }
+    .pk-stats { display:grid; grid-template-columns:auto 3rem 1fr; gap:.3rem .6rem; align-items:center; max-width:480px; }
+    .pk-stats .lbl { color:var(--text-muted); font-size:.85rem; }
+    .pk-stats .val { text-align:right; font-weight:700; font-variant-numeric:tabular-nums; }
+    .pk-bar { height:12px; border-radius:999px; background:var(--subtle-bg); overflow:hidden; }
+    .pk-bar > span { display:block; height:100%; }
+    .pk-facts { display:flex; gap:1.5rem; flex-wrap:wrap; margin:.6rem 0; }
+    .pk-facts .f { }
+    .pk-facts .f .k { color:var(--text-muted); font-size:.65rem; text-transform:uppercase; letter-spacing:.04em; }
+    .pk-facts .f .v { font-weight:700; }
+    .evo-line { display:flex; gap:.5rem; align-items:center; flex-wrap:wrap; }
+    .evo-mon { text-align:center; padding:.5rem; border:1px solid var(--border); border-radius:var(--radius); background:var(--panel); color:var(--text); min-width:96px; }
+    .evo-mon.cur { border-color:var(--accent); }
+    .evo-mon img { width:72px; height:72px; object-fit:contain; }
+    .evo-mon .nm { font-size:.8rem; font-weight:700; }
+    .evo-arrow { color:var(--text-muted); font-size:1.4rem; }
+    .pk-nav { display:flex; justify-content:space-between; margin-top:1.5rem; gap:.5rem; }
+  </style>
+</head>
+<body>
+  <main class="container" id="root"><p class="muted">Cargando…</p></main>
+  <script src="app.js"></script>
+  <script>
+    const STAT_LBL = ["PS", "Ataque", "Defensa", "At. Esp.", "Def. Esp.", "Velocidad"];
+    (async function () {
+      await loadConfig();
+      renderHeader("pokedex.html");
+      const dex = await loadPokedexFull();
+      const root = document.getElementById("root");
+      let id = parseInt(param("id"), 10);
+      if (!id && param("sp")) id = speciesDexId(param("sp"));
+      const p = dex[id];
+      if (!p) { root.innerHTML = `<div class="breadcrumb"><a href="pokedex.html">← Pokédex</a></div><div class="empty-state">Pokémon no encontrado.</div>`; renderFooter(); return; }
+      document.title = p.n + " · Pokédex Añil";
+      const t0 = typeKey(p.t[0]);
+      const total = (p.st || []).reduce((a, b) => a + (b || 0), 0);
+      const staticSprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
+      const aniSprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${id}.gif`;
+      const barColor = (v) => v >= 100 ? "var(--ok)" : v >= 60 ? "var(--accent)" : v >= 35 ? "var(--warn)" : "var(--bad)";
+      const statsHtml = STAT_LBL.map((l, i) => {
+        const v = p.st[i] || 0;
+        return `<span class="lbl">${l}</span><span class="val">${v}</span><span class="pk-bar"><span style="width:${Math.min(100, v / 2)}%;background:${barColor(v)}"></span></span>`;
+      }).join("");
+      const evoHtml = (p.ev && p.ev.length > 1) ? `<h2>Evolución</h2><div class="evo-line">${p.ev.map((eid, i) => {
+        const e = dex[eid]; if (!e) return "";
+        return (i ? `<span class="evo-arrow">→</span>` : "") + `<a class="evo-mon${eid === id ? " cur" : ""}" href="pokemon.html?id=${eid}"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${eid}.png" alt="" loading="lazy"><div class="nm">${escapeHtml(e.n)}</div></a>`;
+      }).join("")}</div>` : "";
+      const prev = dex[id - 1] ? `<a class="btn" href="pokemon.html?id=${id - 1}">← #${id - 1} ${escapeHtml(dex[id - 1].n)}</a>` : "<span></span>";
+      const next = dex[id + 1] ? `<a class="btn" href="pokemon.html?id=${id + 1}">#${id + 1} ${escapeHtml(dex[id + 1].n)} →</a>` : "<span></span>";
+
+      root.innerHTML = `
+        <div class="breadcrumb"><a href="pokedex.html">← Pokédex</a></div>
+        <div class="panel" style="border-top:5px solid var(--type-${t0})">
+          <div class="pk-hero">
+            <div class="pk-art" style="background:color-mix(in srgb, var(--type-${t0}) 18%, var(--subtle-bg))">
+              <img src="${aniSprite}" alt="${escapeHtml(p.n)}" onerror="this.onerror=null;this.src='${staticSprite}'">
+            </div>
+            <div class="grow" style="min-width:280px">
+              <div class="pk-num">Nº ${String(id).padStart(4, "0")}</div>
+              <div class="pk-name">${escapeHtml(p.n)}</div>
+              <div class="muted">${escapeHtml(p.cat || "")}</div>
+              <div class="mon-types" style="margin:.5rem 0">${(p.t || []).map((t) => typeBadge(t)).join(" ")}</div>
+              <div class="pk-facts">
+                <div class="f"><div class="k">Altura</div><div class="v">${p.h != null ? p.h + " m" : "—"}</div></div>
+                <div class="f"><div class="k">Peso</div><div class="v">${p.w != null ? p.w + " kg" : "—"}</div></div>
+                <div class="f"><div class="k">Habilidades</div><div class="v">${(p.ab || []).map(escapeHtml).join(", ")}${p.abh ? ` · <span class="muted">${escapeHtml(p.abh)} (oculta)</span>` : ""}</div></div>
+              </div>
+            </div>
+          </div>
+          ${p.fl ? `<p style="margin:.5rem 0 0">${escapeHtml(p.fl)}</p>` : ""}
+        </div>
+
+        <h2>Estadísticas base</h2>
+        <div class="panel">
+          <div class="pk-stats">${statsHtml}
+            <span class="lbl" style="font-weight:800;color:var(--text)">Total</span><span class="val">${total}</span><span></span>
+          </div>
+        </div>
+        ${evoHtml ? `<div class="panel" style="margin-top:1rem">${evoHtml}</div>` : ""}
+        <div class="pk-nav">${prev}${next}</div>
+      `;
+      renderFooter();
+    })();
+  </script>
+</body>
+</html>

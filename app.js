@@ -38,6 +38,7 @@ const NAV = [
   { href: "index.html", label: "Inicio" },
   { href: "progresion.html", label: "Progresión" },
   { href: "objetos.html", label: "Objetos" },
+  { href: "pokedex.html", label: "Pokédex" },
   { href: "torneos.html", label: "Torneos" },
   { href: "reglas.html", label: "Reglas" },
 ];
@@ -125,6 +126,19 @@ function speciesDexId(species) {
 function speciesSprite(species) {
   const id = speciesDexId(species);
   return id ? `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png` : null;
+}
+
+/* ---------- Wikidex ---------- */
+let PDEX = null;
+async function loadPokedexFull() {
+  if (PDEX) return PDEX;
+  PDEX = (await loadJSON("data/pokedex.json")) || {};
+  return PDEX;
+}
+/* enlace a la ficha de un Pokémon (por especie o nº); null si no se resuelve */
+function pokemonHref(speciesOrId) {
+  const id = typeof speciesOrId === "number" ? speciesOrId : speciesDexId(speciesOrId);
+  return id ? "pokemon.html?id=" + id : null;
 }
 
 async function loadPlayer(id) {
@@ -348,14 +362,17 @@ function monCard(mon, opts = {}) {
     }).join("");
   const shiny = mon.shiny ? `<span class="pill shiny" style="padding:.02rem .45rem;font-size:.58rem">${shinyStar(11)} SHINY</span>` : "";
   const owner = opts.owner ? `<div class="mon-owner">de ${escapeHtml(opts.owner)}</div>` : "";
+  const href = pokemonHref(mon.species);
+  const sprite = href ? `<a href="${href}" title="Ver en la Pokédex">${spriteEl(mon)}</a>` : spriteEl(mon);
+  const speciesHtml = href ? `<a href="${href}" style="color:inherit">${escapeHtml(mon.species || "?")}</a>` : escapeHtml(mon.species || "?");
   return `
     <div class="mon-card${dead ? " dead" : ""}">
       ${dead ? `<span class="mon-dead-badge" title="Debilitado">${faintIcon(22)}</span>` : ""}
       <div class="mon-top">
-        ${spriteEl(mon)}
+        ${sprite}
         <div class="mon-id grow">
           <div class="mon-nick">${escapeHtml(mon.nickname || "—")} ${shiny}</div>
-          <div class="mon-species">${escapeHtml(mon.species || "?")}</div>
+          <div class="mon-species">${speciesHtml}</div>
           ${owner}
           <div class="mon-types">${types}</div>
         </div>

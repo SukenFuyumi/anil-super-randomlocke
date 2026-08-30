@@ -148,7 +148,10 @@
       const capLink = (c) => {
         const sp = c.species || c.mon || "?";
         const inner = `${escapeHtml(c.nickname || sp)}${c.shiny ? " " + shinyStar(10) : ""}${c.nickname ? ` <span style="opacity:.7">(${escapeHtml(sp)})</span>` : ""}`;
-        return `<span class="pill ${c.status==='dead'?'bad':(c.status==='fled'?'warn':'ok')}" style="margin:.1rem .15rem">${c.status==='dead'?faintIcon(12)+' ':(c.status==='captured'?'✓ ':'')}${inner}</span>`;
+        const href = pokemonHref(sp);
+        const cls = `pill ${c.status==='dead'?'bad':(c.status==='fled'?'warn':'ok')}`;
+        const body = `${c.status==='dead'?faintIcon(12)+' ':(c.status==='captured'?'✓ ':'')}${inner}`;
+        return href ? `<a class="${cls}" style="margin:.1rem .15rem" href="${href}">${body}</a>` : `<span class="${cls}" style="margin:.1rem .15rem">${body}</span>`;
       };
       const capsByRoute = {};
       caps.filter((c)=>c.route).forEach((c)=>{ (capsByRoute[c.route]=capsByRoute[c.route]||[]).push(c); });
