@@ -100,11 +100,11 @@
     },
     {
       "nickname": "CFE",
-      "species": "Graveler",
+      "species": "Graveler (Alola)",
       "level": 26,
       "types": [
         "Roca",
-        "Tierra"
+        "Eléctrico"
       ],
       "ability": "Francotirador",
       "nature": "Modesta",
@@ -115,7 +115,8 @@
         "Pikaturbo",
         "Puño Furia",
         "Puño Bala"
-      ]
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10110.png"
     }
   ],
   "box": [
@@ -400,58 +401,234 @@
   "captures": [
     {
       "route": "ruta_1",
-      "mon": "Araquanid",
-      "status": "captured"
+      "where": "Ruta 1",
+      "species": "Araquanid",
+      "nickname": "Peter",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 5,
+      "mon": "Araquanid"
+    },
+    {
+      "route": "",
+      "where": "Monte Moon",
+      "species": "Alakazam",
+      "nickname": "Dr Pepper",
+      "shiny": false,
+      "status": "captured",
+      "category": "intercambio",
+      "level": 11,
+      "mon": "Alakazam"
+    },
+    {
+      "route": "ciudad_plateada",
+      "where": "Ciudad Plateada",
+      "species": "Staravia",
+      "nickname": "Polla",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 10,
+      "mon": "Staravia"
+    },
+    {
+      "route": "",
+      "where": "Laboratorio",
+      "species": "Thwackey",
+      "nickname": "Miguelito",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Thwackey"
+    },
+    {
+      "route": "",
+      "where": "Museo Pokémon",
+      "species": "Naclstack",
+      "nickname": "Cobblemon",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 1,
+      "mon": "Naclstack"
     },
     {
       "route": "monte_moon",
-      "mon": "Alakazam",
-      "status": "captured"
+      "where": "Monte Moon",
+      "species": "Graveler",
+      "nickname": "CFE",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 14,
+      "mon": "Graveler"
     },
     {
       "route": "ruta_2_norte",
-      "mon": "Jangmoo",
-      "status": "captured"
+      "where": "Ruta 2 Norte",
+      "species": "Jangmoo",
+      "nickname": "Kofi",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 9,
+      "mon": "Jangmoo"
     },
     {
       "route": "ruta_4",
-      "mon": "Jigglypuff",
-      "status": "captured"
+      "where": "Ruta 4",
+      "species": "Jigglypuff",
+      "nickname": "Huevona",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 17,
+      "mon": "Jigglypuff"
     },
     {
       "route": "bosque_verde",
-      "mon": "Flabebe",
-      "status": "captured"
+      "where": "Bosque Verde",
+      "species": "Flabebe",
+      "nickname": "Curita",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 8,
+      "mon": "Flabebe"
+    },
+    {
+      "route": "",
+      "where": "Centro Pokémon",
+      "species": "Kirlia",
+      "nickname": "Neomexa",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Kirlia"
     },
     {
       "route": "ruta_3",
-      "mon": "Dottler",
-      "status": "captured"
+      "where": "Ruta 3",
+      "species": "Dottler",
+      "nickname": "Bolillo",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 10,
+      "mon": "Dottler"
     },
     {
       "route": "monte_moon_exterior",
-      "mon": "Riolu",
-      "status": "captured"
+      "where": "Monte Moon Exterior",
+      "species": "Riolu",
+      "nickname": "Master",
+      "shiny": true,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 15,
+      "mon": "Riolu"
+    },
+    {
+      "route": "ciudad_plateada",
+      "where": "Ciudad Plateada",
+      "species": "Munchlax",
+      "nickname": "Salchicha",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 11,
+      "mon": "Munchlax"
+    },
+    {
+      "route": "ciudad_celeste",
+      "where": "Ciudad Celeste",
+      "species": "Yamask",
+      "nickname": "Evans",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 17,
+      "mon": "Yamask"
     },
     {
       "route": "ruta_20",
-      "mon": "Venonat",
-      "status": "captured"
+      "where": "Ruta 20",
+      "species": "Venonat",
+      "nickname": "Kuriboh",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 18,
+      "mon": "Venonat"
+    },
+    {
+      "route": "pueblo_paleta",
+      "where": "Pueblo Paleta",
+      "species": "Shellos",
+      "nickname": "Crayola",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 3,
+      "mon": "Shellos"
     },
     {
       "route": "ruta_2_sur",
-      "mon": "Lokix",
-      "status": "captured"
+      "where": "Ruta 2 Sur",
+      "species": "Lokix",
+      "nickname": "Hopper",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 6,
+      "mon": "Lokix"
+    },
+    {
+      "route": "ciudad_plateada",
+      "where": "Ciudad Plateada",
+      "species": "Dugtrio",
+      "nickname": "TriMike",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 11,
+      "mon": "Dugtrio"
+    },
+    {
+      "route": "",
+      "where": "Museo Pokémon",
+      "species": "Wugtrio",
+      "nickname": "Don riaton",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 1,
+      "mon": "Wugtrio"
     },
     {
       "route": "ruta_5",
-      "mon": "Luxio",
-      "status": "captured"
+      "where": "Ruta 5",
+      "species": "Luxio",
+      "nickname": "Midas",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 20,
+      "mon": "Luxio"
     },
     {
       "route": "ruta_6",
-      "mon": "Stunky",
-      "status": "captured"
+      "where": "Ruta 6",
+      "species": "Stunky",
+      "nickname": "Mamá Carlos",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 18,
+      "mon": "Stunky"
     }
   ],
   "progress": {
@@ -463,17 +640,22 @@
     "npcs": {},
     "routes": {
       "ruta_1": true,
+      "ciudad_plateada": true,
       "monte_moon": true,
       "ruta_2_norte": true,
       "ruta_4": true,
       "bosque_verde": true,
       "ruta_3": true,
       "monte_moon_exterior": true,
+      "ciudad_celeste": true,
       "ruta_20": true,
+      "pueblo_paleta": true,
       "ruta_2_sur": true,
       "ruta_5": true,
       "ruta_6": true,
+      "ciudad_verde": true,
       "ruta_22": true,
+      "ciudad_carmin": true,
       "ruta_21": true
     },
     "items": {}
