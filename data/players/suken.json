@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 6h 55m jugadas · 85,800₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 6h 58m jugadas · 85,800₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -34,7 +34,7 @@
       ],
       "ev": [
         18,
-        74,
+        75,
         15,
         27,
         14,
@@ -158,7 +158,7 @@
       ],
       "ev": [
         5,
-        15,
+        16,
         6,
         12,
         8,
@@ -277,7 +277,7 @@
       ],
       "ev": [
         7,
-        18,
+        19,
         7,
         14,
         9,
@@ -409,7 +409,7 @@
       ],
       "ev": [
         10,
-        20,
+        21,
         9,
         14,
         9,
@@ -516,7 +516,7 @@
       ],
       "ev": [
         5,
-        15,
+        16,
         6,
         12,
         8,
@@ -612,7 +612,7 @@
       ],
       "ev": [
         22,
-        36,
+        37,
         27,
         40,
         18,
@@ -2129,6 +2129,109 @@
       ]
     },
     {
+      "nickname": "JIM",
+      "species": "Larvesta",
+      "level": 29,
+      "types": [
+        "Bicho",
+        "Fuego"
+      ],
+      "ability": "Espada Indómita",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Colmillo Ígneo",
+        "Relajo",
+        "Presente",
+        "Condena Silvana"
+      ],
+      "iv": [
+        25,
+        28,
+        12,
+        11,
+        9,
+        11
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Espada Indómita"
+      ],
+      "abilHidden": [
+        "Viscosecreción"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Cornada"
+        },
+        {
+          "lvl": 1,
+          "m": "Corte Furia"
+        },
+        {
+          "lvl": 6,
+          "m": "Colmillo Ígneo"
+        },
+        {
+          "lvl": 12,
+          "m": "Relajo"
+        },
+        {
+          "lvl": 18,
+          "m": "Presente"
+        },
+        {
+          "lvl": 24,
+          "m": "Condena Silvana"
+        },
+        {
+          "lvl": 30,
+          "m": "Día Soleado"
+        },
+        {
+          "lvl": 36,
+          "m": "Vasta Guardia"
+        },
+        {
+          "lvl": 42,
+          "m": "Hidrocañón"
+        },
+        {
+          "lvl": 48,
+          "m": "Lluvia Ígnea"
+        },
+        {
+          "lvl": 54,
+          "m": "Gigaimpacto"
+        },
+        {
+          "lvl": 60,
+          "m": "Psicocambio"
+        },
+        {
+          "lvl": 66,
+          "m": "Llama Embrujada"
+        },
+        {
+          "lvl": 80,
+          "m": "Pataleta"
+        },
+        {
+          "lvl": 90,
+          "m": "Triturar"
+        }
+      ]
+    },
+    {
       "nickname": "KING",
       "species": "Poliwhirl",
       "level": 25,
@@ -3136,6 +3239,17 @@
       "mon": "Darumaka"
     },
     {
+      "route": "tunel_roca",
+      "where": "Túnel Roca",
+      "species": "Larvesta",
+      "nickname": "JIM",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 29,
+      "mon": "Larvesta"
+    },
+    {
       "route": "pueblo_paleta",
       "where": "Pueblo Paleta",
       "species": "Poliwhirl",
@@ -3239,13 +3353,13 @@
       "ruta_15": true,
       "ruta_10_norte": true,
       "ruta_20": true,
+      "tunel_roca": true,
       "pueblo_paleta": true,
       "ciudad_plateada": true,
       "ruta_1": true,
       "ciudad_verde": true,
       "ruta_22": true,
-      "ruta_9": true,
-      "tunel_roca": true
+      "ruta_9": true
     },
     "items": {},
     "encounters": {
@@ -3255,7 +3369,8 @@
       "ruta_15": true,
       "ruta_12": true,
       "ruta_9": true,
-      "ruta_10_norte": true
+      "ruta_10_norte": true,
+      "tunel_roca": true
     }
   }
 }
