@@ -60,15 +60,37 @@
         const inner = `${eid ? `<img src="${spr(eid)}" alt="" loading="lazy">` : `<div style="width:72px;height:72px;display:flex;align-items:center;justify-content:center;color:var(--text-muted);font-weight:800">?</div>`}<div class="nm">${escapeHtml(name)}</div>${how ? `<div class="tm-sp" style="max-width:120px;white-space:normal">${escapeHtml(how)}</div>` : ""}`;
         return eid ? `<a class="evo-mon${cur ? " cur" : ""}" href="pokemon.html?id=${eid}">${inner}</a>` : `<span class="evo-mon">${inner}</span>`;
       };
-      let evoHtml = "";
-      if (p.pe || (p.em && p.em.length)) {
-        evoHtml = `<h2>Evolución</h2><div class="evo-line">`;
-        if (p.pe) evoHtml += evoMon(p.pe.id, p.pe.name, p.pe.how) + `<span class="evo-arrow">→</span>`;
-        evoHtml += evoMon(id, p.n, "", true);
-        if (p.em && p.em.length) {
-          evoHtml += `<span class="evo-arrow">→</span><span style="display:flex;flex-direction:column;gap:.4rem">${p.em.map((e) => evoMon(e.toId, e.to, e.how)).join("")}</span>`;
+      // Evoluciones directas de un id, agrupando varios métodos hacia un mismo destino
+      const evosOf = (pid) => {
+        const q = dex[pid]; if (!q || !q.em) return [];
+        const map = new Map();
+        for (const e of q.em) {
+          const key = e.toId || ("n:" + e.to);
+          if (!map.has(key)) map.set(key, { toId: e.toId, to: e.to, hows: [] });
+          const g = map.get(key); if (!g.hows.includes(e.how)) g.hows.push(e.how);
         }
-        evoHtml += `</div>`;
+        return [...map.values()].map((x) => ({ toId: x.toId, to: x.to, how: x.hows.join(" / ") }));
+      };
+      let evoHtml;
+      if (p.pe || (p.em && p.em.length)) {
+        // subir hasta la base
+        let root = id, guard = 0;
+        while (dex[root] && dex[root].pe && guard++ < 12) root = dex[root].pe.id;
+        // bajar por etapas (cada etapa es una columna; ramas incluidas)
+        const stages = []; let frontier = [{ id: root, name: dex[root] ? dex[root].n : p.n, how: "" }];
+        const seen = new Set(); let depth = 0;
+        while (frontier.length && depth++ < 8) {
+          stages.push(frontier);
+          const next = [];
+          for (const node of frontier) {
+            if (node.id == null || seen.has(node.id)) continue;
+            seen.add(node.id);
+            for (const e of evosOf(node.id)) next.push({ id: e.toId, name: e.to, how: e.how });
+          }
+          frontier = next;
+        }
+        const col = (stage) => `<span style="display:flex;flex-direction:column;gap:.4rem">${stage.map((n) => evoMon(n.id, n.name, n.how, n.id === id)).join("")}</span>`;
+        evoHtml = `<h2>Evolución</h2><div class="evo-line">${stages.map(col).join(`<span class="evo-arrow">→</span>`)}</div>`;
       } else {
         evoHtml = `<h2>Evolución</h2><p class="muted">No evoluciona.</p>`;
       }
