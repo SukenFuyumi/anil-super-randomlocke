@@ -301,6 +301,11 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Sandshrew"
+    },
+    {
+      "route": "ruta_2_norte",
+      "mon": "Cascoon",
+      "status": "dead"
     }
   ],
   "progress": {
