@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 4h 16m jugadas · 38,220₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 4h 20m jugadas · 32,220₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -682,7 +682,8 @@
       "ruta_5": true,
       "ruta_2_norte": true,
       "bosque_verde": true,
-      "ciudad_verde": true
+      "ciudad_verde": true,
+      "ruta_6": true
     },
     "items": {}
   }
