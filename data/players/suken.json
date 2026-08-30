@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 6h 47m jugadas · 85,100₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 6h 50m jugadas · 82,700₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -33,11 +33,11 @@
         9
       ],
       "ev": [
-        16,
+        18,
         69,
         15,
         27,
-        7,
+        11,
         32
       ],
       "abilPool": [
@@ -157,11 +157,11 @@
         30
       ],
       "ev": [
-        3,
+        5,
         10,
         6,
         12,
-        1,
+        5,
         18
       ],
       "abilPool": [
@@ -276,11 +276,11 @@
         26
       ],
       "ev": [
-        5,
+        7,
         13,
         7,
         14,
-        2,
+        6,
         21
       ],
       "abilPool": [
@@ -408,11 +408,11 @@
         31
       ],
       "ev": [
-        8,
+        10,
         15,
         9,
         14,
-        2,
+        6,
         22
       ],
       "abilPool": [
@@ -515,11 +515,11 @@
         10
       ],
       "ev": [
-        3,
+        5,
         10,
         6,
         12,
-        1,
+        5,
         18
       ],
       "abilPool": [
@@ -611,11 +611,11 @@
         15
       ],
       "ev": [
-        20,
+        22,
         31,
         27,
         40,
-        11,
+        15,
         41
       ],
       "abilPool": [
@@ -3140,7 +3140,8 @@
       "ruta_1": true,
       "ciudad_verde": true,
       "ruta_22": true,
-      "ruta_9": true
+      "ruta_9": true,
+      "ruta_10_norte": true
     },
     "items": {},
     "encounters": {
