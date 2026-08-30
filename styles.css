@@ -459,14 +459,37 @@ img.player-avatar.xl { padding: 6px; }
 .pm-move-nm { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 100%; }
 .pm-move.sel { outline: 3px solid var(--text); outline-offset: -1px; }
 .pm-move-cat { font-size: .56rem; text-transform: uppercase; opacity: .85; font-weight: 700; }
-.pm-detail { margin-top: .6rem; border: 1px solid var(--border); border-radius: 8px; padding: .6rem .7rem; background: var(--subtle-bg); height: 118px; overflow-y: auto; }
-.pm-detail-hint { margin: 0; color: var(--text-muted); font-size: .82rem; display: flex; align-items: center; height: 100%; justify-content: center; text-align: center; }
+.pm-detail { margin-top: .6rem; border: 1px solid var(--border); border-radius: 8px; padding: .6rem .7rem; background: var(--subtle-bg); min-height: 118px; }
+.pm-detail-hint { margin: 0; color: var(--text-muted); font-size: .82rem; display: flex; align-items: center; min-height: 104px; justify-content: center; text-align: center; }
 .pm-detail-head { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; margin-bottom: .35rem; }
 .pm-chip { font-size: .62rem; text-transform: uppercase; font-weight: 700; color: var(--text-muted); border: 1px solid var(--border); border-radius: 999px; padding: .05rem .45rem; }
 .pm-detail-stats { display: flex; gap: 1rem; font-size: .78rem; color: var(--text-muted); margin-bottom: .35rem; }
 .pm-detail-stats b { color: var(--text); }
 .pm-detail-desc { font-size: .84rem; margin: 0; line-height: 1.4; }
-.pm-foot { padding: 0 1.2rem 1.1rem; text-align: right; }
+.pm-evo { padding: .2rem 1.2rem 1.1rem; }
+.evo-line { display: flex; gap: .4rem; align-items: flex-start; flex-wrap: wrap; }
+.evo-col { display: flex; flex-direction: column; gap: .35rem; }
+.evo-mon { text-align: center; padding: .35rem; border: 1px solid var(--border); border-radius: 8px; background: var(--panel); color: var(--text); min-width: 84px; display: block; }
+.evo-mon.cur { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 10%, var(--panel)); }
+.evo-mon img { width: 56px; height: 56px; object-fit: contain; image-rendering: pixelated; }
+.evo-mon .evo-q { width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; margin: 0 auto; color: var(--text-muted); font-weight: 800; }
+.evo-mon .evo-nm { font-size: .76rem; font-weight: 700; }
+.evo-mon .evo-how { font-size: .64rem; color: var(--text-muted); line-height: 1.2; margin-top: .1rem; max-width: 110px; }
+.evo-arrow { color: var(--text-muted); font-size: 1.3rem; align-self: center; }
+.pm-foot { padding: 0 1.2rem 1.1rem; display: flex; justify-content: flex-end; flex-wrap: wrap; gap: .4rem 1.2rem; }
+.pm-foot a { font-weight: 700; font-size: .85rem; }
+
+/* modal de info de un movimiento */
+.mi-modal { position: relative; background: var(--panel); border: 1px solid var(--border); border-radius: 14px; width: min(420px, 100%); box-shadow: 0 12px 40px #0006; margin: auto; padding: 1.1rem 1.2rem 1.2rem; }
+.mi-name { font-size: 1.35rem; font-weight: 800; margin-bottom: .4rem; }
+.mi-tags { display: flex; gap: .4rem; align-items: center; margin-bottom: .5rem; }
+.mi-stats { display: flex; gap: 1.2rem; font-size: .85rem; color: var(--text-muted); margin-bottom: .5rem; }
+.mi-stats b { color: var(--text); }
+.mi-desc { margin: 0; font-size: .88rem; line-height: 1.45; }
+
+/* resaltado temporal del Pokémon al llegar por enlace */
+.lm-hl { box-shadow: 0 0 0 2px var(--accent); animation: lmHl 2.4s ease-out; }
+@keyframes lmHl { 0% { box-shadow: 0 0 0 3px var(--accent); } 100% { box-shadow: 0 0 0 2px transparent; } }
 .pm-foot a { font-weight: 700; font-size: .85rem; }
 
 /* ---------- Wikis de movimientos / habilidades ---------- */
@@ -493,7 +516,9 @@ img.player-avatar.xl { padding: 6px; }
 .lm-count { color: var(--text-muted); font-size: .74rem; font-weight: 700; margin-left: auto; }
 .lm-mon[open] > summary .lm-count { margin-left: 0; }
 .lm-moves { display: flex; flex-wrap: wrap; gap: .35rem; padding: .7rem; }
-.lm-move { display: inline-flex; align-items: center; gap: .35rem; background: var(--subtle-bg); border: 1px solid var(--border); color: var(--text); border-radius: 999px; padding: .18rem .55rem .18rem .2rem; font-size: .78rem; font-weight: 600; }
+.lm-move { display: inline-flex; align-items: center; gap: .35rem; background: var(--subtle-bg); border: 1px solid var(--border); color: var(--text); border-radius: 999px; padding: .18rem .55rem .18rem .2rem; font-size: .78rem; font-weight: 600; cursor: pointer; font-family: inherit; }
+.lm-move:hover { border-color: var(--accent); }
+.lm-move.typed:hover { filter: brightness(1.08); }
 .lm-move.typed { color: #fff; border-color: transparent; text-shadow: 0 1px 2px #00000073; }
 .lm-lvl { background: #0000002e; border-radius: 999px; padding: .05rem .4rem; font-size: .64rem; font-weight: 800; white-space: nowrap; }
 .lm-move:not(.typed) .lm-lvl { background: var(--border); color: var(--text-muted); }

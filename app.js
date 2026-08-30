@@ -386,7 +386,7 @@ function formDataFor(species) {
   return null;
 }
 
-async function openMonPopup(mon) {
+async function openMonPopup(mon, ctx = {}) {
   await Promise.all([loadPokedex(), loadPokedexFull(), loadMovesFull(), loadAbilities(), loadForms()]);
   const id = speciesDexId(mon.species);
   const dex = (PDEX && PDEX[id]) || null;
@@ -446,6 +446,9 @@ async function openMonPopup(mon) {
   const t0 = typeKey(typesArr[0] || "");
   const types = typesArr.map((t) => typeBadge(t, true)).join(" ");
   const href = pokemonHref(mon.species);
+  const recuerdaHref = (ctx.player && Array.isArray(mon.learnset))
+    ? `jugador.html?id=${encodeURIComponent(ctx.player)}&mon=${encodeURIComponent((mon.nickname || "") + "|" + (mon.species || ""))}#recuerda`
+    : null;
 
   const html = `<div class="pm-modal" role="dialog" aria-modal="true" style="border-top:5px solid var(--type-${t0})">
     <button type="button" class="pm-close" aria-label="Cerrar" onclick="closeMonPopup()">✕</button>
@@ -474,7 +477,8 @@ async function openMonPopup(mon) {
         <div class="pm-detail show" id="pmDetail"><p class="pm-detail-hint">Toca una habilidad o un movimiento para ver qué hace.</p></div>
       </div>
     </div>
-    ${href ? `<div class="pm-foot"><a href="${href}">Ver ficha completa en la Pokédex →</a></div>` : ""}
+    ${evoChainHtml(id) ? `<div class="pm-evo"><div class="pm-k">Evolución</div>${evoChainHtml(id)}</div>` : ""}
+    ${(recuerdaHref || href) ? `<div class="pm-foot">${recuerdaHref ? `<a href="${recuerdaHref}">Ver recuerda movimientos →</a>` : ""}${href ? `<a href="${href}">Ver ficha completa en la Pokédex →</a>` : ""}</div>` : ""}
   </div>`;
 
   let ov = document.getElementById("pmOverlay");
@@ -517,14 +521,68 @@ function pmEsc(e) { if (e.key === "Escape") closeMonPopup(); }
 
 /* Registro de mons para abrir el popup por índice (evita serializar en el DOM) */
 const MON_REG = [];
-function registerMon(mon) { MON_REG.push(mon); return MON_REG.length - 1; }
+function registerMon(mon, ctx) { MON_REG.push({ mon, ctx: ctx || {} }); return MON_REG.length - 1; }
 document.addEventListener("click", (e) => {
   const t = e.target.closest("[data-monopen]");
   if (!t) return;
   e.preventDefault();
-  const m = MON_REG[+t.dataset.monopen];
-  if (m) openMonPopup(m);
+  const r = MON_REG[+t.dataset.monopen];
+  if (r) openMonPopup(r.mon, r.ctx);
 });
+
+/* Cadena evolutiva completa (misma lógica que pokemon.html) usando PDEX; "" si no hay */
+function evoChainHtml(id) {
+  const dex = PDEX; if (!dex || !dex[id]) return "";
+  const p = dex[id];
+  if (!p.pe && !(p.em && p.em.length)) return "";
+  const spr = (eid) => `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${eid}.png`;
+  const evoMon = (eid, name, how, cur) => {
+    const inner = `${eid ? `<img src="${spr(eid)}" alt="" loading="lazy">` : `<div class="evo-q">?</div>`}<div class="evo-nm">${escapeHtml(name)}</div>${how ? `<div class="evo-how">${escapeHtml(how)}</div>` : ""}`;
+    return eid ? `<a class="evo-mon${cur ? " cur" : ""}" href="pokemon.html?id=${eid}">${inner}</a>` : `<span class="evo-mon">${inner}</span>`;
+  };
+  const evosOf = (pid) => {
+    const q = dex[pid]; if (!q || !q.em) return [];
+    const map = new Map();
+    for (const e of q.em) { const k = e.toId || ("n:" + e.to); if (!map.has(k)) map.set(k, { toId: e.toId, to: e.to, hows: [] }); const g = map.get(k); if (!g.hows.includes(e.how)) g.hows.push(e.how); }
+    return [...map.values()].map((x) => ({ toId: x.toId, to: x.to, how: x.hows.join(" / ") }));
+  };
+  let root = id, guard = 0;
+  while (dex[root] && dex[root].pe && guard++ < 12) root = dex[root].pe.id;
+  const stages = []; let frontier = [{ id: root, name: dex[root] ? dex[root].n : p.n, how: "" }];
+  const seen = new Set(); let depth = 0;
+  while (frontier.length && depth++ < 8) {
+    stages.push(frontier);
+    const next = [];
+    for (const node of frontier) { if (node.id == null || seen.has(node.id)) continue; seen.add(node.id); for (const e of evosOf(node.id)) next.push({ id: e.toId, name: e.to, how: e.how }); }
+    frontier = next;
+  }
+  const col = (st) => `<span class="evo-col">${st.map((n) => evoMon(n.id, n.name, n.how, n.id === id)).join("")}</span>`;
+  return `<div class="evo-line">${stages.map(col).join(`<span class="evo-arrow">→</span>`)}</div>`;
+}
+
+/* Modal ligero con la info completa de un movimiento */
+async function openMoveInfo(name) {
+  await loadMovesFull();
+  const info = moveInfo(name);
+  const k = info ? typeKey(info.t) : "unknown";
+  const body = info
+    ? `<div class="mi-tags"><span class="type-badge sm" style="background:var(--type-${k})">${escapeHtml(info.t)}</span><span class="pm-chip">${escapeHtml(info.cat)}</span></div>
+       <div class="mi-stats"><span>Poder <b>${info.pow ?? "—"}</b></span><span>Precisión <b>${info.acc ?? "—"}</b></span><span>PP <b>${info.pp ?? "—"}</b></span></div>
+       <p class="mi-desc">${escapeHtml(info.fl || "")}</p>`
+    : `<p class="muted">Sin datos del movimiento.</p>`;
+  const html = `<div class="mi-modal" role="dialog" aria-modal="true" style="border-top:5px solid var(--type-${k})">
+    <button type="button" class="pm-close" aria-label="Cerrar" onclick="closeMoveInfo()">✕</button>
+    <div class="mi-name">${escapeHtml(info ? info.n : name)}</div>
+    ${body}</div>`;
+  let ov = document.getElementById("miOverlay");
+  if (!ov) { ov = document.createElement("div"); ov.id = "miOverlay"; ov.className = "pm-overlay"; document.body.appendChild(ov); }
+  ov.innerHTML = html;
+  ov.classList.add("show");
+  ov.onclick = (e) => { if (e.target === ov) closeMoveInfo(); };
+  document.addEventListener("keydown", miEsc);
+}
+function closeMoveInfo() { const ov = document.getElementById("miOverlay"); if (ov) ov.classList.remove("show"); document.removeEventListener("keydown", miEsc); }
+function miEsc(e) { if (e.key === "Escape") closeMoveInfo(); }
 
 function monCard(mon, opts = {}) {
   const dead = opts.dead;
@@ -540,7 +598,7 @@ function monCard(mon, opts = {}) {
     }).join("");
   const shiny = mon.shiny ? `<span class="pill shiny" style="padding:.02rem .45rem;font-size:.58rem">${shinyStar(11)} SHINY</span>` : "";
   const owner = opts.owner ? `<div class="mon-owner">de ${escapeHtml(opts.owner)}</div>` : "";
-  const mi = registerMon(mon);
+  const mi = registerMon(mon, { player: opts.player });
   const sprite = `<a href="#" class="mon-open" data-monopen="${mi}" title="Ver ficha detallada">${spriteEl(mon)}</a>`;
   const speciesHtml = `<a href="#" class="mon-open" data-monopen="${mi}" style="color:inherit">${escapeHtml(mon.species || "?")}</a>`;
   return `

@@ -86,16 +86,16 @@
       `;
 
       const teamHtml = (data.team||[]).length
-        ? `<div class="mon-team">${data.team.map((m)=>monCard(m)).join("")}</div>`
+        ? `<div class="mon-team">${data.team.map((m)=>monCard(m,{player:id})).join("")}</div>`
         : `<p class="empty-state">Sin Pokémon en el equipo.</p>`;
       document.getElementById("tab-equipo").innerHTML = teamHtml;
 
       document.getElementById("tab-caja").innerHTML = (data.box||[]).length
-        ? `<div class="mon-team">${data.box.map((m)=>monCard(m)).join("")}</div>`
+        ? `<div class="mon-team">${data.box.map((m)=>monCard(m,{player:id})).join("")}</div>`
         : `<p class="empty-state">La caja está vacía.</p>`;
 
       document.getElementById("tab-cementerio").innerHTML = (data.graveyard||[]).length
-        ? `<div class="mon-team">${data.graveyard.map((m)=>monCard(m,{dead:true})).join("")}</div>`
+        ? `<div class="mon-team">${data.graveyard.map((m)=>monCard(m,{dead:true,player:id})).join("")}</div>`
         : `<p class="empty-state">Cementerio vacío.</p>`;
 
       const gItems = cfg.groundItems || [];
@@ -237,7 +237,7 @@
       const learnChips = (ls) => ls.map((x) => {
         const k = moveTypeKey(x.m);
         const typed = k && k !== "unknown";
-        return `<span class="lm-move${typed ? " typed" : ""}"${typed ? ` style="background:var(--type-${k})"` : ""}><span class="lm-lvl">${lvlLabel(x.lvl)}</span>${escapeHtml(x.m)}</span>`;
+        return `<button type="button" class="lm-move${typed ? " typed" : ""}" data-move="${escapeHtml(x.m)}"${typed ? ` style="background:var(--type-${k})"` : ""}><span class="lm-lvl">${lvlLabel(x.lvl)}</span>${escapeHtml(x.m)}</button>`;
       }).join("");
       const learnBlock = (m, dead) => {
         const ini = initials(m.species || m.nickname);
@@ -247,7 +247,8 @@
         const body = ls
           ? `<div class="lm-moves">${learnChips(ls)}</div>`
           : `<p class="muted" style="padding:.4rem .2rem;font-size:.82rem">Sin datos de movimientos. El jugador debe actualizar AnilSync y volver a guardar.</p>`;
-        return `<details class="lm-mon"${dead ? "" : " open"}>
+        const key = (m.nickname || "") + "|" + (m.species || "");
+        return `<details class="lm-mon"${dead ? "" : " open"} data-key="${escapeHtml(key)}">
           <summary><span class="lm-spr">${img}</span>
             <span class="lm-id"><span class="lm-nick">${escapeHtml(m.nickname || m.species || "?")}</span>
             <span class="lm-sp">${escapeHtml(m.species || "")}${m.level != null ? " · Nv. " + escapeHtml(m.level) : ""}</span></span>
@@ -259,14 +260,37 @@
         `<p class="lead">Movimientos que cada Pokémon puede aprender en el <strong>Recuerda-movimientos</strong>. En Añil el aprendizaje está randomizado, así que esta lista es única de tu partida.</p>` +
         (teamBox.length ? teamBox.map((m) => learnBlock(m)).join("") : `<p class="empty-state">Sin Pokémon.</p>`);
 
+      // clic en un movimiento del learnset -> info completa del movimiento
+      document.getElementById("tab-recuerda").addEventListener("click", (e) => {
+        const b = e.target.closest(".lm-move"); if (!b) return;
+        openMoveInfo(b.dataset.move);
+      });
+
       // tabs
-      document.getElementById("tabs").addEventListener("click", (e) => {
-        const b = e.target.closest("button"); if (!b) return;
+      const activateTab = (name) => {
+        const btn = document.querySelector(`#tabs button[data-tab="${name}"]`); if (!btn) return;
         document.querySelectorAll("#tabs button").forEach((x)=>x.classList.remove("active"));
         document.querySelectorAll(".tab-panel").forEach((x)=>x.classList.remove("active"));
-        b.classList.add("active");
-        document.getElementById("tab-"+b.dataset.tab).classList.add("active");
+        btn.classList.add("active");
+        document.getElementById("tab-"+name).classList.add("active");
+      };
+      document.getElementById("tabs").addEventListener("click", (e) => {
+        const b = e.target.closest("button"); if (!b) return;
+        activateTab(b.dataset.tab);
       });
+
+      // enlace directo a un Pokémon del Recuerda-movimientos (?mon=nick|especie)
+      const monParam = param("mon");
+      if (monParam) {
+        activateTab("recuerda");
+        const target = document.querySelector(`#tab-recuerda .lm-mon[data-key="${(window.CSS && CSS.escape) ? CSS.escape(monParam) : monParam.replace(/"/g,'\\"')}"]`);
+        if (target) {
+          document.querySelectorAll("#tab-recuerda .lm-mon").forEach((d)=>d.removeAttribute("open"));
+          target.setAttribute("open", "");
+          setTimeout(() => target.scrollIntoView({ behavior: "smooth", block: "center" }), 60);
+          target.classList.add("lm-hl");
+        }
+      }
 
       renderFooter();
     })();
