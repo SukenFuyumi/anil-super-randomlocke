@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 1h 39m jugadas · 3,500₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 2h 3m jugadas · 11,700₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "goku",
       "species": "Monferno",
-      "level": 15,
+      "level": 23,
       "types": [
         "Fuego",
         "Lucha"
@@ -28,7 +28,7 @@
     {
       "nickname": "faker",
       "species": "Skiddo",
-      "level": 14,
+      "level": 23,
       "types": [
         "Planta"
       ],
@@ -37,7 +37,7 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Meteoros",
+        "Espora",
         "Punzada Rama",
         "Púas",
         "Abatidoras"
@@ -46,7 +46,7 @@
     {
       "nickname": "gato",
       "species": "Skitty",
-      "level": 15,
+      "level": 23,
       "types": [
         "Normal"
       ],
@@ -56,15 +56,15 @@
       "shiny": false,
       "moves": [
         "Búnker",
-        "Ojitos Tiernos",
+        "Shuriken de Agua",
         "Picoteo",
-        "Pulimento"
+        "Cuchillada"
       ]
     },
     {
       "nickname": "toni",
       "species": "Voltorb",
-      "level": 14,
+      "level": 23,
       "types": [
         "Eléctrico"
       ],
@@ -73,29 +73,47 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Brazo Pincho",
+        "Truco Floral",
         "Clavo Cañón",
-        "Levitón",
+        "Onda Voltio",
         "Drenadoras"
       ]
     },
     {
       "nickname": "lola",
       "species": "Pumpkaboo",
-      "level": 14,
+      "level": 23,
       "types": [
         "Fantasma",
         "Planta"
       ],
       "ability": "Mandíbula Dragón",
       "nature": "Alocada",
-      "item": "Rocío Bondad",
+      "item": "",
       "shiny": false,
       "moves": [
         "Masa Cósmica",
         "Lengüetazo",
         "Sorpresa",
-        "Bilis"
+        "Hoja Mágica"
+      ]
+    },
+    {
+      "nickname": "juan",
+      "species": "Horsea",
+      "level": 16,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Piel Celeste",
+      "nature": "Alocada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Bomba Fango",
+        "Bola Hielo",
+        "Tenaza",
+        "Danza Lluvia"
       ]
     }
   ],
@@ -181,6 +199,17 @@
       "mon": "Pumpkaboo"
     },
     {
+      "route": "ruta_3",
+      "where": "Ruta 3",
+      "species": "Horsea",
+      "nickname": "juan",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 12,
+      "mon": "Horsea"
+    },
+    {
       "route": "ruta_2_norte",
       "where": "Ruta 2 Norte",
       "species": "Ledyba",
@@ -203,11 +232,13 @@
       "ruta_2_sur": true,
       "bosque_verde": true,
       "ruta_1": true,
+      "ruta_3": true,
       "ruta_2_norte": true,
       "pueblo_paleta": true,
       "ruta_22": true,
       "ciudad_plateada": true,
-      "ruta_3": true
+      "monte_moon": true,
+      "monte_moon_exterior": true
     },
     "items": {}
   }
