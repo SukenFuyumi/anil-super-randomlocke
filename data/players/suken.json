@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 6h 11m jugadas · 43,380₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 6h 14m jugadas · 43,380₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -265,6 +265,24 @@
         "Conjuro",
         "Mandato",
         "Psicocorte"
+      ]
+    },
+    {
+      "nickname": "EL 12 MI APA",
+      "species": "Nosepass",
+      "level": 30,
+      "types": [
+        "Roca"
+      ],
+      "ability": "Transportarrocas",
+      "nature": "Afable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Respiro",
+        "Antiaéreo",
+        "Cortina Plasma",
+        "Avivar"
       ]
     },
     {
@@ -653,6 +671,17 @@
       "mon": "Tinkatuff"
     },
     {
+      "route": "ruta_12",
+      "where": "Ruta 12",
+      "species": "Nosepass",
+      "nickname": "EL 12 MI APA",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 32,
+      "mon": "Nosepass"
+    },
+    {
       "route": "ruta_6",
       "where": "Ruta 6",
       "species": "Dewott",
@@ -805,6 +834,7 @@
       "ruta_4": true,
       "ciudad_celeste": true,
       "ruta_21": true,
+      "ruta_12": true,
       "ruta_6": true,
       "ruta_15": true,
       "ruta_20": true,
@@ -812,14 +842,15 @@
       "ciudad_plateada": true,
       "ruta_1": true,
       "ciudad_verde": true,
-      "ruta_22": true,
-      "ruta_12": true
+      "ruta_22": true
     },
     "items": {},
     "encounters": {
       "pueblo_paleta": true,
       "ruta_1": true,
-      "ciudad_carmin": true
+      "ciudad_carmin": true,
+      "ruta_15": true,
+      "ruta_12": true
     }
   }
 }
