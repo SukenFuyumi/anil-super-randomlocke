@@ -415,9 +415,11 @@ async function openMonPopup(mon) {
         : ` <span class="muted">(sin efecto en stats)</span>`)
     : "—";
 
-  // Habilidades posibles (aleatoria): marca la que tiene, resto en gris
-  const pool = fd ? (fd.ab || []) : (dex ? (dex.ab || []) : []);
-  const hidden = fd ? (fd.abh || []) : (dex ? (Array.isArray(dex.abh) ? dex.abh : dex.abh ? [dex.abh] : []) : []);
+  // Habilidades randomizadas reales del save (abilPool/abilHidden); si no, cae al pool vanilla
+  const pool = Array.isArray(mon.abilPool) ? mon.abilPool
+    : (fd ? (fd.ab || []) : (dex ? (dex.ab || []) : []));
+  const hidden = Array.isArray(mon.abilHidden) ? mon.abilHidden
+    : (fd ? (fd.abh || []) : (dex ? (Array.isArray(dex.abh) ? dex.abh : dex.abh ? [dex.abh] : []) : []));
   const seen = new Set(), abilList = [];
   const push = (name, isHidden) => { const k = normName(name); if (!name || seen.has(k)) return; seen.add(k); abilList.push({ name, isHidden }); };
   if (mon.ability) push(mon.ability, false);
@@ -427,42 +429,47 @@ async function openMonPopup(mon) {
     const cur = normName(a.name) === normName(mon.ability);
     const info = abilityInfo(a.name);
     return `<button type="button" class="pm-abil${cur ? " cur" : ""}" data-abil="${escapeHtml(a.name)}"${info ? "" : " disabled"}>
-      <span class="pm-abil-dot"></span><span>${escapeHtml(a.name)}${a.isHidden ? ' <span class="pm-hid">oculta</span>' : ""}</span></button>`;
+      <span class="pm-abil-dot"></span><span class="pm-abil-nm">${escapeHtml(a.name)}</span>${a.isHidden ? '<span class="pm-hid">oculta</span>' : ""}${cur ? '<span class="pm-cur-tag">activa</span>' : ""}</button>`;
   }).join("");
 
-  // Movimientos (clic -> descripción)
+  // Movimientos: píldoras coloreadas por tipo (mismo lenguaje que las fichas); clic -> descripción
   const movesHtml = (mon.moves || []).filter(Boolean).map((m) => {
     const nm = String(m).split("|")[0].trim();
     const info = moveInfo(nm);
     const k = info ? typeKey(info.t) : (moveTypeKey(nm) || "unknown");
-    return `<button type="button" class="pm-move" data-move="${escapeHtml(nm)}" style="--mt:var(--type-${k})">
-      <span>${escapeHtml(nm)}</span>${info ? `<span class="pm-move-cat">${info.cat}</span>` : ""}</button>`;
+    const typed = k && k !== "unknown";
+    return `<button type="button" class="pm-move${typed ? " typed" : ""}" data-move="${escapeHtml(nm)}"${typed ? ` style="background:var(--type-${k})"` : ""}>
+      <span class="pm-move-nm">${escapeHtml(nm)}</span>${info ? `<span class="pm-move-cat">${escapeHtml(info.cat)}</span>` : ""}</button>`;
   }).join("");
 
-  const types = (fd ? fd.types : mon.types || []).map((t) => typeBadge(t)).join(" ");
+  const typesArr = fd ? fd.types : (mon.types || []);
+  const t0 = typeKey(typesArr[0] || "");
+  const types = typesArr.map((t) => typeBadge(t, true)).join(" ");
   const href = pokemonHref(mon.species);
-  const spr = mon.sprite || speciesAniSprite(mon.species) || speciesSprite(mon.species);
 
-  const html = `<div class="pm-modal" role="dialog" aria-modal="true">
+  const html = `<div class="pm-modal" role="dialog" aria-modal="true" style="border-top:5px solid var(--type-${t0})">
     <button type="button" class="pm-close" aria-label="Cerrar" onclick="closeMonPopup()">✕</button>
-    <div class="pm-head">
-      <div class="pm-art">${spr ? `<img src="${escapeHtml(spr)}" alt="" onerror="this.style.display='none'">` : ""}</div>
+    <div class="pm-head" style="background:linear-gradient(180deg, color-mix(in srgb, var(--type-${t0}) 20%, var(--panel)), var(--panel))">
+      ${spriteEl(mon, "mon-sprite pm-sprite")}
       <div class="pm-headinfo">
         <div class="pm-nick">${escapeHtml(mon.nickname || mon.species || "?")}${mon.shiny ? " " + shinyStar(14) : ""}</div>
-        <div class="pm-species muted">${escapeHtml(mon.species || "")} · Nv. ${escapeHtml(mon.level ?? "?")}</div>
+        <div class="pm-species">${escapeHtml(mon.species || "")} <span class="pm-lvl">Nv. ${escapeHtml(mon.level ?? "?")}</span></div>
         <div class="pm-types">${types}</div>
       </div>
     </div>
     <div class="pm-grid">
       <div class="pm-col">
+        <div class="pm-k">Estadísticas base</div>
         ${statsHtml || '<p class="muted">Sin datos de estadísticas.</p>'}
       </div>
       <div class="pm-col">
-        <div class="pm-field"><div class="pm-k">Naturaleza</div><div>${natHtml}</div></div>
-        <div class="pm-field"><div class="pm-k">Objeto</div><div>${mon.item ? escapeHtml(mon.item) : "—"}</div></div>
-        <div class="pm-field"><div class="pm-k">Habilidad <span class="muted">(aleatoria — posibles en gris)</span></div>
+        <div class="pm-tworow">
+          <div class="pm-field"><div class="pm-k">Naturaleza</div><div class="pm-val">${natHtml}</div></div>
+          <div class="pm-field"><div class="pm-k">Objeto</div><div class="pm-val">${mon.item ? escapeHtml(mon.item) : "—"}</div></div>
+        </div>
+        <div class="pm-field"><div class="pm-k">Habilidad <span class="muted">· aleatoria, la activa resaltada</span></div>
           <div class="pm-abils">${abilHtml || '<span class="muted">—</span>'}</div></div>
-        <div class="pm-field"><div class="pm-k">Movimientos <span class="muted">(clic para ver qué hacen)</span></div>
+        <div class="pm-field"><div class="pm-k">Movimientos <span class="muted">· clic para ver qué hacen</span></div>
           <div class="pm-moves">${movesHtml || '<span class="muted">—</span>'}</div></div>
         <div class="pm-detail" id="pmDetail"></div>
       </div>

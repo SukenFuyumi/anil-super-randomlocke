@@ -6,6 +6,7 @@ const TYPES = require('./pokemon-types.json');
 const ABILITIES_ES = require('./ability-es.json');
 const ITEMS_ES = require('./item-es.json');
 let FORMS = {}; try { FORMS = require('./forms.json'); } catch (e) {}
+let RAND_ABIL = {}; // habilidades randomizadas por especie/forma: { SPECIES[_form]: {base:[nombres], hidden:[nombres]} }
 
 const NATURES = { HARDY:'Fuerte',LONELY:'Huraña',BRAVE:'Audaz',ADAMANT:'Firme',NAUGHTY:'Pícara',BOLD:'Osada',DOCILE:'Dócil',RELAXED:'Plácida',IMPISH:'Agitada',LAX:'Floja',TIMID:'Miedosa',HASTY:'Activa',SERIOUS:'Seria',JOLLY:'Alegre',NAIVE:'Ingenua',MODEST:'Modesta',MILD:'Afable',QUIET:'Mansa',BASHFUL:'Tímida',RASH:'Alocada',CALM:'Serena',GENTLE:'Amable',SASSY:'Grosera',CAREFUL:'Cauta',QUIRKY:'Rara' };
 
@@ -51,6 +52,10 @@ function mon(p) {
   const ivArr = statArr(iv(p, '@iv')), evArr = statArr(iv(p, '@ev'));
   if (ivArr) out.iv = ivArr;
   if (evArr) out.ev = evArr;
+  // Habilidades randomizadas reales (las que muestra el juego): base (slot 1/2) + oculta
+  const raKey = (form && RAND_ABIL[species + '_' + form]) ? species + '_' + form : species;
+  const ra = RAND_ABIL[raKey];
+  if (ra) { out.abilPool = ra.base; out.abilHidden = ra.hidden; }
   if (fd && fd.spriteId) out.sprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${fd.spriteId}.png`;
   return out;
 }
@@ -71,6 +76,18 @@ function extract(buf, playerId, opts = {}) {
   const gm = hget(root, 'global_metadata');
   const storage = hget(root, 'storage_system');
   const stats = hget(root, 'stats');
+
+  // Habilidades randomizadas: randomized_data.abilities[ESPECIE(_forma)] = {base:"A,B", hidden:"H"}
+  RAND_ABIL = {};
+  const rd = hget(root, 'randomized_data');
+  const rabil = rd && hget(rd, 'abilities');
+  if (rabil && rabil.__isHash) {
+    for (const [k, v] of rabil.entries()) {
+      if (!v || !v.__isHash) continue;
+      const toList = s => String(sname(hget(v, s)) || '').split(',').map(x => x.trim()).filter(Boolean).map(abilityName);
+      RAND_ABIL[sname(k)] = { base: toList('base'), hidden: toList('hidden') };
+    }
+  }
 
   const party = iv(player, '@party') || [];
   const boxes = iv(storage, '@boxes') || [];
