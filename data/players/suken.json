@@ -138,20 +138,22 @@
       ]
     },
     {
-      "nickname": "Zigzagoon",
-      "species": "Zigzagoon",
+      "nickname": "Gengar",
+      "species": "Gengar",
       "level": 5,
       "types": [
-        "Normal"
+        "Fantasma",
+        "Veneno"
       ],
-      "ability": "Cobardía",
-      "nature": "Fuerte",
+      "ability": "",
+      "nature": "Rara",
       "item": "",
       "shiny": false,
       "moves": [
-        "Campo Psíquico",
-        "Puño Cometa",
-        "Resarcimiento"
+        "Reducción",
+        "Poder Pasado",
+        "Danza Caos",
+        "Represión Metal"
       ]
     },
     {
@@ -595,14 +597,14 @@
     },
     {
       "route": "",
-      "where": "Monte Moon",
-      "species": "Zigzagoon",
+      "where": "S.S Anne",
+      "species": "Gengar",
       "nickname": "",
       "shiny": false,
       "status": "captured",
       "category": "intercambio",
       "level": 5,
-      "mon": "Zigzagoon"
+      "mon": "Gengar"
     },
     {
       "route": "ciudad_carmin",
