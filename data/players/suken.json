@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 4h 43m jugadas · 37,350₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 4h 46m jugadas · 37,350₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
       "species": "Raticate",
-      "level": 24,
+      "level": 25,
       "types": [
         "Normal"
       ],
@@ -27,7 +27,7 @@
     {
       "nickname": "SMEGMA",
       "species": "Slugma",
-      "level": 24,
+      "level": 25,
       "types": [
         "Fuego"
       ],
@@ -100,7 +100,7 @@
     {
       "nickname": "DUNAS",
       "species": "Bramblin",
-      "level": 23,
+      "level": 24,
       "types": [
         "Planta",
         "Fantasma"
@@ -312,6 +312,25 @@
         "Yo Primero",
         "Campo de Hierba",
         "Última Palabra"
+      ]
+    },
+    {
+      "nickname": "DERP INVERSO",
+      "species": "Clodsire",
+      "level": 23,
+      "types": [
+        "Veneno",
+        "Tierra"
+      ],
+      "ability": "Alma Acerada",
+      "nature": "Serena",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Colmillo Hielo",
+        "Danza Caos",
+        "Adaptación",
+        "Día Soleado"
       ]
     },
     {
@@ -643,6 +662,17 @@
       "mon": "Seedot"
     },
     {
+      "route": "tunel_diglett",
+      "where": "Túnel Diglett",
+      "species": "Clodsire",
+      "nickname": "DERP INVERSO",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 23,
+      "mon": "Clodsire"
+    },
+    {
       "route": "",
       "where": "Laboratorio",
       "species": "Dratini",
@@ -743,11 +773,11 @@
       "ruta_5": true,
       "ruta_6": true,
       "ruta_15": true,
+      "tunel_diglett": true,
       "ruta_2_norte": true,
       "ciudad_verde": true,
       "ruta_22": true,
-      "ciudad_carmin": true,
-      "tunel_diglett": true
+      "ciudad_carmin": true
     },
     "items": {}
   }
