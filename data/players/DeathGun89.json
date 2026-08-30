@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 4h 49m jugadas · 450₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 5h 3m jugadas · 1,800₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "El tortas",
@@ -168,7 +168,8 @@
       "ruta_1": true,
       "ciudad_verde": true,
       "ruta_22": true,
-      "ruta_2_sur": true
+      "ruta_2_sur": true,
+      "bosque_verde": true
     },
     "items": {}
   }
