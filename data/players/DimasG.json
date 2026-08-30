@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 4h 52m jugadas · 45,310₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 5h 2m jugadas · 53,740₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Pinchos",
@@ -32,12 +32,12 @@
         27
       ],
       "ev": [
+        1,
+        5,
         0,
-        4,
-        0,
+        5,
         3,
-        2,
-        1
+        3
       ],
       "abilPool": [
         "Competitivo"
@@ -142,12 +142,12 @@
         23
       ],
       "ev": [
-        18,
-        28,
-        18,
+        19,
         29,
-        17,
-        31
+        18,
+        31,
+        18,
+        33
       ],
       "abilPool": [
         "Espada Indómita",
@@ -306,12 +306,12 @@
         15
       ],
       "ev": [
-        15,
-        24,
-        13,
+        16,
         25,
-        18,
-        24
+        13,
+        27,
+        19,
+        26
       ],
       "abilPool": [
         "Baba"
@@ -428,12 +428,12 @@
         21
       ],
       "ev": [
-        4,
-        10,
+        5,
+        11,
         3,
-        6,
-        7,
-        9
+        8,
+        8,
+        11
       ],
       "abilPool": [
         "Don Floral"
@@ -542,12 +542,12 @@
         19
       ],
       "ev": [
-        10,
-        21,
         11,
-        16,
-        16,
-        18
+        22,
+        11,
+        18,
+        17,
+        20
       ],
       "abilPool": [
         "Recogida",
@@ -633,12 +633,12 @@
         10
       ],
       "ev": [
-        3,
-        8,
         4,
-        8,
         9,
-        9
+        4,
+        10,
+        10,
+        11
       ],
       "abilPool": [
         "Teracaparazón",
@@ -1383,30 +1383,30 @@
       ]
     },
     {
-      "nickname": "Pinote",
-      "species": "Snover",
+      "nickname": "Pignite",
+      "species": "Pignite",
       "level": 21,
       "types": [
-        "Planta",
-        "Hielo"
+        "Fuego",
+        "Lucha"
       ],
-      "ability": "Vista Lince",
-      "nature": "Audaz",
+      "ability": "Mandíbula dragón",
+      "nature": "Floja",
       "item": "",
       "shiny": false,
       "moves": [
-        "Triple Patada",
-        "Deseo",
-        "Danza Triunfal",
-        "Camaradería"
+        "Represión Metal",
+        "Ciclón",
+        "Detección",
+        "Reflejo"
       ],
       "iv": [
-        23,
-        9,
-        17,
-        14,
-        28,
-        31
+        30,
+        0,
+        4,
+        19,
+        22,
+        27
       ],
       "ev": [
         0,
@@ -1417,68 +1417,87 @@
         0
       ],
       "abilPool": [
-        "Herbogénesis",
-        "Vista Lince"
+        "Mandíbula dragón"
       ],
       "abilHidden": [
-        "Justiciero"
+        "Aura Feérica"
       ],
       "learnset": [
         {
-          "lvl": 1,
-          "m": "Persecución"
+          "lvl": -1,
+          "m": "Voz Cautivadora"
         },
         {
           "lvl": 1,
-          "m": "Cortina Plasma"
+          "m": "Corte"
         },
         {
-          "lvl": 5,
-          "m": "Sorpresa"
+          "lvl": 1,
+          "m": "Homenaje Póstumo"
         },
         {
-          "lvl": 10,
-          "m": "Condena Silvana"
+          "lvl": 1,
+          "m": "Pantalla de Luz"
+        },
+        {
+          "lvl": 1,
+          "m": "Polvo Mágico"
+        },
+        {
+          "lvl": 9,
+          "m": "Acua Jet"
         },
         {
           "lvl": 13,
-          "m": "Deseo"
+          "m": "Represión Metal"
         },
         {
           "lvl": 15,
-          "m": "Danza Triunfal"
+          "m": "Ciclón"
+        },
+        {
+          "lvl": 17,
+          "m": "Detección"
         },
         {
           "lvl": 20,
-          "m": "Camaradería"
+          "m": "Reflejo"
         },
         {
-          "lvl": 25,
-          "m": "Neblina"
+          "lvl": 23,
+          "m": "Último Lugar"
         },
         {
-          "lvl": 30,
-          "m": "Trampa Venenosa"
+          "lvl": 28,
+          "m": "Aullido"
         },
         {
-          "lvl": 35,
-          "m": "Cara Susto"
+          "lvl": 31,
+          "m": "Golpe Calor"
         },
         {
-          "lvl": 38,
-          "m": "Cornada"
+          "lvl": 36,
+          "m": "Guardia Baja"
         },
         {
-          "lvl": 41,
-          "m": "Látigo Ígneo"
+          "lvl": 36,
+          "m": "Resarcimiento"
         },
         {
-          "lvl": 45,
-          "m": "Alquitranazo"
+          "lvl": 39,
+          "m": "Carga Tóxica"
         },
         {
-          "lvl": 50,
-          "m": "Viento Hielo"
+          "lvl": 44,
+          "m": "Escaldar"
+        },
+        {
+          "lvl": 47,
+          "m": "Carámbano"
+        },
+        {
+          "lvl": 52,
+          "m": "Electrotela"
         }
       ]
     },
@@ -2899,15 +2918,15 @@
       "mon": "Archen"
     },
     {
-      "route": "ruta_21",
-      "where": "Ruta 21",
-      "species": "Snover",
-      "nickname": "Pinote",
+      "route": "",
+      "where": "S.S Anne",
+      "species": "Pignite",
+      "nickname": "",
       "shiny": false,
       "status": "captured",
-      "category": "salvaje",
+      "category": "intercambio",
       "level": 21,
-      "mon": "Snover"
+      "mon": "Pignite"
     },
     {
       "route": "ruta_5",
@@ -3059,7 +3078,6 @@
       "ciudad_plateada": true,
       "ruta_22": true,
       "ruta_2_sur": true,
-      "ruta_21": true,
       "monte_moon_exterior": true,
       "ruta_6": true,
       "ruta_1": true,
@@ -3069,7 +3087,8 @@
       "ruta_15": true,
       "monte_moon": true,
       "ruta_4": true,
-      "ciudad_carmin": true
+      "ciudad_carmin": true,
+      "ruta_21": true
     },
     "items": {},
     "encounters": {
