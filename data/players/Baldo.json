@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 2h 39m jugadas · 27,490₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 2h 43m jugadas · 29,770₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "faker",
@@ -135,6 +135,24 @@
         "Picoteo",
         "Cuchillada"
       ]
+    },
+    {
+      "nickname": "jochis",
+      "species": "Flabebe",
+      "level": 17,
+      "types": [
+        "Hada"
+      ],
+      "ability": "Carga Cuark",
+      "nature": "Grosera",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Atiborramiento",
+        "Colmillo Hielo",
+        "Ronquido",
+        "Fachada"
+      ]
     }
   ],
   "graveyard": [
@@ -249,6 +267,17 @@
       "category": "salvaje",
       "level": 6,
       "mon": "Skitty"
+    },
+    {
+      "route": "ciudad_celeste",
+      "where": "Ciudad Celeste",
+      "species": "Flabebe",
+      "nickname": "jochis",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 17,
+      "mon": "Flabebe"
     }
   ],
   "progress": {
@@ -265,13 +294,14 @@
       "monte_moon_exterior": true,
       "ruta_2_norte": true,
       "ruta_2_sur": true,
+      "ciudad_celeste": true,
       "pueblo_paleta": true,
       "ruta_22": true,
       "ciudad_plateada": true,
       "monte_moon": true,
       "ruta_4": true,
-      "ciudad_celeste": true,
-      "ruta_20": true
+      "ruta_20": true,
+      "ruta_21": true
     },
     "items": {}
   }
