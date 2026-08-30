@@ -29,7 +29,8 @@
     {
       "id": "DimasG",
       "name": "DimasG",
-      "avatar": "assets/avatars/lyra.png"
+      "avatar": "assets/avatars/lyra.png",
+      "revividos": 1
     },
     {
       "id": "suken",
