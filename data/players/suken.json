@@ -4,132 +4,131 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 7h 3m jugadas · 92,300₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 7h 6m jugadas · 99,620₽ · vidas en el juego: -1",
   "team": [
     {
-      "nickname": "PUTA MIERDA2",
-      "species": "Raticate (Alola)",
+      "nickname": "CRAWLER",
+      "species": "Crawdaunt",
       "level": 39,
       "types": [
-        "Siniestro",
-        "Normal"
+        "Agua",
+        "Siniestro"
       ],
-      "ability": "Garra Dura",
-      "nature": "Plácida",
-      "item": "Garra Afilada",
+      "ability": "Filtro",
+      "nature": "Osada",
+      "item": "Gafas de Sol",
       "shiny": false,
       "moves": [
-        "Rodillo de Púas",
-        "Asalto Barrera",
-        "Tajo Umbrío",
-        "Daño Secreto"
+        "Pataleta",
+        "Búnker",
+        "Tenaza",
+        "Puño Bala"
       ],
       "iv": [
-        28,
-        18,
         14,
-        12,
-        3,
-        9
+        9,
+        27,
+        24,
+        5,
+        15
       ],
       "ev": [
-        18,
-        78,
-        15,
-        29,
-        16,
-        32
+        22,
+        41,
+        30,
+        42,
+        20,
+        42
       ],
       "abilPool": [
-        "Trampa Arena",
-        "Garra Dura"
+        "Filtro",
+        "Poder Sabio"
       ],
       "abilHidden": [
-        "Iceberg"
+        "Carga Cuark"
       ],
       "learnset": [
         {
-          "lvl": 1,
-          "m": "Vasta Guardia"
+          "lvl": -1,
+          "m": "Sombra Vil"
         },
         {
           "lvl": 1,
-          "m": "Asalto Barrera"
+          "m": "Eco Metálico"
         },
         {
           "lvl": 1,
-          "m": "Legado"
+          "m": "Búnker"
         },
         {
           "lvl": 1,
-          "m": "Deseo"
+          "m": "Doble Patada"
         },
         {
           "lvl": 1,
-          "m": "Metrónomo"
+          "m": "Cuchillada"
         },
         {
           "lvl": 1,
-          "m": "Esquema"
+          "m": "Campo de Hierba"
         },
         {
           "lvl": 1,
-          "m": "Ofrenda"
+          "m": "Acua Jet"
         },
         {
-          "lvl": 4,
-          "m": "Viento Feérico"
-        },
-        {
-          "lvl": 7,
-          "m": "Ronquido"
-        },
-        {
-          "lvl": 10,
-          "m": "Conjuro"
-        },
-        {
-          "lvl": 13,
-          "m": "Canon"
-        },
-        {
-          "lvl": 13,
-          "m": "Mordisco"
+          "lvl": 12,
+          "m": "Avivar"
         },
         {
           "lvl": 16,
-          "m": "Puño Incremento"
+          "m": "Shuriken de Agua"
         },
         {
-          "lvl": 16,
-          "m": "Giro Bola"
-        },
-        {
-          "lvl": 19,
-          "m": "Bálsamo Osado"
+          "lvl": 20,
+          "m": "Nieve Polvo"
         },
         {
           "lvl": 24,
-          "m": "Torbellino"
+          "m": "Cornada"
         },
         {
-          "lvl": 29,
-          "m": "Rabia"
+          "lvl": 28,
+          "m": "Megaagotar"
         },
         {
           "lvl": 34,
-          "m": "Semilladora"
+          "m": "Pataleta"
         },
         {
-          "lvl": 39,
-          "m": "Enfado"
+          "lvl": 37,
+          "m": "Llamarada"
         },
         {
-          "lvl": 44,
-          "m": "Puño Cometa"
+          "lvl": 40,
+          "m": "Láser Prisma"
+        },
+        {
+          "lvl": 42,
+          "m": "Cola Dragón"
+        },
+        {
+          "lvl": 46,
+          "m": "Brillo Mágico"
+        },
+        {
+          "lvl": 52,
+          "m": "Halloween"
+        },
+        {
+          "lvl": 58,
+          "m": "Onda Mental"
+        },
+        {
+          "lvl": 64,
+          "m": "Bastión Final"
         }
-      ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png"
+      ]
     },
     {
       "nickname": "DREAMS",
@@ -158,11 +157,11 @@
       ],
       "ev": [
         5,
-        19,
-        6,
+        20,
+        9,
         14,
         10,
-        18
+        19
       ],
       "abilPool": [
         "Trampa Arena",
@@ -277,11 +276,11 @@
       ],
       "ev": [
         7,
-        22,
-        7,
+        23,
+        10,
         16,
         11,
-        21
+        22
       ],
       "abilPool": [
         "Chorro Arena",
@@ -409,11 +408,11 @@
       ],
       "ev": [
         10,
-        24,
-        9,
+        25,
+        12,
         16,
         11,
-        22
+        23
       ],
       "abilPool": [
         "Electromotor"
@@ -516,11 +515,11 @@
       ],
       "ev": [
         5,
-        19,
-        6,
+        20,
+        9,
         14,
         10,
-        18
+        19
       ],
       "abilPool": [
         "Viscosecreción",
@@ -585,128 +584,129 @@
       ]
     },
     {
-      "nickname": "CRAWLER",
-      "species": "Crawdaunt",
+      "nickname": "PUTA MIERDA2",
+      "species": "Raticate (Alola)",
       "level": 39,
       "types": [
-        "Agua",
-        "Siniestro"
+        "Siniestro",
+        "Normal"
       ],
-      "ability": "Filtro",
-      "nature": "Osada",
-      "item": "Gafas de Sol",
+      "ability": "Garra Dura",
+      "nature": "Plácida",
+      "item": "Garra Afilada",
       "shiny": false,
       "moves": [
-        "Pataleta",
-        "Búnker",
-        "Tenaza",
-        "Puño Bala"
+        "Rodillo de Púas",
+        "Asalto Barrera",
+        "Tajo Umbrío",
+        "Daño Secreto"
       ],
       "iv": [
+        28,
+        18,
         14,
-        9,
-        27,
-        24,
-        5,
-        15
+        12,
+        3,
+        9
       ],
       "ev": [
-        22,
-        40,
-        27,
-        42,
-        20,
-        41
+        18,
+        79,
+        18,
+        29,
+        16,
+        33
       ],
       "abilPool": [
-        "Filtro",
-        "Poder Sabio"
+        "Trampa Arena",
+        "Garra Dura"
       ],
       "abilHidden": [
-        "Carga Cuark"
+        "Iceberg"
       ],
       "learnset": [
         {
-          "lvl": -1,
-          "m": "Sombra Vil"
+          "lvl": 1,
+          "m": "Vasta Guardia"
         },
         {
           "lvl": 1,
-          "m": "Eco Metálico"
+          "m": "Asalto Barrera"
         },
         {
           "lvl": 1,
-          "m": "Búnker"
+          "m": "Legado"
         },
         {
           "lvl": 1,
-          "m": "Doble Patada"
+          "m": "Deseo"
         },
         {
           "lvl": 1,
-          "m": "Cuchillada"
+          "m": "Metrónomo"
         },
         {
           "lvl": 1,
-          "m": "Campo de Hierba"
+          "m": "Esquema"
         },
         {
           "lvl": 1,
-          "m": "Acua Jet"
+          "m": "Ofrenda"
         },
         {
-          "lvl": 12,
-          "m": "Avivar"
+          "lvl": 4,
+          "m": "Viento Feérico"
+        },
+        {
+          "lvl": 7,
+          "m": "Ronquido"
+        },
+        {
+          "lvl": 10,
+          "m": "Conjuro"
+        },
+        {
+          "lvl": 13,
+          "m": "Canon"
+        },
+        {
+          "lvl": 13,
+          "m": "Mordisco"
         },
         {
           "lvl": 16,
-          "m": "Shuriken de Agua"
+          "m": "Puño Incremento"
         },
         {
-          "lvl": 20,
-          "m": "Nieve Polvo"
+          "lvl": 16,
+          "m": "Giro Bola"
+        },
+        {
+          "lvl": 19,
+          "m": "Bálsamo Osado"
         },
         {
           "lvl": 24,
-          "m": "Cornada"
+          "m": "Torbellino"
         },
         {
-          "lvl": 28,
-          "m": "Megaagotar"
+          "lvl": 29,
+          "m": "Rabia"
         },
         {
           "lvl": 34,
-          "m": "Pataleta"
+          "m": "Semilladora"
         },
         {
-          "lvl": 37,
-          "m": "Llamarada"
+          "lvl": 39,
+          "m": "Enfado"
         },
         {
-          "lvl": 40,
-          "m": "Láser Prisma"
-        },
-        {
-          "lvl": 42,
-          "m": "Cola Dragón"
-        },
-        {
-          "lvl": 46,
-          "m": "Brillo Mágico"
-        },
-        {
-          "lvl": 52,
-          "m": "Halloween"
-        },
-        {
-          "lvl": 58,
-          "m": "Onda Mental"
-        },
-        {
-          "lvl": 64,
-          "m": "Bastión Final"
+          "lvl": 44,
+          "m": "Puño Cometa"
         }
-      ]
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png"
     }
   ],
   "box": [
@@ -3008,15 +3008,15 @@
   ],
   "captures": [
     {
-      "route": "monte_moon",
-      "where": "Monte Moon",
-      "species": "Raticate",
-      "nickname": "PUTA MIERDA2",
+      "route": "ruta_2_sur",
+      "where": "Ruta 2 Sur",
+      "species": "Crawdaunt",
+      "nickname": "CRAWLER",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 14,
-      "mon": "Raticate"
+      "level": 5,
+      "mon": "Crawdaunt"
     },
     {
       "route": "ruta_5",
@@ -3063,15 +3063,15 @@
       "mon": "Clodsire"
     },
     {
-      "route": "ruta_2_sur",
-      "where": "Ruta 2 Sur",
-      "species": "Crawdaunt",
-      "nickname": "CRAWLER",
+      "route": "monte_moon",
+      "where": "Monte Moon",
+      "species": "Raticate",
+      "nickname": "PUTA MIERDA2",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 5,
-      "mon": "Crawdaunt"
+      "level": 14,
+      "mon": "Raticate"
     },
     {
       "route": "ruta_3",
@@ -3336,12 +3336,12 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "monte_moon": true,
+      "ruta_2_sur": true,
       "ruta_5": true,
       "ruta_2_norte": true,
       "bosque_verde": true,
       "tunel_diglett": true,
-      "ruta_2_sur": true,
+      "monte_moon": true,
       "ruta_3": true,
       "ciudad_carmin": true,
       "monte_moon_exterior": true,
