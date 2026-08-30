@@ -4,25 +4,24 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 5h 51m jugadas · 552,695₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 5h 57m jugadas · 553,595₽ · vidas en el juego: ?",
   "team": [
     {
-      "nickname": "Don pendejo",
-      "species": "Crawdaunt",
-      "level": 37,
+      "nickname": "Cobblemon",
+      "species": "Garganacl",
+      "level": 38,
       "types": [
-        "Agua",
-        "Siniestro"
+        "Roca"
       ],
-      "ability": "Experto",
-      "nature": "Afable",
-      "item": "Banda Aguante",
+      "ability": "Francotirador",
+      "nature": "Pícara",
+      "item": "Cascabel Concha",
       "shiny": false,
       "moves": [
-        "Hoja Afilada",
-        "Ladrón",
-        "Triple Patada",
-        "Viraje"
+        "Búnker",
+        "Salazón",
+        "Superdiente",
+        "Roca Veloz"
       ]
     },
     {
@@ -44,21 +43,22 @@
       ]
     },
     {
-      "nickname": "Cobblemon",
-      "species": "Garganacl",
-      "level": 38,
+      "nickname": "Don pendejo",
+      "species": "Crawdaunt",
+      "level": 37,
       "types": [
-        "Roca"
+        "Agua",
+        "Siniestro"
       ],
-      "ability": "Francotirador",
-      "nature": "Pícara",
-      "item": "Cascabel Concha",
+      "ability": "Experto",
+      "nature": "Afable",
+      "item": "Banda Aguante",
       "shiny": false,
       "moves": [
-        "Búnker",
-        "Salazón",
-        "Superdiente",
-        "Roca Veloz"
+        "Hoja Afilada",
+        "Ladrón",
+        "Triple Patada",
+        "Viraje"
       ]
     },
     {
@@ -362,6 +362,42 @@
       ]
     },
     {
+      "nickname": "Sashimi",
+      "species": "Basculin",
+      "level": 33,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Insonorizar",
+      "nature": "Huraña",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Cola Dragón",
+        "Cepo",
+        "Veneno X",
+        "Giro Bola"
+      ]
+    },
+    {
+      "nickname": "Duracell",
+      "species": "Minun",
+      "level": 25,
+      "types": [
+        "Eléctrico"
+      ],
+      "ability": "",
+      "nature": "Floja",
+      "item": "Menta Pícara",
+      "shiny": false,
+      "moves": [
+        "Eco Voz",
+        "Beso Drenaje",
+        "Danza Lunar",
+        "Deslome"
+      ]
+    },
+    {
       "nickname": "Kofi",
       "species": "Jangmoo",
       "level": 19,
@@ -586,15 +622,15 @@
   "graveyard": [],
   "captures": [
     {
-      "route": "ruta_15",
-      "where": "Ruta 15",
-      "species": "Crawdaunt",
-      "nickname": "Don pendejo",
+      "route": "",
+      "where": "Museo Pokémon",
+      "species": "Garganacl",
+      "nickname": "Cobblemon",
       "shiny": false,
       "status": "captured",
-      "category": "salvaje",
-      "level": 23,
-      "mon": "Crawdaunt"
+      "category": "estatico_regalo",
+      "level": 1,
+      "mon": "Garganacl"
     },
     {
       "route": "",
@@ -608,15 +644,15 @@
       "mon": "Alakazam"
     },
     {
-      "route": "",
-      "where": "Museo Pokémon",
-      "species": "Garganacl",
-      "nickname": "Cobblemon",
+      "route": "ruta_15",
+      "where": "Ruta 15",
+      "species": "Crawdaunt",
+      "nickname": "Don pendejo",
       "shiny": false,
       "status": "captured",
-      "category": "estatico_regalo",
-      "level": 1,
-      "mon": "Garganacl"
+      "category": "salvaje",
+      "level": 23,
+      "mon": "Crawdaunt"
     },
     {
       "route": "monte_moon",
@@ -795,6 +831,28 @@
       "mon": "Greedent"
     },
     {
+      "route": "ruta_7",
+      "where": "Ruta 7",
+      "species": "Basculin",
+      "nickname": "Sashimi",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 33,
+      "mon": "Basculin"
+    },
+    {
+      "route": "",
+      "where": "Edificio Azulona",
+      "species": "Minun",
+      "nickname": "Duracell",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 25,
+      "mon": "Minun"
+    },
+    {
       "route": "ruta_2_norte",
       "where": "Ruta 2 Norte",
       "species": "Jangmoo",
@@ -950,6 +1008,7 @@
       "ruta_10_sur": true,
       "pueblo_lavanda": true,
       "ruta_8": true,
+      "ruta_7": true,
       "ruta_2_norte": true,
       "bosque_verde": true,
       "ruta_9": true,
@@ -963,6 +1022,7 @@
       "ruta_4": true,
       "tunel_roca": true,
       "torre_pokemon": true,
+      "ciudad_azulona": true,
       "ruta_21": true
     },
     "items": {}
