@@ -2,9 +2,9 @@
   "id": "Baldo",
   "name": "Baldo",
   "lives": 30,
-  "livesUsed": 0,
+  "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 1h 26m jugadas · 8,110₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 1h 35m jugadas · 1,680₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "goku",
@@ -23,25 +23,6 @@
         "Defensa Férrea",
         "Veneno X",
         "Lengüetazo"
-      ]
-    },
-    {
-      "nickname": "lola",
-      "species": "Pumpkaboo",
-      "level": 14,
-      "types": [
-        "Fantasma",
-        "Planta"
-      ],
-      "ability": "Mandíbula Dragón",
-      "nature": "Alocada",
-      "item": "Rocío Bondad",
-      "shiny": false,
-      "moves": [
-        "Masa Cósmica",
-        "Lengüetazo",
-        "Sorpresa",
-        "Bilis"
       ]
     },
     {
@@ -99,6 +80,28 @@
       ]
     },
     {
+      "nickname": "lola",
+      "species": "Pumpkaboo",
+      "level": 14,
+      "types": [
+        "Fantasma",
+        "Planta"
+      ],
+      "ability": "Mandíbula Dragón",
+      "nature": "Alocada",
+      "item": "Rocío Bondad",
+      "shiny": false,
+      "moves": [
+        "Masa Cósmica",
+        "Lengüetazo",
+        "Sorpresa",
+        "Bilis"
+      ]
+    }
+  ],
+  "box": [],
+  "graveyard": [
+    {
       "nickname": "el bicho",
       "species": "Ledyba",
       "level": 14,
@@ -115,11 +118,12 @@
         "Colmillo Rayo",
         "Golpe Rastrero",
         "Patada Baja"
-      ]
+      ],
+      "cause": "",
+      "route": "Ruta 2 Norte",
+      "date": ""
     }
   ],
-  "box": [],
-  "graveyard": [],
   "captures": [
     {
       "route": "",
@@ -131,17 +135,6 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Monferno"
-    },
-    {
-      "route": "ruta_1",
-      "where": "Ruta 1",
-      "species": "Pumpkaboo",
-      "nickname": "lola",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 3,
-      "mon": "Pumpkaboo"
     },
     {
       "route": "ciudad_verde",
@@ -177,12 +170,23 @@
       "mon": "Voltorb"
     },
     {
+      "route": "ruta_1",
+      "where": "Ruta 1",
+      "species": "Pumpkaboo",
+      "nickname": "lola",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 3,
+      "mon": "Pumpkaboo"
+    },
+    {
       "route": "ruta_2_norte",
       "where": "Ruta 2 Norte",
       "species": "Ledyba",
       "nickname": "el bicho",
       "shiny": false,
-      "status": "captured",
+      "status": "dead",
       "category": "salvaje",
       "level": 9,
       "mon": "Ledyba"
@@ -195,14 +199,15 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_1": true,
       "ciudad_verde": true,
       "ruta_2_sur": true,
       "bosque_verde": true,
+      "ruta_1": true,
       "ruta_2_norte": true,
       "pueblo_paleta": true,
       "ruta_22": true,
-      "ciudad_plateada": true
+      "ciudad_plateada": true,
+      "ruta_3": true
     },
     "items": {}
   }
