@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 5h 32m jugadas · 40,350₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 5h 33m jugadas · 40,350₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -82,7 +82,7 @@
     {
       "nickname": "DERP INVERSO",
       "species": "Clodsire",
-      "level": 23,
+      "level": 30,
       "types": [
         "Veneno",
         "Tierra"
@@ -93,8 +93,8 @@
       "shiny": false,
       "moves": [
         "Colmillo Hielo",
-        "Danza Caos",
-        "Adaptación",
+        "Búnker",
+        "Respiro",
         "Día Soleado"
       ]
     },
