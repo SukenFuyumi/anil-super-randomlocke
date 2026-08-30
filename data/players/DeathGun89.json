@@ -104,14 +104,59 @@
   "graveyard": [],
   "captures": [
     {
+      "route": "",
+      "where": "Laboratorio",
+      "species": "Squirtle",
+      "nickname": "El tortas",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Squirtle"
+    },
+    {
+      "route": "pueblo_paleta",
+      "where": "Pueblo Paleta",
+      "species": "Nuzleaf",
+      "nickname": "pelos",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 2,
+      "mon": "Nuzleaf"
+    },
+    {
       "route": "ruta_1",
-      "mon": "Zubat",
-      "status": "captured"
+      "where": "Ruta 1",
+      "species": "Zubat",
+      "nickname": "el chupas",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 4,
+      "mon": "Zubat"
+    },
+    {
+      "route": "ciudad_verde",
+      "where": "Ciudad Verde",
+      "species": "Luxio",
+      "nickname": "el rayo",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 4,
+      "mon": "Luxio"
     },
     {
       "route": "ruta_22",
-      "mon": "Amaura",
-      "status": "captured"
+      "where": "Ruta 22",
+      "species": "Amaura",
+      "nickname": "la fresa",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 6,
+      "mon": "Amaura"
     }
   ],
   "progress": {
@@ -119,7 +164,9 @@
     "bosses": {},
     "npcs": {},
     "routes": {
+      "pueblo_paleta": true,
       "ruta_1": true,
+      "ciudad_verde": true,
       "ruta_22": true,
       "ruta_2_sur": true
     },
