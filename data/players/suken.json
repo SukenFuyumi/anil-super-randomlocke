@@ -4,101 +4,112 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 7h 7m jugadas · 102,620₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 7h 8m jugadas · 102,620₽ · vidas en el juego: -1",
   "team": [
     {
-      "nickname": "DERP INVERSO",
-      "species": "Clodsire",
+      "nickname": "DUNAS",
+      "species": "Brambleghast",
       "level": 39,
       "types": [
-        "Veneno",
-        "Tierra"
+        "Planta",
+        "Fantasma"
       ],
-      "ability": "Alma Acerada",
-      "nature": "Serena",
-      "item": "Botas Gruesas",
+      "ability": "Electromotor",
+      "nature": "Ingenua",
+      "item": "Chaleco Asalto",
       "shiny": false,
       "moves": [
-        "Colmillo Hielo",
-        "Búnker",
-        "Respiro",
-        "Desquite"
+        "Cólera Ardiente",
+        "Sombra Vil",
+        "Veneno X",
+        "Tajo Umbrío"
       ],
       "iv": [
-        5,
-        27,
-        10,
-        29,
-        27,
-        10
+        20,
+        8,
+        20,
+        16,
+        25,
+        31
       ],
       "ev": [
-        5,
-        20,
-        11,
-        14,
         10,
-        19
+        25,
+        14,
+        16,
+        11,
+        23
       ],
       "abilPool": [
-        "Viscosecreción",
-        "Alma Acerada"
+        "Electromotor"
       ],
       "abilHidden": [
-        "Respondón"
+        "Cuerpo Áureo"
       ],
       "learnset": [
         {
-          "lvl": -1,
-          "m": "Fotosíntesis"
+          "lvl": 1,
+          "m": "Abatidoras"
         },
         {
           "lvl": 1,
-          "m": "Falso Tortazo"
+          "m": "Vendetta"
         },
         {
           "lvl": 1,
-          "m": "Desquite"
+          "m": "Brinco"
         },
         {
-          "lvl": 4,
-          "m": "Giro Vil"
+          "lvl": 5,
+          "m": "Rodar"
         },
         {
-          "lvl": 8,
-          "m": "Cara Susto"
+          "lvl": 9,
+          "m": "Profecía"
         },
         {
-          "lvl": 12,
-          "m": "Danza Caos"
+          "lvl": 13,
+          "m": "Extracto Picante"
         },
         {
-          "lvl": 16,
-          "m": "Adaptación"
+          "lvl": 17,
+          "m": "Señuelo"
         },
         {
           "lvl": 21,
-          "m": "Día Soleado"
+          "m": "Sellar"
         },
         {
-          "lvl": 24,
-          "m": "Respiro"
+          "lvl": 25,
+          "m": "Hilo Venenoso"
         },
         {
-          "lvl": 30,
-          "m": "Búnker"
+          "lvl": 29,
+          "m": "Fanfarronear"
         },
         {
-          "lvl": 36,
-          "m": "Aerochorro"
+          "lvl": 35,
+          "m": "Golpe Fantasma"
+        },
+        {
+          "lvl": 38,
+          "m": "Cólera Ardiente"
         },
         {
           "lvl": 40,
-          "m": "Aura Magnética"
+          "m": "Puntapié"
         },
         {
-          "lvl": 48,
-          "m": "Pugnachoque"
+          "lvl": 45,
+          "m": "Marcha Espectral"
+        },
+        {
+          "lvl": 50,
+          "m": "Cometa Draco"
+        },
+        {
+          "lvl": 55,
+          "m": "Bola Sombra"
         }
       ]
     },
@@ -353,109 +364,98 @@
       ]
     },
     {
-      "nickname": "DUNAS",
-      "species": "Brambleghast",
+      "nickname": "DERP INVERSO",
+      "species": "Clodsire",
       "level": 39,
       "types": [
-        "Planta",
-        "Fantasma"
+        "Veneno",
+        "Tierra"
       ],
-      "ability": "Electromotor",
-      "nature": "Ingenua",
-      "item": "Chaleco Asalto",
+      "ability": "Alma Acerada",
+      "nature": "Serena",
+      "item": "Botas Gruesas",
       "shiny": false,
       "moves": [
-        "Cólera Ardiente",
-        "Sombra Vil",
-        "Veneno X",
-        "Tajo Umbrío"
+        "Colmillo Hielo",
+        "Búnker",
+        "Respiro",
+        "Desquite"
       ],
       "iv": [
-        20,
-        8,
-        20,
-        16,
-        25,
-        31
+        5,
+        27,
+        10,
+        29,
+        27,
+        10
       ],
       "ev": [
-        10,
-        25,
-        14,
-        16,
+        5,
+        20,
         11,
-        23
+        14,
+        10,
+        19
       ],
       "abilPool": [
-        "Electromotor"
+        "Viscosecreción",
+        "Alma Acerada"
       ],
       "abilHidden": [
-        "Cuerpo Áureo"
+        "Respondón"
       ],
       "learnset": [
         {
-          "lvl": 1,
-          "m": "Abatidoras"
+          "lvl": -1,
+          "m": "Fotosíntesis"
         },
         {
           "lvl": 1,
-          "m": "Vendetta"
+          "m": "Falso Tortazo"
         },
         {
           "lvl": 1,
-          "m": "Brinco"
+          "m": "Desquite"
         },
         {
-          "lvl": 5,
-          "m": "Rodar"
+          "lvl": 4,
+          "m": "Giro Vil"
         },
         {
-          "lvl": 9,
-          "m": "Profecía"
+          "lvl": 8,
+          "m": "Cara Susto"
         },
         {
-          "lvl": 13,
-          "m": "Extracto Picante"
+          "lvl": 12,
+          "m": "Danza Caos"
         },
         {
-          "lvl": 17,
-          "m": "Señuelo"
+          "lvl": 16,
+          "m": "Adaptación"
         },
         {
           "lvl": 21,
-          "m": "Sellar"
+          "m": "Día Soleado"
         },
         {
-          "lvl": 25,
-          "m": "Hilo Venenoso"
+          "lvl": 24,
+          "m": "Respiro"
         },
         {
-          "lvl": 29,
-          "m": "Fanfarronear"
+          "lvl": 30,
+          "m": "Búnker"
         },
         {
-          "lvl": 35,
-          "m": "Golpe Fantasma"
-        },
-        {
-          "lvl": 38,
-          "m": "Cólera Ardiente"
+          "lvl": 36,
+          "m": "Aerochorro"
         },
         {
           "lvl": 40,
-          "m": "Puntapié"
+          "m": "Aura Magnética"
         },
         {
-          "lvl": 45,
-          "m": "Marcha Espectral"
-        },
-        {
-          "lvl": 50,
-          "m": "Cometa Draco"
-        },
-        {
-          "lvl": 55,
-          "m": "Bola Sombra"
+          "lvl": 48,
+          "m": "Pugnachoque"
         }
       ]
     },
@@ -3008,15 +3008,15 @@
   ],
   "captures": [
     {
-      "route": "tunel_diglett",
-      "where": "Túnel Diglett",
-      "species": "Clodsire",
-      "nickname": "DERP INVERSO",
+      "route": "bosque_verde",
+      "where": "Bosque Verde",
+      "species": "Brambleghast",
+      "nickname": "DUNAS",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 23,
-      "mon": "Clodsire"
+      "level": 7,
+      "mon": "Brambleghast"
     },
     {
       "route": "ruta_5",
@@ -3041,15 +3041,15 @@
       "mon": "Sudowoodo"
     },
     {
-      "route": "bosque_verde",
-      "where": "Bosque Verde",
-      "species": "Brambleghast",
-      "nickname": "DUNAS",
+      "route": "tunel_diglett",
+      "where": "Túnel Diglett",
+      "species": "Clodsire",
+      "nickname": "DERP INVERSO",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 7,
-      "mon": "Brambleghast"
+      "level": 23,
+      "mon": "Clodsire"
     },
     {
       "route": "ruta_2_sur",
@@ -3336,10 +3336,10 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "tunel_diglett": true,
+      "bosque_verde": true,
       "ruta_5": true,
       "ruta_2_norte": true,
-      "bosque_verde": true,
+      "tunel_diglett": true,
       "ruta_2_sur": true,
       "monte_moon": true,
       "ruta_3": true,
