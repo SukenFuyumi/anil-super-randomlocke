@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 2h 31m jugadas · 19,990₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 2h 37m jugadas · 25,170₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "faker",
@@ -270,7 +270,8 @@
       "ciudad_plateada": true,
       "monte_moon": true,
       "ruta_4": true,
-      "ciudad_celeste": true
+      "ciudad_celeste": true,
+      "ruta_20": true
     },
     "items": {}
   }
