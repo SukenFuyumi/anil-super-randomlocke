@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 2h 18m jugadas · 16,760₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 2h 27m jugadas · 19,990₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "faker",
@@ -83,7 +83,7 @@
     {
       "nickname": "juan",
       "species": "Horsea",
-      "level": 18,
+      "level": 23,
       "types": [
         "Agua"
       ],
@@ -95,13 +95,13 @@
         "Bomba Fango",
         "Bola Hielo",
         "Tenaza",
-        "Danza Lluvia"
+        "Ataque Furia"
       ]
     },
     {
       "nickname": "gabumon",
       "species": "Seel",
-      "level": 18,
+      "level": 23,
       "types": [
         "Agua"
       ],
@@ -113,7 +113,7 @@
         "Golpe Roca",
         "Puño Jet",
         "Acoso",
-        "Danza Lluvia"
+        "Colmillo Ígneo"
       ]
     }
   ],
@@ -268,7 +268,9 @@
       "pueblo_paleta": true,
       "ruta_22": true,
       "ciudad_plateada": true,
-      "monte_moon": true
+      "monte_moon": true,
+      "ruta_4": true,
+      "ciudad_celeste": true
     },
     "items": {}
   }
