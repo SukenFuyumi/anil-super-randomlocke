@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 5h 6m jugadas · 1,800₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 5h 20m jugadas · 3,600₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "El tortas",
@@ -78,6 +78,25 @@
         "Colmillo Hielo",
         "Calcinación",
         "Golpe Aéreo"
+      ]
+    },
+    {
+      "nickname": "pqto",
+      "species": "Lotad",
+      "level": 7,
+      "types": [
+        "Agua",
+        "Planta"
+      ],
+      "ability": "Dinamo",
+      "nature": "Floja",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Paz Mental",
+        "Recuperación",
+        "Día de Pago",
+        "Hoja Mágica"
       ]
     }
   ],
@@ -161,6 +180,17 @@
       "category": "salvaje",
       "level": 6,
       "mon": "Amaura"
+    },
+    {
+      "route": "ruta_2_norte",
+      "where": "Ruta 2 Norte",
+      "species": "Lotad",
+      "nickname": "pqto",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 7,
+      "mon": "Lotad"
     }
   ],
   "progress": {
@@ -172,8 +202,10 @@
       "ruta_1": true,
       "ciudad_verde": true,
       "ruta_22": true,
+      "ruta_2_norte": true,
       "ruta_2_sur": true,
-      "bosque_verde": true
+      "bosque_verde": true,
+      "ciudad_plateada": true
     },
     "items": {}
   }
