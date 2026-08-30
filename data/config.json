@@ -71,7 +71,7 @@
       "type": "Roca",
       "city": "Ciudad Plateada",
       "order": 1,
-      "image": "assets/trainers/brock.png"
+      "image": "assets/trainers/lider1.png"
     },
     {
       "id": "gym2",
@@ -80,7 +80,7 @@
       "type": "Agua",
       "city": "Ciudad Celeste",
       "order": 2,
-      "image": "assets/trainers/misty.png"
+      "image": "assets/trainers/lider2.png"
     },
     {
       "id": "gym3",
@@ -89,7 +89,7 @@
       "type": "Electrico",
       "city": "Ciudad Carmín",
       "order": 3,
-      "image": "assets/trainers/ltsurge.png"
+      "image": "assets/trainers/lider3.png"
     },
     {
       "id": "gym4",
@@ -98,7 +98,7 @@
       "type": "Planta",
       "city": "Ciudad Azulona",
       "order": 4,
-      "image": "assets/trainers/erika.png"
+      "image": "assets/trainers/lider4.png"
     },
     {
       "id": "gym5",
@@ -107,7 +107,7 @@
       "type": "Veneno",
       "city": "Ciudad Fucsia",
       "order": 5,
-      "image": "assets/trainers/koga.png"
+      "image": "assets/trainers/lider5.png"
     },
     {
       "id": "gym6",
@@ -116,7 +116,7 @@
       "type": "Psiquico",
       "city": "Ciudad Azafrán",
       "order": 6,
-      "image": "assets/trainers/sabrina.png"
+      "image": "assets/trainers/lider6.png"
     },
     {
       "id": "gym7",
@@ -125,7 +125,7 @@
       "type": "Fuego",
       "city": "Isla Canela",
       "order": 7,
-      "image": "assets/trainers/blaine.png"
+      "image": "assets/trainers/lider7.png"
     },
     {
       "id": "gym8",
@@ -134,7 +134,7 @@
       "type": "Tierra",
       "city": "Ciudad Verde",
       "order": 8,
-      "image": "assets/trainers/giovanni.png"
+      "image": "assets/trainers/lider8.png"
     }
   ],
   "bosses": [
@@ -142,120 +142,132 @@
       "id": "rival1",
       "name": "Rival Azul — 1er combate",
       "location": "Pueblo Paleta",
-      "image": "assets/trainers/blue.png"
+      "image": "assets/trainers/azul.png"
     },
     {
       "id": "rival_ruta",
       "name": "Rival Azul — combates de ruta",
       "location": "Kanto",
-      "image": "assets/trainers/blue.png"
+      "image": "assets/trainers/azul.png"
     },
     {
       "id": "giovanni",
       "name": "Giovanni — Team Rocket",
       "location": "Guarida Rocket",
-      "image": "assets/trainers/giovanni.png"
+      "image": "assets/trainers/giovanni_a.png"
     },
     {
       "id": "eliterocket",
       "name": "Élite Rocket",
-      "location": "Team Rocket"
+      "location": "Team Rocket",
+      "image": "assets/trainers/eliterocket.png"
     },
     {
       "id": "surya",
       "name": "Surya",
-      "location": "Villano"
+      "location": "Villano",
+      "image": "assets/trainers/surya.png"
     },
     {
       "id": "atlas",
       "name": "Atlas",
-      "location": "Villano"
+      "location": "Villano",
+      "image": "assets/trainers/atlas.png"
     },
     {
       "id": "atenea",
       "name": "Atenea",
-      "location": "Villano"
+      "location": "Villano",
+      "image": "assets/trainers/atenea.png"
     },
     {
       "id": "urano_villano",
       "name": "Urano — combate especial",
-      "location": "Villano"
+      "location": "Villano",
+      "image": "assets/trainers/urano.png"
     },
     {
       "id": "e4_lorelei",
       "name": "Alto Mando — Lorelei",
       "type": "Hielo",
       "location": "Liga Pokémon",
-      "image": "assets/trainers/lorelei.png"
+      "image": "assets/trainers/e4_1.png"
     },
     {
       "id": "e4_bruno",
       "name": "Alto Mando — Bruno",
       "type": "Lucha",
       "location": "Liga Pokémon",
-      "image": "assets/trainers/bruno.png"
+      "image": "assets/trainers/e4_2.png"
     },
     {
       "id": "e4_agatha",
       "name": "Alto Mando — Agatha",
       "type": "Fantasma",
       "location": "Liga Pokémon",
-      "image": "assets/trainers/agatha.png"
+      "image": "assets/trainers/e4_3.png"
     },
     {
       "id": "e4_lance",
       "name": "Alto Mando — Lance",
       "type": "Dragon",
       "location": "Liga Pokémon",
-      "image": "assets/trainers/lance.png"
+      "image": "assets/trainers/e4_4.png"
     },
     {
       "id": "campeon",
       "name": "Campeón — Azul",
       "location": "Liga Pokémon",
-      "image": "assets/trainers/blue.png"
+      "image": "assets/trainers/campeon.png"
     },
     {
       "id": "hoenn_norman",
       "name": "Gimnasio Hoenn — Norman",
       "type": "Normal",
       "location": "Hoenn",
-      "image": "assets/trainers/norman.png"
+      "image": "assets/trainers/hoenn1.png"
     },
     {
       "id": "hoenn_candela",
       "name": "Gimnasio Hoenn — Candela",
-      "location": "Hoenn"
+      "location": "Hoenn",
+      "image": "assets/trainers/hoenn2.png"
     },
     {
       "id": "hoenn_alana",
       "name": "Gimnasio Hoenn — Alana",
-      "location": "Hoenn"
+      "location": "Hoenn",
+      "image": "assets/trainers/hoenn3.png"
     },
     {
       "id": "hoenn_erico",
       "name": "Gimnasio Hoenn — Erico",
-      "location": "Hoenn"
+      "location": "Hoenn",
+      "image": "assets/trainers/hoenn4.png"
     },
     {
       "id": "hoenn_petra",
       "name": "Gimnasio Hoenn — Petra",
-      "location": "Hoenn"
+      "location": "Hoenn",
+      "image": "assets/trainers/hoenn5.png"
     },
     {
       "id": "hoenn_marcial",
       "name": "Gimnasio Hoenn — Marcial",
-      "location": "Hoenn"
+      "location": "Hoenn",
+      "image": "assets/trainers/hoenn6.png"
     },
     {
       "id": "hoenn_plubio",
       "name": "Gimnasio Hoenn — Plubio",
-      "location": "Hoenn"
+      "location": "Hoenn",
+      "image": "assets/trainers/hoenn7.png"
     },
     {
       "id": "hoenn_vito_leti",
       "name": "Gimnasio Hoenn — Vito y Leti",
-      "location": "Hoenn"
+      "location": "Hoenn",
+      "image": "assets/trainers/hoenn8.png"
     }
   ],
   "npcs": [

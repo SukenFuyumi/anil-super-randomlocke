@@ -137,6 +137,14 @@
         return c;
       };
       const caps = (data.captures || []).map((c) => applyOverride({ ...c })).filter((c) => c.category !== "ignore");
+      // Asegurar que los debilitados salgan en su zona aunque el exe sea viejo (cruzando con el cementerio)
+      const routeByName = {}; (cfg.routes || []).forEach((r) => { routeByName[normName(r.name)] = r.id; });
+      (data.graveyard || []).forEach((g) => {
+        const slug = g.route ? routeByName[normName(g.route)] : null;
+        if (!slug) return;
+        const dup = caps.some((c) => c.route === slug && normName(c.species || c.mon) === normName(g.species));
+        if (!dup) caps.push({ route: slug, where: g.route, species: g.species, nickname: g.nickname, shiny: g.shiny, status: "dead", category: "salvaje", mon: g.species });
+      });
       const capLink = (c) => {
         const sp = c.species || c.mon || "?";
         const inner = `${escapeHtml(c.nickname || sp)}${c.shiny ? " " + shinyStar(10) : ""}${c.nickname ? ` <span style="opacity:.7">(${escapeHtml(sp)})</span>` : ""}`;
