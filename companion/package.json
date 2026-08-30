@@ -5,7 +5,7 @@
   "bin": "anil-sync.js",
   "pkg": {
     "scripts": ["marshal.js", "extract.js"],
-    "assets": ["move-es.json", "pokemon-types.json", "ability-es.json", "item-es.json"],
+    "assets": ["move-es.json", "pokemon-types.json", "ability-es.json", "item-es.json", "forms.json"],
     "targets": ["node22-win-x64"],
     "outputPath": "dist"
   }

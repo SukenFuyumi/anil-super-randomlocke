@@ -5,6 +5,7 @@ const MOVES_ES = require('./move-es.json');
 const TYPES = require('./pokemon-types.json');
 const ABILITIES_ES = require('./ability-es.json');
 const ITEMS_ES = require('./item-es.json');
+let FORMS = {}; try { FORMS = require('./forms.json'); } catch (e) {}
 
 const NATURES = { HARDY:'Fuerte',LONELY:'Huraña',BRAVE:'Audaz',ADAMANT:'Firme',NAUGHTY:'Pícara',BOLD:'Osada',DOCILE:'Dócil',RELAXED:'Plácida',IMPISH:'Agitada',LAX:'Floja',TIMID:'Miedosa',HASTY:'Activa',SERIOUS:'Seria',JOLLY:'Alegre',NAIVE:'Ingenua',MODEST:'Modesta',MILD:'Afable',QUIET:'Mansa',BASHFUL:'Tímida',RASH:'Alocada',CALM:'Serena',GENTLE:'Amable',SASSY:'Grosera',CAREFUL:'Cauta',QUIRKY:'Rara' };
 
@@ -25,18 +26,22 @@ const itemName = sym => sym ? (ITEMS_ES[norm(sym)] || pretty(sym)) : '';
 function mon(p) {
   const species = sname(iv(p, '@species'));
   const nick = sname(iv(p, '@name'));
+  const form = iv(p, '@form');
+  const fd = form ? FORMS[species + '_' + form] : null; // forma regional (Alola/Galar/Hisui/Paldea)
   const moves = (iv(p, '@moves') || []).map(m => moveName(m && m.ivars ? sname(m.ivars['@id']) : sname(m))).filter(Boolean);
-  return {
+  const out = {
     nickname: nick || pretty(species),
-    species: pretty(species),
+    species: pretty(species) + (fd ? ` (${fd.region})` : ''),
     level: iv(p, '@level') ?? null,
-    types: speciesTypes(species),
+    types: fd ? fd.types : speciesTypes(species),
     ability: abilityName(sname(iv(p, '@ability'))),
     nature: NATURES[sname(iv(p, '@nature'))] || pretty(sname(iv(p, '@nature'))),
     item: itemName(sname(iv(p, '@item'))),
     shiny: !!iv(p, '@shiny'),
     moves,
   };
+  if (fd && fd.spriteId) out.sprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${fd.spriteId}.png`;
+  return out;
 }
 
 // zonas de captura (mismas reglas que gen-routes.js / config.routes)
