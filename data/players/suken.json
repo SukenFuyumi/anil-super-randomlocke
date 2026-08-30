@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 4h 20m jugadas · 32,220₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 4h 22m jugadas · 32,220₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -275,6 +275,24 @@
         "Agilidad",
         "Sorpresa",
         "Halloween"
+      ]
+    },
+    {
+      "nickname": "DILUVIO",
+      "species": "Dewott",
+      "level": 18,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Sombra Trampa",
+      "nature": "Rara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Canto Mortal",
+        "Ofrenda",
+        "Camaradería",
+        "Ráfaga Escamas"
       ]
     },
     {
@@ -582,6 +600,17 @@
       "mon": "Drowzee"
     },
     {
+      "route": "ruta_6",
+      "where": "Ruta 6",
+      "species": "Dewott",
+      "nickname": "DILUVIO",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 18,
+      "mon": "Dewott"
+    },
+    {
       "route": "",
       "where": "Laboratorio",
       "species": "Dratini",
@@ -680,10 +709,10 @@
       "ciudad_celeste": true,
       "ruta_21": true,
       "ruta_5": true,
+      "ruta_6": true,
       "ruta_2_norte": true,
       "bosque_verde": true,
-      "ciudad_verde": true,
-      "ruta_6": true
+      "ciudad_verde": true
     },
     "items": {}
   }
