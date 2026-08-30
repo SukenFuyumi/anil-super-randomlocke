@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 3h 46m jugadas · 9,210₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 4h 4m jugadas · 9,210₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Motita",
@@ -18,27 +18,28 @@
       "item": "Banda Aguante",
       "shiny": false,
       "moves": [
-        "Yo Primero",
-        "Bruma Explosiva",
+        "Golpe Aéreo",
+        "Barrera",
         "Brinco",
         "Trampa Rocas"
       ]
     },
     {
       "nickname": "Cricri",
-      "species": "Rolycoly",
-      "level": 15,
+      "species": "Carkol",
+      "level": 18,
       "types": [
-        "Roca"
+        "Roca",
+        "Fuego"
       ],
-      "ability": "Simbiosis",
+      "ability": "Aclimatación",
       "nature": "Mansa",
       "item": "",
       "shiny": false,
       "moves": [
         "Salazón",
         "Clemencia",
-        "Tormento",
+        "Lengüetazo",
         "Lanzarrocas"
       ]
     },
@@ -63,7 +64,7 @@
     {
       "nickname": "Empanada",
       "species": "Shellder",
-      "level": 15,
+      "level": 23,
       "types": [
         "Agua"
       ],
@@ -72,7 +73,7 @@
       "item": "",
       "shiny": true,
       "moves": [
-        "Cuerpo Pesado",
+        "Sustituto",
         "Voltiocambio",
         "Gruñido",
         "Tóxico"
@@ -81,7 +82,7 @@
     {
       "nickname": "VvHeadshotvV",
       "species": "Teddiursa",
-      "level": 15,
+      "level": 23,
       "types": [
         "Normal"
       ],
@@ -91,15 +92,15 @@
       "shiny": false,
       "moves": [
         "Palmeo",
-        "Plumerazo",
-        "Acua Jet",
-        "Envidia Ardiente"
+        "Golpe Cabeza",
+        "Llama Protectora",
+        "Esquema"
       ]
     },
     {
       "nickname": "El cocas",
       "species": "Darumaka",
-      "level": 15,
+      "level": 18,
       "types": [
         "Fuego"
       ],
@@ -206,13 +207,13 @@
     {
       "route": "ruta_1",
       "where": "Ruta 1",
-      "species": "Rolycoly",
+      "species": "Carkol",
       "nickname": "Cricri",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
       "level": 3,
-      "mon": "Rolycoly"
+      "mon": "Carkol"
     },
     {
       "route": "ruta_2_sur",
@@ -301,11 +302,6 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Sandshrew"
-    },
-    {
-      "route": "ruta_2_norte",
-      "mon": "Cascoon",
-      "status": "dead"
     }
   ],
   "progress": {
