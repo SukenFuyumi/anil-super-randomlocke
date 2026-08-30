@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 6h 31m jugadas · 77,270₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 6h 40m jugadas · 78,720₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
       "species": "Raticate (Alola)",
-      "level": 30,
+      "level": 39,
       "types": [
         "Siniestro",
         "Normal"
@@ -29,7 +29,7 @@
     {
       "nickname": "DREAMS",
       "species": "Hypno",
-      "level": 30,
+      "level": 39,
       "types": [
         "Psíquico"
       ],
@@ -38,16 +38,16 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Escudo Real",
+        "Luz Aniquiladora",
         "Marcha Espectral",
-        "Confusión",
+        "Conjuro Funesto",
         "Tajo Umbrío"
       ]
     },
     {
       "nickname": "AL",
       "species": "Sudowoodo",
-      "level": 30,
+      "level": 39,
       "types": [
         "Roca"
       ],
@@ -57,7 +57,7 @@
       "shiny": false,
       "moves": [
         "Tajo Umbrío",
-        "Mil Púas Tóxicas",
+        "Filo Potente",
         "Barrera Espinosa",
         "Carámbano"
       ]
@@ -65,7 +65,7 @@
     {
       "nickname": "DUNAS",
       "species": "Brambleghast",
-      "level": 30,
+      "level": 39,
       "types": [
         "Planta",
         "Fantasma"
@@ -75,7 +75,7 @@
       "item": "Chaleco Asalto",
       "shiny": false,
       "moves": [
-        "Nitrocarga",
+        "Cólera Ardiente",
         "Sombra Vil",
         "Veneno X",
         "Tajo Umbrío"
@@ -84,7 +84,7 @@
     {
       "nickname": "DERP INVERSO",
       "species": "Clodsire",
-      "level": 30,
+      "level": 39,
       "types": [
         "Veneno",
         "Tierra"
@@ -103,7 +103,7 @@
     {
       "nickname": "CRAWLER",
       "species": "Crawdaunt",
-      "level": 30,
+      "level": 39,
       "types": [
         "Agua",
         "Siniestro"
@@ -113,7 +113,7 @@
       "item": "Gafas de Sol",
       "shiny": false,
       "moves": [
-        "Aguijón Letal",
+        "Pataleta",
         "Búnker",
         "Tenaza",
         "Puño Bala"
@@ -145,7 +145,7 @@
         "Fantasma",
         "Veneno"
       ],
-      "ability": "",
+      "ability": "Antibalas",
       "nature": "Rara",
       "item": "",
       "shiny": false,
@@ -845,7 +845,8 @@
       "ciudad_plateada": true,
       "ruta_1": true,
       "ciudad_verde": true,
-      "ruta_22": true
+      "ruta_22": true,
+      "ruta_9": true
     },
     "items": {},
     "encounters": {
