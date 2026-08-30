@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 6h 54m jugadas · 82,700₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 6h 55m jugadas · 85,800₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -34,10 +34,10 @@
       ],
       "ev": [
         18,
-        71,
+        74,
         15,
         27,
-        11,
+        14,
         32
       ],
       "abilPool": [
@@ -158,10 +158,10 @@
       ],
       "ev": [
         5,
-        12,
+        15,
         6,
         12,
-        5,
+        8,
         18
       ],
       "abilPool": [
@@ -277,10 +277,10 @@
       ],
       "ev": [
         7,
-        15,
+        18,
         7,
         14,
-        6,
+        9,
         21
       ],
       "abilPool": [
@@ -409,10 +409,10 @@
       ],
       "ev": [
         10,
-        17,
+        20,
         9,
         14,
-        6,
+        9,
         22
       ],
       "abilPool": [
@@ -516,10 +516,10 @@
       ],
       "ev": [
         5,
-        12,
+        15,
         6,
         12,
-        5,
+        8,
         18
       ],
       "abilPool": [
@@ -612,10 +612,10 @@
       ],
       "ev": [
         22,
-        33,
+        36,
         27,
         40,
-        15,
+        18,
         41
       ],
       "abilPool": [
@@ -3244,7 +3244,8 @@
       "ruta_1": true,
       "ciudad_verde": true,
       "ruta_22": true,
-      "ruta_9": true
+      "ruta_9": true,
+      "tunel_roca": true
     },
     "items": {},
     "encounters": {
