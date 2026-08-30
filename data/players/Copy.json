@@ -4,12 +4,86 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 3h 40m jugadas · 83,010₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 4h 23m jugadas · 111,480₽ · vidas en el juego: ?",
   "team": [
+    {
+      "nickname": "Polla",
+      "species": "Staraptor",
+      "level": 34,
+      "types": [
+        "Normal",
+        "Volador"
+      ],
+      "ability": "Alerta",
+      "nature": "Seria",
+      "item": "Baya Zidra",
+      "shiny": false,
+      "moves": [
+        "Psicocorte",
+        "Corpulencia",
+        "Agarrón",
+        "Picotazo"
+      ]
+    },
+    {
+      "nickname": "Dr Pepper",
+      "species": "Alakazam",
+      "level": 33,
+      "types": [
+        "Psíquico"
+      ],
+      "ability": "Tinovictoria",
+      "nature": "Ingenua",
+      "item": "Banda Aguante",
+      "shiny": false,
+      "moves": [
+        "Relajo",
+        "Relámpago Súbito",
+        "Psicorrayo",
+        "Tóxico"
+      ]
+    },
+    {
+      "nickname": "Peter",
+      "species": "Araquanid",
+      "level": 33,
+      "types": [
+        "Agua",
+        "Bicho"
+      ],
+      "ability": "Espada Debacle",
+      "nature": "Amable",
+      "item": "Baya Ziuela",
+      "shiny": false,
+      "moves": [
+        "Ida y Vuelta",
+        "Tóxico",
+        "Triple Inmersión",
+        "Telatrampa"
+      ]
+    },
+    {
+      "nickname": "Miguelito",
+      "species": "Thwackey",
+      "level": 33,
+      "types": [
+        "Planta"
+      ],
+      "ability": "Velo Agua",
+      "nature": "Audaz",
+      "item": "Cinta Elección",
+      "shiny": false,
+      "moves": [
+        "Pikaturbo",
+        "Colmillo Ígneo",
+        "Terratemblor",
+        "Agarrón"
+      ]
+    },
     {
       "nickname": "CFE",
       "species": "Graveler (Alola)",
-      "level": 30,
+      "level": 33,
       "types": [
         "Roca",
         "Eléctrico"
@@ -29,7 +103,7 @@
     {
       "nickname": "Cobblemon",
       "species": "Naclstack",
-      "level": 30,
+      "level": 33,
       "types": [
         "Roca"
       ],
@@ -43,99 +117,25 @@
         "Superdiente",
         "Roca Veloz"
       ]
-    },
-    {
-      "nickname": "Polla",
-      "species": "Staravia",
-      "level": 30,
-      "types": [
-        "Normal",
-        "Volador"
-      ],
-      "ability": "Escudo Recio",
-      "nature": "Seria",
-      "item": "Baya Zidra",
-      "shiny": false,
-      "moves": [
-        "Psicocorte",
-        "Corpulencia",
-        "Agarrón",
-        "Picotazo"
-      ]
-    },
-    {
-      "nickname": "Miguelito",
-      "species": "Thwackey",
-      "level": 30,
-      "types": [
-        "Planta"
-      ],
-      "ability": "Velo Agua",
-      "nature": "Audaz",
-      "item": "Cinta Elección",
-      "shiny": false,
-      "moves": [
-        "Pikaturbo",
-        "Colmillo Ígneo",
-        "Terratemblor",
-        "Agarrón"
-      ]
-    },
-    {
-      "nickname": "Peter",
-      "species": "Araquanid",
-      "level": 30,
-      "types": [
-        "Agua",
-        "Bicho"
-      ],
-      "ability": "Espada Debacle",
-      "nature": "Amable",
-      "item": "Baya Ziuela",
-      "shiny": false,
-      "moves": [
-        "Ida y Vuelta",
-        "Tóxico",
-        "Triple Inmersión",
-        "Telatrampa"
-      ]
-    },
-    {
-      "nickname": "Dr Pepper",
-      "species": "Alakazam",
-      "level": 30,
-      "types": [
-        "Psíquico"
-      ],
-      "ability": "Tinovictoria",
-      "nature": "Ingenua",
-      "item": "Banda Aguante",
-      "shiny": false,
-      "moves": [
-        "Relajo",
-        "Relámpago Súbito",
-        "Psicorrayo",
-        "Tóxico"
-      ]
     }
   ],
   "box": [
     {
-      "nickname": "Kofi",
-      "species": "Jangmoo",
-      "level": 9,
+      "nickname": "TriMike",
+      "species": "Dugtrio",
+      "level": 26,
       "types": [
-        "Dragón"
+        "Tierra"
       ],
-      "ability": "Camorrista",
-      "nature": "Audaz",
+      "ability": "Nerviosismo",
+      "nature": "Modesta",
       "item": "",
       "shiny": false,
       "moves": [
-        "Luminicola",
-        "Ronquido",
-        "Embargo",
-        "Estruendo Escama"
+        "Hoja Afilada",
+        "Bucle Arena",
+        "Recogearena",
+        "Pikaturbo"
       ]
     },
     {
@@ -269,21 +269,21 @@
       ]
     },
     {
-      "nickname": "TriMike",
-      "species": "Dugtrio",
-      "level": 26,
+      "nickname": "Kofi",
+      "species": "Jangmoo",
+      "level": 9,
       "types": [
-        "Tierra"
+        "Dragón"
       ],
-      "ability": "Nerviosismo",
-      "nature": "Modesta",
+      "ability": "Camorrista",
+      "nature": "Audaz",
       "item": "",
       "shiny": false,
       "moves": [
-        "Hoja Afilada",
-        "Bucle Arena",
-        "Recogearena",
-        "Pikaturbo"
+        "Luminicola",
+        "Ronquido",
+        "Embargo",
+        "Estruendo Escama"
       ]
     },
     {
@@ -342,40 +342,78 @@
       ]
     },
     {
-      "nickname": "Hopper",
-      "species": "Lokix",
-      "level": 24,
+      "nickname": "Stitch",
+      "species": "Sableye",
+      "level": 25,
       "types": [
-        "Bicho",
-        "Siniestro"
+        "Siniestro",
+        "Fantasma"
       ],
-      "ability": "Abalorio Debacle",
-      "nature": "Dócil",
+      "ability": "Nerviosismo",
+      "nature": "Floja",
       "item": "",
       "shiny": false,
       "moves": [
-        "Tajo Umbrío",
-        "Brinco",
-        "Pikaturbo",
-        "Truco Floral"
+        "Gravedad",
+        "Danza Lluvia",
+        "Nieve Polvo",
+        "Electrotela"
       ]
     },
     {
-      "nickname": "Don riaton",
-      "species": "Wugtrio",
-      "level": 26,
+      "nickname": "Cheto",
+      "species": "Togedemaru",
+      "level": 22,
       "types": [
-        "Agua"
+        "Eléctrico",
+        "Acero"
       ],
-      "ability": "Alma Cura",
-      "nature": "Fuerte",
+      "ability": "Albinismo",
+      "nature": "Grosera",
       "item": "",
       "shiny": false,
       "moves": [
+        "Fría Acogida",
+        "Deseo Cura",
+        "Poder Místico",
+        "Aguzar"
+      ]
+    },
+    {
+      "nickname": "Tronchatoro",
+      "species": "Machoke",
+      "level": 26,
+      "types": [
+        "Lucha"
+      ],
+      "ability": "Megadisparador",
+      "nature": "Tímida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Zona Mágica",
+        "Canto",
         "Cola Veneno",
-        "Corte Furia",
-        "Tóxico",
-        "Aligerar"
+        "Cola Dragón"
+      ]
+    },
+    {
+      "nickname": "Don pendejo",
+      "species": "Crawdaunt",
+      "level": 23,
+      "types": [
+        "Agua",
+        "Siniestro"
+      ],
+      "ability": "Experto",
+      "nature": "Afable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Megaagotar",
+        "Esporagodón",
+        "Sacrificio",
+        "Conjuro"
       ]
     },
     {
@@ -397,27 +435,89 @@
       ]
     },
     {
-      "nickname": "Cheto",
-      "species": "Togedemaru",
-      "level": 22,
+      "nickname": "Don riaton",
+      "species": "Wugtrio",
+      "level": 26,
       "types": [
-        "Eléctrico",
-        "Acero"
+        "Agua"
       ],
-      "ability": "Albinismo",
-      "nature": "Grosera",
+      "ability": "Alma Cura",
+      "nature": "Fuerte",
       "item": "",
       "shiny": false,
       "moves": [
-        "Fría Acogida",
-        "Deseo Cura",
-        "Poder Místico",
-        "Aguzar"
+        "Cola Veneno",
+        "Corte Furia",
+        "Tóxico",
+        "Aligerar"
+      ]
+    },
+    {
+      "nickname": "Hopper",
+      "species": "Lokix",
+      "level": 24,
+      "types": [
+        "Bicho",
+        "Siniestro"
+      ],
+      "ability": "Abalorio Debacle",
+      "nature": "Dócil",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Tajo Umbrío",
+        "Brinco",
+        "Pikaturbo",
+        "Truco Floral"
       ]
     }
   ],
   "graveyard": [],
   "captures": [
+    {
+      "route": "ciudad_plateada",
+      "where": "Ciudad Plateada",
+      "species": "Staraptor",
+      "nickname": "Polla",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 10,
+      "mon": "Staraptor"
+    },
+    {
+      "route": "",
+      "where": "Monte Moon",
+      "species": "Alakazam",
+      "nickname": "Dr Pepper",
+      "shiny": false,
+      "status": "captured",
+      "category": "intercambio",
+      "level": 11,
+      "mon": "Alakazam"
+    },
+    {
+      "route": "ruta_1",
+      "where": "Ruta 1",
+      "species": "Araquanid",
+      "nickname": "Peter",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 5,
+      "mon": "Araquanid"
+    },
+    {
+      "route": "",
+      "where": "Laboratorio",
+      "species": "Thwackey",
+      "nickname": "Miguelito",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Thwackey"
+    },
     {
       "route": "monte_moon",
       "where": "Monte Moon",
@@ -443,57 +543,13 @@
     {
       "route": "ciudad_plateada",
       "where": "Ciudad Plateada",
-      "species": "Staravia",
-      "nickname": "Polla",
+      "species": "Dugtrio",
+      "nickname": "TriMike",
       "shiny": false,
       "status": "captured",
       "category": "ciudad",
-      "level": 10,
-      "mon": "Staravia"
-    },
-    {
-      "route": "",
-      "where": "Laboratorio",
-      "species": "Thwackey",
-      "nickname": "Miguelito",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 5,
-      "mon": "Thwackey"
-    },
-    {
-      "route": "ruta_1",
-      "where": "Ruta 1",
-      "species": "Araquanid",
-      "nickname": "Peter",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 5,
-      "mon": "Araquanid"
-    },
-    {
-      "route": "",
-      "where": "Monte Moon",
-      "species": "Alakazam",
-      "nickname": "Dr Pepper",
-      "shiny": false,
-      "status": "captured",
-      "category": "intercambio",
       "level": 11,
-      "mon": "Alakazam"
-    },
-    {
-      "route": "ruta_2_norte",
-      "where": "Ruta 2 Norte",
-      "species": "Jangmoo",
-      "nickname": "Kofi",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 9,
-      "mon": "Jangmoo"
+      "mon": "Dugtrio"
     },
     {
       "route": "ruta_5",
@@ -573,15 +629,15 @@
       "mon": "Riolu"
     },
     {
-      "route": "ciudad_plateada",
-      "where": "Ciudad Plateada",
-      "species": "Dugtrio",
-      "nickname": "TriMike",
+      "route": "ruta_2_norte",
+      "where": "Ruta 2 Norte",
+      "species": "Jangmoo",
+      "nickname": "Kofi",
       "shiny": false,
       "status": "captured",
-      "category": "ciudad",
-      "level": 11,
-      "mon": "Dugtrio"
+      "category": "salvaje",
+      "level": 9,
+      "mon": "Jangmoo"
     },
     {
       "route": "ciudad_plateada",
@@ -617,26 +673,48 @@
       "mon": "Venonat"
     },
     {
-      "route": "ruta_2_sur",
-      "where": "Ruta 2 Sur",
-      "species": "Lokix",
-      "nickname": "Hopper",
+      "route": "tunel_diglett",
+      "where": "Túnel Diglett",
+      "species": "Sableye",
+      "nickname": "Stitch",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 6,
-      "mon": "Lokix"
+      "level": 25,
+      "mon": "Sableye"
     },
     {
-      "route": "",
-      "where": "Museo Pokémon",
-      "species": "Wugtrio",
-      "nickname": "Don riaton",
+      "route": "ciudad_carmin",
+      "where": "Ciudad Carmín",
+      "species": "Togedemaru",
+      "nickname": "Cheto",
       "shiny": false,
       "status": "captured",
-      "category": "estatico_regalo",
-      "level": 1,
-      "mon": "Wugtrio"
+      "category": "ciudad",
+      "level": 22,
+      "mon": "Togedemaru"
+    },
+    {
+      "route": "ruta_9",
+      "where": "Ruta 9",
+      "species": "Machoke",
+      "nickname": "Tronchatoro",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 26,
+      "mon": "Machoke"
+    },
+    {
+      "route": "ruta_15",
+      "where": "Ruta 15",
+      "species": "Crawdaunt",
+      "nickname": "Don pendejo",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 23,
+      "mon": "Crawdaunt"
     },
     {
       "route": "pueblo_paleta",
@@ -650,42 +728,58 @@
       "mon": "Shellos"
     },
     {
-      "route": "ciudad_carmin",
-      "where": "Ciudad Carmín",
-      "species": "Togedemaru",
-      "nickname": "Cheto",
+      "route": "",
+      "where": "Museo Pokémon",
+      "species": "Wugtrio",
+      "nickname": "Don riaton",
       "shiny": false,
       "status": "captured",
-      "category": "ciudad",
-      "level": 22,
-      "mon": "Togedemaru"
+      "category": "estatico_regalo",
+      "level": 1,
+      "mon": "Wugtrio"
+    },
+    {
+      "route": "ruta_2_sur",
+      "where": "Ruta 2 Sur",
+      "species": "Lokix",
+      "nickname": "Hopper",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 6,
+      "mon": "Lokix"
     }
   ],
   "progress": {
     "gyms": {
       "gym1": true,
-      "gym2": true
+      "gym2": true,
+      "gym3": true
     },
     "bosses": {},
     "npcs": {},
     "routes": {
-      "monte_moon": true,
       "ciudad_plateada": true,
       "ruta_1": true,
-      "ruta_2_norte": true,
+      "monte_moon": true,
       "ruta_5": true,
       "bosque_verde": true,
       "ruta_3": true,
       "ruta_6": true,
       "monte_moon_exterior": true,
+      "ruta_2_norte": true,
       "ciudad_celeste": true,
       "ruta_20": true,
-      "ruta_2_sur": true,
-      "pueblo_paleta": true,
+      "tunel_diglett": true,
       "ciudad_carmin": true,
+      "ruta_9": true,
+      "ruta_15": true,
+      "pueblo_paleta": true,
+      "ruta_2_sur": true,
       "ciudad_verde": true,
       "ruta_22": true,
       "ruta_4": true,
+      "ruta_10_norte": true,
       "ruta_21": true
     },
     "items": {}
