@@ -37,6 +37,7 @@
           <button class="btn" id="importBtn">Importar JSON</button>
           <input type="file" id="importFile" accept="application/json" class="hidden" />
           <button class="btn" id="saveBtn">Guardar borrador</button>
+          <button class="btn danger" id="discardBtn">Descartar borrador local</button>
           <button class="btn primary" id="exportBtn">Exportar JSON</button>
         </div>
       </div>
@@ -139,6 +140,7 @@
       });
 
       document.getElementById("saveBtn").onclick = saveDraft;
+      document.getElementById("discardBtn").onclick = discardDraft;
       document.getElementById("exportBtn").onclick = exportJSON;
       document.getElementById("importBtn").onclick = () => document.getElementById("importFile").click();
       document.getElementById("importFile").addEventListener("change", importJSON);
@@ -348,6 +350,14 @@
     function saveDraft() {
       localStorage.setItem("player:"+P.id, JSON.stringify(cleanData()));
       toast("Borrador guardado (visible en la web en este navegador)");
+    }
+    function discardDraft() {
+      const id = (P && P.id) || currentId;
+      if (!localStorage.getItem("player:"+id)) { toast("No hay borrador local de "+id); return; }
+      if (!confirm('¿Descartar el borrador local de "'+id+'"?\nSe usará de nuevo la versión publicada (la del companion). No afecta a la web de los demás.')) return;
+      localStorage.removeItem("player:"+id);
+      toast("Borrador local descartado");
+      selectPlayer(id);
     }
     function exportJSON() {
       saveDraft();
