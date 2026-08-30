@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 3h 14m jugadas · 50,950₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 18m jugadas · 73,700₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Peter",
@@ -16,7 +16,7 @@
       ],
       "ability": "Espada Debacle",
       "nature": "Amable",
-      "item": "Garra Afilada",
+      "item": "Baya Ziuela",
       "shiny": false,
       "moves": [
         "Ida y Vuelta",
@@ -108,7 +108,7 @@
       ],
       "ability": "Francotirador",
       "nature": "Modesta",
-      "item": "Baya Ziuela",
+      "item": "Garra Afilada",
       "shiny": false,
       "moves": [
         "Llama Protectora",
@@ -136,6 +136,24 @@
         "Ronquido",
         "Embargo",
         "Estruendo Escama"
+      ]
+    },
+    {
+      "nickname": "Midas",
+      "species": "Luxio",
+      "level": 20,
+      "types": [
+        "Eléctrico"
+      ],
+      "ability": "Torrente",
+      "nature": "Firme",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Poder Reserva",
+        "Carga Parábola",
+        "Voltiocambio",
+        "Electrotela"
       ]
     },
     {
@@ -214,6 +232,25 @@
       ]
     },
     {
+      "nickname": "Mamá Carlos",
+      "species": "Stunky",
+      "level": 18,
+      "types": [
+        "Veneno",
+        "Siniestro"
+      ],
+      "ability": "Regeneración",
+      "nature": "Cauta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Conversión",
+        "Búnker",
+        "Arañazo",
+        "Embargo"
+      ]
+    },
+    {
       "nickname": "Master",
       "species": "Riolu",
       "level": 15,
@@ -229,6 +266,24 @@
         "Arañazo",
         "A Defender",
         "Paisaje Nevado"
+      ]
+    },
+    {
+      "nickname": "TriMike",
+      "species": "Dugtrio",
+      "level": 26,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Nerviosismo",
+      "nature": "Modesta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Hoja Afilada",
+        "Bucle Arena",
+        "Recogearena",
+        "Pikaturbo"
       ]
     },
     {
@@ -287,24 +342,6 @@
       ]
     },
     {
-      "nickname": "Crayola",
-      "species": "Shellos",
-      "level": 23,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Electricidad Estática",
-      "nature": "Ingenua",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Obstrucción",
-        "Tóxico",
-        "Alarido",
-        "Bucle Arena"
-      ]
-    },
-    {
       "nickname": "Hopper",
       "species": "Lokix",
       "level": 24,
@@ -321,24 +358,6 @@
         "Brinco",
         "Pikaturbo",
         "Truco Floral"
-      ]
-    },
-    {
-      "nickname": "TriMike",
-      "species": "Dugtrio",
-      "level": 26,
-      "types": [
-        "Tierra"
-      ],
-      "ability": "Nerviosismo",
-      "nature": "Modesta",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Hoja Afilada",
-        "Bucle Arena",
-        "Recogearena",
-        "Pikaturbo"
       ]
     },
     {
@@ -360,40 +379,21 @@
       ]
     },
     {
-      "nickname": "Midas",
-      "species": "Luxio",
-      "level": 20,
+      "nickname": "Crayola",
+      "species": "Shellos",
+      "level": 23,
       "types": [
-        "Eléctrico"
+        "Agua"
       ],
-      "ability": "Torrente",
-      "nature": "Firme",
+      "ability": "Electricidad Estática",
+      "nature": "Ingenua",
       "item": "",
       "shiny": false,
       "moves": [
-        "Poder Reserva",
-        "Carga Parábola",
-        "Voltiocambio",
-        "Electrotela"
-      ]
-    },
-    {
-      "nickname": "Mamá Carlos",
-      "species": "Stunky",
-      "level": 18,
-      "types": [
-        "Veneno",
-        "Siniestro"
-      ],
-      "ability": "Regeneración",
-      "nature": "Cauta",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Conversión",
-        "Búnker",
-        "Arañazo",
-        "Embargo"
+        "Obstrucción",
+        "Tóxico",
+        "Alarido",
+        "Bucle Arena"
       ]
     }
   ],
@@ -477,6 +477,17 @@
       "mon": "Jangmoo"
     },
     {
+      "route": "ruta_5",
+      "where": "Ruta 5",
+      "species": "Luxio",
+      "nickname": "Midas",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 20,
+      "mon": "Luxio"
+    },
+    {
       "route": "ruta_4",
       "where": "Ruta 4",
       "species": "Jigglypuff",
@@ -521,6 +532,17 @@
       "mon": "Dottler"
     },
     {
+      "route": "ruta_6",
+      "where": "Ruta 6",
+      "species": "Stunky",
+      "nickname": "Mamá Carlos",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 18,
+      "mon": "Stunky"
+    },
+    {
       "route": "monte_moon_exterior",
       "where": "Monte Moon Exterior",
       "species": "Riolu",
@@ -530,6 +552,17 @@
       "category": "salvaje",
       "level": 15,
       "mon": "Riolu"
+    },
+    {
+      "route": "ciudad_plateada",
+      "where": "Ciudad Plateada",
+      "species": "Dugtrio",
+      "nickname": "TriMike",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 11,
+      "mon": "Dugtrio"
     },
     {
       "route": "ciudad_plateada",
@@ -565,17 +598,6 @@
       "mon": "Venonat"
     },
     {
-      "route": "pueblo_paleta",
-      "where": "Pueblo Paleta",
-      "species": "Shellos",
-      "nickname": "Crayola",
-      "shiny": false,
-      "status": "captured",
-      "category": "ciudad",
-      "level": 3,
-      "mon": "Shellos"
-    },
-    {
       "route": "ruta_2_sur",
       "where": "Ruta 2 Sur",
       "species": "Lokix",
@@ -585,17 +607,6 @@
       "category": "salvaje",
       "level": 6,
       "mon": "Lokix"
-    },
-    {
-      "route": "ciudad_plateada",
-      "where": "Ciudad Plateada",
-      "species": "Dugtrio",
-      "nickname": "TriMike",
-      "shiny": false,
-      "status": "captured",
-      "category": "ciudad",
-      "level": 11,
-      "mon": "Dugtrio"
     },
     {
       "route": "",
@@ -609,26 +620,15 @@
       "mon": "Wugtrio"
     },
     {
-      "route": "ruta_5",
-      "where": "Ruta 5",
-      "species": "Luxio",
-      "nickname": "Midas",
+      "route": "pueblo_paleta",
+      "where": "Pueblo Paleta",
+      "species": "Shellos",
+      "nickname": "Crayola",
       "shiny": false,
       "status": "captured",
-      "category": "salvaje",
-      "level": 20,
-      "mon": "Luxio"
-    },
-    {
-      "route": "ruta_6",
-      "where": "Ruta 6",
-      "species": "Stunky",
-      "nickname": "Mamá Carlos",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 18,
-      "mon": "Stunky"
+      "category": "ciudad",
+      "level": 3,
+      "mon": "Shellos"
     }
   ],
   "progress": {
@@ -643,16 +643,16 @@
       "ciudad_plateada": true,
       "monte_moon": true,
       "ruta_2_norte": true,
+      "ruta_5": true,
       "ruta_4": true,
       "bosque_verde": true,
       "ruta_3": true,
+      "ruta_6": true,
       "monte_moon_exterior": true,
       "ciudad_celeste": true,
       "ruta_20": true,
-      "pueblo_paleta": true,
       "ruta_2_sur": true,
-      "ruta_5": true,
-      "ruta_6": true,
+      "pueblo_paleta": true,
       "ciudad_verde": true,
       "ruta_22": true,
       "ciudad_carmin": true,
