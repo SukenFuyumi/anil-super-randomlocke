@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 6h 51m jugadas · 82,700₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 6h 52m jugadas · 82,700₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -34,7 +34,7 @@
       ],
       "ev": [
         18,
-        69,
+        71,
         15,
         27,
         11,
@@ -158,7 +158,7 @@
       ],
       "ev": [
         5,
-        10,
+        12,
         6,
         12,
         5,
@@ -277,7 +277,7 @@
       ],
       "ev": [
         7,
-        13,
+        15,
         7,
         14,
         6,
@@ -409,7 +409,7 @@
       ],
       "ev": [
         10,
-        15,
+        17,
         9,
         14,
         6,
@@ -516,7 +516,7 @@
       ],
       "ev": [
         5,
-        10,
+        12,
         6,
         12,
         5,
@@ -612,7 +612,7 @@
       ],
       "ev": [
         22,
-        31,
+        33,
         27,
         40,
         15,
@@ -1780,6 +1780,98 @@
         {
           "lvl": 33,
           "m": "Llanto Falso"
+        }
+      ]
+    },
+    {
+      "nickname": "DRAGONA",
+      "species": "Arctibax",
+      "level": 26,
+      "types": [
+        "Dragón",
+        "Hielo"
+      ],
+      "ability": "Cortante",
+      "nature": "Firme",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Alud",
+        "Cascabel Cura",
+        "Megaagotar",
+        "Onda Simple"
+      ],
+      "iv": [
+        15,
+        16,
+        16,
+        30,
+        29,
+        28
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Cortante",
+        "Armadura Frágil"
+      ],
+      "abilHidden": [
+        "Electrogénesis"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Cambiafuerza"
+        },
+        {
+          "lvl": 1,
+          "m": "Electrificación"
+        },
+        {
+          "lvl": 1,
+          "m": "Vasto Impacto"
+        },
+        {
+          "lvl": 6,
+          "m": "Alud"
+        },
+        {
+          "lvl": 12,
+          "m": "Cascabel Cura"
+        },
+        {
+          "lvl": 18,
+          "m": "Megaagotar"
+        },
+        {
+          "lvl": 24,
+          "m": "Onda Simple"
+        },
+        {
+          "lvl": 29,
+          "m": "Truco Floral"
+        },
+        {
+          "lvl": 40,
+          "m": "Finta"
+        },
+        {
+          "lvl": 45,
+          "m": "Liofilización"
+        },
+        {
+          "lvl": 50,
+          "m": "Orbes Espectro"
+        },
+        {
+          "lvl": 55,
+          "m": "Decalcomanía"
         }
       ]
     },
@@ -3000,6 +3092,17 @@
       "mon": "Seedot"
     },
     {
+      "route": "ruta_10_norte",
+      "where": "Ruta 10 Norte",
+      "species": "Arctibax",
+      "nickname": "DRAGONA",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 26,
+      "mon": "Arctibax"
+    },
+    {
       "route": "ruta_20",
       "where": "Ruta 20",
       "species": "Magikarp",
@@ -3134,14 +3237,14 @@
       "ruta_12": true,
       "ruta_6": true,
       "ruta_15": true,
+      "ruta_10_norte": true,
       "ruta_20": true,
       "pueblo_paleta": true,
       "ciudad_plateada": true,
       "ruta_1": true,
       "ciudad_verde": true,
       "ruta_22": true,
-      "ruta_9": true,
-      "ruta_10_norte": true
+      "ruta_9": true
     },
     "items": {},
     "encounters": {
@@ -3150,7 +3253,8 @@
       "ciudad_carmin": true,
       "ruta_15": true,
       "ruta_12": true,
-      "ruta_9": true
+      "ruta_9": true,
+      "ruta_10_norte": true
     }
   }
 }
