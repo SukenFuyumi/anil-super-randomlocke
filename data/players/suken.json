@@ -4,13 +4,14 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 6h 0m jugadas · 40,080₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 6h 6m jugadas · 40,080₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
-      "species": "Raticate",
+      "species": "Raticate (Alola)",
       "level": 30,
       "types": [
+        "Siniestro",
         "Normal"
       ],
       "ability": "Garra Dura",
@@ -22,7 +23,8 @@
         "Asalto Barrera",
         "Tajo Umbrío",
         "Daño Secreto"
-      ]
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png"
     },
     {
       "nickname": "DREAMS",
@@ -209,10 +211,11 @@
     },
     {
       "nickname": "ISRAELÍ",
-      "species": "Voltorb",
+      "species": "Voltorb (Hisui)",
       "level": 20,
       "types": [
-        "Eléctrico"
+        "Eléctrico",
+        "Planta"
       ],
       "ability": "Clorofila",
       "nature": "Pícara",
@@ -223,7 +226,8 @@
         "Dulce Aroma",
         "Rencor",
         "Paralizador"
-      ]
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10231.png"
     },
     {
       "nickname": "BLAZE",
