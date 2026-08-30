@@ -466,7 +466,7 @@ img.player-avatar.xl { padding: 6px; }
 .pm-detail-stats { display: flex; gap: 1rem; font-size: .78rem; color: var(--text-muted); margin-bottom: .35rem; }
 .pm-detail-stats b { color: var(--text); }
 .pm-detail-desc { font-size: .84rem; margin: 0; line-height: 1.4; }
-.pm-evo { padding: .2rem 1.2rem 1.1rem; }
+.pm-evo { margin-top: .85rem; }
 .evo-line { display: flex; gap: .4rem; align-items: flex-start; flex-wrap: wrap; }
 .evo-col { display: flex; flex-direction: column; gap: .35rem; }
 .evo-mon { text-align: center; padding: .35rem; border: 1px solid var(--border); border-radius: 8px; background: var(--panel); color: var(--text); min-width: 84px; display: block; }

@@ -241,8 +241,12 @@
       }).join("");
       const learnBlock = (m, dead) => {
         const ini = initials(m.species || m.nickname);
-        const spr = m.sprite || speciesAniSprite(m.species) || speciesSprite(m.species);
-        const img = spr ? `<img src="${escapeHtml(spr)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'lm-ini',textContent:'${escapeHtml(ini)}'}))">` : `<span class="lm-ini">${escapeHtml(ini)}</span>`;
+        const ani = speciesAniSprite(m.species), stat = speciesSprite(m.species);
+        const primary = m.sprite || ani || stat;
+        const fb = JSON.stringify([m.sprite ? ani : null, stat].filter((u) => u && u !== primary));
+        const img = primary
+          ? `<img src="${escapeHtml(primary)}" alt="" loading="lazy" data-fb='${fb}' data-ini="${escapeHtml(ini)}" data-fbclass="lm-ini" onerror="imgFallback(this)">`
+          : `<span class="lm-ini">${escapeHtml(ini)}</span>`;
         const ls = Array.isArray(m.learnset) ? m.learnset : null;
         const body = ls
           ? `<div class="lm-moves">${learnChips(ls)}</div>`

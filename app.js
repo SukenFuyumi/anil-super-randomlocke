@@ -449,6 +449,8 @@ async function openMonPopup(mon, ctx = {}) {
   const recuerdaHref = (ctx.player && Array.isArray(mon.learnset))
     ? `jugador.html?id=${encodeURIComponent(ctx.player)}&mon=${encodeURIComponent((mon.nickname || "") + "|" + (mon.species || ""))}#recuerda`
     : null;
+  const region = (String(mon.species || "").match(/\(([^)]+)\)/) || [])[1] || null;
+  const evoHtml = evoChainHtml(id, region);
 
   const html = `<div class="pm-modal" role="dialog" aria-modal="true" style="border-top:5px solid var(--type-${t0})">
     <button type="button" class="pm-close" aria-label="Cerrar" onclick="closeMonPopup()">✕</button>
@@ -475,9 +477,9 @@ async function openMonPopup(mon, ctx = {}) {
         <div class="pm-field"><div class="pm-k">Movimientos <span class="muted">· clic para ver qué hacen</span></div>
           <div class="pm-moves">${movesHtml || '<span class="muted">—</span>'}</div></div>
         <div class="pm-detail show" id="pmDetail"><p class="pm-detail-hint">Toca una habilidad o un movimiento para ver qué hace.</p></div>
+        ${evoHtml ? `<div class="pm-evo"><div class="pm-k">Evolución</div>${evoHtml}</div>` : ""}
       </div>
     </div>
-    ${evoChainHtml(id) ? `<div class="pm-evo"><div class="pm-k">Evolución</div>${evoChainHtml(id)}</div>` : ""}
     ${(recuerdaHref || href) ? `<div class="pm-foot">${recuerdaHref ? `<a href="${recuerdaHref}">Ver recuerda movimientos →</a>` : ""}${href ? `<a href="${href}">Ver ficha completa en la Pokédex →</a>` : ""}</div>` : ""}
   </div>`;
 
@@ -530,14 +532,23 @@ document.addEventListener("click", (e) => {
   if (r) openMonPopup(r.mon, r.ctx);
 });
 
-/* Cadena evolutiva completa (misma lógica que pokemon.html) usando PDEX; "" si no hay */
-function evoChainHtml(id) {
+/* spriteId de la forma regional de una especie (por nombre + región), o null */
+function formSpriteFor(baseName, region) {
+  if (!FORMSD || !region) return null;
+  const b = normName(baseName), r = normName(region);
+  for (const k in FORMSD) { const f = FORMSD[k]; if (f.spriteId && normName(k.split("_")[0]) === b && normName(f.region) === r) return f.spriteId; }
+  return null;
+}
+
+/* Cadena evolutiva completa (misma lógica que pokemon.html) usando PDEX; "" si no hay.
+   region = forma regional del Pokémon actual, para mostrar los sprites correctos. */
+function evoChainHtml(id, region) {
   const dex = PDEX; if (!dex || !dex[id]) return "";
   const p = dex[id];
   if (!p.pe && !(p.em && p.em.length)) return "";
-  const spr = (eid) => `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${eid}.png`;
+  const spr = (eid, name) => `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${formSpriteFor(name, region) || eid}.png`;
   const evoMon = (eid, name, how, cur) => {
-    const inner = `${eid ? `<img src="${spr(eid)}" alt="" loading="lazy">` : `<div class="evo-q">?</div>`}<div class="evo-nm">${escapeHtml(name)}</div>${how ? `<div class="evo-how">${escapeHtml(how)}</div>` : ""}`;
+    const inner = `${eid ? `<img src="${spr(eid, name)}" alt="" loading="lazy">` : `<div class="evo-q">?</div>`}<div class="evo-nm">${escapeHtml(name)}</div>${how ? `<div class="evo-how">${escapeHtml(how)}</div>` : ""}`;
     return eid ? `<a class="evo-mon${cur ? " cur" : ""}" href="pokemon.html?id=${eid}">${inner}</a>` : `<span class="evo-mon">${inner}</span>`;
   };
   const evosOf = (pid) => {
