@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 7h 5m jugadas · 480,745₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 7h 6m jugadas · 486,595₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Midas",
@@ -1080,7 +1080,8 @@
     "gyms": {
       "gym1": true,
       "gym2": true,
-      "gym3": true
+      "gym3": true,
+      "gym4": true
     },
     "bosses": {},
     "npcs": {},
