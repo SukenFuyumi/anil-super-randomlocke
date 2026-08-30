@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 5h 10m jugadas · 61,710₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 5h 13m jugadas · 66,300₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Pinchos",
@@ -35,9 +35,9 @@
         3,
         9,
         1,
-        8,
+        10,
         4,
-        4
+        6
       ],
       "abilPool": [
         "Competitivo"
@@ -145,9 +145,9 @@
         21,
         33,
         19,
-        34,
+        36,
         19,
-        34
+        36
       ],
       "abilPool": [
         "Espada Indómita",
@@ -309,9 +309,9 @@
         18,
         29,
         14,
-        30,
+        32,
         20,
-        27
+        29
       ],
       "abilPool": [
         "Baba"
@@ -431,9 +431,9 @@
         7,
         15,
         4,
-        11,
+        13,
         9,
-        12
+        14
       ],
       "abilPool": [
         "Don Floral"
@@ -545,9 +545,9 @@
         13,
         26,
         12,
-        21,
+        23,
         18,
-        21
+        23
       ],
       "abilPool": [
         "Recogida",
@@ -636,9 +636,9 @@
         6,
         13,
         5,
-        13,
+        15,
         11,
-        12
+        14
       ],
       "abilPool": [
         "Teracaparazón",
