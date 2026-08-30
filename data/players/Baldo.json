@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 1h 35m jugadas · 1,680₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 1h 39m jugadas · 3,500₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "goku",
       "species": "Monferno",
-      "level": 14,
+      "level": 15,
       "types": [
         "Fuego",
         "Lucha"
@@ -46,7 +46,7 @@
     {
       "nickname": "gato",
       "species": "Skitty",
-      "level": 14,
+      "level": 15,
       "types": [
         "Normal"
       ],
@@ -55,7 +55,7 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Agitacola",
+        "Búnker",
         "Ojitos Tiernos",
         "Picoteo",
         "Pulimento"
