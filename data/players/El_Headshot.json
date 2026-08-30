@@ -2,32 +2,14 @@
   "id": "El_Headshot",
   "name": "Maikolllll",
   "lives": 30,
-  "livesUsed": 0,
+  "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 4h 30m jugadas · 16,430₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 5h 4m jugadas · 21,720₽ · vidas en el juego: ?",
   "team": [
-    {
-      "nickname": "Empanada",
-      "species": "Shellder",
-      "level": 23,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Escama de Hielo",
-      "nature": "Serena",
-      "item": "",
-      "shiny": true,
-      "moves": [
-        "Sustituto",
-        "Voltiocambio",
-        "Gruñido",
-        "Tóxico"
-      ]
-    },
     {
       "nickname": "Cricri",
       "species": "Carkol",
-      "level": 19,
+      "level": 21,
       "types": [
         "Roca",
         "Fuego"
@@ -39,26 +21,8 @@
       "moves": [
         "Salazón",
         "Clemencia",
-        "Lengüetazo",
+        "Dragoaliento",
         "Lanzarrocas"
-      ]
-    },
-    {
-      "nickname": "Motita",
-      "species": "Flabebe",
-      "level": 17,
-      "types": [
-        "Hada"
-      ],
-      "ability": "Toque Tóxico",
-      "nature": "Fuerte",
-      "item": "Banda Aguante",
-      "shiny": false,
-      "moves": [
-        "Golpe Aéreo",
-        "Barrera",
-        "Brinco",
-        "Trampa Rocas"
       ]
     },
     {
@@ -82,7 +46,7 @@
     {
       "nickname": "Changomojao",
       "species": "Panpour",
-      "level": 17,
+      "level": 19,
       "types": [
         "Agua"
       ],
@@ -94,25 +58,63 @@
         "Canto",
         "Puño Incremento",
         "Rayo Burbuja",
-        "Rodillo de Púas"
+        "Rompecoraza"
       ]
     },
     {
-      "nickname": "El cocas",
-      "species": "Darumaka",
-      "level": 19,
+      "nickname": "PollaEdgy",
+      "species": "Starly",
+      "level": 15,
       "types": [
-        "Fuego"
+        "Normal",
+        "Volador"
       ],
-      "ability": "Rompeaura",
+      "ability": "Viscosidad",
       "nature": "Alegre",
-      "item": "Garra Afilada",
+      "item": "",
       "shiny": false,
       "moves": [
-        "Mil Púas Tóxicas",
-        "Protección",
-        "Tenaza",
-        "Beso Amoroso"
+        "Golpe Aéreo",
+        "Refugio",
+        "Respiro",
+        "Golpe Cabeza"
+      ]
+    },
+    {
+      "nickname": "Arenita",
+      "species": "Sandshrew",
+      "level": 22,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Amor Filial",
+      "nature": "Dócil",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Búnker",
+        "Respiro",
+        "Colmillo Hielo",
+        "Danza Dragón"
+      ]
+    },
+    {
+      "nickname": "Baldoproxxx",
+      "species": "Golett",
+      "level": 15,
+      "types": [
+        "Tierra",
+        "Fantasma"
+      ],
+      "ability": "Punta Acero",
+      "nature": "Firme",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Ataque Óseo",
+        "Llama Protectora",
+        "Drenadoras",
+        "Tajo Acuático"
       ]
     }
   ],
@@ -173,56 +175,90 @@
       ]
     },
     {
-      "nickname": "Arenita",
-      "species": "Sandshrew",
-      "level": 5,
+      "nickname": "ElfavdeBaldo",
+      "species": "Axew",
+      "level": 18,
       "types": [
-        "Tierra"
+        "Dragón"
       ],
-      "ability": "Amor Filial",
-      "nature": "Dócil",
+      "ability": "Liviano",
+      "nature": "Grosera",
       "item": "",
       "shiny": false,
       "moves": [
-        "Búnker",
-        "Polvo Veneno",
-        "Corte",
-        "Paga Extra"
-      ]
-    },
-    {
-      "nickname": "PollaEdgy",
-      "species": "Starly",
-      "level": 14,
-      "types": [
-        "Normal",
-        "Volador"
-      ],
-      "ability": "Viscosidad",
-      "nature": "Alegre",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Ascuas",
-        "Refugio",
-        "Velo Aurora",
-        "Danza Caos"
+        "Fría Acogida",
+        "Absorbefuerza",
+        "Roca Veloz",
+        "Eco Metálico"
       ]
     }
   ],
-  "graveyard": [],
-  "captures": [
+  "graveyard": [
     {
-      "route": "bosque_verde",
-      "where": "Bosque Verde",
-      "species": "Shellder",
       "nickname": "Empanada",
+      "species": "Shellder",
+      "level": 23,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Escama de Hielo",
+      "nature": "Serena",
+      "item": "",
       "shiny": true,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 8,
-      "mon": "Shellder"
+      "moves": [
+        "Sustituto",
+        "Voltiocambio",
+        "Gruñido",
+        "Tóxico"
+      ],
+      "cause": "",
+      "route": "Bosque Verde",
+      "date": ""
     },
+    {
+      "nickname": "Motita",
+      "species": "Flabebe",
+      "level": 18,
+      "types": [
+        "Hada"
+      ],
+      "ability": "Toque Tóxico",
+      "nature": "Fuerte",
+      "item": "Banda Aguante",
+      "shiny": false,
+      "moves": [
+        "Golpe Aéreo",
+        "Barrera",
+        "Brinco",
+        "Trampa Rocas"
+      ],
+      "cause": "",
+      "route": "Ciudad Verde",
+      "date": ""
+    },
+    {
+      "nickname": "El cocas",
+      "species": "Darumaka",
+      "level": 20,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "Rompeaura",
+      "nature": "Alegre",
+      "item": "Garra Afilada",
+      "shiny": false,
+      "moves": [
+        "Mil Púas Tóxicas",
+        "Protección",
+        "Salazón",
+        "Beso Amoroso"
+      ],
+      "cause": "",
+      "route": "Bosque Verde",
+      "date": ""
+    }
+  ],
+  "captures": [
     {
       "route": "ruta_1",
       "where": "Ruta 1",
@@ -233,17 +269,6 @@
       "category": "salvaje",
       "level": 3,
       "mon": "Carkol"
-    },
-    {
-      "route": "ciudad_verde",
-      "where": "Ciudad Verde",
-      "species": "Flabebe",
-      "nickname": "Motita",
-      "shiny": false,
-      "status": "captured",
-      "category": "ciudad",
-      "level": 4,
-      "mon": "Flabebe"
     },
     {
       "route": "",
@@ -268,15 +293,37 @@
       "mon": "Panpour"
     },
     {
-      "route": "bosque_verde",
-      "where": "Bosque Verde",
-      "species": "Darumaka",
-      "nickname": "El cocas",
+      "route": "monte_moon",
+      "where": "Monte Moon",
+      "species": "Starly",
+      "nickname": "PollaEdgy",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 7,
-      "mon": "Darumaka"
+      "level": 14,
+      "mon": "Starly"
+    },
+    {
+      "route": "",
+      "where": "Centro Pokémon",
+      "species": "Sandshrew",
+      "nickname": "Arenita",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Sandshrew"
+    },
+    {
+      "route": "monte_moon_exterior",
+      "where": "Monte Moon Exterior",
+      "species": "Golett",
+      "nickname": "Baldoproxxx",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 15,
+      "mon": "Golett"
     },
     {
       "route": "ruta_22",
@@ -312,26 +359,48 @@
       "mon": "Dewpider"
     },
     {
-      "route": "",
-      "where": "Centro Pokémon",
-      "species": "Sandshrew",
-      "nickname": "Arenita",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 5,
-      "mon": "Sandshrew"
-    },
-    {
-      "route": "monte_moon",
-      "where": "Monte Moon",
-      "species": "Starly",
-      "nickname": "PollaEdgy",
+      "route": "ruta_4",
+      "where": "Ruta 4",
+      "species": "Axew",
+      "nickname": "ElfavdeBaldo",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 14,
-      "mon": "Starly"
+      "level": 18,
+      "mon": "Axew"
+    },
+    {
+      "route": "bosque_verde",
+      "where": "Bosque Verde",
+      "species": "Shellder",
+      "nickname": "Empanada",
+      "shiny": true,
+      "status": "dead",
+      "category": "salvaje",
+      "level": 8,
+      "mon": "Shellder"
+    },
+    {
+      "route": "ciudad_verde",
+      "where": "Ciudad Verde",
+      "species": "Flabebe",
+      "nickname": "Motita",
+      "shiny": false,
+      "status": "dead",
+      "category": "ciudad",
+      "level": 4,
+      "mon": "Flabebe"
+    },
+    {
+      "route": "bosque_verde",
+      "where": "Bosque Verde",
+      "species": "Darumaka",
+      "nickname": "El cocas",
+      "shiny": false,
+      "status": "dead",
+      "category": "salvaje",
+      "level": 7,
+      "mon": "Darumaka"
     }
   ],
   "progress": {
@@ -341,17 +410,19 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "bosque_verde": true,
       "ruta_1": true,
-      "ciudad_verde": true,
       "ruta_2_sur": true,
+      "monte_moon": true,
+      "monte_moon_exterior": true,
       "ruta_22": true,
       "pueblo_paleta": true,
       "ruta_3": true,
-      "monte_moon": true,
+      "ruta_4": true,
+      "bosque_verde": true,
+      "ciudad_verde": true,
       "ruta_2_norte": true,
       "ciudad_plateada": true,
-      "monte_moon_exterior": true
+      "ciudad_celeste": true
     },
     "items": {}
   }
