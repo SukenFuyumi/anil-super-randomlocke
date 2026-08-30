@@ -152,15 +152,21 @@
       };
       const capsByRoute = {};
       caps.filter((c)=>c.route).forEach((c)=>{ (capsByRoute[c.route]=capsByRoute[c.route]||[]).push(c); });
+      // estado manual de ruta "quemada" (el 1er Pokémon murió/huyó) — no está en el save
+      const routeOutcomes = (cfg.routeOutcomes && cfg.routeOutcomes[id]) || {};
       const routesRows = (cfg.routes||[]).map((r)=>{
         const list = capsByRoute[r.id] || [];
         const visited = data.progress?.routes?.[r.id];
+        const oc = routeOutcomes[r.id];
         let cell;
         if (list.length) cell = list.map(capLink).join("");
+        else if (oc && oc.status === "dead") cell = `<span class="pill bad">${faintIcon(12)} Primero cayó${oc.species?": "+escapeHtml(oc.species):""}</span>`;
+        else if (oc && oc.status === "fled") cell = `<span class="pill warn">Primero huyó${oc.species?": "+escapeHtml(oc.species):""}</span>`;
         else if (visited) cell = '<span class="pill">sin captura</span>';
         else cell = '<span class="pill" style="opacity:.6">sin visitar</span>';
+        const burned = oc && (oc.status === "dead" || oc.status === "fled");
         const many = list.length > 1;
-        return `<tr${many?' class="cap-multi"':''}><td>${escapeHtml(r.name)}${many?` <span class="pill bad" title="Más de una captura en esta ruta">×${list.length}</span>`:''}</td><td>${cell}</td></tr>`;
+        return `<tr${many?' class="cap-multi"':(burned?' class="cap-burned"':'')}><td>${escapeHtml(r.name)}${many?` <span class="pill bad" title="Más de una captura en esta ruta">×${list.length}</span>`:''}</td><td>${cell}</td></tr>`;
       }).join("");
 
       const CAT_LABEL = { estatico_regalo:"Estáticos / Regalos", intercambio:"Intercambios", don_prodigio:"Don Prodigio", huevo:"Huevos", ciudad:"Ciudad", salvaje:"Salvaje", otros:"Otras" };

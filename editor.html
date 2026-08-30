@@ -423,19 +423,35 @@
       const caps = (data && data.captures) || [];
       const overrides = (CFG.captureOverrides && CFG.captureOverrides[currentId]) || [];
       const ovOf = (c) => { const o = overrides.find(o => normName(o.species)===normName(c.species||c.mon) && (!o.where || o.where===(c.where||""))); return o ? o.category : ""; };
-      if (!caps.length) { el.innerHTML = `<div class="panel"><p class="muted">"${escapeHtml(currentId)}" aún no tiene capturas sincronizadas.</p></div>`; return; }
+      const ro = (CFG.routeOutcomes && CFG.routeOutcomes[currentId]) || {};
       el.innerHTML = `<div class="panel">
-        <h3 style="margin-top:0">Correcciones de capturas — ${escapeHtml(currentId)}</h3>
-        <p class="muted" style="font-size:.85rem;margin-top:0">El save no distingue regalo/comprado/estático de una captura salvaje en zonas con hierba. Aquí recategorizas capturas concretas; "(auto)" deja lo detectado. Se guarda en la web.</p>
+        <h3 style="margin-top:0">Correcciones — ${escapeHtml(currentId)}</h3>
         <label class="field"><span>Token de GitHub</span><input class="input" type="password" id="fixToken" value="${escapeHtml(localStorage.getItem("anil_admin_token")||"")}" placeholder="github_pat_..."></label>
-        <div style="margin:.8rem 0">${caps.map((c)=>`
+
+        <h4 style="margin:1rem 0 .3rem">Recategorizar capturas</h4>
+        <p class="muted" style="font-size:.82rem;margin:0 0 .5rem">El save no distingue regalo/comprado/estático de salvaje en zonas con hierba. "(auto)" deja lo detectado.</p>
+        <div>${caps.length ? caps.map((c)=>`
           <div class="ed-mon" style="display:flex;gap:.6rem;align-items:center;flex-wrap:wrap">
             <span>${c.nickname?escapeHtml(c.nickname)+" ":""}<strong>${escapeHtml(c.species||c.mon)}</strong> <span class="muted" style="font-size:.74rem">@${escapeHtml(c.where||c.route||"?")}${c.shiny?" ✦":""} · ${escapeHtml(c.category||"?")}</span></span>
             <select class="input fix-sel" data-sp="${escapeHtml(c.species||c.mon)}" data-where="${escapeHtml(c.where||"")}" style="max-width:190px;margin-left:auto">
               ${FIX_CATS.map(([v,l])=>`<option value="${v}"${ovOf(c)===v?" selected":""}>${l}</option>`).join("")}
             </select>
-          </div>`).join("")}</div>
-        <div class="btn-row"><button class="btn primary" id="fixSave">Guardar correcciones</button></div>
+          </div>`).join("") : '<p class="muted">Sin capturas sincronizadas todavía.</p>'}</div>
+
+        <h4 style="margin:1.2rem 0 .3rem">Rutas quemadas (el 1er Pokémon murió o huyó)</h4>
+        <p class="muted" style="font-size:.82rem;margin:0 0 .5rem">El save no guarda los salvajes que matas. Marca aquí las rutas donde perdiste el primer encuentro (puedes anotar la especie).</p>
+        <div>${(CFG.routes||[]).map((r)=>{ const o=ro[r.id]||{}; return `
+          <div class="ed-mon" style="display:flex;gap:.5rem;align-items:center;flex-wrap:wrap">
+            <span style="min-width:150px">${escapeHtml(r.name)}</span>
+            <select class="input ro-sel" data-slug="${r.id}" style="max-width:160px;margin-left:auto">
+              <option value=""${!o.status?" selected":""}>(auto)</option>
+              <option value="dead"${o.status==="dead"?" selected":""}>Murió el primero</option>
+              <option value="fled"${o.status==="fled"?" selected":""}>Huyó el primero</option>
+            </select>
+            <input class="input ro-sp" data-slug="${r.id}" value="${escapeHtml(o.species||"")}" placeholder="especie (opcional)" style="max-width:150px">
+          </div>`; }).join("")}</div>
+
+        <div class="btn-row" style="margin-top:.8rem"><button class="btn primary" id="fixSave">Guardar correcciones</button></div>
         <div id="fixMsg" style="font-size:.85rem;min-height:1.2rem;margin-top:.4rem"></div>
       </div>`;
       document.getElementById("fixToken").addEventListener("change", e=>localStorage.setItem("anil_admin_token", e.target.value.trim()));
@@ -447,6 +463,9 @@
       if(!token){ msg.style.color="var(--bad)"; msg.textContent="Pega tu token de GitHub."; return; }
       const ovs = [];
       document.querySelectorAll("#tab-fixes .fix-sel").forEach(s=>{ if(s.value){ const o={species:s.dataset.sp, category:s.value}; if(s.dataset.where) o.where=s.dataset.where; ovs.push(o); } });
+      // rutas quemadas
+      const outcomes = {};
+      document.querySelectorAll("#tab-fixes .ro-sel").forEach(s=>{ if(s.value){ const slug=s.dataset.slug; const sp=(document.querySelector(`#tab-fixes .ro-sp[data-slug="${slug}"]`)||{}).value||""; outcomes[slug]={status:s.value}; if(sp.trim()) outcomes[slug].species=sp.trim(); } });
       const r = repoInfo(); const path = `/repos/${r.owner}/${r.name}/contents/data/config.json`;
       msg.style.color="var(--text-muted)"; msg.textContent="Guardando…";
       for(let i=0;i<4;i++){
@@ -456,8 +475,10 @@
         let cfg; try { cfg = JSON.parse(unb64utf8(get.body.content.replace(/\n/g,""))); } catch(e){ msg.style.color="var(--bad)"; msg.textContent="config ilegible."; return; }
         cfg.captureOverrides = cfg.captureOverrides || {};
         if(ovs.length) cfg.captureOverrides[currentId] = ovs; else delete cfg.captureOverrides[currentId];
-        const put = await gh("PUT", path, token, { message:"correcciones de capturas "+currentId, content:b64utf8(JSON.stringify(cfg,null,2)), branch:r.branch, sha:get.body.sha });
-        if(put.status===200||put.status===201){ CFG=cfg; msg.style.color="var(--ok)"; msg.textContent="✓ Guardado ("+ovs.length+" correcciones). Se verá en la web en ~1 min."; return; }
+        cfg.routeOutcomes = cfg.routeOutcomes || {};
+        if(Object.keys(outcomes).length) cfg.routeOutcomes[currentId] = outcomes; else delete cfg.routeOutcomes[currentId];
+        const put = await gh("PUT", path, token, { message:"correcciones "+currentId, content:b64utf8(JSON.stringify(cfg,null,2)), branch:r.branch, sha:get.body.sha });
+        if(put.status===200||put.status===201){ CFG=cfg; msg.style.color="var(--ok)"; msg.textContent="✓ Guardado ("+ovs.length+" capturas, "+Object.keys(outcomes).length+" rutas). Se verá en la web en ~1 min."; return; }
         if(put.status===409||put.status===422) continue;
         msg.style.color="var(--bad)"; msg.textContent="Error al guardar ("+put.status+")."; return;
       }

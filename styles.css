@@ -294,6 +294,7 @@ img.player-avatar.xl { padding: 6px; }
 
 /* fila de ruta con 2+ capturas (posible captura extra sin justificar) */
 .cap-multi td { background: var(--bad-bg); }
+.cap-burned td { background: var(--warn-bg); }
 
 /* medallas */
 .medals { display: flex; gap: .2rem; flex-wrap: wrap; align-items: center; }
