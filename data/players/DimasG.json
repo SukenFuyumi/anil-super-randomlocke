@@ -4,10 +4,10 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 4h 7m jugadas · 43,630₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 4h 15m jugadas · 43,630₽ · vidas en el juego: ?",
   "team": [
     {
-      "nickname": "Pyukumuku",
+      "nickname": "Pinchos",
       "species": "Pyukumuku",
       "level": 25,
       "types": [
@@ -407,7 +407,7 @@
       "route": "ruta_5",
       "where": "Ruta 5",
       "species": "Pyukumuku",
-      "nickname": "",
+      "nickname": "Pinchos",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
