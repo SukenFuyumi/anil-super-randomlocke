@@ -4,12 +4,87 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 3h 18m jugadas · 73,700₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 40m jugadas · 83,010₽ · vidas en el juego: ?",
   "team": [
+    {
+      "nickname": "CFE",
+      "species": "Graveler (Alola)",
+      "level": 30,
+      "types": [
+        "Roca",
+        "Eléctrico"
+      ],
+      "ability": "Francotirador",
+      "nature": "Modesta",
+      "item": "Garra Afilada",
+      "shiny": false,
+      "moves": [
+        "Llama Protectora",
+        "Pikaturbo",
+        "Puño Furia",
+        "Puño Bala"
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10110.png"
+    },
+    {
+      "nickname": "Cobblemon",
+      "species": "Naclstack",
+      "level": 30,
+      "types": [
+        "Roca"
+      ],
+      "ability": "Anticipación",
+      "nature": "Pícara",
+      "item": "Mineral Evol",
+      "shiny": false,
+      "moves": [
+        "Golpe Calor",
+        "Salazón",
+        "Superdiente",
+        "Roca Veloz"
+      ]
+    },
+    {
+      "nickname": "Polla",
+      "species": "Staravia",
+      "level": 30,
+      "types": [
+        "Normal",
+        "Volador"
+      ],
+      "ability": "Escudo Recio",
+      "nature": "Seria",
+      "item": "Baya Zidra",
+      "shiny": false,
+      "moves": [
+        "Psicocorte",
+        "Corpulencia",
+        "Agarrón",
+        "Picotazo"
+      ]
+    },
+    {
+      "nickname": "Miguelito",
+      "species": "Thwackey",
+      "level": 30,
+      "types": [
+        "Planta"
+      ],
+      "ability": "Velo Agua",
+      "nature": "Audaz",
+      "item": "Cinta Elección",
+      "shiny": false,
+      "moves": [
+        "Pikaturbo",
+        "Colmillo Ígneo",
+        "Terratemblor",
+        "Agarrón"
+      ]
+    },
     {
       "nickname": "Peter",
       "species": "Araquanid",
-      "level": 26,
+      "level": 30,
       "types": [
         "Agua",
         "Bicho"
@@ -28,7 +103,7 @@
     {
       "nickname": "Dr Pepper",
       "species": "Alakazam",
-      "level": 25,
+      "level": 30,
       "types": [
         "Psíquico"
       ],
@@ -42,81 +117,6 @@
         "Psicorrayo",
         "Tóxico"
       ]
-    },
-    {
-      "nickname": "Polla",
-      "species": "Staravia",
-      "level": 24,
-      "types": [
-        "Normal",
-        "Volador"
-      ],
-      "ability": "Escudo Recio",
-      "nature": "Seria",
-      "item": "Tubérculo",
-      "shiny": false,
-      "moves": [
-        "Psicocorte",
-        "Corpulencia",
-        "Agarrón",
-        "Picotazo"
-      ]
-    },
-    {
-      "nickname": "Miguelito",
-      "species": "Thwackey",
-      "level": 24,
-      "types": [
-        "Planta"
-      ],
-      "ability": "Velo Agua",
-      "nature": "Audaz",
-      "item": "Cinta Elección",
-      "shiny": false,
-      "moves": [
-        "Pikaturbo",
-        "Colmillo Ígneo",
-        "Terratemblor",
-        "Agarrón"
-      ]
-    },
-    {
-      "nickname": "Cobblemon",
-      "species": "Naclstack",
-      "level": 24,
-      "types": [
-        "Roca"
-      ],
-      "ability": "Anticipación",
-      "nature": "Pícara",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Golpe Calor",
-        "Terratemblor",
-        "Superdiente",
-        "Sorpresa"
-      ]
-    },
-    {
-      "nickname": "CFE",
-      "species": "Graveler (Alola)",
-      "level": 26,
-      "types": [
-        "Roca",
-        "Eléctrico"
-      ],
-      "ability": "Francotirador",
-      "nature": "Modesta",
-      "item": "Garra Afilada",
-      "shiny": false,
-      "moves": [
-        "Llama Protectora",
-        "Pikaturbo",
-        "Puño Furia",
-        "Puño Bala"
-      ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10110.png"
     }
   ],
   "box": [
@@ -157,22 +157,22 @@
       ]
     },
     {
-      "nickname": "Huevona",
-      "species": "Jigglypuff",
+      "nickname": "Croagunk",
+      "species": "Croagunk",
       "level": 17,
       "types": [
-        "Normal",
-        "Hada"
+        "Veneno",
+        "Lucha"
       ],
-      "ability": "Quitanieves",
-      "nature": "Tímida",
+      "ability": "Manto Níveo",
+      "nature": "Floja",
       "item": "",
       "shiny": false,
       "moves": [
-        "Escudo Tatami",
-        "Deslome",
-        "Mundo Gélido",
-        "Desarrollo"
+        "Deseo Cura",
+        "Ataque Ala",
+        "Onda Vacío",
+        "Poder Reserva"
       ]
     },
     {
@@ -395,31 +395,50 @@
         "Alarido",
         "Bucle Arena"
       ]
+    },
+    {
+      "nickname": "Cheto",
+      "species": "Togedemaru",
+      "level": 22,
+      "types": [
+        "Eléctrico",
+        "Acero"
+      ],
+      "ability": "Albinismo",
+      "nature": "Grosera",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Fría Acogida",
+        "Deseo Cura",
+        "Poder Místico",
+        "Aguzar"
+      ]
     }
   ],
   "graveyard": [],
   "captures": [
     {
-      "route": "ruta_1",
-      "where": "Ruta 1",
-      "species": "Araquanid",
-      "nickname": "Peter",
+      "route": "monte_moon",
+      "where": "Monte Moon",
+      "species": "Graveler",
+      "nickname": "CFE",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 5,
-      "mon": "Araquanid"
+      "level": 14,
+      "mon": "Graveler"
     },
     {
       "route": "",
-      "where": "Monte Moon",
-      "species": "Alakazam",
-      "nickname": "Dr Pepper",
+      "where": "Museo Pokémon",
+      "species": "Naclstack",
+      "nickname": "Cobblemon",
       "shiny": false,
       "status": "captured",
-      "category": "intercambio",
-      "level": 11,
-      "mon": "Alakazam"
+      "category": "estatico_regalo",
+      "level": 1,
+      "mon": "Naclstack"
     },
     {
       "route": "ciudad_plateada",
@@ -444,26 +463,26 @@
       "mon": "Thwackey"
     },
     {
-      "route": "",
-      "where": "Museo Pokémon",
-      "species": "Naclstack",
-      "nickname": "Cobblemon",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 1,
-      "mon": "Naclstack"
-    },
-    {
-      "route": "monte_moon",
-      "where": "Monte Moon",
-      "species": "Graveler",
-      "nickname": "CFE",
+      "route": "ruta_1",
+      "where": "Ruta 1",
+      "species": "Araquanid",
+      "nickname": "Peter",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 14,
-      "mon": "Graveler"
+      "level": 5,
+      "mon": "Araquanid"
+    },
+    {
+      "route": "",
+      "where": "Monte Moon",
+      "species": "Alakazam",
+      "nickname": "Dr Pepper",
+      "shiny": false,
+      "status": "captured",
+      "category": "intercambio",
+      "level": 11,
+      "mon": "Alakazam"
     },
     {
       "route": "ruta_2_norte",
@@ -488,15 +507,15 @@
       "mon": "Luxio"
     },
     {
-      "route": "ruta_4",
-      "where": "Ruta 4",
-      "species": "Jigglypuff",
-      "nickname": "Huevona",
+      "route": "",
+      "where": "S.S Anne",
+      "species": "Croagunk",
+      "nickname": "",
       "shiny": false,
       "status": "captured",
-      "category": "salvaje",
+      "category": "intercambio",
       "level": 17,
-      "mon": "Jigglypuff"
+      "mon": "Croagunk"
     },
     {
       "route": "bosque_verde",
@@ -629,6 +648,17 @@
       "category": "ciudad",
       "level": 3,
       "mon": "Shellos"
+    },
+    {
+      "route": "ciudad_carmin",
+      "where": "Ciudad Carmín",
+      "species": "Togedemaru",
+      "nickname": "Cheto",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 22,
+      "mon": "Togedemaru"
     }
   ],
   "progress": {
@@ -639,12 +669,11 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_1": true,
-      "ciudad_plateada": true,
       "monte_moon": true,
+      "ciudad_plateada": true,
+      "ruta_1": true,
       "ruta_2_norte": true,
       "ruta_5": true,
-      "ruta_4": true,
       "bosque_verde": true,
       "ruta_3": true,
       "ruta_6": true,
@@ -653,9 +682,10 @@
       "ruta_20": true,
       "ruta_2_sur": true,
       "pueblo_paleta": true,
+      "ciudad_carmin": true,
       "ciudad_verde": true,
       "ruta_22": true,
-      "ciudad_carmin": true,
+      "ruta_4": true,
       "ruta_21": true
     },
     "items": {}
