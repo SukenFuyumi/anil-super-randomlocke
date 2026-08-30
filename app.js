@@ -466,6 +466,7 @@ async function openMonPopup(mon, ctx = {}) {
       <div class="pm-col">
         <div class="pm-k">Estadísticas base</div>
         ${statsHtml || '<p class="muted">Sin datos de estadísticas.</p>'}
+        ${evoHtml ? `<div class="pm-evo"><div class="pm-k">Evolución</div>${evoHtml}</div>` : ""}
       </div>
       <div class="pm-col">
         <div class="pm-tworow">
@@ -477,7 +478,6 @@ async function openMonPopup(mon, ctx = {}) {
         <div class="pm-field"><div class="pm-k">Movimientos <span class="muted">· clic para ver qué hacen</span></div>
           <div class="pm-moves">${movesHtml || '<span class="muted">—</span>'}</div></div>
         <div class="pm-detail show" id="pmDetail"><p class="pm-detail-hint">Toca una habilidad o un movimiento para ver qué hace.</p></div>
-        ${evoHtml ? `<div class="pm-evo"><div class="pm-k">Evolución</div>${evoHtml}</div>` : ""}
       </div>
     </div>
     ${(recuerdaHref || href) ? `<div class="pm-foot">${recuerdaHref ? `<a href="${recuerdaHref}">Ver recuerda movimientos →</a>` : ""}${href ? `<a href="${href}">Ver ficha completa en la Pokédex →</a>` : ""}</div>` : ""}
