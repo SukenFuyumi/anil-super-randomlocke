@@ -37,7 +37,7 @@
       // ---- Stats globales ----
       let totalAlive = 0, totalDead = 0, gymsCleared = 0, champs = 0;
       players.forEach((p) => {
-        const s = playerStats(p.data);
+        const s = playerStats(p.data, p.revividos);
         totalAlive += s.alive; totalDead += s.dead;
         gymsCleared += Object.values(p.data.progress?.gyms || {}).filter(Boolean).length;
         if (p.data.champion) champs++;
@@ -54,7 +54,7 @@
         grid.innerHTML = `<p class="empty-state">Aún no hay jugadores. Cada participante aparece aquí automáticamente en cuanto ejecuta el programa <strong>AnilSync</strong> y guarda su partida.</p>`;
       } else
       grid.innerHTML = players.map((p) => {
-        const s = playerStats(p.data);
+        const s = playerStats(p.data, p.revividos);
         const pct = Math.round((s.livesLeft / s.lives) * 100);
         const cls = pct <= 20 ? "crit" : pct <= 50 ? "low" : "";
         const medals = Object.values(p.data.progress?.gyms || {}).filter(Boolean).length;

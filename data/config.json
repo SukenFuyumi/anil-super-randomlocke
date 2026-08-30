@@ -39,7 +39,8 @@
     {
       "id": "Copy",
       "name": "Copygor03",
-      "avatar": "assets/avatars/may.png"
+      "avatar": "assets/avatars/may.png",
+      "revividos": 1
     },
     {
       "id": "DeathGun89",

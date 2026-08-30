@@ -31,7 +31,7 @@
       const data = (await loadPlayer(id)) || emptyPlayerData(meta);
       const dispName = meta.displayName || data.name || meta.name;
       document.title = dispName + " · Randomlocke";
-      const s = playerStats(data);
+      const s = playerStats(data, meta.revividos);
       const pct = Math.round((s.livesLeft / s.lives) * 100);
       const barCls = pct <= 20 ? "crit" : pct <= 50 ? "low" : "";
       const avSrc = data.avatar || meta.avatar;
@@ -51,7 +51,7 @@
               ${avatar}
               <div>
                 <h1 style="margin:0">${escapeHtml(dispName)} ${data.champion ? championBadge(26) : ""}</h1>
-                <div class="muted">${s.eliminated ? "Eliminado (sin vidas)" : "En juego"} · ${gymDone}/${gymTotal} medallas ${data._local ? '· <span class="pill warn">borrador local sin publicar</span>' : ""}</div>
+                <div class="muted">${s.eliminated ? "Eliminado (sin vidas)" : "En juego"} · ${gymDone}/${gymTotal} medallas ${s.revived ? `· <span title="Revividos con Ceniza Sagrada: la vida sigue gastada">${faintIcon(13)} ${s.revived} revivido${s.revived > 1 ? "s" : ""} con ceniza</span>` : ""} ${data._local ? '· <span class="pill warn">borrador local sin publicar</span>' : ""}</div>
               </div>
             </div>
           </div>
