@@ -4,234 +4,8 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 7h 8m jugadas · 102,620₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 7h 11m jugadas · 109,820₽ · vidas en el juego: -1",
   "team": [
-    {
-      "nickname": "DUNAS",
-      "species": "Brambleghast",
-      "level": 39,
-      "types": [
-        "Planta",
-        "Fantasma"
-      ],
-      "ability": "Electromotor",
-      "nature": "Ingenua",
-      "item": "Chaleco Asalto",
-      "shiny": false,
-      "moves": [
-        "Cólera Ardiente",
-        "Sombra Vil",
-        "Veneno X",
-        "Tajo Umbrío"
-      ],
-      "iv": [
-        20,
-        8,
-        20,
-        16,
-        25,
-        31
-      ],
-      "ev": [
-        10,
-        25,
-        14,
-        16,
-        11,
-        23
-      ],
-      "abilPool": [
-        "Electromotor"
-      ],
-      "abilHidden": [
-        "Cuerpo Áureo"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Abatidoras"
-        },
-        {
-          "lvl": 1,
-          "m": "Vendetta"
-        },
-        {
-          "lvl": 1,
-          "m": "Brinco"
-        },
-        {
-          "lvl": 5,
-          "m": "Rodar"
-        },
-        {
-          "lvl": 9,
-          "m": "Profecía"
-        },
-        {
-          "lvl": 13,
-          "m": "Extracto Picante"
-        },
-        {
-          "lvl": 17,
-          "m": "Señuelo"
-        },
-        {
-          "lvl": 21,
-          "m": "Sellar"
-        },
-        {
-          "lvl": 25,
-          "m": "Hilo Venenoso"
-        },
-        {
-          "lvl": 29,
-          "m": "Fanfarronear"
-        },
-        {
-          "lvl": 35,
-          "m": "Golpe Fantasma"
-        },
-        {
-          "lvl": 38,
-          "m": "Cólera Ardiente"
-        },
-        {
-          "lvl": 40,
-          "m": "Puntapié"
-        },
-        {
-          "lvl": 45,
-          "m": "Marcha Espectral"
-        },
-        {
-          "lvl": 50,
-          "m": "Cometa Draco"
-        },
-        {
-          "lvl": 55,
-          "m": "Bola Sombra"
-        }
-      ]
-    },
-    {
-      "nickname": "DREAMS",
-      "species": "Hypno",
-      "level": 39,
-      "types": [
-        "Psíquico"
-      ],
-      "ability": "Trampa Arena",
-      "nature": "Huraña",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Luz Aniquiladora",
-        "Marcha Espectral",
-        "Conjuro Funesto",
-        "Tajo Umbrío"
-      ],
-      "iv": [
-        13,
-        24,
-        30,
-        7,
-        12,
-        30
-      ],
-      "ev": [
-        5,
-        20,
-        11,
-        14,
-        10,
-        19
-      ],
-      "abilPool": [
-        "Trampa Arena",
-        "Ignífugo"
-      ],
-      "abilHidden": [
-        "Torrente"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Sorpresa"
-        },
-        {
-          "lvl": 1,
-          "m": "Isoguardia"
-        },
-        {
-          "lvl": 1,
-          "m": "Confusión"
-        },
-        {
-          "lvl": 1,
-          "m": "Cornada"
-        },
-        {
-          "lvl": 1,
-          "m": "Chulería"
-        },
-        {
-          "lvl": 1,
-          "m": "Ascuas"
-        },
-        {
-          "lvl": 13,
-          "m": "Divide Dolor"
-        },
-        {
-          "lvl": 17,
-          "m": "Copión"
-        },
-        {
-          "lvl": 21,
-          "m": "Follaje"
-        },
-        {
-          "lvl": 21,
-          "m": "Bofetón Lodo"
-        },
-        {
-          "lvl": 25,
-          "m": "Hoja Mágica"
-        },
-        {
-          "lvl": 29,
-          "m": "Absorber"
-        },
-        {
-          "lvl": 32,
-          "m": "Terratemblor"
-        },
-        {
-          "lvl": 37,
-          "m": "Conjuro Funesto"
-        },
-        {
-          "lvl": 37,
-          "m": "Luz Aniquiladora"
-        },
-        {
-          "lvl": 42,
-          "m": "Intercambio"
-        },
-        {
-          "lvl": 47,
-          "m": "Hierba Lazo"
-        },
-        {
-          "lvl": 51,
-          "m": "Premonición"
-        },
-        {
-          "lvl": 56,
-          "m": "Nitrochoque"
-        }
-      ]
-    },
     {
       "nickname": "AL",
       "species": "Sudowoodo",
@@ -259,11 +33,11 @@
       ],
       "ev": [
         7,
-        23,
-        12,
+        25,
+        18,
         16,
         11,
-        22
+        24
       ],
       "abilPool": [
         "Chorro Arena",
@@ -364,6 +138,232 @@
       ]
     },
     {
+      "nickname": "DREAMS",
+      "species": "Hypno",
+      "level": 39,
+      "types": [
+        "Psíquico"
+      ],
+      "ability": "Trampa Arena",
+      "nature": "Huraña",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Luz Aniquiladora",
+        "Marcha Espectral",
+        "Conjuro Funesto",
+        "Tajo Umbrío"
+      ],
+      "iv": [
+        13,
+        24,
+        30,
+        7,
+        12,
+        30
+      ],
+      "ev": [
+        5,
+        22,
+        17,
+        14,
+        10,
+        21
+      ],
+      "abilPool": [
+        "Trampa Arena",
+        "Ignífugo"
+      ],
+      "abilHidden": [
+        "Torrente"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Sorpresa"
+        },
+        {
+          "lvl": 1,
+          "m": "Isoguardia"
+        },
+        {
+          "lvl": 1,
+          "m": "Confusión"
+        },
+        {
+          "lvl": 1,
+          "m": "Cornada"
+        },
+        {
+          "lvl": 1,
+          "m": "Chulería"
+        },
+        {
+          "lvl": 1,
+          "m": "Ascuas"
+        },
+        {
+          "lvl": 13,
+          "m": "Divide Dolor"
+        },
+        {
+          "lvl": 17,
+          "m": "Copión"
+        },
+        {
+          "lvl": 21,
+          "m": "Follaje"
+        },
+        {
+          "lvl": 21,
+          "m": "Bofetón Lodo"
+        },
+        {
+          "lvl": 25,
+          "m": "Hoja Mágica"
+        },
+        {
+          "lvl": 29,
+          "m": "Absorber"
+        },
+        {
+          "lvl": 32,
+          "m": "Terratemblor"
+        },
+        {
+          "lvl": 37,
+          "m": "Conjuro Funesto"
+        },
+        {
+          "lvl": 37,
+          "m": "Luz Aniquiladora"
+        },
+        {
+          "lvl": 42,
+          "m": "Intercambio"
+        },
+        {
+          "lvl": 47,
+          "m": "Hierba Lazo"
+        },
+        {
+          "lvl": 51,
+          "m": "Premonición"
+        },
+        {
+          "lvl": 56,
+          "m": "Nitrochoque"
+        }
+      ]
+    },
+    {
+      "nickname": "DUNAS",
+      "species": "Brambleghast",
+      "level": 39,
+      "types": [
+        "Planta",
+        "Fantasma"
+      ],
+      "ability": "Electromotor",
+      "nature": "Ingenua",
+      "item": "Chaleco Asalto",
+      "shiny": false,
+      "moves": [
+        "Cólera Ardiente",
+        "Sombra Vil",
+        "Veneno X",
+        "Tajo Umbrío"
+      ],
+      "iv": [
+        20,
+        8,
+        20,
+        16,
+        25,
+        31
+      ],
+      "ev": [
+        10,
+        27,
+        20,
+        16,
+        11,
+        25
+      ],
+      "abilPool": [
+        "Electromotor"
+      ],
+      "abilHidden": [
+        "Cuerpo Áureo"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Abatidoras"
+        },
+        {
+          "lvl": 1,
+          "m": "Vendetta"
+        },
+        {
+          "lvl": 1,
+          "m": "Brinco"
+        },
+        {
+          "lvl": 5,
+          "m": "Rodar"
+        },
+        {
+          "lvl": 9,
+          "m": "Profecía"
+        },
+        {
+          "lvl": 13,
+          "m": "Extracto Picante"
+        },
+        {
+          "lvl": 17,
+          "m": "Señuelo"
+        },
+        {
+          "lvl": 21,
+          "m": "Sellar"
+        },
+        {
+          "lvl": 25,
+          "m": "Hilo Venenoso"
+        },
+        {
+          "lvl": 29,
+          "m": "Fanfarronear"
+        },
+        {
+          "lvl": 35,
+          "m": "Golpe Fantasma"
+        },
+        {
+          "lvl": 38,
+          "m": "Cólera Ardiente"
+        },
+        {
+          "lvl": 40,
+          "m": "Puntapié"
+        },
+        {
+          "lvl": 45,
+          "m": "Marcha Espectral"
+        },
+        {
+          "lvl": 50,
+          "m": "Cometa Draco"
+        },
+        {
+          "lvl": 55,
+          "m": "Bola Sombra"
+        }
+      ]
+    },
+    {
       "nickname": "DERP INVERSO",
       "species": "Clodsire",
       "level": 39,
@@ -391,11 +391,11 @@
       ],
       "ev": [
         5,
-        20,
-        11,
+        22,
+        17,
         14,
         10,
-        19
+        21
       ],
       "abilPool": [
         "Viscosecreción",
@@ -487,11 +487,11 @@
       ],
       "ev": [
         22,
-        41,
-        32,
+        43,
+        38,
         42,
         20,
-        42
+        44
       ],
       "abilPool": [
         "Filtro",
@@ -611,11 +611,11 @@
       ],
       "ev": [
         18,
-        79,
-        20,
+        81,
+        26,
         29,
         16,
-        33
+        35
       ],
       "abilPool": [
         "Trampa Arena",
@@ -3008,15 +3008,15 @@
   ],
   "captures": [
     {
-      "route": "bosque_verde",
-      "where": "Bosque Verde",
-      "species": "Brambleghast",
-      "nickname": "DUNAS",
+      "route": "ruta_2_norte",
+      "where": "Ruta 2 Norte",
+      "species": "Sudowoodo",
+      "nickname": "AL",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 7,
-      "mon": "Brambleghast"
+      "level": 8,
+      "mon": "Sudowoodo"
     },
     {
       "route": "ruta_5",
@@ -3030,15 +3030,15 @@
       "mon": "Hypno"
     },
     {
-      "route": "ruta_2_norte",
-      "where": "Ruta 2 Norte",
-      "species": "Sudowoodo",
-      "nickname": "AL",
+      "route": "bosque_verde",
+      "where": "Bosque Verde",
+      "species": "Brambleghast",
+      "nickname": "DUNAS",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 8,
-      "mon": "Sudowoodo"
+      "level": 7,
+      "mon": "Brambleghast"
     },
     {
       "route": "tunel_diglett",
@@ -3336,9 +3336,9 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "bosque_verde": true,
-      "ruta_5": true,
       "ruta_2_norte": true,
+      "ruta_5": true,
+      "bosque_verde": true,
       "tunel_diglett": true,
       "ruta_2_sur": true,
       "monte_moon": true,
