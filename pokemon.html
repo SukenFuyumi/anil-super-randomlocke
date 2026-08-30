@@ -112,7 +112,7 @@
               <div class="pk-facts">
                 <div class="f"><div class="k">Altura</div><div class="v">${p.h != null ? p.h + " m" : "—"}</div></div>
                 <div class="f"><div class="k">Peso</div><div class="v">${p.w != null ? p.w + " kg" : "—"}</div></div>
-                <div class="f"><div class="k">Habilidades</div><div class="v">${(p.ab || []).map(escapeHtml).join(", ")}${p.abh ? ` · <span class="muted">${escapeHtml(p.abh)} (oculta)</span>` : ""}</div></div>
+                <div class="f"><div class="k">Habilidades</div><div class="v">${(p.ab || []).map(escapeHtml).join(", ")}${(Array.isArray(p.abh) ? p.abh : p.abh ? [p.abh] : []).map((h) => ` · <span class="muted">${escapeHtml(h)} (oculta)</span>`).join("")}</div></div>
               </div>
             </div>
           </div>

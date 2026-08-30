@@ -23,6 +23,14 @@ const speciesTypes = sym => TYPES[norm(sym)] || [];
 const abilityName = sym => sym ? (ABILITIES_ES[norm(sym)] || pretty(sym)) : '';
 const itemName = sym => sym ? (ITEMS_ES[norm(sym)] || pretty(sym)) : '';
 
+// Convierte un hash de stats del save ({HP,ATTACK,...}) al orden [PS,Atk,Def,SpA,SpD,Vel]
+const STAT_KEYS = ['HP', 'ATTACK', 'DEFENSE', 'SPECIAL_ATTACK', 'SPECIAL_DEFENSE', 'SPEED'];
+function statArr(h) {
+  if (!h || !h.__isHash) return null;
+  const g = k => { for (const [kk, vv] of h.entries()) if (sname(kk) === k) return vv; return 0; };
+  return STAT_KEYS.map(g);
+}
+
 function mon(p) {
   const species = sname(iv(p, '@species'));
   const nick = sname(iv(p, '@name'));
@@ -40,6 +48,9 @@ function mon(p) {
     shiny: !!iv(p, '@shiny'),
     moves,
   };
+  const ivArr = statArr(iv(p, '@iv')), evArr = statArr(iv(p, '@ev'));
+  if (ivArr) out.iv = ivArr;
+  if (evArr) out.ev = evArr;
   if (fd && fd.spriteId) out.sprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${fd.spriteId}.png`;
   return out;
 }

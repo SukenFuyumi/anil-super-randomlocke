@@ -407,3 +407,62 @@ img.player-avatar.xl { padding: 6px; }
   opacity: 0; transition: opacity .2s, transform .2s; pointer-events: none;
 }
 .toast.show { opacity: 1; transform: translateX(-50%) translateY(-4px); }
+
+/* ---------- Popup de ficha de Pokémon ---------- */
+.mon-open { cursor: pointer; }
+.pm-overlay { position: fixed; inset: 0; background: #0009; display: none; align-items: flex-start; justify-content: center; z-index: 1000; padding: 1.5rem 1rem; overflow-y: auto; }
+.pm-overlay.show { display: flex; }
+.pm-modal { position: relative; background: var(--panel); border: 1px solid var(--border); border-radius: 14px; width: min(720px, 100%); box-shadow: 0 12px 40px #0006; padding: 1.2rem; margin: auto; }
+.pm-close { position: absolute; top: .6rem; right: .6rem; width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--border); background: var(--subtle-bg); color: var(--text); cursor: pointer; font-size: 1rem; line-height: 1; }
+.pm-close:hover { background: var(--bad); color: #fff; }
+.pm-head { display: flex; gap: 1rem; align-items: center; margin-bottom: 1rem; }
+.pm-art { width: 110px; height: 110px; flex: none; display: flex; align-items: center; justify-content: center; background: var(--subtle-bg); border-radius: 50%; }
+.pm-art img { width: 100px; height: 100px; object-fit: contain; image-rendering: pixelated; }
+.pm-nick { font-size: 1.4rem; font-weight: 800; }
+.pm-species { font-size: .9rem; margin: .1rem 0 .4rem; }
+.pm-types { display: flex; gap: .35rem; flex-wrap: wrap; }
+.pm-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
+@media (max-width: 620px) { .pm-grid { grid-template-columns: 1fr; } .pm-head { flex-direction: column; text-align: center; } }
+.pm-stats { width: 100%; border-collapse: collapse; font-size: .82rem; }
+.pm-stats th { color: var(--text-muted); font-size: .62rem; text-transform: uppercase; letter-spacing: .04em; text-align: right; padding: 0 .2rem .2rem; font-weight: 700; }
+.pm-stats th:first-child { text-align: left; }
+.pm-slbl { color: var(--text-muted); padding: .12rem .3rem .12rem 0; white-space: nowrap; }
+.pm-sval { text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; padding-right: .4rem; }
+.pm-sbarcell { width: 45%; }
+.pm-bar { display: block; height: 9px; border-radius: 999px; background: var(--subtle-bg); overflow: hidden; }
+.pm-bar > span { display: block; height: 100%; }
+.pm-iv, .pm-ev { text-align: right; font-variant-numeric: tabular-nums; color: var(--text-muted); padding-left: .5rem; }
+.pm-total .pm-slbl, .pm-total .pm-sval { font-weight: 800; color: var(--text); border-top: 1px solid var(--border); padding-top: .25rem; }
+.pm-field { margin-bottom: .75rem; }
+.pm-k { font-size: .62rem; text-transform: uppercase; letter-spacing: .04em; color: var(--text-muted); margin-bottom: .25rem; font-weight: 700; }
+.pm-up { color: var(--ok); font-weight: 700; font-size: .8rem; }
+.pm-down { color: var(--bad); font-weight: 700; font-size: .8rem; }
+.pm-abils, .pm-moves { display: flex; flex-wrap: wrap; gap: .35rem; }
+.pm-abil { display: inline-flex; align-items: center; gap: .35rem; border: 1px solid var(--border); background: var(--subtle-bg); color: var(--text-muted); border-radius: 999px; padding: .2rem .6rem; font-size: .78rem; cursor: pointer; }
+.pm-abil .pm-abil-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--text-muted); flex: none; }
+.pm-abil.cur { color: var(--text); font-weight: 700; border-color: var(--accent); background: color-mix(in srgb, var(--accent) 14%, var(--panel)); }
+.pm-abil.cur .pm-abil-dot { background: var(--accent); }
+.pm-abil[disabled] { cursor: default; opacity: .7; }
+.pm-abil.sel { outline: 2px solid var(--accent); }
+.pm-hid { font-size: .6rem; text-transform: uppercase; color: var(--warn); font-weight: 700; }
+.pm-move { display: inline-flex; align-items: center; gap: .4rem; border: none; border-left: 4px solid var(--mt); background: var(--subtle-bg); color: var(--text); border-radius: 6px; padding: .3rem .55rem; font-size: .82rem; font-weight: 600; cursor: pointer; }
+.pm-move:hover { background: color-mix(in srgb, var(--mt) 18%, var(--subtle-bg)); }
+.pm-move.sel { outline: 2px solid var(--mt); }
+.pm-move-cat { font-size: .58rem; text-transform: uppercase; color: var(--text-muted); }
+.pm-detail { display: none; margin-top: .6rem; border: 1px solid var(--border); border-radius: 8px; padding: .6rem .7rem; background: var(--subtle-bg); }
+.pm-detail.show { display: block; }
+.pm-detail-head { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; margin-bottom: .35rem; }
+.pm-chip { font-size: .62rem; text-transform: uppercase; font-weight: 700; color: var(--text-muted); border: 1px solid var(--border); border-radius: 999px; padding: .05rem .45rem; }
+.pm-detail-stats { display: flex; gap: 1rem; font-size: .78rem; color: var(--text-muted); margin-bottom: .35rem; }
+.pm-detail-stats b { color: var(--text); }
+.pm-detail-desc { font-size: .84rem; margin: 0; line-height: 1.4; }
+.pm-foot { margin-top: 1rem; text-align: right; }
+.pm-foot a { font-weight: 700; font-size: .85rem; }
+
+/* ---------- Wikis de movimientos / habilidades ---------- */
+.wiki-list { display: flex; flex-direction: column; gap: .4rem; margin-top: 1rem; }
+.wiki-row { display: grid; grid-template-columns: 1fr auto; gap: .4rem 1rem; align-items: center; background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: .55rem .8rem; }
+.wiki-row .wr-name { font-weight: 700; }
+.wiki-row .wr-desc { grid-column: 1 / -1; font-size: .82rem; color: var(--text-muted); line-height: 1.35; }
+.wiki-row .wr-meta { display: flex; gap: .5rem; align-items: center; flex-wrap: wrap; font-size: .72rem; color: var(--text-muted); }
+.wiki-row .wr-meta b { color: var(--text); }

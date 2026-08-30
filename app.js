@@ -39,6 +39,8 @@ const NAV = [
   { href: "progresion.html", label: "Progresión" },
   { href: "objetos.html", label: "Objetos" },
   { href: "pokedex.html", label: "Pokédex" },
+  { href: "movimientos.html", label: "Movimientos" },
+  { href: "habilidades.html", label: "Habilidades" },
   { href: "torneos.html", label: "Torneos" },
   { href: "reglas.html", label: "Reglas" },
 ];
@@ -140,6 +142,25 @@ function pokemonHref(speciesOrId) {
   const id = typeof speciesOrId === "number" ? speciesOrId : speciesDexId(speciesOrId);
   return id ? "pokemon.html?id=" + id : null;
 }
+
+/* ---------- Wiki de movimientos / habilidades / formas ---------- */
+let MOVESF = null, ABILITIES = null, FORMSD = null;
+async function loadMovesFull() { if (!MOVESF) MOVESF = (await loadJSON("data/moves.json")) || {}; return MOVESF; }
+async function loadAbilities() { if (!ABILITIES) ABILITIES = (await loadJSON("data/abilities.json")) || {}; return ABILITIES; }
+async function loadForms() { if (!FORMSD) FORMSD = (await loadJSON("data/forms.json")) || {}; return FORMSD; }
+/* datos completos de un movimiento por su nombre (es) */
+function moveInfo(name) { return MOVESF ? MOVESF[normName(name)] || null : null; }
+function abilityInfo(name) { return ABILITIES ? ABILITIES[normName(name)] || null : null; }
+
+/* Naturaleza -> {up, down} en el orden [PS, Ataque, Defensa, At.Esp, Def.Esp, Velocidad]. null = neutra. */
+const NATURE_FX = {
+  Fuerte: null, Dócil: null, Seria: null, Tímida: null, Rara: null,
+  Huraña: { up: 1, down: 2 }, Audaz: { up: 1, down: 5 }, Firme: { up: 1, down: 3 }, Pícara: { up: 1, down: 4 },
+  Osada: { up: 2, down: 1 }, Plácida: { up: 2, down: 5 }, Agitada: { up: 2, down: 3 }, Floja: { up: 2, down: 4 },
+  Miedosa: { up: 5, down: 1 }, Activa: { up: 5, down: 2 }, Alegre: { up: 5, down: 3 }, Ingenua: { up: 5, down: 4 },
+  Modesta: { up: 3, down: 1 }, Afable: { up: 3, down: 2 }, Mansa: { up: 3, down: 5 }, Alocada: { up: 3, down: 4 },
+  Serena: { up: 4, down: 1 }, Amable: { up: 4, down: 2 }, Grosera: { up: 4, down: 5 }, Cauta: { up: 4, down: 3 },
+};
 
 async function loadPlayer(id) {
   // Prioriza datos locales guardados en el editor (borradores no publicados)
@@ -348,6 +369,156 @@ function trainerChecklist(items, doneMap) {
   }).join("")}</div>`;
 }
 
+/* ---------- Popup de ficha de un Pokémon del jugador ---------- */
+const STAT_LBL6 = ["PS", "Ataque", "Defensa", "At. Esp.", "Def. Esp.", "Velocidad"];
+function pkBarColor(v) { return v >= 100 ? "var(--ok)" : v >= 60 ? "var(--accent)" : v >= 35 ? "var(--warn)" : "var(--bad)"; }
+
+/* localiza los datos de forma regional (abilities/tipos) a partir de "Nombre (Región)" */
+function formDataFor(species) {
+  if (!FORMSD || !species) return null;
+  const m = String(species).match(/^(.*?)\s*\(([^)]+)\)\s*$/);
+  if (!m) return null;
+  const base = normName(m[1]), region = normName(m[2]);
+  for (const k in FORMSD) {
+    const f = FORMSD[k];
+    if (normName(k.split("_")[0]) === base && normName(f.region) === region) return f;
+  }
+  return null;
+}
+
+async function openMonPopup(mon) {
+  await Promise.all([loadPokedex(), loadPokedexFull(), loadMovesFull(), loadAbilities(), loadForms()]);
+  const id = speciesDexId(mon.species);
+  const dex = (PDEX && PDEX[id]) || null;
+  const fd = formDataFor(mon.species);
+
+  // Estadísticas base + IV/EV
+  let statsHtml = "";
+  if (dex && dex.st) {
+    const hasIV = Array.isArray(mon.iv), hasEV = Array.isArray(mon.ev);
+    const total = dex.st.reduce((a, b) => a + (b || 0), 0);
+    const rows = STAT_LBL6.map((l, i) => {
+      const v = dex.st[i] || 0;
+      return `<tr><td class="pm-slbl">${l}</td><td class="pm-sval">${v}</td>
+        <td class="pm-sbarcell"><span class="pm-bar"><span style="width:${Math.min(100, v / 2)}%;background:${pkBarColor(v)}"></span></span></td>
+        ${hasIV ? `<td class="pm-iv">${mon.iv[i]}</td>` : ""}${hasEV ? `<td class="pm-ev">${mon.ev[i]}</td>` : ""}</tr>`;
+    }).join("");
+    statsHtml = `<table class="pm-stats"><thead><tr><th></th><th>Base</th><th></th>${hasIV ? "<th>IVs</th>" : ""}${hasEV ? "<th>EVs</th>" : ""}</tr></thead>
+      <tbody>${rows}<tr class="pm-total"><td class="pm-slbl">Total</td><td class="pm-sval">${total}</td><td></td>${hasIV ? "<td></td>" : ""}${hasEV ? "<td></td>" : ""}</tr></tbody></table>`;
+  }
+
+  // Naturaleza
+  const fx = NATURE_FX[mon.nature];
+  const natHtml = mon.nature
+    ? `<b>${escapeHtml(mon.nature)}</b>` + (fx
+        ? ` <span class="pm-up">▲ ${STAT_LBL6[fx.up]}</span> <span class="pm-down">▼ ${STAT_LBL6[fx.down]}</span>`
+        : ` <span class="muted">(sin efecto en stats)</span>`)
+    : "—";
+
+  // Habilidades posibles (aleatoria): marca la que tiene, resto en gris
+  const pool = fd ? (fd.ab || []) : (dex ? (dex.ab || []) : []);
+  const hidden = fd ? (fd.abh || []) : (dex ? (Array.isArray(dex.abh) ? dex.abh : dex.abh ? [dex.abh] : []) : []);
+  const seen = new Set(), abilList = [];
+  const push = (name, isHidden) => { const k = normName(name); if (!name || seen.has(k)) return; seen.add(k); abilList.push({ name, isHidden }); };
+  if (mon.ability) push(mon.ability, false);
+  pool.forEach((a) => push(a, false));
+  hidden.forEach((a) => push(a, true));
+  const abilHtml = abilList.map((a) => {
+    const cur = normName(a.name) === normName(mon.ability);
+    const info = abilityInfo(a.name);
+    return `<button type="button" class="pm-abil${cur ? " cur" : ""}" data-abil="${escapeHtml(a.name)}"${info ? "" : " disabled"}>
+      <span class="pm-abil-dot"></span><span>${escapeHtml(a.name)}${a.isHidden ? ' <span class="pm-hid">oculta</span>' : ""}</span></button>`;
+  }).join("");
+
+  // Movimientos (clic -> descripción)
+  const movesHtml = (mon.moves || []).filter(Boolean).map((m) => {
+    const nm = String(m).split("|")[0].trim();
+    const info = moveInfo(nm);
+    const k = info ? typeKey(info.t) : (moveTypeKey(nm) || "unknown");
+    return `<button type="button" class="pm-move" data-move="${escapeHtml(nm)}" style="--mt:var(--type-${k})">
+      <span>${escapeHtml(nm)}</span>${info ? `<span class="pm-move-cat">${info.cat}</span>` : ""}</button>`;
+  }).join("");
+
+  const types = (fd ? fd.types : mon.types || []).map((t) => typeBadge(t)).join(" ");
+  const href = pokemonHref(mon.species);
+  const spr = mon.sprite || speciesAniSprite(mon.species) || speciesSprite(mon.species);
+
+  const html = `<div class="pm-modal" role="dialog" aria-modal="true">
+    <button type="button" class="pm-close" aria-label="Cerrar" onclick="closeMonPopup()">✕</button>
+    <div class="pm-head">
+      <div class="pm-art">${spr ? `<img src="${escapeHtml(spr)}" alt="" onerror="this.style.display='none'">` : ""}</div>
+      <div class="pm-headinfo">
+        <div class="pm-nick">${escapeHtml(mon.nickname || mon.species || "?")}${mon.shiny ? " " + shinyStar(14) : ""}</div>
+        <div class="pm-species muted">${escapeHtml(mon.species || "")} · Nv. ${escapeHtml(mon.level ?? "?")}</div>
+        <div class="pm-types">${types}</div>
+      </div>
+    </div>
+    <div class="pm-grid">
+      <div class="pm-col">
+        ${statsHtml || '<p class="muted">Sin datos de estadísticas.</p>'}
+      </div>
+      <div class="pm-col">
+        <div class="pm-field"><div class="pm-k">Naturaleza</div><div>${natHtml}</div></div>
+        <div class="pm-field"><div class="pm-k">Objeto</div><div>${mon.item ? escapeHtml(mon.item) : "—"}</div></div>
+        <div class="pm-field"><div class="pm-k">Habilidad <span class="muted">(aleatoria — posibles en gris)</span></div>
+          <div class="pm-abils">${abilHtml || '<span class="muted">—</span>'}</div></div>
+        <div class="pm-field"><div class="pm-k">Movimientos <span class="muted">(clic para ver qué hacen)</span></div>
+          <div class="pm-moves">${movesHtml || '<span class="muted">—</span>'}</div></div>
+        <div class="pm-detail" id="pmDetail"></div>
+      </div>
+    </div>
+    ${href ? `<div class="pm-foot"><a href="${href}">Ver ficha completa en la Pokédex →</a></div>` : ""}
+  </div>`;
+
+  let ov = document.getElementById("pmOverlay");
+  if (!ov) { ov = document.createElement("div"); ov.id = "pmOverlay"; ov.className = "pm-overlay"; document.body.appendChild(ov); }
+  ov.innerHTML = html;
+  ov.classList.add("show");
+  ov.onclick = (e) => { if (e.target === ov) closeMonPopup(); };
+  document.addEventListener("keydown", pmEsc);
+
+  // interacción: movimientos y habilidades muestran descripción
+  const detail = ov.querySelector("#pmDetail");
+  ov.querySelectorAll(".pm-move").forEach((b) => b.addEventListener("click", () => {
+    ov.querySelectorAll(".pm-move,.pm-abil").forEach((x) => x.classList.remove("sel"));
+    b.classList.add("sel");
+    const info = moveInfo(b.dataset.move);
+    if (!info) { detail.innerHTML = `<b>${escapeHtml(b.dataset.move)}</b><p class="muted">Sin datos del movimiento.</p>`; detail.classList.add("show"); return; }
+    const k = typeKey(info.t);
+    detail.innerHTML = `<div class="pm-detail-head"><b>${escapeHtml(info.n)}</b>
+      <span class="type-badge sm" style="background:var(--type-${k})">${escapeHtml(info.t)}</span>
+      <span class="pm-chip">${escapeHtml(info.cat)}</span></div>
+      <div class="pm-detail-stats"><span>Poder <b>${info.pow ?? "—"}</b></span><span>Precisión <b>${info.acc ?? "—"}</b></span><span>PP <b>${info.pp ?? "—"}</b></span></div>
+      <p class="pm-detail-desc">${escapeHtml(info.fl || "")}</p>`;
+    detail.classList.add("show");
+  }));
+  ov.querySelectorAll(".pm-abil:not([disabled])").forEach((b) => b.addEventListener("click", () => {
+    ov.querySelectorAll(".pm-move,.pm-abil").forEach((x) => x.classList.remove("sel"));
+    b.classList.add("sel");
+    const info = abilityInfo(b.dataset.abil);
+    detail.innerHTML = `<div class="pm-detail-head"><b>${escapeHtml(b.dataset.abil)}</b></div>
+      <p class="pm-detail-desc">${escapeHtml(info ? info.fl : "")}</p>`;
+    detail.classList.add("show");
+  }));
+}
+function closeMonPopup() {
+  const ov = document.getElementById("pmOverlay");
+  if (ov) ov.classList.remove("show");
+  document.removeEventListener("keydown", pmEsc);
+}
+function pmEsc(e) { if (e.key === "Escape") closeMonPopup(); }
+
+/* Registro de mons para abrir el popup por índice (evita serializar en el DOM) */
+const MON_REG = [];
+function registerMon(mon) { MON_REG.push(mon); return MON_REG.length - 1; }
+document.addEventListener("click", (e) => {
+  const t = e.target.closest("[data-monopen]");
+  if (!t) return;
+  e.preventDefault();
+  const m = MON_REG[+t.dataset.monopen];
+  if (m) openMonPopup(m);
+});
+
 function monCard(mon, opts = {}) {
   const dead = opts.dead;
   const types = (mon.types || []).map((t) => typeBadge(t, true)).join("");
@@ -362,9 +533,9 @@ function monCard(mon, opts = {}) {
     }).join("");
   const shiny = mon.shiny ? `<span class="pill shiny" style="padding:.02rem .45rem;font-size:.58rem">${shinyStar(11)} SHINY</span>` : "";
   const owner = opts.owner ? `<div class="mon-owner">de ${escapeHtml(opts.owner)}</div>` : "";
-  const href = pokemonHref(mon.species);
-  const sprite = href ? `<a href="${href}" title="Ver en la Pokédex">${spriteEl(mon)}</a>` : spriteEl(mon);
-  const speciesHtml = href ? `<a href="${href}" style="color:inherit">${escapeHtml(mon.species || "?")}</a>` : escapeHtml(mon.species || "?");
+  const mi = registerMon(mon);
+  const sprite = `<a href="#" class="mon-open" data-monopen="${mi}" title="Ver ficha detallada">${spriteEl(mon)}</a>`;
+  const speciesHtml = `<a href="#" class="mon-open" data-monopen="${mi}" style="color:inherit">${escapeHtml(mon.species || "?")}</a>`;
   return `
     <div class="mon-card${dead ? " dead" : ""}">
       ${dead ? `<span class="mon-dead-badge" title="Debilitado">${faintIcon(22)}</span>` : ""}

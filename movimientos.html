@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Movimientos · Pokémon Añil Randomlocke</title>
+  <meta name="color-scheme" content="light dark" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .mv-row { display:grid; grid-template-columns:minmax(140px,1.4fr) auto auto auto auto auto; gap:.5rem 1rem; align-items:center; background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:.55rem .8rem; }
+    .mv-row .mv-name { font-weight:700; }
+    .mv-row .mv-num { color:var(--text-muted); font-variant-numeric:tabular-nums; text-align:right; }
+    .mv-row .mv-num .k { font-size:.6rem; text-transform:uppercase; color:var(--text-muted); display:block; letter-spacing:.03em; }
+    .mv-row .mv-desc { grid-column:1 / -1; font-size:.82rem; color:var(--text-muted); line-height:1.35; }
+    .mv-cat { font-size:.6rem; text-transform:uppercase; font-weight:700; color:var(--text-muted); border:1px solid var(--border); border-radius:999px; padding:.05rem .45rem; white-space:nowrap; }
+    @media (max-width:640px){ .mv-row { grid-template-columns:1fr auto; } .mv-row .mv-num { display:inline-block; } }
+    .dex-filters { display:flex; flex-wrap:wrap; gap:.35rem; margin:.6rem 0; }
+    .dex-type { color:#fff; text-transform:uppercase; cursor:pointer; opacity:.55; border:2px solid transparent; border-radius:999px; padding:.15rem .6rem; font-size:.68rem; font-weight:700; }
+    .dex-type.on { opacity:1; border-color:var(--text); }
+    .cat-chip { cursor:pointer; opacity:.55; border:2px solid var(--border); border-radius:999px; padding:.15rem .7rem; font-size:.7rem; font-weight:700; background:var(--subtle-bg); color:var(--text); }
+    .cat-chip.on { opacity:1; border-color:var(--accent); }
+    .dex-count { color:var(--text-muted); margin:.5rem 0; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>Movimientos</h1>
+    <p class="lead">Todos los movimientos de Pokémon Añil: tipo, categoría, poder, precisión, PP y qué hacen.</p>
+    <input id="q" class="search-box" type="search" placeholder="Buscar movimiento…" autocomplete="off" />
+    <div class="dex-filters" id="catFilters"></div>
+    <div class="dex-filters" id="typeFilters"></div>
+    <div class="dex-count" id="count"></div>
+    <div class="wiki-list" id="list"><p class="muted">Cargando…</p></div>
+  </main>
+  <script src="app.js"></script>
+  <script>
+    const TYPES_ES = ["Normal","Fuego","Agua","Planta","Eléctrico","Hielo","Lucha","Veneno","Tierra","Volador","Psíquico","Bicho","Roca","Fantasma","Dragón","Siniestro","Acero","Hada"];
+    const CATS = ["Físico","Especial","Estado"];
+    let entries, activeType = "", activeCat = "", query = "";
+    (async function () {
+      await loadConfig();
+      renderHeader("movimientos.html");
+      const moves = await loadMovesFull();
+      entries = Object.values(moves).sort((a, b) => a.n.localeCompare(b.n, "es"));
+      document.getElementById("catFilters").innerHTML = CATS.map((c) => `<button class="cat-chip" data-c="${c}">${c}</button>`).join("");
+      document.getElementById("typeFilters").innerHTML = TYPES_ES.map((t) =>
+        `<button class="dex-type" data-t="${t}" style="background:var(--type-${typeKey(t)})">${t}</button>`).join("");
+      document.getElementById("catFilters").addEventListener("click", (e) => {
+        const b = e.target.closest("button"); if (!b) return;
+        activeCat = activeCat === b.dataset.c ? "" : b.dataset.c;
+        document.querySelectorAll(".cat-chip").forEach((x) => x.classList.toggle("on", x.dataset.c === activeCat));
+        render();
+      });
+      document.getElementById("typeFilters").addEventListener("click", (e) => {
+        const b = e.target.closest("button"); if (!b) return;
+        activeType = activeType === b.dataset.t ? "" : b.dataset.t;
+        document.querySelectorAll(".dex-type").forEach((x) => x.classList.toggle("on", x.dataset.t === activeType));
+        render();
+      });
+      document.getElementById("q").addEventListener("input", (e) => { query = e.target.value.trim().toLowerCase(); render(); });
+      render();
+      renderFooter();
+    })();
+    function render() {
+      const list = entries.filter((m) => {
+        if (activeType && m.t !== activeType) return false;
+        if (activeCat && m.cat !== activeCat) return false;
+        if (query && !m.n.toLowerCase().includes(query)) return false;
+        return true;
+      });
+      document.getElementById("count").textContent = list.length + " movimientos";
+      document.getElementById("list").innerHTML = list.map((m) => `
+        <div class="mv-row">
+          <div class="mv-name">${escapeHtml(m.n)}</div>
+          <div>${typeBadge(m.t, true)}</div>
+          <div><span class="mv-cat">${escapeHtml(m.cat)}</span></div>
+          <div class="mv-num"><span class="k">Poder</span>${m.pow ?? "—"}</div>
+          <div class="mv-num"><span class="k">Prec.</span>${m.acc ?? "—"}</div>
+          <div class="mv-num"><span class="k">PP</span>${m.pp ?? "—"}</div>
+          ${m.fl ? `<div class="mv-desc">${escapeHtml(m.fl)}</div>` : ""}
+        </div>`).join("") || `<p class="empty-state">Nada encontrado.</p>`;
+    }
+  </script>
+</body>
+</html>

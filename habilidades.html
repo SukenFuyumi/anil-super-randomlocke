@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Habilidades · Pokémon Añil Randomlocke</title>
+  <meta name="color-scheme" content="light dark" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .dex-count { color:var(--text-muted); margin:.5rem 0; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>Habilidades</h1>
+    <p class="lead">Todas las habilidades de Pokémon Añil y lo que hacen. Recuerda: en el randomlocke la habilidad de cada Pokémon es aleatoria.</p>
+    <input id="q" class="search-box" type="search" placeholder="Buscar habilidad…" autocomplete="off" />
+    <div class="dex-count" id="count"></div>
+    <div class="wiki-list" id="list"><p class="muted">Cargando…</p></div>
+  </main>
+  <script src="app.js"></script>
+  <script>
+    let entries, query = "";
+    (async function () {
+      await loadConfig();
+      renderHeader("habilidades.html");
+      const ab = await loadAbilities();
+      entries = Object.values(ab).sort((a, b) => a.n.localeCompare(b.n, "es"));
+      document.getElementById("q").addEventListener("input", (e) => { query = e.target.value.trim().toLowerCase(); render(); });
+      render();
+      renderFooter();
+    })();
+    function render() {
+      const list = entries.filter((a) => !query || a.n.toLowerCase().includes(query) || (a.fl || "").toLowerCase().includes(query));
+      document.getElementById("count").textContent = list.length + " habilidades";
+      document.getElementById("list").innerHTML = list.map((a) => `
+        <div class="wiki-row">
+          <div class="wr-name">${escapeHtml(a.n)}</div>
+          ${a.fl ? `<div class="wr-desc">${escapeHtml(a.fl)}</div>` : ""}
+        </div>`).join("") || `<p class="empty-state">Nada encontrado.</p>`;
+    }
+  </script>
+</body>
+</html>
