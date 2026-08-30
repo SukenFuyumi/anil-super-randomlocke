@@ -4,129 +4,101 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 7h 6m jugadas · 99,620₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 7h 7m jugadas · 102,620₽ · vidas en el juego: -1",
   "team": [
     {
-      "nickname": "CRAWLER",
-      "species": "Crawdaunt",
+      "nickname": "DERP INVERSO",
+      "species": "Clodsire",
       "level": 39,
       "types": [
-        "Agua",
-        "Siniestro"
+        "Veneno",
+        "Tierra"
       ],
-      "ability": "Filtro",
-      "nature": "Osada",
-      "item": "Gafas de Sol",
+      "ability": "Alma Acerada",
+      "nature": "Serena",
+      "item": "Botas Gruesas",
       "shiny": false,
       "moves": [
-        "Pataleta",
+        "Colmillo Hielo",
         "Búnker",
-        "Tenaza",
-        "Puño Bala"
+        "Respiro",
+        "Desquite"
       ],
       "iv": [
-        14,
-        9,
-        27,
-        24,
         5,
-        15
+        27,
+        10,
+        29,
+        27,
+        10
       ],
       "ev": [
-        22,
-        41,
-        30,
-        42,
+        5,
         20,
-        42
+        11,
+        14,
+        10,
+        19
       ],
       "abilPool": [
-        "Filtro",
-        "Poder Sabio"
+        "Viscosecreción",
+        "Alma Acerada"
       ],
       "abilHidden": [
-        "Carga Cuark"
+        "Respondón"
       ],
       "learnset": [
         {
           "lvl": -1,
-          "m": "Sombra Vil"
+          "m": "Fotosíntesis"
         },
         {
           "lvl": 1,
-          "m": "Eco Metálico"
+          "m": "Falso Tortazo"
         },
         {
           "lvl": 1,
-          "m": "Búnker"
+          "m": "Desquite"
         },
         {
-          "lvl": 1,
-          "m": "Doble Patada"
+          "lvl": 4,
+          "m": "Giro Vil"
         },
         {
-          "lvl": 1,
-          "m": "Cuchillada"
-        },
-        {
-          "lvl": 1,
-          "m": "Campo de Hierba"
-        },
-        {
-          "lvl": 1,
-          "m": "Acua Jet"
+          "lvl": 8,
+          "m": "Cara Susto"
         },
         {
           "lvl": 12,
-          "m": "Avivar"
+          "m": "Danza Caos"
         },
         {
           "lvl": 16,
-          "m": "Shuriken de Agua"
+          "m": "Adaptación"
         },
         {
-          "lvl": 20,
-          "m": "Nieve Polvo"
+          "lvl": 21,
+          "m": "Día Soleado"
         },
         {
           "lvl": 24,
-          "m": "Cornada"
+          "m": "Respiro"
         },
         {
-          "lvl": 28,
-          "m": "Megaagotar"
+          "lvl": 30,
+          "m": "Búnker"
         },
         {
-          "lvl": 34,
-          "m": "Pataleta"
-        },
-        {
-          "lvl": 37,
-          "m": "Llamarada"
+          "lvl": 36,
+          "m": "Aerochorro"
         },
         {
           "lvl": 40,
-          "m": "Láser Prisma"
+          "m": "Aura Magnética"
         },
         {
-          "lvl": 42,
-          "m": "Cola Dragón"
-        },
-        {
-          "lvl": 46,
-          "m": "Brillo Mágico"
-        },
-        {
-          "lvl": 52,
-          "m": "Halloween"
-        },
-        {
-          "lvl": 58,
-          "m": "Onda Mental"
-        },
-        {
-          "lvl": 64,
-          "m": "Bastión Final"
+          "lvl": 48,
+          "m": "Pugnachoque"
         }
       ]
     },
@@ -158,7 +130,7 @@
       "ev": [
         5,
         20,
-        9,
+        11,
         14,
         10,
         19
@@ -277,7 +249,7 @@
       "ev": [
         7,
         23,
-        10,
+        12,
         16,
         11,
         22
@@ -409,7 +381,7 @@
       "ev": [
         10,
         25,
-        12,
+        14,
         16,
         11,
         23
@@ -488,98 +460,126 @@
       ]
     },
     {
-      "nickname": "DERP INVERSO",
-      "species": "Clodsire",
+      "nickname": "CRAWLER",
+      "species": "Crawdaunt",
       "level": 39,
       "types": [
-        "Veneno",
-        "Tierra"
+        "Agua",
+        "Siniestro"
       ],
-      "ability": "Alma Acerada",
-      "nature": "Serena",
-      "item": "Botas Gruesas",
+      "ability": "Filtro",
+      "nature": "Osada",
+      "item": "Gafas de Sol",
       "shiny": false,
       "moves": [
-        "Colmillo Hielo",
+        "Pataleta",
         "Búnker",
-        "Respiro",
-        "Desquite"
+        "Tenaza",
+        "Puño Bala"
       ],
       "iv": [
+        14,
+        9,
+        27,
+        24,
         5,
-        27,
-        10,
-        29,
-        27,
-        10
+        15
       ],
       "ev": [
-        5,
+        22,
+        41,
+        32,
+        42,
         20,
-        9,
-        14,
-        10,
-        19
+        42
       ],
       "abilPool": [
-        "Viscosecreción",
-        "Alma Acerada"
+        "Filtro",
+        "Poder Sabio"
       ],
       "abilHidden": [
-        "Respondón"
+        "Carga Cuark"
       ],
       "learnset": [
         {
           "lvl": -1,
-          "m": "Fotosíntesis"
+          "m": "Sombra Vil"
         },
         {
           "lvl": 1,
-          "m": "Falso Tortazo"
+          "m": "Eco Metálico"
         },
         {
           "lvl": 1,
-          "m": "Desquite"
-        },
-        {
-          "lvl": 4,
-          "m": "Giro Vil"
-        },
-        {
-          "lvl": 8,
-          "m": "Cara Susto"
-        },
-        {
-          "lvl": 12,
-          "m": "Danza Caos"
-        },
-        {
-          "lvl": 16,
-          "m": "Adaptación"
-        },
-        {
-          "lvl": 21,
-          "m": "Día Soleado"
-        },
-        {
-          "lvl": 24,
-          "m": "Respiro"
-        },
-        {
-          "lvl": 30,
           "m": "Búnker"
         },
         {
-          "lvl": 36,
-          "m": "Aerochorro"
+          "lvl": 1,
+          "m": "Doble Patada"
+        },
+        {
+          "lvl": 1,
+          "m": "Cuchillada"
+        },
+        {
+          "lvl": 1,
+          "m": "Campo de Hierba"
+        },
+        {
+          "lvl": 1,
+          "m": "Acua Jet"
+        },
+        {
+          "lvl": 12,
+          "m": "Avivar"
+        },
+        {
+          "lvl": 16,
+          "m": "Shuriken de Agua"
+        },
+        {
+          "lvl": 20,
+          "m": "Nieve Polvo"
+        },
+        {
+          "lvl": 24,
+          "m": "Cornada"
+        },
+        {
+          "lvl": 28,
+          "m": "Megaagotar"
+        },
+        {
+          "lvl": 34,
+          "m": "Pataleta"
+        },
+        {
+          "lvl": 37,
+          "m": "Llamarada"
         },
         {
           "lvl": 40,
-          "m": "Aura Magnética"
+          "m": "Láser Prisma"
         },
         {
-          "lvl": 48,
-          "m": "Pugnachoque"
+          "lvl": 42,
+          "m": "Cola Dragón"
+        },
+        {
+          "lvl": 46,
+          "m": "Brillo Mágico"
+        },
+        {
+          "lvl": 52,
+          "m": "Halloween"
+        },
+        {
+          "lvl": 58,
+          "m": "Onda Mental"
+        },
+        {
+          "lvl": 64,
+          "m": "Bastión Final"
         }
       ]
     },
@@ -612,7 +612,7 @@
       "ev": [
         18,
         79,
-        18,
+        20,
         29,
         16,
         33
@@ -3008,15 +3008,15 @@
   ],
   "captures": [
     {
-      "route": "ruta_2_sur",
-      "where": "Ruta 2 Sur",
-      "species": "Crawdaunt",
-      "nickname": "CRAWLER",
+      "route": "tunel_diglett",
+      "where": "Túnel Diglett",
+      "species": "Clodsire",
+      "nickname": "DERP INVERSO",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 5,
-      "mon": "Crawdaunt"
+      "level": 23,
+      "mon": "Clodsire"
     },
     {
       "route": "ruta_5",
@@ -3052,15 +3052,15 @@
       "mon": "Brambleghast"
     },
     {
-      "route": "tunel_diglett",
-      "where": "Túnel Diglett",
-      "species": "Clodsire",
-      "nickname": "DERP INVERSO",
+      "route": "ruta_2_sur",
+      "where": "Ruta 2 Sur",
+      "species": "Crawdaunt",
+      "nickname": "CRAWLER",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 23,
-      "mon": "Clodsire"
+      "level": 5,
+      "mon": "Crawdaunt"
     },
     {
       "route": "monte_moon",
@@ -3336,11 +3336,11 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_2_sur": true,
+      "tunel_diglett": true,
       "ruta_5": true,
       "ruta_2_norte": true,
       "bosque_verde": true,
-      "tunel_diglett": true,
+      "ruta_2_sur": true,
       "monte_moon": true,
       "ruta_3": true,
       "ciudad_carmin": true,
