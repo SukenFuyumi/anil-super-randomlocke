@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 4h 38m jugadas · 45,310₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 4h 44m jugadas · 45,310₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Pinchos",
       "species": "Pyukumuku",
-      "level": 25,
+      "level": 26,
       "types": [
         "Agua"
       ],
@@ -35,9 +35,9 @@
         0,
         4,
         0,
+        3,
         2,
-        2,
-        0
+        1
       ],
       "abilPool": [
         "Competitivo"
@@ -119,7 +119,7 @@
     {
       "nickname": "Dumbo",
       "species": "Donphan",
-      "level": 26,
+      "level": 27,
       "types": [
         "Tierra"
       ],
@@ -145,9 +145,9 @@
         18,
         28,
         18,
-        28,
+        29,
         17,
-        30
+        31
       ],
       "abilPool": [
         "Espada Indómita",
@@ -309,9 +309,9 @@
         15,
         24,
         13,
-        24,
+        25,
         18,
-        23
+        24
       ],
       "abilPool": [
         "Baba"
@@ -405,7 +405,7 @@
     {
       "nickname": "Calenton",
       "species": "Magmar",
-      "level": 26,
+      "level": 27,
       "types": [
         "Fuego"
       ],
@@ -431,9 +431,9 @@
         4,
         10,
         3,
-        5,
+        6,
         7,
-        8
+        9
       ],
       "abilPool": [
         "Don Floral"
@@ -519,7 +519,7 @@
     {
       "nickname": "Taxi",
       "species": "Corvisquire",
-      "level": 25,
+      "level": 26,
       "types": [
         "Volador"
       ],
@@ -545,9 +545,9 @@
         10,
         21,
         11,
-        15,
         16,
-        17
+        16,
+        18
       ],
       "abilPool": [
         "Recogida",
@@ -636,9 +636,9 @@
         3,
         8,
         4,
-        7,
+        8,
         9,
-        8
+        9
       ],
       "abilPool": [
         "Teracaparazón",
@@ -2197,6 +2197,107 @@
       ]
     },
     {
+      "nickname": "Rotoplas",
+      "species": "Rotom",
+      "level": 26,
+      "types": [
+        "Eléctrico",
+        "Fantasma"
+      ],
+      "ability": "Inmunidad",
+      "nature": "Firme",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Meteorobola",
+        "Onda Trueno",
+        "Mundo Gélido",
+        "Arrumaco"
+      ],
+      "iv": [
+        5,
+        18,
+        25,
+        19,
+        5,
+        10
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Inmunidad"
+      ],
+      "abilHidden": [],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Trapicheo"
+        },
+        {
+          "lvl": 1,
+          "m": "Copión"
+        },
+        {
+          "lvl": 5,
+          "m": "Marcha Espectral"
+        },
+        {
+          "lvl": 10,
+          "m": "Meteorobola"
+        },
+        {
+          "lvl": 15,
+          "m": "Onda Trueno"
+        },
+        {
+          "lvl": 20,
+          "m": "Mundo Gélido"
+        },
+        {
+          "lvl": 25,
+          "m": "Arrumaco"
+        },
+        {
+          "lvl": 29,
+          "m": "Clavo Cañón"
+        },
+        {
+          "lvl": 30,
+          "m": "Niebla Clara"
+        },
+        {
+          "lvl": 35,
+          "m": "Triple Axel"
+        },
+        {
+          "lvl": 40,
+          "m": "Finta"
+        },
+        {
+          "lvl": 40,
+          "m": "Granizo"
+        },
+        {
+          "lvl": 45,
+          "m": "Pirotecnia"
+        },
+        {
+          "lvl": 50,
+          "m": "Psicocarga"
+        },
+        {
+          "lvl": 55,
+          "m": "Electrificación"
+        }
+      ]
+    },
+    {
       "nickname": "Shogun",
       "species": "Dewott",
       "level": 26,
@@ -2886,6 +2987,17 @@
       "mon": "Croconaw"
     },
     {
+      "route": "tunel_diglett",
+      "where": "Túnel Diglett",
+      "species": "Rotom",
+      "nickname": "Rotoplas",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 26,
+      "mon": "Rotom"
+    },
+    {
       "route": "ruta_15",
       "where": "Ruta 15",
       "species": "Dewott",
@@ -2928,16 +3040,6 @@
       "category": "estatico_regalo",
       "level": 1,
       "mon": "Marshtomp"
-    },
-    {
-      "route": "ciudad_carmin",
-      "mon": "",
-      "status": "dead"
-    },
-    {
-      "route": "ruta_4",
-      "mon": "",
-      "status": "dead"
     }
   ],
   "progress": {
@@ -2963,6 +3065,7 @@
       "ruta_1": true,
       "bosque_verde": true,
       "pueblo_paleta": true,
+      "tunel_diglett": true,
       "ruta_15": true,
       "monte_moon": true,
       "ruta_4": true,
@@ -2976,7 +3079,8 @@
       "ruta_6": true,
       "ruta_2_sur": true,
       "bosque_verde": true,
-      "ruta_15": true
+      "ruta_15": true,
+      "tunel_diglett": true
     }
   }
 }
