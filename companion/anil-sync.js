@@ -13,6 +13,7 @@ const { extract } = require('./extract.js');
 const IS_PKG = !!process.pkg;
 const BASE_DIR = IS_PKG ? path.dirname(process.execPath) : __dirname;
 const CONFIG_PATH = path.join(BASE_DIR, 'config.json');
+const VERSION = '1.1.0';
 
 function log(...a) { const t = new Date().toLocaleTimeString('es'); console.log(`[${t}]`, ...a); }
 function err(...a) { const t = new Date().toLocaleTimeString('es'); console.error(`[${t}] ⚠`, ...a); }
@@ -209,6 +210,55 @@ async function ensureRegistered(cfg, data) {
   err('No pude registrar al jugador tras varios intentos (conflictos simultáneos).');
 }
 
+// ---------- Auto-actualización ----------
+function httpsGet(url) {
+  return new Promise((resolve, reject) => {
+    const go = (u, depth) => {
+      if (depth > 6) return reject(new Error('demasiados redirects'));
+      https.get(u, { headers: { 'User-Agent': 'anil-sync' } }, (res) => {
+        if ([301, 302, 303, 307, 308].includes(res.statusCode) && res.headers.location) {
+          res.resume(); return go(new URL(res.headers.location, u).toString(), depth + 1);
+        }
+        const chunks = []; res.on('data', (c) => chunks.push(c));
+        res.on('end', () => resolve({ status: res.statusCode, body: Buffer.concat(chunks) }));
+      }).on('error', reject);
+    };
+    go(url, 0);
+  });
+}
+function cmpVer(a, b) {
+  const pa = String(a).split('.').map(Number), pb = String(b).split('.').map(Number);
+  for (let i = 0; i < 3; i++) { const d = (pa[i] || 0) - (pb[i] || 0); if (d) return d; }
+  return 0;
+}
+async function checkForUpdate(cfg) {
+  try {
+    const r = cfg.github; if (!r || !r.owner || !r.repo) return;
+    const branch = r.branch || 'main';
+    const vurl = `https://raw.githubusercontent.com/${r.owner}/${r.repo}/${branch}/companion/latest-version.json?t=` + Date.now();
+    const resp = await httpsGet(vurl);
+    if (resp.status !== 200) return;
+    let info; try { info = JSON.parse(resp.body.toString('utf8')); } catch (e) { return; }
+    if (!info.version || cmpVer(info.version, VERSION) <= 0) { log('AnilSync v' + VERSION + ' (al día).'); return; }
+    log('★ Nueva versión ' + info.version + ' disponible (tienes ' + VERSION + ').' + (info.notes ? ' ' + info.notes : ''));
+    if (!IS_PKG) { log('  (modo dev: actualiza el exe a mano)'); return; }
+    log('  Descargando actualización…');
+    const exeUrl = info.exeUrl || `https://github.com/${r.owner}/${r.repo}/releases/latest/download/AnilSync.exe`;
+    const dl = await httpsGet(exeUrl);
+    if (dl.status !== 200 || dl.body.length < 1000000) { log('  No pude descargar. Actualiza a mano: https://github.com/' + r.owner + '/' + r.repo + '/releases'); return; }
+    const newPath = process.execPath + '.new';
+    fs.writeFileSync(newPath, dl.body);
+    const bat = path.join(BASE_DIR, '_anil_update.bat');
+    fs.writeFileSync(bat,
+      '@echo off\r\n:wait\r\nping 127.0.0.1 -n 2 >nul\r\ndel "' + process.execPath + '" 2>nul\r\n' +
+      'if exist "' + process.execPath + '" goto wait\r\nmove /Y "' + newPath + '" "' + process.execPath + '" >nul\r\n' +
+      'start "" "' + process.execPath + '"\r\ndel "%~f0"\r\n');
+    log('  ✓ Actualización lista. Reiniciando AnilSync…');
+    require('child_process').spawn('cmd.exe', ['/c', bat], { detached: true, stdio: 'ignore', windowsHide: true }).unref();
+    process.exit(0);
+  } catch (e) { /* silencioso: seguimos con la versión actual */ }
+}
+
 let lastHash = null;
 
 async function syncOnce(cfg, reason) {
@@ -249,6 +299,7 @@ function watchLoop(cfg) {
   } catch (e) { err('No pude vigilar la carpeta: ' + e.message); }
   // reintento de seguridad cada 90s por si fs.watch se pierde
   setInterval(() => syncOnce(cfg, 'chequeo'), 90000);
+  setInterval(() => checkForUpdate(cfg), 6 * 3600 * 1000); // busca actualización cada 6 h
 }
 
 async function main() {
@@ -258,7 +309,8 @@ async function main() {
   const cfg = loadConfig();
   if (!cfg.playerId || cfg.playerId === 'tu_id') { err('Falta "playerId" en config.json.'); pauseExit(1); }
   if (!cfg.dryRun && (!cfg.github.token || /XXXX/.test(cfg.github.token))) { err('Falta el token de GitHub en config.json (github.token).'); pauseExit(1); }
-  log('Jugador: ' + cfg.playerId + '  |  Repo: ' + cfg.github.owner + '/' + cfg.github.repo + (cfg.dryRun ? '  |  MODO PRUEBA' : ''));
+  log('Jugador: ' + cfg.playerId + '  |  Repo: ' + cfg.github.owner + '/' + cfg.github.repo + '  |  v' + VERSION + (cfg.dryRun ? '  |  MODO PRUEBA' : ''));
+  await checkForUpdate(cfg);
 
   // Primera vez: preguntar qué slot de guardado usar (se recuerda en config.json)
   const slot = String(cfg.saveSlot || '').toLowerCase();
