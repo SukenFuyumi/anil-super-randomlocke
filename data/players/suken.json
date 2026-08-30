@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 6h 40m jugadas · 78,720₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 6h 43m jugadas · 83,700₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -854,7 +854,8 @@
       "ruta_1": true,
       "ciudad_carmin": true,
       "ruta_15": true,
-      "ruta_12": true
+      "ruta_12": true,
+      "ruta_9": true
     }
   }
 }
