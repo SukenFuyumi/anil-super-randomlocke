@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 4h 15m jugadas · 43,630₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 4h 15m jugadas · 43630₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Pinchos",
@@ -355,6 +355,36 @@
         "Picotazo Veneno",
         "Semilladora"
       ]
+    },
+    {
+      "nickname": "Croconaw",
+      "species": "Croconaw",
+      "level": 23,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Inicio Lento",
+      "nature": "Fuerte",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Placaje"
+      ]
+    },
+    {
+      "nickname": "Sprigatito",
+      "species": "Sprigatito",
+      "level": 23,
+      "types": [
+        "Planta"
+      ],
+      "ability": "Inicio Lento",
+      "nature": "Fuerte",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Placaje"
+      ]
     }
   ],
   "graveyard": [
@@ -611,6 +641,28 @@
       "category": "salvaje",
       "level": 13,
       "mon": "Eevee"
+    },
+    {
+      "route": "ruta_5",
+      "where": "Ruta 5",
+      "species": "Croconaw",
+      "nickname": "",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 20,
+      "mon": "Croconaw"
+    },
+    {
+      "route": "ruta_5",
+      "where": "Ruta 5",
+      "species": "Sprigatito",
+      "nickname": "",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 20,
+      "mon": "Sprigatito"
     },
     {
       "route": "ciudad_plateada",
