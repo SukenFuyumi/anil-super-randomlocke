@@ -112,6 +112,19 @@ function extract(buf, playerId, opts = {}) {
   const vm = iv(gm, '@visitedMaps');
   if (Array.isArray(vm)) vm.forEach((v, id) => { if (v) { const s = routeSlug(id); if (s) routesVisited[s] = true; } });
 
+  // encuentros consumidos (modo Nuzlocke de Añil): @challenge_encs = { mapId => true }
+  // encuentro consumido + sin captura = ruta quemada (huyó/cayó el primero) -> detección automática
+  const encounters = {};
+  const ce = iv(gm, '@challenge_encs');
+  if (ce && ce.__isHash) {
+    for (const [k, v] of ce.entries()) {
+      if (!v) continue;
+      const id = typeof k === 'number' ? k : parseInt(sname(k), 10);
+      const s = routeSlug(id);
+      if (s) encounters[s] = true;
+    }
+  }
+
   const badges = iv(player, '@badges') || [];
   const gyms = {};
   badges.forEach((b, i) => { if (b) gyms['gym' + (i + 1)] = true; });
@@ -130,7 +143,7 @@ function extract(buf, playerId, opts = {}) {
     notes: `Importado del save · ${hh}h ${mm}m jugadas · ${money.toLocaleString('es')}₽ · vidas en el juego: ${gameLives ?? '?'}`,
     team, box, graveyard,
     captures,
-    progress: { gyms, bosses: {}, npcs: {}, routes: routesVisited, items: {} },
+    progress: { gyms, bosses: {}, npcs: {}, routes: routesVisited, items: {}, encounters },
   };
 }
 
