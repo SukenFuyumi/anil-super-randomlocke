@@ -21,7 +21,8 @@
     .pk-facts .f { }
     .pk-facts .f .k { color:var(--text-muted); font-size:.65rem; text-transform:uppercase; letter-spacing:.04em; }
     .pk-facts .f .v { font-weight:700; }
-    .evo-line { display:flex; gap:.5rem; align-items:center; flex-wrap:wrap; }
+    .evo-line { display:flex; gap:.5rem; align-items:flex-start; flex-wrap:wrap; }
+    .evo-mon .tm-sp { font-size:.68rem; color:var(--text-muted); margin-top:.15rem; line-height:1.2; }
     .evo-mon { text-align:center; padding:.5rem; border:1px solid var(--border); border-radius:var(--radius); background:var(--panel); color:var(--text); min-width:96px; }
     .evo-mon.cur { border-color:var(--accent); }
     .evo-mon img { width:72px; height:72px; object-fit:contain; }
@@ -54,10 +55,23 @@
         const v = p.st[i] || 0;
         return `<span class="lbl">${l}</span><span class="val">${v}</span><span class="pk-bar"><span style="width:${Math.min(100, v / 2)}%;background:${barColor(v)}"></span></span>`;
       }).join("");
-      const evoHtml = (p.ev && p.ev.length > 1) ? `<h2>Evolución</h2><div class="evo-line">${p.ev.map((eid, i) => {
-        const e = dex[eid]; if (!e) return "";
-        return (i ? `<span class="evo-arrow">→</span>` : "") + `<a class="evo-mon${eid === id ? " cur" : ""}" href="pokemon.html?id=${eid}"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${eid}.png" alt="" loading="lazy"><div class="nm">${escapeHtml(e.n)}</div></a>`;
-      }).join("")}</div>` : "";
+      const spr = (eid) => `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${eid}.png`;
+      const evoMon = (eid, name, how, cur) => {
+        const inner = `${eid ? `<img src="${spr(eid)}" alt="" loading="lazy">` : `<div style="width:72px;height:72px;display:flex;align-items:center;justify-content:center;color:var(--text-muted);font-weight:800">?</div>`}<div class="nm">${escapeHtml(name)}</div>${how ? `<div class="tm-sp" style="max-width:120px;white-space:normal">${escapeHtml(how)}</div>` : ""}`;
+        return eid ? `<a class="evo-mon${cur ? " cur" : ""}" href="pokemon.html?id=${eid}">${inner}</a>` : `<span class="evo-mon">${inner}</span>`;
+      };
+      let evoHtml = "";
+      if (p.pe || (p.em && p.em.length)) {
+        evoHtml = `<h2>Evolución</h2><div class="evo-line">`;
+        if (p.pe) evoHtml += evoMon(p.pe.id, p.pe.name, p.pe.how) + `<span class="evo-arrow">→</span>`;
+        evoHtml += evoMon(id, p.n, "", true);
+        if (p.em && p.em.length) {
+          evoHtml += `<span class="evo-arrow">→</span><span style="display:flex;flex-direction:column;gap:.4rem">${p.em.map((e) => evoMon(e.toId, e.to, e.how)).join("")}</span>`;
+        }
+        evoHtml += `</div>`;
+      } else {
+        evoHtml = `<h2>Evolución</h2><p class="muted">No evoluciona.</p>`;
+      }
       const prev = dex[id - 1] ? `<a class="btn" href="pokemon.html?id=${id - 1}">← #${id - 1} ${escapeHtml(dex[id - 1].n)}</a>` : "<span></span>";
       const next = dex[id + 1] ? `<a class="btn" href="pokemon.html?id=${id + 1}">#${id + 1} ${escapeHtml(dex[id + 1].n)} →</a>` : "<span></span>";
 
