@@ -71,6 +71,7 @@
           <button data-tab="caja">Caja (${(data.box||[]).length})</button>
           <button data-tab="cementerio">Cementerio (${(data.graveyard||[]).length})</button>
           <button data-tab="capturas">Capturas (${(data.captures||[]).length})</button>
+          <button data-tab="recuerda">Recuerda mov.</button>
           <button data-tab="objetos">Objetos (${(cfg.groundItems||[]).filter((it)=>data.progress?.items?.[it.id]).length}/${(cfg.groundItems||[]).length})</button>
           <button data-tab="progreso">Progreso</button>
         </div>
@@ -79,6 +80,7 @@
         <div class="tab-panel" id="tab-caja"></div>
         <div class="tab-panel" id="tab-cementerio"></div>
         <div class="tab-panel" id="tab-capturas"></div>
+        <div class="tab-panel" id="tab-recuerda"></div>
         <div class="tab-panel" id="tab-objetos"></div>
         <div class="tab-panel" id="tab-progreso"></div>
       `;
@@ -229,6 +231,33 @@
           <tbody>${routesRows || '<tr><td colspan="2" class="muted">Sin rutas configuradas.</td></tr>'}</tbody>
         </table></div>
         ${otrasHtml ? `<h3>Otras capturas</h3>${otrasHtml}` : ""}`;
+
+      // ---- Recuerda movimientos (learnset randomizado por Pokémon) ----
+      const lvlLabel = (l) => l < 0 ? "Evo" : (l <= 1 ? "Inicio" : "Nv " + l);
+      const learnChips = (ls) => ls.map((x) => {
+        const k = moveTypeKey(x.m);
+        const typed = k && k !== "unknown";
+        return `<span class="lm-move${typed ? " typed" : ""}"${typed ? ` style="background:var(--type-${k})"` : ""}><span class="lm-lvl">${lvlLabel(x.lvl)}</span>${escapeHtml(x.m)}</span>`;
+      }).join("");
+      const learnBlock = (m, dead) => {
+        const ini = initials(m.species || m.nickname);
+        const spr = m.sprite || speciesAniSprite(m.species) || speciesSprite(m.species);
+        const img = spr ? `<img src="${escapeHtml(spr)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'lm-ini',textContent:'${escapeHtml(ini)}'}))">` : `<span class="lm-ini">${escapeHtml(ini)}</span>`;
+        const ls = Array.isArray(m.learnset) ? m.learnset : null;
+        const body = ls
+          ? `<div class="lm-moves">${learnChips(ls)}</div>`
+          : `<p class="muted" style="padding:.4rem .2rem;font-size:.82rem">Sin datos de movimientos. El jugador debe actualizar AnilSync y volver a guardar.</p>`;
+        return `<details class="lm-mon"${dead ? "" : " open"}>
+          <summary><span class="lm-spr">${img}</span>
+            <span class="lm-id"><span class="lm-nick">${escapeHtml(m.nickname || m.species || "?")}</span>
+            <span class="lm-sp">${escapeHtml(m.species || "")}${m.level != null ? " · Nv. " + escapeHtml(m.level) : ""}</span></span>
+            ${ls ? `<span class="lm-count">${ls.length} mov.</span>` : ""}</summary>
+          ${body}</details>`;
+      };
+      const teamBox = [...(data.team || []), ...(data.box || [])];
+      document.getElementById("tab-recuerda").innerHTML =
+        `<p class="lead">Movimientos que cada Pokémon puede aprender en el <strong>Recuerda-movimientos</strong>. En Añil el aprendizaje está randomizado, así que esta lista es única de tu partida.</p>` +
+        (teamBox.length ? teamBox.map((m) => learnBlock(m)).join("") : `<p class="empty-state">Sin Pokémon.</p>`);
 
       // tabs
       document.getElementById("tabs").addEventListener("click", (e) => {

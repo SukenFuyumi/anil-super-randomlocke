@@ -7,6 +7,7 @@ const ABILITIES_ES = require('./ability-es.json');
 const ITEMS_ES = require('./item-es.json');
 let FORMS = {}; try { FORMS = require('./forms.json'); } catch (e) {}
 let RAND_ABIL = {}; // habilidades randomizadas por especie/forma: { SPECIES[_form]: {base:[nombres], hidden:[nombres]} }
+let RAND_MOVES = {}; // movimientos aprendibles randomizados: { SPECIES: { form: [ {lvl, m} ] } }
 
 const NATURES = { HARDY:'Fuerte',LONELY:'Huraña',BRAVE:'Audaz',ADAMANT:'Firme',NAUGHTY:'Pícara',BOLD:'Osada',DOCILE:'Dócil',RELAXED:'Plácida',IMPISH:'Agitada',LAX:'Floja',TIMID:'Miedosa',HASTY:'Activa',SERIOUS:'Seria',JOLLY:'Alegre',NAIVE:'Ingenua',MODEST:'Modesta',MILD:'Afable',QUIET:'Mansa',BASHFUL:'Tímida',RASH:'Alocada',CALM:'Serena',GENTLE:'Amable',SASSY:'Grosera',CAREFUL:'Cauta',QUIRKY:'Rara' };
 
@@ -56,6 +57,12 @@ function mon(p) {
   const raKey = (form && RAND_ABIL[species + '_' + form]) ? species + '_' + form : species;
   const ra = RAND_ABIL[raKey];
   if (ra) { out.abilPool = ra.base; out.abilHidden = ra.hidden; }
+  // Movimientos aprendibles randomizados (recuerda-movimientos)
+  const rmForms = RAND_MOVES[species];
+  if (rmForms) {
+    const lset = rmForms[String(form || 0)] || rmForms['0'];
+    if (lset && lset.length) out.learnset = lset;
+  }
   if (fd && fd.spriteId) out.sprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${fd.spriteId}.png`;
   return out;
 }
@@ -86,6 +93,33 @@ function extract(buf, playerId, opts = {}) {
       if (!v || !v.__isHash) continue;
       const toList = s => String(sname(hget(v, s)) || '').split(',').map(x => x.trim()).filter(Boolean).map(abilityName);
       RAND_ABIL[sname(k)] = { base: toList('base'), hidden: toList('hidden') };
+    }
+  }
+
+  // Movimientos aprendibles randomizados: global_metadata.@random_moves[ESPECIE] = { forma => [ [nivel, movObj] ] }
+  RAND_MOVES = {};
+  const rmoves = iv(gm, '@random_moves');
+  if (rmoves && rmoves.__isHash) {
+    for (const [spk, forms] of rmoves.entries()) {
+      if (!forms || !forms.__isHash) continue;
+      const byForm = {};
+      for (const [fk, list] of forms.entries()) {
+        if (!Array.isArray(list)) continue;
+        const seenL = new Set();
+        byForm[sname(fk)] = list.map(pair => {
+          if (!Array.isArray(pair)) return null;
+          const rawL = pair[0];
+          const lvl = typeof rawL === 'number' ? rawL : (parseInt(sname(rawL), 10) || 0);
+          const mv = pair[1];
+          const id = (mv && mv.ivars) ? sname(iv(mv, '@id')) : sname(mv);
+          const nm = moveName(id);
+          if (!nm) return null;
+          const key = lvl + '|' + nm;
+          if (seenL.has(key)) return null; seenL.add(key);
+          return { lvl, m: nm };
+        }).filter(Boolean).sort((a, b) => (a.lvl < 0 ? 0 : a.lvl) - (b.lvl < 0 ? 0 : b.lvl));
+      }
+      RAND_MOVES[sname(spk)] = byForm;
     }
   }
 

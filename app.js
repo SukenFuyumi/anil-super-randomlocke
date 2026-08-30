@@ -471,7 +471,7 @@ async function openMonPopup(mon) {
           <div class="pm-abils">${abilHtml || '<span class="muted">—</span>'}</div></div>
         <div class="pm-field"><div class="pm-k">Movimientos <span class="muted">· clic para ver qué hacen</span></div>
           <div class="pm-moves">${movesHtml || '<span class="muted">—</span>'}</div></div>
-        <div class="pm-detail" id="pmDetail"></div>
+        <div class="pm-detail show" id="pmDetail"><p class="pm-detail-hint">Toca una habilidad o un movimiento para ver qué hace.</p></div>
       </div>
     </div>
     ${href ? `<div class="pm-foot"><a href="${href}">Ver ficha completa en la Pokédex →</a></div>` : ""}
