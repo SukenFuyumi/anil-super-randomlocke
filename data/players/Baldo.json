@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 1h 17m jugadas · 6,010₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 1h 23m jugadas · 8,110₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "goku",
@@ -189,7 +189,9 @@
     }
   ],
   "progress": {
-    "gyms": {},
+    "gyms": {
+      "gym1": true
+    },
     "bosses": {},
     "npcs": {},
     "routes": {
