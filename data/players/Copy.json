@@ -4,12 +4,30 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 5h 6m jugadas · 115,530₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 5h 39m jugadas · 546,005₽ · vidas en el juego: ?",
   "team": [
+    {
+      "nickname": "Cobblemon",
+      "species": "Garganacl",
+      "level": 38,
+      "types": [
+        "Roca"
+      ],
+      "ability": "Francotirador",
+      "nature": "Pícara",
+      "item": "Cascabel Concha",
+      "shiny": false,
+      "moves": [
+        "Búnker",
+        "Salazón",
+        "Superdiente",
+        "Roca Veloz"
+      ]
+    },
     {
       "nickname": "Peter",
       "species": "Araquanid",
-      "level": 34,
+      "level": 36,
       "types": [
         "Agua",
         "Bicho"
@@ -26,46 +44,27 @@
       ]
     },
     {
-      "nickname": "Don pendejo",
-      "species": "Crawdaunt",
-      "level": 34,
-      "types": [
-        "Agua",
-        "Siniestro"
-      ],
-      "ability": "Experto",
-      "nature": "Afable",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Hoja Afilada",
-        "Ladrón",
-        "Triple Patada",
-        "Tenaza"
-      ]
-    },
-    {
       "nickname": "Dr Pepper",
       "species": "Alakazam",
-      "level": 34,
+      "level": 37,
       "types": [
         "Psíquico"
       ],
       "ability": "Tinovictoria",
       "nature": "Ingenua",
-      "item": "Banda Aguante",
+      "item": "Hierba Blanca",
       "shiny": false,
       "moves": [
         "Relajo",
         "Relámpago Súbito",
         "Psicorrayo",
-        "Tóxico"
+        "Psicoataque"
       ]
     },
     {
       "nickname": "CFE",
       "species": "Graveler (Alola)",
-      "level": 34,
+      "level": 36,
       "types": [
         "Roca",
         "Eléctrico"
@@ -83,9 +82,28 @@
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10110.png"
     },
     {
+      "nickname": "Don pendejo",
+      "species": "Crawdaunt",
+      "level": 36,
+      "types": [
+        "Agua",
+        "Siniestro"
+      ],
+      "ability": "Experto",
+      "nature": "Afable",
+      "item": "Banda Aguante",
+      "shiny": false,
+      "moves": [
+        "Hoja Afilada",
+        "Ladrón",
+        "Triple Patada",
+        "Viraje"
+      ]
+    },
+    {
       "nickname": "Miguelito",
       "species": "Rillaboom",
-      "level": 36,
+      "level": 37,
       "types": [
         "Planta"
       ],
@@ -98,24 +116,6 @@
         "Colmillo Ígneo",
         "Psicohojas",
         "Agarrón"
-      ]
-    },
-    {
-      "nickname": "Cobblemon",
-      "species": "Naclstack",
-      "level": 34,
-      "types": [
-        "Roca"
-      ],
-      "ability": "Anticipación",
-      "nature": "Pícara",
-      "item": "Mineral Evol",
-      "shiny": false,
-      "moves": [
-        "Golpe Calor",
-        "Salazón",
-        "Superdiente",
-        "Roca Veloz"
       ]
     }
   ],
@@ -249,6 +249,79 @@
         "Onda Vacío",
         "Esporagodón",
         "Tornado"
+      ]
+    },
+    {
+      "nickname": "Elmo",
+      "species": "Throh",
+      "level": 30,
+      "types": [
+        "Lucha"
+      ],
+      "ability": "Escudo Recio",
+      "nature": "Huraña",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Gota Vital",
+        "Palma Rauda",
+        "Mal de Ojo",
+        "Desarme"
+      ]
+    },
+    {
+      "nickname": "Homero",
+      "species": "Vivillon",
+      "level": 32,
+      "types": [
+        "Bicho",
+        "Volador"
+      ],
+      "ability": "Ultraimpulso",
+      "nature": "Pícara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Puño Jet",
+        "Llanto Falso",
+        "Pulso de Campo",
+        "Garrote Liana"
+      ]
+    },
+    {
+      "nickname": "Wolfey",
+      "species": "Mightyena",
+      "level": 33,
+      "types": [
+        "Siniestro"
+      ],
+      "ability": "Mutatipo",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Espora",
+        "Danza Triunfal",
+        "Espejo",
+        "Bomba Caramelo"
+      ]
+    },
+    {
+      "nickname": "Extra",
+      "species": "Dewott",
+      "level": 1,
+      "types": [
+        "Agua"
+      ],
+      "ability": "",
+      "nature": "Rara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Pistola Agua",
+        "Día de Pago",
+        "Extracto Picante",
+        "Rugido"
       ]
     },
     {
@@ -494,6 +567,17 @@
   "graveyard": [],
   "captures": [
     {
+      "route": "",
+      "where": "Museo Pokémon",
+      "species": "Garganacl",
+      "nickname": "Cobblemon",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 1,
+      "mon": "Garganacl"
+    },
+    {
       "route": "ruta_1",
       "where": "Ruta 1",
       "species": "Araquanid",
@@ -503,17 +587,6 @@
       "category": "salvaje",
       "level": 5,
       "mon": "Araquanid"
-    },
-    {
-      "route": "ruta_15",
-      "where": "Ruta 15",
-      "species": "Crawdaunt",
-      "nickname": "Don pendejo",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 23,
-      "mon": "Crawdaunt"
     },
     {
       "route": "",
@@ -538,6 +611,17 @@
       "mon": "Graveler"
     },
     {
+      "route": "ruta_15",
+      "where": "Ruta 15",
+      "species": "Crawdaunt",
+      "nickname": "Don pendejo",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 23,
+      "mon": "Crawdaunt"
+    },
+    {
       "route": "",
       "where": "Laboratorio",
       "species": "Rillaboom",
@@ -547,17 +631,6 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Rillaboom"
-    },
-    {
-      "route": "",
-      "where": "Museo Pokémon",
-      "species": "Naclstack",
-      "nickname": "Cobblemon",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 1,
-      "mon": "Naclstack"
     },
     {
       "route": "tunel_diglett",
@@ -635,6 +708,50 @@
       "category": "ciudad",
       "level": 17,
       "mon": "Cofagrigus"
+    },
+    {
+      "route": "ruta_10_sur",
+      "where": "Ruta 10 Sur",
+      "species": "Throh",
+      "nickname": "Elmo",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 30,
+      "mon": "Throh"
+    },
+    {
+      "route": "pueblo_lavanda",
+      "where": "Pueblo Lavanda",
+      "species": "Vivillon",
+      "nickname": "Homero",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 32,
+      "mon": "Vivillon"
+    },
+    {
+      "route": "ruta_12",
+      "where": "Ruta 12",
+      "species": "Mightyena",
+      "nickname": "Wolfey",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 33,
+      "mon": "Mightyena"
+    },
+    {
+      "route": "",
+      "where": "Museo Pokémon",
+      "species": "Dewott",
+      "nickname": "Extra",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 1,
+      "mon": "Dewott"
     },
     {
       "route": "ruta_9",
@@ -790,14 +907,17 @@
     "npcs": {},
     "routes": {
       "ruta_1": true,
-      "ruta_15": true,
       "monte_moon": true,
+      "ruta_15": true,
       "tunel_diglett": true,
       "ciudad_carmin": true,
       "ciudad_plateada": true,
       "ruta_20": true,
       "ruta_3": true,
       "ciudad_celeste": true,
+      "ruta_10_sur": true,
+      "pueblo_lavanda": true,
+      "ruta_12": true,
       "ruta_9": true,
       "bosque_verde": true,
       "ruta_2_norte": true,
@@ -810,6 +930,8 @@
       "ciudad_verde": true,
       "ruta_22": true,
       "ruta_4": true,
+      "tunel_roca": true,
+      "torre_pokemon": true,
       "ruta_21": true
     },
     "items": {}
