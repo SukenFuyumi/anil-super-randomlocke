@@ -279,7 +279,9 @@ img.player-avatar.xl { padding: 6px; }
 
 /* ---------- Mini-sprites del equipo (tarjetas de jugador) ---------- */
 .team-mini { display: flex; gap: .35rem; flex-wrap: wrap; align-items: center; min-height: 80px; }
-.team-mini img { width: 80px; height: 80px; object-fit: contain; image-rendering: pixelated; }
+/* max-width:none + flex:none evita que, mientras cargan los sprites de GitHub,
+   el img se colapse a ancho 0 y la fila se apile en vertical desbordando sobre las pestañas */
+.team-mini img { width: 80px; height: 80px; max-width: none; flex: 0 0 auto; object-fit: contain; image-rendering: pixelated; }
 .team-mini-x {
   width: 64px; height: 64px; border-radius: 50%; background: var(--subtle-bg);
   display: inline-flex; align-items: center; justify-content: center;
@@ -354,7 +356,8 @@ img.player-avatar.xl { padding: 6px; }
 .matrix .partial { color: var(--warn); font-weight: 700; }
 
 /* ---------- Tabs ---------- */
-.tabs { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: 1rem; }
+.team-preview { margin-top: .85rem; }
+.tabs { display: flex; flex-wrap: wrap; gap: .4rem; margin: 1rem 0; }
 .tabs button {
   border: 1px solid var(--border); background: var(--panel); cursor: pointer;
   color: var(--text-muted); border-radius: 999px; padding: .35rem .9rem; font-size: .85rem; font-weight: 600;
