@@ -4,27 +4,8 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 2h 3m jugadas · 11,700₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 2h 14m jugadas · 15,060₽ · vidas en el juego: ?",
   "team": [
-    {
-      "nickname": "goku",
-      "species": "Monferno",
-      "level": 23,
-      "types": [
-        "Fuego",
-        "Lucha"
-      ],
-      "ability": "Ignífugo",
-      "nature": "Ingenua",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Sustituto",
-        "Defensa Férrea",
-        "Veneno X",
-        "Lengüetazo"
-      ]
-    },
     {
       "nickname": "faker",
       "species": "Skiddo",
@@ -44,21 +25,22 @@
       ]
     },
     {
-      "nickname": "gato",
-      "species": "Skitty",
+      "nickname": "goku",
+      "species": "Monferno",
       "level": 23,
       "types": [
-        "Normal"
+        "Fuego",
+        "Lucha"
       ],
-      "ability": "Electromotor",
-      "nature": "Floja",
+      "ability": "Ignífugo",
+      "nature": "Ingenua",
       "item": "",
       "shiny": false,
       "moves": [
-        "Búnker",
-        "Shuriken de Agua",
-        "Picoteo",
-        "Cuchillada"
+        "Sustituto",
+        "Defensa Férrea",
+        "Veneno X",
+        "Lengüetazo"
       ]
     },
     {
@@ -101,7 +83,7 @@
     {
       "nickname": "juan",
       "species": "Horsea",
-      "level": 16,
+      "level": 17,
       "types": [
         "Agua"
       ],
@@ -115,9 +97,46 @@
         "Tenaza",
         "Danza Lluvia"
       ]
+    },
+    {
+      "nickname": "gabumon",
+      "species": "Seel",
+      "level": 17,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Mudar",
+      "nature": "Pícara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Golpe Roca",
+        "Puño Jet",
+        "Acoso",
+        "Danza Lluvia"
+      ]
     }
   ],
-  "box": [],
+  "box": [
+    {
+      "nickname": "gato",
+      "species": "Skitty",
+      "level": 23,
+      "types": [
+        "Normal"
+      ],
+      "ability": "Electromotor",
+      "nature": "Floja",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Búnker",
+        "Shuriken de Agua",
+        "Picoteo",
+        "Cuchillada"
+      ]
+    }
+  ],
   "graveyard": [
     {
       "nickname": "el bicho",
@@ -144,17 +163,6 @@
   ],
   "captures": [
     {
-      "route": "",
-      "where": "Laboratorio",
-      "species": "Monferno",
-      "nickname": "goku",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 5,
-      "mon": "Monferno"
-    },
-    {
       "route": "ciudad_verde",
       "where": "Ciudad Verde",
       "species": "Skiddo",
@@ -166,15 +174,15 @@
       "mon": "Skiddo"
     },
     {
-      "route": "ruta_2_sur",
-      "where": "Ruta 2 Sur",
-      "species": "Skitty",
-      "nickname": "gato",
+      "route": "",
+      "where": "Laboratorio",
+      "species": "Monferno",
+      "nickname": "goku",
       "shiny": false,
       "status": "captured",
-      "category": "salvaje",
-      "level": 6,
-      "mon": "Skitty"
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Monferno"
     },
     {
       "route": "bosque_verde",
@@ -210,6 +218,17 @@
       "mon": "Horsea"
     },
     {
+      "route": "monte_moon_exterior",
+      "where": "Monte Moon Exterior",
+      "species": "Seel",
+      "nickname": "gabumon",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 16,
+      "mon": "Seel"
+    },
+    {
       "route": "ruta_2_norte",
       "where": "Ruta 2 Norte",
       "species": "Ledyba",
@@ -219,6 +238,17 @@
       "category": "salvaje",
       "level": 9,
       "mon": "Ledyba"
+    },
+    {
+      "route": "ruta_2_sur",
+      "where": "Ruta 2 Sur",
+      "species": "Skitty",
+      "nickname": "gato",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 6,
+      "mon": "Skitty"
     }
   ],
   "progress": {
@@ -229,16 +259,16 @@
     "npcs": {},
     "routes": {
       "ciudad_verde": true,
-      "ruta_2_sur": true,
       "bosque_verde": true,
       "ruta_1": true,
       "ruta_3": true,
+      "monte_moon_exterior": true,
       "ruta_2_norte": true,
+      "ruta_2_sur": true,
       "pueblo_paleta": true,
       "ruta_22": true,
       "ciudad_plateada": true,
-      "monte_moon": true,
-      "monte_moon_exterior": true
+      "monte_moon": true
     },
     "items": {}
   }
