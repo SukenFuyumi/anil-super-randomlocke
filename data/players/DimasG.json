@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 5h 4m jugadas · 55,490₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 5h 6m jugadas · 58,490₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Pinchos",
       "species": "Pyukumuku",
-      "level": 27,
+      "level": 28,
       "types": [
         "Agua"
       ],
@@ -33,8 +33,8 @@
       ],
       "ev": [
         1,
-        5,
-        0,
+        7,
+        1,
         6,
         4,
         3
@@ -143,8 +143,8 @@
       ],
       "ev": [
         19,
-        29,
-        18,
+        31,
+        19,
         32,
         19,
         33
@@ -307,8 +307,8 @@
       ],
       "ev": [
         16,
-        25,
-        13,
+        27,
+        14,
         28,
         20,
         26
@@ -429,8 +429,8 @@
       ],
       "ev": [
         5,
-        11,
-        3,
+        13,
+        4,
         9,
         9,
         11
@@ -543,8 +543,8 @@
       ],
       "ev": [
         11,
-        22,
-        11,
+        24,
+        12,
         19,
         18,
         20
@@ -634,8 +634,8 @@
       ],
       "ev": [
         4,
-        9,
-        4,
+        11,
+        5,
         11,
         11,
         11
