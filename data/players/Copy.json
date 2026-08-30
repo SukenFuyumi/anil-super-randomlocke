@@ -4,43 +4,25 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 5h 39m jugadas · 546,005₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 5h 51m jugadas · 552,695₽ · vidas en el juego: ?",
   "team": [
     {
-      "nickname": "Cobblemon",
-      "species": "Garganacl",
-      "level": 38,
-      "types": [
-        "Roca"
-      ],
-      "ability": "Francotirador",
-      "nature": "Pícara",
-      "item": "Cascabel Concha",
-      "shiny": false,
-      "moves": [
-        "Búnker",
-        "Salazón",
-        "Superdiente",
-        "Roca Veloz"
-      ]
-    },
-    {
-      "nickname": "Peter",
-      "species": "Araquanid",
-      "level": 36,
+      "nickname": "Don pendejo",
+      "species": "Crawdaunt",
+      "level": 37,
       "types": [
         "Agua",
-        "Bicho"
+        "Siniestro"
       ],
-      "ability": "Espada Debacle",
-      "nature": "Amable",
-      "item": "Baya Ziuela",
+      "ability": "Experto",
+      "nature": "Afable",
+      "item": "Banda Aguante",
       "shiny": false,
       "moves": [
-        "Ida y Vuelta",
-        "Tóxico",
-        "Triple Inmersión",
-        "Telatrampa"
+        "Hoja Afilada",
+        "Ladrón",
+        "Triple Patada",
+        "Viraje"
       ]
     },
     {
@@ -62,9 +44,27 @@
       ]
     },
     {
+      "nickname": "Cobblemon",
+      "species": "Garganacl",
+      "level": 38,
+      "types": [
+        "Roca"
+      ],
+      "ability": "Francotirador",
+      "nature": "Pícara",
+      "item": "Cascabel Concha",
+      "shiny": false,
+      "moves": [
+        "Búnker",
+        "Salazón",
+        "Superdiente",
+        "Roca Veloz"
+      ]
+    },
+    {
       "nickname": "CFE",
       "species": "Graveler (Alola)",
-      "level": 36,
+      "level": 37,
       "types": [
         "Roca",
         "Eléctrico"
@@ -82,22 +82,22 @@
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10110.png"
     },
     {
-      "nickname": "Don pendejo",
-      "species": "Crawdaunt",
-      "level": 36,
+      "nickname": "Peter",
+      "species": "Araquanid",
+      "level": 37,
       "types": [
         "Agua",
-        "Siniestro"
+        "Bicho"
       ],
-      "ability": "Experto",
-      "nature": "Afable",
-      "item": "Banda Aguante",
+      "ability": "Espada Debacle",
+      "nature": "Amable",
+      "item": "Baya Ziuela",
       "shiny": false,
       "moves": [
-        "Hoja Afilada",
-        "Ladrón",
-        "Triple Patada",
-        "Viraje"
+        "Ida y Vuelta",
+        "Tóxico",
+        "Triple Inmersión",
+        "Telatrampa"
       ]
     },
     {
@@ -252,6 +252,61 @@
       ]
     },
     {
+      "nickname": "Mierdon",
+      "species": "Squawkabilly",
+      "level": 11,
+      "types": [
+        "Normal",
+        "Volador"
+      ],
+      "ability": "Filtro",
+      "nature": "Tímida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Bola de Polen",
+        "Sonámbulo",
+        "Cambio de Banda",
+        "Descanso"
+      ]
+    },
+    {
+      "nickname": "ConchaLora",
+      "species": "Dewott",
+      "level": 29,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Ensañamiento",
+      "nature": "Miedosa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Terratemblor",
+        "Tenaza",
+        "Vasta Guardia",
+        "Fanfarronear"
+      ]
+    },
+    {
+      "nickname": "Wolfey",
+      "species": "Mightyena",
+      "level": 33,
+      "types": [
+        "Siniestro"
+      ],
+      "ability": "Mutatipo",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Espora",
+        "Danza Triunfal",
+        "Espejo",
+        "Bomba Caramelo"
+      ]
+    },
+    {
       "nickname": "Elmo",
       "species": "Throh",
       "level": 30,
@@ -289,75 +344,21 @@
       ]
     },
     {
-      "nickname": "Wolfey",
-      "species": "Mightyena",
-      "level": 33,
+      "nickname": "Almendra",
+      "species": "Greedent",
+      "level": 32,
       "types": [
-        "Siniestro"
+        "Normal"
       ],
-      "ability": "Mutatipo",
-      "nature": "Plácida",
+      "ability": "Ojo Mental",
+      "nature": "Audaz",
       "item": "",
       "shiny": false,
       "moves": [
-        "Espora",
-        "Danza Triunfal",
-        "Espejo",
-        "Bomba Caramelo"
-      ]
-    },
-    {
-      "nickname": "Extra",
-      "species": "Dewott",
-      "level": 1,
-      "types": [
-        "Agua"
-      ],
-      "ability": "",
-      "nature": "Rara",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Pistola Agua",
-        "Día de Pago",
-        "Extracto Picante",
-        "Rugido"
-      ]
-    },
-    {
-      "nickname": "Tronchatoro",
-      "species": "Machoke",
-      "level": 26,
-      "types": [
-        "Lucha"
-      ],
-      "ability": "Megadisparador",
-      "nature": "Tímida",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Zona Mágica",
-        "Canto",
-        "Cola Veneno",
-        "Cola Dragón"
-      ]
-    },
-    {
-      "nickname": "Curita",
-      "species": "Floette",
-      "level": 34,
-      "types": [
-        "Hada"
-      ],
-      "ability": "Intimidación",
-      "nature": "Pícara",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Onda Voltio",
-        "Bomba Caramelo",
-        "Auxilio",
-        "Beso Drenaje"
+        "Visegrip",
+        "Reciclaje",
+        "Cepo",
+        "Finta"
       ]
     },
     {
@@ -395,6 +396,42 @@
         "Ataque Ala",
         "Onda Vacío",
         "Poder Reserva"
+      ]
+    },
+    {
+      "nickname": "Curita",
+      "species": "Floette",
+      "level": 34,
+      "types": [
+        "Hada"
+      ],
+      "ability": "Intimidación",
+      "nature": "Pícara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Onda Voltio",
+        "Bomba Caramelo",
+        "Auxilio",
+        "Beso Drenaje"
+      ]
+    },
+    {
+      "nickname": "Tronchatoro",
+      "species": "Machoke",
+      "level": 26,
+      "types": [
+        "Lucha"
+      ],
+      "ability": "Megadisparador",
+      "nature": "Tímida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Zona Mágica",
+        "Canto",
+        "Cola Veneno",
+        "Cola Dragón"
       ]
     },
     {
@@ -469,24 +506,6 @@
         "Corpulencia",
         "Agarrón",
         "Picotazo"
-      ]
-    },
-    {
-      "nickname": "ConchaLora",
-      "species": "Dewott",
-      "level": 29,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Ensañamiento",
-      "nature": "Miedosa",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Terratemblor",
-        "Tenaza",
-        "Vasta Guardia",
-        "Fanfarronear"
       ]
     },
     {
@@ -567,26 +586,15 @@
   "graveyard": [],
   "captures": [
     {
-      "route": "",
-      "where": "Museo Pokémon",
-      "species": "Garganacl",
-      "nickname": "Cobblemon",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 1,
-      "mon": "Garganacl"
-    },
-    {
-      "route": "ruta_1",
-      "where": "Ruta 1",
-      "species": "Araquanid",
-      "nickname": "Peter",
+      "route": "ruta_15",
+      "where": "Ruta 15",
+      "species": "Crawdaunt",
+      "nickname": "Don pendejo",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 5,
-      "mon": "Araquanid"
+      "level": 23,
+      "mon": "Crawdaunt"
     },
     {
       "route": "",
@@ -600,6 +608,17 @@
       "mon": "Alakazam"
     },
     {
+      "route": "",
+      "where": "Museo Pokémon",
+      "species": "Garganacl",
+      "nickname": "Cobblemon",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 1,
+      "mon": "Garganacl"
+    },
+    {
       "route": "monte_moon",
       "where": "Monte Moon",
       "species": "Graveler",
@@ -611,15 +630,15 @@
       "mon": "Graveler"
     },
     {
-      "route": "ruta_15",
-      "where": "Ruta 15",
-      "species": "Crawdaunt",
-      "nickname": "Don pendejo",
+      "route": "ruta_1",
+      "where": "Ruta 1",
+      "species": "Araquanid",
+      "nickname": "Peter",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 23,
-      "mon": "Crawdaunt"
+      "level": 5,
+      "mon": "Araquanid"
     },
     {
       "route": "",
@@ -710,6 +729,39 @@
       "mon": "Cofagrigus"
     },
     {
+      "route": "ciudad_plateada",
+      "where": "Ciudad Plateada",
+      "species": "Squawkabilly",
+      "nickname": "Mierdon",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 11,
+      "mon": "Squawkabilly"
+    },
+    {
+      "route": "ruta_10_norte",
+      "where": "Ruta 10 Norte",
+      "species": "Dewott",
+      "nickname": "ConchaLora",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 29,
+      "mon": "Dewott"
+    },
+    {
+      "route": "ruta_12",
+      "where": "Ruta 12",
+      "species": "Mightyena",
+      "nickname": "Wolfey",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 33,
+      "mon": "Mightyena"
+    },
+    {
       "route": "ruta_10_sur",
       "where": "Ruta 10 Sur",
       "species": "Throh",
@@ -732,48 +784,15 @@
       "mon": "Vivillon"
     },
     {
-      "route": "ruta_12",
-      "where": "Ruta 12",
-      "species": "Mightyena",
-      "nickname": "Wolfey",
+      "route": "ruta_8",
+      "where": "Ruta 8",
+      "species": "Greedent",
+      "nickname": "Almendra",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 33,
-      "mon": "Mightyena"
-    },
-    {
-      "route": "",
-      "where": "Museo Pokémon",
-      "species": "Dewott",
-      "nickname": "Extra",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 1,
-      "mon": "Dewott"
-    },
-    {
-      "route": "ruta_9",
-      "where": "Ruta 9",
-      "species": "Machoke",
-      "nickname": "Tronchatoro",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 26,
-      "mon": "Machoke"
-    },
-    {
-      "route": "bosque_verde",
-      "where": "Bosque Verde",
-      "species": "Floette",
-      "nickname": "Curita",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 8,
-      "mon": "Floette"
+      "level": 32,
+      "mon": "Greedent"
     },
     {
       "route": "ruta_2_norte",
@@ -796,6 +815,28 @@
       "category": "intercambio",
       "level": 17,
       "mon": "Croagunk"
+    },
+    {
+      "route": "bosque_verde",
+      "where": "Bosque Verde",
+      "species": "Floette",
+      "nickname": "Curita",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 8,
+      "mon": "Floette"
+    },
+    {
+      "route": "ruta_9",
+      "where": "Ruta 9",
+      "species": "Machoke",
+      "nickname": "Tronchatoro",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 26,
+      "mon": "Machoke"
     },
     {
       "route": "ciudad_plateada",
@@ -840,17 +881,6 @@
       "category": "ciudad",
       "level": 10,
       "mon": "Staraptor"
-    },
-    {
-      "route": "ruta_10_norte",
-      "where": "Ruta 10 Norte",
-      "species": "Dewott",
-      "nickname": "ConchaLora",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 29,
-      "mon": "Dewott"
     },
     {
       "route": "",
@@ -906,24 +936,25 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_1": true,
-      "monte_moon": true,
       "ruta_15": true,
+      "monte_moon": true,
+      "ruta_1": true,
       "tunel_diglett": true,
       "ciudad_carmin": true,
       "ciudad_plateada": true,
       "ruta_20": true,
       "ruta_3": true,
       "ciudad_celeste": true,
+      "ruta_10_norte": true,
+      "ruta_12": true,
       "ruta_10_sur": true,
       "pueblo_lavanda": true,
-      "ruta_12": true,
-      "ruta_9": true,
-      "bosque_verde": true,
+      "ruta_8": true,
       "ruta_2_norte": true,
+      "bosque_verde": true,
+      "ruta_9": true,
       "monte_moon_exterior": true,
       "pueblo_paleta": true,
-      "ruta_10_norte": true,
       "ruta_2_sur": true,
       "ruta_5": true,
       "ruta_6": true,
