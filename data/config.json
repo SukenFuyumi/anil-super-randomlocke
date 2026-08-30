@@ -130,7 +130,7 @@
     {
       "id": "gym8",
       "name": "Gimnasio de Ciudad Verde",
-      "leader": "Giovanni",
+      "leader": "Urano",
       "type": "Tierra",
       "city": "Ciudad Verde",
       "order": 8,
@@ -140,21 +140,46 @@
   "bosses": [
     {
       "id": "rival1",
-      "name": "Rival — Primer combate",
+      "name": "Rival Azul — 1er combate",
       "location": "Pueblo Paleta",
       "image": "assets/trainers/blue.png"
     },
     {
-      "id": "rival2",
-      "name": "Rival — Ruta 22",
-      "location": "Ruta 22",
+      "id": "rival_ruta",
+      "name": "Rival Azul — combates de ruta",
+      "location": "Kanto",
       "image": "assets/trainers/blue.png"
     },
     {
-      "id": "teamrocket",
-      "name": "Jefe del Team Rocket",
+      "id": "giovanni",
+      "name": "Giovanni — Team Rocket",
       "location": "Guarida Rocket",
       "image": "assets/trainers/giovanni.png"
+    },
+    {
+      "id": "eliterocket",
+      "name": "Élite Rocket",
+      "location": "Team Rocket"
+    },
+    {
+      "id": "surya",
+      "name": "Surya",
+      "location": "Villano"
+    },
+    {
+      "id": "atlas",
+      "name": "Atlas",
+      "location": "Villano"
+    },
+    {
+      "id": "atenea",
+      "name": "Atenea",
+      "location": "Villano"
+    },
+    {
+      "id": "urano_villano",
+      "name": "Urano — combate especial",
+      "location": "Villano"
     },
     {
       "id": "e4_lorelei",
@@ -186,9 +211,51 @@
     },
     {
       "id": "campeon",
-      "name": "Campeón de la Liga",
+      "name": "Campeón — Azul",
       "location": "Liga Pokémon",
       "image": "assets/trainers/blue.png"
+    },
+    {
+      "id": "hoenn_norman",
+      "name": "Gimnasio Hoenn — Norman",
+      "type": "Normal",
+      "location": "Hoenn",
+      "image": "assets/trainers/norman.png"
+    },
+    {
+      "id": "hoenn_candela",
+      "name": "Gimnasio Hoenn — Candela",
+      "location": "Hoenn"
+    },
+    {
+      "id": "hoenn_alana",
+      "name": "Gimnasio Hoenn — Alana",
+      "location": "Hoenn"
+    },
+    {
+      "id": "hoenn_erico",
+      "name": "Gimnasio Hoenn — Erico",
+      "location": "Hoenn"
+    },
+    {
+      "id": "hoenn_petra",
+      "name": "Gimnasio Hoenn — Petra",
+      "location": "Hoenn"
+    },
+    {
+      "id": "hoenn_marcial",
+      "name": "Gimnasio Hoenn — Marcial",
+      "location": "Hoenn"
+    },
+    {
+      "id": "hoenn_plubio",
+      "name": "Gimnasio Hoenn — Plubio",
+      "location": "Hoenn"
+    },
+    {
+      "id": "hoenn_vito_leti",
+      "name": "Gimnasio Hoenn — Vito y Leti",
+      "location": "Hoenn"
     }
   ],
   "npcs": [
