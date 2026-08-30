@@ -1,6 +1,6 @@
 {
   "name": "anil-sync",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Companion de Pokémon Añil Super Randomlocke",
   "bin": "anil-sync.js",
   "pkg": {

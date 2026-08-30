@@ -1,4 +1,4 @@
 {
-  "version": "1.2.0",
-  "notes": "Ahora extrae IVs y EVs de cada Pokémon, y nombres de movimientos/habilidades consistentes con la Wikidex."
+  "version": "1.2.1",
+  "notes": "Ahora detecta las habilidades randomizadas reales de cada Pokémon (las que muestra el juego), además de IVs y EVs."
 }
