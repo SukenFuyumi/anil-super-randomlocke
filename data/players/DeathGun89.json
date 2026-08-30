@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 5h 20m jugadas · 3,600₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 5h 25m jugadas · 3,600₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "El tortas",
@@ -82,20 +82,20 @@
     },
     {
       "nickname": "pqto",
-      "species": "Lotad",
-      "level": 7,
+      "species": "Lombre",
+      "level": 14,
       "types": [
         "Agua",
         "Planta"
       ],
-      "ability": "Dinamo",
+      "ability": "",
       "nature": "Floja",
       "item": "",
       "shiny": false,
       "moves": [
         "Paz Mental",
         "Recuperación",
-        "Día de Pago",
+        "Brazo Pincho",
         "Hoja Mágica"
       ]
     }
@@ -184,13 +184,13 @@
     {
       "route": "ruta_2_norte",
       "where": "Ruta 2 Norte",
-      "species": "Lotad",
+      "species": "Lombre",
       "nickname": "pqto",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
       "level": 7,
-      "mon": "Lotad"
+      "mon": "Lombre"
     }
   ],
   "progress": {
