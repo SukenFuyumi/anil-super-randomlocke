@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 4h 3m jugadas · 43,630₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 4h 7m jugadas · 43,630₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Pyukumuku",
@@ -98,22 +98,21 @@
       ]
     },
     {
-      "nickname": "Macizo",
-      "species": "Archen",
-      "level": 30,
+      "nickname": "Taxi",
+      "species": "Corvisquire",
+      "level": 25,
       "types": [
-        "Roca",
         "Volador"
       ],
-      "ability": "Escudo Magma",
-      "nature": "Firme",
+      "ability": "Recogida",
+      "nature": "Floja",
       "item": "",
       "shiny": false,
       "moves": [
-        "Semilladora",
-        "Tumba Rocas",
-        "Ovocuración",
-        "Guardia Baja"
+        "Ataque Ala",
+        "Deslizamiento",
+        "Giro Mortífero",
+        "Tumba Rocas"
       ]
     }
   ],
@@ -212,21 +211,22 @@
       ]
     },
     {
-      "nickname": "Taxi",
-      "species": "Corvisquire",
-      "level": 25,
+      "nickname": "Macizo",
+      "species": "Archen",
+      "level": 30,
       "types": [
+        "Roca",
         "Volador"
       ],
-      "ability": "Recogida",
-      "nature": "Floja",
+      "ability": "Escudo Magma",
+      "nature": "Firme",
       "item": "",
       "shiny": false,
       "moves": [
-        "Ataque Ala",
-        "Deslizamiento",
-        "Giro Mortífero",
-        "Tumba Rocas"
+        "Semilladora",
+        "Tumba Rocas",
+        "Ovocuración",
+        "Guardia Baja"
       ]
     },
     {
@@ -337,6 +337,24 @@
         "Absorber",
         "Cambio de Cancha"
       ]
+    },
+    {
+      "nickname": "Goliat1",
+      "species": "Eevee",
+      "level": 13,
+      "types": [
+        "Normal"
+      ],
+      "ability": "Cola Armadura",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Fotosíntesis",
+        "Último Lugar",
+        "Picotazo Veneno",
+        "Semilladora"
+      ]
     }
   ],
   "graveyard": [
@@ -441,15 +459,15 @@
       "mon": "Magmar"
     },
     {
-      "route": "ruta_2_sur",
-      "where": "Ruta 2 Sur",
-      "species": "Archen",
-      "nickname": "Macizo",
+      "route": "ruta_3",
+      "where": "Ruta 3",
+      "species": "Corvisquire",
+      "nickname": "Taxi",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 6,
-      "mon": "Archen"
+      "level": 13,
+      "mon": "Corvisquire"
     },
     {
       "route": "",
@@ -507,15 +525,15 @@
       "mon": "Shroodle"
     },
     {
-      "route": "ruta_3",
-      "where": "Ruta 3",
-      "species": "Corvisquire",
-      "nickname": "Taxi",
+      "route": "ruta_2_sur",
+      "where": "Ruta 2 Sur",
+      "species": "Archen",
+      "nickname": "Macizo",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 13,
-      "mon": "Corvisquire"
+      "level": 6,
+      "mon": "Archen"
     },
     {
       "route": "ruta_21",
@@ -584,6 +602,17 @@
       "mon": "Unown"
     },
     {
+      "route": "monte_moon",
+      "where": "Monte Moon",
+      "species": "Eevee",
+      "nickname": "Goliat1",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 13,
+      "mon": "Eevee"
+    },
+    {
       "route": "ciudad_plateada",
       "where": "Ciudad Plateada",
       "species": "Eevee",
@@ -618,11 +647,11 @@
       "ciudad_verde": true,
       "ruta_20": true,
       "ciudad_celeste": true,
-      "ruta_2_sur": true,
+      "ruta_3": true,
       "ruta_2_norte": true,
       "ciudad_plateada": true,
       "ruta_22": true,
-      "ruta_3": true,
+      "ruta_2_sur": true,
       "ruta_21": true,
       "pueblo_paleta": true,
       "monte_moon_exterior": true,
