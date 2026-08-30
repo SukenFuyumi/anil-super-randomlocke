@@ -2,26 +2,27 @@
   "id": "DeathGun89",
   "name": "DeathGun89",
   "lives": 30,
-  "livesUsed": 1,
+  "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 5h 25m jugadas · 3,600₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 5h 30m jugadas · 4,300₽ · vidas en el juego: ?",
   "team": [
     {
-      "nickname": "El tortas",
-      "species": "Squirtle",
+      "nickname": "pqto",
+      "species": "Lombre",
       "level": 14,
       "types": [
-        "Agua"
+        "Agua",
+        "Planta"
       ],
-      "ability": "Absorbe Electricidad",
-      "nature": "Activa",
-      "item": "Cinta Fuerte",
+      "ability": "Torrente",
+      "nature": "Floja",
+      "item": "",
       "shiny": false,
       "moves": [
-        "Ovocuración",
-        "Ataque Furia",
-        "Somnífero",
-        "Tajo Acuático"
+        "Paz Mental",
+        "Recuperación",
+        "Brazo Pincho",
+        "Hoja Mágica"
       ]
     },
     {
@@ -79,25 +80,6 @@
         "Calcinación",
         "Golpe Aéreo"
       ]
-    },
-    {
-      "nickname": "pqto",
-      "species": "Lombre",
-      "level": 14,
-      "types": [
-        "Agua",
-        "Planta"
-      ],
-      "ability": "",
-      "nature": "Floja",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Paz Mental",
-        "Recuperación",
-        "Brazo Pincho",
-        "Hoja Mágica"
-      ]
     }
   ],
   "box": [],
@@ -123,19 +105,40 @@
       "cause": "",
       "route": "Pueblo Paleta",
       "date": ""
+    },
+    {
+      "nickname": "El tortas",
+      "species": "Squirtle",
+      "level": 14,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Absorbe Electricidad",
+      "nature": "Activa",
+      "item": "Cinta Fuerte",
+      "shiny": false,
+      "moves": [
+        "Ovocuración",
+        "Ataque Furia",
+        "Somnífero",
+        "Tajo Acuático"
+      ],
+      "cause": "",
+      "route": "Laboratorio",
+      "date": ""
     }
   ],
   "captures": [
     {
-      "route": "",
-      "where": "Laboratorio",
-      "species": "Squirtle",
-      "nickname": "El tortas",
+      "route": "ruta_2_norte",
+      "where": "Ruta 2 Norte",
+      "species": "Lombre",
+      "nickname": "pqto",
       "shiny": false,
       "status": "captured",
-      "category": "estatico_regalo",
-      "level": 5,
-      "mon": "Squirtle"
+      "category": "salvaje",
+      "level": 7,
+      "mon": "Lombre"
     },
     {
       "route": "pueblo_paleta",
@@ -182,15 +185,15 @@
       "mon": "Amaura"
     },
     {
-      "route": "ruta_2_norte",
-      "where": "Ruta 2 Norte",
-      "species": "Lombre",
-      "nickname": "pqto",
+      "route": "",
+      "where": "Laboratorio",
+      "species": "Squirtle",
+      "nickname": "El tortas",
       "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 7,
-      "mon": "Lombre"
+      "status": "dead",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Squirtle"
     }
   ],
   "progress": {
@@ -198,11 +201,11 @@
     "bosses": {},
     "npcs": {},
     "routes": {
+      "ruta_2_norte": true,
       "pueblo_paleta": true,
       "ruta_1": true,
       "ciudad_verde": true,
       "ruta_22": true,
-      "ruta_2_norte": true,
       "ruta_2_sur": true,
       "bosque_verde": true,
       "ciudad_plateada": true
