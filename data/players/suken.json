@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 4h 41m jugadas · 35,670₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 4h 42m jugadas · 35,670₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -294,6 +294,24 @@
         "Ofrenda",
         "Camaradería",
         "Ráfaga Escamas"
+      ]
+    },
+    {
+      "nickname": "ELXOKAS",
+      "species": "Seedot",
+      "level": 22,
+      "types": [
+        "Planta"
+      ],
+      "ability": "Enjambre",
+      "nature": "Floja",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Caída Libre",
+        "Yo Primero",
+        "Campo de Hierba",
+        "Última Palabra"
       ]
     },
     {
@@ -614,6 +632,17 @@
       "mon": "Dewott"
     },
     {
+      "route": "ruta_15",
+      "where": "Ruta 15",
+      "species": "Seedot",
+      "nickname": "ELXOKAS",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 22,
+      "mon": "Seedot"
+    },
+    {
       "route": "",
       "where": "Laboratorio",
       "species": "Dratini",
@@ -713,11 +742,11 @@
       "ruta_21": true,
       "ruta_5": true,
       "ruta_6": true,
+      "ruta_15": true,
       "ruta_2_norte": true,
       "ciudad_verde": true,
       "ruta_22": true,
       "ciudad_carmin": true,
-      "ruta_15": true,
       "tunel_diglett": true
     },
     "items": {}
