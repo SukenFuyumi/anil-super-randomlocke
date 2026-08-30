@@ -1,4 +1,4 @@
 {
-  "version": "1.1.0",
-  "notes": "Auto-actualización, formas regionales, bosses de Hoenn, rutas quemadas automáticas."
+  "version": "1.2.0",
+  "notes": "Ahora extrae IVs y EVs de cada Pokémon, y nombres de movimientos/habilidades consistentes con la Wikidex."
 }
