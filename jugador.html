@@ -193,15 +193,30 @@
           ${dupGroups.length ? `<div style="margin-top:.2rem">Duplicados: ${dupGroups.map((g)=>escapeHtml(g[0].species)+" ×"+g.length).join(", ")}</div>` : ""}
         </div>` : `<p class="muted">Sin capturas extra todavía.</p>`);
 
+      // estado de cada zona: capturada / quemada / pendiente / sin visitar
+      let stCap = 0, stBurn = 0, stPend = 0, stUnseen = 0;
+      (cfg.routes || []).forEach((r) => {
+        if ((capsByRoute[r.id] || []).length) stCap++;
+        else if (routeOutcomes[r.id] && (routeOutcomes[r.id].status === "dead" || routeOutcomes[r.id].status === "fled")) stBurn++;
+        else if (data.progress?.routes?.[r.id]) stPend++;
+        else stUnseen++;
+      });
       document.getElementById("tab-capturas").innerHTML = `
         <div class="stat-row">
-          <div class="stat-tile"><div class="num ok">${capturedCount}</div><div class="lbl">Capturas totales</div></div>
-          <div class="stat-tile"><div class="num" style="color:var(--warn)">${ec.total}</div><div class="lbl">Capturas extra</div></div>
-          <div class="stat-tile"><div class="num" style="color:${multiCount?'var(--bad)':'var(--text)'}">${multiCount}</div><div class="lbl">Rutas con 2+</div></div>
+          <div class="stat-tile"><div class="num ok">${stCap}</div><div class="lbl">Zonas capturadas</div></div>
+          <div class="stat-tile"><div class="num" style="color:var(--accent)">${stPend}</div><div class="lbl">Puedes capturar</div></div>
+          <div class="stat-tile"><div class="num" style="color:var(--warn)">${stBurn}</div><div class="lbl">Quemadas</div></div>
+          <div class="stat-tile"><div class="num" style="color:var(--text-muted)">${stUnseen}</div><div class="lbl">Sin visitar</div></div>
         </div>
         ${extraDetail}
         <h3>Capturas por ruta</h3>
-        <p class="muted" style="font-size:.82rem;margin-top:-.3rem">Se listan TODAS las capturas de cada ruta. Una ruta marcada con ×N (2+) solo es válida si tiene capturas extra que la justifiquen (shiny/duplicado).</p>
+        <div class="prog-legend">
+          <span><span class="pill ok" style="padding:.02rem .4rem">✓</span> capturado</span>
+          <span><span class="pill bad" style="padding:.02rem .4rem">☠</span> capturado y murió / quemada</span>
+          <span><span class="pill">sin captura</span> aún puedes capturar</span>
+          <span><span class="pill" style="opacity:.6">sin visitar</span> no has ido</span>
+        </div>
+        <p class="muted" style="font-size:.82rem">Se listan TODAS las capturas de cada zona. Una zona con ×N (2+) solo es válida si tiene capturas extra (shiny/duplicado). Las <strong>quemadas</strong> (huyó/cayó el primero) se marcan a mano en el Editor porque el juego no las guarda.</p>
         <div class="table-wrap"><table>
           <thead><tr><th>Ruta / zona</th><th>Capturas</th></tr></thead>
           <tbody>${routesRows || '<tr><td colspan="2" class="muted">Sin rutas configuradas.</td></tr>'}</tbody>
