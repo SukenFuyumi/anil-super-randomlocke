@@ -1118,6 +1118,20 @@
       "ciudad_azulona": true,
       "ruta_21": true
     },
-    "items": {}
+    "items": {},
+    "encounters": {
+      "ruta_15": true,
+      "ruta_9": true,
+      "ruta_10_norte": true,
+      "tunel_roca": true,
+      "ruta_10_sur": true,
+      "pueblo_lavanda": true,
+      "ruta_12": true,
+      "ciudad_plateada": true,
+      "ruta_8": true,
+      "ruta_7": true,
+      "ciudad_azulona": true,
+      "ruta_11": true
+    }
   }
 }
