@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 4h 44m jugadas · 45,310₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 4h 48m jugadas · 45,310₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Pinchos",
       "species": "Pyukumuku",
-      "level": 26,
+      "level": 27,
       "types": [
         "Agua"
       ],
@@ -282,7 +282,7 @@
     {
       "nickname": "Vampi",
       "species": "Crobat",
-      "level": 25,
+      "level": 27,
       "types": [
         "Veneno",
         "Volador"
@@ -519,7 +519,7 @@
     {
       "nickname": "Taxi",
       "species": "Corvisquire",
-      "level": 26,
+      "level": 27,
       "types": [
         "Volador"
       ],
@@ -610,7 +610,7 @@
     {
       "nickname": "Reymo",
       "species": "Nidorino",
-      "level": 25,
+      "level": 27,
       "types": [
         "Veneno"
       ],
