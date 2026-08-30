@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 3h 58m jugadas · 43,630₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 4h 3m jugadas · 43,630₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Pyukumuku",
@@ -100,7 +100,7 @@
     {
       "nickname": "Macizo",
       "species": "Archen",
-      "level": 6,
+      "level": 30,
       "types": [
         "Roca",
         "Volador"
@@ -110,10 +110,10 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Escupir",
-        "Bomba Fango",
-        "Aullido",
-        "Metrónomo"
+        "Semilladora",
+        "Tumba Rocas",
+        "Ovocuración",
+        "Guardia Baja"
       ]
     }
   ],
@@ -318,6 +318,24 @@
         "Somnífero",
         "Deslizamiento",
         "Daño Secreto"
+      ]
+    },
+    {
+      "nickname": "Ooooo",
+      "species": "Unown",
+      "level": 7,
+      "types": [
+        "Psíquico"
+      ],
+      "ability": "Cuerpo Llama",
+      "nature": "Firme",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Anticura",
+        "Psicorrayo",
+        "Absorber",
+        "Cambio de Cancha"
       ]
     }
   ],
@@ -553,6 +571,17 @@
       "category": "salvaje",
       "level": 4,
       "mon": "Phantump"
+    },
+    {
+      "route": "bosque_verde",
+      "where": "Bosque Verde",
+      "species": "Unown",
+      "nickname": "Ooooo",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 7,
+      "mon": "Unown"
     },
     {
       "route": "ciudad_plateada",
