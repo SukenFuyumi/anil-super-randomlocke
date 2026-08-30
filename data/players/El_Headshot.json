@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 5h 4m jugadas · 21,720₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 6h 3m jugadas · 23,620₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Cricri",
@@ -64,7 +64,7 @@
     {
       "nickname": "PollaEdgy",
       "species": "Starly",
-      "level": 15,
+      "level": 17,
       "types": [
         "Normal",
         "Volador"
@@ -101,7 +101,7 @@
     {
       "nickname": "Baldoproxxx",
       "species": "Golett",
-      "level": 15,
+      "level": 17,
       "types": [
         "Tierra",
         "Fantasma"
@@ -422,7 +422,8 @@
       "ciudad_verde": true,
       "ruta_2_norte": true,
       "ciudad_plateada": true,
-      "ciudad_celeste": true
+      "ciudad_celeste": true,
+      "ruta_20": true
     },
     "items": {}
   }
