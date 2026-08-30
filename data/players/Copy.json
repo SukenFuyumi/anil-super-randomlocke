@@ -4,26 +4,8 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 6h 28m jugadas · 525,595₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 6h 52m jugadas · 456,175₽ · vidas en el juego: ?",
   "team": [
-    {
-      "nickname": "Cobblemon",
-      "species": "Garganacl",
-      "level": 39,
-      "types": [
-        "Roca"
-      ],
-      "ability": "Experto",
-      "nature": "Pícara",
-      "item": "Cascabel Concha",
-      "shiny": false,
-      "moves": [
-        "Búnker",
-        "Salazón",
-        "Superdiente",
-        "Roca Veloz"
-      ]
-    },
     {
       "nickname": "Midas",
       "species": "Luxray",
@@ -43,9 +25,27 @@
       ]
     },
     {
+      "nickname": "Cobblemon",
+      "species": "Garganacl",
+      "level": 39,
+      "types": [
+        "Roca"
+      ],
+      "ability": "Experto",
+      "nature": "Pícara",
+      "item": "Cascabel Concha",
+      "shiny": false,
+      "moves": [
+        "Búnker",
+        "Salazón",
+        "Superdiente",
+        "Roca Veloz"
+      ]
+    },
+    {
       "nickname": "Miguelito",
       "species": "Rillaboom",
-      "level": 37,
+      "level": 38,
       "types": [
         "Planta"
       ],
@@ -55,7 +55,7 @@
       "shiny": false,
       "moves": [
         "Pikaturbo",
-        "Colmillo Ígneo",
+        "Terremoto",
         "Psicohojas",
         "Agarrón"
       ]
@@ -63,7 +63,7 @@
     {
       "nickname": "Don pendejo",
       "species": "Crawdaunt",
-      "level": 37,
+      "level": 38,
       "types": [
         "Agua",
         "Siniestro"
@@ -82,7 +82,7 @@
     {
       "nickname": "Dr Pepper",
       "species": "Alakazam",
-      "level": 37,
+      "level": 39,
       "types": [
         "Psíquico"
       ],
@@ -92,7 +92,7 @@
       "shiny": false,
       "moves": [
         "Relajo",
-        "Relámpago Súbito",
+        "Simún de Arena",
         "Psicorrayo",
         "Psicoataque"
       ]
@@ -100,7 +100,7 @@
     {
       "nickname": "Peter",
       "species": "Araquanid",
-      "level": 37,
+      "level": 38,
       "types": [
         "Agua",
         "Bicho"
@@ -358,6 +358,44 @@
         "Tóxico",
         "Alarido",
         "Bruma Explosiva"
+      ]
+    },
+    {
+      "nickname": "Chilemorron",
+      "species": "Emolga",
+      "level": 35,
+      "types": [
+        "Eléctrico",
+        "Volador"
+      ],
+      "ability": "Puño Invisible",
+      "nature": "Huraña",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Onda Trueno",
+        "Viento Feérico",
+        "Agua Lodosa",
+        "Pistola Agua"
+      ]
+    },
+    {
+      "nickname": "Drakloak",
+      "species": "Drakloak",
+      "level": 35,
+      "types": [
+        "Dragón",
+        "Fantasma"
+      ],
+      "ability": "Pararrayos",
+      "nature": "Firme",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Maldición",
+        "Divide Dolor",
+        "Rayo Confuso",
+        "Picoteo"
       ]
     },
     {
@@ -624,17 +662,6 @@
   "graveyard": [],
   "captures": [
     {
-      "route": "",
-      "where": "Museo Pokémon",
-      "species": "Garganacl",
-      "nickname": "Cobblemon",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 1,
-      "mon": "Garganacl"
-    },
-    {
       "route": "ruta_5",
       "where": "Ruta 5",
       "species": "Luxray",
@@ -644,6 +671,17 @@
       "category": "salvaje",
       "level": 20,
       "mon": "Luxray"
+    },
+    {
+      "route": "",
+      "where": "Museo Pokémon",
+      "species": "Garganacl",
+      "nickname": "Cobblemon",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 1,
+      "mon": "Garganacl"
     },
     {
       "route": "",
@@ -831,6 +869,28 @@
       "category": "ciudad",
       "level": 3,
       "mon": "Gastrodon"
+    },
+    {
+      "route": "",
+      "where": "Casino Azulona",
+      "species": "Emolga",
+      "nickname": "Chilemorron",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 35,
+      "mon": "Emolga"
+    },
+    {
+      "route": "",
+      "where": "Centro Comercial",
+      "species": "Drakloak",
+      "nickname": "",
+      "shiny": false,
+      "status": "captured",
+      "category": "intercambio",
+      "level": 35,
+      "mon": "Drakloak"
     },
     {
       "route": "ruta_2_norte",
