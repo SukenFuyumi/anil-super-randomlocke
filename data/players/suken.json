@@ -785,6 +785,9 @@
       "ciudad_carmin": true,
       "ruta_12": true
     },
-    "items": {}
+    "items": {},
+    "encounters": {
+      "pueblo_paleta": true
+    }
   }
 }
