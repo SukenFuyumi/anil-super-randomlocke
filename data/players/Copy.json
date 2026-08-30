@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 6h 52m jugadas · 456,175₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 7h 5m jugadas · 480,745₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Midas",
@@ -22,61 +22,6 @@
         "Cola Dragón",
         "Pikaturbo",
         "Colmillo Veneno"
-      ]
-    },
-    {
-      "nickname": "Cobblemon",
-      "species": "Garganacl",
-      "level": 39,
-      "types": [
-        "Roca"
-      ],
-      "ability": "Experto",
-      "nature": "Pícara",
-      "item": "Cascabel Concha",
-      "shiny": false,
-      "moves": [
-        "Búnker",
-        "Salazón",
-        "Superdiente",
-        "Roca Veloz"
-      ]
-    },
-    {
-      "nickname": "Miguelito",
-      "species": "Rillaboom",
-      "level": 38,
-      "types": [
-        "Planta"
-      ],
-      "ability": "Agallas",
-      "nature": "Audaz",
-      "item": "Cinta Elección",
-      "shiny": false,
-      "moves": [
-        "Pikaturbo",
-        "Terremoto",
-        "Psicohojas",
-        "Agarrón"
-      ]
-    },
-    {
-      "nickname": "Don pendejo",
-      "species": "Crawdaunt",
-      "level": 38,
-      "types": [
-        "Agua",
-        "Siniestro"
-      ],
-      "ability": "Experto",
-      "nature": "Afable",
-      "item": "Banda Aguante",
-      "shiny": false,
-      "moves": [
-        "Hoja Afilada",
-        "Ladrón",
-        "Triple Patada",
-        "Viraje"
       ]
     },
     {
@@ -98,9 +43,46 @@
       ]
     },
     {
+      "nickname": "Miguelito",
+      "species": "Rillaboom",
+      "level": 39,
+      "types": [
+        "Planta"
+      ],
+      "ability": "Agallas",
+      "nature": "Audaz",
+      "item": "Cinta Elección",
+      "shiny": false,
+      "moves": [
+        "Pikaturbo",
+        "Terremoto",
+        "Psicohojas",
+        "Agarrón"
+      ]
+    },
+    {
+      "nickname": "Don pendejo",
+      "species": "Crawdaunt",
+      "level": 39,
+      "types": [
+        "Agua",
+        "Siniestro"
+      ],
+      "ability": "Experto",
+      "nature": "Afable",
+      "item": "Banda Aguante",
+      "shiny": false,
+      "moves": [
+        "Hoja Afilada",
+        "Ladrón",
+        "Triple Patada",
+        "Viraje"
+      ]
+    },
+    {
       "nickname": "Peter",
       "species": "Araquanid",
-      "level": 38,
+      "level": 39,
       "types": [
         "Agua",
         "Bicho"
@@ -114,6 +96,24 @@
         "Tóxico",
         "Triple Inmersión",
         "Telatrampa"
+      ]
+    },
+    {
+      "nickname": "Cobblemon",
+      "species": "Garganacl",
+      "level": 39,
+      "types": [
+        "Roca"
+      ],
+      "ability": "Experto",
+      "nature": "Pícara",
+      "item": "Cascabel Concha",
+      "shiny": false,
+      "moves": [
+        "Búnker",
+        "Salazón",
+        "Superdiente",
+        "Roca Veloz"
       ]
     }
   ],
@@ -377,6 +377,24 @@
         "Viento Feérico",
         "Agua Lodosa",
         "Pistola Agua"
+      ]
+    },
+    {
+      "nickname": "Sacrebleu",
+      "species": "Furfrou",
+      "level": 34,
+      "types": [
+        "Normal"
+      ],
+      "ability": "Mudar",
+      "nature": "Dócil",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Resarcimiento",
+        "Furia",
+        "Vasta Guardia",
+        "Picotazo Veneno"
       ]
     },
     {
@@ -674,14 +692,14 @@
     },
     {
       "route": "",
-      "where": "Museo Pokémon",
-      "species": "Garganacl",
-      "nickname": "Cobblemon",
+      "where": "Monte Moon",
+      "species": "Alakazam",
+      "nickname": "Dr Pepper",
       "shiny": false,
       "status": "captured",
-      "category": "estatico_regalo",
-      "level": 1,
-      "mon": "Garganacl"
+      "category": "intercambio",
+      "level": 11,
+      "mon": "Alakazam"
     },
     {
       "route": "",
@@ -706,17 +724,6 @@
       "mon": "Crawdaunt"
     },
     {
-      "route": "",
-      "where": "Monte Moon",
-      "species": "Alakazam",
-      "nickname": "Dr Pepper",
-      "shiny": false,
-      "status": "captured",
-      "category": "intercambio",
-      "level": 11,
-      "mon": "Alakazam"
-    },
-    {
       "route": "ruta_1",
       "where": "Ruta 1",
       "species": "Araquanid",
@@ -726,6 +733,17 @@
       "category": "salvaje",
       "level": 5,
       "mon": "Araquanid"
+    },
+    {
+      "route": "",
+      "where": "Museo Pokémon",
+      "species": "Garganacl",
+      "nickname": "Cobblemon",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 1,
+      "mon": "Garganacl"
     },
     {
       "route": "tunel_diglett",
@@ -880,6 +898,17 @@
       "category": "estatico_regalo",
       "level": 35,
       "mon": "Emolga"
+    },
+    {
+      "route": "ruta_11",
+      "where": "Ruta 11",
+      "species": "Furfrou",
+      "nickname": "Sacrebleu",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 34,
+      "mon": "Furfrou"
     },
     {
       "route": "",
@@ -1068,6 +1097,7 @@
       "ruta_7": true,
       "ruta_10_sur": true,
       "pueblo_paleta": true,
+      "ruta_11": true,
       "ruta_2_norte": true,
       "bosque_verde": true,
       "ruta_9": true,
