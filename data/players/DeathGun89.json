@@ -2,9 +2,9 @@
   "id": "DeathGun89",
   "name": "DeathGun89",
   "lives": 30,
-  "livesUsed": 0,
+  "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 5h 3m jugadas · 1,800₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 5h 6m jugadas · 1,800₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "El tortas",
@@ -22,25 +22,6 @@
         "Ataque Furia",
         "Somnífero",
         "Tajo Acuático"
-      ]
-    },
-    {
-      "nickname": "pelos",
-      "species": "Nuzleaf",
-      "level": 14,
-      "types": [
-        "Planta",
-        "Siniestro"
-      ],
-      "ability": "Simple",
-      "nature": "Pícara",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Atiborramiento",
-        "Polvo Veneno",
-        "Hoja Afilada",
-        "Prensa Metálica"
       ]
     },
     {
@@ -101,7 +82,30 @@
     }
   ],
   "box": [],
-  "graveyard": [],
+  "graveyard": [
+    {
+      "nickname": "pelos",
+      "species": "Nuzleaf",
+      "level": 14,
+      "types": [
+        "Planta",
+        "Siniestro"
+      ],
+      "ability": "Simple",
+      "nature": "Pícara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Atiborramiento",
+        "Polvo Veneno",
+        "Hoja Afilada",
+        "Prensa Metálica"
+      ],
+      "cause": "",
+      "route": "Pueblo Paleta",
+      "date": ""
+    }
+  ],
   "captures": [
     {
       "route": "",
@@ -120,7 +124,7 @@
       "species": "Nuzleaf",
       "nickname": "pelos",
       "shiny": false,
-      "status": "captured",
+      "status": "dead",
       "category": "ciudad",
       "level": 2,
       "mon": "Nuzleaf"
