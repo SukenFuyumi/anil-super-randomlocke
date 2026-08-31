@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 7h 34m jugadas · 119,960₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 7h 35m jugadas · 119,960₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -35,7 +35,7 @@
       "ev": [
         20,
         85,
-        27,
+        29,
         33,
         19,
         38
@@ -159,7 +159,7 @@
       "ev": [
         7,
         26,
-        18,
+        20,
         18,
         13,
         24
@@ -279,7 +279,7 @@
       "ev": [
         12,
         31,
-        21,
+        23,
         20,
         14,
         28
@@ -386,7 +386,7 @@
       "ev": [
         7,
         26,
-        18,
+        20,
         18,
         13,
         24
@@ -482,7 +482,7 @@
       "ev": [
         24,
         47,
-        39,
+        41,
         46,
         23,
         47
@@ -605,7 +605,7 @@
       "ev": [
         9,
         29,
-        19,
+        21,
         20,
         14,
         27
@@ -2461,6 +2461,129 @@
       ]
     },
     {
+      "nickname": "BONES",
+      "species": "Marowak",
+      "level": 34,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Ojo Compuesto",
+      "nature": "Mansa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Arenas Ardientes",
+        "Viento Hielo",
+        "Ascuas",
+        "Deslome"
+      ],
+      "iv": [
+        19,
+        27,
+        18,
+        24,
+        15,
+        16
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Ojo Compuesto",
+        "General Supremo"
+      ],
+      "abilHidden": [
+        "Sebo"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Terratemblor"
+        },
+        {
+          "lvl": 1,
+          "m": "Canon"
+        },
+        {
+          "lvl": 1,
+          "m": "Pistola Agua"
+        },
+        {
+          "lvl": 1,
+          "m": "Disparo Lodo"
+        },
+        {
+          "lvl": 1,
+          "m": "Confusión"
+        },
+        {
+          "lvl": 12,
+          "m": "Rayo Burbuja"
+        },
+        {
+          "lvl": 13,
+          "m": "Agarre"
+        },
+        {
+          "lvl": 16,
+          "m": "Psicocorte"
+        },
+        {
+          "lvl": 20,
+          "m": "Arenas Ardientes"
+        },
+        {
+          "lvl": 23,
+          "m": "Viento Hielo"
+        },
+        {
+          "lvl": 24,
+          "m": "Ascuas"
+        },
+        {
+          "lvl": 31,
+          "m": "Deslome"
+        },
+        {
+          "lvl": 36,
+          "m": "Hilo Venenoso"
+        },
+        {
+          "lvl": 37,
+          "m": "Nitrochoque"
+        },
+        {
+          "lvl": 42,
+          "m": "Aura Magnética"
+        },
+        {
+          "lvl": 48,
+          "m": "Ala Mortífera"
+        },
+        {
+          "lvl": 53,
+          "m": "Fotocolisión"
+        },
+        {
+          "lvl": 54,
+          "m": "Despejar"
+        },
+        {
+          "lvl": 59,
+          "m": "Autodestrucción"
+        },
+        {
+          "lvl": 60,
+          "m": "Fertilizante"
+        }
+      ]
+    },
+    {
       "nickname": "KING",
       "species": "Poliwhirl",
       "level": 25,
@@ -3501,6 +3624,17 @@
       "mon": "Basculin"
     },
     {
+      "route": "ruta_8",
+      "where": "Ruta 8",
+      "species": "Marowak",
+      "nickname": "BONES",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 34,
+      "mon": "Marowak"
+    },
+    {
       "route": "pueblo_paleta",
       "where": "Pueblo Paleta",
       "species": "Poliwhirl",
@@ -3607,13 +3741,13 @@
       "tunel_roca": true,
       "ruta_10_sur": true,
       "pueblo_lavanda": true,
+      "ruta_8": true,
       "pueblo_paleta": true,
       "ciudad_plateada": true,
       "ruta_1": true,
       "ciudad_verde": true,
       "ruta_22": true,
       "ruta_9": true,
-      "ruta_8": true,
       "torre_pokemon": true
     },
     "items": {},
@@ -3627,7 +3761,8 @@
       "ruta_10_norte": true,
       "tunel_roca": true,
       "ruta_10_sur": true,
-      "pueblo_lavanda": true
+      "pueblo_lavanda": true,
+      "ruta_8": true
     }
   }
 }
