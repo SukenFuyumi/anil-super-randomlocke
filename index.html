@@ -15,7 +15,13 @@
 
     <div class="stat-row" id="globalStats"></div>
 
-    <h2>Participantes</h2>
+    <div class="row between" style="align-items:center;flex-wrap:wrap;gap:.5rem">
+      <h2 style="margin:0">Participantes</h2>
+      <button id="btnDiscord" class="btn primary" type="button">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" style="flex:none"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        Copiar imagen para Discord
+      </button>
+    </div>
     <div class="grid wide" id="players"><p class="muted">Cargando…</p></div>
 
     <h2>Cementerio global reciente</h2>
@@ -92,6 +98,173 @@
         gEl.innerHTML = graves.slice(-12).reverse()
           .map((m) => monCard(m, { dead: true, owner: m.owner }))
           .join("");
+      }
+
+      // ---- Imagen para Discord ----
+      document.getElementById("btnDiscord").addEventListener("click", async (e) => {
+        const btn = e.currentTarget;
+        const prev = btn.innerHTML;
+        btn.disabled = true; btn.textContent = "Generando imagen…";
+        try {
+          const canvas = await buildStandingsCanvas(players, cfg);
+          const blob = await new Promise((res) => canvas.toBlob(res, "image/png"));
+          try {
+            await navigator.clipboard.write([new ClipboardItem({ "image/png": blob })]);
+            toast("Imagen copiada — pégala en Discord (Ctrl+V)");
+          } catch (err) {
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url; a.download = "anil-randomlocke.png";
+            document.body.appendChild(a); a.click(); a.remove();
+            setTimeout(() => URL.revokeObjectURL(url), 1500);
+            toast("Descargada (tu navegador no deja copiar imágenes)");
+          }
+        } catch (err) {
+          console.error(err);
+          toast("No se pudo generar la imagen");
+        } finally {
+          btn.disabled = false; btn.innerHTML = prev;
+        }
+      });
+
+      function loadImg(src) {
+        return new Promise((res) => {
+          if (!src) return res(null);
+          const im = new Image();
+          im.crossOrigin = "anonymous";
+          im.onload = () => res(im);
+          im.onerror = () => res(null);
+          im.src = src;
+        });
+      }
+      function rrect(ctx, x, y, w, h, r) {
+        ctx.beginPath();
+        ctx.moveTo(x + r, y);
+        ctx.arcTo(x + w, y, x + w, y + h, r);
+        ctx.arcTo(x + w, y + h, x, y + h, r);
+        ctx.arcTo(x, y + h, x, y, r);
+        ctx.arcTo(x, y, x + w, y, r);
+        ctx.closePath();
+      }
+      function drawCover(ctx, img, x, y, d) {
+        ctx.save();
+        ctx.beginPath(); ctx.arc(x + d / 2, y + d / 2, d / 2, 0, Math.PI * 2); ctx.clip();
+        const s = Math.max(d / img.width, d / img.height);
+        const w = img.width * s, h = img.height * s;
+        ctx.drawImage(img, x + (d - w) / 2, y + (d - h) / 2, w, h);
+        ctx.restore();
+      }
+      function drawContain(ctx, img, x, y, d) {
+        const s = Math.min(d / img.width, d / img.height);
+        const w = img.width * s, h = img.height * s;
+        ctx.drawImage(img, x + (d - w) / 2, y + (d - h) / 2, w, h);
+      }
+
+      async function buildStandingsCanvas(players, cfg) {
+        const C = { bg: "#14171b", panel: "#1e2329", border: "#2f363e", text: "#e9edf2", muted: "#9aa4b2", accent: "#5b8cff", ok: "#4ecb7d", bad: "#ff6b5e", gold: "#e8b62c", slot: "#2a313a" };
+        // precargar imágenes
+        const preload = new Map();
+        const need = new Set();
+        players.forEach((p) => {
+          const av = p.data.avatar || p.avatar; if (av) need.add(av);
+          (p.data.team || []).slice(0, 6).forEach((m) => { const sp = m.sprite || speciesSprite(m.species); if (sp) need.add(sp); });
+        });
+        await Promise.all([...need].map(async (src) => preload.set(src, await loadImg(src))));
+
+        const cols = players.length > 4 ? 2 : 1;
+        const rows = Math.ceil(players.length / cols);
+        const pad = 30, gapX = 24, gapY = 22, titleH = 96, footerH = 46;
+        const cardW = 600, cardH = 188;
+        const W = pad * 2 + cardW * cols + gapX * (cols - 1);
+        const H = titleH + rows * cardH + gapY * (rows - 1) + footerH;
+        const DPR = 2;
+        const canvas = document.createElement("canvas");
+        canvas.width = W * DPR; canvas.height = H * DPR;
+        const ctx = canvas.getContext("2d");
+        ctx.scale(DPR, DPR);
+        ctx.textBaseline = "alphabetic";
+        const FONT = "'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
+
+        // fondo
+        ctx.fillStyle = C.bg; ctx.fillRect(0, 0, W, H);
+        // título
+        ctx.fillStyle = C.text; ctx.font = `800 34px ${FONT}`;
+        ctx.fillText(cfg.title || "Pokémon Añil — Super Randomlocke", pad, 50);
+        ctx.fillStyle = C.muted; ctx.font = `600 16px ${FONT}`;
+        const totAlive = players.reduce((a, p) => a + playerStats(p.data, p.revividos).alive, 0);
+        const totDead = players.reduce((a, p) => a + playerStats(p.data, p.revividos).dead, 0);
+        const fecha = new Date().toLocaleDateString("es", { day: "numeric", month: "long", year: "numeric" });
+        ctx.fillText(`${players.length} participantes · ${totAlive} vivos · ${totDead} en el cementerio · ${fecha}`, pad, 76);
+
+        players.forEach((p, i) => {
+          const col = i % cols, row = Math.floor(i / cols);
+          const x = pad + col * (cardW + gapX);
+          const y = titleH + row * (cardH + gapY);
+          const s = playerStats(p.data, p.revividos);
+          const medals = Object.values(p.data.progress?.gyms || {}).filter(Boolean).length;
+          const accent = s.eliminated ? C.bad : C.accent;
+
+          // tarjeta
+          rrect(ctx, x, y, cardW, cardH, 16); ctx.fillStyle = C.panel; ctx.fill();
+          ctx.lineWidth = 1; ctx.strokeStyle = C.border; ctx.stroke();
+          // franja de color
+          ctx.save(); rrect(ctx, x, y, cardW, cardH, 16); ctx.clip();
+          ctx.fillStyle = accent; ctx.fillRect(x, y, 6, cardH); ctx.restore();
+
+          const ip = 20;
+          // avatar
+          const av = preload.get(p.data.avatar || p.avatar);
+          const ax = x + ip + 6, ay = y + ip, ad = 60;
+          if (av) drawCover(ctx, av, ax, ay, ad);
+          else { ctx.fillStyle = C.slot; ctx.beginPath(); ctx.arc(ax + ad / 2, ay + ad / 2, ad / 2, 0, 7); ctx.fill(); ctx.fillStyle = C.muted; ctx.font = `800 22px ${FONT}`; ctx.textAlign = "center"; ctx.fillText(initials(p.name), ax + ad / 2, ay + ad / 2 + 8); ctx.textAlign = "left"; }
+
+          const tx = ax + ad + 16;
+          // nombre
+          ctx.fillStyle = C.text; ctx.font = `800 24px ${FONT}`;
+          ctx.fillText(p.displayName || p.data.name || p.name, tx, y + ip + 20);
+          if (p.data.champion) { ctx.fillStyle = C.gold; ctx.font = `800 15px ${FONT}`; ctx.fillText("★ CAMPEÓN", tx, y + ip + 40); }
+          else { ctx.fillStyle = C.muted; ctx.font = `600 15px ${FONT}`; ctx.fillText(s.eliminated ? "Eliminado (sin vidas)" : "En juego", tx, y + ip + 40); }
+          // medallas (8 puntos)
+          for (let g = 0; g < 8; g++) {
+            ctx.beginPath(); ctx.arc(tx + 7 + g * 17, y + ip + 58, 6, 0, 7);
+            ctx.fillStyle = g < medals ? C.gold : C.slot; ctx.fill();
+          }
+
+          // bloque de vidas (derecha)
+          const rx = x + cardW - ip - 168, rw = 168;
+          ctx.fillStyle = C.muted; ctx.font = `700 12px ${FONT}`; ctx.fillText("VIDAS", rx, y + ip + 12);
+          ctx.fillStyle = s.livesLeft <= 6 ? C.bad : s.livesLeft <= 15 ? C.gold : C.ok;
+          ctx.font = `800 30px ${FONT}`;
+          ctx.fillText(String(s.livesLeft), rx, y + ip + 42);
+          const lw = ctx.measureText(String(s.livesLeft)).width;
+          ctx.fillStyle = C.muted; ctx.font = `700 16px ${FONT}`;
+          ctx.fillText("/" + s.lives, rx + lw + 5, y + ip + 42);
+          // barra de vidas
+          const pct = Math.max(0, Math.min(1, s.livesLeft / s.lives));
+          const by = y + ip + 52, bh = 8;
+          rrect(ctx, rx, by, rw, bh, 4); ctx.fillStyle = C.slot; ctx.fill();
+          if (pct > 0) { rrect(ctx, rx, by, rw * pct, bh, 4); ctx.fillStyle = s.livesLeft <= 6 ? C.bad : s.livesLeft <= 15 ? C.gold : C.ok; ctx.fill(); }
+          // vivos/muertos
+          ctx.fillStyle = C.muted; ctx.font = `600 13px ${FONT}`;
+          ctx.fillText(`Vivos ${s.alive} · Cementerio ${s.dead}${s.revived ? " · " + s.revived + " revivido" + (s.revived > 1 ? "s" : "") : ""}`, rx, by + 26);
+
+          // equipo (6 sprites abajo)
+          const team = (p.data.team || []).slice(0, 6);
+          const sd = 52, sy = y + cardH - ip - sd + 4;
+          for (let k = 0; k < 6; k++) {
+            const sx = x + ip + 6 + k * (sd + 8);
+            ctx.beginPath(); ctx.arc(sx + sd / 2, sy + sd / 2, sd / 2, 0, 7); ctx.fillStyle = C.slot; ctx.fill();
+            const m = team[k];
+            const img = m && preload.get(m.sprite || speciesSprite(m.species));
+            if (img) { ctx.save(); ctx.beginPath(); ctx.arc(sx + sd / 2, sy + sd / 2, sd / 2, 0, 7); ctx.clip(); drawContain(ctx, img, sx + 2, sy + 2, sd - 4); ctx.restore(); }
+          }
+        });
+
+        // pie
+        ctx.fillStyle = C.muted; ctx.font = `600 14px ${FONT}`; ctx.textAlign = "center";
+        ctx.fillText("Generado desde el tracker del Super Randomlocke de Pokémon Añil", W / 2, H - 18);
+        ctx.textAlign = "left";
+        return canvas;
       }
     })();
   </script>
