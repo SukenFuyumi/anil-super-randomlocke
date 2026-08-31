@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 10h 15m jugadas · 183,400₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 10h 17m jugadas · 183,400₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
       "species": "Raticate (Alola)",
-      "level": 39,
+      "level": 49,
       "types": [
         "Siniestro",
         "Normal"
@@ -134,7 +134,7 @@
     {
       "nickname": "DREAMS",
       "species": "Hypno",
-      "level": 39,
+      "level": 49,
       "types": [
         "Psíquico"
       ],
@@ -253,7 +253,7 @@
     {
       "nickname": "DUNAS",
       "species": "Brambleghast",
-      "level": 39,
+      "level": 49,
       "types": [
         "Planta",
         "Fantasma"
@@ -360,7 +360,7 @@
     {
       "nickname": "DERP INVERSO",
       "species": "Clodsire",
-      "level": 39,
+      "level": 49,
       "types": [
         "Veneno",
         "Tierra"
@@ -456,7 +456,7 @@
     {
       "nickname": "CRAWLER",
       "species": "Crawdaunt",
-      "level": 39,
+      "level": 49,
       "types": [
         "Agua",
         "Siniestro"
@@ -580,7 +580,7 @@
     {
       "nickname": "AL",
       "species": "Sudowoodo",
-      "level": 39,
+      "level": 49,
       "types": [
         "Roca"
       ],
