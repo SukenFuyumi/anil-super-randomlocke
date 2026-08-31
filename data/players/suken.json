@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 9h 43m jugadas · 191,730₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 9h 51m jugadas · 160,730₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -146,7 +146,7 @@
         "Luz Aniquiladora",
         "Marcha Espectral",
         "Conjuro Funesto",
-        "Tajo Umbrío"
+        "Flarembestida"
       ],
       "iv": [
         13,
@@ -370,10 +370,10 @@
       "item": "Restos",
       "shiny": false,
       "moves": [
-        "Colmillo Hielo",
-        "Búnker",
+        "Desquite",
+        "Cadena Virulenta",
         "Respiro",
-        "Desquite"
+        "Mil Temblores"
       ],
       "iv": [
         5,
@@ -468,7 +468,7 @@
       "moves": [
         "Pataleta",
         "Búnker",
-        "Tenaza",
+        "Danza Acuática",
         "Puño Bala"
       ],
       "iv": [
