@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 9h 17m jugadas · 245,800₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 9h 19m jugadas · 238,180₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -35,7 +35,7 @@
       "ev": [
         20,
         93,
-        33,
+        35,
         35,
         20,
         43
@@ -140,7 +140,7 @@
       ],
       "ability": "Trampa Arena",
       "nature": "Huraña",
-      "item": "",
+      "item": "Gafas Especiales",
       "shiny": false,
       "moves": [
         "Luz Aniquiladora",
@@ -159,7 +159,7 @@
       "ev": [
         7,
         34,
-        24,
+        26,
         20,
         14,
         29
@@ -279,7 +279,7 @@
       "ev": [
         12,
         39,
-        27,
+        29,
         22,
         15,
         33
@@ -367,7 +367,7 @@
       ],
       "ability": "Alma Acerada",
       "nature": "Serena",
-      "item": "Botas Gruesas",
+      "item": "Restos",
       "shiny": false,
       "moves": [
         "Colmillo Hielo",
@@ -386,7 +386,7 @@
       "ev": [
         7,
         34,
-        24,
+        26,
         20,
         14,
         29
@@ -482,7 +482,7 @@
       "ev": [
         24,
         55,
-        45,
+        47,
         48,
         24,
         52
@@ -605,7 +605,7 @@
       "ev": [
         9,
         37,
-        25,
+        27,
         22,
         15,
         32
