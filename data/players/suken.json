@@ -4,204 +4,249 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 9h 5m jugadas · 245,800₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 9h 6m jugadas · 245,800₽ · vidas en el juego: -1",
   "team": [
     {
-      "nickname": "ABRAMERO",
-      "species": "Abra",
-      "level": 16,
+      "nickname": "PUTA MIERDA2",
+      "species": "Raticate (Alola)",
+      "level": 39,
       "types": [
-        "Psíquico"
+        "Siniestro",
+        "Normal"
       ],
-      "ability": "Poder Fúngico",
-      "nature": "Pícara",
-      "item": "",
+      "ability": "Garra Dura",
+      "nature": "Plácida",
+      "item": "Garra Afilada",
       "shiny": false,
       "moves": [
-        "Cepo",
-        "Geocontrol",
-        "Rabia",
-        "Foco Energía"
+        "Rodillo de Púas",
+        "Asalto Barrera",
+        "Tajo Umbrío",
+        "Daño Secreto"
       ],
       "iv": [
-        29,
+        28,
         18,
-        31,
-        11,
-        23,
-        11
+        14,
+        12,
+        3,
+        9
       ],
       "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        20,
+        93,
+        31,
+        35,
+        20,
+        43
       ],
       "abilPool": [
-        "Poder Fúngico",
-        "Electrogénesis"
+        "Trampa Arena",
+        "Garra Dura"
       ],
       "abilHidden": [
-        "Imán"
+        "Iceberg"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Clavo Cañón"
+          "m": "Vasta Guardia"
         },
         {
           "lvl": 1,
-          "m": "Deslome"
+          "m": "Asalto Barrera"
         },
         {
-          "lvl": 5,
-          "m": "Geocontrol"
+          "lvl": 1,
+          "m": "Legado"
         },
         {
-          "lvl": 8,
+          "lvl": 1,
+          "m": "Deseo"
+        },
+        {
+          "lvl": 1,
+          "m": "Metrónomo"
+        },
+        {
+          "lvl": 1,
+          "m": "Esquema"
+        },
+        {
+          "lvl": 1,
+          "m": "Ofrenda"
+        },
+        {
+          "lvl": 4,
+          "m": "Viento Feérico"
+        },
+        {
+          "lvl": 7,
+          "m": "Ronquido"
+        },
+        {
+          "lvl": 10,
+          "m": "Conjuro"
+        },
+        {
+          "lvl": 13,
+          "m": "Canon"
+        },
+        {
+          "lvl": 13,
+          "m": "Mordisco"
+        },
+        {
+          "lvl": 16,
+          "m": "Puño Incremento"
+        },
+        {
+          "lvl": 16,
+          "m": "Giro Bola"
+        },
+        {
+          "lvl": 19,
+          "m": "Bálsamo Osado"
+        },
+        {
+          "lvl": 24,
+          "m": "Torbellino"
+        },
+        {
+          "lvl": 29,
           "m": "Rabia"
         },
         {
-          "lvl": 12,
-          "m": "Foco Energía"
+          "lvl": 34,
+          "m": "Semilladora"
+        },
+        {
+          "lvl": 39,
+          "m": "Enfado"
+        },
+        {
+          "lvl": 44,
+          "m": "Puño Cometa"
         }
-      ]
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png"
     },
     {
-      "nickname": "LUIGI",
-      "species": "Breloom",
-      "level": 35,
+      "nickname": "DREAMS",
+      "species": "Hypno",
+      "level": 39,
       "types": [
-        "Planta",
-        "Lucha"
+        "Psíquico"
       ],
-      "ability": "Recogebolas",
-      "nature": "Mansa",
+      "ability": "Trampa Arena",
+      "nature": "Huraña",
       "item": "",
       "shiny": false,
       "moves": [
-        "Obstrucción",
-        "Asta Drenaje",
-        "Puntapié",
-        "Rodillo de Púas"
+        "Luz Aniquiladora",
+        "Marcha Espectral",
+        "Conjuro Funesto",
+        "Tajo Umbrío"
       ],
       "iv": [
-        14,
-        10,
-        11,
-        16,
-        28,
-        20
+        13,
+        24,
+        30,
+        7,
+        12,
+        30
       ],
       "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        7,
+        34,
+        22,
+        20,
+        14,
+        29
       ],
       "abilPool": [
-        "Huida",
-        "Recogebolas"
+        "Trampa Arena",
+        "Ignífugo"
       ],
       "abilHidden": [
-        "Sebo"
+        "Torrente"
       ],
       "learnset": [
         {
-          "lvl": -1,
-          "m": "Electrotela"
-        },
-        {
-          "lvl": -1,
+          "lvl": 1,
           "m": "Sorpresa"
         },
         {
           "lvl": 1,
-          "m": "Golpe Roca"
+          "m": "Isoguardia"
         },
         {
           "lvl": 1,
-          "m": "Golpe Kárate"
+          "m": "Confusión"
         },
         {
           "lvl": 1,
-          "m": "Megaagotar"
+          "m": "Cornada"
         },
         {
           "lvl": 1,
-          "m": "Patada Tropical"
+          "m": "Chulería"
         },
         {
           "lvl": 1,
-          "m": "Obstrucción"
+          "m": "Ascuas"
         },
         {
-          "lvl": 1,
-          "m": "Arenas Ardientes"
+          "lvl": 13,
+          "m": "Divide Dolor"
         },
         {
-          "lvl": 1,
-          "m": "Patada Baja"
+          "lvl": 17,
+          "m": "Copión"
         },
         {
-          "lvl": 1,
-          "m": "Onda Vacío"
+          "lvl": 21,
+          "m": "Follaje"
         },
         {
-          "lvl": 12,
-          "m": "Enrosque"
+          "lvl": 21,
+          "m": "Bofetón Lodo"
         },
         {
-          "lvl": 15,
-          "m": "Doble Ataque"
+          "lvl": 25,
+          "m": "Hoja Mágica"
         },
         {
-          "lvl": 19,
-          "m": "Tormento"
+          "lvl": 29,
+          "m": "Absorber"
         },
         {
-          "lvl": 22,
-          "m": "Supersónico"
+          "lvl": 32,
+          "m": "Terratemblor"
         },
         {
-          "lvl": 28,
-          "m": "Día Soleado"
+          "lvl": 37,
+          "m": "Conjuro Funesto"
         },
         {
-          "lvl": 33,
-          "m": "Antojo"
+          "lvl": 37,
+          "m": "Luz Aniquiladora"
         },
         {
-          "lvl": 33,
-          "m": "Voto Planta"
+          "lvl": 42,
+          "m": "Intercambio"
         },
         {
-          "lvl": 33,
-          "m": "Llamarada"
+          "lvl": 47,
+          "m": "Hierba Lazo"
         },
         {
-          "lvl": 39,
-          "m": "Electropalmas"
+          "lvl": 51,
+          "m": "Premonición"
         },
         {
-          "lvl": 39,
-          "m": "Geocontrol"
-        },
-        {
-          "lvl": 44,
-          "m": "Polvo Mágico"
-        },
-        {
-          "lvl": 50,
-          "m": "Ácido Málico"
-        },
-        {
-          "lvl": 55,
-          "m": "Última Palabra"
+          "lvl": 56,
+          "m": "Nitrochoque"
         }
       ]
     },
@@ -2910,246 +2955,201 @@
       ]
     },
     {
-      "nickname": "PUTA MIERDA2",
-      "species": "Raticate (Alola)",
-      "level": 39,
-      "types": [
-        "Siniestro",
-        "Normal"
-      ],
-      "ability": "Garra Dura",
-      "nature": "Plácida",
-      "item": "Garra Afilada",
-      "shiny": false,
-      "moves": [
-        "Rodillo de Púas",
-        "Asalto Barrera",
-        "Tajo Umbrío",
-        "Daño Secreto"
-      ],
-      "iv": [
-        28,
-        18,
-        14,
-        12,
-        3,
-        9
-      ],
-      "ev": [
-        20,
-        93,
-        31,
-        35,
-        20,
-        43
-      ],
-      "abilPool": [
-        "Trampa Arena",
-        "Garra Dura"
-      ],
-      "abilHidden": [
-        "Iceberg"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Vasta Guardia"
-        },
-        {
-          "lvl": 1,
-          "m": "Asalto Barrera"
-        },
-        {
-          "lvl": 1,
-          "m": "Legado"
-        },
-        {
-          "lvl": 1,
-          "m": "Deseo"
-        },
-        {
-          "lvl": 1,
-          "m": "Metrónomo"
-        },
-        {
-          "lvl": 1,
-          "m": "Esquema"
-        },
-        {
-          "lvl": 1,
-          "m": "Ofrenda"
-        },
-        {
-          "lvl": 4,
-          "m": "Viento Feérico"
-        },
-        {
-          "lvl": 7,
-          "m": "Ronquido"
-        },
-        {
-          "lvl": 10,
-          "m": "Conjuro"
-        },
-        {
-          "lvl": 13,
-          "m": "Canon"
-        },
-        {
-          "lvl": 13,
-          "m": "Mordisco"
-        },
-        {
-          "lvl": 16,
-          "m": "Puño Incremento"
-        },
-        {
-          "lvl": 16,
-          "m": "Giro Bola"
-        },
-        {
-          "lvl": 19,
-          "m": "Bálsamo Osado"
-        },
-        {
-          "lvl": 24,
-          "m": "Torbellino"
-        },
-        {
-          "lvl": 29,
-          "m": "Rabia"
-        },
-        {
-          "lvl": 34,
-          "m": "Semilladora"
-        },
-        {
-          "lvl": 39,
-          "m": "Enfado"
-        },
-        {
-          "lvl": 44,
-          "m": "Puño Cometa"
-        }
-      ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png"
-    },
-    {
-      "nickname": "DREAMS",
-      "species": "Hypno",
-      "level": 39,
+      "nickname": "ABRAMERO",
+      "species": "Abra",
+      "level": 16,
       "types": [
         "Psíquico"
       ],
-      "ability": "Trampa Arena",
-      "nature": "Huraña",
+      "ability": "Poder Fúngico",
+      "nature": "Pícara",
       "item": "",
       "shiny": false,
       "moves": [
-        "Luz Aniquiladora",
-        "Marcha Espectral",
-        "Conjuro Funesto",
-        "Tajo Umbrío"
+        "Cepo",
+        "Geocontrol",
+        "Rabia",
+        "Foco Energía"
       ],
       "iv": [
-        13,
-        24,
-        30,
-        7,
-        12,
-        30
+        29,
+        18,
+        31,
+        11,
+        23,
+        11
       ],
       "ev": [
-        7,
-        34,
-        22,
-        20,
-        14,
-        29
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
       "abilPool": [
-        "Trampa Arena",
-        "Ignífugo"
+        "Poder Fúngico",
+        "Electrogénesis"
       ],
       "abilHidden": [
-        "Torrente"
+        "Imán"
       ],
       "learnset": [
         {
           "lvl": 1,
+          "m": "Clavo Cañón"
+        },
+        {
+          "lvl": 1,
+          "m": "Deslome"
+        },
+        {
+          "lvl": 5,
+          "m": "Geocontrol"
+        },
+        {
+          "lvl": 8,
+          "m": "Rabia"
+        },
+        {
+          "lvl": 12,
+          "m": "Foco Energía"
+        }
+      ]
+    },
+    {
+      "nickname": "LUIGI",
+      "species": "Breloom",
+      "level": 35,
+      "types": [
+        "Planta",
+        "Lucha"
+      ],
+      "ability": "Recogebolas",
+      "nature": "Mansa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Obstrucción",
+        "Asta Drenaje",
+        "Puntapié",
+        "Rodillo de Púas"
+      ],
+      "iv": [
+        14,
+        10,
+        11,
+        16,
+        28,
+        20
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Huida",
+        "Recogebolas"
+      ],
+      "abilHidden": [
+        "Sebo"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Electrotela"
+        },
+        {
+          "lvl": -1,
           "m": "Sorpresa"
         },
         {
           "lvl": 1,
-          "m": "Isoguardia"
+          "m": "Golpe Roca"
         },
         {
           "lvl": 1,
-          "m": "Confusión"
+          "m": "Golpe Kárate"
         },
         {
           "lvl": 1,
-          "m": "Cornada"
+          "m": "Megaagotar"
         },
         {
           "lvl": 1,
-          "m": "Chulería"
+          "m": "Patada Tropical"
         },
         {
           "lvl": 1,
-          "m": "Ascuas"
+          "m": "Obstrucción"
         },
         {
-          "lvl": 13,
-          "m": "Divide Dolor"
+          "lvl": 1,
+          "m": "Arenas Ardientes"
         },
         {
-          "lvl": 17,
-          "m": "Copión"
+          "lvl": 1,
+          "m": "Patada Baja"
         },
         {
-          "lvl": 21,
-          "m": "Follaje"
+          "lvl": 1,
+          "m": "Onda Vacío"
         },
         {
-          "lvl": 21,
-          "m": "Bofetón Lodo"
+          "lvl": 12,
+          "m": "Enrosque"
         },
         {
-          "lvl": 25,
-          "m": "Hoja Mágica"
+          "lvl": 15,
+          "m": "Doble Ataque"
         },
         {
-          "lvl": 29,
-          "m": "Absorber"
+          "lvl": 19,
+          "m": "Tormento"
         },
         {
-          "lvl": 32,
-          "m": "Terratemblor"
+          "lvl": 22,
+          "m": "Supersónico"
         },
         {
-          "lvl": 37,
-          "m": "Conjuro Funesto"
+          "lvl": 28,
+          "m": "Día Soleado"
         },
         {
-          "lvl": 37,
-          "m": "Luz Aniquiladora"
+          "lvl": 33,
+          "m": "Antojo"
         },
         {
-          "lvl": 42,
-          "m": "Intercambio"
+          "lvl": 33,
+          "m": "Voto Planta"
         },
         {
-          "lvl": 47,
-          "m": "Hierba Lazo"
+          "lvl": 33,
+          "m": "Llamarada"
         },
         {
-          "lvl": 51,
-          "m": "Premonición"
+          "lvl": 39,
+          "m": "Electropalmas"
         },
         {
-          "lvl": 56,
-          "m": "Nitrochoque"
+          "lvl": 39,
+          "m": "Geocontrol"
+        },
+        {
+          "lvl": 44,
+          "m": "Polvo Mágico"
+        },
+        {
+          "lvl": 50,
+          "m": "Ácido Málico"
+        },
+        {
+          "lvl": 55,
+          "m": "Última Palabra"
         }
       ]
     }
@@ -3496,26 +3496,26 @@
   ],
   "captures": [
     {
-      "route": "ruta_4",
-      "where": "Ruta 4",
-      "species": "Abra",
-      "nickname": "ABRAMERO",
+      "route": "monte_moon",
+      "where": "Monte Moon",
+      "species": "Raticate",
+      "nickname": "PUTA MIERDA2",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 16,
-      "mon": "Abra"
+      "level": 14,
+      "mon": "Raticate"
     },
     {
-      "route": "ruta_7",
-      "where": "Ruta 7",
-      "species": "Breloom",
-      "nickname": "LUIGI",
+      "route": "ruta_5",
+      "where": "Ruta 5",
+      "species": "Hypno",
+      "nickname": "DREAMS",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 35,
-      "mon": "Breloom"
+      "level": 21,
+      "mon": "Hypno"
     },
     {
       "route": "bosque_verde",
@@ -3804,26 +3804,26 @@
       "mon": "Slugma"
     },
     {
-      "route": "monte_moon",
-      "where": "Monte Moon",
-      "species": "Raticate",
-      "nickname": "PUTA MIERDA2",
+      "route": "ruta_4",
+      "where": "Ruta 4",
+      "species": "Abra",
+      "nickname": "ABRAMERO",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 14,
-      "mon": "Raticate"
+      "level": 16,
+      "mon": "Abra"
     },
     {
-      "route": "ruta_5",
-      "where": "Ruta 5",
-      "species": "Hypno",
-      "nickname": "DREAMS",
+      "route": "ruta_7",
+      "where": "Ruta 7",
+      "species": "Breloom",
+      "nickname": "LUIGI",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 21,
-      "mon": "Hypno"
+      "level": 35,
+      "mon": "Breloom"
     },
     {
       "route": "ciudad_verde",
@@ -3868,8 +3868,8 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_4": true,
-      "ruta_7": true,
+      "monte_moon": true,
+      "ruta_5": true,
       "bosque_verde": true,
       "tunel_diglett": true,
       "ruta_2_sur": true,
@@ -3891,8 +3891,8 @@
       "pueblo_paleta": true,
       "ciudad_plateada": true,
       "ruta_1": true,
-      "monte_moon": true,
-      "ruta_5": true,
+      "ruta_4": true,
+      "ruta_7": true,
       "ciudad_verde": true,
       "ruta_22": true,
       "ruta_9": true,
