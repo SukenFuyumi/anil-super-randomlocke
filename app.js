@@ -156,6 +156,41 @@ let MOVESF = null, ABILITIES = null, FORMSD = null;
 async function loadMovesFull() { if (!MOVESF) MOVESF = (await loadJSON("data/moves.json")) || {}; return MOVESF; }
 async function loadAbilities() { if (!ABILITIES) ABILITIES = (await loadJSON("data/abilities.json")) || {}; return ABILITIES; }
 async function loadForms() { if (!FORMSD) FORMSD = (await loadJSON("data/forms.json")) || {}; return FORMSD; }
+let TCHART = null;
+async function loadTypesChart() { if (!TCHART) TCHART = (await loadJSON("data/types-chart.json")) || {}; return TCHART; }
+/* Los 18 tipos (clave css -> nombre ES) en orden de tabla */
+const TYPES_CSS_ES = {
+  normal: "Normal", fire: "Fuego", water: "Agua", grass: "Planta", electric: "Eléctrico", ice: "Hielo",
+  fighting: "Lucha", poison: "Veneno", ground: "Tierra", flying: "Volador", psychic: "Psíquico", bug: "Bicho",
+  rock: "Roca", ghost: "Fantasma", dragon: "Dragón", dark: "Siniestro", steel: "Acero", fairy: "Hada",
+};
+/* multiplicador defensivo de un tipo atacante (css) contra los tipos defensores (css array) */
+function typeMult(defKeys, atk) {
+  let m = 1;
+  for (const d of defKeys) {
+    const c = TCHART && TCHART[d];
+    if (!c) continue;
+    if (c.immune.includes(atk)) m *= 0;
+    else if (c.weak.includes(atk)) m *= 2;
+    else if (c.resist.includes(atk)) m *= 0.5;
+  }
+  return m;
+}
+/* {x4,x2,half,quarter,immune} — cada uno lista de {key, mult} para los tipos del Pokémon */
+function typeMatchups(typesEs) {
+  const def = (typesEs || []).map(typeKey).filter((k) => k && k !== "unknown");
+  const out = { weak: [], resist: [], immune: [] };
+  for (const atk of Object.keys(TYPES_CSS_ES)) {
+    const m = typeMult(def, atk);
+    if (m === 0) out.immune.push({ key: atk, m });
+    else if (m > 1) out.weak.push({ key: atk, m });
+    else if (m < 1) out.resist.push({ key: atk, m });
+  }
+  out.weak.sort((a, b) => b.m - a.m);
+  out.resist.sort((a, b) => a.m - b.m);
+  return out;
+}
+function multLabel(m) { return m === 0.25 ? "×¼" : m === 0.5 ? "×½" : m === 0 ? "×0" : "×" + m; }
 /* datos completos de un movimiento por su nombre (es) */
 function moveInfo(name) { return MOVESF ? MOVESF[normName(name)] || null : null; }
 function abilityInfo(name) { return ABILITIES ? ABILITIES[normName(name)] || null : null; }

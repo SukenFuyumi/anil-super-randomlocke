@@ -526,3 +526,12 @@ img.player-avatar.xl { padding: 6px; }
 .lm-move.typed { color: #fff; border-color: transparent; text-shadow: 0 1px 2px #00000073; }
 .lm-lvl { background: #0000002e; border-radius: 999px; padding: .05rem .4rem; font-size: .64rem; font-weight: 800; white-space: nowrap; }
 .lm-move:not(.typed) .lm-lvl { background: var(--border); color: var(--text-muted); }
+
+/* ---------- Debilidades / resistencias (ficha Pokémon) ---------- */
+.tmatch { display: flex; flex-direction: column; gap: .7rem; }
+.tm-row { display: grid; grid-template-columns: 96px 1fr; gap: .5rem 1rem; align-items: center; }
+.tm-lbl { color: var(--text-muted); font-size: .72rem; text-transform: uppercase; letter-spacing: .04em; font-weight: 800; }
+.tm-chips { display: flex; flex-wrap: wrap; gap: .35rem; }
+.tm-chips .type-badge { display: inline-flex; align-items: center; gap: .3rem; }
+.tm-x { font-weight: 800; opacity: .85; font-size: .9em; }
+@media (max-width: 520px) { .tm-row { grid-template-columns: 1fr; gap: .25rem; } }

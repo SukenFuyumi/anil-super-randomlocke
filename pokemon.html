@@ -40,6 +40,7 @@
       await loadConfig();
       renderHeader("pokedex.html");
       const dex = await loadPokedexFull();
+      await loadTypesChart();
       const root = document.getElementById("root");
       let id = parseInt(param("id"), 10);
       if (!id && param("sp")) id = speciesDexId(param("sp"));
@@ -97,6 +98,16 @@
       const prev = dex[id - 1] ? `<a class="btn" href="pokemon.html?id=${id - 1}">← #${id - 1} ${escapeHtml(dex[id - 1].n)}</a>` : "<span></span>";
       const next = dex[id + 1] ? `<a class="btn" href="pokemon.html?id=${id + 1}">#${id + 1} ${escapeHtml(dex[id + 1].n)} →</a>` : "<span></span>";
 
+      const mu = typeMatchups(p.t);
+      const muChip = (o) => `<span class="type-badge sm" style="background:var(--type-${o.key})">${escapeHtml(TYPES_CSS_ES[o.key])}<b class="tm-x">${multLabel(o.m)}</b></span>`;
+      const muRow = (lbl, list) => `<div class="tm-row"><span class="tm-lbl">${lbl}</span><div class="tm-chips">${list.length ? list.map(muChip).join("") : '<span class="muted">Ninguna</span>'}</div></div>`;
+      const muHtml = `<h2>Debilidades y resistencias</h2>
+        <div class="panel"><div class="tmatch">
+          ${muRow("Débil a", mu.weak)}
+          ${muRow("Resiste", mu.resist)}
+          ${mu.immune.length ? muRow("Inmune a", mu.immune) : ""}
+        </div></div>`;
+
       root.innerHTML = `
         <div class="breadcrumb"><a href="pokedex.html">← Pokédex</a></div>
         <div class="panel" style="border-top:5px solid var(--type-${t0})">
@@ -125,6 +136,7 @@
             <span class="lbl" style="font-weight:800;color:var(--text)">Total</span><span class="val">${total}</span><span></span>
           </div>
         </div>
+        ${muHtml}
         ${evoHtml ? `<div class="panel" style="margin-top:1rem">${evoHtml}</div>` : ""}
         <div class="pk-nav">${prev}${next}</div>
       `;
