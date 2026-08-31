@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 8h 50m jugadas · 245,900₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 8h 53m jugadas · 245,900₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -34,7 +34,7 @@
       ],
       "ev": [
         20,
-        91,
+        93,
         31,
         35,
         20,
@@ -158,7 +158,7 @@
       ],
       "ev": [
         7,
-        32,
+        34,
         22,
         20,
         14,
@@ -278,7 +278,7 @@
       ],
       "ev": [
         12,
-        37,
+        39,
         25,
         22,
         15,
@@ -385,7 +385,7 @@
       ],
       "ev": [
         7,
-        32,
+        34,
         22,
         20,
         14,
@@ -481,7 +481,7 @@
       ],
       "ev": [
         24,
-        53,
+        55,
         43,
         48,
         24,
@@ -604,7 +604,7 @@
       ],
       "ev": [
         9,
-        35,
+        37,
         23,
         22,
         15,
@@ -2792,6 +2792,142 @@
       ]
     },
     {
+      "nickname": "LUIGI",
+      "species": "Breloom",
+      "level": 35,
+      "types": [
+        "Planta",
+        "Lucha"
+      ],
+      "ability": "Recogebolas",
+      "nature": "Mansa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Día Soleado",
+        "Antojo",
+        "Voto Planta",
+        "Llamarada"
+      ],
+      "iv": [
+        14,
+        10,
+        11,
+        16,
+        28,
+        20
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Huida",
+        "Recogebolas"
+      ],
+      "abilHidden": [
+        "Sebo"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Electrotela"
+        },
+        {
+          "lvl": -1,
+          "m": "Sorpresa"
+        },
+        {
+          "lvl": 1,
+          "m": "Golpe Roca"
+        },
+        {
+          "lvl": 1,
+          "m": "Golpe Kárate"
+        },
+        {
+          "lvl": 1,
+          "m": "Megaagotar"
+        },
+        {
+          "lvl": 1,
+          "m": "Patada Tropical"
+        },
+        {
+          "lvl": 1,
+          "m": "Obstrucción"
+        },
+        {
+          "lvl": 1,
+          "m": "Arenas Ardientes"
+        },
+        {
+          "lvl": 1,
+          "m": "Patada Baja"
+        },
+        {
+          "lvl": 1,
+          "m": "Onda Vacío"
+        },
+        {
+          "lvl": 12,
+          "m": "Enrosque"
+        },
+        {
+          "lvl": 15,
+          "m": "Doble Ataque"
+        },
+        {
+          "lvl": 19,
+          "m": "Tormento"
+        },
+        {
+          "lvl": 22,
+          "m": "Supersónico"
+        },
+        {
+          "lvl": 28,
+          "m": "Día Soleado"
+        },
+        {
+          "lvl": 33,
+          "m": "Antojo"
+        },
+        {
+          "lvl": 33,
+          "m": "Voto Planta"
+        },
+        {
+          "lvl": 33,
+          "m": "Llamarada"
+        },
+        {
+          "lvl": 39,
+          "m": "Electropalmas"
+        },
+        {
+          "lvl": 39,
+          "m": "Geocontrol"
+        },
+        {
+          "lvl": 44,
+          "m": "Polvo Mágico"
+        },
+        {
+          "lvl": 50,
+          "m": "Ácido Málico"
+        },
+        {
+          "lvl": 55,
+          "m": "Última Palabra"
+        }
+      ]
+    },
+    {
       "nickname": "TECATA",
       "species": "Ivysaur",
       "level": 25,
@@ -3657,6 +3793,17 @@
       "mon": "Sinistea"
     },
     {
+      "route": "ruta_7",
+      "where": "Ruta 7",
+      "species": "Breloom",
+      "nickname": "LUIGI",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 35,
+      "mon": "Breloom"
+    },
+    {
       "route": "ciudad_plateada",
       "where": "Ciudad Plateada",
       "species": "Ivysaur",
@@ -3744,11 +3891,11 @@
       "ruta_8": true,
       "pueblo_paleta": true,
       "ciudad_plateada": true,
+      "ruta_7": true,
       "ruta_1": true,
       "ciudad_verde": true,
       "ruta_22": true,
       "ruta_9": true,
-      "ruta_7": true,
       "torre_pokemon": true
     },
     "items": {},
@@ -3763,7 +3910,8 @@
       "tunel_roca": true,
       "ruta_10_sur": true,
       "pueblo_lavanda": true,
-      "ruta_8": true
+      "ruta_8": true,
+      "ruta_7": true
     }
   }
 }
