@@ -4,138 +4,132 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 7h 11m jugadas · 109,820₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 7h 25m jugadas · 114,520₽ · vidas en el juego: -1",
   "team": [
     {
-      "nickname": "AL",
-      "species": "Sudowoodo",
+      "nickname": "PUTA MIERDA2",
+      "species": "Raticate (Alola)",
       "level": 39,
       "types": [
-        "Roca"
+        "Siniestro",
+        "Normal"
       ],
-      "ability": "Trampa Arena",
-      "nature": "Firme",
-      "item": "Telescopio",
+      "ability": "Garra Dura",
+      "nature": "Plácida",
+      "item": "Garra Afilada",
       "shiny": false,
       "moves": [
+        "Rodillo de Púas",
+        "Asalto Barrera",
         "Tajo Umbrío",
-        "Filo Potente",
-        "Barrera Espinosa",
-        "Carámbano"
+        "Daño Secreto"
       ],
       "iv": [
-        4,
-        2,
-        15,
-        31,
-        15,
-        26
+        28,
+        18,
+        14,
+        12,
+        3,
+        9
       ],
       "ev": [
-        7,
-        25,
-        18,
+        20,
+        83,
+        26,
+        32,
         16,
-        11,
-        24
+        38
       ],
       "abilPool": [
-        "Chorro Arena",
-        "Trampa Arena"
+        "Trampa Arena",
+        "Garra Dura"
       ],
       "abilHidden": [
-        "Levitación"
+        "Iceberg"
       ],
       "learnset": [
         {
-          "lvl": -1,
-          "m": "Alarido"
-        },
-        {
           "lvl": 1,
-          "m": "Cascabel Cura"
-        },
-        {
-          "lvl": 1,
-          "m": "Pedrada"
-        },
-        {
-          "lvl": 1,
-          "m": "Tormenta Arena"
-        },
-        {
-          "lvl": 1,
-          "m": "Mismo Destino"
-        },
-        {
-          "lvl": 1,
-          "m": "Doble Patada"
-        },
-        {
-          "lvl": 1,
-          "m": "Agitacola"
-        },
-        {
-          "lvl": 1,
-          "m": "Eco Metálico"
-        },
-        {
-          "lvl": 1,
-          "m": "Trampa Rocas"
-        },
-        {
-          "lvl": 12,
-          "m": "Cura Selvática"
-        },
-        {
-          "lvl": 16,
-          "m": "Psicoonda"
-        },
-        {
-          "lvl": 19,
-          "m": "Bola Hielo"
-        },
-        {
-          "lvl": 20,
-          "m": "Polvo Explosivo"
-        },
-        {
-          "lvl": 24,
-          "m": "Confidencia"
-        },
-        {
-          "lvl": 28,
-          "m": "Remolino"
-        },
-        {
-          "lvl": 32,
-          "m": "Filo Potente"
-        },
-        {
-          "lvl": 36,
-          "m": "Resarcimiento"
-        },
-        {
-          "lvl": 40,
           "m": "Vasta Guardia"
         },
         {
-          "lvl": 40,
-          "m": "Amnesia"
+          "lvl": 1,
+          "m": "Asalto Barrera"
+        },
+        {
+          "lvl": 1,
+          "m": "Legado"
+        },
+        {
+          "lvl": 1,
+          "m": "Deseo"
+        },
+        {
+          "lvl": 1,
+          "m": "Metrónomo"
+        },
+        {
+          "lvl": 1,
+          "m": "Esquema"
+        },
+        {
+          "lvl": 1,
+          "m": "Ofrenda"
+        },
+        {
+          "lvl": 4,
+          "m": "Viento Feérico"
+        },
+        {
+          "lvl": 7,
+          "m": "Ronquido"
+        },
+        {
+          "lvl": 10,
+          "m": "Conjuro"
+        },
+        {
+          "lvl": 13,
+          "m": "Canon"
+        },
+        {
+          "lvl": 13,
+          "m": "Mordisco"
+        },
+        {
+          "lvl": 16,
+          "m": "Puño Incremento"
+        },
+        {
+          "lvl": 16,
+          "m": "Giro Bola"
+        },
+        {
+          "lvl": 19,
+          "m": "Bálsamo Osado"
+        },
+        {
+          "lvl": 24,
+          "m": "Torbellino"
+        },
+        {
+          "lvl": 29,
+          "m": "Rabia"
+        },
+        {
+          "lvl": 34,
+          "m": "Semilladora"
+        },
+        {
+          "lvl": 39,
+          "m": "Enfado"
         },
         {
           "lvl": 44,
-          "m": "Envite Acuático"
-        },
-        {
-          "lvl": 48,
-          "m": "Tajo Cruzado"
-        },
-        {
-          "lvl": 50,
-          "m": "Chupavidas"
+          "m": "Puño Cometa"
         }
-      ]
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png"
     },
     {
       "nickname": "DREAMS",
@@ -163,12 +157,12 @@
         30
       ],
       "ev": [
-        5,
-        22,
+        7,
+        24,
         17,
-        14,
+        17,
         10,
-        21
+        24
       ],
       "abilPool": [
         "Trampa Arena",
@@ -283,12 +277,12 @@
         31
       ],
       "ev": [
-        10,
-        27,
+        12,
+        29,
         20,
-        16,
+        19,
         11,
-        25
+        28
       ],
       "abilPool": [
         "Electromotor"
@@ -390,12 +384,12 @@
         10
       ],
       "ev": [
-        5,
-        22,
+        7,
+        24,
         17,
-        14,
+        17,
         10,
-        21
+        24
       ],
       "abilPool": [
         "Viscosecreción",
@@ -486,12 +480,12 @@
         15
       ],
       "ev": [
-        22,
-        43,
+        24,
+        45,
         38,
-        42,
+        45,
         20,
-        44
+        47
       ],
       "abilPool": [
         "Filtro",
@@ -584,129 +578,135 @@
       ]
     },
     {
-      "nickname": "PUTA MIERDA2",
-      "species": "Raticate (Alola)",
+      "nickname": "AL",
+      "species": "Sudowoodo",
       "level": 39,
       "types": [
-        "Siniestro",
-        "Normal"
+        "Roca"
       ],
-      "ability": "Garra Dura",
-      "nature": "Plácida",
-      "item": "Garra Afilada",
+      "ability": "Trampa Arena",
+      "nature": "Firme",
+      "item": "Telescopio",
       "shiny": false,
       "moves": [
-        "Rodillo de Púas",
-        "Asalto Barrera",
         "Tajo Umbrío",
-        "Daño Secreto"
+        "Filo Potente",
+        "Barrera Espinosa",
+        "Carámbano"
       ],
       "iv": [
-        28,
-        18,
-        14,
-        12,
-        3,
-        9
+        4,
+        2,
+        15,
+        31,
+        15,
+        26
       ],
       "ev": [
+        9,
+        27,
         18,
-        81,
-        26,
-        29,
-        16,
-        35
+        19,
+        11,
+        27
       ],
       "abilPool": [
-        "Trampa Arena",
-        "Garra Dura"
+        "Chorro Arena",
+        "Trampa Arena"
       ],
       "abilHidden": [
-        "Iceberg"
+        "Levitación"
       ],
       "learnset": [
         {
-          "lvl": 1,
-          "m": "Vasta Guardia"
+          "lvl": -1,
+          "m": "Alarido"
         },
         {
           "lvl": 1,
-          "m": "Asalto Barrera"
+          "m": "Cascabel Cura"
         },
         {
           "lvl": 1,
-          "m": "Legado"
+          "m": "Pedrada"
         },
         {
           "lvl": 1,
-          "m": "Deseo"
+          "m": "Tormenta Arena"
         },
         {
           "lvl": 1,
-          "m": "Metrónomo"
+          "m": "Mismo Destino"
         },
         {
           "lvl": 1,
-          "m": "Esquema"
+          "m": "Doble Patada"
         },
         {
           "lvl": 1,
-          "m": "Ofrenda"
+          "m": "Agitacola"
         },
         {
-          "lvl": 4,
-          "m": "Viento Feérico"
+          "lvl": 1,
+          "m": "Eco Metálico"
         },
         {
-          "lvl": 7,
-          "m": "Ronquido"
+          "lvl": 1,
+          "m": "Trampa Rocas"
         },
         {
-          "lvl": 10,
-          "m": "Conjuro"
-        },
-        {
-          "lvl": 13,
-          "m": "Canon"
-        },
-        {
-          "lvl": 13,
-          "m": "Mordisco"
+          "lvl": 12,
+          "m": "Cura Selvática"
         },
         {
           "lvl": 16,
-          "m": "Puño Incremento"
-        },
-        {
-          "lvl": 16,
-          "m": "Giro Bola"
+          "m": "Psicoonda"
         },
         {
           "lvl": 19,
-          "m": "Bálsamo Osado"
+          "m": "Bola Hielo"
+        },
+        {
+          "lvl": 20,
+          "m": "Polvo Explosivo"
         },
         {
           "lvl": 24,
-          "m": "Torbellino"
+          "m": "Confidencia"
         },
         {
-          "lvl": 29,
-          "m": "Rabia"
+          "lvl": 28,
+          "m": "Remolino"
         },
         {
-          "lvl": 34,
-          "m": "Semilladora"
+          "lvl": 32,
+          "m": "Filo Potente"
         },
         {
-          "lvl": 39,
-          "m": "Enfado"
+          "lvl": 36,
+          "m": "Resarcimiento"
+        },
+        {
+          "lvl": 40,
+          "m": "Vasta Guardia"
+        },
+        {
+          "lvl": 40,
+          "m": "Amnesia"
         },
         {
           "lvl": 44,
-          "m": "Puño Cometa"
+          "m": "Envite Acuático"
+        },
+        {
+          "lvl": 48,
+          "m": "Tajo Cruzado"
+        },
+        {
+          "lvl": 50,
+          "m": "Chupavidas"
         }
-      ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png"
+      ]
     }
   ],
   "box": [
@@ -2232,6 +2232,235 @@
       ]
     },
     {
+      "nickname": "FLAMAS",
+      "species": "Quilava",
+      "level": 28,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "Sombra Trampa",
+      "nature": "Modesta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Danza Amiga",
+        "Cambiapoder",
+        "Rayo Carga",
+        "Camaradería"
+      ],
+      "iv": [
+        9,
+        10,
+        22,
+        28,
+        5,
+        1
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Sombra Trampa"
+      ],
+      "abilHidden": [
+        "Calco"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Dragoaliento"
+        },
+        {
+          "lvl": 1,
+          "m": "Anulación"
+        },
+        {
+          "lvl": 1,
+          "m": "Barrera Espinosa"
+        },
+        {
+          "lvl": 10,
+          "m": "Cambio de Marcha"
+        },
+        {
+          "lvl": 13,
+          "m": "Danza Amiga"
+        },
+        {
+          "lvl": 16,
+          "m": "Cambiapoder"
+        },
+        {
+          "lvl": 20,
+          "m": "Rayo Carga"
+        },
+        {
+          "lvl": 24,
+          "m": "Camaradería"
+        },
+        {
+          "lvl": 31,
+          "m": "Amago"
+        },
+        {
+          "lvl": 31,
+          "m": "Intercambio"
+        },
+        {
+          "lvl": 35,
+          "m": "Cuerno Certero"
+        },
+        {
+          "lvl": 42,
+          "m": "Tenaza"
+        },
+        {
+          "lvl": 46,
+          "m": "Trapicheo"
+        },
+        {
+          "lvl": 53,
+          "m": "Chirrido"
+        },
+        {
+          "lvl": 57,
+          "m": "Rueda Aural"
+        },
+        {
+          "lvl": 64,
+          "m": "Reserva"
+        },
+        {
+          "lvl": 68,
+          "m": "Bucle Arena"
+        },
+        {
+          "lvl": 68,
+          "m": "Manos Juntas"
+        },
+        {
+          "lvl": 75,
+          "m": "Rayo Meteórico"
+        }
+      ]
+    },
+    {
+      "nickname": "CALAMIDAD",
+      "species": "Basculin",
+      "level": 31,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Hospitalidad",
+      "nature": "Fuerte",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Rayo Burbuja",
+        "Pedrada",
+        "Limpieza General",
+        "Hidropulso"
+      ],
+      "iv": [
+        8,
+        3,
+        20,
+        18,
+        7,
+        23
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Hospitalidad",
+        "Cola Armadura"
+      ],
+      "abilHidden": [
+        "Néctar dulce"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Alquitranazo"
+        },
+        {
+          "lvl": 1,
+          "m": "Burbuja"
+        },
+        {
+          "lvl": 4,
+          "m": "Shuriken de Agua"
+        },
+        {
+          "lvl": 8,
+          "m": "Canto Mortal"
+        },
+        {
+          "lvl": 12,
+          "m": "Buena Baza"
+        },
+        {
+          "lvl": 16,
+          "m": "Rayo Burbuja"
+        },
+        {
+          "lvl": 20,
+          "m": "Pedrada"
+        },
+        {
+          "lvl": 24,
+          "m": "Limpieza General"
+        },
+        {
+          "lvl": 28,
+          "m": "Hidropulso"
+        },
+        {
+          "lvl": 32,
+          "m": "Carga"
+        },
+        {
+          "lvl": 36,
+          "m": "Puño Furia"
+        },
+        {
+          "lvl": 40,
+          "m": "Cabeza Sorpresa"
+        },
+        {
+          "lvl": 44,
+          "m": "Auxilio"
+        },
+        {
+          "lvl": 44,
+          "m": "Gancho Alto"
+        },
+        {
+          "lvl": 48,
+          "m": "Psicohojas"
+        },
+        {
+          "lvl": 52,
+          "m": "Fuerza Telúrica"
+        },
+        {
+          "lvl": 56,
+          "m": "Triturar"
+        }
+      ]
+    },
+    {
       "nickname": "KING",
       "species": "Poliwhirl",
       "level": 25,
@@ -3008,15 +3237,15 @@
   ],
   "captures": [
     {
-      "route": "ruta_2_norte",
-      "where": "Ruta 2 Norte",
-      "species": "Sudowoodo",
-      "nickname": "AL",
+      "route": "monte_moon",
+      "where": "Monte Moon",
+      "species": "Raticate",
+      "nickname": "PUTA MIERDA2",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 8,
-      "mon": "Sudowoodo"
+      "level": 14,
+      "mon": "Raticate"
     },
     {
       "route": "ruta_5",
@@ -3063,15 +3292,15 @@
       "mon": "Crawdaunt"
     },
     {
-      "route": "monte_moon",
-      "where": "Monte Moon",
-      "species": "Raticate",
-      "nickname": "PUTA MIERDA2",
+      "route": "ruta_2_norte",
+      "where": "Ruta 2 Norte",
+      "species": "Sudowoodo",
+      "nickname": "AL",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 14,
-      "mon": "Raticate"
+      "level": 8,
+      "mon": "Sudowoodo"
     },
     {
       "route": "ruta_3",
@@ -3250,6 +3479,28 @@
       "mon": "Larvesta"
     },
     {
+      "route": "ruta_10_sur",
+      "where": "Ruta 10 Sur",
+      "species": "Quilava",
+      "nickname": "FLAMAS",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 28,
+      "mon": "Quilava"
+    },
+    {
+      "route": "pueblo_lavanda",
+      "where": "Pueblo Lavanda",
+      "species": "Basculin",
+      "nickname": "CALAMIDAD",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 31,
+      "mon": "Basculin"
+    },
+    {
       "route": "pueblo_paleta",
       "where": "Pueblo Paleta",
       "species": "Poliwhirl",
@@ -3336,12 +3587,12 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_2_norte": true,
+      "monte_moon": true,
       "ruta_5": true,
       "bosque_verde": true,
       "tunel_diglett": true,
       "ruta_2_sur": true,
-      "monte_moon": true,
+      "ruta_2_norte": true,
       "ruta_3": true,
       "ciudad_carmin": true,
       "monte_moon_exterior": true,
@@ -3354,12 +3605,15 @@
       "ruta_10_norte": true,
       "ruta_20": true,
       "tunel_roca": true,
+      "ruta_10_sur": true,
+      "pueblo_lavanda": true,
       "pueblo_paleta": true,
       "ciudad_plateada": true,
       "ruta_1": true,
       "ciudad_verde": true,
       "ruta_22": true,
-      "ruta_9": true
+      "ruta_9": true,
+      "torre_pokemon": true
     },
     "items": {},
     "encounters": {
@@ -3370,7 +3624,9 @@
       "ruta_12": true,
       "ruta_9": true,
       "ruta_10_norte": true,
-      "tunel_roca": true
+      "tunel_roca": true,
+      "ruta_10_sur": true,
+      "pueblo_lavanda": true
     }
   }
 }
