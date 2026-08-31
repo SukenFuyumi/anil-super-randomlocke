@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 9h 53m jugadas · 160,730₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 9h 54m jugadas · 160,730₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -34,7 +34,7 @@
       ],
       "ev": [
         20,
-        93,
+        94,
         35,
         35,
         20,
@@ -158,7 +158,7 @@
       ],
       "ev": [
         7,
-        34,
+        35,
         26,
         20,
         14,
@@ -278,7 +278,7 @@
       ],
       "ev": [
         12,
-        39,
+        40,
         29,
         22,
         15,
@@ -385,7 +385,7 @@
       ],
       "ev": [
         7,
-        34,
+        35,
         26,
         20,
         14,
@@ -481,7 +481,7 @@
       ],
       "ev": [
         24,
-        55,
+        56,
         47,
         48,
         24,
@@ -604,7 +604,7 @@
       ],
       "ev": [
         9,
-        37,
+        38,
         27,
         22,
         15,
@@ -3048,6 +3048,122 @@
       ]
     },
     {
+      "nickname": "PUTA MIERDA3",
+      "species": "Squawkabilly",
+      "level": 34,
+      "types": [
+        "Normal",
+        "Volador"
+      ],
+      "ability": "Ímpetu Arena",
+      "nature": "Cauta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Bomba Imán",
+        "Levitón",
+        "Fachada",
+        "Puntada Sombría"
+      ],
+      "iv": [
+        29,
+        7,
+        12,
+        17,
+        26,
+        12
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Ímpetu Arena",
+        "Reacción Química"
+      ],
+      "abilHidden": [
+        "Cuerpo Vívido"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Carga"
+        },
+        {
+          "lvl": 1,
+          "m": "Escudo Real"
+        },
+        {
+          "lvl": 1,
+          "m": "Esfuerzo"
+        },
+        {
+          "lvl": 6,
+          "m": "Cambiadefensa"
+        },
+        {
+          "lvl": 10,
+          "m": "Silbato"
+        },
+        {
+          "lvl": 13,
+          "m": "Canto Mortal"
+        },
+        {
+          "lvl": 17,
+          "m": "Dulce Aroma"
+        },
+        {
+          "lvl": 20,
+          "m": "Golpes Furia"
+        },
+        {
+          "lvl": 24,
+          "m": "Cosquillas"
+        },
+        {
+          "lvl": 27,
+          "m": "Colmillo Ígneo"
+        },
+        {
+          "lvl": 27,
+          "m": "Bomba Imán"
+        },
+        {
+          "lvl": 30,
+          "m": "Levitón"
+        },
+        {
+          "lvl": 32,
+          "m": "Fachada"
+        },
+        {
+          "lvl": 34,
+          "m": "Puntada Sombría"
+        },
+        {
+          "lvl": 38,
+          "m": "Rizo Algodón"
+        },
+        {
+          "lvl": 42,
+          "m": "Puño Drenaje"
+        },
+        {
+          "lvl": 47,
+          "m": "Sonámbulo"
+        },
+        {
+          "lvl": 52,
+          "m": "Manos Juntas"
+        }
+      ]
+    },
+    {
       "nickname": "TECATA",
       "species": "Ivysaur",
       "level": 25,
@@ -4134,6 +4250,17 @@
       "mon": "Fletchinder"
     },
     {
+      "route": "ruta_11",
+      "where": "Ruta 11",
+      "species": "Squawkabilly",
+      "nickname": "PUTA MIERDA3",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 34,
+      "mon": "Squawkabilly"
+    },
+    {
       "route": "ciudad_plateada",
       "where": "Ciudad Plateada",
       "species": "Ivysaur",
@@ -4243,13 +4370,13 @@
       "pueblo_paleta": true,
       "ciudad_plateada": true,
       "ciudad_azulona": true,
+      "ruta_11": true,
       "ruta_1": true,
       "ruta_4": true,
       "ruta_7": true,
       "ciudad_verde": true,
       "ruta_22": true,
       "ruta_9": true,
-      "ruta_11": true,
       "torre_pokemon": true
     },
     "items": {},
@@ -4266,7 +4393,8 @@
       "pueblo_lavanda": true,
       "ruta_8": true,
       "ruta_7": true,
-      "ciudad_azulona": true
+      "ciudad_azulona": true,
+      "ruta_11": true
     }
   }
 }
