@@ -4,132 +4,115 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 10h 26m jugadas · 192,150₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 10h 40m jugadas · 192,150₽ · vidas en el juego: -1",
   "team": [
     {
-      "nickname": "PUTA MIERDA2",
-      "species": "Raticate (Alola)",
-      "level": 49,
+      "nickname": "BLAZE",
+      "species": "Tinkatuff",
+      "level": 12,
       "types": [
-        "Siniestro",
-        "Normal"
+        "Hada",
+        "Acero"
       ],
-      "ability": "Garra Dura",
-      "nature": "Plácida",
-      "item": "Garra Afilada",
+      "ability": "Defensa Hoja",
+      "nature": "Mansa",
+      "item": "Supereviolite",
       "shiny": false,
       "moves": [
-        "Rodillo de Púas",
-        "Asalto Barrera",
-        "Tajo Umbrío",
-        "Daño Secreto"
+        "Deslome",
+        "Flarembestida",
+        "Anclaje",
+        "Asta Drenaje"
       ],
       "iv": [
-        28,
-        18,
         14,
-        12,
-        3,
-        9
+        18,
+        7,
+        9,
+        30,
+        25
       ],
       "ev": [
-        22,
-        105,
-        39,
-        43,
-        24,
-        49
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
       "abilPool": [
-        "Trampa Arena",
-        "Garra Dura"
+        "Realeza",
+        "Defensa Hoja"
       ],
       "abilHidden": [
-        "Iceberg"
+        "Simple"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Vasta Guardia"
+          "m": "Contraataque"
         },
         {
           "lvl": 1,
-          "m": "Asalto Barrera"
+          "m": "Tajo Metralla"
         },
         {
-          "lvl": 1,
-          "m": "Legado"
-        },
-        {
-          "lvl": 1,
-          "m": "Deseo"
-        },
-        {
-          "lvl": 1,
-          "m": "Metrónomo"
-        },
-        {
-          "lvl": 1,
-          "m": "Esquema"
-        },
-        {
-          "lvl": 1,
-          "m": "Ofrenda"
-        },
-        {
-          "lvl": 4,
-          "m": "Viento Feérico"
-        },
-        {
-          "lvl": 7,
-          "m": "Ronquido"
-        },
-        {
-          "lvl": 10,
+          "lvl": 5,
           "m": "Conjuro"
         },
         {
-          "lvl": 13,
-          "m": "Canon"
+          "lvl": 8,
+          "m": "Mandato"
         },
         {
-          "lvl": 13,
-          "m": "Mordisco"
+          "lvl": 11,
+          "m": "Psicocorte"
         },
         {
-          "lvl": 16,
-          "m": "Puño Incremento"
+          "lvl": 14,
+          "m": "Ayuda"
         },
         {
-          "lvl": 16,
-          "m": "Giro Bola"
+          "lvl": 17,
+          "m": "Polvo Mágico"
         },
         {
-          "lvl": 19,
-          "m": "Bálsamo Osado"
+          "lvl": 21,
+          "m": "Aguijón Letal"
         },
         {
           "lvl": 24,
-          "m": "Torbellino"
+          "m": "Deslumbrar"
         },
         {
-          "lvl": 29,
-          "m": "Rabia"
+          "lvl": 27,
+          "m": "Ovocuración"
         },
         {
-          "lvl": 34,
-          "m": "Semilladora"
+          "lvl": 31,
+          "m": "Electormenta"
+        },
+        {
+          "lvl": 35,
+          "m": "Pikapicado"
         },
         {
           "lvl": 39,
-          "m": "Enfado"
+          "m": "Choque Anímico"
         },
         {
-          "lvl": 44,
-          "m": "Puño Cometa"
+          "lvl": 43,
+          "m": "Canto Encantador"
+        },
+        {
+          "lvl": 47,
+          "m": "Cambio de Banda"
+        },
+        {
+          "lvl": 52,
+          "m": "Chorro de Vapor"
         }
-      ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png"
+      ]
     },
     {
       "nickname": "DREAMS",
@@ -1077,7 +1060,7 @@
         "Eléctrico",
         "Fantasma"
       ],
-      "ability": "",
+      "ability": "Sal Purificadora",
       "nature": "Miedosa",
       "item": "",
       "shiny": false,
@@ -1392,114 +1375,6 @@
         }
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10231.png"
-    },
-    {
-      "nickname": "BLAZE",
-      "species": "Tinkatuff",
-      "level": 12,
-      "types": [
-        "Hada",
-        "Acero"
-      ],
-      "ability": "Defensa Hoja",
-      "nature": "Mansa",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Tajo Metralla",
-        "Conjuro",
-        "Mandato",
-        "Psicocorte"
-      ],
-      "iv": [
-        14,
-        18,
-        7,
-        9,
-        30,
-        25
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Realeza",
-        "Defensa Hoja"
-      ],
-      "abilHidden": [
-        "Simple"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Contraataque"
-        },
-        {
-          "lvl": 1,
-          "m": "Tajo Metralla"
-        },
-        {
-          "lvl": 5,
-          "m": "Conjuro"
-        },
-        {
-          "lvl": 8,
-          "m": "Mandato"
-        },
-        {
-          "lvl": 11,
-          "m": "Psicocorte"
-        },
-        {
-          "lvl": 14,
-          "m": "Ayuda"
-        },
-        {
-          "lvl": 17,
-          "m": "Polvo Mágico"
-        },
-        {
-          "lvl": 21,
-          "m": "Aguijón Letal"
-        },
-        {
-          "lvl": 24,
-          "m": "Deslumbrar"
-        },
-        {
-          "lvl": 27,
-          "m": "Ovocuración"
-        },
-        {
-          "lvl": 31,
-          "m": "Electormenta"
-        },
-        {
-          "lvl": 35,
-          "m": "Pikapicado"
-        },
-        {
-          "lvl": 39,
-          "m": "Choque Anímico"
-        },
-        {
-          "lvl": 43,
-          "m": "Canto Encantador"
-        },
-        {
-          "lvl": 47,
-          "m": "Cambio de Banda"
-        },
-        {
-          "lvl": 52,
-          "m": "Chorro de Vapor"
-        }
-      ]
     },
     {
       "nickname": "EL 12 MI APA",
@@ -2940,7 +2815,7 @@
         "Fuego",
         "Volador"
       ],
-      "ability": "",
+      "ability": "Recogida",
       "nature": "Plácida",
       "item": "",
       "shiny": false,
@@ -3587,6 +3462,131 @@
           "m": "Última Palabra"
         }
       ]
+    },
+    {
+      "nickname": "PUTA MIERDA2",
+      "species": "Raticate (Alola)",
+      "level": 49,
+      "types": [
+        "Siniestro",
+        "Normal"
+      ],
+      "ability": "Garra Dura",
+      "nature": "Plácida",
+      "item": "Garra Afilada",
+      "shiny": false,
+      "moves": [
+        "Rodillo de Púas",
+        "Asalto Barrera",
+        "Tajo Umbrío",
+        "Daño Secreto"
+      ],
+      "iv": [
+        28,
+        18,
+        14,
+        12,
+        3,
+        9
+      ],
+      "ev": [
+        22,
+        105,
+        39,
+        43,
+        24,
+        49
+      ],
+      "abilPool": [
+        "Trampa Arena",
+        "Garra Dura"
+      ],
+      "abilHidden": [
+        "Iceberg"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Vasta Guardia"
+        },
+        {
+          "lvl": 1,
+          "m": "Asalto Barrera"
+        },
+        {
+          "lvl": 1,
+          "m": "Legado"
+        },
+        {
+          "lvl": 1,
+          "m": "Deseo"
+        },
+        {
+          "lvl": 1,
+          "m": "Metrónomo"
+        },
+        {
+          "lvl": 1,
+          "m": "Esquema"
+        },
+        {
+          "lvl": 1,
+          "m": "Ofrenda"
+        },
+        {
+          "lvl": 4,
+          "m": "Viento Feérico"
+        },
+        {
+          "lvl": 7,
+          "m": "Ronquido"
+        },
+        {
+          "lvl": 10,
+          "m": "Conjuro"
+        },
+        {
+          "lvl": 13,
+          "m": "Canon"
+        },
+        {
+          "lvl": 13,
+          "m": "Mordisco"
+        },
+        {
+          "lvl": 16,
+          "m": "Puño Incremento"
+        },
+        {
+          "lvl": 16,
+          "m": "Giro Bola"
+        },
+        {
+          "lvl": 19,
+          "m": "Bálsamo Osado"
+        },
+        {
+          "lvl": 24,
+          "m": "Torbellino"
+        },
+        {
+          "lvl": 29,
+          "m": "Rabia"
+        },
+        {
+          "lvl": 34,
+          "m": "Semilladora"
+        },
+        {
+          "lvl": 39,
+          "m": "Enfado"
+        },
+        {
+          "lvl": 44,
+          "m": "Puño Cometa"
+        }
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png"
     }
   ],
   "graveyard": [
@@ -3931,15 +3931,15 @@
   ],
   "captures": [
     {
-      "route": "monte_moon",
-      "where": "Monte Moon",
-      "species": "Raticate",
-      "nickname": "PUTA MIERDA2",
+      "route": "ruta_3",
+      "where": "Ruta 3",
+      "species": "Tinkatuff",
+      "nickname": "BLAZE",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 14,
-      "mon": "Raticate"
+      "level": 12,
+      "mon": "Tinkatuff"
     },
     {
       "route": "ruta_5",
@@ -4072,17 +4072,6 @@
       "category": "salvaje",
       "level": 20,
       "mon": "Voltorb"
-    },
-    {
-      "route": "ruta_3",
-      "where": "Ruta 3",
-      "species": "Tinkatuff",
-      "nickname": "BLAZE",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 12,
-      "mon": "Tinkatuff"
     },
     {
       "route": "ruta_12",
@@ -4305,6 +4294,17 @@
       "mon": "Breloom"
     },
     {
+      "route": "monte_moon",
+      "where": "Monte Moon",
+      "species": "Raticate",
+      "nickname": "PUTA MIERDA2",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 14,
+      "mon": "Raticate"
+    },
+    {
       "route": "ciudad_verde",
       "where": "Ciudad Verde",
       "species": "Diggersby",
@@ -4348,13 +4348,12 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "monte_moon": true,
+      "ruta_3": true,
       "ruta_5": true,
       "bosque_verde": true,
       "tunel_diglett": true,
       "ruta_2_sur": true,
       "ruta_2_norte": true,
-      "ruta_3": true,
       "ciudad_carmin": true,
       "monte_moon_exterior": true,
       "ciudad_celeste": true,
@@ -4375,6 +4374,7 @@
       "ruta_1": true,
       "ruta_4": true,
       "ruta_7": true,
+      "monte_moon": true,
       "ciudad_verde": true,
       "ruta_22": true,
       "ruta_9": true,
