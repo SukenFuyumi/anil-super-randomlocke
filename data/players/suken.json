@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 8h 59m jugadas · 245,800₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 9h 5m jugadas · 245,800₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "ABRAMERO",
@@ -82,10 +82,10 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Día Soleado",
-        "Antojo",
-        "Voto Planta",
-        "Llamarada"
+        "Obstrucción",
+        "Asta Drenaje",
+        "Puntapié",
+        "Rodillo de Púas"
       ],
       "iv": [
         14,
