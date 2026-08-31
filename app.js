@@ -50,11 +50,19 @@ function renderHeader(active) {
   const links = NAV.map(
     (n) => `<a href="${n.href}"${n.href === active ? ' class="active"' : ""}>${n.label}</a>`
   ).join("");
+  const discordBtn = active === "index.html"
+    ? `<button id="btnDiscord" class="theme-toggle" type="button" title="Copiar imagen de las fichas para Discord">
+        <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+      </button>`
+    : "";
   const html = `
     <div class="bar">
       <a class="brand" href="index.html">${pokeball("#ee1515", 26)} <span>Añil</span> <span class="muted" style="font-weight:600;font-size:.8rem;color:#8b95a5">Randomlocke</span></a>
       <nav>${links}</nav>
-      <button id="theme-toggle" class="theme-toggle" type="button" title="Cambiar tema" onclick="toggleTheme()">${themeIcon(theme)}</button>
+      <div class="header-actions">
+        ${discordBtn}
+        <button id="theme-toggle" class="theme-toggle" type="button" title="Cambiar tema" onclick="toggleTheme()">${themeIcon(theme)}</button>
+      </div>
     </div>`;
   const header = document.createElement("header");
   header.className = "site-header";

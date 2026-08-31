@@ -15,13 +15,7 @@
 
     <div class="stat-row" id="globalStats"></div>
 
-    <div class="row between" style="align-items:center;flex-wrap:wrap;gap:.5rem">
-      <h2 style="margin:0">Participantes</h2>
-      <button id="btnDiscord" class="btn primary" type="button">
-        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" style="flex:none"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
-        Copiar imagen para Discord
-      </button>
-    </div>
+    <h2>Participantes</h2>
     <div class="grid wide" id="players"><p class="muted">Cargando…</p></div>
 
     <h2>Cementerio global reciente</h2>
@@ -103,8 +97,8 @@
       // ---- Imagen para Discord ----
       document.getElementById("btnDiscord").addEventListener("click", async (e) => {
         const btn = e.currentTarget;
-        const prev = btn.innerHTML;
-        btn.disabled = true; btn.textContent = "Generando imagen…";
+        btn.disabled = true; btn.style.opacity = ".5";
+        toast("Generando imagen…");
         try {
           const canvas = await buildStandingsCanvas(players, cfg);
           const blob = await new Promise((res) => canvas.toBlob(res, "image/png"));
@@ -123,7 +117,7 @@
           console.error(err);
           toast("No se pudo generar la imagen");
         } finally {
-          btn.disabled = false; btn.innerHTML = prev;
+          btn.disabled = false; btn.style.opacity = "";
         }
       });
 
@@ -244,9 +238,9 @@
           const by = y + ip + 52, bh = 8;
           rrect(ctx, rx, by, rw, bh, 4); ctx.fillStyle = C.slot; ctx.fill();
           if (pct > 0) { rrect(ctx, rx, by, rw * pct, bh, 4); ctx.fillStyle = s.livesLeft <= 6 ? C.bad : s.livesLeft <= 15 ? C.gold : C.ok; ctx.fill(); }
-          // vivos/muertos
-          ctx.fillStyle = C.muted; ctx.font = `600 13px ${FONT}`;
-          ctx.fillText(`Vivos ${s.alive} · Cementerio ${s.dead}${s.revived ? " · " + s.revived + " revivido" + (s.revived > 1 ? "s" : "") : ""}`, rx, by + 26);
+          // vivos/cementerio/revividos — a lo ancho (izquierda) para que no se corte
+          ctx.fillStyle = C.muted; ctx.font = `600 14px ${FONT}`;
+          ctx.fillText(`Vivos ${s.alive} · Cementerio ${s.dead}${s.revived ? " · " + s.revived + " revivido" + (s.revived > 1 ? "s" : "") + " con ceniza" : ""}`, ax, y + ip + 84);
 
           // equipo (6 sprites abajo)
           const team = (p.data.team || []).slice(0, 6);

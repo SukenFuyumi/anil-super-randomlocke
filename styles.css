@@ -117,11 +117,12 @@ img { max-width: 100%; }
   justify-content: center;
   align-items: center;
   width: 34px; height: 34px;
-  margin-left: auto;
   font-size: 1rem; line-height: 1;
   transition: background .15s, border-color .15s;
   display: flex;
 }
+.header-actions { margin-left: auto; display: flex; align-items: center; gap: .5rem; }
+.header-actions .theme-toggle { margin-left: 0; }
 .theme-toggle:hover { background: #ffffff1f; border-color: #ffffff80; }
 @media (width <= 640px) {
   .site-header { padding: 0 .75rem; }
