@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 10h 42m jugadas · 192,150₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 10h 45m jugadas · 198,450₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "BLAZE",
@@ -14,9 +14,9 @@
         "Hada",
         "Acero"
       ],
-      "ability": "Defensa Hoja",
+      "ability": "Simple",
       "nature": "Mansa",
-      "item": "Supereviolite",
+      "item": "Mineral Evol",
       "shiny": false,
       "moves": [
         "Aguijón Letal",
@@ -34,11 +34,11 @@
       ],
       "ev": [
         0,
+        4,
         0,
         0,
         0,
-        0,
-        0
+        1
       ],
       "abilPool": [
         "Realeza",
@@ -141,11 +141,11 @@
       ],
       "ev": [
         9,
-        46,
+        50,
         30,
         28,
         18,
-        35
+        36
       ],
       "abilPool": [
         "Trampa Arena",
@@ -261,11 +261,11 @@
       ],
       "ev": [
         14,
-        51,
+        55,
         33,
         30,
         19,
-        39
+        40
       ],
       "abilPool": [
         "Electromotor"
@@ -368,11 +368,11 @@
       ],
       "ev": [
         9,
-        46,
+        50,
         30,
         28,
         18,
-        35
+        36
       ],
       "abilPool": [
         "Viscosecreción",
@@ -464,11 +464,11 @@
       ],
       "ev": [
         26,
-        67,
+        71,
         51,
         56,
         28,
-        58
+        59
       ],
       "abilPool": [
         "Filtro",
@@ -587,11 +587,11 @@
       ],
       "ev": [
         11,
-        49,
+        53,
         31,
         30,
         19,
-        38
+        39
       ],
       "abilPool": [
         "Chorro Arena",
