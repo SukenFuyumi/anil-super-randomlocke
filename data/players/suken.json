@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 8h 57m jugadas · 245,900₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 8h 58m jugadas · 245,800₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -3896,6 +3896,7 @@
       "ciudad_verde": true,
       "ruta_22": true,
       "ruta_9": true,
+      "ciudad_azulona": true,
       "torre_pokemon": true
     },
     "items": {},
