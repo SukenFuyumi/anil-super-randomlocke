@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 10h 40m jugadas · 192,150₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 10h 41m jugadas · 192,150₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "BLAZE",
       "species": "Tinkatuff",
-      "level": 12,
+      "level": 49,
       "types": [
         "Hada",
         "Acero"
@@ -19,7 +19,7 @@
       "item": "Supereviolite",
       "shiny": false,
       "moves": [
-        "Deslome",
+        "Aguijón Letal",
         "Flarembestida",
         "Anclaje",
         "Asta Drenaje"
