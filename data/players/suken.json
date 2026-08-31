@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 9h 24m jugadas · 191,730₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 9h 27m jugadas · 191,730₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -2933,6 +2933,121 @@
       ]
     },
     {
+      "nickname": "EL FLAMAS",
+      "species": "Fletchinder",
+      "level": 35,
+      "types": [
+        "Fuego",
+        "Volador"
+      ],
+      "ability": "",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Estímulo",
+        "Giro Rápido",
+        "Deslumbrar",
+        "Rizo Algodón"
+      ],
+      "iv": [
+        6,
+        11,
+        28,
+        26,
+        14,
+        20
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Recogida"
+      ],
+      "abilHidden": [
+        "Clorofila"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Nitrocarga"
+        },
+        {
+          "lvl": 1,
+          "m": "Empapar"
+        },
+        {
+          "lvl": 1,
+          "m": "Sol Matinal"
+        },
+        {
+          "lvl": 1,
+          "m": "Cuerpo Pesado"
+        },
+        {
+          "lvl": 1,
+          "m": "Barrera"
+        },
+        {
+          "lvl": 1,
+          "m": "Hueso Palo"
+        },
+        {
+          "lvl": 1,
+          "m": "Llama Protectora"
+        },
+        {
+          "lvl": 15,
+          "m": "Onda Trueno"
+        },
+        {
+          "lvl": 22,
+          "m": "Estímulo"
+        },
+        {
+          "lvl": 27,
+          "m": "Giro Rápido"
+        },
+        {
+          "lvl": 29,
+          "m": "Deslumbrar"
+        },
+        {
+          "lvl": 31,
+          "m": "Rizo Algodón"
+        },
+        {
+          "lvl": 36,
+          "m": "Ataque Furia"
+        },
+        {
+          "lvl": 43,
+          "m": "Patada Ígnea"
+        },
+        {
+          "lvl": 46,
+          "m": "Último Lugar"
+        },
+        {
+          "lvl": 50,
+          "m": "Danza Pluma"
+        },
+        {
+          "lvl": 57,
+          "m": "A Bocajarro"
+        },
+        {
+          "lvl": 64,
+          "m": "Dracoflechas"
+        }
+      ]
+    },
+    {
       "nickname": "TECATA",
       "species": "Ivysaur",
       "level": 25,
@@ -4006,6 +4121,17 @@
       "category": "ciudad",
       "level": 35,
       "mon": "Palossand"
+    },
+    {
+      "route": "",
+      "where": "Casino Azulona",
+      "species": "Fletchinder",
+      "nickname": "EL FLAMAS",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 35,
+      "mon": "Fletchinder"
     },
     {
       "route": "ciudad_plateada",
