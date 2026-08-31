@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 9h 15m jugadas · 245,800₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 9h 16m jugadas · 245,800₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -35,7 +35,7 @@
       "ev": [
         20,
         93,
-        31,
+        33,
         35,
         20,
         43
@@ -159,7 +159,7 @@
       "ev": [
         7,
         34,
-        22,
+        24,
         20,
         14,
         29
@@ -279,7 +279,7 @@
       "ev": [
         12,
         39,
-        25,
+        27,
         22,
         15,
         33
@@ -386,7 +386,7 @@
       "ev": [
         7,
         34,
-        22,
+        24,
         20,
         14,
         29
@@ -482,7 +482,7 @@
       "ev": [
         24,
         55,
-        43,
+        45,
         48,
         24,
         52
@@ -605,7 +605,7 @@
       "ev": [
         9,
         37,
-        23,
+        25,
         22,
         15,
         32
@@ -2830,6 +2830,109 @@
       ]
     },
     {
+      "nickname": "SANDMAN",
+      "species": "Palossand",
+      "level": 35,
+      "types": [
+        "Fantasma",
+        "Tierra"
+      ],
+      "ability": "Maduración",
+      "nature": "Miedosa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Avivar",
+        "Refugio",
+        "Psicorrayo",
+        "Psicohojas"
+      ],
+      "iv": [
+        3,
+        31,
+        5,
+        3,
+        6,
+        3
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Maduración"
+      ],
+      "abilHidden": [
+        "Tinovictoria"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Picotazo Veneno"
+        },
+        {
+          "lvl": 1,
+          "m": "Placaje"
+        },
+        {
+          "lvl": 1,
+          "m": "Desarme"
+        },
+        {
+          "lvl": 1,
+          "m": "Canto Mortal"
+        },
+        {
+          "lvl": 15,
+          "m": "Fijar Blanco"
+        },
+        {
+          "lvl": 20,
+          "m": "Avivar"
+        },
+        {
+          "lvl": 25,
+          "m": "Refugio"
+        },
+        {
+          "lvl": 30,
+          "m": "Psicorrayo"
+        },
+        {
+          "lvl": 35,
+          "m": "Psicohojas"
+        },
+        {
+          "lvl": 40,
+          "m": "Pulpocañón"
+        },
+        {
+          "lvl": 47,
+          "m": "Voto Fuego"
+        },
+        {
+          "lvl": 54,
+          "m": "Psicoonda"
+        },
+        {
+          "lvl": 54,
+          "m": "Agilidad"
+        },
+        {
+          "lvl": 61,
+          "m": "Respiro"
+        },
+        {
+          "lvl": 68,
+          "m": "Psíquico"
+        }
+      ]
+    },
+    {
       "nickname": "TECATA",
       "species": "Ivysaur",
       "level": 25,
@@ -3894,6 +3997,17 @@
       "mon": "Sinistea"
     },
     {
+      "route": "ciudad_azulona",
+      "where": "Ciudad Azulona",
+      "species": "Palossand",
+      "nickname": "SANDMAN",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 35,
+      "mon": "Palossand"
+    },
+    {
       "route": "ciudad_plateada",
       "where": "Ciudad Plateada",
       "species": "Ivysaur",
@@ -4002,13 +4116,13 @@
       "ruta_8": true,
       "pueblo_paleta": true,
       "ciudad_plateada": true,
+      "ciudad_azulona": true,
       "ruta_1": true,
       "ruta_4": true,
       "ruta_7": true,
       "ciudad_verde": true,
       "ruta_22": true,
       "ruta_9": true,
-      "ciudad_azulona": true,
       "torre_pokemon": true
     },
     "items": {},
@@ -4024,7 +4138,8 @@
       "ruta_10_sur": true,
       "pueblo_lavanda": true,
       "ruta_8": true,
-      "ruta_7": true
+      "ruta_7": true,
+      "ciudad_azulona": true
     }
   }
 }
