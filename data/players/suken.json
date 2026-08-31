@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 9h 10m jugadas · 245,800₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 9h 11m jugadas · 245,800₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -1066,6 +1066,107 @@
         {
           "lvl": 64,
           "m": "Tormenta Floral"
+        }
+      ]
+    },
+    {
+      "nickname": "EL PRO",
+      "species": "Rotom",
+      "level": 25,
+      "types": [
+        "Eléctrico",
+        "Fantasma"
+      ],
+      "ability": "",
+      "nature": "Miedosa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Alto Voltaje",
+        "Homenaje Póstumo",
+        "Cascabel Cura",
+        "Impactrueno"
+      ],
+      "iv": [
+        26,
+        4,
+        16,
+        15,
+        23,
+        10
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Sal Purificadora"
+      ],
+      "abilHidden": [],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Fuego Fatuo"
+        },
+        {
+          "lvl": 1,
+          "m": "Semilladora"
+        },
+        {
+          "lvl": 5,
+          "m": "Bola Voltio"
+        },
+        {
+          "lvl": 10,
+          "m": "Alto Voltaje"
+        },
+        {
+          "lvl": 15,
+          "m": "Homenaje Póstumo"
+        },
+        {
+          "lvl": 20,
+          "m": "Cascabel Cura"
+        },
+        {
+          "lvl": 25,
+          "m": "Impactrueno"
+        },
+        {
+          "lvl": 29,
+          "m": "Cara Susto"
+        },
+        {
+          "lvl": 30,
+          "m": "Psicocorte"
+        },
+        {
+          "lvl": 35,
+          "m": "Escupir"
+        },
+        {
+          "lvl": 40,
+          "m": "Constricción"
+        },
+        {
+          "lvl": 40,
+          "m": "Mundo Gélido"
+        },
+        {
+          "lvl": 45,
+          "m": "Niebla Aromática"
+        },
+        {
+          "lvl": 50,
+          "m": "Garra Umbría"
+        },
+        {
+          "lvl": 55,
+          "m": "Buena Baza"
         }
       ]
     },
@@ -3604,6 +3705,17 @@
       "category": "salvaje",
       "level": 16,
       "mon": "Charjabug"
+    },
+    {
+      "route": "",
+      "where": "Edificio Azulona",
+      "species": "Rotom",
+      "nickname": "EL PRO",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 25,
+      "mon": "Rotom"
     },
     {
       "route": "ciudad_celeste",
