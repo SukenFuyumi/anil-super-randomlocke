@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 10h 58m jugadas · 204,390₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 10h 59m jugadas · 204,390₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -3703,6 +3703,388 @@
           "m": "Onda Certera"
         }
       ]
+    },
+    {
+      "nickname": "REPETIDO1",
+      "species": "Darumaka",
+      "level": 1,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "",
+      "nature": "Serena",
+      "item": "Poción",
+      "shiny": false,
+      "moves": [
+        "Conjuro",
+        "Bastión Final",
+        "Eevimpacto"
+      ],
+      "iv": [
+        7,
+        13,
+        13,
+        14,
+        10,
+        22
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Telepatía"
+      ],
+      "abilHidden": [
+        "Poder Sabio"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Conjuro"
+        },
+        {
+          "lvl": 1,
+          "m": "Bastión Final"
+        },
+        {
+          "lvl": 4,
+          "m": "Empapar"
+        },
+        {
+          "lvl": 8,
+          "m": "Espacio Raro"
+        },
+        {
+          "lvl": 12,
+          "m": "Cambio de Banda"
+        },
+        {
+          "lvl": 16,
+          "m": "Ronquido"
+        },
+        {
+          "lvl": 20,
+          "m": "Castigo"
+        },
+        {
+          "lvl": 24,
+          "m": "Bostezo"
+        },
+        {
+          "lvl": 28,
+          "m": "Rizo Defensa"
+        },
+        {
+          "lvl": 32,
+          "m": "Golpe Cabeza"
+        },
+        {
+          "lvl": 36,
+          "m": "Red Viscosa"
+        },
+        {
+          "lvl": 40,
+          "m": "Acoso"
+        },
+        {
+          "lvl": 44,
+          "m": "Danza Despertar"
+        },
+        {
+          "lvl": 48,
+          "m": "Rodar"
+        }
+      ]
+    },
+    {
+      "nickname": "REPETIDO2",
+      "species": "Darumaka",
+      "level": 1,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "",
+      "nature": "Grosera",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Conjuro",
+        "Bastión Final",
+        "Pico Cañón"
+      ],
+      "iv": [
+        3,
+        17,
+        2,
+        15,
+        26,
+        2
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Telepatía"
+      ],
+      "abilHidden": [
+        "Poder Sabio"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Conjuro"
+        },
+        {
+          "lvl": 1,
+          "m": "Bastión Final"
+        },
+        {
+          "lvl": 4,
+          "m": "Empapar"
+        },
+        {
+          "lvl": 8,
+          "m": "Espacio Raro"
+        },
+        {
+          "lvl": 12,
+          "m": "Cambio de Banda"
+        },
+        {
+          "lvl": 16,
+          "m": "Ronquido"
+        },
+        {
+          "lvl": 20,
+          "m": "Castigo"
+        },
+        {
+          "lvl": 24,
+          "m": "Bostezo"
+        },
+        {
+          "lvl": 28,
+          "m": "Rizo Defensa"
+        },
+        {
+          "lvl": 32,
+          "m": "Golpe Cabeza"
+        },
+        {
+          "lvl": 36,
+          "m": "Red Viscosa"
+        },
+        {
+          "lvl": 40,
+          "m": "Acoso"
+        },
+        {
+          "lvl": 44,
+          "m": "Danza Despertar"
+        },
+        {
+          "lvl": 48,
+          "m": "Rodar"
+        }
+      ]
+    },
+    {
+      "nickname": "REPETIDO3",
+      "species": "Poltchageist",
+      "level": 1,
+      "types": [
+        "Planta",
+        "Fantasma"
+      ],
+      "ability": "",
+      "nature": "Miedosa",
+      "item": "Semilla Milagro",
+      "shiny": false,
+      "moves": [
+        "Magnitud",
+        "Patada Tropical",
+        "Cepo"
+      ],
+      "iv": [
+        25,
+        9,
+        20,
+        6,
+        28,
+        7
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Recogida"
+      ],
+      "abilHidden": [
+        "Rivalidad"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Magnitud"
+        },
+        {
+          "lvl": 1,
+          "m": "Patada Tropical"
+        },
+        {
+          "lvl": 1,
+          "m": "Cepo"
+        },
+        {
+          "lvl": 6,
+          "m": "Látigo Cepa"
+        },
+        {
+          "lvl": 12,
+          "m": "Rugido de Guerra"
+        },
+        {
+          "lvl": 18,
+          "m": "Estruendo Escama"
+        },
+        {
+          "lvl": 24,
+          "m": "Giro Rápido"
+        },
+        {
+          "lvl": 30,
+          "m": "Rompecoraza"
+        },
+        {
+          "lvl": 36,
+          "m": "Terratemblor"
+        },
+        {
+          "lvl": 42,
+          "m": "Cortina Plasma"
+        },
+        {
+          "lvl": 48,
+          "m": "Dulce Aroma"
+        },
+        {
+          "lvl": 54,
+          "m": "Rueda Aural"
+        },
+        {
+          "lvl": 60,
+          "m": "Puño Sombra"
+        }
+      ]
+    },
+    {
+      "nickname": "REPETIDO4",
+      "species": "Poltchageist",
+      "level": 1,
+      "types": [
+        "Planta",
+        "Fantasma"
+      ],
+      "ability": "",
+      "nature": "Serena",
+      "item": "Def. Esp. X 2",
+      "shiny": false,
+      "moves": [
+        "Magnitud",
+        "Patada Tropical",
+        "Cepo"
+      ],
+      "iv": [
+        30,
+        2,
+        25,
+        1,
+        24,
+        8
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Recogida"
+      ],
+      "abilHidden": [
+        "Rivalidad"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Magnitud"
+        },
+        {
+          "lvl": 1,
+          "m": "Patada Tropical"
+        },
+        {
+          "lvl": 1,
+          "m": "Cepo"
+        },
+        {
+          "lvl": 6,
+          "m": "Látigo Cepa"
+        },
+        {
+          "lvl": 12,
+          "m": "Rugido de Guerra"
+        },
+        {
+          "lvl": 18,
+          "m": "Estruendo Escama"
+        },
+        {
+          "lvl": 24,
+          "m": "Giro Rápido"
+        },
+        {
+          "lvl": 30,
+          "m": "Rompecoraza"
+        },
+        {
+          "lvl": 36,
+          "m": "Terratemblor"
+        },
+        {
+          "lvl": 42,
+          "m": "Cortina Plasma"
+        },
+        {
+          "lvl": 48,
+          "m": "Dulce Aroma"
+        },
+        {
+          "lvl": 54,
+          "m": "Rueda Aural"
+        },
+        {
+          "lvl": 60,
+          "m": "Puño Sombra"
+        }
+      ]
     }
   ],
   "graveyard": [
@@ -4430,6 +4812,50 @@
       "category": "estatico_regalo",
       "level": 1,
       "mon": "Farigiraf"
+    },
+    {
+      "route": "",
+      "where": "Museo Pokémon",
+      "species": "Darumaka",
+      "nickname": "REPETIDO1",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 1,
+      "mon": "Darumaka"
+    },
+    {
+      "route": "",
+      "where": "Museo Pokémon",
+      "species": "Darumaka",
+      "nickname": "REPETIDO2",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 1,
+      "mon": "Darumaka"
+    },
+    {
+      "route": "",
+      "where": "Museo Pokémon",
+      "species": "Poltchageist",
+      "nickname": "REPETIDO3",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 1,
+      "mon": "Poltchageist"
+    },
+    {
+      "route": "",
+      "where": "Museo Pokémon",
+      "species": "Poltchageist",
+      "nickname": "REPETIDO4",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 1,
+      "mon": "Poltchageist"
     },
     {
       "route": "ciudad_verde",
