@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 10h 57m jugadas · 204,390₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 10h 58m jugadas · 204,390₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -3587,6 +3587,122 @@
           "m": "Última Palabra"
         }
       ]
+    },
+    {
+      "nickname": "JIRAFALES",
+      "species": "Farigiraf",
+      "level": 1,
+      "types": [
+        "Normal",
+        "Psíquico"
+      ],
+      "ability": "",
+      "nature": "Audaz",
+      "item": "Menta Cauta",
+      "shiny": false,
+      "moves": [
+        "Arenas Ardientes",
+        "Afilar",
+        "Rugido de Guerra",
+        "Bomba Imán"
+      ],
+      "iv": [
+        27,
+        13,
+        11,
+        25,
+        15,
+        16
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Clorofila",
+        "Dicha"
+      ],
+      "abilHidden": [
+        "Combustible"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Ráfaga Escamas"
+        },
+        {
+          "lvl": 1,
+          "m": "Arenas Ardientes"
+        },
+        {
+          "lvl": 1,
+          "m": "Afilar"
+        },
+        {
+          "lvl": 1,
+          "m": "Rugido de Guerra"
+        },
+        {
+          "lvl": 1,
+          "m": "Bomba Imán"
+        },
+        {
+          "lvl": 5,
+          "m": "Furia Natural"
+        },
+        {
+          "lvl": 10,
+          "m": "Fortaleza"
+        },
+        {
+          "lvl": 14,
+          "m": "Polvo Ira"
+        },
+        {
+          "lvl": 19,
+          "m": "Bucle Arena"
+        },
+        {
+          "lvl": 23,
+          "m": "Telequinesis"
+        },
+        {
+          "lvl": 28,
+          "m": "Poder Reserva"
+        },
+        {
+          "lvl": 32,
+          "m": "Pulso de Campo"
+        },
+        {
+          "lvl": 37,
+          "m": "Voltiocambio"
+        },
+        {
+          "lvl": 39,
+          "m": "Rompecoraza"
+        },
+        {
+          "lvl": 41,
+          "m": "Ovocuración"
+        },
+        {
+          "lvl": 46,
+          "m": "Empapar"
+        },
+        {
+          "lvl": 50,
+          "m": "Shuriken de Agua"
+        },
+        {
+          "lvl": 55,
+          "m": "Onda Certera"
+        }
+      ]
     }
   ],
   "graveyard": [
@@ -4303,6 +4419,17 @@
       "category": "salvaje",
       "level": 35,
       "mon": "Breloom"
+    },
+    {
+      "route": "",
+      "where": "Museo Pokémon",
+      "species": "Farigiraf",
+      "nickname": "JIRAFALES",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 1,
+      "mon": "Farigiraf"
     },
     {
       "route": "ciudad_verde",
