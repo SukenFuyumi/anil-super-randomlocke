@@ -4,172 +4,126 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 12h 42m jugadas · 243,900₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 12h 54m jugadas · 243,900₽ · vidas en el juego: -1",
   "team": [
     {
-      "nickname": "PUTA MIERDA2",
-      "species": "Raticate (Alola)",
-      "level": 49,
+      "nickname": "KING",
+      "species": "Poliwhirl",
+      "level": 25,
       "types": [
-        "Siniestro",
-        "Normal"
+        "Agua"
       ],
-      "ability": "Garra Dura",
-      "nature": "Plácida",
-      "item": "Garra Afilada",
+      "ability": "Espanto",
+      "nature": "Afable",
+      "item": "",
       "shiny": false,
       "moves": [
-        "Rodillo de Púas",
-        "Asalto Barrera",
-        "Tajo Umbrío",
-        "Daño Secreto"
+        "Salazón",
+        "Puntapié",
+        "Viraje",
+        "Clavo Cañón"
       ],
       "iv": [
-        28,
-        18,
-        14,
-        12,
-        3,
-        9
+        10,
+        2,
+        25,
+        20,
+        26,
+        1
       ],
       "ev": [
-        25,
-        126,
-        46,
-        54,
-        33,
-        58
+        21,
+        26,
+        22,
+        31,
+        12,
+        27
       ],
       "abilPool": [
-        "Trampa Arena",
-        "Garra Dura"
+        "Espanto"
       ],
       "abilHidden": [
-        "Iceberg"
+        "Pelusa"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Vasta Guardia"
+          "m": "Clavo Cañón"
         },
         {
           "lvl": 1,
-          "m": "Asalto Barrera"
+          "m": "Empapar"
         },
         {
           "lvl": 1,
-          "m": "Legado"
+          "m": "Gruñido"
         },
         {
           "lvl": 1,
-          "m": "Deseo"
+          "m": "Guardia Baja"
         },
         {
           "lvl": 1,
-          "m": "Metrónomo"
+          "m": "Viraje"
         },
         {
           "lvl": 1,
-          "m": "Esquema"
+          "m": "Desarme"
         },
         {
-          "lvl": 1,
-          "m": "Ofrenda"
+          "lvl": 15,
+          "m": "Cambiaalmas"
         },
         {
-          "lvl": 4,
-          "m": "Viento Feérico"
+          "lvl": 18,
+          "m": "Niebla"
         },
         {
-          "lvl": 7,
-          "m": "Ronquido"
-        },
-        {
-          "lvl": 10,
-          "m": "Conjuro"
-        },
-        {
-          "lvl": 13,
-          "m": "Canon"
-        },
-        {
-          "lvl": 13,
-          "m": "Mordisco"
-        },
-        {
-          "lvl": 16,
-          "m": "Puño Incremento"
-        },
-        {
-          "lvl": 16,
-          "m": "Giro Bola"
-        },
-        {
-          "lvl": 19,
-          "m": "Bálsamo Osado"
+          "lvl": 18,
+          "m": "Shuriken de Agua"
         },
         {
           "lvl": 24,
-          "m": "Torbellino"
+          "m": "Colmillo Veneno"
         },
         {
-          "lvl": 29,
-          "m": "Rabia"
+          "lvl": 32,
+          "m": "Sonámbulo"
         },
         {
-          "lvl": 34,
-          "m": "Semilladora"
+          "lvl": 40,
+          "m": "Absorbefuerza"
         },
         {
-          "lvl": 39,
-          "m": "Enfado"
+          "lvl": 43,
+          "m": "Rayo Meteórico"
         },
         {
-          "lvl": 44,
-          "m": "Puño Cometa"
+          "lvl": 48,
+          "m": "Hierba Lazo"
+        },
+        {
+          "lvl": 53,
+          "m": "Bola Sombra"
+        },
+        {
+          "lvl": 56,
+          "m": "Fuerza Equina"
+        },
+        {
+          "lvl": 66,
+          "m": "Despejar"
         }
       ],
       "tmMoves": [
-        "A Defender",
-        "Absorber",
-        "Amnesia",
-        "Atadura",
         "Campo de Hierba",
-        "Chorro de Vapor",
-        "Ciclón",
         "Conversión",
-        "Decoración",
-        "Desarme",
-        "Deslome",
-        "Destello",
-        "Doble Golpe",
-        "Finta",
-        "Garra Dragón",
-        "Infortunio",
-        "Lanzarrocas",
-        "Láser Doble",
-        "Lengüetazo",
-        "Malicioso",
+        "Golpe Roca",
         "Maquinación",
-        "Marcha Espectral",
-        "Megapuño",
-        "Mil Temblores",
-        "Picotazo Veneno",
-        "Placaje",
-        "Plancha",
-        "Psicocarga",
-        "Pulso Cura",
-        "Pulso Dragón",
-        "Puño Cometa",
-        "Puya Nociva",
-        "Rizo Defensa",
-        "Tajo Umbrío",
-        "Tinieblas",
-        "Trampa Venenosa",
-        "Último Lugar",
-        "Voltio Cruel"
-      ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png"
+        "Patada Baja",
+        "Puntapié",
+        "Retracción"
+      ]
     },
     {
       "nickname": "DREAMS",
@@ -328,154 +282,6 @@
       ]
     },
     {
-      "nickname": "DUNAS",
-      "species": "Brambleghast",
-      "level": 49,
-      "types": [
-        "Planta",
-        "Fantasma"
-      ],
-      "ability": "Electromotor",
-      "nature": "Ingenua",
-      "item": "Chaleco Asalto",
-      "shiny": false,
-      "moves": [
-        "Cólera Ardiente",
-        "Sombra Vil",
-        "Veneno X",
-        "Tajo Umbrío"
-      ],
-      "iv": [
-        20,
-        8,
-        20,
-        16,
-        25,
-        31
-      ],
-      "ev": [
-        22,
-        76,
-        42,
-        41,
-        30,
-        49
-      ],
-      "abilPool": [
-        "Electromotor"
-      ],
-      "abilHidden": [
-        "Cuerpo Áureo"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Abatidoras"
-        },
-        {
-          "lvl": 1,
-          "m": "Vendetta"
-        },
-        {
-          "lvl": 1,
-          "m": "Brinco"
-        },
-        {
-          "lvl": 5,
-          "m": "Rodar"
-        },
-        {
-          "lvl": 9,
-          "m": "Profecía"
-        },
-        {
-          "lvl": 13,
-          "m": "Extracto Picante"
-        },
-        {
-          "lvl": 17,
-          "m": "Señuelo"
-        },
-        {
-          "lvl": 21,
-          "m": "Sellar"
-        },
-        {
-          "lvl": 25,
-          "m": "Hilo Venenoso"
-        },
-        {
-          "lvl": 29,
-          "m": "Fanfarronear"
-        },
-        {
-          "lvl": 35,
-          "m": "Golpe Fantasma"
-        },
-        {
-          "lvl": 38,
-          "m": "Cólera Ardiente"
-        },
-        {
-          "lvl": 40,
-          "m": "Puntapié"
-        },
-        {
-          "lvl": 45,
-          "m": "Marcha Espectral"
-        },
-        {
-          "lvl": 50,
-          "m": "Cometa Draco"
-        },
-        {
-          "lvl": 55,
-          "m": "Bola Sombra"
-        }
-      ],
-      "tmMoves": [
-        "A Defender",
-        "Alud",
-        "Amnesia",
-        "Asta Drenaje",
-        "Atadura",
-        "Cabeza Sorpresa",
-        "Campo de Hierba",
-        "Ciclón",
-        "Confusión",
-        "Conversión",
-        "Desarme",
-        "Eco Metálico",
-        "Electropico",
-        "Finta",
-        "Fuerza Lunar",
-        "Garra Dragón",
-        "Golpe Roca",
-        "Golpe Umbrío",
-        "Infortunio",
-        "Isoguardia",
-        "Lengüetazo",
-        "Marcha Espectral",
-        "Mismo Destino",
-        "Moluscañón",
-        "Niebla Aromática",
-        "Núcleo Castigo",
-        "Picotazo Veneno",
-        "Placaje",
-        "Pulso Dragón",
-        "Puño Cometa",
-        "Puntapié",
-        "Puya Nociva",
-        "Relevo",
-        "Represalia",
-        "Retracción",
-        "Rizo Defensa",
-        "Rodillo de Púas",
-        "Sol Matinal",
-        "Voltio Cruel"
-      ]
-    },
-    {
       "nickname": "DERP INVERSO",
       "species": "Clodsire",
       "level": 49,
@@ -614,6 +420,146 @@
         "Tinieblas",
         "Trampa Venenosa",
         "Último Lugar"
+      ]
+    },
+    {
+      "nickname": "CHALAN",
+      "species": "Conkeldurr",
+      "level": 49,
+      "types": [
+        "Lucha"
+      ],
+      "ability": "Carrillo",
+      "nature": "Fuerte",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Anclaje",
+        "Asta Drenaje",
+        "Enrosque",
+        "Puño Trueno"
+      ],
+      "iv": [
+        1,
+        11,
+        8,
+        19,
+        16,
+        28
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Carrillo",
+        "Escama de Hielo"
+      ],
+      "abilHidden": [
+        "Aura Feérica"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Bomba Fango"
+        },
+        {
+          "lvl": 1,
+          "m": "Viraje"
+        },
+        {
+          "lvl": 1,
+          "m": "Triple Patada"
+        },
+        {
+          "lvl": 1,
+          "m": "Paralizador"
+        },
+        {
+          "lvl": 1,
+          "m": "Magnitud"
+        },
+        {
+          "lvl": 12,
+          "m": "Canon"
+        },
+        {
+          "lvl": 16,
+          "m": "Ladrón"
+        },
+        {
+          "lvl": 20,
+          "m": "Enrosque"
+        },
+        {
+          "lvl": 20,
+          "m": "Anulación"
+        },
+        {
+          "lvl": 24,
+          "m": "Tumba Rocas"
+        },
+        {
+          "lvl": 24,
+          "m": "Embargo"
+        },
+        {
+          "lvl": 30,
+          "m": "Cambio de Cancha"
+        },
+        {
+          "lvl": 36,
+          "m": "Puño Trueno"
+        },
+        {
+          "lvl": 41,
+          "m": "Rizo Algodón"
+        },
+        {
+          "lvl": 42,
+          "m": "Adaptación"
+        },
+        {
+          "lvl": 48,
+          "m": "Mal de Ojo"
+        },
+        {
+          "lvl": 54,
+          "m": "Bruma Explosiva"
+        },
+        {
+          "lvl": 60,
+          "m": "Puño Certero"
+        }
+      ],
+      "tmMoves": [
+        "Amnesia",
+        "Anclaje",
+        "Asta Drenaje",
+        "Cabeza Sorpresa",
+        "Ciclón",
+        "Danza Caos",
+        "Desarme",
+        "Espabila",
+        "Golpe Roca",
+        "Golpe Umbrío",
+        "Hueso Sombrío",
+        "Infortunio",
+        "Malicioso",
+        "Mismo Destino",
+        "Nitrocarga",
+        "Patada Baja",
+        "Picotazo Veneno",
+        "Pulso Cura",
+        "Puño Incremento",
+        "Puntapié",
+        "Retracción",
+        "Rizo Defensa",
+        "Rodillo de Púas"
       ]
     },
     {
@@ -2954,125 +2900,6 @@
       ]
     },
     {
-      "nickname": "KING",
-      "species": "Poliwhirl",
-      "level": 25,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Espanto",
-      "nature": "Afable",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Salazón",
-        "Puntapié",
-        "Viraje",
-        "Clavo Cañón"
-      ],
-      "iv": [
-        10,
-        2,
-        25,
-        20,
-        26,
-        1
-      ],
-      "ev": [
-        21,
-        26,
-        22,
-        31,
-        12,
-        27
-      ],
-      "abilPool": [
-        "Espanto"
-      ],
-      "abilHidden": [
-        "Pelusa"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Clavo Cañón"
-        },
-        {
-          "lvl": 1,
-          "m": "Empapar"
-        },
-        {
-          "lvl": 1,
-          "m": "Gruñido"
-        },
-        {
-          "lvl": 1,
-          "m": "Guardia Baja"
-        },
-        {
-          "lvl": 1,
-          "m": "Viraje"
-        },
-        {
-          "lvl": 1,
-          "m": "Desarme"
-        },
-        {
-          "lvl": 15,
-          "m": "Cambiaalmas"
-        },
-        {
-          "lvl": 18,
-          "m": "Niebla"
-        },
-        {
-          "lvl": 18,
-          "m": "Shuriken de Agua"
-        },
-        {
-          "lvl": 24,
-          "m": "Colmillo Veneno"
-        },
-        {
-          "lvl": 32,
-          "m": "Sonámbulo"
-        },
-        {
-          "lvl": 40,
-          "m": "Absorbefuerza"
-        },
-        {
-          "lvl": 43,
-          "m": "Rayo Meteórico"
-        },
-        {
-          "lvl": 48,
-          "m": "Hierba Lazo"
-        },
-        {
-          "lvl": 53,
-          "m": "Bola Sombra"
-        },
-        {
-          "lvl": 56,
-          "m": "Fuerza Equina"
-        },
-        {
-          "lvl": 66,
-          "m": "Despejar"
-        }
-      ],
-      "tmMoves": [
-        "Campo de Hierba",
-        "Conversión",
-        "Golpe Roca",
-        "Maquinación",
-        "Patada Baja",
-        "Puntapié",
-        "Retracción"
-      ]
-    },
-    {
       "nickname": "TAZA",
       "species": "Sinistea",
       "level": 23,
@@ -4302,121 +4129,6 @@
       ]
     },
     {
-      "nickname": "CHALAN",
-      "species": "Conkeldurr",
-      "level": 4,
-      "types": [
-        "Lucha"
-      ],
-      "ability": "Carrillo",
-      "nature": "Fuerte",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Viraje",
-        "Triple Patada",
-        "Paralizador",
-        "Magnitud"
-      ],
-      "iv": [
-        1,
-        11,
-        8,
-        19,
-        16,
-        28
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Carrillo",
-        "Escama de Hielo"
-      ],
-      "abilHidden": [
-        "Aura Feérica"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Bomba Fango"
-        },
-        {
-          "lvl": 1,
-          "m": "Viraje"
-        },
-        {
-          "lvl": 1,
-          "m": "Triple Patada"
-        },
-        {
-          "lvl": 1,
-          "m": "Paralizador"
-        },
-        {
-          "lvl": 1,
-          "m": "Magnitud"
-        },
-        {
-          "lvl": 12,
-          "m": "Canon"
-        },
-        {
-          "lvl": 16,
-          "m": "Ladrón"
-        },
-        {
-          "lvl": 20,
-          "m": "Enrosque"
-        },
-        {
-          "lvl": 20,
-          "m": "Anulación"
-        },
-        {
-          "lvl": 24,
-          "m": "Tumba Rocas"
-        },
-        {
-          "lvl": 24,
-          "m": "Embargo"
-        },
-        {
-          "lvl": 30,
-          "m": "Cambio de Cancha"
-        },
-        {
-          "lvl": 36,
-          "m": "Puño Trueno"
-        },
-        {
-          "lvl": 41,
-          "m": "Rizo Algodón"
-        },
-        {
-          "lvl": 42,
-          "m": "Adaptación"
-        },
-        {
-          "lvl": 48,
-          "m": "Mal de Ojo"
-        },
-        {
-          "lvl": 54,
-          "m": "Bruma Explosiva"
-        },
-        {
-          "lvl": 60,
-          "m": "Puño Certero"
-        }
-      ]
-    },
-    {
       "nickname": "MIRACULOS",
       "species": "Orbeetle",
       "level": 2,
@@ -5225,6 +4937,319 @@
         "Patada Baja",
         "Puño Incremento"
       ]
+    },
+    {
+      "nickname": "DUNAS",
+      "species": "Brambleghast",
+      "level": 49,
+      "types": [
+        "Planta",
+        "Fantasma"
+      ],
+      "ability": "Electromotor",
+      "nature": "Ingenua",
+      "item": "Chaleco Asalto",
+      "shiny": false,
+      "moves": [
+        "Cólera Ardiente",
+        "Sombra Vil",
+        "Veneno X",
+        "Tajo Umbrío"
+      ],
+      "iv": [
+        20,
+        8,
+        20,
+        16,
+        25,
+        31
+      ],
+      "ev": [
+        22,
+        76,
+        42,
+        41,
+        30,
+        49
+      ],
+      "abilPool": [
+        "Electromotor"
+      ],
+      "abilHidden": [
+        "Cuerpo Áureo"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Abatidoras"
+        },
+        {
+          "lvl": 1,
+          "m": "Vendetta"
+        },
+        {
+          "lvl": 1,
+          "m": "Brinco"
+        },
+        {
+          "lvl": 5,
+          "m": "Rodar"
+        },
+        {
+          "lvl": 9,
+          "m": "Profecía"
+        },
+        {
+          "lvl": 13,
+          "m": "Extracto Picante"
+        },
+        {
+          "lvl": 17,
+          "m": "Señuelo"
+        },
+        {
+          "lvl": 21,
+          "m": "Sellar"
+        },
+        {
+          "lvl": 25,
+          "m": "Hilo Venenoso"
+        },
+        {
+          "lvl": 29,
+          "m": "Fanfarronear"
+        },
+        {
+          "lvl": 35,
+          "m": "Golpe Fantasma"
+        },
+        {
+          "lvl": 38,
+          "m": "Cólera Ardiente"
+        },
+        {
+          "lvl": 40,
+          "m": "Puntapié"
+        },
+        {
+          "lvl": 45,
+          "m": "Marcha Espectral"
+        },
+        {
+          "lvl": 50,
+          "m": "Cometa Draco"
+        },
+        {
+          "lvl": 55,
+          "m": "Bola Sombra"
+        }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Alud",
+        "Amnesia",
+        "Asta Drenaje",
+        "Atadura",
+        "Cabeza Sorpresa",
+        "Campo de Hierba",
+        "Ciclón",
+        "Confusión",
+        "Conversión",
+        "Desarme",
+        "Eco Metálico",
+        "Electropico",
+        "Finta",
+        "Fuerza Lunar",
+        "Garra Dragón",
+        "Golpe Roca",
+        "Golpe Umbrío",
+        "Infortunio",
+        "Isoguardia",
+        "Lengüetazo",
+        "Marcha Espectral",
+        "Mismo Destino",
+        "Moluscañón",
+        "Niebla Aromática",
+        "Núcleo Castigo",
+        "Picotazo Veneno",
+        "Placaje",
+        "Pulso Dragón",
+        "Puño Cometa",
+        "Puntapié",
+        "Puya Nociva",
+        "Relevo",
+        "Represalia",
+        "Retracción",
+        "Rizo Defensa",
+        "Rodillo de Púas",
+        "Sol Matinal",
+        "Voltio Cruel"
+      ]
+    },
+    {
+      "nickname": "PUTA MIERDA2",
+      "species": "Raticate (Alola)",
+      "level": 49,
+      "types": [
+        "Siniestro",
+        "Normal"
+      ],
+      "ability": "Garra Dura",
+      "nature": "Plácida",
+      "item": "Garra Afilada",
+      "shiny": false,
+      "moves": [
+        "Rodillo de Púas",
+        "Asalto Barrera",
+        "Tajo Umbrío",
+        "Daño Secreto"
+      ],
+      "iv": [
+        28,
+        18,
+        14,
+        12,
+        3,
+        9
+      ],
+      "ev": [
+        25,
+        126,
+        46,
+        54,
+        33,
+        58
+      ],
+      "abilPool": [
+        "Trampa Arena",
+        "Garra Dura"
+      ],
+      "abilHidden": [
+        "Iceberg"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Vasta Guardia"
+        },
+        {
+          "lvl": 1,
+          "m": "Asalto Barrera"
+        },
+        {
+          "lvl": 1,
+          "m": "Legado"
+        },
+        {
+          "lvl": 1,
+          "m": "Deseo"
+        },
+        {
+          "lvl": 1,
+          "m": "Metrónomo"
+        },
+        {
+          "lvl": 1,
+          "m": "Esquema"
+        },
+        {
+          "lvl": 1,
+          "m": "Ofrenda"
+        },
+        {
+          "lvl": 4,
+          "m": "Viento Feérico"
+        },
+        {
+          "lvl": 7,
+          "m": "Ronquido"
+        },
+        {
+          "lvl": 10,
+          "m": "Conjuro"
+        },
+        {
+          "lvl": 13,
+          "m": "Canon"
+        },
+        {
+          "lvl": 13,
+          "m": "Mordisco"
+        },
+        {
+          "lvl": 16,
+          "m": "Puño Incremento"
+        },
+        {
+          "lvl": 16,
+          "m": "Giro Bola"
+        },
+        {
+          "lvl": 19,
+          "m": "Bálsamo Osado"
+        },
+        {
+          "lvl": 24,
+          "m": "Torbellino"
+        },
+        {
+          "lvl": 29,
+          "m": "Rabia"
+        },
+        {
+          "lvl": 34,
+          "m": "Semilladora"
+        },
+        {
+          "lvl": 39,
+          "m": "Enfado"
+        },
+        {
+          "lvl": 44,
+          "m": "Puño Cometa"
+        }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Absorber",
+        "Amnesia",
+        "Atadura",
+        "Campo de Hierba",
+        "Chorro de Vapor",
+        "Ciclón",
+        "Conversión",
+        "Decoración",
+        "Desarme",
+        "Deslome",
+        "Destello",
+        "Doble Golpe",
+        "Finta",
+        "Garra Dragón",
+        "Infortunio",
+        "Lanzarrocas",
+        "Láser Doble",
+        "Lengüetazo",
+        "Malicioso",
+        "Maquinación",
+        "Marcha Espectral",
+        "Megapuño",
+        "Mil Temblores",
+        "Picotazo Veneno",
+        "Placaje",
+        "Plancha",
+        "Psicocarga",
+        "Pulso Cura",
+        "Pulso Dragón",
+        "Puño Cometa",
+        "Puya Nociva",
+        "Rizo Defensa",
+        "Tajo Umbrío",
+        "Tinieblas",
+        "Trampa Venenosa",
+        "Último Lugar",
+        "Voltio Cruel"
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png"
     }
   ],
   "graveyard": [
@@ -5594,15 +5619,15 @@
   ],
   "captures": [
     {
-      "route": "monte_moon",
-      "where": "Monte Moon",
-      "species": "Raticate",
-      "nickname": "PUTA MIERDA2",
+      "route": "pueblo_paleta",
+      "where": "Pueblo Paleta",
+      "species": "Poliwhirl",
+      "nickname": "KING",
       "shiny": false,
       "status": "captured",
-      "category": "salvaje",
-      "level": 14,
-      "mon": "Raticate"
+      "category": "ciudad",
+      "level": 3,
+      "mon": "Poliwhirl"
     },
     {
       "route": "ruta_5",
@@ -5616,17 +5641,6 @@
       "mon": "Hypno"
     },
     {
-      "route": "bosque_verde",
-      "where": "Bosque Verde",
-      "species": "Brambleghast",
-      "nickname": "DUNAS",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 7,
-      "mon": "Brambleghast"
-    },
-    {
       "route": "tunel_diglett",
       "where": "Túnel Diglett",
       "species": "Clodsire",
@@ -5636,6 +5650,17 @@
       "category": "salvaje",
       "level": 23,
       "mon": "Clodsire"
+    },
+    {
+      "route": "pueblo_paleta",
+      "where": "Pueblo Paleta",
+      "species": "Conkeldurr",
+      "nickname": "CHALAN",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 4,
+      "mon": "Conkeldurr"
     },
     {
       "route": "ruta_2_sur",
@@ -5869,17 +5894,6 @@
       "mon": "Marowak"
     },
     {
-      "route": "pueblo_paleta",
-      "where": "Pueblo Paleta",
-      "species": "Poliwhirl",
-      "nickname": "KING",
-      "shiny": false,
-      "status": "captured",
-      "category": "ciudad",
-      "level": 3,
-      "mon": "Poliwhirl"
-    },
-    {
       "route": "ciudad_plateada",
       "where": "Ciudad Plateada",
       "species": "Sinistea",
@@ -5992,17 +6006,6 @@
     {
       "route": "pueblo_paleta",
       "where": "Pueblo Paleta",
-      "species": "Conkeldurr",
-      "nickname": "CHALAN",
-      "shiny": false,
-      "status": "captured",
-      "category": "ciudad",
-      "level": 4,
-      "mon": "Conkeldurr"
-    },
-    {
-      "route": "pueblo_paleta",
-      "where": "Pueblo Paleta",
       "species": "Orbeetle",
       "nickname": "MIRACULOS",
       "shiny": false,
@@ -6078,6 +6081,28 @@
       "mon": "Poltchageist"
     },
     {
+      "route": "bosque_verde",
+      "where": "Bosque Verde",
+      "species": "Brambleghast",
+      "nickname": "DUNAS",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 7,
+      "mon": "Brambleghast"
+    },
+    {
+      "route": "monte_moon",
+      "where": "Monte Moon",
+      "species": "Raticate",
+      "nickname": "PUTA MIERDA2",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 14,
+      "mon": "Raticate"
+    },
+    {
       "route": "ciudad_verde",
       "where": "Ciudad Verde",
       "species": "Diggersby",
@@ -6121,9 +6146,8 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "monte_moon": true,
+      "pueblo_paleta": true,
       "ruta_5": true,
-      "bosque_verde": true,
       "tunel_diglett": true,
       "ruta_2_sur": true,
       "ruta_2_norte": true,
@@ -6141,7 +6165,6 @@
       "ruta_10_sur": true,
       "pueblo_lavanda": true,
       "ruta_8": true,
-      "pueblo_paleta": true,
       "ciudad_plateada": true,
       "ciudad_azulona": true,
       "ruta_11": true,
@@ -6149,6 +6172,8 @@
       "ruta_4": true,
       "ruta_7": true,
       "torre_pokemon": true,
+      "bosque_verde": true,
+      "monte_moon": true,
       "ciudad_verde": true,
       "ruta_22": true,
       "ruta_9": true
