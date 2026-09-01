@@ -4,127 +4,132 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 11h 21m jugadas · 204,390₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 11h 24m jugadas · 204,390₽ · vidas en el juego: -1",
   "team": [
     {
-      "nickname": "FUERZA G",
-      "species": "Excadrill",
-      "level": 31,
+      "nickname": "PUTA MIERDA2",
+      "species": "Raticate (Alola)",
+      "level": 49,
       "types": [
-        "Tierra",
-        "Acero"
+        "Siniestro",
+        "Normal"
       ],
-      "ability": "Absorbe Fuego",
-      "nature": "Ingenua",
-      "item": "",
+      "ability": "Garra Dura",
+      "nature": "Plácida",
+      "item": "Garra Afilada",
       "shiny": false,
       "moves": [
-        "Cura Floral",
-        "Meteoros",
-        "Fitoimpulso",
-        "Placaje"
+        "Rodillo de Púas",
+        "Asalto Barrera",
+        "Tajo Umbrío",
+        "Daño Secreto"
       ],
       "iv": [
-        11,
-        1,
-        6,
-        10,
+        28,
+        18,
+        14,
+        12,
         3,
-        10
+        9
       ],
       "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        22,
+        110,
+        39,
+        45,
+        29,
+        49
       ],
       "abilPool": [
-        "Cromolente",
-        "Absorbe Fuego"
+        "Trampa Arena",
+        "Garra Dura"
       ],
       "abilHidden": [
-        "Hélice Caudal"
+        "Iceberg"
       ],
       "learnset": [
         {
-          "lvl": -1,
-          "m": "Encanto"
+          "lvl": 1,
+          "m": "Vasta Guardia"
         },
         {
           "lvl": 1,
-          "m": "Arañazo"
+          "m": "Asalto Barrera"
         },
         {
           "lvl": 1,
-          "m": "Cambio de Marcha"
+          "m": "Legado"
         },
         {
           "lvl": 1,
-          "m": "Resarcimiento"
+          "m": "Deseo"
         },
         {
           "lvl": 1,
-          "m": "Refuerzo"
+          "m": "Metrónomo"
         },
         {
           "lvl": 1,
-          "m": "Celebración"
+          "m": "Esquema"
         },
         {
-          "lvl": 12,
-          "m": "Atiborramiento"
+          "lvl": 1,
+          "m": "Ofrenda"
+        },
+        {
+          "lvl": 4,
+          "m": "Viento Feérico"
+        },
+        {
+          "lvl": 7,
+          "m": "Ronquido"
+        },
+        {
+          "lvl": 10,
+          "m": "Conjuro"
+        },
+        {
+          "lvl": 13,
+          "m": "Canon"
+        },
+        {
+          "lvl": 13,
+          "m": "Mordisco"
         },
         {
           "lvl": 16,
-          "m": "Piñón Auxiliar"
+          "m": "Puño Incremento"
+        },
+        {
+          "lvl": 16,
+          "m": "Giro Bola"
         },
         {
           "lvl": 19,
-          "m": "Arenas Ardientes"
-        },
-        {
-          "lvl": 20,
-          "m": "Cura Floral"
+          "m": "Bálsamo Osado"
         },
         {
           "lvl": 24,
-          "m": "Meteoros"
+          "m": "Torbellino"
         },
         {
-          "lvl": 26,
-          "m": "Fitoimpulso"
-        },
-        {
-          "lvl": 28,
-          "m": "Placaje"
+          "lvl": 29,
+          "m": "Rabia"
         },
         {
           "lvl": 34,
-          "m": "Ala Aural"
+          "m": "Semilladora"
         },
         {
-          "lvl": 40,
-          "m": "Energibola"
+          "lvl": 39,
+          "m": "Enfado"
         },
         {
-          "lvl": 45,
-          "m": "Llave Vital"
-        },
-        {
-          "lvl": 46,
-          "m": "Canto Arcaico"
-        },
-        {
-          "lvl": 52,
-          "m": "Amago"
-        },
-        {
-          "lvl": 58,
-          "m": "Psicoataque"
+          "lvl": 44,
+          "m": "Puño Cometa"
         }
-      ]
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png"
     },
     {
       "nickname": "DREAMS",
@@ -3700,129 +3705,124 @@
       ]
     },
     {
-      "nickname": "PUTA MIERDA2",
-      "species": "Raticate (Alola)",
-      "level": 49,
+      "nickname": "FUERZA G",
+      "species": "Excadrill",
+      "level": 31,
       "types": [
-        "Siniestro",
-        "Normal"
+        "Tierra",
+        "Acero"
       ],
-      "ability": "Garra Dura",
-      "nature": "Plácida",
-      "item": "Garra Afilada",
+      "ability": "Absorbe Fuego",
+      "nature": "Ingenua",
+      "item": "",
       "shiny": false,
       "moves": [
-        "Rodillo de Púas",
-        "Asalto Barrera",
-        "Tajo Umbrío",
-        "Daño Secreto"
+        "Cura Floral",
+        "Meteoros",
+        "Fitoimpulso",
+        "Placaje"
       ],
       "iv": [
-        28,
-        18,
-        14,
-        12,
+        11,
+        1,
+        6,
+        10,
         3,
-        9
+        10
       ],
       "ev": [
-        22,
-        110,
-        39,
-        45,
-        29,
-        49
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
       "abilPool": [
-        "Trampa Arena",
-        "Garra Dura"
+        "Cromolente",
+        "Absorbe Fuego"
       ],
       "abilHidden": [
-        "Iceberg"
+        "Hélice Caudal"
       ],
       "learnset": [
         {
-          "lvl": 1,
-          "m": "Vasta Guardia"
+          "lvl": -1,
+          "m": "Encanto"
         },
         {
           "lvl": 1,
-          "m": "Asalto Barrera"
+          "m": "Arañazo"
         },
         {
           "lvl": 1,
-          "m": "Legado"
+          "m": "Cambio de Marcha"
         },
         {
           "lvl": 1,
-          "m": "Deseo"
+          "m": "Resarcimiento"
         },
         {
           "lvl": 1,
-          "m": "Metrónomo"
+          "m": "Refuerzo"
         },
         {
           "lvl": 1,
-          "m": "Esquema"
+          "m": "Celebración"
         },
         {
-          "lvl": 1,
-          "m": "Ofrenda"
-        },
-        {
-          "lvl": 4,
-          "m": "Viento Feérico"
-        },
-        {
-          "lvl": 7,
-          "m": "Ronquido"
-        },
-        {
-          "lvl": 10,
-          "m": "Conjuro"
-        },
-        {
-          "lvl": 13,
-          "m": "Canon"
-        },
-        {
-          "lvl": 13,
-          "m": "Mordisco"
+          "lvl": 12,
+          "m": "Atiborramiento"
         },
         {
           "lvl": 16,
-          "m": "Puño Incremento"
-        },
-        {
-          "lvl": 16,
-          "m": "Giro Bola"
+          "m": "Piñón Auxiliar"
         },
         {
           "lvl": 19,
-          "m": "Bálsamo Osado"
+          "m": "Arenas Ardientes"
+        },
+        {
+          "lvl": 20,
+          "m": "Cura Floral"
         },
         {
           "lvl": 24,
-          "m": "Torbellino"
+          "m": "Meteoros"
         },
         {
-          "lvl": 29,
-          "m": "Rabia"
+          "lvl": 26,
+          "m": "Fitoimpulso"
+        },
+        {
+          "lvl": 28,
+          "m": "Placaje"
         },
         {
           "lvl": 34,
-          "m": "Semilladora"
+          "m": "Ala Aural"
         },
         {
-          "lvl": 39,
-          "m": "Enfado"
+          "lvl": 40,
+          "m": "Energibola"
         },
         {
-          "lvl": 44,
-          "m": "Puño Cometa"
+          "lvl": 45,
+          "m": "Llave Vital"
+        },
+        {
+          "lvl": 46,
+          "m": "Canto Arcaico"
+        },
+        {
+          "lvl": 52,
+          "m": "Amago"
+        },
+        {
+          "lvl": 58,
+          "m": "Psicoataque"
         }
-      ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png"
+      ]
     },
     {
       "nickname": "CHALAN",
@@ -5056,15 +5056,15 @@
   ],
   "captures": [
     {
-      "route": "torre_pokemon",
-      "where": "Torre Pokémon",
-      "species": "Excadrill",
-      "nickname": "FUERZA G",
+      "route": "monte_moon",
+      "where": "Monte Moon",
+      "species": "Raticate",
+      "nickname": "PUTA MIERDA2",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 31,
-      "mon": "Excadrill"
+      "level": 14,
+      "mon": "Raticate"
     },
     {
       "route": "ruta_5",
@@ -5441,15 +5441,15 @@
       "mon": "Farigiraf"
     },
     {
-      "route": "monte_moon",
-      "where": "Monte Moon",
-      "species": "Raticate",
-      "nickname": "PUTA MIERDA2",
+      "route": "torre_pokemon",
+      "where": "Torre Pokémon",
+      "species": "Excadrill",
+      "nickname": "FUERZA G",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 14,
-      "mon": "Raticate"
+      "level": 31,
+      "mon": "Excadrill"
     },
     {
       "route": "pueblo_paleta",
@@ -5583,7 +5583,7 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "torre_pokemon": true,
+      "monte_moon": true,
       "ruta_5": true,
       "bosque_verde": true,
       "tunel_diglett": true,
@@ -5610,7 +5610,7 @@
       "ruta_1": true,
       "ruta_4": true,
       "ruta_7": true,
-      "monte_moon": true,
+      "torre_pokemon": true,
       "ciudad_verde": true,
       "ruta_22": true,
       "ruta_9": true
