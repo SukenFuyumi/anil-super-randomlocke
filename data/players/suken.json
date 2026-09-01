@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 12h 54m jugadas · 243,900₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 13h 0m jugadas · 216,900₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "KING",
       "species": "Poliwhirl",
-      "level": 25,
+      "level": 49,
       "types": [
         "Agua"
       ],
@@ -20,7 +20,7 @@
       "moves": [
         "Salazón",
         "Puntapié",
-        "Viraje",
+        "Absorbefuerza",
         "Clavo Cañón"
       ],
       "iv": [
@@ -116,13 +116,32 @@
         }
       ],
       "tmMoves": [
+        "Anclaje",
+        "Cabeza Sorpresa",
         "Campo de Hierba",
+        "Chorro de Vapor",
+        "Confusión",
         "Conversión",
+        "Danza Caos",
+        "Desarme",
+        "Doble Golpe",
+        "Espabila",
+        "Fuerza Lunar",
+        "Garra Dragón",
         "Golpe Roca",
+        "Infortunio",
         "Maquinación",
+        "Mirada Heladora",
+        "Núcleo Castigo",
         "Patada Baja",
+        "Psicocarga",
         "Puntapié",
-        "Retracción"
+        "Puya Nociva",
+        "Represalia",
+        "Retracción",
+        "Rizo Defensa",
+        "Tinieblas",
+        "Transformación"
       ]
     },
     {
