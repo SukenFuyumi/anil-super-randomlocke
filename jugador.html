@@ -254,6 +254,7 @@
         let body = "";
         if (ls && ls.length) body += `<div class="lm-sub">Por nivel</div><div class="lm-moves">${learnChips(ls)}</div>`;
         if (tm && tm.length) body += `<div class="lm-sub">Por MT (aleatorio)</div><div class="lm-moves">${tmChips(tm)}</div>`;
+        else if (ls && ls.length) body += `<div class="lm-sub">Por MT (aleatorio)</div><p class="lm-note">MTs sin revelar. En Añil, la compatibilidad con MTs de cada especie se decide al azar la primera vez que la consultas: mete un ${escapeHtml((m.species || "").replace(/\s*\(.*\)/, ""))} al equipo y abre el menú de una MT para que el juego las fije; luego vuelve a guardar con AnilSync.</p>`;
         if (!body) body = `<p class="muted" style="padding:.4rem .2rem;font-size:.82rem">Sin datos de movimientos. El jugador debe actualizar AnilSync y volver a guardar.</p>`;
         const total = (ls ? ls.length : 0) + (tm ? tm.length : 0);
         const key = (m.nickname || "") + "|" + (m.species || "");
@@ -266,7 +267,7 @@
       };
       const teamBox = [...(data.team || []), ...(data.box || [])];
       document.getElementById("tab-recuerda").innerHTML =
-        `<p class="lead">Movimientos que cada Pokémon puede aprender: <strong>por nivel</strong> (Recuerda-movimientos) y <strong>por MT</strong> (máquinas técnicas que encuentras por el mapa). En Añil ambos están randomizados, así que esta lista es única de tu partida.</p>` +
+        `<p class="lead">Movimientos que cada Pokémon puede aprender: <strong>por nivel</strong> (Recuerda-movimientos) y <strong>por MT</strong> (máquinas técnicas que encuentras por el mapa). Ambos están randomizados. Ojo: la compatibilidad con MTs se fija al azar por especie la primera vez que la revisas en el juego, así que las especies que nunca pasaron por el equipo aún no la tienen decidida.</p>` +
         (teamBox.length ? teamBox.map((m) => learnBlock(m)).join("") : `<p class="empty-state">Sin Pokémon.</p>`);
 
       // clic en un movimiento del learnset -> info completa del movimiento
