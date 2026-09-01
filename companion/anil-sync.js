@@ -13,7 +13,7 @@ const { extract } = require('./extract.js');
 const IS_PKG = !!process.pkg;
 const BASE_DIR = IS_PKG ? path.dirname(process.execPath) : __dirname;
 const CONFIG_PATH = path.join(BASE_DIR, 'config.json');
-const VERSION = '1.2.2';
+const VERSION = '1.2.3';
 
 function log(...a) { const t = new Date().toLocaleTimeString('es'); console.log(`[${t}]`, ...a); }
 function err(...a) { const t = new Date().toLocaleTimeString('es'); console.error(`[${t}] ⚠`, ...a); }
