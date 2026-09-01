@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 12h 25m jugadas · 227,870₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 12h 32m jugadas · 239,140₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -34,11 +34,11 @@
       ],
       "ev": [
         24,
-        122,
-        45,
-        52,
-        29,
-        50
+        126,
+        46,
+        54,
+        33,
+        54
       ],
       "abilPool": [
         "Trampa Arena",
@@ -139,9 +139,11 @@
         "Ciclón",
         "Conversión",
         "Decoración",
+        "Desarme",
         "Deslome",
         "Destello",
         "Doble Golpe",
+        "Finta",
         "Garra Dragón",
         "Infortunio",
         "Lanzarrocas",
@@ -196,11 +198,11 @@
       ],
       "ev": [
         16,
-        67,
-        38,
-        37,
-        25,
-        37
+        71,
+        39,
+        39,
+        29,
+        41
       ],
       "abilPool": [
         "Trampa Arena",
@@ -289,6 +291,7 @@
       ],
       "tmMoves": [
         "Absorber",
+        "Alud",
         "Anclaje",
         "Bomba Ígnea",
         "Cadena Virulenta",
@@ -297,6 +300,7 @@
         "Chorro de Vapor",
         "Confusión",
         "Electropico",
+        "Embate Supremo",
         "Flarembestida",
         "Golpe Roca",
         "Hueso Sombrío",
@@ -351,11 +355,11 @@
       ],
       "ev": [
         21,
-        72,
+        76,
+        42,
         41,
-        39,
-        26,
-        41
+        30,
+        45
       ],
       "abilPool": [
         "Electromotor"
@@ -431,6 +435,7 @@
       ],
       "tmMoves": [
         "A Defender",
+        "Alud",
         "Amnesia",
         "Asta Drenaje",
         "Atadura",
@@ -439,11 +444,14 @@
         "Ciclón",
         "Confusión",
         "Conversión",
+        "Desarme",
         "Eco Metálico",
         "Electropico",
+        "Finta",
         "Fuerza Lunar",
         "Garra Dragón",
         "Golpe Roca",
+        "Golpe Umbrío",
         "Infortunio",
         "Isoguardia",
         "Lengüetazo",
@@ -495,11 +503,11 @@
       ],
       "ev": [
         16,
-        67,
-        38,
-        37,
-        25,
-        37
+        71,
+        39,
+        39,
+        29,
+        41
       ],
       "abilPool": [
         "Viscosecreción",
@@ -575,6 +583,7 @@
         "Destello",
         "Doble Golpe",
         "Eco Metálico",
+        "Embate Supremo",
         "Flarembestida",
         "Fuerza Lunar",
         "Golpe Roca",
@@ -584,6 +593,7 @@
         "Lanzarrocas",
         "Láser Doble",
         "Mil Temblores",
+        "Mirada Heladora",
         "Moluscañón",
         "Niebla Aromática",
         "Núcleo Castigo",
@@ -634,11 +644,11 @@
       ],
       "ev": [
         33,
-        88,
-        59,
-        65,
-        35,
-        60
+        92,
+        60,
+        67,
+        39,
+        64
       ],
       "abilPool": [
         "Filtro",
@@ -738,10 +748,13 @@
         "Chorro de Vapor",
         "Danza Acuática",
         "Danza Caos",
+        "Desarme",
         "Destello",
         "Electropico",
+        "Finta",
         "Fotosíntesis",
         "Garra Dragón",
+        "Golpe Umbrío",
         "Gran Ojo",
         "Hueso Sombrío",
         "Isoguardia",
@@ -788,11 +801,11 @@
       ],
       "ev": [
         18,
-        70,
-        39,
-        39,
-        26,
-        40
+        74,
+        40,
+        41,
+        30,
+        44
       ],
       "abilPool": [
         "Chorro Arena",
@@ -909,6 +922,7 @@
         "Láser Doble",
         "Malicioso",
         "Megapuño",
+        "Mirada Heladora",
         "Moluscañón",
         "Patada Baja",
         "Plancha",
