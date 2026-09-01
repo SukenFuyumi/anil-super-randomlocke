@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 11h 4m jugadas · 204,390₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 11h 14m jugadas · 204,390₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -34,10 +34,10 @@
       ],
       "ev": [
         22,
-        105,
+        108,
         39,
-        43,
-        24,
+        45,
+        29,
         49
       ],
       "abilPool": [
@@ -158,10 +158,10 @@
       ],
       "ev": [
         14,
-        50,
+        53,
         32,
-        28,
-        20,
+        30,
+        25,
         36
       ],
       "abilPool": [
@@ -278,10 +278,10 @@
       ],
       "ev": [
         19,
-        55,
+        58,
         35,
-        30,
-        21,
+        32,
+        26,
         40
       ],
       "abilPool": [
@@ -385,10 +385,10 @@
       ],
       "ev": [
         14,
-        50,
+        53,
         32,
-        28,
-        20,
+        30,
+        25,
         36
       ],
       "abilPool": [
@@ -481,10 +481,10 @@
       ],
       "ev": [
         31,
-        71,
+        74,
         53,
-        56,
-        30,
+        58,
+        35,
         59
       ],
       "abilPool": [
@@ -604,10 +604,10 @@
       ],
       "ev": [
         16,
-        53,
+        56,
         33,
-        30,
-        21,
+        32,
+        26,
         39
       ],
       "abilPool": [
@@ -3705,6 +3705,513 @@
       ]
     },
     {
+      "nickname": "CHALAN",
+      "species": "Conkeldurr",
+      "level": 4,
+      "types": [
+        "Lucha"
+      ],
+      "ability": "Carrillo",
+      "nature": "Fuerte",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Viraje",
+        "Triple Patada",
+        "Paralizador",
+        "Magnitud"
+      ],
+      "iv": [
+        1,
+        11,
+        8,
+        19,
+        16,
+        28
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Carrillo",
+        "Escama de Hielo"
+      ],
+      "abilHidden": [
+        "Aura Feérica"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Bomba Fango"
+        },
+        {
+          "lvl": 1,
+          "m": "Viraje"
+        },
+        {
+          "lvl": 1,
+          "m": "Triple Patada"
+        },
+        {
+          "lvl": 1,
+          "m": "Paralizador"
+        },
+        {
+          "lvl": 1,
+          "m": "Magnitud"
+        },
+        {
+          "lvl": 12,
+          "m": "Canon"
+        },
+        {
+          "lvl": 16,
+          "m": "Ladrón"
+        },
+        {
+          "lvl": 20,
+          "m": "Enrosque"
+        },
+        {
+          "lvl": 20,
+          "m": "Anulación"
+        },
+        {
+          "lvl": 24,
+          "m": "Tumba Rocas"
+        },
+        {
+          "lvl": 24,
+          "m": "Embargo"
+        },
+        {
+          "lvl": 30,
+          "m": "Cambio de Cancha"
+        },
+        {
+          "lvl": 36,
+          "m": "Puño Trueno"
+        },
+        {
+          "lvl": 41,
+          "m": "Rizo Algodón"
+        },
+        {
+          "lvl": 42,
+          "m": "Adaptación"
+        },
+        {
+          "lvl": 48,
+          "m": "Mal de Ojo"
+        },
+        {
+          "lvl": 54,
+          "m": "Bruma Explosiva"
+        },
+        {
+          "lvl": 60,
+          "m": "Puño Certero"
+        }
+      ]
+    },
+    {
+      "nickname": "MIRACULOS",
+      "species": "Orbeetle",
+      "level": 2,
+      "types": [
+        "Bicho",
+        "Psíquico"
+      ],
+      "ability": "Pareja de Baile",
+      "nature": "Modesta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Alarido",
+        "Finta",
+        "Gran Ojo",
+        "Torbellino"
+      ],
+      "iv": [
+        28,
+        19,
+        11,
+        2,
+        5,
+        25
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Pareja de Baile"
+      ],
+      "abilHidden": [
+        "Iluminación"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Alarido"
+        },
+        {
+          "lvl": 1,
+          "m": "Finta"
+        },
+        {
+          "lvl": 1,
+          "m": "Gran Ojo"
+        },
+        {
+          "lvl": 1,
+          "m": "Torbellino"
+        },
+        {
+          "lvl": 4,
+          "m": "Ojitos Tiernos"
+        },
+        {
+          "lvl": 8,
+          "m": "Meteoros"
+        },
+        {
+          "lvl": 12,
+          "m": "Tajo Acuático"
+        },
+        {
+          "lvl": 16,
+          "m": "Cambiapoder"
+        },
+        {
+          "lvl": 20,
+          "m": "Decoración"
+        },
+        {
+          "lvl": 24,
+          "m": "Rodillo de Púas"
+        },
+        {
+          "lvl": 28,
+          "m": "Cerrojo Feérico"
+        },
+        {
+          "lvl": 32,
+          "m": "Cambiafuerza"
+        },
+        {
+          "lvl": 34,
+          "m": "Brillo Mágico"
+        },
+        {
+          "lvl": 36,
+          "m": "Fitoimpulso"
+        },
+        {
+          "lvl": 36,
+          "m": "Bomba Ígnea"
+        },
+        {
+          "lvl": 40,
+          "m": "Hoja Aguda"
+        },
+        {
+          "lvl": 44,
+          "m": "Rueda Aural"
+        },
+        {
+          "lvl": 48,
+          "m": "Llama Embrujada"
+        }
+      ]
+    },
+    {
+      "nickname": "CERBERO",
+      "species": "Houndoom",
+      "level": 2,
+      "types": [
+        "Siniestro",
+        "Fuego"
+      ],
+      "ability": "Nebulogénesis",
+      "nature": "Modesta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Represión Metal",
+        "Danza Lluvia",
+        "Chulería",
+        "Alud"
+      ],
+      "iv": [
+        2,
+        5,
+        13,
+        19,
+        7,
+        18
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Robustez",
+        "Nebulogénesis"
+      ],
+      "abilHidden": [
+        "Presión"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Fría Acogida"
+        },
+        {
+          "lvl": 1,
+          "m": "Viento Aciago"
+        },
+        {
+          "lvl": 1,
+          "m": "Represión Metal"
+        },
+        {
+          "lvl": 1,
+          "m": "Danza Lluvia"
+        },
+        {
+          "lvl": 1,
+          "m": "Chulería"
+        },
+        {
+          "lvl": 1,
+          "m": "Alud"
+        },
+        {
+          "lvl": 13,
+          "m": "Paisaje Nevado"
+        },
+        {
+          "lvl": 16,
+          "m": "Gravedad"
+        },
+        {
+          "lvl": 20,
+          "m": "Cambiadefensa"
+        },
+        {
+          "lvl": 20,
+          "m": "Trapicheo"
+        },
+        {
+          "lvl": 20,
+          "m": "Buena Baza"
+        },
+        {
+          "lvl": 26,
+          "m": "Trampa Rocas"
+        },
+        {
+          "lvl": 30,
+          "m": "Púas"
+        },
+        {
+          "lvl": 35,
+          "m": "Ala de Acero"
+        },
+        {
+          "lvl": 35,
+          "m": "Tajo Cruzado"
+        },
+        {
+          "lvl": 35,
+          "m": "Anillo Ígneo"
+        },
+        {
+          "lvl": 41,
+          "m": "Asalto Espadón"
+        },
+        {
+          "lvl": 41,
+          "m": "Decoración"
+        },
+        {
+          "lvl": 45,
+          "m": "Pirotecnia"
+        },
+        {
+          "lvl": 47,
+          "m": "Liofilización"
+        },
+        {
+          "lvl": 50,
+          "m": "Manos Juntas"
+        },
+        {
+          "lvl": 56,
+          "m": "Nitrochoque"
+        },
+        {
+          "lvl": 62,
+          "m": "Aerochorro"
+        }
+      ]
+    },
+    {
+      "nickname": "MONARCA",
+      "species": "Claydol",
+      "level": 3,
+      "types": [
+        "Tierra",
+        "Psíquico"
+      ],
+      "ability": "Unidad Ecuestre",
+      "nature": "Ingenua",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Cabeza Sorpresa",
+        "Cambiadefensa",
+        "Encanto",
+        "Deseo Cura"
+      ],
+      "iv": [
+        29,
+        15,
+        9,
+        28,
+        9,
+        3
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Unidad Ecuestre"
+      ],
+      "abilHidden": [],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Bomba Imán"
+        },
+        {
+          "lvl": 1,
+          "m": "Espora"
+        },
+        {
+          "lvl": 1,
+          "m": "Doble Ataque"
+        },
+        {
+          "lvl": 1,
+          "m": "Púas"
+        },
+        {
+          "lvl": 1,
+          "m": "Cambiadefensa"
+        },
+        {
+          "lvl": 1,
+          "m": "Encanto"
+        },
+        {
+          "lvl": 1,
+          "m": "Deseo Cura"
+        },
+        {
+          "lvl": 9,
+          "m": "Tormento"
+        },
+        {
+          "lvl": 12,
+          "m": "Descanso"
+        },
+        {
+          "lvl": 15,
+          "m": "Bombardeo"
+        },
+        {
+          "lvl": 18,
+          "m": "Empapar"
+        },
+        {
+          "lvl": 21,
+          "m": "Moflete Estático"
+        },
+        {
+          "lvl": 24,
+          "m": "Disparo Lodo"
+        },
+        {
+          "lvl": 27,
+          "m": "Mandato"
+        },
+        {
+          "lvl": 30,
+          "m": "Plegaria Lunar"
+        },
+        {
+          "lvl": 33,
+          "m": "Rayo Gélido"
+        },
+        {
+          "lvl": 36,
+          "m": "Psicorruido"
+        },
+        {
+          "lvl": 38,
+          "m": "Salmuera"
+        },
+        {
+          "lvl": 38,
+          "m": "Kinético"
+        },
+        {
+          "lvl": 38,
+          "m": "Anticura"
+        },
+        {
+          "lvl": 42,
+          "m": "Golpe Bis"
+        },
+        {
+          "lvl": 43,
+          "m": "Danza Lluvia"
+        },
+        {
+          "lvl": 45,
+          "m": "Calamidad"
+        },
+        {
+          "lvl": 48,
+          "m": "Rodillo de Púas"
+        },
+        {
+          "lvl": 54,
+          "m": "Umbreozona"
+        }
+      ]
+    },
+    {
       "nickname": "REPETIDO1",
       "species": "Darumaka",
       "level": 1,
@@ -4812,6 +5319,50 @@
       "category": "estatico_regalo",
       "level": 1,
       "mon": "Farigiraf"
+    },
+    {
+      "route": "pueblo_paleta",
+      "where": "Pueblo Paleta",
+      "species": "Conkeldurr",
+      "nickname": "CHALAN",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 4,
+      "mon": "Conkeldurr"
+    },
+    {
+      "route": "pueblo_paleta",
+      "where": "Pueblo Paleta",
+      "species": "Orbeetle",
+      "nickname": "MIRACULOS",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 2,
+      "mon": "Orbeetle"
+    },
+    {
+      "route": "pueblo_paleta",
+      "where": "Pueblo Paleta",
+      "species": "Houndoom",
+      "nickname": "CERBERO",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 2,
+      "mon": "Houndoom"
+    },
+    {
+      "route": "pueblo_paleta",
+      "where": "Pueblo Paleta",
+      "species": "Claydol",
+      "nickname": "MONARCA",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 3,
+      "mon": "Claydol"
     },
     {
       "route": "",
