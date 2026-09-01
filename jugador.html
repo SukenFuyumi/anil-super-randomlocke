@@ -234,11 +234,13 @@
 
       // ---- Recuerda movimientos (learnset randomizado por Pokémon) ----
       const lvlLabel = (l) => l < 0 ? "Evo" : (l <= 1 ? "Inicio" : "Nv " + l);
-      const learnChips = (ls) => ls.map((x) => {
-        const k = moveTypeKey(x.m);
+      const chip = (nm, label) => {
+        const k = moveTypeKey(nm);
         const typed = k && k !== "unknown";
-        return `<button type="button" class="lm-move${typed ? " typed" : ""}" data-move="${escapeHtml(x.m)}"${typed ? ` style="background:var(--type-${k})"` : ""}><span class="lm-lvl">${lvlLabel(x.lvl)}</span>${escapeHtml(x.m)}</button>`;
-      }).join("");
+        return `<button type="button" class="lm-move${typed ? " typed" : ""}" data-move="${escapeHtml(nm)}"${typed ? ` style="background:var(--type-${k})"` : ""}><span class="lm-lvl">${label}</span>${escapeHtml(nm)}</button>`;
+      };
+      const learnChips = (ls) => ls.map((x) => chip(x.m, lvlLabel(x.lvl))).join("");
+      const tmChips = (tm) => tm.map((nm) => chip(nm, "MT")).join("");
       const learnBlock = (m, dead) => {
         const ini = initials(m.species || m.nickname);
         const ani = speciesAniSprite(m.species), stat = speciesSprite(m.species);
@@ -248,20 +250,23 @@
           ? `<img src="${escapeHtml(primary)}" alt="" loading="lazy" data-fb='${fb}' data-ini="${escapeHtml(ini)}" data-fbclass="lm-ini" onerror="imgFallback(this)">`
           : `<span class="lm-ini">${escapeHtml(ini)}</span>`;
         const ls = Array.isArray(m.learnset) ? m.learnset : null;
-        const body = ls
-          ? `<div class="lm-moves">${learnChips(ls)}</div>`
-          : `<p class="muted" style="padding:.4rem .2rem;font-size:.82rem">Sin datos de movimientos. El jugador debe actualizar AnilSync y volver a guardar.</p>`;
+        const tm = Array.isArray(m.tmMoves) ? m.tmMoves : null;
+        let body = "";
+        if (ls && ls.length) body += `<div class="lm-sub">Por nivel</div><div class="lm-moves">${learnChips(ls)}</div>`;
+        if (tm && tm.length) body += `<div class="lm-sub">Por MT (aleatorio)</div><div class="lm-moves">${tmChips(tm)}</div>`;
+        if (!body) body = `<p class="muted" style="padding:.4rem .2rem;font-size:.82rem">Sin datos de movimientos. El jugador debe actualizar AnilSync y volver a guardar.</p>`;
+        const total = (ls ? ls.length : 0) + (tm ? tm.length : 0);
         const key = (m.nickname || "") + "|" + (m.species || "");
         return `<details class="lm-mon"${dead ? "" : " open"} data-key="${escapeHtml(key)}">
           <summary><span class="lm-spr">${img}</span>
             <span class="lm-id"><span class="lm-nick">${escapeHtml(m.nickname || m.species || "?")}</span>
             <span class="lm-sp">${escapeHtml(m.species || "")}${m.level != null ? " · Nv. " + escapeHtml(m.level) : ""}</span></span>
-            ${ls ? `<span class="lm-count">${ls.length} mov.</span>` : ""}</summary>
+            ${total ? `<span class="lm-count">${total} mov.</span>` : ""}</summary>
           ${body}</details>`;
       };
       const teamBox = [...(data.team || []), ...(data.box || [])];
       document.getElementById("tab-recuerda").innerHTML =
-        `<p class="lead">Movimientos que cada Pokémon puede aprender en el <strong>Recuerda-movimientos</strong>. En Añil el aprendizaje está randomizado, así que esta lista es única de tu partida.</p>` +
+        `<p class="lead">Movimientos que cada Pokémon puede aprender: <strong>por nivel</strong> (Recuerda-movimientos) y <strong>por MT</strong> (máquinas técnicas que encuentras por el mapa). En Añil ambos están randomizados, así que esta lista es única de tu partida.</p>` +
         (teamBox.length ? teamBox.map((m) => learnBlock(m)).join("") : `<p class="empty-state">Sin Pokémon.</p>`);
 
       // clic en un movimiento del learnset -> info completa del movimiento

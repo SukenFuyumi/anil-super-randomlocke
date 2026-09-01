@@ -8,6 +8,7 @@ const ITEMS_ES = require('./item-es.json');
 let FORMS = {}; try { FORMS = require('./forms.json'); } catch (e) {}
 let RAND_ABIL = {}; // habilidades randomizadas por especie/forma: { SPECIES[_form]: {base:[nombres], hidden:[nombres]} }
 let RAND_MOVES = {}; // movimientos aprendibles randomizados: { SPECIES: { form: [ {lvl, m} ] } }
+let RAND_TM = {};    // MTs aprendibles randomizados: { SPECIES: [nombreES, ...] }
 
 const NATURES = { HARDY:'Fuerte',LONELY:'Huraña',BRAVE:'Audaz',ADAMANT:'Firme',NAUGHTY:'Pícara',BOLD:'Osada',DOCILE:'Dócil',RELAXED:'Plácida',IMPISH:'Agitada',LAX:'Floja',TIMID:'Miedosa',HASTY:'Activa',SERIOUS:'Seria',JOLLY:'Alegre',NAIVE:'Ingenua',MODEST:'Modesta',MILD:'Afable',QUIET:'Mansa',BASHFUL:'Tímida',RASH:'Alocada',CALM:'Serena',GENTLE:'Amable',SASSY:'Grosera',CAREFUL:'Cauta',QUIRKY:'Rara' };
 
@@ -63,6 +64,9 @@ function mon(p) {
     const lset = rmForms[String(form || 0)] || rmForms['0'];
     if (lset && lset.length) out.learnset = lset;
   }
+  // MTs aprendibles randomizados
+  const tmList = RAND_TM[species];
+  if (tmList && tmList.length) out.tmMoves = tmList;
   if (fd && fd.spriteId) out.sprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${fd.spriteId}.png`;
   return out;
 }
@@ -120,6 +124,29 @@ function extract(buf, playerId, opts = {}) {
         }).filter(Boolean).sort((a, b) => (a.lvl < 0 ? 0 : a.lvl) - (b.lvl < 0 ? 0 : b.lvl));
       }
       RAND_MOVES[sname(spk)] = byForm;
+    }
+  }
+
+  // MTs aprendibles randomizados: global_metadata.@tm_compatibility_random[ESPECIE] = ["MOVE,true"/"MOVE,false", ...]
+  RAND_TM = {};
+  const tmc = iv(gm, '@tm_compatibility_random');
+  if (tmc && tmc.__isHash) {
+    for (const [spk, arr] of tmc.entries()) {
+      if (!Array.isArray(arr)) continue;
+      const seen = new Set();
+      const learnable = [];
+      for (const e of arr) {
+        const str = sname(e); if (!str) continue;
+        const c = str.lastIndexOf(',');
+        if (c < 0) continue;
+        const mv = str.slice(0, c), flag = str.slice(c + 1);
+        if (flag === 'true' && mv && !seen.has(mv)) {
+          seen.add(mv);
+          const nm = moveName(mv);
+          if (nm) learnable.push(nm);
+        }
+      }
+      if (learnable.length) RAND_TM[sname(spk)] = learnable.sort((a, b) => a.localeCompare(b, 'es'));
     }
   }
 

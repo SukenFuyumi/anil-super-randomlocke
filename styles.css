@@ -535,3 +535,7 @@ img.player-avatar.xl { padding: 6px; }
 .tm-chips .type-badge { display: inline-flex; align-items: center; gap: .3rem; }
 .tm-x { font-weight: 800; opacity: .85; font-size: .9em; }
 @media (max-width: 520px) { .tm-row { grid-template-columns: 1fr; gap: .25rem; } }
+
+/* Subtítulo dentro de cada Pokémon en Recuerda movimientos (Por nivel / Por MT) */
+.lm-sub { font-size: .68rem; text-transform: uppercase; letter-spacing: .04em; font-weight: 800; color: var(--text-muted); padding: .55rem .7rem .1rem; }
+.lm-mon[open] > .lm-sub:first-of-type { padding-top: .5rem; }
