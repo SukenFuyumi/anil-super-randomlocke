@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 10h 59m jugadas · 204,390₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 11h 4m jugadas · 204,390₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -3596,7 +3596,7 @@
         "Normal",
         "Psíquico"
       ],
-      "ability": "",
+      "ability": "Clorofila",
       "nature": "Audaz",
       "item": "Menta Cauta",
       "shiny": false,
@@ -3711,7 +3711,7 @@
       "types": [
         "Fuego"
       ],
-      "ability": "",
+      "ability": "Telepatía",
       "nature": "Serena",
       "item": "Poción",
       "shiny": false,
@@ -3808,7 +3808,7 @@
       "types": [
         "Fuego"
       ],
-      "ability": "",
+      "ability": "Telepatía",
       "nature": "Grosera",
       "item": "",
       "shiny": false,
@@ -3906,7 +3906,7 @@
         "Planta",
         "Fantasma"
       ],
-      "ability": "",
+      "ability": "Recogida",
       "nature": "Miedosa",
       "item": "Semilla Milagro",
       "shiny": false,
@@ -4000,7 +4000,7 @@
         "Planta",
         "Fantasma"
       ],
-      "ability": "",
+      "ability": "Recogida",
       "nature": "Serena",
       "item": "Def. Esp. X 2",
       "shiny": false,
@@ -4948,7 +4948,8 @@
       "ruta_8": true,
       "ruta_7": true,
       "ciudad_azulona": true,
-      "ruta_11": true
+      "ruta_11": true,
+      "bosque_verde": true
     }
   }
 }
