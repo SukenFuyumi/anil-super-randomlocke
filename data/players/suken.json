@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 13h 29m jugadas · 222,900₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 13h 32m jugadas · 222,900₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "EL FLAMAS",
@@ -33,12 +33,12 @@
         20
       ],
       "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        2,
+        4,
+        7,
+        11,
+        6,
+        2
       ],
       "abilPool": [
         "Recogida"
@@ -171,12 +171,12 @@
         10
       ],
       "ev": [
-        17,
-        73,
-        44,
-        41,
-        30,
-        45
+        19,
+        77,
+        51,
+        52,
+        36,
+        47
       ],
       "abilPool": [
         "Viscosecreción",
@@ -312,12 +312,12 @@
         15
       ],
       "ev": [
-        34,
-        94,
-        65,
-        69,
-        40,
-        68
+        36,
+        98,
+        72,
+        80,
+        46,
+        70
       ],
       "abilPool": [
         "Filtro",
@@ -469,12 +469,12 @@
         26
       ],
       "ev": [
-        19,
-        76,
-        45,
-        43,
-        31,
-        48
+        21,
+        80,
+        52,
+        54,
+        37,
+        50
       ],
       "abilPool": [
         "Chorro Arena",
@@ -631,12 +631,12 @@
         30
       ],
       "ev": [
-        17,
-        73,
-        44,
-        41,
-        30,
-        45
+        19,
+        77,
+        51,
+        52,
+        36,
+        47
       ],
       "abilPool": [
         "Trampa Arena",
@@ -788,12 +788,12 @@
         31
       ],
       "ev": [
-        22,
-        78,
-        47,
-        43,
-        31,
-        49
+        24,
+        82,
+        54,
+        54,
+        37,
+        51
       ],
       "abilPool": [
         "Electromotor"
