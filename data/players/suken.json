@@ -4,173 +4,8 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 14h 1m jugadas · 222,900₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 14h 11m jugadas · 222,900₽ · vidas en el juego: -1",
   "team": [
-    {
-      "nickname": "PUTA MIERDA2",
-      "species": "Raticate (Alola)",
-      "level": 49,
-      "types": [
-        "Siniestro",
-        "Normal"
-      ],
-      "ability": "Garra Dura",
-      "nature": "Plácida",
-      "item": "Garra Afilada",
-      "shiny": false,
-      "moves": [
-        "Rodillo de Púas",
-        "Asalto Barrera",
-        "Tajo Umbrío",
-        "Daño Secreto"
-      ],
-      "iv": [
-        28,
-        18,
-        14,
-        12,
-        3,
-        9
-      ],
-      "ev": [
-        25,
-        128,
-        51,
-        56,
-        34,
-        58
-      ],
-      "abilPool": [
-        "Trampa Arena",
-        "Garra Dura"
-      ],
-      "abilHidden": [
-        "Iceberg"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Vasta Guardia"
-        },
-        {
-          "lvl": 1,
-          "m": "Asalto Barrera"
-        },
-        {
-          "lvl": 1,
-          "m": "Legado"
-        },
-        {
-          "lvl": 1,
-          "m": "Deseo"
-        },
-        {
-          "lvl": 1,
-          "m": "Metrónomo"
-        },
-        {
-          "lvl": 1,
-          "m": "Esquema"
-        },
-        {
-          "lvl": 1,
-          "m": "Ofrenda"
-        },
-        {
-          "lvl": 4,
-          "m": "Viento Feérico"
-        },
-        {
-          "lvl": 7,
-          "m": "Ronquido"
-        },
-        {
-          "lvl": 10,
-          "m": "Conjuro"
-        },
-        {
-          "lvl": 13,
-          "m": "Canon"
-        },
-        {
-          "lvl": 13,
-          "m": "Mordisco"
-        },
-        {
-          "lvl": 16,
-          "m": "Puño Incremento"
-        },
-        {
-          "lvl": 16,
-          "m": "Giro Bola"
-        },
-        {
-          "lvl": 19,
-          "m": "Bálsamo Osado"
-        },
-        {
-          "lvl": 24,
-          "m": "Torbellino"
-        },
-        {
-          "lvl": 29,
-          "m": "Rabia"
-        },
-        {
-          "lvl": 34,
-          "m": "Semilladora"
-        },
-        {
-          "lvl": 39,
-          "m": "Enfado"
-        },
-        {
-          "lvl": 44,
-          "m": "Puño Cometa"
-        }
-      ],
-      "tmMoves": [
-        "A Defender",
-        "Absorber",
-        "Amnesia",
-        "Atadura",
-        "Campo de Hierba",
-        "Chorro de Vapor",
-        "Ciclón",
-        "Conversión",
-        "Decoración",
-        "Desarme",
-        "Deslome",
-        "Destello",
-        "Doble Golpe",
-        "Finta",
-        "Garra Dragón",
-        "Infortunio",
-        "Lanzarrocas",
-        "Láser Doble",
-        "Lengüetazo",
-        "Malicioso",
-        "Maquinación",
-        "Marcha Espectral",
-        "Megapuño",
-        "Mil Temblores",
-        "Picotazo Veneno",
-        "Placaje",
-        "Plancha",
-        "Psicocarga",
-        "Pulso Cura",
-        "Pulso Dragón",
-        "Puño Cometa",
-        "Puya Nociva",
-        "Rizo Defensa",
-        "Tajo Umbrío",
-        "Tinieblas",
-        "Trampa Venenosa",
-        "Último Lugar",
-        "Voltio Cruel"
-      ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png"
-    },
     {
       "nickname": "CRAWLER",
       "species": "Crawdaunt",
@@ -935,6 +770,140 @@
         "Trampa Venenosa",
         "Último Lugar"
       ]
+    },
+    {
+      "nickname": "EL PRO",
+      "species": "Rotom",
+      "level": 49,
+      "types": [
+        "Eléctrico",
+        "Fantasma"
+      ],
+      "ability": "Sal Purificadora",
+      "nature": "Miedosa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Fuego Fatuo",
+        "Cadena Virulenta",
+        "Marcha Espectral",
+        "Impactrueno"
+      ],
+      "iv": [
+        26,
+        4,
+        16,
+        15,
+        23,
+        10
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Sal Purificadora"
+      ],
+      "abilHidden": [],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Fuego Fatuo"
+        },
+        {
+          "lvl": 1,
+          "m": "Semilladora"
+        },
+        {
+          "lvl": 5,
+          "m": "Bola Voltio"
+        },
+        {
+          "lvl": 10,
+          "m": "Alto Voltaje"
+        },
+        {
+          "lvl": 15,
+          "m": "Homenaje Póstumo"
+        },
+        {
+          "lvl": 20,
+          "m": "Cascabel Cura"
+        },
+        {
+          "lvl": 25,
+          "m": "Impactrueno"
+        },
+        {
+          "lvl": 29,
+          "m": "Cara Susto"
+        },
+        {
+          "lvl": 30,
+          "m": "Psicocorte"
+        },
+        {
+          "lvl": 35,
+          "m": "Escupir"
+        },
+        {
+          "lvl": 40,
+          "m": "Constricción"
+        },
+        {
+          "lvl": 40,
+          "m": "Mundo Gélido"
+        },
+        {
+          "lvl": 45,
+          "m": "Niebla Aromática"
+        },
+        {
+          "lvl": 50,
+          "m": "Garra Umbría"
+        },
+        {
+          "lvl": 55,
+          "m": "Buena Baza"
+        }
+      ],
+      "tmMoves": [
+        "Alud",
+        "Amnesia",
+        "Anclaje",
+        "Asta Drenaje",
+        "Cadena Virulenta",
+        "Campo de Hierba",
+        "Ciclón",
+        "Conversión",
+        "Danza Acuática",
+        "Deslome",
+        "Destello",
+        "Electropico",
+        "Espabila",
+        "Finta",
+        "Fuerza Lunar",
+        "Golpe Umbrío",
+        "Infortunio",
+        "Láser Doble",
+        "Lengüetazo",
+        "Marcha Espectral",
+        "Megapuño",
+        "Nitrocarga",
+        "Placaje",
+        "Psicocarga",
+        "Puño Cometa",
+        "Puño Incremento",
+        "Represalia",
+        "Rizo Defensa",
+        "Tajo Umbrío",
+        "Tinieblas",
+        "Último Lugar"
+      ]
     }
   ],
   "box": [
@@ -1294,107 +1263,6 @@
         {
           "lvl": 64,
           "m": "Tormenta Floral"
-        }
-      ]
-    },
-    {
-      "nickname": "EL PRO",
-      "species": "Rotom",
-      "level": 25,
-      "types": [
-        "Eléctrico",
-        "Fantasma"
-      ],
-      "ability": "Sal Purificadora",
-      "nature": "Miedosa",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Alto Voltaje",
-        "Homenaje Póstumo",
-        "Cascabel Cura",
-        "Impactrueno"
-      ],
-      "iv": [
-        26,
-        4,
-        16,
-        15,
-        23,
-        10
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Sal Purificadora"
-      ],
-      "abilHidden": [],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Fuego Fatuo"
-        },
-        {
-          "lvl": 1,
-          "m": "Semilladora"
-        },
-        {
-          "lvl": 5,
-          "m": "Bola Voltio"
-        },
-        {
-          "lvl": 10,
-          "m": "Alto Voltaje"
-        },
-        {
-          "lvl": 15,
-          "m": "Homenaje Póstumo"
-        },
-        {
-          "lvl": 20,
-          "m": "Cascabel Cura"
-        },
-        {
-          "lvl": 25,
-          "m": "Impactrueno"
-        },
-        {
-          "lvl": 29,
-          "m": "Cara Susto"
-        },
-        {
-          "lvl": 30,
-          "m": "Psicocorte"
-        },
-        {
-          "lvl": 35,
-          "m": "Escupir"
-        },
-        {
-          "lvl": 40,
-          "m": "Constricción"
-        },
-        {
-          "lvl": 40,
-          "m": "Mundo Gélido"
-        },
-        {
-          "lvl": 45,
-          "m": "Niebla Aromática"
-        },
-        {
-          "lvl": 50,
-          "m": "Garra Umbría"
-        },
-        {
-          "lvl": 55,
-          "m": "Buena Baza"
         }
       ]
     },
@@ -2591,7 +2459,7 @@
     {
       "nickname": "CALAMIDAD",
       "species": "Basculin",
-      "level": 31,
+      "level": 49,
       "types": [
         "Agua"
       ],
@@ -2600,10 +2468,10 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Rayo Burbuja",
-        "Pedrada",
-        "Limpieza General",
-        "Hidropulso"
+        "Gancho Alto",
+        "Danza Acuática",
+        "Psicohojas",
+        "Puño Furia"
       ],
       "iv": [
         8,
@@ -3233,6 +3101,171 @@
         "Trampa Venenosa",
         "Transformación"
       ]
+    },
+    {
+      "nickname": "PUTA MIERDA2",
+      "species": "Raticate (Alola)",
+      "level": 49,
+      "types": [
+        "Siniestro",
+        "Normal"
+      ],
+      "ability": "Garra Dura",
+      "nature": "Plácida",
+      "item": "Garra Afilada",
+      "shiny": false,
+      "moves": [
+        "Rodillo de Púas",
+        "Asalto Barrera",
+        "Tajo Umbrío",
+        "Daño Secreto"
+      ],
+      "iv": [
+        28,
+        18,
+        14,
+        12,
+        3,
+        9
+      ],
+      "ev": [
+        25,
+        128,
+        51,
+        56,
+        34,
+        58
+      ],
+      "abilPool": [
+        "Trampa Arena",
+        "Garra Dura"
+      ],
+      "abilHidden": [
+        "Iceberg"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Vasta Guardia"
+        },
+        {
+          "lvl": 1,
+          "m": "Asalto Barrera"
+        },
+        {
+          "lvl": 1,
+          "m": "Legado"
+        },
+        {
+          "lvl": 1,
+          "m": "Deseo"
+        },
+        {
+          "lvl": 1,
+          "m": "Metrónomo"
+        },
+        {
+          "lvl": 1,
+          "m": "Esquema"
+        },
+        {
+          "lvl": 1,
+          "m": "Ofrenda"
+        },
+        {
+          "lvl": 4,
+          "m": "Viento Feérico"
+        },
+        {
+          "lvl": 7,
+          "m": "Ronquido"
+        },
+        {
+          "lvl": 10,
+          "m": "Conjuro"
+        },
+        {
+          "lvl": 13,
+          "m": "Canon"
+        },
+        {
+          "lvl": 13,
+          "m": "Mordisco"
+        },
+        {
+          "lvl": 16,
+          "m": "Puño Incremento"
+        },
+        {
+          "lvl": 16,
+          "m": "Giro Bola"
+        },
+        {
+          "lvl": 19,
+          "m": "Bálsamo Osado"
+        },
+        {
+          "lvl": 24,
+          "m": "Torbellino"
+        },
+        {
+          "lvl": 29,
+          "m": "Rabia"
+        },
+        {
+          "lvl": 34,
+          "m": "Semilladora"
+        },
+        {
+          "lvl": 39,
+          "m": "Enfado"
+        },
+        {
+          "lvl": 44,
+          "m": "Puño Cometa"
+        }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Absorber",
+        "Amnesia",
+        "Atadura",
+        "Campo de Hierba",
+        "Chorro de Vapor",
+        "Ciclón",
+        "Conversión",
+        "Decoración",
+        "Desarme",
+        "Deslome",
+        "Destello",
+        "Doble Golpe",
+        "Finta",
+        "Garra Dragón",
+        "Infortunio",
+        "Lanzarrocas",
+        "Láser Doble",
+        "Lengüetazo",
+        "Malicioso",
+        "Maquinación",
+        "Marcha Espectral",
+        "Megapuño",
+        "Mil Temblores",
+        "Picotazo Veneno",
+        "Placaje",
+        "Plancha",
+        "Psicocarga",
+        "Pulso Cura",
+        "Pulso Dragón",
+        "Puño Cometa",
+        "Puya Nociva",
+        "Rizo Defensa",
+        "Tajo Umbrío",
+        "Tinieblas",
+        "Trampa Venenosa",
+        "Último Lugar",
+        "Voltio Cruel"
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png"
     },
     {
       "nickname": "PUTA MIERDA3",
@@ -5822,17 +5855,6 @@
   ],
   "captures": [
     {
-      "route": "monte_moon",
-      "where": "Monte Moon",
-      "species": "Raticate",
-      "nickname": "PUTA MIERDA2",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 14,
-      "mon": "Raticate"
-    },
-    {
       "route": "ruta_2_sur",
       "where": "Ruta 2 Sur",
       "species": "Crawdaunt",
@@ -5888,6 +5910,17 @@
       "mon": "Clodsire"
     },
     {
+      "route": "",
+      "where": "Edificio Azulona",
+      "species": "Rotom",
+      "nickname": "EL PRO",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 25,
+      "mon": "Rotom"
+    },
+    {
       "route": "ruta_3",
       "where": "Ruta 3",
       "species": "Cascoon",
@@ -5930,17 +5963,6 @@
       "category": "salvaje",
       "level": 16,
       "mon": "Charjabug"
-    },
-    {
-      "route": "",
-      "where": "Edificio Azulona",
-      "species": "Rotom",
-      "nickname": "EL PRO",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 25,
-      "mon": "Rotom"
     },
     {
       "route": "ciudad_celeste",
@@ -6117,6 +6139,17 @@
       "category": "ciudad",
       "level": 35,
       "mon": "Palossand"
+    },
+    {
+      "route": "monte_moon",
+      "where": "Monte Moon",
+      "species": "Raticate",
+      "nickname": "PUTA MIERDA2",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 14,
+      "mon": "Raticate"
     },
     {
       "route": "ruta_11",
@@ -6349,7 +6382,6 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "monte_moon": true,
       "ruta_2_sur": true,
       "ruta_2_norte": true,
       "ruta_5": true,
@@ -6371,6 +6403,7 @@
       "ruta_15": true,
       "ciudad_plateada": true,
       "ciudad_azulona": true,
+      "monte_moon": true,
       "ruta_11": true,
       "ruta_1": true,
       "ruta_4": true,
