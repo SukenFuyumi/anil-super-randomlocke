@@ -29,6 +29,19 @@
     .evo-mon .nm { font-size:.8rem; font-weight:700; }
     .evo-arrow { color:var(--text-muted); font-size:1.4rem; }
     .pk-nav { display:flex; justify-content:space-between; margin-top:1.5rem; gap:.5rem; }
+    .form-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr)); gap:.8rem; }
+    .form-card { display:flex; gap:.7rem; align-items:center; border:1px solid var(--border); border-radius:10px; padding:.6rem; background:var(--subtle-bg); }
+    .form-art { width:88px; height:88px; flex:none; border-radius:10px; display:flex; align-items:center; justify-content:center; }
+    .form-art img { width:82px; height:82px; object-fit:contain; image-rendering:pixelated; }
+    .form-body { min-width:0; flex:1; }
+    .form-name { font-weight:800; font-size:.98rem; display:flex; align-items:center; gap:.4rem; flex-wrap:wrap; }
+    .form-kind { font-size:.6rem; text-transform:uppercase; font-weight:800; letter-spacing:.03em; color:#fff; border-radius:999px; padding:.08rem .5rem; }
+    .form-kind.mega { background:linear-gradient(90deg,#6f35fc,#f95587); }
+    .form-kind.reg { background:var(--accent); }
+    .form-ab { font-size:.76rem; margin:.15rem 0; }
+    .form-stats { display:flex; flex-wrap:wrap; gap:.15rem .6rem; font-size:.72rem; color:var(--text-muted); }
+    .form-stats b { color:var(--text); font-variant-numeric:tabular-nums; }
+    .form-stats .tot b { color:var(--accent); }
   </style>
 </head>
 <body>
@@ -41,6 +54,7 @@
       renderHeader("pokedex.html");
       const dex = await loadPokedexFull();
       await loadTypesChart();
+      const FORMSDEX = (await loadJSON("data/forms-dex.json")) || {};
       const root = document.getElementById("root");
       let id = parseInt(param("id"), 10);
       if (!id && param("sp")) id = speciesDexId(param("sp"));
@@ -108,6 +122,30 @@
           ${mu.immune.length ? muRow("Inmune a", mu.immune) : ""}
         </div></div>`;
 
+      const forms = FORMSDEX[id] || [];
+      const formCard = (fm) => {
+        const k0 = typeKey((fm.t || [])[0] || "");
+        const total = (fm.st || []).reduce((a, b) => a + (b || 0), 0);
+        const kindBadge = fm.k === "mega"
+          ? `<span class="form-kind mega">Mega</span>`
+          : `<span class="form-kind reg">${escapeHtml(fm.region || "Regional")}</span>`;
+        const abh = (Array.isArray(fm.abh) ? fm.abh : fm.abh ? [fm.abh] : []);
+        return `<div class="form-card">
+          <div class="form-art" style="background:color-mix(in srgb, var(--type-${k0}) 16%, var(--subtle-bg))">
+            <img src="${spr(fm.spr || id)}" alt="${escapeHtml(fm.n)}" loading="lazy" onerror="this.onerror=null;this.src='${spr(id)}'">
+          </div>
+          <div class="form-body">
+            <div class="form-name">${escapeHtml(fm.n)} ${kindBadge}</div>
+            <div class="mon-types" style="margin:.3rem 0">${(fm.t || []).map((t) => typeBadge(t, true)).join(" ")}</div>
+            <div class="form-ab muted">${(fm.ab || []).map(escapeHtml).join(", ")}${abh.map((h) => ` · ${escapeHtml(h)} (oculta)`).join("")}</div>
+            <div class="form-stats">${STAT_LBL.map((l, i) => `<span>${l} <b>${fm.st[i] || 0}</b></span>`).join("")}<span class="tot">Total <b>${total}</b></span></div>
+          </div>
+        </div>`;
+      };
+      const formsHtml = forms.length
+        ? `<h2>Formas <span class="muted" style="font-size:.9rem;font-weight:600">(${forms.length})</span></h2><div class="panel"><div class="form-grid">${forms.map(formCard).join("")}</div></div>`
+        : "";
+
       root.innerHTML = `
         <div class="breadcrumb"><a href="pokedex.html">← Pokédex</a></div>
         <div class="panel" style="border-top:5px solid var(--type-${t0})">
@@ -137,6 +175,7 @@
           </div>
         </div>
         ${muHtml}
+        ${formsHtml}
         ${evoHtml ? `<div class="panel" style="margin-top:1rem">${evoHtml}</div>` : ""}
         <div class="pk-nav">${prev}${next}</div>
       `;
