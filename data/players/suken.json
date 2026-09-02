@@ -19,10 +19,10 @@
       "item": "",
       "shiny": false,
       "moves": [
+        "Flarembestida",
         "Danza Acuática",
         "Hueso Sombrío",
-        "Onda Trueno",
-        "Flarembestida"
+        "Onda Trueno"
       ],
       "iv": [
         6,
@@ -33,12 +33,12 @@
         20
       ],
       "ev": [
-        2,
+        5,
         4,
         7,
         11,
         6,
-        2
+        3
       ],
       "abilPool": [
         "Recogida"
@@ -171,12 +171,12 @@
         10
       ],
       "ev": [
-        19,
+        22,
         77,
         51,
         52,
         36,
-        47
+        48
       ],
       "abilPool": [
         "Viscosecreción",
@@ -312,12 +312,12 @@
         15
       ],
       "ev": [
-        36,
+        39,
         98,
         72,
         80,
         46,
-        70
+        71
       ],
       "abilPool": [
         "Filtro",
@@ -469,12 +469,12 @@
         26
       ],
       "ev": [
-        21,
+        24,
         80,
         52,
         54,
         37,
-        50
+        51
       ],
       "abilPool": [
         "Chorro Arena",
@@ -631,12 +631,12 @@
         30
       ],
       "ev": [
-        19,
+        22,
         77,
         51,
         52,
         36,
-        47
+        48
       ],
       "abilPool": [
         "Trampa Arena",
@@ -788,12 +788,12 @@
         31
       ],
       "ev": [
-        24,
+        27,
         82,
         54,
         54,
         37,
-        51
+        52
       ],
       "abilPool": [
         "Electromotor"
