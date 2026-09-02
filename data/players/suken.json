@@ -4,17 +4,17 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 13h 41m jugadas · 222,900₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 13h 43m jugadas · 222,900₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "EL FLAMAS",
-      "species": "Fletchinder",
+      "species": "Talonflame",
       "level": 49,
       "types": [
         "Fuego",
         "Volador"
       ],
-      "ability": "Recogida",
+      "ability": "Unidad Ecuestre",
       "nature": "Plácida",
       "item": "",
       "shiny": false,
@@ -41,107 +41,125 @@
         23
       ],
       "abilPool": [
-        "Recogida"
+        "Unidad Ecuestre"
       ],
       "abilHidden": [
-        "Clorofila"
+        "Expulsarena"
       ],
       "learnset": [
         {
-          "lvl": -1,
-          "m": "Nitrocarga"
+          "lvl": 1,
+          "m": "Rastreo"
         },
         {
           "lvl": 1,
-          "m": "Empapar"
+          "m": "Nieve Polvo"
         },
         {
           "lvl": 1,
-          "m": "Sol Matinal"
+          "m": "Infortunio"
         },
         {
           "lvl": 1,
-          "m": "Cuerpo Pesado"
+          "m": "Deslizamiento"
         },
         {
           "lvl": 1,
-          "m": "Barrera"
+          "m": "Onda Anómala"
         },
         {
           "lvl": 1,
-          "m": "Hueso Palo"
+          "m": "Impactrueno"
         },
         {
           "lvl": 1,
-          "m": "Llama Protectora"
+          "m": "Ráfaga Escamas"
+        },
+        {
+          "lvl": 1,
+          "m": "Transformación"
         },
         {
           "lvl": 15,
-          "m": "Onda Trueno"
+          "m": "Vaho Gélido"
         },
         {
           "lvl": 22,
-          "m": "Estímulo"
+          "m": "Electrotela"
         },
         {
           "lvl": 27,
-          "m": "Giro Rápido"
+          "m": "Defensa Férrea"
         },
         {
           "lvl": 29,
-          "m": "Deslumbrar"
+          "m": "Disparo Demora"
         },
         {
           "lvl": 31,
-          "m": "Rizo Algodón"
+          "m": "Voto Fuego"
         },
         {
-          "lvl": 36,
-          "m": "Ataque Furia"
+          "lvl": 38,
+          "m": "Alboroto"
         },
         {
-          "lvl": 43,
-          "m": "Patada Ígnea"
+          "lvl": 47,
+          "m": "Constricción"
         },
         {
-          "lvl": 46,
-          "m": "Último Lugar"
+          "lvl": 49,
+          "m": "Tumba Rocas"
         },
         {
-          "lvl": 50,
-          "m": "Danza Pluma"
+          "lvl": 56,
+          "m": "Abrecaminos"
         },
         {
-          "lvl": 57,
-          "m": "A Bocajarro"
+          "lvl": 65,
+          "m": "Bomba Lodo"
         },
         {
-          "lvl": 64,
-          "m": "Dracoflechas"
+          "lvl": 74,
+          "m": "Vuelo"
+        },
+        {
+          "lvl": 83,
+          "m": "Danza Triunfal"
         }
       ],
       "tmMoves": [
-        "Asta Drenaje",
+        "A Defender",
+        "Amnesia",
+        "Anclaje",
+        "Atadura",
         "Bomba Ígnea",
-        "Cadena Virulenta",
-        "Conversión",
-        "Danza Acuática",
-        "Decoración",
+        "Danza Caos",
+        "Destello",
+        "Eco Metálico",
+        "Espabila",
         "Finta",
-        "Flarembestida",
         "Fuerza Lunar",
+        "Golpe Roca",
         "Golpe Umbrío",
-        "Hueso Sombrío",
-        "Megapuño",
+        "Gran Ojo",
+        "Infortunio",
+        "Lengüetazo",
+        "Marcha Espectral",
+        "Mirada Heladora",
         "Moluscañón",
-        "Niebla Aromática",
         "Nitrocarga",
-        "Placaje",
-        "Puño Cometa",
+        "Núcleo Castigo",
+        "Puño Incremento",
         "Puya Nociva",
+        "Relevo",
+        "Retracción",
         "Rizo Defensa",
         "Rodillo de Púas",
-        "Tajo Umbrío"
+        "Tajo Umbrío",
+        "Tinieblas",
+        "Trampa Venenosa",
+        "Voltio Cruel"
       ]
     },
     {
@@ -5773,13 +5791,13 @@
     {
       "route": "",
       "where": "Casino Azulona",
-      "species": "Fletchinder",
+      "species": "Talonflame",
       "nickname": "EL FLAMAS",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
       "level": 35,
-      "mon": "Fletchinder"
+      "mon": "Talonflame"
     },
     {
       "route": "tunel_diglett",
