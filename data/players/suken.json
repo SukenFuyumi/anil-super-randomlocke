@@ -4,144 +4,147 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 13h 0m jugadas · 216,900₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 13h 6m jugadas · 216,900₽ · vidas en el juego: -1",
   "team": [
     {
-      "nickname": "KING",
-      "species": "Poliwhirl",
-      "level": 49,
+      "nickname": "MONARCA",
+      "species": "Claydol",
+      "level": 3,
       "types": [
-        "Agua"
+        "Tierra",
+        "Psíquico"
       ],
-      "ability": "Espanto",
-      "nature": "Afable",
+      "ability": "Unidad Ecuestre",
+      "nature": "Ingenua",
       "item": "",
       "shiny": false,
       "moves": [
-        "Salazón",
-        "Puntapié",
-        "Absorbefuerza",
-        "Clavo Cañón"
+        "Cabeza Sorpresa",
+        "Cambiadefensa",
+        "Encanto",
+        "Deseo Cura"
       ],
       "iv": [
-        10,
-        2,
-        25,
-        20,
-        26,
-        1
+        29,
+        15,
+        9,
+        28,
+        9,
+        3
       ],
       "ev": [
-        21,
-        26,
-        22,
-        31,
-        12,
-        27
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
       "abilPool": [
-        "Espanto"
+        "Unidad Ecuestre"
       ],
-      "abilHidden": [
-        "Pelusa"
-      ],
+      "abilHidden": [],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Clavo Cañón"
+          "m": "Bomba Imán"
         },
         {
           "lvl": 1,
-          "m": "Empapar"
+          "m": "Espora"
         },
         {
           "lvl": 1,
-          "m": "Gruñido"
+          "m": "Doble Ataque"
         },
         {
           "lvl": 1,
-          "m": "Guardia Baja"
+          "m": "Púas"
         },
         {
           "lvl": 1,
-          "m": "Viraje"
+          "m": "Cambiadefensa"
         },
         {
           "lvl": 1,
-          "m": "Desarme"
+          "m": "Encanto"
+        },
+        {
+          "lvl": 1,
+          "m": "Deseo Cura"
+        },
+        {
+          "lvl": 9,
+          "m": "Tormento"
+        },
+        {
+          "lvl": 12,
+          "m": "Descanso"
         },
         {
           "lvl": 15,
-          "m": "Cambiaalmas"
+          "m": "Bombardeo"
         },
         {
           "lvl": 18,
-          "m": "Niebla"
+          "m": "Empapar"
         },
         {
-          "lvl": 18,
-          "m": "Shuriken de Agua"
+          "lvl": 21,
+          "m": "Moflete Estático"
         },
         {
           "lvl": 24,
-          "m": "Colmillo Veneno"
+          "m": "Disparo Lodo"
         },
         {
-          "lvl": 32,
-          "m": "Sonámbulo"
+          "lvl": 27,
+          "m": "Mandato"
         },
         {
-          "lvl": 40,
-          "m": "Absorbefuerza"
+          "lvl": 30,
+          "m": "Plegaria Lunar"
+        },
+        {
+          "lvl": 33,
+          "m": "Rayo Gélido"
+        },
+        {
+          "lvl": 36,
+          "m": "Psicorruido"
+        },
+        {
+          "lvl": 38,
+          "m": "Salmuera"
+        },
+        {
+          "lvl": 38,
+          "m": "Kinético"
+        },
+        {
+          "lvl": 38,
+          "m": "Anticura"
+        },
+        {
+          "lvl": 42,
+          "m": "Golpe Bis"
         },
         {
           "lvl": 43,
-          "m": "Rayo Meteórico"
+          "m": "Danza Lluvia"
+        },
+        {
+          "lvl": 45,
+          "m": "Calamidad"
         },
         {
           "lvl": 48,
-          "m": "Hierba Lazo"
+          "m": "Rodillo de Púas"
         },
         {
-          "lvl": 53,
-          "m": "Bola Sombra"
-        },
-        {
-          "lvl": 56,
-          "m": "Fuerza Equina"
-        },
-        {
-          "lvl": 66,
-          "m": "Despejar"
+          "lvl": 54,
+          "m": "Umbreozona"
         }
-      ],
-      "tmMoves": [
-        "Anclaje",
-        "Cabeza Sorpresa",
-        "Campo de Hierba",
-        "Chorro de Vapor",
-        "Confusión",
-        "Conversión",
-        "Danza Caos",
-        "Desarme",
-        "Doble Golpe",
-        "Espabila",
-        "Fuerza Lunar",
-        "Garra Dragón",
-        "Golpe Roca",
-        "Infortunio",
-        "Maquinación",
-        "Mirada Heladora",
-        "Núcleo Castigo",
-        "Patada Baja",
-        "Psicocarga",
-        "Puntapié",
-        "Puya Nociva",
-        "Represalia",
-        "Retracción",
-        "Rizo Defensa",
-        "Tinieblas",
-        "Transformación"
       ]
     },
     {
@@ -2226,7 +2229,7 @@
       ],
       "ability": "Don Floral",
       "nature": "Mansa",
-      "item": "Cola Skitty",
+      "item": "",
       "shiny": false,
       "moves": [
         "Golpe Roca",
@@ -2765,6 +2768,44 @@
           "lvl": 56,
           "m": "Triturar"
         }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Alud",
+        "Amnesia",
+        "Bomba Ígnea",
+        "Campo de Hierba",
+        "Carámbano",
+        "Chorro de Vapor",
+        "Ciclón",
+        "Confusión",
+        "Danza Acuática",
+        "Decoración",
+        "Doble Golpe",
+        "Eco Metálico",
+        "Electropico",
+        "Espabila",
+        "Finta",
+        "Fuerza Lunar",
+        "Gran Ojo",
+        "Hueso Sombrío",
+        "Infortunio",
+        "Malicioso",
+        "Megapuño",
+        "Mil Temblores",
+        "Mirada Heladora",
+        "Mismo Destino",
+        "Patada Baja",
+        "Placaje",
+        "Plancha",
+        "Pulso Cura",
+        "Puño Cometa",
+        "Puntapié",
+        "Sol Matinal",
+        "Tinieblas",
+        "Trampa Venenosa",
+        "Transformación",
+        "Último Lugar"
       ]
     },
     {
@@ -3369,7 +3410,7 @@
       ],
       "ability": "Compiescolta",
       "nature": "Plácida",
-      "item": "Lupa",
+      "item": "",
       "shiny": false,
       "moves": [
         "Marcha Espectral",
@@ -3891,7 +3932,7 @@
       ],
       "ability": "Clorofila",
       "nature": "Audaz",
-      "item": "Menta Cauta",
+      "item": "",
       "shiny": false,
       "moves": [
         "Arenas Ardientes",
@@ -4148,6 +4189,144 @@
       ]
     },
     {
+      "nickname": "KING",
+      "species": "Poliwhirl",
+      "level": 49,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Espanto",
+      "nature": "Afable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Salazón",
+        "Puntapié",
+        "Absorbefuerza",
+        "Clavo Cañón"
+      ],
+      "iv": [
+        10,
+        2,
+        25,
+        20,
+        26,
+        1
+      ],
+      "ev": [
+        21,
+        26,
+        22,
+        31,
+        12,
+        27
+      ],
+      "abilPool": [
+        "Espanto"
+      ],
+      "abilHidden": [
+        "Pelusa"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Clavo Cañón"
+        },
+        {
+          "lvl": 1,
+          "m": "Empapar"
+        },
+        {
+          "lvl": 1,
+          "m": "Gruñido"
+        },
+        {
+          "lvl": 1,
+          "m": "Guardia Baja"
+        },
+        {
+          "lvl": 1,
+          "m": "Viraje"
+        },
+        {
+          "lvl": 1,
+          "m": "Desarme"
+        },
+        {
+          "lvl": 15,
+          "m": "Cambiaalmas"
+        },
+        {
+          "lvl": 18,
+          "m": "Niebla"
+        },
+        {
+          "lvl": 18,
+          "m": "Shuriken de Agua"
+        },
+        {
+          "lvl": 24,
+          "m": "Colmillo Veneno"
+        },
+        {
+          "lvl": 32,
+          "m": "Sonámbulo"
+        },
+        {
+          "lvl": 40,
+          "m": "Absorbefuerza"
+        },
+        {
+          "lvl": 43,
+          "m": "Rayo Meteórico"
+        },
+        {
+          "lvl": 48,
+          "m": "Hierba Lazo"
+        },
+        {
+          "lvl": 53,
+          "m": "Bola Sombra"
+        },
+        {
+          "lvl": 56,
+          "m": "Fuerza Equina"
+        },
+        {
+          "lvl": 66,
+          "m": "Despejar"
+        }
+      ],
+      "tmMoves": [
+        "Anclaje",
+        "Cabeza Sorpresa",
+        "Campo de Hierba",
+        "Chorro de Vapor",
+        "Confusión",
+        "Conversión",
+        "Danza Caos",
+        "Desarme",
+        "Doble Golpe",
+        "Espabila",
+        "Fuerza Lunar",
+        "Garra Dragón",
+        "Golpe Roca",
+        "Infortunio",
+        "Maquinación",
+        "Mirada Heladora",
+        "Núcleo Castigo",
+        "Patada Baja",
+        "Psicocarga",
+        "Puntapié",
+        "Puya Nociva",
+        "Represalia",
+        "Retracción",
+        "Rizo Defensa",
+        "Tinieblas",
+        "Transformación"
+      ]
+    },
+    {
       "nickname": "MIRACULOS",
       "species": "Orbeetle",
       "level": 2,
@@ -4399,147 +4578,6 @@
       ]
     },
     {
-      "nickname": "MONARCA",
-      "species": "Claydol",
-      "level": 3,
-      "types": [
-        "Tierra",
-        "Psíquico"
-      ],
-      "ability": "Unidad Ecuestre",
-      "nature": "Ingenua",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Cabeza Sorpresa",
-        "Cambiadefensa",
-        "Encanto",
-        "Deseo Cura"
-      ],
-      "iv": [
-        29,
-        15,
-        9,
-        28,
-        9,
-        3
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Unidad Ecuestre"
-      ],
-      "abilHidden": [],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Bomba Imán"
-        },
-        {
-          "lvl": 1,
-          "m": "Espora"
-        },
-        {
-          "lvl": 1,
-          "m": "Doble Ataque"
-        },
-        {
-          "lvl": 1,
-          "m": "Púas"
-        },
-        {
-          "lvl": 1,
-          "m": "Cambiadefensa"
-        },
-        {
-          "lvl": 1,
-          "m": "Encanto"
-        },
-        {
-          "lvl": 1,
-          "m": "Deseo Cura"
-        },
-        {
-          "lvl": 9,
-          "m": "Tormento"
-        },
-        {
-          "lvl": 12,
-          "m": "Descanso"
-        },
-        {
-          "lvl": 15,
-          "m": "Bombardeo"
-        },
-        {
-          "lvl": 18,
-          "m": "Empapar"
-        },
-        {
-          "lvl": 21,
-          "m": "Moflete Estático"
-        },
-        {
-          "lvl": 24,
-          "m": "Disparo Lodo"
-        },
-        {
-          "lvl": 27,
-          "m": "Mandato"
-        },
-        {
-          "lvl": 30,
-          "m": "Plegaria Lunar"
-        },
-        {
-          "lvl": 33,
-          "m": "Rayo Gélido"
-        },
-        {
-          "lvl": 36,
-          "m": "Psicorruido"
-        },
-        {
-          "lvl": 38,
-          "m": "Salmuera"
-        },
-        {
-          "lvl": 38,
-          "m": "Kinético"
-        },
-        {
-          "lvl": 38,
-          "m": "Anticura"
-        },
-        {
-          "lvl": 42,
-          "m": "Golpe Bis"
-        },
-        {
-          "lvl": 43,
-          "m": "Danza Lluvia"
-        },
-        {
-          "lvl": 45,
-          "m": "Calamidad"
-        },
-        {
-          "lvl": 48,
-          "m": "Rodillo de Púas"
-        },
-        {
-          "lvl": 54,
-          "m": "Umbreozona"
-        }
-      ]
-    },
-    {
       "nickname": "REPETIDO1",
       "species": "Darumaka",
       "level": 1,
@@ -4548,7 +4586,7 @@
       ],
       "ability": "Telepatía",
       "nature": "Serena",
-      "item": "Poción",
+      "item": "",
       "shiny": false,
       "moves": [
         "Conjuro",
@@ -4759,7 +4797,7 @@
       ],
       "ability": "Recogida",
       "nature": "Miedosa",
-      "item": "Semilla Milagro",
+      "item": "",
       "shiny": false,
       "moves": [
         "Magnitud",
@@ -4863,7 +4901,7 @@
       ],
       "ability": "Recogida",
       "nature": "Serena",
-      "item": "Def. Esp. X 2",
+      "item": "",
       "shiny": false,
       "moves": [
         "Magnitud",
@@ -5640,13 +5678,13 @@
     {
       "route": "pueblo_paleta",
       "where": "Pueblo Paleta",
-      "species": "Poliwhirl",
-      "nickname": "KING",
+      "species": "Claydol",
+      "nickname": "MONARCA",
       "shiny": false,
       "status": "captured",
       "category": "ciudad",
       "level": 3,
-      "mon": "Poliwhirl"
+      "mon": "Claydol"
     },
     {
       "route": "ruta_5",
@@ -6025,6 +6063,17 @@
     {
       "route": "pueblo_paleta",
       "where": "Pueblo Paleta",
+      "species": "Poliwhirl",
+      "nickname": "KING",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 3,
+      "mon": "Poliwhirl"
+    },
+    {
+      "route": "pueblo_paleta",
+      "where": "Pueblo Paleta",
       "species": "Orbeetle",
       "nickname": "MIRACULOS",
       "shiny": false,
@@ -6043,17 +6092,6 @@
       "category": "ciudad",
       "level": 2,
       "mon": "Houndoom"
-    },
-    {
-      "route": "pueblo_paleta",
-      "where": "Pueblo Paleta",
-      "species": "Claydol",
-      "nickname": "MONARCA",
-      "shiny": false,
-      "status": "captured",
-      "category": "ciudad",
-      "level": 3,
-      "mon": "Claydol"
     },
     {
       "route": "",
