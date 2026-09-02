@@ -4,16 +4,17 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 14h 24m jugadas · 228,080₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 14h 26m jugadas · 228,080₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "SMEGMA",
-      "species": "Slugma",
-      "level": 30,
+      "species": "Magcargo",
+      "level": 49,
       "types": [
-        "Fuego"
+        "Fuego",
+        "Roca"
       ],
-      "ability": "Puño Invisible",
+      "ability": "Encadenado",
       "nature": "Afable",
       "item": "",
       "shiny": false,
@@ -40,115 +41,116 @@
         15
       ],
       "abilPool": [
-        "Puño Invisible",
-        "Piel Seca"
+        "Encadenado",
+        "Humedad"
       ],
       "abilHidden": [
-        "Poder Gélido"
+        "Regeneración"
       ],
       "learnset": [
         {
-          "lvl": 1,
-          "m": "Daño Secreto"
+          "lvl": -1,
+          "m": "Fachada"
         },
         {
           "lvl": 1,
-          "m": "Gas Venenoso"
+          "m": "Conjuro"
         },
         {
-          "lvl": 6,
-          "m": "Pirotecnia"
+          "lvl": 1,
+          "m": "Ladrón"
         },
         {
-          "lvl": 8,
-          "m": "Ultrapuño"
+          "lvl": 1,
+          "m": "Rodar"
+        },
+        {
+          "lvl": 1,
+          "m": "Velo Aurora"
+        },
+        {
+          "lvl": 1,
+          "m": "Pulimento"
         },
         {
           "lvl": 13,
-          "m": "Giro Fuego"
+          "m": "Fuego Fatuo"
         },
         {
           "lvl": 20,
-          "m": "Golpe Bajo"
+          "m": "Bofetón Lodo"
         },
         {
           "lvl": 22,
-          "m": "Vendetta"
+          "m": "Canto Mortal"
         },
         {
           "lvl": 23,
-          "m": "Colmillo Ígneo"
+          "m": "Nieve Polvo"
         },
         {
           "lvl": 27,
-          "m": "Decalcomanía"
+          "m": "Alarido"
         },
         {
           "lvl": 29,
-          "m": "Escudo Tatami"
+          "m": "Otra Vez"
         },
         {
           "lvl": 34,
-          "m": "Decoración"
+          "m": "Electrificación"
         },
         {
           "lvl": 36,
-          "m": "Sylveotornado"
-        },
-        {
-          "lvl": 41,
-          "m": "Adaptación"
+          "m": "Calcinación"
         },
         {
           "lvl": 43,
-          "m": "Salmuera"
+          "m": "Balón Ígneo"
         },
         {
-          "lvl": 48,
-          "m": "Espeaura"
+          "lvl": 47,
+          "m": "Lanzamugre"
         },
         {
-          "lvl": 50,
-          "m": "Pirochoque"
+          "lvl": 54,
+          "m": "V de Fuego"
         }
       ],
       "tmMoves": [
         "Absorber",
-        "Alud",
-        "Asta Drenaje",
+        "Amnesia",
         "Atadura",
         "Bomba Ígnea",
         "Cabeza Sorpresa",
-        "Carámbano",
+        "Campo de Hierba",
+        "Chorro de Vapor",
         "Ciclón",
-        "Confusión",
         "Desarme",
         "Deslome",
-        "Destello",
-        "Eco Metálico",
-        "Espabila",
+        "Embate Supremo",
+        "Finta",
         "Flarembestida",
         "Fotosíntesis",
-        "Golpe Roca",
-        "Gran Ojo",
+        "Fuerza Lunar",
+        "Garra Dragón",
+        "Golpe Umbrío",
+        "Hueso Sombrío",
+        "Infortunio",
         "Isoguardia",
         "Lanzarrocas",
-        "Lengüetazo",
-        "Malicioso",
-        "Marcha Espectral",
-        "Moluscañón",
+        "Maquinación",
+        "Megapuño",
+        "Mil Temblores",
+        "Mirada Heladora",
+        "Niebla Aromática",
         "Nitrocarga",
-        "Patada Baja",
-        "Placaje",
+        "Núcleo Castigo",
+        "Plancha",
         "Pulso Cura",
         "Puño Cometa",
         "Puño Incremento",
-        "Puya Nociva",
-        "Relevo",
-        "Represalia",
-        "Rizo Defensa",
-        "Rodillo de Púas",
-        "Sol Matinal"
+        "Rodillo de Púas"
       ]
     },
     {
@@ -5892,13 +5894,13 @@
     {
       "route": "ruta_1",
       "where": "Ruta 1",
-      "species": "Slugma",
+      "species": "Magcargo",
       "nickname": "SMEGMA",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
       "level": 5,
-      "mon": "Slugma"
+      "mon": "Magcargo"
     },
     {
       "route": "ruta_5",
