@@ -4,155 +4,8 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 14h 27m jugadas · 228,080₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 14h 34m jugadas · 228,080₽ · vidas en el juego: -1",
   "team": [
-    {
-      "nickname": "SMEGMA",
-      "species": "Magcargo",
-      "level": 49,
-      "types": [
-        "Fuego",
-        "Roca"
-      ],
-      "ability": "Encadenado",
-      "nature": "Afable",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Marcha Espectral",
-        "Moluscañón",
-        "Bomba Ígnea",
-        "Flarembestida"
-      ],
-      "iv": [
-        12,
-        18,
-        21,
-        10,
-        14,
-        13
-      ],
-      "ev": [
-        13,
-        14,
-        8,
-        22,
-        9,
-        15
-      ],
-      "abilPool": [
-        "Encadenado",
-        "Humedad"
-      ],
-      "abilHidden": [
-        "Regeneración"
-      ],
-      "learnset": [
-        {
-          "lvl": -1,
-          "m": "Fachada"
-        },
-        {
-          "lvl": 1,
-          "m": "Conjuro"
-        },
-        {
-          "lvl": 1,
-          "m": "Ladrón"
-        },
-        {
-          "lvl": 1,
-          "m": "Rodar"
-        },
-        {
-          "lvl": 1,
-          "m": "Velo Aurora"
-        },
-        {
-          "lvl": 1,
-          "m": "Pulimento"
-        },
-        {
-          "lvl": 13,
-          "m": "Fuego Fatuo"
-        },
-        {
-          "lvl": 20,
-          "m": "Bofetón Lodo"
-        },
-        {
-          "lvl": 22,
-          "m": "Canto Mortal"
-        },
-        {
-          "lvl": 23,
-          "m": "Nieve Polvo"
-        },
-        {
-          "lvl": 27,
-          "m": "Alarido"
-        },
-        {
-          "lvl": 29,
-          "m": "Otra Vez"
-        },
-        {
-          "lvl": 34,
-          "m": "Electrificación"
-        },
-        {
-          "lvl": 36,
-          "m": "Calcinación"
-        },
-        {
-          "lvl": 43,
-          "m": "Balón Ígneo"
-        },
-        {
-          "lvl": 47,
-          "m": "Lanzamugre"
-        },
-        {
-          "lvl": 54,
-          "m": "V de Fuego"
-        }
-      ],
-      "tmMoves": [
-        "Absorber",
-        "Amnesia",
-        "Atadura",
-        "Bomba Ígnea",
-        "Cabeza Sorpresa",
-        "Campo de Hierba",
-        "Chorro de Vapor",
-        "Ciclón",
-        "Desarme",
-        "Deslome",
-        "Embate Supremo",
-        "Finta",
-        "Flarembestida",
-        "Fotosíntesis",
-        "Fuerza Lunar",
-        "Garra Dragón",
-        "Golpe Umbrío",
-        "Hueso Sombrío",
-        "Infortunio",
-        "Isoguardia",
-        "Lanzarrocas",
-        "Maquinación",
-        "Megapuño",
-        "Mil Temblores",
-        "Mirada Heladora",
-        "Niebla Aromática",
-        "Nitrocarga",
-        "Núcleo Castigo",
-        "Plancha",
-        "Pulso Cura",
-        "Puño Cometa",
-        "Puño Incremento",
-        "Rodillo de Púas"
-      ]
-    },
     {
       "nickname": "DREAMS",
       "species": "Hypno",
@@ -916,6 +769,163 @@
         "Tinieblas",
         "Trampa Venenosa",
         "Último Lugar"
+      ]
+    },
+    {
+      "nickname": "TECATA",
+      "species": "Venusaur",
+      "level": 49,
+      "types": [
+        "Planta",
+        "Veneno"
+      ],
+      "ability": "Receptor",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Cadena Virulenta",
+        "Bostezo",
+        "Ciclón de Hojas",
+        "Fotosíntesis"
+      ],
+      "iv": [
+        29,
+        3,
+        0,
+        13,
+        12,
+        14
+      ],
+      "ev": [
+        16,
+        16,
+        20,
+        21,
+        7,
+        23
+      ],
+      "abilPool": [
+        "Receptor"
+      ],
+      "abilHidden": [
+        "Encadenado"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Anticipo"
+        },
+        {
+          "lvl": 1,
+          "m": "Ciclón de Hojas"
+        },
+        {
+          "lvl": 1,
+          "m": "Tornado"
+        },
+        {
+          "lvl": 1,
+          "m": "Purificación"
+        },
+        {
+          "lvl": 1,
+          "m": "Beso Amoroso"
+        },
+        {
+          "lvl": 1,
+          "m": "Calamidad"
+        },
+        {
+          "lvl": 9,
+          "m": "Giro Fuego"
+        },
+        {
+          "lvl": 12,
+          "m": "Homenaje Póstumo"
+        },
+        {
+          "lvl": 15,
+          "m": "Detección"
+        },
+        {
+          "lvl": 15,
+          "m": "Cuchillada"
+        },
+        {
+          "lvl": 20,
+          "m": "Danza Amiga"
+        },
+        {
+          "lvl": 25,
+          "m": "Follaje"
+        },
+        {
+          "lvl": 30,
+          "m": "Capa Mágica"
+        },
+        {
+          "lvl": 36,
+          "m": "Beso Drenaje"
+        },
+        {
+          "lvl": 37,
+          "m": "Triataque"
+        },
+        {
+          "lvl": 39,
+          "m": "Pirueta Helada"
+        },
+        {
+          "lvl": 44,
+          "m": "Viento Afín"
+        },
+        {
+          "lvl": 51,
+          "m": "Garra Dragón"
+        },
+        {
+          "lvl": 51,
+          "m": "Enrosque"
+        },
+        {
+          "lvl": 58,
+          "m": "Llama Fusión"
+        }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Absorber",
+        "Alud",
+        "Amnesia",
+        "Anclaje",
+        "Asta Drenaje",
+        "Atadura",
+        "Bomba Ígnea",
+        "Cabeza Sorpresa",
+        "Cadena Virulenta",
+        "Carámbano",
+        "Conversión",
+        "Destello",
+        "Doble Golpe",
+        "Eco Metálico",
+        "Espabila",
+        "Fotosíntesis",
+        "Hoja Aguda",
+        "Lanzarrocas",
+        "Lengüetazo",
+        "Malicioso",
+        "Marcha Espectral",
+        "Megapuño",
+        "Mil Temblores",
+        "Niebla Aromática",
+        "Nitrocarga",
+        "Picotazo Veneno",
+        "Puño Incremento",
+        "Puntapié",
+        "Puya Nociva",
+        "Relevo",
+        "Tajo Umbrío"
       ]
     }
   ],
@@ -1864,6 +1874,153 @@
           "lvl": 53,
           "m": "Vendaval Gélido"
         }
+      ]
+    },
+    {
+      "nickname": "SMEGMA",
+      "species": "Magcargo",
+      "level": 49,
+      "types": [
+        "Fuego",
+        "Roca"
+      ],
+      "ability": "Encadenado",
+      "nature": "Afable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Marcha Espectral",
+        "Moluscañón",
+        "Bomba Ígnea",
+        "Flarembestida"
+      ],
+      "iv": [
+        12,
+        18,
+        21,
+        10,
+        14,
+        13
+      ],
+      "ev": [
+        13,
+        14,
+        8,
+        22,
+        9,
+        15
+      ],
+      "abilPool": [
+        "Encadenado",
+        "Humedad"
+      ],
+      "abilHidden": [
+        "Regeneración"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Fachada"
+        },
+        {
+          "lvl": 1,
+          "m": "Conjuro"
+        },
+        {
+          "lvl": 1,
+          "m": "Ladrón"
+        },
+        {
+          "lvl": 1,
+          "m": "Rodar"
+        },
+        {
+          "lvl": 1,
+          "m": "Velo Aurora"
+        },
+        {
+          "lvl": 1,
+          "m": "Pulimento"
+        },
+        {
+          "lvl": 13,
+          "m": "Fuego Fatuo"
+        },
+        {
+          "lvl": 20,
+          "m": "Bofetón Lodo"
+        },
+        {
+          "lvl": 22,
+          "m": "Canto Mortal"
+        },
+        {
+          "lvl": 23,
+          "m": "Nieve Polvo"
+        },
+        {
+          "lvl": 27,
+          "m": "Alarido"
+        },
+        {
+          "lvl": 29,
+          "m": "Otra Vez"
+        },
+        {
+          "lvl": 34,
+          "m": "Electrificación"
+        },
+        {
+          "lvl": 36,
+          "m": "Calcinación"
+        },
+        {
+          "lvl": 43,
+          "m": "Balón Ígneo"
+        },
+        {
+          "lvl": 47,
+          "m": "Lanzamugre"
+        },
+        {
+          "lvl": 54,
+          "m": "V de Fuego"
+        }
+      ],
+      "tmMoves": [
+        "Absorber",
+        "Amnesia",
+        "Atadura",
+        "Bomba Ígnea",
+        "Cabeza Sorpresa",
+        "Campo de Hierba",
+        "Chorro de Vapor",
+        "Ciclón",
+        "Desarme",
+        "Deslome",
+        "Embate Supremo",
+        "Finta",
+        "Flarembestida",
+        "Fotosíntesis",
+        "Fuerza Lunar",
+        "Garra Dragón",
+        "Golpe Umbrío",
+        "Hueso Sombrío",
+        "Infortunio",
+        "Isoguardia",
+        "Lanzarrocas",
+        "Maquinación",
+        "Megapuño",
+        "Mil Temblores",
+        "Mirada Heladora",
+        "Niebla Aromática",
+        "Nitrocarga",
+        "Núcleo Castigo",
+        "Plancha",
+        "Pulso Cura",
+        "Puño Cometa",
+        "Puño Incremento",
+        "Rodillo de Púas"
       ]
     },
     {
@@ -3380,137 +3537,6 @@
           "lvl": 52,
           "m": "Manos Juntas"
         }
-      ]
-    },
-    {
-      "nickname": "TECATA",
-      "species": "Ivysaur",
-      "level": 25,
-      "types": [
-        "Planta",
-        "Veneno"
-      ],
-      "ability": "Compiescolta",
-      "nature": "Plácida",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Marcha Espectral",
-        "Bostezo",
-        "Bálsamo Osado",
-        "Bomba Caramelo"
-      ],
-      "iv": [
-        29,
-        3,
-        0,
-        13,
-        12,
-        14
-      ],
-      "ev": [
-        16,
-        16,
-        20,
-        21,
-        7,
-        23
-      ],
-      "abilPool": [
-        "Compiescolta"
-      ],
-      "abilHidden": [
-        "Iluminación"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Danza Lunar"
-        },
-        {
-          "lvl": 1,
-          "m": "Cortina Plasma"
-        },
-        {
-          "lvl": 1,
-          "m": "Bostezo"
-        },
-        {
-          "lvl": 1,
-          "m": "Bomba Caramelo"
-        },
-        {
-          "lvl": 9,
-          "m": "Condena Silvana"
-        },
-        {
-          "lvl": 12,
-          "m": "Estruendo Escama"
-        },
-        {
-          "lvl": 15,
-          "m": "Giro Fuego"
-        },
-        {
-          "lvl": 15,
-          "m": "Canto"
-        },
-        {
-          "lvl": 20,
-          "m": "Eco Metálico"
-        },
-        {
-          "lvl": 23,
-          "m": "Campo Psíquico"
-        },
-        {
-          "lvl": 25,
-          "m": "Aromaterapia"
-        },
-        {
-          "lvl": 25,
-          "m": "Bastión Final"
-        },
-        {
-          "lvl": 30,
-          "m": "Camuflaje"
-        },
-        {
-          "lvl": 35,
-          "m": "Acoso"
-        },
-        {
-          "lvl": 36,
-          "m": "Corpulencia"
-        },
-        {
-          "lvl": 40,
-          "m": "Esporagodón"
-        },
-        {
-          "lvl": 45,
-          "m": "Pulpocañón"
-        },
-        {
-          "lvl": 45,
-          "m": "Cambiavelocidad"
-        },
-        {
-          "lvl": 50,
-          "m": "Danza Aleteo"
-        }
-      ],
-      "tmMoves": [
-        "Absorber",
-        "Campo de Hierba",
-        "Carámbano",
-        "Conversión",
-        "Gran Ojo",
-        "Marcha Espectral",
-        "Mismo Destino",
-        "Puntapié",
-        "Retracción",
-        "Trampa Venenosa"
       ]
     },
     {
@@ -5892,17 +5918,6 @@
   ],
   "captures": [
     {
-      "route": "ruta_1",
-      "where": "Ruta 1",
-      "species": "Magcargo",
-      "nickname": "SMEGMA",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 5,
-      "mon": "Magcargo"
-    },
-    {
       "route": "ruta_5",
       "where": "Ruta 5",
       "species": "Hypno",
@@ -5956,6 +5971,17 @@
       "category": "salvaje",
       "level": 8,
       "mon": "Sudowoodo"
+    },
+    {
+      "route": "ciudad_plateada",
+      "where": "Ciudad Plateada",
+      "species": "Venusaur",
+      "nickname": "TECATA",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 10,
+      "mon": "Venusaur"
     },
     {
       "route": "ruta_3",
@@ -6055,6 +6081,17 @@
       "category": "salvaje",
       "level": 18,
       "mon": "Dewott"
+    },
+    {
+      "route": "ruta_1",
+      "where": "Ruta 1",
+      "species": "Magcargo",
+      "nickname": "SMEGMA",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 5,
+      "mon": "Magcargo"
     },
     {
       "route": "ruta_10_norte",
@@ -6198,17 +6235,6 @@
       "category": "salvaje",
       "level": 34,
       "mon": "Squawkabilly"
-    },
-    {
-      "route": "ciudad_plateada",
-      "where": "Ciudad Plateada",
-      "species": "Ivysaur",
-      "nickname": "TECATA",
-      "shiny": false,
-      "status": "captured",
-      "category": "ciudad",
-      "level": 10,
-      "mon": "Ivysaur"
     },
     {
       "route": "monte_moon",
@@ -6419,12 +6445,12 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_1": true,
       "ruta_5": true,
       "bosque_verde": true,
       "tunel_diglett": true,
       "ruta_2_sur": true,
       "ruta_2_norte": true,
+      "ciudad_plateada": true,
       "ruta_3": true,
       "ciudad_carmin": true,
       "monte_moon_exterior": true,
@@ -6432,6 +6458,7 @@
       "ruta_21": true,
       "ruta_12": true,
       "ruta_6": true,
+      "ruta_1": true,
       "ruta_10_norte": true,
       "ruta_20": true,
       "tunel_roca": true,
@@ -6439,7 +6466,6 @@
       "pueblo_lavanda": true,
       "ruta_8": true,
       "ruta_15": true,
-      "ciudad_plateada": true,
       "ciudad_azulona": true,
       "ruta_11": true,
       "monte_moon": true,
