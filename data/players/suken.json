@@ -4,163 +4,172 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 14h 35m jugadas · 228,080₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 14h 38m jugadas · 228,080₽ · vidas en el juego: -1",
   "team": [
     {
-      "nickname": "DREAMS",
-      "species": "Hypno",
+      "nickname": "PUTA MIERDA2",
+      "species": "Raticate (Alola)",
       "level": 49,
       "types": [
-        "Psíquico"
+        "Siniestro",
+        "Normal"
       ],
-      "ability": "Trampa Arena",
-      "nature": "Huraña",
-      "item": "Gafas Especiales",
+      "ability": "Garra Dura",
+      "nature": "Plácida",
+      "item": "Garra Afilada",
       "shiny": false,
       "moves": [
-        "Luz Aniquiladora",
-        "Marcha Espectral",
-        "Conjuro Funesto",
-        "Flarembestida"
+        "Rodillo de Púas",
+        "Asalto Barrera",
+        "Tajo Umbrío",
+        "Daño Secreto"
       ],
       "iv": [
-        13,
-        24,
-        30,
-        7,
+        28,
+        18,
+        14,
         12,
-        30
+        3,
+        9
       ],
       "ev": [
-        29,
-        110,
-        72,
-        64,
-        37,
-        70
+        25,
+        132,
+        52,
+        56,
+        35,
+        60
       ],
       "abilPool": [
         "Trampa Arena",
-        "Ignífugo"
+        "Garra Dura"
       ],
       "abilHidden": [
-        "Torrente"
+        "Iceberg"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Sorpresa"
+          "m": "Vasta Guardia"
         },
         {
           "lvl": 1,
-          "m": "Isoguardia"
+          "m": "Asalto Barrera"
         },
         {
           "lvl": 1,
-          "m": "Confusión"
+          "m": "Legado"
         },
         {
           "lvl": 1,
-          "m": "Cornada"
+          "m": "Deseo"
         },
         {
           "lvl": 1,
-          "m": "Chulería"
+          "m": "Metrónomo"
         },
         {
           "lvl": 1,
-          "m": "Ascuas"
+          "m": "Esquema"
+        },
+        {
+          "lvl": 1,
+          "m": "Ofrenda"
+        },
+        {
+          "lvl": 4,
+          "m": "Viento Feérico"
+        },
+        {
+          "lvl": 7,
+          "m": "Ronquido"
+        },
+        {
+          "lvl": 10,
+          "m": "Conjuro"
         },
         {
           "lvl": 13,
-          "m": "Divide Dolor"
+          "m": "Canon"
         },
         {
-          "lvl": 17,
-          "m": "Copión"
+          "lvl": 13,
+          "m": "Mordisco"
         },
         {
-          "lvl": 21,
-          "m": "Follaje"
+          "lvl": 16,
+          "m": "Puño Incremento"
         },
         {
-          "lvl": 21,
-          "m": "Bofetón Lodo"
+          "lvl": 16,
+          "m": "Giro Bola"
         },
         {
-          "lvl": 25,
-          "m": "Hoja Mágica"
+          "lvl": 19,
+          "m": "Bálsamo Osado"
+        },
+        {
+          "lvl": 24,
+          "m": "Torbellino"
         },
         {
           "lvl": 29,
-          "m": "Absorber"
+          "m": "Rabia"
         },
         {
-          "lvl": 32,
-          "m": "Terratemblor"
+          "lvl": 34,
+          "m": "Semilladora"
         },
         {
-          "lvl": 37,
-          "m": "Conjuro Funesto"
+          "lvl": 39,
+          "m": "Enfado"
         },
         {
-          "lvl": 37,
-          "m": "Luz Aniquiladora"
-        },
-        {
-          "lvl": 42,
-          "m": "Intercambio"
-        },
-        {
-          "lvl": 47,
-          "m": "Hierba Lazo"
-        },
-        {
-          "lvl": 51,
-          "m": "Premonición"
-        },
-        {
-          "lvl": 56,
-          "m": "Nitrochoque"
+          "lvl": 44,
+          "m": "Puño Cometa"
         }
       ],
       "tmMoves": [
+        "A Defender",
         "Absorber",
-        "Alud",
-        "Anclaje",
-        "Bomba Ígnea",
-        "Cadena Virulenta",
-        "Campo de Niebla",
-        "Carámbano",
+        "Amnesia",
+        "Atadura",
+        "Campo de Hierba",
         "Chorro de Vapor",
-        "Confusión",
-        "Electropico",
-        "Embate Supremo",
-        "Flarembestida",
-        "Golpe Roca",
-        "Hueso Sombrío",
-        "Isoguardia",
+        "Ciclón",
+        "Conversión",
+        "Decoración",
+        "Desarme",
+        "Deslome",
+        "Destello",
+        "Doble Golpe",
+        "Finta",
+        "Garra Dragón",
+        "Infortunio",
         "Lanzarrocas",
         "Láser Doble",
         "Lengüetazo",
+        "Malicioso",
+        "Maquinación",
         "Marcha Espectral",
+        "Megapuño",
         "Mil Temblores",
-        "Niebla Aromática",
-        "Patada Baja",
         "Picotazo Veneno",
+        "Placaje",
+        "Plancha",
         "Psicocarga",
         "Pulso Cura",
+        "Pulso Dragón",
         "Puño Cometa",
-        "Puntapié",
         "Puya Nociva",
-        "Represalia",
-        "Retracción",
-        "Rodillo de Púas",
+        "Rizo Defensa",
+        "Tajo Umbrío",
         "Tinieblas",
-        "Transformación",
+        "Trampa Venenosa",
         "Último Lugar",
         "Voltio Cruel"
-      ]
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png"
     },
     {
       "nickname": "DUNAS",
@@ -770,6 +779,162 @@
         "Trampa Venenosa",
         "Último Lugar"
       ]
+    },
+    {
+      "nickname": "DREAMS",
+      "species": "Hypno",
+      "level": 49,
+      "types": [
+        "Psíquico"
+      ],
+      "ability": "Trampa Arena",
+      "nature": "Huraña",
+      "item": "Gafas Especiales",
+      "shiny": false,
+      "moves": [
+        "Luz Aniquiladora",
+        "Marcha Espectral",
+        "Conjuro Funesto",
+        "Flarembestida"
+      ],
+      "iv": [
+        13,
+        24,
+        30,
+        7,
+        12,
+        30
+      ],
+      "ev": [
+        29,
+        110,
+        72,
+        64,
+        37,
+        70
+      ],
+      "abilPool": [
+        "Trampa Arena",
+        "Ignífugo"
+      ],
+      "abilHidden": [
+        "Torrente"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Sorpresa"
+        },
+        {
+          "lvl": 1,
+          "m": "Isoguardia"
+        },
+        {
+          "lvl": 1,
+          "m": "Confusión"
+        },
+        {
+          "lvl": 1,
+          "m": "Cornada"
+        },
+        {
+          "lvl": 1,
+          "m": "Chulería"
+        },
+        {
+          "lvl": 1,
+          "m": "Ascuas"
+        },
+        {
+          "lvl": 13,
+          "m": "Divide Dolor"
+        },
+        {
+          "lvl": 17,
+          "m": "Copión"
+        },
+        {
+          "lvl": 21,
+          "m": "Follaje"
+        },
+        {
+          "lvl": 21,
+          "m": "Bofetón Lodo"
+        },
+        {
+          "lvl": 25,
+          "m": "Hoja Mágica"
+        },
+        {
+          "lvl": 29,
+          "m": "Absorber"
+        },
+        {
+          "lvl": 32,
+          "m": "Terratemblor"
+        },
+        {
+          "lvl": 37,
+          "m": "Conjuro Funesto"
+        },
+        {
+          "lvl": 37,
+          "m": "Luz Aniquiladora"
+        },
+        {
+          "lvl": 42,
+          "m": "Intercambio"
+        },
+        {
+          "lvl": 47,
+          "m": "Hierba Lazo"
+        },
+        {
+          "lvl": 51,
+          "m": "Premonición"
+        },
+        {
+          "lvl": 56,
+          "m": "Nitrochoque"
+        }
+      ],
+      "tmMoves": [
+        "Absorber",
+        "Alud",
+        "Anclaje",
+        "Bomba Ígnea",
+        "Cadena Virulenta",
+        "Campo de Niebla",
+        "Carámbano",
+        "Chorro de Vapor",
+        "Confusión",
+        "Electropico",
+        "Embate Supremo",
+        "Flarembestida",
+        "Golpe Roca",
+        "Hueso Sombrío",
+        "Isoguardia",
+        "Lanzarrocas",
+        "Láser Doble",
+        "Lengüetazo",
+        "Marcha Espectral",
+        "Mil Temblores",
+        "Niebla Aromática",
+        "Patada Baja",
+        "Picotazo Veneno",
+        "Psicocarga",
+        "Pulso Cura",
+        "Puño Cometa",
+        "Puntapié",
+        "Puya Nociva",
+        "Represalia",
+        "Retracción",
+        "Rodillo de Púas",
+        "Tinieblas",
+        "Transformación",
+        "Último Lugar",
+        "Voltio Cruel"
+      ]
     }
   ],
   "box": [
@@ -1352,6 +1517,9 @@
           "lvl": 50,
           "m": "Bomba Caramelo"
         }
+      ],
+      "tmMoves": [
+        "Tajo Umbrío"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10231.png"
     },
@@ -3538,171 +3706,6 @@
         "Relevo",
         "Tajo Umbrío"
       ]
-    },
-    {
-      "nickname": "PUTA MIERDA2",
-      "species": "Raticate (Alola)",
-      "level": 49,
-      "types": [
-        "Siniestro",
-        "Normal"
-      ],
-      "ability": "Garra Dura",
-      "nature": "Plácida",
-      "item": "Garra Afilada",
-      "shiny": false,
-      "moves": [
-        "Rodillo de Púas",
-        "Asalto Barrera",
-        "Tajo Umbrío",
-        "Daño Secreto"
-      ],
-      "iv": [
-        28,
-        18,
-        14,
-        12,
-        3,
-        9
-      ],
-      "ev": [
-        25,
-        132,
-        52,
-        56,
-        35,
-        60
-      ],
-      "abilPool": [
-        "Trampa Arena",
-        "Garra Dura"
-      ],
-      "abilHidden": [
-        "Iceberg"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Vasta Guardia"
-        },
-        {
-          "lvl": 1,
-          "m": "Asalto Barrera"
-        },
-        {
-          "lvl": 1,
-          "m": "Legado"
-        },
-        {
-          "lvl": 1,
-          "m": "Deseo"
-        },
-        {
-          "lvl": 1,
-          "m": "Metrónomo"
-        },
-        {
-          "lvl": 1,
-          "m": "Esquema"
-        },
-        {
-          "lvl": 1,
-          "m": "Ofrenda"
-        },
-        {
-          "lvl": 4,
-          "m": "Viento Feérico"
-        },
-        {
-          "lvl": 7,
-          "m": "Ronquido"
-        },
-        {
-          "lvl": 10,
-          "m": "Conjuro"
-        },
-        {
-          "lvl": 13,
-          "m": "Canon"
-        },
-        {
-          "lvl": 13,
-          "m": "Mordisco"
-        },
-        {
-          "lvl": 16,
-          "m": "Puño Incremento"
-        },
-        {
-          "lvl": 16,
-          "m": "Giro Bola"
-        },
-        {
-          "lvl": 19,
-          "m": "Bálsamo Osado"
-        },
-        {
-          "lvl": 24,
-          "m": "Torbellino"
-        },
-        {
-          "lvl": 29,
-          "m": "Rabia"
-        },
-        {
-          "lvl": 34,
-          "m": "Semilladora"
-        },
-        {
-          "lvl": 39,
-          "m": "Enfado"
-        },
-        {
-          "lvl": 44,
-          "m": "Puño Cometa"
-        }
-      ],
-      "tmMoves": [
-        "A Defender",
-        "Absorber",
-        "Amnesia",
-        "Atadura",
-        "Campo de Hierba",
-        "Chorro de Vapor",
-        "Ciclón",
-        "Conversión",
-        "Decoración",
-        "Desarme",
-        "Deslome",
-        "Destello",
-        "Doble Golpe",
-        "Finta",
-        "Garra Dragón",
-        "Infortunio",
-        "Lanzarrocas",
-        "Láser Doble",
-        "Lengüetazo",
-        "Malicioso",
-        "Maquinación",
-        "Marcha Espectral",
-        "Megapuño",
-        "Mil Temblores",
-        "Picotazo Veneno",
-        "Placaje",
-        "Plancha",
-        "Psicocarga",
-        "Pulso Cura",
-        "Pulso Dragón",
-        "Puño Cometa",
-        "Puya Nociva",
-        "Rizo Defensa",
-        "Tajo Umbrío",
-        "Tinieblas",
-        "Trampa Venenosa",
-        "Último Lugar",
-        "Voltio Cruel"
-      ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png"
     },
     {
       "nickname": "ABRAMERO",
@@ -5918,15 +5921,15 @@
   ],
   "captures": [
     {
-      "route": "ruta_5",
-      "where": "Ruta 5",
-      "species": "Hypno",
-      "nickname": "DREAMS",
+      "route": "monte_moon",
+      "where": "Monte Moon",
+      "species": "Raticate",
+      "nickname": "PUTA MIERDA2",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 21,
-      "mon": "Hypno"
+      "level": 14,
+      "mon": "Raticate"
     },
     {
       "route": "bosque_verde",
@@ -5971,6 +5974,17 @@
       "category": "salvaje",
       "level": 8,
       "mon": "Sudowoodo"
+    },
+    {
+      "route": "ruta_5",
+      "where": "Ruta 5",
+      "species": "Hypno",
+      "nickname": "DREAMS",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 21,
+      "mon": "Hypno"
     },
     {
       "route": "ruta_3",
@@ -6237,17 +6251,6 @@
       "mon": "Venusaur"
     },
     {
-      "route": "monte_moon",
-      "where": "Monte Moon",
-      "species": "Raticate",
-      "nickname": "PUTA MIERDA2",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 14,
-      "mon": "Raticate"
-    },
-    {
       "route": "ruta_4",
       "where": "Ruta 4",
       "species": "Abra",
@@ -6445,11 +6448,12 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_5": true,
+      "monte_moon": true,
       "bosque_verde": true,
       "tunel_diglett": true,
       "ruta_2_sur": true,
       "ruta_2_norte": true,
+      "ruta_5": true,
       "ruta_3": true,
       "ciudad_carmin": true,
       "monte_moon_exterior": true,
@@ -6468,7 +6472,6 @@
       "ciudad_plateada": true,
       "ciudad_azulona": true,
       "ruta_11": true,
-      "monte_moon": true,
       "ruta_4": true,
       "ruta_7": true,
       "torre_pokemon": true,
