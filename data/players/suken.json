@@ -4,164 +4,8 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 13h 43m jugadas · 222,900₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 13h 45m jugadas · 222,900₽ · vidas en el juego: -1",
   "team": [
-    {
-      "nickname": "EL FLAMAS",
-      "species": "Talonflame",
-      "level": 49,
-      "types": [
-        "Fuego",
-        "Volador"
-      ],
-      "ability": "Unidad Ecuestre",
-      "nature": "Plácida",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Flarembestida",
-        "Danza Acuática",
-        "Hueso Sombrío",
-        "Asta Drenaje"
-      ],
-      "iv": [
-        6,
-        11,
-        28,
-        26,
-        14,
-        20
-      ],
-      "ev": [
-        12,
-        33,
-        27,
-        23,
-        6,
-        23
-      ],
-      "abilPool": [
-        "Unidad Ecuestre"
-      ],
-      "abilHidden": [
-        "Expulsarena"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Rastreo"
-        },
-        {
-          "lvl": 1,
-          "m": "Nieve Polvo"
-        },
-        {
-          "lvl": 1,
-          "m": "Infortunio"
-        },
-        {
-          "lvl": 1,
-          "m": "Deslizamiento"
-        },
-        {
-          "lvl": 1,
-          "m": "Onda Anómala"
-        },
-        {
-          "lvl": 1,
-          "m": "Impactrueno"
-        },
-        {
-          "lvl": 1,
-          "m": "Ráfaga Escamas"
-        },
-        {
-          "lvl": 1,
-          "m": "Transformación"
-        },
-        {
-          "lvl": 15,
-          "m": "Vaho Gélido"
-        },
-        {
-          "lvl": 22,
-          "m": "Electrotela"
-        },
-        {
-          "lvl": 27,
-          "m": "Defensa Férrea"
-        },
-        {
-          "lvl": 29,
-          "m": "Disparo Demora"
-        },
-        {
-          "lvl": 31,
-          "m": "Voto Fuego"
-        },
-        {
-          "lvl": 38,
-          "m": "Alboroto"
-        },
-        {
-          "lvl": 47,
-          "m": "Constricción"
-        },
-        {
-          "lvl": 49,
-          "m": "Tumba Rocas"
-        },
-        {
-          "lvl": 56,
-          "m": "Abrecaminos"
-        },
-        {
-          "lvl": 65,
-          "m": "Bomba Lodo"
-        },
-        {
-          "lvl": 74,
-          "m": "Vuelo"
-        },
-        {
-          "lvl": 83,
-          "m": "Danza Triunfal"
-        }
-      ],
-      "tmMoves": [
-        "A Defender",
-        "Amnesia",
-        "Anclaje",
-        "Atadura",
-        "Bomba Ígnea",
-        "Danza Caos",
-        "Destello",
-        "Eco Metálico",
-        "Espabila",
-        "Finta",
-        "Fuerza Lunar",
-        "Golpe Roca",
-        "Golpe Umbrío",
-        "Gran Ojo",
-        "Infortunio",
-        "Lengüetazo",
-        "Marcha Espectral",
-        "Mirada Heladora",
-        "Moluscañón",
-        "Nitrocarga",
-        "Núcleo Castigo",
-        "Puño Incremento",
-        "Puya Nociva",
-        "Relevo",
-        "Retracción",
-        "Rizo Defensa",
-        "Rodillo de Púas",
-        "Tajo Umbrío",
-        "Tinieblas",
-        "Trampa Venenosa",
-        "Voltio Cruel"
-      ]
-    },
     {
       "nickname": "DERP INVERSO",
       "species": "Clodsire",
@@ -925,6 +769,109 @@
         "Rodillo de Púas",
         "Sol Matinal",
         "Voltio Cruel"
+      ]
+    },
+    {
+      "nickname": "SANDMAN",
+      "species": "Palossand",
+      "level": 35,
+      "types": [
+        "Fantasma",
+        "Tierra"
+      ],
+      "ability": "Maduración",
+      "nature": "Miedosa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Avivar",
+        "Refugio",
+        "Psicorrayo",
+        "Psicohojas"
+      ],
+      "iv": [
+        3,
+        31,
+        5,
+        3,
+        6,
+        3
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Maduración"
+      ],
+      "abilHidden": [
+        "Tinovictoria"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Picotazo Veneno"
+        },
+        {
+          "lvl": 1,
+          "m": "Placaje"
+        },
+        {
+          "lvl": 1,
+          "m": "Desarme"
+        },
+        {
+          "lvl": 1,
+          "m": "Canto Mortal"
+        },
+        {
+          "lvl": 15,
+          "m": "Fijar Blanco"
+        },
+        {
+          "lvl": 20,
+          "m": "Avivar"
+        },
+        {
+          "lvl": 25,
+          "m": "Refugio"
+        },
+        {
+          "lvl": 30,
+          "m": "Psicorrayo"
+        },
+        {
+          "lvl": 35,
+          "m": "Psicohojas"
+        },
+        {
+          "lvl": 40,
+          "m": "Pulpocañón"
+        },
+        {
+          "lvl": 47,
+          "m": "Voto Fuego"
+        },
+        {
+          "lvl": 54,
+          "m": "Psicoonda"
+        },
+        {
+          "lvl": 54,
+          "m": "Agilidad"
+        },
+        {
+          "lvl": 61,
+          "m": "Respiro"
+        },
+        {
+          "lvl": 68,
+          "m": "Psíquico"
+        }
       ]
     }
   ],
@@ -1977,109 +1924,6 @@
       ]
     },
     {
-      "nickname": "ELXOKAS",
-      "species": "Seedot",
-      "level": 22,
-      "types": [
-        "Planta"
-      ],
-      "ability": "Enjambre",
-      "nature": "Floja",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Caída Libre",
-        "Yo Primero",
-        "Campo de Hierba",
-        "Última Palabra"
-      ],
-      "iv": [
-        7,
-        5,
-        16,
-        3,
-        18,
-        9
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Enjambre",
-        "Ímpetu Tóxico"
-      ],
-      "abilHidden": [
-        "Acometida"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Bombardeo"
-        },
-        {
-          "lvl": 1,
-          "m": "Tinieblas"
-        },
-        {
-          "lvl": 3,
-          "m": "Giro Vil"
-        },
-        {
-          "lvl": 6,
-          "m": "Decalcomanía"
-        },
-        {
-          "lvl": 7,
-          "m": "Día de Pago"
-        },
-        {
-          "lvl": 9,
-          "m": "Patada Tropical"
-        },
-        {
-          "lvl": 12,
-          "m": "Truco Floral"
-        },
-        {
-          "lvl": 15,
-          "m": "Caída Libre"
-        },
-        {
-          "lvl": 18,
-          "m": "Yo Primero"
-        },
-        {
-          "lvl": 21,
-          "m": "Campo de Hierba"
-        },
-        {
-          "lvl": 21,
-          "m": "Última Palabra"
-        },
-        {
-          "lvl": 24,
-          "m": "Giro Fuego"
-        },
-        {
-          "lvl": 27,
-          "m": "Halloween"
-        },
-        {
-          "lvl": 30,
-          "m": "Camuflaje"
-        },
-        {
-          "lvl": 33,
-          "m": "Llanto Falso"
-        }
-      ]
-    },
-    {
       "nickname": "DRAGONA",
       "species": "Arctibax",
       "level": 26,
@@ -2983,6 +2827,109 @@
       ]
     },
     {
+      "nickname": "ELXOKAS",
+      "species": "Seedot",
+      "level": 22,
+      "types": [
+        "Planta"
+      ],
+      "ability": "Enjambre",
+      "nature": "Floja",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Caída Libre",
+        "Yo Primero",
+        "Campo de Hierba",
+        "Última Palabra"
+      ],
+      "iv": [
+        7,
+        5,
+        16,
+        3,
+        18,
+        9
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Enjambre",
+        "Ímpetu Tóxico"
+      ],
+      "abilHidden": [
+        "Acometida"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Bombardeo"
+        },
+        {
+          "lvl": 1,
+          "m": "Tinieblas"
+        },
+        {
+          "lvl": 3,
+          "m": "Giro Vil"
+        },
+        {
+          "lvl": 6,
+          "m": "Decalcomanía"
+        },
+        {
+          "lvl": 7,
+          "m": "Día de Pago"
+        },
+        {
+          "lvl": 9,
+          "m": "Patada Tropical"
+        },
+        {
+          "lvl": 12,
+          "m": "Truco Floral"
+        },
+        {
+          "lvl": 15,
+          "m": "Caída Libre"
+        },
+        {
+          "lvl": 18,
+          "m": "Yo Primero"
+        },
+        {
+          "lvl": 21,
+          "m": "Campo de Hierba"
+        },
+        {
+          "lvl": 21,
+          "m": "Última Palabra"
+        },
+        {
+          "lvl": 24,
+          "m": "Giro Fuego"
+        },
+        {
+          "lvl": 27,
+          "m": "Halloween"
+        },
+        {
+          "lvl": 30,
+          "m": "Camuflaje"
+        },
+        {
+          "lvl": 33,
+          "m": "Llanto Falso"
+        }
+      ]
+    },
+    {
       "nickname": "TAZA",
       "species": "Sinistea",
       "level": 23,
@@ -3087,109 +3034,6 @@
         "Isoguardia",
         "Marcha Espectral",
         "Mismo Destino"
-      ]
-    },
-    {
-      "nickname": "SANDMAN",
-      "species": "Palossand",
-      "level": 35,
-      "types": [
-        "Fantasma",
-        "Tierra"
-      ],
-      "ability": "Maduración",
-      "nature": "Miedosa",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Avivar",
-        "Refugio",
-        "Psicorrayo",
-        "Psicohojas"
-      ],
-      "iv": [
-        3,
-        31,
-        5,
-        3,
-        6,
-        3
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Maduración"
-      ],
-      "abilHidden": [
-        "Tinovictoria"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Picotazo Veneno"
-        },
-        {
-          "lvl": 1,
-          "m": "Placaje"
-        },
-        {
-          "lvl": 1,
-          "m": "Desarme"
-        },
-        {
-          "lvl": 1,
-          "m": "Canto Mortal"
-        },
-        {
-          "lvl": 15,
-          "m": "Fijar Blanco"
-        },
-        {
-          "lvl": 20,
-          "m": "Avivar"
-        },
-        {
-          "lvl": 25,
-          "m": "Refugio"
-        },
-        {
-          "lvl": 30,
-          "m": "Psicorrayo"
-        },
-        {
-          "lvl": 35,
-          "m": "Psicohojas"
-        },
-        {
-          "lvl": 40,
-          "m": "Pulpocañón"
-        },
-        {
-          "lvl": 47,
-          "m": "Voto Fuego"
-        },
-        {
-          "lvl": 54,
-          "m": "Psicoonda"
-        },
-        {
-          "lvl": 54,
-          "m": "Agilidad"
-        },
-        {
-          "lvl": 61,
-          "m": "Respiro"
-        },
-        {
-          "lvl": 68,
-          "m": "Psíquico"
-        }
       ]
     },
     {
@@ -5420,6 +5264,162 @@
         "Patada Baja",
         "Puño Incremento"
       ]
+    },
+    {
+      "nickname": "EL FLAMAS",
+      "species": "Talonflame",
+      "level": 49,
+      "types": [
+        "Fuego",
+        "Volador"
+      ],
+      "ability": "Unidad Ecuestre",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Flarembestida",
+        "Danza Acuática",
+        "Hueso Sombrío",
+        "Asta Drenaje"
+      ],
+      "iv": [
+        6,
+        11,
+        28,
+        26,
+        14,
+        20
+      ],
+      "ev": [
+        12,
+        33,
+        27,
+        23,
+        6,
+        23
+      ],
+      "abilPool": [
+        "Unidad Ecuestre"
+      ],
+      "abilHidden": [
+        "Expulsarena"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Rastreo"
+        },
+        {
+          "lvl": 1,
+          "m": "Nieve Polvo"
+        },
+        {
+          "lvl": 1,
+          "m": "Infortunio"
+        },
+        {
+          "lvl": 1,
+          "m": "Deslizamiento"
+        },
+        {
+          "lvl": 1,
+          "m": "Onda Anómala"
+        },
+        {
+          "lvl": 1,
+          "m": "Impactrueno"
+        },
+        {
+          "lvl": 1,
+          "m": "Ráfaga Escamas"
+        },
+        {
+          "lvl": 1,
+          "m": "Transformación"
+        },
+        {
+          "lvl": 15,
+          "m": "Vaho Gélido"
+        },
+        {
+          "lvl": 22,
+          "m": "Electrotela"
+        },
+        {
+          "lvl": 27,
+          "m": "Defensa Férrea"
+        },
+        {
+          "lvl": 29,
+          "m": "Disparo Demora"
+        },
+        {
+          "lvl": 31,
+          "m": "Voto Fuego"
+        },
+        {
+          "lvl": 38,
+          "m": "Alboroto"
+        },
+        {
+          "lvl": 47,
+          "m": "Constricción"
+        },
+        {
+          "lvl": 49,
+          "m": "Tumba Rocas"
+        },
+        {
+          "lvl": 56,
+          "m": "Abrecaminos"
+        },
+        {
+          "lvl": 65,
+          "m": "Bomba Lodo"
+        },
+        {
+          "lvl": 74,
+          "m": "Vuelo"
+        },
+        {
+          "lvl": 83,
+          "m": "Danza Triunfal"
+        }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Amnesia",
+        "Anclaje",
+        "Atadura",
+        "Bomba Ígnea",
+        "Danza Caos",
+        "Destello",
+        "Eco Metálico",
+        "Espabila",
+        "Finta",
+        "Fuerza Lunar",
+        "Golpe Roca",
+        "Golpe Umbrío",
+        "Gran Ojo",
+        "Infortunio",
+        "Lengüetazo",
+        "Marcha Espectral",
+        "Mirada Heladora",
+        "Moluscañón",
+        "Nitrocarga",
+        "Núcleo Castigo",
+        "Puño Incremento",
+        "Puya Nociva",
+        "Relevo",
+        "Retracción",
+        "Rizo Defensa",
+        "Rodillo de Púas",
+        "Tajo Umbrío",
+        "Tinieblas",
+        "Trampa Venenosa",
+        "Voltio Cruel"
+      ]
     }
   ],
   "graveyard": [
@@ -5789,17 +5789,6 @@
   ],
   "captures": [
     {
-      "route": "",
-      "where": "Casino Azulona",
-      "species": "Talonflame",
-      "nickname": "EL FLAMAS",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 35,
-      "mon": "Talonflame"
-    },
-    {
       "route": "tunel_diglett",
       "where": "Túnel Diglett",
       "species": "Clodsire",
@@ -5853,6 +5842,17 @@
       "category": "salvaje",
       "level": 7,
       "mon": "Brambleghast"
+    },
+    {
+      "route": "ciudad_azulona",
+      "where": "Ciudad Azulona",
+      "species": "Palossand",
+      "nickname": "SANDMAN",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 35,
+      "mon": "Palossand"
     },
     {
       "route": "ruta_3",
@@ -5965,17 +5965,6 @@
       "mon": "Dewott"
     },
     {
-      "route": "ruta_15",
-      "where": "Ruta 15",
-      "species": "Seedot",
-      "nickname": "ELXOKAS",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 22,
-      "mon": "Seedot"
-    },
-    {
       "route": "ruta_10_norte",
       "where": "Ruta 10 Norte",
       "species": "Arctibax",
@@ -6064,6 +6053,17 @@
       "mon": "Marowak"
     },
     {
+      "route": "ruta_15",
+      "where": "Ruta 15",
+      "species": "Seedot",
+      "nickname": "ELXOKAS",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 22,
+      "mon": "Seedot"
+    },
+    {
       "route": "ciudad_plateada",
       "where": "Ciudad Plateada",
       "species": "Sinistea",
@@ -6073,17 +6073,6 @@
       "category": "ciudad",
       "level": 9,
       "mon": "Sinistea"
-    },
-    {
-      "route": "ciudad_azulona",
-      "where": "Ciudad Azulona",
-      "species": "Palossand",
-      "nickname": "SANDMAN",
-      "shiny": false,
-      "status": "captured",
-      "category": "ciudad",
-      "level": 35,
-      "mon": "Palossand"
     },
     {
       "route": "ruta_11",
@@ -6273,6 +6262,17 @@
       "mon": "Poltchageist"
     },
     {
+      "route": "",
+      "where": "Casino Azulona",
+      "species": "Talonflame",
+      "nickname": "EL FLAMAS",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 35,
+      "mon": "Talonflame"
+    },
+    {
       "route": "ciudad_verde",
       "where": "Ciudad Verde",
       "species": "Diggersby",
@@ -6321,6 +6321,7 @@
       "ruta_2_norte": true,
       "ruta_5": true,
       "bosque_verde": true,
+      "ciudad_azulona": true,
       "ruta_3": true,
       "ciudad_carmin": true,
       "monte_moon_exterior": true,
@@ -6328,15 +6329,14 @@
       "ruta_21": true,
       "ruta_12": true,
       "ruta_6": true,
-      "ruta_15": true,
       "ruta_10_norte": true,
       "ruta_20": true,
       "tunel_roca": true,
       "ruta_10_sur": true,
       "pueblo_lavanda": true,
       "ruta_8": true,
+      "ruta_15": true,
       "ciudad_plateada": true,
-      "ciudad_azulona": true,
       "ruta_11": true,
       "ruta_1": true,
       "ruta_4": true,
