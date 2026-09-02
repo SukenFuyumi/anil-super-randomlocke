@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 13h 45m jugadas · 222,900₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 13h 47m jugadas · 222,900₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "DERP INVERSO",
@@ -769,109 +769,6 @@
         "Rodillo de Púas",
         "Sol Matinal",
         "Voltio Cruel"
-      ]
-    },
-    {
-      "nickname": "SANDMAN",
-      "species": "Palossand",
-      "level": 35,
-      "types": [
-        "Fantasma",
-        "Tierra"
-      ],
-      "ability": "Maduración",
-      "nature": "Miedosa",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Avivar",
-        "Refugio",
-        "Psicorrayo",
-        "Psicohojas"
-      ],
-      "iv": [
-        3,
-        31,
-        5,
-        3,
-        6,
-        3
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Maduración"
-      ],
-      "abilHidden": [
-        "Tinovictoria"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Picotazo Veneno"
-        },
-        {
-          "lvl": 1,
-          "m": "Placaje"
-        },
-        {
-          "lvl": 1,
-          "m": "Desarme"
-        },
-        {
-          "lvl": 1,
-          "m": "Canto Mortal"
-        },
-        {
-          "lvl": 15,
-          "m": "Fijar Blanco"
-        },
-        {
-          "lvl": 20,
-          "m": "Avivar"
-        },
-        {
-          "lvl": 25,
-          "m": "Refugio"
-        },
-        {
-          "lvl": 30,
-          "m": "Psicorrayo"
-        },
-        {
-          "lvl": 35,
-          "m": "Psicohojas"
-        },
-        {
-          "lvl": 40,
-          "m": "Pulpocañón"
-        },
-        {
-          "lvl": 47,
-          "m": "Voto Fuego"
-        },
-        {
-          "lvl": 54,
-          "m": "Psicoonda"
-        },
-        {
-          "lvl": 54,
-          "m": "Agilidad"
-        },
-        {
-          "lvl": 61,
-          "m": "Respiro"
-        },
-        {
-          "lvl": 68,
-          "m": "Psíquico"
-        }
       ]
     }
   ],
@@ -3034,6 +2931,142 @@
         "Isoguardia",
         "Marcha Espectral",
         "Mismo Destino"
+      ]
+    },
+    {
+      "nickname": "SANDMAN",
+      "species": "Palossand",
+      "level": 49,
+      "types": [
+        "Fantasma",
+        "Tierra"
+      ],
+      "ability": "Maduración",
+      "nature": "Miedosa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Desarme",
+        "Mil Temblores",
+        "Psicorrayo",
+        "Canto Mortal"
+      ],
+      "iv": [
+        3,
+        31,
+        5,
+        3,
+        6,
+        3
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Maduración"
+      ],
+      "abilHidden": [
+        "Tinovictoria"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Picotazo Veneno"
+        },
+        {
+          "lvl": 1,
+          "m": "Placaje"
+        },
+        {
+          "lvl": 1,
+          "m": "Desarme"
+        },
+        {
+          "lvl": 1,
+          "m": "Canto Mortal"
+        },
+        {
+          "lvl": 15,
+          "m": "Fijar Blanco"
+        },
+        {
+          "lvl": 20,
+          "m": "Avivar"
+        },
+        {
+          "lvl": 25,
+          "m": "Refugio"
+        },
+        {
+          "lvl": 30,
+          "m": "Psicorrayo"
+        },
+        {
+          "lvl": 35,
+          "m": "Psicohojas"
+        },
+        {
+          "lvl": 40,
+          "m": "Pulpocañón"
+        },
+        {
+          "lvl": 47,
+          "m": "Voto Fuego"
+        },
+        {
+          "lvl": 54,
+          "m": "Psicoonda"
+        },
+        {
+          "lvl": 54,
+          "m": "Agilidad"
+        },
+        {
+          "lvl": 61,
+          "m": "Respiro"
+        },
+        {
+          "lvl": 68,
+          "m": "Psíquico"
+        }
+      ],
+      "tmMoves": [
+        "Amnesia",
+        "Bomba Ígnea",
+        "Campo de Hierba",
+        "Chorro de Vapor",
+        "Ciclón",
+        "Conversión",
+        "Deslome",
+        "Destello",
+        "Electropico",
+        "Espabila",
+        "Garra Dragón",
+        "Hueso Sombrío",
+        "Infortunio",
+        "Isoguardia",
+        "Lengüetazo",
+        "Malicioso",
+        "Mil Temblores",
+        "Mirada Heladora",
+        "Mismo Destino",
+        "Moluscañón",
+        "Picotazo Veneno",
+        "Placaje",
+        "Plancha",
+        "Psicocarga",
+        "Pulso Cura",
+        "Puño Cometa",
+        "Represalia",
+        "Rodillo de Púas",
+        "Tinieblas",
+        "Trampa Venenosa",
+        "Transformación"
       ]
     },
     {
@@ -5844,17 +5877,6 @@
       "mon": "Brambleghast"
     },
     {
-      "route": "ciudad_azulona",
-      "where": "Ciudad Azulona",
-      "species": "Palossand",
-      "nickname": "SANDMAN",
-      "shiny": false,
-      "status": "captured",
-      "category": "ciudad",
-      "level": 35,
-      "mon": "Palossand"
-    },
-    {
       "route": "ruta_3",
       "where": "Ruta 3",
       "species": "Cascoon",
@@ -6073,6 +6095,17 @@
       "category": "ciudad",
       "level": 9,
       "mon": "Sinistea"
+    },
+    {
+      "route": "ciudad_azulona",
+      "where": "Ciudad Azulona",
+      "species": "Palossand",
+      "nickname": "SANDMAN",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 35,
+      "mon": "Palossand"
     },
     {
       "route": "ruta_11",
@@ -6321,7 +6354,6 @@
       "ruta_2_norte": true,
       "ruta_5": true,
       "bosque_verde": true,
-      "ciudad_azulona": true,
       "ruta_3": true,
       "ciudad_carmin": true,
       "monte_moon_exterior": true,
@@ -6337,6 +6369,7 @@
       "ruta_8": true,
       "ruta_15": true,
       "ciudad_plateada": true,
+      "ciudad_azulona": true,
       "ruta_11": true,
       "ruta_1": true,
       "ruta_4": true,
