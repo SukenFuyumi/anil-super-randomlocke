@@ -4,172 +4,134 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 14h 21m jugadas · 228,080₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 14h 22m jugadas · 228,080₽ · vidas en el juego: -1",
   "team": [
     {
-      "nickname": "PUTA MIERDA2",
-      "species": "Raticate (Alola)",
-      "level": 49,
+      "nickname": "SMEGMA",
+      "species": "Slugma",
+      "level": 30,
       "types": [
-        "Siniestro",
-        "Normal"
+        "Fuego"
       ],
-      "ability": "Garra Dura",
-      "nature": "Plácida",
-      "item": "Garra Afilada",
+      "ability": "Puño Invisible",
+      "nature": "Afable",
+      "item": "",
       "shiny": false,
       "moves": [
-        "Rodillo de Púas",
-        "Asalto Barrera",
-        "Tajo Umbrío",
-        "Daño Secreto"
+        "Marcha Espectral",
+        "Golpe Bajo",
+        "Pirotecnia",
+        "Sol Matinal"
       ],
       "iv": [
-        28,
-        18,
-        14,
         12,
-        3,
-        9
+        18,
+        21,
+        10,
+        14,
+        13
       ],
       "ev": [
-        25,
-        132,
-        52,
-        56,
-        35,
-        60
+        13,
+        14,
+        8,
+        22,
+        9,
+        15
       ],
       "abilPool": [
-        "Trampa Arena",
-        "Garra Dura"
+        "Puño Invisible",
+        "Piel Seca"
       ],
       "abilHidden": [
-        "Iceberg"
+        "Poder Gélido"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Vasta Guardia"
+          "m": "Daño Secreto"
         },
         {
           "lvl": 1,
-          "m": "Asalto Barrera"
+          "m": "Gas Venenoso"
         },
         {
-          "lvl": 1,
-          "m": "Legado"
+          "lvl": 6,
+          "m": "Pirotecnia"
         },
         {
-          "lvl": 1,
-          "m": "Deseo"
-        },
-        {
-          "lvl": 1,
-          "m": "Metrónomo"
-        },
-        {
-          "lvl": 1,
-          "m": "Esquema"
-        },
-        {
-          "lvl": 1,
-          "m": "Ofrenda"
-        },
-        {
-          "lvl": 4,
-          "m": "Viento Feérico"
-        },
-        {
-          "lvl": 7,
-          "m": "Ronquido"
-        },
-        {
-          "lvl": 10,
-          "m": "Conjuro"
+          "lvl": 8,
+          "m": "Ultrapuño"
         },
         {
           "lvl": 13,
-          "m": "Canon"
+          "m": "Giro Fuego"
         },
         {
-          "lvl": 13,
-          "m": "Mordisco"
+          "lvl": 20,
+          "m": "Golpe Bajo"
         },
         {
-          "lvl": 16,
-          "m": "Puño Incremento"
+          "lvl": 22,
+          "m": "Vendetta"
         },
         {
-          "lvl": 16,
-          "m": "Giro Bola"
+          "lvl": 23,
+          "m": "Colmillo Ígneo"
         },
         {
-          "lvl": 19,
-          "m": "Bálsamo Osado"
-        },
-        {
-          "lvl": 24,
-          "m": "Torbellino"
+          "lvl": 27,
+          "m": "Decalcomanía"
         },
         {
           "lvl": 29,
-          "m": "Rabia"
+          "m": "Escudo Tatami"
         },
         {
           "lvl": 34,
-          "m": "Semilladora"
+          "m": "Decoración"
         },
         {
-          "lvl": 39,
-          "m": "Enfado"
+          "lvl": 36,
+          "m": "Sylveotornado"
         },
         {
-          "lvl": 44,
-          "m": "Puño Cometa"
+          "lvl": 41,
+          "m": "Adaptación"
+        },
+        {
+          "lvl": 43,
+          "m": "Salmuera"
+        },
+        {
+          "lvl": 48,
+          "m": "Espeaura"
+        },
+        {
+          "lvl": 50,
+          "m": "Pirochoque"
         }
       ],
       "tmMoves": [
-        "A Defender",
         "Absorber",
-        "Amnesia",
         "Atadura",
-        "Campo de Hierba",
-        "Chorro de Vapor",
-        "Ciclón",
-        "Conversión",
-        "Decoración",
-        "Desarme",
-        "Deslome",
-        "Destello",
-        "Doble Golpe",
-        "Finta",
-        "Garra Dragón",
-        "Infortunio",
+        "Carámbano",
+        "Eco Metálico",
+        "Espabila",
+        "Golpe Roca",
+        "Gran Ojo",
+        "Isoguardia",
         "Lanzarrocas",
-        "Láser Doble",
         "Lengüetazo",
-        "Malicioso",
-        "Maquinación",
         "Marcha Espectral",
-        "Megapuño",
-        "Mil Temblores",
-        "Picotazo Veneno",
+        "Nitrocarga",
+        "Patada Baja",
         "Placaje",
-        "Plancha",
-        "Psicocarga",
-        "Pulso Cura",
-        "Pulso Dragón",
         "Puño Cometa",
-        "Puya Nociva",
+        "Puño Incremento",
         "Rizo Defensa",
-        "Tajo Umbrío",
-        "Tinieblas",
-        "Trampa Venenosa",
-        "Último Lugar",
-        "Voltio Cruel"
-      ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png"
+        "Sol Matinal"
+      ]
     },
     {
       "nickname": "DREAMS",
@@ -3532,131 +3494,169 @@
       ]
     },
     {
-      "nickname": "SMEGMA",
-      "species": "Slugma",
-      "level": 30,
+      "nickname": "PUTA MIERDA2",
+      "species": "Raticate (Alola)",
+      "level": 49,
       "types": [
-        "Fuego"
+        "Siniestro",
+        "Normal"
       ],
-      "ability": "Puño Invisible",
-      "nature": "Afable",
-      "item": "",
+      "ability": "Garra Dura",
+      "nature": "Plácida",
+      "item": "Garra Afilada",
       "shiny": false,
       "moves": [
-        "Marcha Espectral",
-        "Golpe Bajo",
-        "Pirotecnia",
-        "Sol Matinal"
+        "Rodillo de Púas",
+        "Asalto Barrera",
+        "Tajo Umbrío",
+        "Daño Secreto"
       ],
       "iv": [
-        12,
+        28,
         18,
-        21,
-        10,
         14,
-        13
+        12,
+        3,
+        9
       ],
       "ev": [
-        13,
-        14,
-        8,
-        22,
-        9,
-        15
+        25,
+        132,
+        52,
+        56,
+        35,
+        60
       ],
       "abilPool": [
-        "Puño Invisible",
-        "Piel Seca"
+        "Trampa Arena",
+        "Garra Dura"
       ],
       "abilHidden": [
-        "Poder Gélido"
+        "Iceberg"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Daño Secreto"
+          "m": "Vasta Guardia"
         },
         {
           "lvl": 1,
-          "m": "Gas Venenoso"
+          "m": "Asalto Barrera"
         },
         {
-          "lvl": 6,
-          "m": "Pirotecnia"
+          "lvl": 1,
+          "m": "Legado"
         },
         {
-          "lvl": 8,
-          "m": "Ultrapuño"
+          "lvl": 1,
+          "m": "Deseo"
+        },
+        {
+          "lvl": 1,
+          "m": "Metrónomo"
+        },
+        {
+          "lvl": 1,
+          "m": "Esquema"
+        },
+        {
+          "lvl": 1,
+          "m": "Ofrenda"
+        },
+        {
+          "lvl": 4,
+          "m": "Viento Feérico"
+        },
+        {
+          "lvl": 7,
+          "m": "Ronquido"
+        },
+        {
+          "lvl": 10,
+          "m": "Conjuro"
         },
         {
           "lvl": 13,
-          "m": "Giro Fuego"
+          "m": "Canon"
         },
         {
-          "lvl": 20,
-          "m": "Golpe Bajo"
+          "lvl": 13,
+          "m": "Mordisco"
         },
         {
-          "lvl": 22,
-          "m": "Vendetta"
+          "lvl": 16,
+          "m": "Puño Incremento"
         },
         {
-          "lvl": 23,
-          "m": "Colmillo Ígneo"
+          "lvl": 16,
+          "m": "Giro Bola"
         },
         {
-          "lvl": 27,
-          "m": "Decalcomanía"
+          "lvl": 19,
+          "m": "Bálsamo Osado"
+        },
+        {
+          "lvl": 24,
+          "m": "Torbellino"
         },
         {
           "lvl": 29,
-          "m": "Escudo Tatami"
+          "m": "Rabia"
         },
         {
           "lvl": 34,
-          "m": "Decoración"
+          "m": "Semilladora"
         },
         {
-          "lvl": 36,
-          "m": "Sylveotornado"
+          "lvl": 39,
+          "m": "Enfado"
         },
         {
-          "lvl": 41,
-          "m": "Adaptación"
-        },
-        {
-          "lvl": 43,
-          "m": "Salmuera"
-        },
-        {
-          "lvl": 48,
-          "m": "Espeaura"
-        },
-        {
-          "lvl": 50,
-          "m": "Pirochoque"
+          "lvl": 44,
+          "m": "Puño Cometa"
         }
       ],
       "tmMoves": [
+        "A Defender",
         "Absorber",
+        "Amnesia",
         "Atadura",
-        "Carámbano",
-        "Eco Metálico",
-        "Espabila",
-        "Golpe Roca",
-        "Gran Ojo",
-        "Isoguardia",
+        "Campo de Hierba",
+        "Chorro de Vapor",
+        "Ciclón",
+        "Conversión",
+        "Decoración",
+        "Desarme",
+        "Deslome",
+        "Destello",
+        "Doble Golpe",
+        "Finta",
+        "Garra Dragón",
+        "Infortunio",
         "Lanzarrocas",
+        "Láser Doble",
         "Lengüetazo",
+        "Malicioso",
+        "Maquinación",
         "Marcha Espectral",
-        "Nitrocarga",
-        "Patada Baja",
+        "Megapuño",
+        "Mil Temblores",
+        "Picotazo Veneno",
         "Placaje",
+        "Plancha",
+        "Psicocarga",
+        "Pulso Cura",
+        "Pulso Dragón",
         "Puño Cometa",
-        "Puño Incremento",
+        "Puya Nociva",
         "Rizo Defensa",
-        "Sol Matinal"
-      ]
+        "Tajo Umbrío",
+        "Tinieblas",
+        "Trampa Venenosa",
+        "Último Lugar",
+        "Voltio Cruel"
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png"
     },
     {
       "nickname": "ABRAMERO",
@@ -5872,15 +5872,15 @@
   ],
   "captures": [
     {
-      "route": "monte_moon",
-      "where": "Monte Moon",
-      "species": "Raticate",
-      "nickname": "PUTA MIERDA2",
+      "route": "ruta_1",
+      "where": "Ruta 1",
+      "species": "Slugma",
+      "nickname": "SMEGMA",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 14,
-      "mon": "Raticate"
+      "level": 5,
+      "mon": "Slugma"
     },
     {
       "route": "ruta_5",
@@ -6191,15 +6191,15 @@
       "mon": "Ivysaur"
     },
     {
-      "route": "ruta_1",
-      "where": "Ruta 1",
-      "species": "Slugma",
-      "nickname": "SMEGMA",
+      "route": "monte_moon",
+      "where": "Monte Moon",
+      "species": "Raticate",
+      "nickname": "PUTA MIERDA2",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 5,
-      "mon": "Slugma"
+      "level": 14,
+      "mon": "Raticate"
     },
     {
       "route": "ruta_4",
@@ -6399,7 +6399,7 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "monte_moon": true,
+      "ruta_1": true,
       "ruta_5": true,
       "bosque_verde": true,
       "tunel_diglett": true,
@@ -6422,7 +6422,7 @@
       "ciudad_plateada": true,
       "ciudad_azulona": true,
       "ruta_11": true,
-      "ruta_1": true,
+      "monte_moon": true,
       "ruta_4": true,
       "ruta_7": true,
       "torre_pokemon": true,
