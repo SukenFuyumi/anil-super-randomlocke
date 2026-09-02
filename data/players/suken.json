@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 14h 22m jugadas · 228,080₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 14h 24m jugadas · 228,080₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "SMEGMA",
@@ -19,9 +19,9 @@
       "shiny": false,
       "moves": [
         "Marcha Espectral",
-        "Golpe Bajo",
-        "Pirotecnia",
-        "Sol Matinal"
+        "Moluscañón",
+        "Bomba Ígnea",
+        "Flarembestida"
       ],
       "iv": [
         12,
@@ -114,22 +114,40 @@
       ],
       "tmMoves": [
         "Absorber",
+        "Alud",
+        "Asta Drenaje",
         "Atadura",
+        "Bomba Ígnea",
+        "Cabeza Sorpresa",
         "Carámbano",
+        "Ciclón",
+        "Confusión",
+        "Desarme",
+        "Deslome",
+        "Destello",
         "Eco Metálico",
         "Espabila",
+        "Flarembestida",
+        "Fotosíntesis",
         "Golpe Roca",
         "Gran Ojo",
         "Isoguardia",
         "Lanzarrocas",
         "Lengüetazo",
+        "Malicioso",
         "Marcha Espectral",
+        "Moluscañón",
         "Nitrocarga",
         "Patada Baja",
         "Placaje",
+        "Pulso Cura",
         "Puño Cometa",
         "Puño Incremento",
+        "Puya Nociva",
+        "Relevo",
+        "Represalia",
         "Rizo Defensa",
+        "Rodillo de Púas",
         "Sol Matinal"
       ]
     },
