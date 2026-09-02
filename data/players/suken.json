@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 13h 14m jugadas · 216,900₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 13h 18m jugadas · 216,900₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "DREAMS",
@@ -764,30 +764,30 @@
       ]
     },
     {
-      "nickname": "CERBERO",
-      "species": "Houndoom",
+      "nickname": "MIRACULOS",
+      "species": "Orbeetle",
       "level": 2,
       "types": [
-        "Siniestro",
-        "Fuego"
+        "Bicho",
+        "Psíquico"
       ],
-      "ability": "Nebulogénesis",
+      "ability": "Pareja de Baile",
       "nature": "Modesta",
       "item": "",
       "shiny": false,
       "moves": [
-        "Represión Metal",
-        "Danza Lluvia",
-        "Chulería",
-        "Alud"
+        "Alarido",
+        "Finta",
+        "Gran Ojo",
+        "Torbellino"
       ],
       "iv": [
+        28,
+        19,
+        11,
         2,
         5,
-        13,
-        19,
-        7,
-        18
+        25
       ],
       "ev": [
         0,
@@ -798,104 +798,83 @@
         0
       ],
       "abilPool": [
-        "Robustez",
-        "Nebulogénesis"
+        "Pareja de Baile"
       ],
       "abilHidden": [
-        "Presión"
+        "Iluminación"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Fría Acogida"
+          "m": "Alarido"
         },
         {
           "lvl": 1,
-          "m": "Viento Aciago"
+          "m": "Finta"
         },
         {
           "lvl": 1,
-          "m": "Represión Metal"
+          "m": "Gran Ojo"
         },
         {
           "lvl": 1,
-          "m": "Danza Lluvia"
+          "m": "Torbellino"
         },
         {
-          "lvl": 1,
-          "m": "Chulería"
+          "lvl": 4,
+          "m": "Ojitos Tiernos"
         },
         {
-          "lvl": 1,
-          "m": "Alud"
+          "lvl": 8,
+          "m": "Meteoros"
         },
         {
-          "lvl": 13,
-          "m": "Paisaje Nevado"
+          "lvl": 12,
+          "m": "Tajo Acuático"
         },
         {
           "lvl": 16,
-          "m": "Gravedad"
+          "m": "Cambiapoder"
         },
         {
           "lvl": 20,
-          "m": "Cambiadefensa"
-        },
-        {
-          "lvl": 20,
-          "m": "Trapicheo"
-        },
-        {
-          "lvl": 20,
-          "m": "Buena Baza"
-        },
-        {
-          "lvl": 26,
-          "m": "Trampa Rocas"
-        },
-        {
-          "lvl": 30,
-          "m": "Púas"
-        },
-        {
-          "lvl": 35,
-          "m": "Ala de Acero"
-        },
-        {
-          "lvl": 35,
-          "m": "Tajo Cruzado"
-        },
-        {
-          "lvl": 35,
-          "m": "Anillo Ígneo"
-        },
-        {
-          "lvl": 41,
-          "m": "Asalto Espadón"
-        },
-        {
-          "lvl": 41,
           "m": "Decoración"
         },
         {
-          "lvl": 45,
-          "m": "Pirotecnia"
+          "lvl": 24,
+          "m": "Rodillo de Púas"
         },
         {
-          "lvl": 47,
-          "m": "Liofilización"
+          "lvl": 28,
+          "m": "Cerrojo Feérico"
         },
         {
-          "lvl": 50,
-          "m": "Manos Juntas"
+          "lvl": 32,
+          "m": "Cambiafuerza"
         },
         {
-          "lvl": 56,
-          "m": "Nitrochoque"
+          "lvl": 34,
+          "m": "Brillo Mágico"
         },
         {
-          "lvl": 62,
-          "m": "Aerochorro"
+          "lvl": 36,
+          "m": "Fitoimpulso"
+        },
+        {
+          "lvl": 36,
+          "m": "Bomba Ígnea"
+        },
+        {
+          "lvl": 40,
+          "m": "Hoja Aguda"
+        },
+        {
+          "lvl": 44,
+          "m": "Rueda Aural"
+        },
+        {
+          "lvl": 48,
+          "m": "Llama Embrujada"
         }
       ]
     }
@@ -4501,30 +4480,30 @@
       ]
     },
     {
-      "nickname": "MIRACULOS",
-      "species": "Orbeetle",
+      "nickname": "CERBERO",
+      "species": "Houndoom",
       "level": 2,
       "types": [
-        "Bicho",
-        "Psíquico"
+        "Siniestro",
+        "Fuego"
       ],
-      "ability": "Pareja de Baile",
+      "ability": "Nebulogénesis",
       "nature": "Modesta",
       "item": "",
       "shiny": false,
       "moves": [
-        "Alarido",
-        "Finta",
-        "Gran Ojo",
-        "Torbellino"
+        "Represión Metal",
+        "Danza Lluvia",
+        "Chulería",
+        "Alud"
       ],
       "iv": [
-        28,
-        19,
-        11,
         2,
         5,
-        25
+        13,
+        19,
+        7,
+        18
       ],
       "ev": [
         0,
@@ -4535,84 +4514,139 @@
         0
       ],
       "abilPool": [
-        "Pareja de Baile"
+        "Robustez",
+        "Nebulogénesis"
       ],
       "abilHidden": [
-        "Iluminación"
+        "Presión"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Alarido"
+          "m": "Fría Acogida"
         },
         {
           "lvl": 1,
-          "m": "Finta"
+          "m": "Viento Aciago"
         },
         {
           "lvl": 1,
-          "m": "Gran Ojo"
+          "m": "Represión Metal"
         },
         {
           "lvl": 1,
-          "m": "Torbellino"
+          "m": "Danza Lluvia"
         },
         {
-          "lvl": 4,
-          "m": "Ojitos Tiernos"
+          "lvl": 1,
+          "m": "Chulería"
         },
         {
-          "lvl": 8,
-          "m": "Meteoros"
+          "lvl": 1,
+          "m": "Alud"
         },
         {
-          "lvl": 12,
-          "m": "Tajo Acuático"
+          "lvl": 13,
+          "m": "Paisaje Nevado"
         },
         {
           "lvl": 16,
-          "m": "Cambiapoder"
+          "m": "Gravedad"
         },
         {
           "lvl": 20,
+          "m": "Cambiadefensa"
+        },
+        {
+          "lvl": 20,
+          "m": "Trapicheo"
+        },
+        {
+          "lvl": 20,
+          "m": "Buena Baza"
+        },
+        {
+          "lvl": 26,
+          "m": "Trampa Rocas"
+        },
+        {
+          "lvl": 30,
+          "m": "Púas"
+        },
+        {
+          "lvl": 35,
+          "m": "Ala de Acero"
+        },
+        {
+          "lvl": 35,
+          "m": "Tajo Cruzado"
+        },
+        {
+          "lvl": 35,
+          "m": "Anillo Ígneo"
+        },
+        {
+          "lvl": 41,
+          "m": "Asalto Espadón"
+        },
+        {
+          "lvl": 41,
           "m": "Decoración"
         },
         {
-          "lvl": 24,
-          "m": "Rodillo de Púas"
+          "lvl": 45,
+          "m": "Pirotecnia"
         },
         {
-          "lvl": 28,
-          "m": "Cerrojo Feérico"
+          "lvl": 47,
+          "m": "Liofilización"
         },
         {
-          "lvl": 32,
-          "m": "Cambiafuerza"
+          "lvl": 50,
+          "m": "Manos Juntas"
         },
         {
-          "lvl": 34,
-          "m": "Brillo Mágico"
+          "lvl": 56,
+          "m": "Nitrochoque"
         },
         {
-          "lvl": 36,
-          "m": "Fitoimpulso"
-        },
-        {
-          "lvl": 36,
-          "m": "Bomba Ígnea"
-        },
-        {
-          "lvl": 40,
-          "m": "Hoja Aguda"
-        },
-        {
-          "lvl": 44,
-          "m": "Rueda Aural"
-        },
-        {
-          "lvl": 48,
-          "m": "Llama Embrujada"
+          "lvl": 62,
+          "m": "Aerochorro"
         }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Alud",
+        "Asta Drenaje",
+        "Bomba Ígnea",
+        "Cadena Virulenta",
+        "Carámbano",
+        "Chorro de Vapor",
+        "Ciclón",
+        "Conversión",
+        "Danza Acuática",
+        "Danza Caos",
+        "Decoración",
+        "Desarme",
+        "Deslome",
+        "Destello",
+        "Embate Supremo",
+        "Flarembestida",
+        "Fuerza Lunar",
+        "Golpe Roca",
+        "Láser Doble",
+        "Malicioso",
+        "Marcha Espectral",
+        "Moluscañón",
+        "Niebla Aromática",
+        "Picotazo Veneno",
+        "Placaje",
+        "Psicocarga",
+        "Retracción",
+        "Rodillo de Púas",
+        "Sol Matinal",
+        "Tajo Umbrío",
+        "Transformación"
       ]
     },
     {
@@ -5771,13 +5805,13 @@
     {
       "route": "pueblo_paleta",
       "where": "Pueblo Paleta",
-      "species": "Houndoom",
-      "nickname": "CERBERO",
+      "species": "Orbeetle",
+      "nickname": "MIRACULOS",
       "shiny": false,
       "status": "captured",
       "category": "ciudad",
       "level": 2,
-      "mon": "Houndoom"
+      "mon": "Orbeetle"
     },
     {
       "route": "ruta_3",
@@ -6123,13 +6157,13 @@
     {
       "route": "pueblo_paleta",
       "where": "Pueblo Paleta",
-      "species": "Orbeetle",
-      "nickname": "MIRACULOS",
+      "species": "Houndoom",
+      "nickname": "CERBERO",
       "shiny": false,
       "status": "captured",
       "category": "ciudad",
       "level": 2,
-      "mon": "Orbeetle"
+      "mon": "Houndoom"
     },
     {
       "route": "",
