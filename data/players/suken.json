@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 14h 34m jugadas · 228,080₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 14h 35m jugadas · 228,080₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "DREAMS",
@@ -769,163 +769,6 @@
         "Tinieblas",
         "Trampa Venenosa",
         "Último Lugar"
-      ]
-    },
-    {
-      "nickname": "TECATA",
-      "species": "Venusaur",
-      "level": 49,
-      "types": [
-        "Planta",
-        "Veneno"
-      ],
-      "ability": "Receptor",
-      "nature": "Plácida",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Cadena Virulenta",
-        "Bostezo",
-        "Ciclón de Hojas",
-        "Fotosíntesis"
-      ],
-      "iv": [
-        29,
-        3,
-        0,
-        13,
-        12,
-        14
-      ],
-      "ev": [
-        16,
-        16,
-        20,
-        21,
-        7,
-        23
-      ],
-      "abilPool": [
-        "Receptor"
-      ],
-      "abilHidden": [
-        "Encadenado"
-      ],
-      "learnset": [
-        {
-          "lvl": -1,
-          "m": "Anticipo"
-        },
-        {
-          "lvl": 1,
-          "m": "Ciclón de Hojas"
-        },
-        {
-          "lvl": 1,
-          "m": "Tornado"
-        },
-        {
-          "lvl": 1,
-          "m": "Purificación"
-        },
-        {
-          "lvl": 1,
-          "m": "Beso Amoroso"
-        },
-        {
-          "lvl": 1,
-          "m": "Calamidad"
-        },
-        {
-          "lvl": 9,
-          "m": "Giro Fuego"
-        },
-        {
-          "lvl": 12,
-          "m": "Homenaje Póstumo"
-        },
-        {
-          "lvl": 15,
-          "m": "Detección"
-        },
-        {
-          "lvl": 15,
-          "m": "Cuchillada"
-        },
-        {
-          "lvl": 20,
-          "m": "Danza Amiga"
-        },
-        {
-          "lvl": 25,
-          "m": "Follaje"
-        },
-        {
-          "lvl": 30,
-          "m": "Capa Mágica"
-        },
-        {
-          "lvl": 36,
-          "m": "Beso Drenaje"
-        },
-        {
-          "lvl": 37,
-          "m": "Triataque"
-        },
-        {
-          "lvl": 39,
-          "m": "Pirueta Helada"
-        },
-        {
-          "lvl": 44,
-          "m": "Viento Afín"
-        },
-        {
-          "lvl": 51,
-          "m": "Garra Dragón"
-        },
-        {
-          "lvl": 51,
-          "m": "Enrosque"
-        },
-        {
-          "lvl": 58,
-          "m": "Llama Fusión"
-        }
-      ],
-      "tmMoves": [
-        "A Defender",
-        "Absorber",
-        "Alud",
-        "Amnesia",
-        "Anclaje",
-        "Asta Drenaje",
-        "Atadura",
-        "Bomba Ígnea",
-        "Cabeza Sorpresa",
-        "Cadena Virulenta",
-        "Carámbano",
-        "Conversión",
-        "Destello",
-        "Doble Golpe",
-        "Eco Metálico",
-        "Espabila",
-        "Fotosíntesis",
-        "Hoja Aguda",
-        "Lanzarrocas",
-        "Lengüetazo",
-        "Malicioso",
-        "Marcha Espectral",
-        "Megapuño",
-        "Mil Temblores",
-        "Niebla Aromática",
-        "Nitrocarga",
-        "Picotazo Veneno",
-        "Puño Incremento",
-        "Puntapié",
-        "Puya Nociva",
-        "Relevo",
-        "Tajo Umbrío"
       ]
     }
   ],
@@ -3540,6 +3383,163 @@
       ]
     },
     {
+      "nickname": "TECATA",
+      "species": "Venusaur",
+      "level": 49,
+      "types": [
+        "Planta",
+        "Veneno"
+      ],
+      "ability": "Receptor",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Cadena Virulenta",
+        "Bostezo",
+        "Ciclón de Hojas",
+        "Fotosíntesis"
+      ],
+      "iv": [
+        29,
+        3,
+        0,
+        13,
+        12,
+        14
+      ],
+      "ev": [
+        16,
+        16,
+        20,
+        21,
+        7,
+        23
+      ],
+      "abilPool": [
+        "Receptor"
+      ],
+      "abilHidden": [
+        "Encadenado"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Anticipo"
+        },
+        {
+          "lvl": 1,
+          "m": "Ciclón de Hojas"
+        },
+        {
+          "lvl": 1,
+          "m": "Tornado"
+        },
+        {
+          "lvl": 1,
+          "m": "Purificación"
+        },
+        {
+          "lvl": 1,
+          "m": "Beso Amoroso"
+        },
+        {
+          "lvl": 1,
+          "m": "Calamidad"
+        },
+        {
+          "lvl": 9,
+          "m": "Giro Fuego"
+        },
+        {
+          "lvl": 12,
+          "m": "Homenaje Póstumo"
+        },
+        {
+          "lvl": 15,
+          "m": "Detección"
+        },
+        {
+          "lvl": 15,
+          "m": "Cuchillada"
+        },
+        {
+          "lvl": 20,
+          "m": "Danza Amiga"
+        },
+        {
+          "lvl": 25,
+          "m": "Follaje"
+        },
+        {
+          "lvl": 30,
+          "m": "Capa Mágica"
+        },
+        {
+          "lvl": 36,
+          "m": "Beso Drenaje"
+        },
+        {
+          "lvl": 37,
+          "m": "Triataque"
+        },
+        {
+          "lvl": 39,
+          "m": "Pirueta Helada"
+        },
+        {
+          "lvl": 44,
+          "m": "Viento Afín"
+        },
+        {
+          "lvl": 51,
+          "m": "Garra Dragón"
+        },
+        {
+          "lvl": 51,
+          "m": "Enrosque"
+        },
+        {
+          "lvl": 58,
+          "m": "Llama Fusión"
+        }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Absorber",
+        "Alud",
+        "Amnesia",
+        "Anclaje",
+        "Asta Drenaje",
+        "Atadura",
+        "Bomba Ígnea",
+        "Cabeza Sorpresa",
+        "Cadena Virulenta",
+        "Carámbano",
+        "Conversión",
+        "Destello",
+        "Doble Golpe",
+        "Eco Metálico",
+        "Espabila",
+        "Fotosíntesis",
+        "Hoja Aguda",
+        "Lanzarrocas",
+        "Lengüetazo",
+        "Malicioso",
+        "Marcha Espectral",
+        "Megapuño",
+        "Mil Temblores",
+        "Niebla Aromática",
+        "Nitrocarga",
+        "Picotazo Veneno",
+        "Puño Incremento",
+        "Puntapié",
+        "Puya Nociva",
+        "Relevo",
+        "Tajo Umbrío"
+      ]
+    },
+    {
       "nickname": "PUTA MIERDA2",
       "species": "Raticate (Alola)",
       "level": 49,
@@ -5973,17 +5973,6 @@
       "mon": "Sudowoodo"
     },
     {
-      "route": "ciudad_plateada",
-      "where": "Ciudad Plateada",
-      "species": "Venusaur",
-      "nickname": "TECATA",
-      "shiny": false,
-      "status": "captured",
-      "category": "ciudad",
-      "level": 10,
-      "mon": "Venusaur"
-    },
-    {
       "route": "ruta_3",
       "where": "Ruta 3",
       "species": "Cascoon",
@@ -6237,6 +6226,17 @@
       "mon": "Squawkabilly"
     },
     {
+      "route": "ciudad_plateada",
+      "where": "Ciudad Plateada",
+      "species": "Venusaur",
+      "nickname": "TECATA",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 10,
+      "mon": "Venusaur"
+    },
+    {
       "route": "monte_moon",
       "where": "Monte Moon",
       "species": "Raticate",
@@ -6450,7 +6450,6 @@
       "tunel_diglett": true,
       "ruta_2_sur": true,
       "ruta_2_norte": true,
-      "ciudad_plateada": true,
       "ruta_3": true,
       "ciudad_carmin": true,
       "monte_moon_exterior": true,
@@ -6466,6 +6465,7 @@
       "pueblo_lavanda": true,
       "ruta_8": true,
       "ruta_15": true,
+      "ciudad_plateada": true,
       "ciudad_azulona": true,
       "ruta_11": true,
       "monte_moon": true,
