@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 15h 14m jugadas · 239,980₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 15h 17m jugadas · 250,480₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -34,11 +34,11 @@
       ],
       "ev": [
         25,
-        144,
-        56,
-        57,
-        36,
-        62
+        148,
+        58,
+        58,
+        38,
+        63
       ],
       "abilPool": [
         "Trampa Arena",
@@ -203,11 +203,11 @@
       ],
       "ev": [
         34,
-        127,
-        79,
-        67,
-        39,
-        76
+        131,
+        81,
+        68,
+        41,
+        77
       ],
       "abilPool": [
         "Electromotor"
@@ -353,11 +353,11 @@
       ],
       "ev": [
         29,
-        122,
-        76,
-        65,
-        38,
-        72
+        126,
+        78,
+        66,
+        40,
+        73
       ],
       "abilPool": [
         "Viscosecreción",
@@ -658,11 +658,11 @@
       ],
       "ev": [
         31,
-        125,
-        77,
-        67,
-        39,
-        75
+        129,
+        79,
+        68,
+        41,
+        76
       ],
       "abilPool": [
         "Chorro Arena",
@@ -822,11 +822,11 @@
       ],
       "ev": [
         29,
-        122,
-        76,
-        65,
-        38,
-        72
+        126,
+        78,
+        66,
+        40,
+        73
       ],
       "abilPool": [
         "Trampa Arena",
@@ -6985,7 +6985,8 @@
       "pueblo_marengo": true,
       "ciudad_verde": true,
       "ruta_22": true,
-      "ruta_9": true
+      "ruta_9": true,
+      "ruta_13": true
     },
     "items": {},
     "encounters": {
