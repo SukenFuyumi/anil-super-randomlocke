@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 14h 50m jugadas · 234,380₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 14h 53m jugadas · 234,380₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -34,8 +34,8 @@
       ],
       "ev": [
         25,
-        134,
-        55,
+        137,
+        56,
         56,
         36,
         62
@@ -199,8 +199,8 @@
       ],
       "ev": [
         34,
-        117,
-        78,
+        120,
+        79,
         66,
         39,
         76
@@ -349,8 +349,8 @@
       ],
       "ev": [
         29,
-        112,
-        75,
+        115,
+        76,
         64,
         38,
         72
@@ -647,8 +647,8 @@
       ],
       "ev": [
         31,
-        115,
-        76,
+        118,
+        77,
         66,
         39,
         75
@@ -809,8 +809,8 @@
       ],
       "ev": [
         29,
-        112,
-        75,
+        115,
+        76,
         64,
         38,
         72
@@ -4559,6 +4559,239 @@
       ]
     },
     {
+      "nickname": "VISIOMANGOS",
+      "species": "Grotle",
+      "level": 40,
+      "types": [
+        "Planta"
+      ],
+      "ability": "Espíritu Vital",
+      "nature": "Tímida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Campo Eléctrico",
+        "Encanto",
+        "Bote",
+        "Ácido Málico"
+      ],
+      "iv": [
+        15,
+        16,
+        19,
+        24,
+        20,
+        30
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Espíritu Vital"
+      ],
+      "abilHidden": [
+        "Sal Purificadora"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Atiborramiento"
+        },
+        {
+          "lvl": 1,
+          "m": "Chapoteo Lodo"
+        },
+        {
+          "lvl": 1,
+          "m": "Reversión"
+        },
+        {
+          "lvl": 6,
+          "m": "Castigo"
+        },
+        {
+          "lvl": 10,
+          "m": "Reserva"
+        },
+        {
+          "lvl": 13,
+          "m": "Espora"
+        },
+        {
+          "lvl": 17,
+          "m": "Tragar"
+        },
+        {
+          "lvl": 22,
+          "m": "Campo Eléctrico"
+        },
+        {
+          "lvl": 27,
+          "m": "Encanto"
+        },
+        {
+          "lvl": 32,
+          "m": "Bote"
+        },
+        {
+          "lvl": 37,
+          "m": "Ácido Málico"
+        },
+        {
+          "lvl": 42,
+          "m": "Sylveotornado"
+        },
+        {
+          "lvl": 47,
+          "m": "Hoja Mágica"
+        },
+        {
+          "lvl": 52,
+          "m": "Absorbefuerza"
+        }
+      ]
+    },
+    {
+      "nickname": "FANGS",
+      "species": "Arbok",
+      "level": 40,
+      "types": [
+        "Veneno"
+      ],
+      "ability": "Reacción Química",
+      "nature": "Serena",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Aullido",
+        "Desahogo",
+        "Contraataque",
+        "Chulería"
+      ],
+      "iv": [
+        25,
+        22,
+        16,
+        18,
+        11,
+        18
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Cosecha",
+        "Reacción Química"
+      ],
+      "abilHidden": [
+        "Dinamo"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Patada Giro"
+        },
+        {
+          "lvl": -1,
+          "m": "Paliza"
+        },
+        {
+          "lvl": 1,
+          "m": "Piñón Auxiliar"
+        },
+        {
+          "lvl": 1,
+          "m": "Truco Defensa"
+        },
+        {
+          "lvl": 1,
+          "m": "Giro Fuego"
+        },
+        {
+          "lvl": 1,
+          "m": "Acua Aro"
+        },
+        {
+          "lvl": 1,
+          "m": "Manos Juntas"
+        },
+        {
+          "lvl": 1,
+          "m": "Bilis"
+        },
+        {
+          "lvl": 1,
+          "m": "Tóxico"
+        },
+        {
+          "lvl": 12,
+          "m": "Metrónomo"
+        },
+        {
+          "lvl": 17,
+          "m": "Ataque Arena"
+        },
+        {
+          "lvl": 20,
+          "m": "Lengüetazo"
+        },
+        {
+          "lvl": 27,
+          "m": "Restricción"
+        },
+        {
+          "lvl": 27,
+          "m": "Sonámbulo"
+        },
+        {
+          "lvl": 27,
+          "m": "Aullido"
+        },
+        {
+          "lvl": 32,
+          "m": "Desahogo"
+        },
+        {
+          "lvl": 39,
+          "m": "Contraataque"
+        },
+        {
+          "lvl": 39,
+          "m": "Chulería"
+        },
+        {
+          "lvl": 44,
+          "m": "Última Baza"
+        },
+        {
+          "lvl": 48,
+          "m": "Espabila"
+        },
+        {
+          "lvl": 51,
+          "m": "Hidrocañón"
+        },
+        {
+          "lvl": 56,
+          "m": "Rayo Gélido"
+        },
+        {
+          "lvl": 63,
+          "m": "Ascenso Draco"
+        }
+      ]
+    },
+    {
       "nickname": "KING",
       "species": "Poliwhirl",
       "level": 49,
@@ -6386,6 +6619,28 @@
       "category": "ciudad",
       "level": 4,
       "mon": "Conkeldurr"
+    },
+    {
+      "route": "ruta_12",
+      "where": "Ruta 12",
+      "species": "Grotle",
+      "nickname": "VISIOMANGOS",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 40,
+      "mon": "Grotle"
+    },
+    {
+      "route": "ruta_11",
+      "where": "Ruta 11",
+      "species": "Arbok",
+      "nickname": "FANGS",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 40,
+      "mon": "Arbok"
     },
     {
       "route": "pueblo_paleta",
