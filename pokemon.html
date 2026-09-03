@@ -30,7 +30,9 @@
     .evo-arrow { color:var(--text-muted); font-size:1.4rem; }
     .pk-nav { display:flex; justify-content:space-between; margin-top:1.5rem; gap:.5rem; }
     .form-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr)); gap:.8rem; }
-    .form-card { display:flex; gap:.7rem; align-items:center; border:1px solid var(--border); border-radius:10px; padding:.6rem; background:var(--subtle-bg); }
+    .form-card { display:flex; gap:.7rem; align-items:center; border:1px solid var(--border); border-radius:10px; padding:.6rem; background:var(--subtle-bg); color:inherit; text-decoration:none; }
+    .form-card:hover { border-color:var(--accent); text-decoration:none; box-shadow:0 2px 8px var(--shadow); }
+    .form-card.cur { border-color:var(--accent); box-shadow:0 0 0 1px var(--accent); }
     .form-art { width:88px; height:88px; flex:none; border-radius:10px; display:flex; align-items:center; justify-content:center; }
     .form-art img { width:82px; height:82px; object-fit:contain; image-rendering:pixelated; }
     .form-body { min-width:0; flex:1; }
@@ -59,13 +61,23 @@
       const root = document.getElementById("root");
       let id = parseInt(param("id"), 10);
       if (!id && param("sp")) id = speciesDexId(param("sp"));
-      const p = dex[id];
-      if (!p) { root.innerHTML = `<div class="breadcrumb"><a href="pokedex.html">← Pokédex</a></div><div class="empty-state">Pokémon no encontrado.</div>`; renderFooter(); return; }
+      const base = dex[id];
+      if (!base) { root.innerHTML = `<div class="breadcrumb"><a href="pokedex.html">← Pokédex</a></div><div class="empty-state">Pokémon no encontrado.</div>`; renderFooter(); return; }
+      // Forma seleccionada (?form=índice) — muestra los datos de esa forma
+      const formIdx = param("form");
+      const allForms = FORMSDEX[id] || [];
+      const fm = (formIdx != null && allForms[+formIdx]) ? allForms[+formIdx] : null;
+      // "view" = datos a mostrar (la forma sobreescribe a la base; hereda categoría/altura/peso/desc/evolución)
+      const p = fm
+        ? { n: fm.n, t: fm.t, st: fm.st, ab: fm.ab, abh: fm.abh, cat: base.cat, h: base.h, w: base.w, fl: base.fl, em: base.em, pe: base.pe }
+        : base;
+      const formSpriteId = fm ? (fm.spr || id) : id;
       document.title = p.n + " · Pokédex Añil";
       const t0 = typeKey(p.t[0]);
       const total = (p.st || []).reduce((a, b) => a + (b || 0), 0);
-      const staticSprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
-      const aniSprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${id}.gif`;
+      const staticSprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${formSpriteId}.png`;
+      const aniSprite = fm ? staticSprite : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${id}.gif`;
+      const baseStaticSprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
       const barColor = (v) => v >= 100 ? "var(--ok)" : v >= 60 ? "var(--accent)" : v >= 35 ? "var(--warn)" : "var(--bad)";
       const statsHtml = STAT_LBL.map((l, i) => {
         const v = p.st[i] || 0;
@@ -124,7 +136,7 @@
         </div></div>`;
 
       const forms = FORMSDEX[id] || [];
-      const formCard = (fm) => {
+      const formCard = (fm, idx) => {
         const k0 = typeKey((fm.t || [])[0] || "");
         const total = (fm.st || []).reduce((a, b) => a + (b || 0), 0);
         const kindBadge = fm.k === "mega"
@@ -133,7 +145,9 @@
             ? `<span class="form-kind reg">${escapeHtml(fm.region || "Regional")}</span>`
             : `<span class="form-kind alt">Forma</span>`;
         const abh = (Array.isArray(fm.abh) ? fm.abh : fm.abh ? [fm.abh] : []);
-        return `<div class="form-card">
+        const fmTotal = (fm.st || []).reduce((a, b) => a + (b || 0), 0);
+        const cur = formIdx != null && +formIdx === idx;
+        return `<a class="form-card${cur ? " cur" : ""}" href="pokemon.html?id=${id}&form=${idx}">
           <div class="form-art" style="background:color-mix(in srgb, var(--type-${k0}) 16%, var(--subtle-bg))">
             <img src="${spr(fm.spr || id)}" alt="${escapeHtml(fm.n)}" loading="lazy" onerror="this.onerror=null;this.src='${spr(id)}'">
           </div>
@@ -141,23 +155,23 @@
             <div class="form-name">${escapeHtml(fm.n)} ${kindBadge}</div>
             <div class="mon-types" style="margin:.3rem 0">${(fm.t || []).map((t) => typeBadge(t, true)).join(" ")}</div>
             <div class="form-ab muted">${(fm.ab || []).map(escapeHtml).join(", ")}${abh.map((h) => ` · ${escapeHtml(h)} (oculta)`).join("")}</div>
-            <div class="form-stats">${STAT_LBL.map((l, i) => `<span>${l} <b>${fm.st[i] || 0}</b></span>`).join("")}<span class="tot">Total <b>${total}</b></span></div>
+            <div class="form-stats">${STAT_LBL.map((l, i) => `<span>${l} <b>${fm.st[i] || 0}</b></span>`).join("")}<span class="tot">Total <b>${fmTotal}</b></span></div>
           </div>
-        </div>`;
+        </a>`;
       };
       const formsHtml = forms.length
-        ? `<h2>Formas <span class="muted" style="font-size:.9rem;font-weight:600">(${forms.length})</span></h2><div class="panel"><div class="form-grid">${forms.map(formCard).join("")}</div></div>`
+        ? `<h2>Formas <span class="muted" style="font-size:.9rem;font-weight:600">(${forms.length})</span></h2><div class="panel"><div class="form-grid">${forms.map((f, i) => formCard(f, i)).join("")}${fm ? `<a class="form-card" href="pokemon.html?id=${id}"><div class="form-art"><img src="${baseStaticSprite}" alt="" loading="lazy"></div><div class="form-body"><div class="form-name">${escapeHtml(base.n)} <span class="form-kind" style="background:var(--text-muted)">Base</span></div><div class="mon-types" style="margin:.3rem 0">${(base.t || []).map((t) => typeBadge(t, true)).join(" ")}</div></div></a>` : ""}</div></div>`
         : "";
 
       root.innerHTML = `
-        <div class="breadcrumb"><a href="pokedex.html">← Pokédex</a></div>
+        <div class="breadcrumb"><a href="pokedex.html">← Pokédex</a>${fm ? ` · <a href="pokemon.html?id=${id}">${escapeHtml(base.n)}</a> · <span class="muted">${escapeHtml(p.n)}</span>` : ""}</div>
         <div class="panel" style="border-top:5px solid var(--type-${t0})">
           <div class="pk-hero">
             <div class="pk-art" style="background:color-mix(in srgb, var(--type-${t0}) 18%, var(--subtle-bg))">
-              <img src="${aniSprite}" alt="${escapeHtml(p.n)}" onerror="this.onerror=null;this.src='${staticSprite}'">
+              <img src="${aniSprite}" alt="${escapeHtml(p.n)}" onerror="this.onerror=null;this.src='${fm ? baseStaticSprite : staticSprite}'">
             </div>
             <div class="grow" style="min-width:280px">
-              <div class="pk-num">Nº ${String(id).padStart(4, "0")}</div>
+              <div class="pk-num">Nº ${String(id).padStart(4, "0")}${fm ? ` · <span class="form-kind ${fm.k === "mega" ? "mega" : fm.k === "regional" ? "reg" : "alt"}" style="vertical-align:middle">${fm.k === "mega" ? "Mega" : fm.k === "regional" ? escapeHtml(fm.region || "Regional") : "Forma"}</span>` : ""}</div>
               <div class="pk-name">${escapeHtml(p.n)}</div>
               <div class="muted">${escapeHtml(p.cat || "")}</div>
               <div class="mon-types" style="margin:.5rem 0">${(p.t || []).map((t) => typeBadge(t)).join(" ")}</div>

@@ -50,7 +50,7 @@
       entries = [];
       Object.keys(DEXF).map(Number).sort((a, b) => a - b).forEach((id) => {
         entries.push({ id, n: DEXF[id].n, t: DEXF[id].t, spr: id, isForm: false });
-        (FORMS[id] || []).forEach((fm) => entries.push({ id, n: fm.n, baseN: DEXF[id].n, t: fm.t, spr: fm.spr || id, isForm: true, kind: fm.k }));
+        (FORMS[id] || []).forEach((fm, fi) => entries.push({ id, n: fm.n, baseN: DEXF[id].n, t: fm.t, spr: fm.spr || id, isForm: true, kind: fm.k, formIdx: fi }));
       });
       document.getElementById("typeFilters").innerHTML = TYPES_ES.map((t) =>
         `<button class="dex-type" data-t="${t}" style="background:var(--type-${typeKey(t)})">${t}</button>`).join("");
@@ -76,7 +76,7 @@
       document.getElementById("count").textContent = list.length + (list.length === 1 ? " entrada" : " entradas");
       const kindLabel = { mega: "Mega", regional: "Regional", forma: "Forma" };
       document.getElementById("grid").innerHTML = list.map((p) =>
-        `<a class="dex-card${p.isForm ? " is-form" : ""}" href="pokemon.html?id=${p.id}">
+        `<a class="dex-card${p.isForm ? " is-form" : ""}" href="pokemon.html?id=${p.id}${p.isForm ? `&form=${p.formIdx}` : ""}">
           ${p.isForm ? `<span class="dex-formtag ${p.kind}">${kindLabel[p.kind] || "Forma"}</span>` : ""}
           <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${p.spr}.png" alt="" loading="lazy"${p.isForm ? ` onerror="this.onerror=null;this.src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${p.id}.png'"` : ""}>
           <div class="num">Nº ${String(p.id).padStart(4, "0")}</div>
