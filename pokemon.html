@@ -38,6 +38,7 @@
     .form-kind { font-size:.6rem; text-transform:uppercase; font-weight:800; letter-spacing:.03em; color:#fff; border-radius:999px; padding:.08rem .5rem; }
     .form-kind.mega { background:linear-gradient(90deg,#6f35fc,#f95587); }
     .form-kind.reg { background:var(--accent); }
+    .form-kind.alt { background:var(--type-psychic); }
     .form-ab { font-size:.76rem; margin:.15rem 0; }
     .form-stats { display:flex; flex-wrap:wrap; gap:.15rem .6rem; font-size:.72rem; color:var(--text-muted); }
     .form-stats b { color:var(--text); font-variant-numeric:tabular-nums; }
@@ -128,7 +129,9 @@
         const total = (fm.st || []).reduce((a, b) => a + (b || 0), 0);
         const kindBadge = fm.k === "mega"
           ? `<span class="form-kind mega">Mega</span>`
-          : `<span class="form-kind reg">${escapeHtml(fm.region || "Regional")}</span>`;
+          : fm.k === "regional"
+            ? `<span class="form-kind reg">${escapeHtml(fm.region || "Regional")}</span>`
+            : `<span class="form-kind alt">Forma</span>`;
         const abh = (Array.isArray(fm.abh) ? fm.abh : fm.abh ? [fm.abh] : []);
         return `<div class="form-card">
           <div class="form-art" style="background:color-mix(in srgb, var(--type-${k0}) 16%, var(--subtle-bg))">

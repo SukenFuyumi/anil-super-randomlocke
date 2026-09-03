@@ -18,26 +18,40 @@
     .dex-type { color:#fff; text-transform:uppercase; cursor:pointer; opacity:.55; border:2px solid transparent; border-radius:999px; padding:.15rem .6rem; font-size:.68rem; font-weight:700; }
     .dex-type.on { opacity:1; border-color:var(--text); }
     .dex-count { color:var(--text-muted); margin:.5rem 0; }
+    .dex-forms-toggle { display:inline-flex; align-items:center; gap:.4rem; font-size:.85rem; color:var(--text-muted); cursor:pointer; margin-bottom:.4rem; }
+    .dex-card { position:relative; }
+    .dex-card.is-form { border-style:dashed; }
+    .dex-formtag { position:absolute; top:.35rem; left:.35rem; font-size:.55rem; text-transform:uppercase; font-weight:800; letter-spacing:.03em; color:#fff; border-radius:999px; padding:.05rem .4rem; }
+    .dex-formtag.mega { background:linear-gradient(90deg,#6f35fc,#f95587); }
+    .dex-formtag.regional { background:var(--accent); }
+    .dex-formtag.forma { background:var(--type-psychic); }
   </style>
 </head>
 <body>
   <main class="container">
     <h1>Pokédex de Añil</h1>
     <p class="lead">Referencia de los Pokémon: tipos, estadísticas, habilidades y evolución. Haz clic en cualquiera para ver su ficha.</p>
-    <input id="q" class="search-box" type="search" placeholder="Buscar por nombre o número…" autocomplete="off" />
+    <input id="q" class="search-box" type="search" placeholder="Buscar por nombre, número o forma (mega, alola…)" autocomplete="off" />
     <div class="dex-filters" id="typeFilters"></div>
     <div class="dex-count" id="count"></div>
+    <label class="dex-forms-toggle"><input type="checkbox" id="showForms" checked> Mostrar formas (megas y regionales)</label>
     <div class="dex-grid" id="grid"><p class="muted">Cargando…</p></div>
   </main>
   <script src="app.js"></script>
   <script>
     const TYPES_ES = ["Normal","Fuego","Agua","Planta","Eléctrico","Hielo","Lucha","Veneno","Tierra","Volador","Psíquico","Bicho","Roca","Fantasma","Dragón","Siniestro","Acero","Hada"];
-    let DEXF, entries, activeType = "", query = "";
+    let DEXF, FORMS, entries, activeType = "", query = "", showForms = true;
     (async function () {
       await loadConfig();
       renderHeader("pokedex.html");
       DEXF = await loadPokedexFull();
-      entries = Object.keys(DEXF).map(Number).sort((a, b) => a - b).map((id) => ({ id, ...DEXF[id] }));
+      FORMS = (await loadJSON("data/forms-dex.json")) || {};
+      // entradas: cada especie base seguida de sus formas
+      entries = [];
+      Object.keys(DEXF).map(Number).sort((a, b) => a - b).forEach((id) => {
+        entries.push({ id, n: DEXF[id].n, t: DEXF[id].t, spr: id, isForm: false });
+        (FORMS[id] || []).forEach((fm) => entries.push({ id, n: fm.n, baseN: DEXF[id].n, t: fm.t, spr: fm.spr || id, isForm: true, kind: fm.k }));
+      });
       document.getElementById("typeFilters").innerHTML = TYPES_ES.map((t) =>
         `<button class="dex-type" data-t="${t}" style="background:var(--type-${typeKey(t)})">${t}</button>`).join("");
       document.getElementById("typeFilters").addEventListener("click", (e) => {
@@ -48,21 +62,25 @@
         render();
       });
       document.getElementById("q").addEventListener("input", (e) => { query = e.target.value.trim().toLowerCase(); render(); });
+      document.getElementById("showForms").addEventListener("change", (e) => { showForms = e.target.checked; render(); });
       render();
       renderFooter();
     })();
     function render() {
       const list = entries.filter((p) => {
+        if (p.isForm && !showForms && !query) return false;
         if (activeType && !(p.t || []).includes(activeType)) return false;
-        if (query) { return p.n.toLowerCase().includes(query) || String(p.id).includes(query); }
+        if (query) { return p.n.toLowerCase().includes(query) || (p.baseN || "").toLowerCase().includes(query) || String(p.id).includes(query); }
         return true;
       });
-      document.getElementById("count").textContent = list.length + " Pokémon";
+      document.getElementById("count").textContent = list.length + (list.length === 1 ? " entrada" : " entradas");
+      const kindLabel = { mega: "Mega", regional: "Regional", forma: "Forma" };
       document.getElementById("grid").innerHTML = list.map((p) =>
-        `<a class="dex-card" href="pokemon.html?id=${p.id}">
-          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${p.id}.png" alt="" loading="lazy">
+        `<a class="dex-card${p.isForm ? " is-form" : ""}" href="pokemon.html?id=${p.id}">
+          ${p.isForm ? `<span class="dex-formtag ${p.kind}">${kindLabel[p.kind] || "Forma"}</span>` : ""}
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${p.spr}.png" alt="" loading="lazy"${p.isForm ? ` onerror="this.onerror=null;this.src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${p.id}.png'"` : ""}>
           <div class="num">Nº ${String(p.id).padStart(4, "0")}</div>
-          <div class="nm">${escapeHtml(p.n)}</div>
+          <div class="nm">${escapeHtml(p.isForm && p.kind !== "mega" ? p.baseN + " · " + p.n : p.n)}</div>
           <div class="mon-types">${(p.t || []).map((t) => typeBadge(t, true)).join("")}</div>
         </a>`).join("") || `<p class="empty-state">Nada encontrado.</p>`;
     }
