@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 8h 58m jugadas · 542,860₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 9h 11m jugadas · 542,860₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Mamá Carlos",
       "species": "Skuntank",
-      "level": 43,
+      "level": 45,
       "types": [
         "Veneno",
         "Siniestro"
@@ -36,9 +36,9 @@
         5,
         16,
         7,
-        6,
+        8,
         4,
-        10
+        11
       ],
       "abilPool": [
         "Piel Celeste",
@@ -165,7 +165,7 @@
     {
       "nickname": "Homero",
       "species": "Vivillon",
-      "level": 43,
+      "level": 45,
       "types": [
         "Bicho",
         "Volador"
@@ -192,9 +192,9 @@
         5,
         16,
         7,
-        6,
+        8,
         4,
-        10
+        11
       ],
       "abilPool": [
         "Ultraimpulso",
@@ -304,7 +304,7 @@
     {
       "nickname": "Curita",
       "species": "Florges",
-      "level": 44,
+      "level": 45,
       "types": [
         "Hada"
       ],
@@ -330,9 +330,9 @@
         7,
         18,
         9,
-        6,
+        8,
         5,
-        12
+        13
       ],
       "abilPool": [
         "Cortante"
@@ -458,7 +458,7 @@
       ],
       "ability": "Geofagia",
       "nature": "Audaz",
-      "item": "",
+      "item": "Banda Aguante",
       "shiny": false,
       "moves": [
         "Pirueta Helada",
@@ -478,9 +478,9 @@
         0,
         0,
         0,
+        2,
         0,
-        0,
-        0
+        1
       ],
       "abilPool": [
         "Geofagia",
@@ -609,9 +609,139 @@
       ]
     },
     {
+      "nickname": "Elmo",
+      "species": "Throh",
+      "level": 45,
+      "types": [
+        "Lucha"
+      ],
+      "ability": "Escudo Recio",
+      "nature": "Huraña",
+      "item": "Garra Afilada",
+      "shiny": false,
+      "moves": [
+        "Puño Drenaje",
+        "Flarembestida",
+        "Viraje",
+        "Desarme"
+      ],
+      "iv": [
+        21,
+        30,
+        27,
+        26,
+        10,
+        14
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      "abilPool": [
+        "Latido Oricalco",
+        "Escudo Recio"
+      ],
+      "abilHidden": [
+        "Llovizna"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Ráfaga Escamas"
+        },
+        {
+          "lvl": 1,
+          "m": "Día de Pago"
+        },
+        {
+          "lvl": 5,
+          "m": "Castigo"
+        },
+        {
+          "lvl": 5,
+          "m": "Camelo"
+        },
+        {
+          "lvl": 10,
+          "m": "Disparo Lodo"
+        },
+        {
+          "lvl": 15,
+          "m": "Aguzar"
+        },
+        {
+          "lvl": 20,
+          "m": "Gota Vital"
+        },
+        {
+          "lvl": 25,
+          "m": "Palma Rauda"
+        },
+        {
+          "lvl": 29,
+          "m": "Mal de Ojo"
+        },
+        {
+          "lvl": 30,
+          "m": "Desarme"
+        },
+        {
+          "lvl": 35,
+          "m": "Espabila"
+        },
+        {
+          "lvl": 40,
+          "m": "Puño Drenaje"
+        },
+        {
+          "lvl": 45,
+          "m": "Flarembestida"
+        },
+        {
+          "lvl": 50,
+          "m": "Hierba Lazo"
+        },
+        {
+          "lvl": 55,
+          "m": "Marcha Espectral"
+        }
+      ],
+      "tmMoves": [
+        "Agarrón",
+        "Alud",
+        "Anulación",
+        "Atizar",
+        "Auxilio",
+        "Campo Psíquico",
+        "Carga",
+        "Cede Paso",
+        "Cepo",
+        "Cola Dragón",
+        "Cuerno Certero",
+        "Electrificación",
+        "Espada Lamento",
+        "Golpes Furia",
+        "Llama Protectora",
+        "Onda Anómala",
+        "Onda Voltio",
+        "Pikaturbo",
+        "Psicoataque",
+        "Psicoonda",
+        "Rabia",
+        "Simún de Arena",
+        "Viento Hielo",
+        "Viraje",
+        "Zumbido"
+      ]
+    },
+    {
       "nickname": "Kinger",
       "species": "Nidoking",
-      "level": 43,
+      "level": 45,
       "types": [
         "Veneno",
         "Tierra"
@@ -638,9 +768,9 @@
         5,
         3,
         1,
-        0,
+        2,
         1,
-        0
+        1
       ],
       "abilPool": [
         "Medicina Extraña",
@@ -746,136 +876,6 @@
         "Supersónico",
         "Tóxico",
         "Último Lugar",
-        "Zumbido"
-      ]
-    },
-    {
-      "nickname": "Elmo",
-      "species": "Throh",
-      "level": 43,
-      "types": [
-        "Lucha"
-      ],
-      "ability": "Escudo Recio",
-      "nature": "Huraña",
-      "item": "Garra Afilada",
-      "shiny": false,
-      "moves": [
-        "Puño Drenaje",
-        "Llama Protectora",
-        "Viraje",
-        "Desarme"
-      ],
-      "iv": [
-        21,
-        30,
-        27,
-        26,
-        10,
-        14
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Latido Oricalco",
-        "Escudo Recio"
-      ],
-      "abilHidden": [
-        "Llovizna"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Ráfaga Escamas"
-        },
-        {
-          "lvl": 1,
-          "m": "Día de Pago"
-        },
-        {
-          "lvl": 5,
-          "m": "Castigo"
-        },
-        {
-          "lvl": 5,
-          "m": "Camelo"
-        },
-        {
-          "lvl": 10,
-          "m": "Disparo Lodo"
-        },
-        {
-          "lvl": 15,
-          "m": "Aguzar"
-        },
-        {
-          "lvl": 20,
-          "m": "Gota Vital"
-        },
-        {
-          "lvl": 25,
-          "m": "Palma Rauda"
-        },
-        {
-          "lvl": 29,
-          "m": "Mal de Ojo"
-        },
-        {
-          "lvl": 30,
-          "m": "Desarme"
-        },
-        {
-          "lvl": 35,
-          "m": "Espabila"
-        },
-        {
-          "lvl": 40,
-          "m": "Puño Drenaje"
-        },
-        {
-          "lvl": 45,
-          "m": "Flarembestida"
-        },
-        {
-          "lvl": 50,
-          "m": "Hierba Lazo"
-        },
-        {
-          "lvl": 55,
-          "m": "Marcha Espectral"
-        }
-      ],
-      "tmMoves": [
-        "Agarrón",
-        "Alud",
-        "Anulación",
-        "Atizar",
-        "Auxilio",
-        "Campo Psíquico",
-        "Carga",
-        "Cede Paso",
-        "Cepo",
-        "Cola Dragón",
-        "Cuerno Certero",
-        "Electrificación",
-        "Espada Lamento",
-        "Golpes Furia",
-        "Llama Protectora",
-        "Onda Anómala",
-        "Onda Voltio",
-        "Pikaturbo",
-        "Psicoataque",
-        "Psicoonda",
-        "Rabia",
-        "Simún de Arena",
-        "Viento Hielo",
-        "Viraje",
         "Zumbido"
       ]
     }
@@ -3378,6 +3378,306 @@
       ]
     },
     {
+      "nickname": "Helix",
+      "species": "Primarina",
+      "level": 36,
+      "types": [
+        "Agua",
+        "Hada"
+      ],
+      "ability": "Carga Cuark",
+      "nature": "Activa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Shuriken de Agua",
+        "Marcha Espectral",
+        "Cañón Dinamax",
+        "Espora"
+      ],
+      "iv": [
+        0,
+        5,
+        30,
+        4,
+        22,
+        20
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Carga Cuark"
+      ],
+      "abilHidden": [
+        "Perro Guardián"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Acua Aro"
+        },
+        {
+          "lvl": 1,
+          "m": "Marcha Espectral"
+        },
+        {
+          "lvl": 1,
+          "m": "Cascabel Cura"
+        },
+        {
+          "lvl": 1,
+          "m": "Yo Primero"
+        },
+        {
+          "lvl": 1,
+          "m": "Persecución"
+        },
+        {
+          "lvl": 1,
+          "m": "Patada Giro"
+        },
+        {
+          "lvl": 9,
+          "m": "Empapar"
+        },
+        {
+          "lvl": 11,
+          "m": "Caída Libre"
+        },
+        {
+          "lvl": 12,
+          "m": "Cambiavelocidad"
+        },
+        {
+          "lvl": 15,
+          "m": "Puño Incremento"
+        },
+        {
+          "lvl": 20,
+          "m": "Tormenta Arena"
+        },
+        {
+          "lvl": 25,
+          "m": "Danza Amiga"
+        },
+        {
+          "lvl": 30,
+          "m": "Plegaria Lunar"
+        },
+        {
+          "lvl": 33,
+          "m": "Fuerza"
+        },
+        {
+          "lvl": 37,
+          "m": "Hierba Lazo"
+        },
+        {
+          "lvl": 42,
+          "m": "Canto"
+        },
+        {
+          "lvl": 44,
+          "m": "Irreverencia"
+        },
+        {
+          "lvl": 49,
+          "m": "Feerichoque"
+        },
+        {
+          "lvl": 51,
+          "m": "Vendaval Gélido"
+        },
+        {
+          "lvl": 58,
+          "m": "Clonatipo"
+        },
+        {
+          "lvl": 60,
+          "m": "Última Baza"
+        }
+      ],
+      "tmMoves": [
+        "Anticura",
+        "Bola Voltio",
+        "Cepo",
+        "Conjuro Funesto",
+        "Cuerno Certero",
+        "Daño Secreto",
+        "Electrificación",
+        "Espada Lamento",
+        "Garrote Liana",
+        "Genufendiente",
+        "Giro Fuego",
+        "Giro Mortífero",
+        "Ladrón",
+        "Llama Protectora",
+        "Meditación",
+        "Mofa",
+        "Picotazo",
+        "Pikaturbo",
+        "Psicoataque",
+        "Psicoonda",
+        "Refugio",
+        "Remolino",
+        "Señuelo",
+        "Shuriken de Agua",
+        "Sonámbulo",
+        "Supersónico",
+        "Tenaza",
+        "Tóxico",
+        "Viento Hielo",
+        "Viraje"
+      ]
+    },
+    {
+      "nickname": "Snorlax XD",
+      "species": "Rapidash (Galar)",
+      "level": 45,
+      "types": [
+        "Psíquico",
+        "Hada"
+      ],
+      "ability": "Mar Llamas",
+      "nature": "Audaz",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Desarme",
+        "Psicocorte",
+        "Puño Furia",
+        "Pikaturbo"
+      ],
+      "iv": [
+        28,
+        19,
+        3,
+        16,
+        0,
+        28
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Mar Llamas",
+        "Antídoto"
+      ],
+      "abilHidden": [
+        "Veleta"
+      ],
+      "learnset": [
+        {
+          "lvl": 0,
+          "m": "Mandato"
+        },
+        {
+          "lvl": 1,
+          "m": "Luminicola"
+        },
+        {
+          "lvl": 1,
+          "m": "Puño Furia"
+        },
+        {
+          "lvl": 1,
+          "m": "Fría Acogida"
+        },
+        {
+          "lvl": 1,
+          "m": "Pulso de Campo"
+        },
+        {
+          "lvl": 1,
+          "m": "Llama Protectora"
+        },
+        {
+          "lvl": 1,
+          "m": "Poder Reserva"
+        },
+        {
+          "lvl": 15,
+          "m": "Sorpresa"
+        },
+        {
+          "lvl": 20,
+          "m": "Cambiapoder"
+        },
+        {
+          "lvl": 25,
+          "m": "Antojo"
+        },
+        {
+          "lvl": 30,
+          "m": "Tenaza"
+        },
+        {
+          "lvl": 35,
+          "m": "Sombra Vil"
+        },
+        {
+          "lvl": 43,
+          "m": "Al Ataque"
+        },
+        {
+          "lvl": 49,
+          "m": "Defensa Floral"
+        },
+        {
+          "lvl": 56,
+          "m": "Filo del Abismo"
+        },
+        {
+          "lvl": 63,
+          "m": "Acoso"
+        }
+      ],
+      "tmMoves": [
+        "Allanador Férreo",
+        "Alud",
+        "Anticura",
+        "Autosugestión",
+        "Bola Voltio",
+        "Campo Psíquico",
+        "Cañón Dinamax",
+        "Cepo",
+        "Colmillo Veneno",
+        "Cuerno Certero",
+        "Día de Pago",
+        "Espada Lamento",
+        "Falso Tortazo",
+        "Garrote Liana",
+        "Genufendiente",
+        "Giro Fuego",
+        "Hora del Té",
+        "Ladrón",
+        "Llama Protectora",
+        "Masa Cósmica",
+        "Meditación",
+        "Mofa",
+        "Ojos Llorosos",
+        "Psicoataque",
+        "Señuelo",
+        "Simún de Arena",
+        "Supersónico",
+        "Último Lugar",
+        "Viento Hielo",
+        "Viraje"
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10163.png"
+    },
+    {
       "nickname": "Drakloak",
       "species": "Drakloak",
       "level": 35,
@@ -5364,17 +5664,6 @@
       "mon": "Kommoo"
     },
     {
-      "route": "torre_pokemon",
-      "where": "Torre Pokémon",
-      "species": "Nidoking",
-      "nickname": "Kinger",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 31,
-      "mon": "Nidoking"
-    },
-    {
       "route": "ruta_10_sur",
       "where": "Ruta 10 Sur",
       "species": "Throh",
@@ -5384,6 +5673,17 @@
       "category": "salvaje",
       "level": 30,
       "mon": "Throh"
+    },
+    {
+      "route": "torre_pokemon",
+      "where": "Torre Pokémon",
+      "species": "Nidoking",
+      "nickname": "Kinger",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 31,
+      "mon": "Nidoking"
     },
     {
       "route": "tunel_diglett",
@@ -5595,6 +5895,28 @@
       "mon": "Snorlax"
     },
     {
+      "route": "ciudad_plateada",
+      "where": "Ciudad Plateada",
+      "species": "Primarina",
+      "nickname": "Helix",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 10,
+      "mon": "Primarina"
+    },
+    {
+      "route": "ciudad_plateada",
+      "where": "Ciudad Plateada",
+      "species": "Rapidash",
+      "nickname": "Snorlax XD",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 11,
+      "mon": "Rapidash"
+    },
+    {
       "route": "",
       "where": "Centro Comercial",
       "species": "Drakloak",
@@ -5752,8 +6074,8 @@
       "pueblo_lavanda": true,
       "bosque_verde": true,
       "ruta_2_norte": true,
-      "torre_pokemon": true,
       "ruta_10_sur": true,
+      "torre_pokemon": true,
       "tunel_diglett": true,
       "ciudad_carmin": true,
       "ciudad_plateada": true,
