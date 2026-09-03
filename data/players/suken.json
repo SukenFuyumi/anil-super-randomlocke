@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 14h 38m jugadas · 228,080₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 14h 40m jugadas · 234,380₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -34,11 +34,11 @@
       ],
       "ev": [
         25,
-        132,
-        52,
+        134,
+        55,
         56,
-        35,
-        60
+        36,
+        62
       ],
       "abilPool": [
         "Trampa Arena",
@@ -199,11 +199,11 @@
       ],
       "ev": [
         34,
-        115,
-        75,
+        117,
+        78,
         66,
-        38,
-        74
+        39,
+        76
       ],
       "abilPool": [
         "Electromotor"
@@ -296,9 +296,11 @@
         "Garra Dragón",
         "Golpe Roca",
         "Golpe Umbrío",
+        "Hoja Aguda",
         "Infortunio",
         "Isoguardia",
         "Lengüetazo",
+        "Llama Protectora",
         "Marcha Espectral",
         "Mismo Destino",
         "Moluscañón",
@@ -347,11 +349,11 @@
       ],
       "ev": [
         29,
-        110,
-        72,
+        112,
+        75,
         64,
-        37,
-        70
+        38,
+        72
       ],
       "abilPool": [
         "Viscosecreción",
@@ -488,11 +490,11 @@
       ],
       "ev": [
         46,
-        131,
-        93,
+        133,
+        96,
         92,
-        47,
-        93
+        48,
+        95
       ],
       "abilPool": [
         "Filtro",
@@ -645,11 +647,11 @@
       ],
       "ev": [
         31,
-        113,
-        73,
+        115,
+        76,
         66,
-        38,
-        73
+        39,
+        75
       ],
       "abilPool": [
         "Chorro Arena",
@@ -807,11 +809,11 @@
       ],
       "ev": [
         29,
-        110,
-        72,
+        112,
+        75,
         64,
-        37,
-        70
+        38,
+        72
       ],
       "abilPool": [
         "Trampa Arena",
@@ -5283,14 +5285,37 @@
         }
       ],
       "tmMoves": [
+        "Alud",
+        "Anclaje",
         "Campo de Hierba",
+        "Chorro de Vapor",
+        "Confusión",
         "Conversión",
+        "Danza Acuática",
         "Decoración",
+        "Desarme",
+        "Destello",
+        "Electropico",
+        "Embate Supremo",
+        "Espabila",
+        "Garra Dragón",
+        "Golpe Umbrío",
+        "Hoja Aguda",
+        "Hueso Sombrío",
+        "Infortunio",
         "Lengüetazo",
         "Marcha Espectral",
+        "Megapuño",
         "Mismo Destino",
+        "Moluscañón",
         "Patada Baja",
-        "Puño Incremento"
+        "Placaje",
+        "Puño Incremento",
+        "Rizo Defensa",
+        "Rodillo de Púas",
+        "Tinieblas",
+        "Transformación",
+        "Voltio Cruel"
       ]
     },
     {
@@ -5387,14 +5412,37 @@
         }
       ],
       "tmMoves": [
+        "Alud",
+        "Anclaje",
         "Campo de Hierba",
+        "Chorro de Vapor",
+        "Confusión",
         "Conversión",
+        "Danza Acuática",
         "Decoración",
+        "Desarme",
+        "Destello",
+        "Electropico",
+        "Embate Supremo",
+        "Espabila",
+        "Garra Dragón",
+        "Golpe Umbrío",
+        "Hoja Aguda",
+        "Hueso Sombrío",
+        "Infortunio",
         "Lengüetazo",
         "Marcha Espectral",
+        "Megapuño",
         "Mismo Destino",
+        "Moluscañón",
         "Patada Baja",
-        "Puño Incremento"
+        "Placaje",
+        "Puño Incremento",
+        "Rizo Defensa",
+        "Rodillo de Púas",
+        "Tinieblas",
+        "Transformación",
+        "Voltio Cruel"
       ]
     },
     {
@@ -5783,14 +5831,37 @@
         }
       ],
       "tmMoves": [
+        "Alud",
+        "Anclaje",
         "Campo de Hierba",
+        "Chorro de Vapor",
+        "Confusión",
         "Conversión",
+        "Danza Acuática",
         "Decoración",
+        "Desarme",
+        "Destello",
+        "Electropico",
+        "Embate Supremo",
+        "Espabila",
+        "Garra Dragón",
+        "Golpe Umbrío",
+        "Hoja Aguda",
+        "Hueso Sombrío",
+        "Infortunio",
         "Lengüetazo",
         "Marcha Espectral",
+        "Megapuño",
         "Mismo Destino",
+        "Moluscañón",
         "Patada Baja",
-        "Puño Incremento"
+        "Placaje",
+        "Puño Incremento",
+        "Rizo Defensa",
+        "Rodillo de Púas",
+        "Tinieblas",
+        "Transformación",
+        "Voltio Cruel"
       ],
       "cause": "",
       "route": "Museo Pokémon",
