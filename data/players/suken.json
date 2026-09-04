@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 16h 3m jugadas · 267,580₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 16h 5m jugadas · 267,580₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -439,6 +439,7 @@
         "Finta",
         "Fotosíntesis",
         "Garra Dragón",
+        "Golpe Oscuro",
         "Golpe Umbrío",
         "Gran Ojo",
         "Hueso Sombrío",
@@ -477,7 +478,7 @@
       "moves": [
         "Rodillo de Púas",
         "Asalto Barrera",
-        "Tajo Umbrío",
+        "Golpe Oscuro",
         "Daño Secreto"
       ],
       "iv": [
@@ -601,6 +602,7 @@
         "Doble Golpe",
         "Finta",
         "Garra Dragón",
+        "Golpe Oscuro",
         "Hoja Aguda",
         "Infortunio",
         "Irreverencia",
