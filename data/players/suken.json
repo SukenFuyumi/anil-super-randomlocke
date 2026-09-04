@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 16h 21m jugadas · 274,240₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 16h 23m jugadas · 285,140₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -33,12 +33,12 @@
         9
       ],
       "ev": [
-        32,
-        160,
+        37,
+        162,
         62,
         64,
         41,
-        63
+        64
       ],
       "abilPool": [
         "Trampa Arena",
@@ -365,12 +365,12 @@
         26
       ],
       "ev": [
-        39,
-        144,
+        44,
+        146,
         85,
         79,
         42,
-        80
+        81
       ],
       "abilPool": [
         "Chorro Arena",
@@ -530,12 +530,12 @@
         30
       ],
       "ev": [
-        39,
-        145,
+        44,
+        147,
         84,
         79,
         43,
-        77
+        78
       ],
       "abilPool": [
         "Trampa Arena",
@@ -692,12 +692,12 @@
         31
       ],
       "ev": [
-        44,
-        150,
+        49,
+        152,
         87,
         81,
         44,
-        81
+        82
       ],
       "abilPool": [
         "Electromotor"
@@ -843,12 +843,12 @@
         10
       ],
       "ev": [
-        39,
-        145,
+        44,
+        147,
         84,
         79,
         43,
-        77
+        78
       ],
       "abilPool": [
         "Viscosecreción",
