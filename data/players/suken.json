@@ -4,10 +4,10 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 15h 48m jugadas · 250,480₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 15h 56m jugadas · 250,480₽ · vidas en el juego: -1",
   "team": [
     {
-      "nickname": "MERYL",
+      "nickname": "MERYL STRYFE",
       "species": "Blastoise",
       "level": 49,
       "types": [
@@ -6548,7 +6548,7 @@
       "route": "ruta_13",
       "where": "Ruta 13",
       "species": "Blastoise",
-      "nickname": "MERYL",
+      "nickname": "MERYL STRYFE",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
