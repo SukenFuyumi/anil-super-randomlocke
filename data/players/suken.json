@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 3,
   "champion": false,
-  "notes": "Importado del save · 16h 8m jugadas · 267,580₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 16h 9m jugadas · 271,780₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "PUTA MIERDA2",
@@ -33,10 +33,10 @@
         9
       ],
       "ev": [
-        27,
-        152,
+        28,
+        156,
         59,
-        60,
+        61,
         41,
         63
       ],
@@ -203,10 +203,10 @@
         10
       ],
       "ev": [
-        34,
-        137,
+        35,
+        141,
         81,
-        75,
+        76,
         43,
         77
       ],
@@ -288,6 +288,7 @@
         "Flarembestida",
         "Fotocolisión",
         "Fuerza Lunar",
+        "Glaceoprisma",
         "Golpe Roca",
         "Gran Ojo",
         "Hueso Sombrío",
@@ -311,6 +312,7 @@
         "Puño Incremento",
         "Puntapié",
         "Puya Nociva",
+        "Relajo",
         "Relevo",
         "Represalia",
         "Rodillo de Púas",
@@ -475,6 +477,7 @@
         "Psicocolmillo",
         "Pulso Cura",
         "Puya Nociva",
+        "Relajo",
         "Relevo",
         "Represalia",
         "Simún de Arena",
@@ -509,10 +512,10 @@
         26
       ],
       "ev": [
-        34,
-        136,
+        35,
+        140,
         82,
-        75,
+        76,
         42,
         80
       ],
@@ -627,6 +630,7 @@
         "Decoración",
         "Doble Golpe",
         "Electropico",
+        "Glaceoprisma",
         "Lanzarrocas",
         "Láser Doble",
         "Malicioso",
@@ -673,10 +677,10 @@
         30
       ],
       "ev": [
-        34,
-        137,
+        35,
+        141,
         81,
-        75,
+        76,
         43,
         77
       ],
@@ -835,10 +839,10 @@
         31
       ],
       "ev": [
-        39,
-        142,
+        40,
+        146,
         84,
-        77,
+        78,
         44,
         81
       ],
@@ -949,6 +953,7 @@
         "Puño Cometa",
         "Puntapié",
         "Puya Nociva",
+        "Relajo",
         "Relevo",
         "Represalia",
         "Retracción",
@@ -7150,7 +7155,8 @@
       "ruta_13": true,
       "ciudad_verde": true,
       "ruta_22": true,
-      "ruta_9": true
+      "ruta_9": true,
+      "ruta_14": true
     },
     "items": {},
     "encounters": {
