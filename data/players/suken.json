@@ -7305,7 +7305,8 @@
       "ruta_13": true,
       "ciudad_verde": true,
       "ruta_22": true,
-      "ruta_9": true
+      "ruta_9": true,
+      "ciudad_fucsia": true
     },
     "items": {},
     "encounters": {
