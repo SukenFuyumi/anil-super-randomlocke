@@ -516,7 +516,7 @@ async function openMonPopup(mon, ctx = {}) {
           <div class="pm-field"><div class="pm-k">Naturaleza</div><div class="pm-val">${natHtml}</div></div>
           <div class="pm-field"><div class="pm-k">Objeto</div><div class="pm-val">${mon.item ? escapeHtml(mon.item) : "—"}</div></div>
         </div>
-        <div class="pm-field"><div class="pm-k">Habilidad <span class="muted">· aleatoria, la activa resaltada</span></div>
+        <div class="pm-field"><div class="pm-k">Habilidad <span class="muted">· ${mon.abilCapsule ? "randomizada con item (individual), la activa resaltada" : "aleatoria, la activa resaltada"}</span></div>
           <div class="pm-abils">${abilHtml || '<span class="muted">—</span>'}</div></div>
         <div class="pm-field"><div class="pm-k">Movimientos <span class="muted">· clic para ver qué hacen</span></div>
           <div class="pm-moves">${movesHtml || '<span class="muted">—</span>'}</div></div>

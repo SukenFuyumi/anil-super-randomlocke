@@ -7,6 +7,7 @@ const ABILITIES_ES = require('./ability-es.json');
 const ITEMS_ES = require('./item-es.json');
 let FORMS = {}; try { FORMS = require('./forms.json'); } catch (e) {}
 let RAND_ABIL = {}; // habilidades randomizadas por especie/forma: { SPECIES[_form]: {base:[nombres], hidden:[nombres]} }
+let RAND_ABIL_MON = {}; // habilidades randomizadas por Pokémon individual (item Randomizador de Habilidad): { monId: {base:[nombres], hidden:[nombres]} }
 let RAND_MOVES = {}; // movimientos aprendibles randomizados: { SPECIES: { form: [ {lvl, m} ] } }
 let RAND_TM = {};    // MTs aprendibles randomizados: { SPECIES: [nombreES, ...] }
 
@@ -45,7 +46,7 @@ function mon(p) {
     species: pretty(species) + (fd ? ` (${fd.region})` : ''),
     level: iv(p, '@level') ?? null,
     types: fd ? fd.types : speciesTypes(species),
-    ability: abilityName(sname(iv(p, '@ability'))),
+    ability: abilityName(sname(iv(p, '@ability'))), // puede recalcularse abajo si se usó el item randomizador
     nature: NATURES[sname(iv(p, '@nature'))] || pretty(sname(iv(p, '@nature'))),
     item: itemName(sname(iv(p, '@item'))),
     shiny: !!iv(p, '@shiny'),
@@ -55,9 +56,22 @@ function mon(p) {
   if (ivArr) out.iv = ivArr;
   if (evArr) out.ev = evArr;
   // Habilidades randomizadas reales (las que muestra el juego): base (slot 1/2) + oculta
-  const raKey = (form && RAND_ABIL[species + '_' + form]) ? species + '_' + form : species;
-  const ra = RAND_ABIL[raKey];
-  if (ra) { out.abilPool = ra.base; out.abilHidden = ra.hidden; }
+  // Prioridad: si a ESTE Pokémon se le usó el item "Randomizador de habilidad", tiene su propio
+  // conjunto individual (random_abs_pokes[@id]); si no, usa el conjunto por especie/forma.
+  const monId = iv(p, '@id');
+  const raMon = (monId != null) ? RAND_ABIL_MON[String(monId)] : null;
+  if (raMon) {
+    out.abilPool = raMon.base; out.abilHidden = raMon.hidden; out.abilCapsule = true;
+    // Con el item randomizador el juego guarda @ability en null y la activa se deduce del slot (@ability_index)
+    if (!out.ability) {
+      const aIdx = iv(p, '@ability_index');
+      out.ability = (aIdx != null && raMon.byIndex[aIdx]) || raMon.byIndex[0] || raMon.base[0] || raMon.hidden[0] || '';
+    }
+  } else {
+    const raKey = (form && RAND_ABIL[species + '_' + form]) ? species + '_' + form : species;
+    const ra = RAND_ABIL[raKey];
+    if (ra) { out.abilPool = ra.base; out.abilHidden = ra.hidden; }
+  }
   // Movimientos aprendibles randomizados (recuerda-movimientos)
   const rmForms = RAND_MOVES[species];
   if (rmForms) {
@@ -97,6 +111,29 @@ function extract(buf, playerId, opts = {}) {
       if (!v || !v.__isHash) continue;
       const toList = s => String(sname(hget(v, s)) || '').split(',').map(x => x.trim()).filter(Boolean).map(abilityName);
       RAND_ABIL[sname(k)] = { base: toList('base'), hidden: toList('hidden') };
+    }
+  }
+
+  // Habilidades randomizadas por Pokémon individual (item Randomizador de habilidad):
+  // global_metadata.@random_abs_pokes[monId] = [ [ability_sym, index], ... ] (index 2 = oculta)
+  RAND_ABIL_MON = {};
+  const rap = iv(gm, '@random_abs_pokes');
+  if (rap && rap.__isHash) {
+    for (const [k, arr] of rap.entries()) {
+      if (!Array.isArray(arr)) continue;
+      const base = [], hidden = [], byIndex = {};
+      const seen = new Set();
+      for (const pair of arr) {
+        if (!Array.isArray(pair)) continue;
+        const nm = abilityName(sname(pair[0]));
+        if (!nm) continue;
+        const idx = typeof pair[1] === 'number' ? pair[1] : (parseInt(sname(pair[1]), 10) || 0);
+        if (byIndex[idx] == null) byIndex[idx] = nm;
+        const key = idx + '|' + nm;
+        if (seen.has(key)) continue; seen.add(key);
+        (idx >= 2 ? hidden : base).push(nm);
+      }
+      if (base.length || hidden.length) RAND_ABIL_MON[String(sname(k))] = { base, hidden, byIndex };
     }
   }
 

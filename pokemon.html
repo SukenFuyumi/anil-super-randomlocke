@@ -32,6 +32,18 @@
     .evo-mon .nm { font-size:.8rem; font-weight:700; }
     .evo-arrow { color:var(--text-muted); font-size:1.4rem; }
     .pk-nav { display:flex; justify-content:space-between; margin-top:1.5rem; gap:.5rem; }
+    .pk-search { position:relative; margin:.4rem 0 1rem; max-width:520px; }
+    .pk-search input { width:100%; }
+    .pk-suggest { position:absolute; z-index:30; left:0; right:0; top:calc(100% + 4px); background:var(--panel); border:1px solid var(--border); border-radius:10px; box-shadow:0 6px 20px var(--shadow); overflow:hidden; max-height:340px; overflow-y:auto; }
+    .pk-suggest a { display:flex; align-items:center; gap:.6rem; padding:.4rem .6rem; color:var(--text); text-decoration:none; }
+    .pk-suggest a:hover, .pk-suggest a.act { background:var(--subtle-bg); }
+    .pk-suggest img { width:40px; height:40px; object-fit:contain; image-rendering:pixelated; flex:none; }
+    .pk-suggest .s-nm { font-weight:700; font-size:.9rem; }
+    .pk-suggest .s-num { color:var(--text-muted); font-size:.72rem; }
+    .pk-suggest .s-tag { margin-left:auto; font-size:.55rem; text-transform:uppercase; font-weight:800; color:#fff; border-radius:999px; padding:.05rem .45rem; }
+    .pk-suggest .s-tag.mega { background:linear-gradient(90deg,#6f35fc,#f95587); }
+    .pk-suggest .s-tag.regional { background:var(--accent); }
+    .pk-suggest .s-tag.forma { background:var(--type-psychic); }
     .form-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr)); gap:.8rem; }
     .form-card { display:flex; gap:.7rem; align-items:center; border:1px solid var(--border); border-radius:10px; padding:.6rem; background:var(--subtle-bg); color:inherit; text-decoration:none; }
     .form-card:hover { border-color:var(--accent); text-decoration:none; box-shadow:0 2px 8px var(--shadow); }
@@ -168,6 +180,10 @@
 
       root.innerHTML = `
         <div class="breadcrumb"><a href="pokedex.html">← Pokédex</a>${fm ? ` · <a href="pokemon.html?id=${id}">${escapeHtml(base.n)}</a> · <span class="muted">${escapeHtml(p.n)}</span>` : ""}</div>
+        <div class="pk-search">
+          <input id="pkSearch" class="search-box" type="search" placeholder="Buscar otro Pokémon o forma (nombre, nº, mega, alola…)" autocomplete="off" />
+          <div class="pk-suggest" id="pkSuggest" hidden></div>
+        </div>
         <div class="panel" style="border-top:5px solid var(--type-${t0})">
           <div class="pk-hero">
             <div class="pk-art" style="background:color-mix(in srgb, var(--type-${t0}) 18%, var(--subtle-bg))">
@@ -200,6 +216,50 @@
         <div class="pk-nav">${prev}${next}</div>
       `;
       renderFooter();
+
+      // Buscador integrado: saltar a otro Pokémon o forma sin volver a la Pokédex
+      const searchIndex = [];
+      Object.keys(dex).map(Number).sort((a, b) => a - b).forEach((did) => {
+        searchIndex.push({ id: did, n: dex[did].n, spr: did, href: `pokemon.html?id=${did}` });
+        (FORMSDEX[did] || []).forEach((f, fi) => searchIndex.push({
+          id: did, n: f.n, baseN: dex[did].n, spr: f.spr || did, kind: f.k,
+          href: `pokemon.html?id=${did}&form=${fi}`,
+        }));
+      });
+      const input = document.getElementById("pkSearch");
+      const box = document.getElementById("pkSuggest");
+      let sel = -1, results = [];
+      const kindLabel = { mega: "Mega", regional: "Regional", forma: "Forma" };
+      const runSearch = () => {
+        const qv = input.value.trim().toLowerCase();
+        if (!qv) { box.hidden = true; box.innerHTML = ""; results = []; sel = -1; return; }
+        results = searchIndex.filter((e) =>
+          e.n.toLowerCase().includes(qv) || (e.baseN || "").toLowerCase().includes(qv) || String(e.id).includes(qv)
+        ).slice(0, 12);
+        sel = -1;
+        if (!results.length) { box.innerHTML = `<div style="padding:.5rem .6rem" class="muted">Nada encontrado.</div>`; box.hidden = false; return; }
+        box.innerHTML = results.map((e, i) =>
+          `<a href="${e.href}" data-i="${i}">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${e.spr}.png" alt="" loading="lazy" onerror="this.onerror=null;this.src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${e.id}.png'">
+            <span><span class="s-nm">${escapeHtml(e.baseN && e.kind !== "mega" ? e.baseN + " · " + e.n : e.n)}</span> <span class="s-num">Nº ${String(e.id).padStart(4, "0")}</span></span>
+            ${e.kind ? `<span class="s-tag ${e.kind}">${kindLabel[e.kind] || "Forma"}</span>` : ""}
+          </a>`).join("");
+        box.hidden = false;
+      };
+      const setActive = (i) => {
+        const links = [...box.querySelectorAll("a")];
+        links.forEach((a) => a.classList.remove("act"));
+        if (i >= 0 && links[i]) { links[i].classList.add("act"); links[i].scrollIntoView({ block: "nearest" }); }
+      };
+      input.addEventListener("input", runSearch);
+      input.addEventListener("keydown", (e) => {
+        if (box.hidden || !results.length) return;
+        if (e.key === "ArrowDown") { e.preventDefault(); sel = (sel + 1) % results.length; setActive(sel); }
+        else if (e.key === "ArrowUp") { e.preventDefault(); sel = (sel - 1 + results.length) % results.length; setActive(sel); }
+        else if (e.key === "Enter") { e.preventDefault(); location.href = results[sel >= 0 ? sel : 0].href; }
+        else if (e.key === "Escape") { box.hidden = true; }
+      });
+      document.addEventListener("click", (e) => { if (!e.target.closest(".pk-search")) box.hidden = true; });
     })();
   </script>
 </body>
