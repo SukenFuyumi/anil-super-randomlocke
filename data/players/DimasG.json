@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 6h 5m jugadas · 88,760₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 6h 11m jugadas · 88,760₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Macizo",
@@ -20,8 +20,8 @@
       "shiny": false,
       "moves": [
         "Pájaro Osado",
-        "Tumba Rocas",
-        "Ovocuración",
+        "Tajo Metralla",
+        "Salazón",
         "Puño Fuego"
       ],
       "iv": [
@@ -121,6 +121,23 @@
           "lvl": 51,
           "m": "Terratemblor"
         }
+      ],
+      "tmMoves": [
+        "Agilidad",
+        "Aguante",
+        "Aguijón Letal",
+        "Brecha Negra",
+        "Detección",
+        "Meteorobola",
+        "Nitrochoque",
+        "Obstrucción",
+        "Pájaro Osado",
+        "Polvo Mágico",
+        "Refugio",
+        "Residuos",
+        "Rodar",
+        "Sacrificio",
+        "Tormenta Arena"
       ]
     },
     {
@@ -237,6 +254,17 @@
           "m": "Choque Anímico"
         }
       ],
+      "tmMoves": [
+        "Acua Aro",
+        "Aguijón Letal",
+        "Brecha Negra",
+        "Condena Silvana",
+        "Descanso",
+        "Electroderrape",
+        "Espora",
+        "Onda Anómala",
+        "Polvo Mágico"
+      ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10236.png"
     },
     {
@@ -252,7 +280,7 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Aguijón Letal",
+        "Llave Vital",
         "Drenadoras",
         "Puño Furia",
         "Espora"
@@ -368,6 +396,22 @@
           "lvl": 64,
           "m": "Halloween"
         }
+      ],
+      "tmMoves": [
+        "Acua Aro",
+        "Agilidad",
+        "Arenas Ardientes",
+        "Bramido Dragón",
+        "Brecha Negra",
+        "Capa Mágica",
+        "Espora",
+        "Estruendo Escama",
+        "Foco Energía",
+        "Motivación",
+        "Obstrucción",
+        "Pájaro Osado",
+        "Rodar",
+        "Tormenta Arena"
       ]
     },
     {
