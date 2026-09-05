@@ -4,134 +4,8 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 5h 24m jugadas · 73,600₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 5h 32m jugadas · 75,280₽ · vidas en el juego: ?",
   "team": [
-    {
-      "nickname": "Pinchos",
-      "species": "Pyukumuku",
-      "level": 29,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Competitivo",
-      "nature": "Audaz",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Espora",
-        "Drenadoras",
-        "Bomba Caramelo",
-        "Acua Jet"
-      ],
-      "iv": [
-        5,
-        12,
-        20,
-        17,
-        19,
-        27
-      ],
-      "ev": [
-        3,
-        11,
-        2,
-        11,
-        6,
-        7
-      ],
-      "abilPool": [
-        "Competitivo"
-      ],
-      "abilHidden": [
-        "Relincho Blanco"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Hilo Venenoso"
-        },
-        {
-          "lvl": 1,
-          "m": "Burbuja"
-        },
-        {
-          "lvl": 1,
-          "m": "Danza Lunar"
-        },
-        {
-          "lvl": 1,
-          "m": "Yo Primero"
-        },
-        {
-          "lvl": 1,
-          "m": "Acua Jet"
-        },
-        {
-          "lvl": 5,
-          "m": "Llave Vital"
-        },
-        {
-          "lvl": 10,
-          "m": "Pesadilla"
-        },
-        {
-          "lvl": 15,
-          "m": "Bomba Caramelo"
-        },
-        {
-          "lvl": 20,
-          "m": "Rabia"
-        },
-        {
-          "lvl": 25,
-          "m": "Chulería"
-        },
-        {
-          "lvl": 30,
-          "m": "Guardia Baja"
-        },
-        {
-          "lvl": 35,
-          "m": "Envite Acuático"
-        },
-        {
-          "lvl": 40,
-          "m": "Glaceoprisma"
-        },
-        {
-          "lvl": 45,
-          "m": "Rizo Defensa"
-        },
-        {
-          "lvl": 50,
-          "m": "Rompecoraza"
-        },
-        {
-          "lvl": 55,
-          "m": "Hidrovapor"
-        },
-        {
-          "lvl": 60,
-          "m": "Humareda"
-        }
-      ],
-      "tmMoves": [
-        "Acua Aro",
-        "Amnesia",
-        "Cascabel Cura",
-        "Descanso",
-        "Deslizamiento",
-        "Drenadoras",
-        "Espora",
-        "Estruendo Escama",
-        "Onda Anómala",
-        "Refugio",
-        "Rencor",
-        "Residuos",
-        "Rodar",
-        "Sacrificio"
-      ]
-    },
     {
       "nickname": "Dumbo",
       "species": "Donphan",
@@ -161,9 +35,9 @@
         21,
         35,
         20,
-        37,
-        21,
-        37
+        39,
+        23,
+        39
       ],
       "abilPool": [
         "Espada Indómita",
@@ -310,6 +184,132 @@
       ]
     },
     {
+      "nickname": "Pinchos",
+      "species": "Pyukumuku",
+      "level": 30,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Competitivo",
+      "nature": "Audaz",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Espora",
+        "Drenadoras",
+        "Bomba Caramelo",
+        "Acua Jet"
+      ],
+      "iv": [
+        5,
+        12,
+        20,
+        17,
+        19,
+        27
+      ],
+      "ev": [
+        3,
+        11,
+        2,
+        13,
+        8,
+        9
+      ],
+      "abilPool": [
+        "Competitivo"
+      ],
+      "abilHidden": [
+        "Relincho Blanco"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Hilo Venenoso"
+        },
+        {
+          "lvl": 1,
+          "m": "Burbuja"
+        },
+        {
+          "lvl": 1,
+          "m": "Danza Lunar"
+        },
+        {
+          "lvl": 1,
+          "m": "Yo Primero"
+        },
+        {
+          "lvl": 1,
+          "m": "Acua Jet"
+        },
+        {
+          "lvl": 5,
+          "m": "Llave Vital"
+        },
+        {
+          "lvl": 10,
+          "m": "Pesadilla"
+        },
+        {
+          "lvl": 15,
+          "m": "Bomba Caramelo"
+        },
+        {
+          "lvl": 20,
+          "m": "Rabia"
+        },
+        {
+          "lvl": 25,
+          "m": "Chulería"
+        },
+        {
+          "lvl": 30,
+          "m": "Guardia Baja"
+        },
+        {
+          "lvl": 35,
+          "m": "Envite Acuático"
+        },
+        {
+          "lvl": 40,
+          "m": "Glaceoprisma"
+        },
+        {
+          "lvl": 45,
+          "m": "Rizo Defensa"
+        },
+        {
+          "lvl": 50,
+          "m": "Rompecoraza"
+        },
+        {
+          "lvl": 55,
+          "m": "Hidrovapor"
+        },
+        {
+          "lvl": 60,
+          "m": "Humareda"
+        }
+      ],
+      "tmMoves": [
+        "Acua Aro",
+        "Amnesia",
+        "Cascabel Cura",
+        "Descanso",
+        "Deslizamiento",
+        "Drenadoras",
+        "Espora",
+        "Estruendo Escama",
+        "Onda Anómala",
+        "Refugio",
+        "Rencor",
+        "Residuos",
+        "Rodar",
+        "Sacrificio"
+      ]
+    },
+    {
       "nickname": "Vampi",
       "species": "Crobat",
       "level": 29,
@@ -339,9 +339,9 @@
         18,
         31,
         15,
-        33,
-        22,
-        30
+        35,
+        24,
+        32
       ],
       "abilPool": [
         "Baba"
@@ -464,9 +464,9 @@
         7,
         17,
         5,
-        14,
-        11,
-        15
+        16,
+        13,
+        17
       ],
       "abilPool": [
         "Don Floral"
@@ -588,9 +588,9 @@
         13,
         28,
         13,
-        24,
-        20,
-        24
+        26,
+        22,
+        26
       ],
       "abilPool": [
         "Recogida",
@@ -688,9 +688,9 @@
         6,
         15,
         6,
-        16,
-        13,
-        15
+        18,
+        15,
+        17
       ],
       "abilPool": [
         "Teracaparazón",
@@ -2933,17 +2933,6 @@
   ],
   "captures": [
     {
-      "route": "ruta_5",
-      "where": "Ruta 5",
-      "species": "Pyukumuku",
-      "nickname": "Pinchos",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 20,
-      "mon": "Pyukumuku"
-    },
-    {
       "route": "ciudad_verde",
       "where": "Ciudad Verde",
       "species": "Donphan",
@@ -2953,6 +2942,17 @@
       "category": "ciudad",
       "level": 6,
       "mon": "Donphan"
+    },
+    {
+      "route": "ruta_5",
+      "where": "Ruta 5",
+      "species": "Pyukumuku",
+      "nickname": "Pinchos",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 20,
+      "mon": "Pyukumuku"
     },
     {
       "route": "",
@@ -3217,8 +3217,8 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_5": true,
       "ciudad_verde": true,
+      "ruta_5": true,
       "ciudad_celeste": true,
       "ruta_3": true,
       "ruta_20": true,
