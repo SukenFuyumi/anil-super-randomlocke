@@ -4,134 +4,8 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 6h 38m jugadas · 114,760₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 6h 50m jugadas · 113,460₽ · vidas en el juego: ?",
   "team": [
-    {
-      "nickname": "Pinchos",
-      "species": "Pyukumuku",
-      "level": 34,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Competitivo",
-      "nature": "Audaz",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Espora",
-        "Drenadoras",
-        "Bomba Caramelo",
-        "Acua Jet"
-      ],
-      "iv": [
-        5,
-        12,
-        20,
-        17,
-        19,
-        27
-      ],
-      "ev": [
-        9,
-        18,
-        14,
-        29,
-        16,
-        19
-      ],
-      "abilPool": [
-        "Competitivo"
-      ],
-      "abilHidden": [
-        "Relincho Blanco"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Hilo Venenoso"
-        },
-        {
-          "lvl": 1,
-          "m": "Burbuja"
-        },
-        {
-          "lvl": 1,
-          "m": "Danza Lunar"
-        },
-        {
-          "lvl": 1,
-          "m": "Yo Primero"
-        },
-        {
-          "lvl": 1,
-          "m": "Acua Jet"
-        },
-        {
-          "lvl": 5,
-          "m": "Llave Vital"
-        },
-        {
-          "lvl": 10,
-          "m": "Pesadilla"
-        },
-        {
-          "lvl": 15,
-          "m": "Bomba Caramelo"
-        },
-        {
-          "lvl": 20,
-          "m": "Rabia"
-        },
-        {
-          "lvl": 25,
-          "m": "Chulería"
-        },
-        {
-          "lvl": 30,
-          "m": "Guardia Baja"
-        },
-        {
-          "lvl": 35,
-          "m": "Envite Acuático"
-        },
-        {
-          "lvl": 40,
-          "m": "Glaceoprisma"
-        },
-        {
-          "lvl": 45,
-          "m": "Rizo Defensa"
-        },
-        {
-          "lvl": 50,
-          "m": "Rompecoraza"
-        },
-        {
-          "lvl": 55,
-          "m": "Hidrovapor"
-        },
-        {
-          "lvl": 60,
-          "m": "Humareda"
-        }
-      ],
-      "tmMoves": [
-        "Acua Aro",
-        "Amnesia",
-        "Cascabel Cura",
-        "Descanso",
-        "Deslizamiento",
-        "Drenadoras",
-        "Espora",
-        "Estruendo Escama",
-        "Onda Anómala",
-        "Refugio",
-        "Rencor",
-        "Residuos",
-        "Rodar",
-        "Sacrificio"
-      ]
-    },
     {
       "nickname": "Shogun",
       "species": "Samurott (Hisui)",
@@ -161,10 +35,10 @@
       "ev": [
         6,
         5,
-        12,
+        16,
         12,
         8,
-        4
+        10
       ],
       "abilPool": [
         "Electromotor"
@@ -260,6 +134,134 @@
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10236.png"
     },
     {
+      "nickname": "Pinchos",
+      "species": "Pyukumuku",
+      "level": 35,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Competitivo",
+      "nature": "Audaz",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Espora",
+        "Drenadoras",
+        "Envite Acuático",
+        "Acua Jet"
+      ],
+      "iv": [
+        5,
+        12,
+        20,
+        17,
+        19,
+        27
+      ],
+      "ev": [
+        9,
+        18,
+        18,
+        29,
+        16,
+        25
+      ],
+      "abilPool": [
+        "Competitivo"
+      ],
+      "abilHidden": [
+        "Relincho Blanco"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Hilo Venenoso"
+        },
+        {
+          "lvl": 1,
+          "m": "Burbuja"
+        },
+        {
+          "lvl": 1,
+          "m": "Danza Lunar"
+        },
+        {
+          "lvl": 1,
+          "m": "Yo Primero"
+        },
+        {
+          "lvl": 1,
+          "m": "Acua Jet"
+        },
+        {
+          "lvl": 5,
+          "m": "Llave Vital"
+        },
+        {
+          "lvl": 10,
+          "m": "Pesadilla"
+        },
+        {
+          "lvl": 15,
+          "m": "Bomba Caramelo"
+        },
+        {
+          "lvl": 20,
+          "m": "Rabia"
+        },
+        {
+          "lvl": 25,
+          "m": "Chulería"
+        },
+        {
+          "lvl": 30,
+          "m": "Guardia Baja"
+        },
+        {
+          "lvl": 35,
+          "m": "Envite Acuático"
+        },
+        {
+          "lvl": 40,
+          "m": "Glaceoprisma"
+        },
+        {
+          "lvl": 45,
+          "m": "Rizo Defensa"
+        },
+        {
+          "lvl": 50,
+          "m": "Rompecoraza"
+        },
+        {
+          "lvl": 55,
+          "m": "Hidrovapor"
+        },
+        {
+          "lvl": 60,
+          "m": "Humareda"
+        }
+      ],
+      "tmMoves": [
+        "Acua Aro",
+        "Amnesia",
+        "Aura Magnética",
+        "Cascabel Cura",
+        "Descanso",
+        "Deslizamiento",
+        "Drenadoras",
+        "Electroderrape",
+        "Espora",
+        "Estruendo Escama",
+        "Onda Anómala",
+        "Refugio",
+        "Rencor",
+        "Residuos",
+        "Rodar",
+        "Sacrificio"
+      ]
+    },
+    {
       "nickname": "Gatalluvia",
       "species": "Meowscarada",
       "level": 37,
@@ -288,10 +290,10 @@
       "ev": [
         6,
         6,
-        12,
+        16,
         13,
         8,
-        4
+        10
       ],
       "abilPool": [
         "Combustible"
@@ -434,10 +436,10 @@
       "ev": [
         27,
         42,
-        32,
+        36,
         55,
         31,
-        49
+        55
       ],
       "abilPool": [
         "Espada Indómita",
@@ -572,6 +574,7 @@
         "Acua Aro",
         "Agilidad",
         "Aguante",
+        "Aura Magnética",
         "Brecha Negra",
         "Capa Mágica",
         "Condena Silvana",
@@ -612,10 +615,10 @@
       "ev": [
         24,
         38,
-        27,
+        31,
         51,
         32,
-        42
+        48
       ],
       "abilPool": [
         "Baba"
@@ -706,7 +709,9 @@
         }
       ],
       "tmMoves": [
-        "Agilidad"
+        "Agilidad",
+        "Aura Magnética",
+        "Electroderrape"
       ]
     },
     {
@@ -738,10 +743,10 @@
       "ev": [
         2,
         2,
-        10,
+        14,
         10,
         8,
-        2
+        8
       ],
       "abilPool": [
         "Electromotor"
@@ -836,6 +841,8 @@
         }
       ],
       "tmMoves": [
+        "Aura Magnética",
+        "Deslizamiento",
         "Pájaro Osado"
       ]
     }
@@ -2871,6 +2878,251 @@
       ]
     },
     {
+      "nickname": "Atun",
+      "species": "Basculin",
+      "level": 30,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Transistor",
+      "nature": "Pícara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Represalia",
+        "Rayo Burbuja",
+        "Conversión2",
+        "Viento Hielo"
+      ],
+      "iv": [
+        29,
+        28,
+        6,
+        6,
+        23,
+        14
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Transistor",
+        "Rompeaura"
+      ],
+      "abilHidden": [
+        "Momia"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Refuerzo"
+        },
+        {
+          "lvl": 1,
+          "m": "Triple Inmersión"
+        },
+        {
+          "lvl": 4,
+          "m": "Gas Corrosivo"
+        },
+        {
+          "lvl": 8,
+          "m": "Clavo Cañón"
+        },
+        {
+          "lvl": 12,
+          "m": "Hidrochorro"
+        },
+        {
+          "lvl": 16,
+          "m": "Represalia"
+        },
+        {
+          "lvl": 20,
+          "m": "Rayo Burbuja"
+        },
+        {
+          "lvl": 24,
+          "m": "Conversión2"
+        },
+        {
+          "lvl": 28,
+          "m": "Viento Hielo"
+        },
+        {
+          "lvl": 32,
+          "m": "Llama Protectora"
+        },
+        {
+          "lvl": 36,
+          "m": "Trueno"
+        },
+        {
+          "lvl": 40,
+          "m": "Trampa Venenosa"
+        },
+        {
+          "lvl": 44,
+          "m": "Martillo Hielo"
+        },
+        {
+          "lvl": 44,
+          "m": "Martillo Dragón"
+        },
+        {
+          "lvl": 48,
+          "m": "Gigadrenado"
+        },
+        {
+          "lvl": 52,
+          "m": "Patada Relámpago"
+        },
+        {
+          "lvl": 56,
+          "m": "Viraje"
+        }
+      ]
+    },
+    {
+      "nickname": "Xamork",
+      "species": "Sandslash",
+      "level": 32,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Cambio Color",
+      "nature": "Activa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Rayo Confuso",
+        "Voltiocambio",
+        "Niebla",
+        "Poder Reserva"
+      ],
+      "iv": [
+        21,
+        4,
+        9,
+        6,
+        7,
+        13
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Cambio Color"
+      ],
+      "abilHidden": [
+        "Fuerza Cerebral"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Disparo Lodo"
+        },
+        {
+          "lvl": 1,
+          "m": "Esfuerzo"
+        },
+        {
+          "lvl": 1,
+          "m": "Homenaje Póstumo"
+        },
+        {
+          "lvl": 1,
+          "m": "Pulimento"
+        },
+        {
+          "lvl": 1,
+          "m": "Marcha Espectral"
+        },
+        {
+          "lvl": 1,
+          "m": "Recogearena"
+        },
+        {
+          "lvl": 9,
+          "m": "Doble Golpe"
+        },
+        {
+          "lvl": 12,
+          "m": "Bomba Fango"
+        },
+        {
+          "lvl": 15,
+          "m": "Púas"
+        },
+        {
+          "lvl": 17,
+          "m": "Bucle Arena"
+        },
+        {
+          "lvl": 18,
+          "m": "Garra Umbría"
+        },
+        {
+          "lvl": 21,
+          "m": "Rayo Confuso"
+        },
+        {
+          "lvl": 26,
+          "m": "Voltiocambio"
+        },
+        {
+          "lvl": 30,
+          "m": "Niebla"
+        },
+        {
+          "lvl": 31,
+          "m": "Poder Reserva"
+        },
+        {
+          "lvl": 34,
+          "m": "Hidrochorro"
+        },
+        {
+          "lvl": 36,
+          "m": "Esquema"
+        },
+        {
+          "lvl": 41,
+          "m": "Hoja Aguda"
+        },
+        {
+          "lvl": 46,
+          "m": "Danza Espada"
+        },
+        {
+          "lvl": 48,
+          "m": "Acua Cola"
+        },
+        {
+          "lvl": 51,
+          "m": "Luna Roja"
+        },
+        {
+          "lvl": 56,
+          "m": "Polvo Ira"
+        },
+        {
+          "lvl": 61,
+          "m": "Prensa Metálica"
+        }
+      ]
+    },
+    {
       "nickname": "Taxi",
       "species": "Corvisquire",
       "level": 31,
@@ -3333,17 +3585,6 @@
   ],
   "captures": [
     {
-      "route": "ruta_5",
-      "where": "Ruta 5",
-      "species": "Pyukumuku",
-      "nickname": "Pinchos",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 20,
-      "mon": "Pyukumuku"
-    },
-    {
       "route": "ruta_15",
       "where": "Ruta 15",
       "species": "Samurott",
@@ -3353,6 +3594,17 @@
       "category": "salvaje",
       "level": 25,
       "mon": "Samurott"
+    },
+    {
+      "route": "ruta_5",
+      "where": "Ruta 5",
+      "species": "Pyukumuku",
+      "nickname": "Pinchos",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 20,
+      "mon": "Pyukumuku"
     },
     {
       "route": "ruta_5",
@@ -3597,6 +3849,28 @@
       "mon": "Misdreavus"
     },
     {
+      "route": "ruta_10_sur",
+      "where": "Ruta 10 Sur",
+      "species": "Basculin",
+      "nickname": "Atun",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 30,
+      "mon": "Basculin"
+    },
+    {
+      "route": "ruta_8",
+      "where": "Ruta 8",
+      "species": "Sandslash",
+      "nickname": "Xamork",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 32,
+      "mon": "Sandslash"
+    },
+    {
       "route": "ruta_3",
       "where": "Ruta 3",
       "species": "Corvisquire",
@@ -3650,8 +3924,8 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_5": true,
       "ruta_15": true,
+      "ruta_5": true,
       "ciudad_verde": true,
       "ruta_2_norte": true,
       "ciudad_plateada": true,
@@ -3668,10 +3942,13 @@
       "tunel_diglett": true,
       "monte_moon": true,
       "tunel_roca": true,
+      "ruta_10_sur": true,
+      "ruta_8": true,
       "ruta_3": true,
       "ruta_20": true,
       "ruta_4": true,
       "ciudad_carmin": true,
+      "pueblo_lavanda": true,
       "ruta_12": true,
       "ruta_21": true
     },
@@ -3687,7 +3964,9 @@
       "tunel_diglett": true,
       "ruta_9": true,
       "ruta_10_norte": true,
-      "tunel_roca": true
+      "tunel_roca": true,
+      "ruta_10_sur": true,
+      "ruta_8": true
     }
   }
 }
