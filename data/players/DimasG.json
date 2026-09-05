@@ -4,142 +4,8 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 6h 11m jugadas · 88,760₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 6h 21m jugadas · 91,240₽ · vidas en el juego: ?",
   "team": [
-    {
-      "nickname": "Macizo",
-      "species": "Archeops",
-      "level": 37,
-      "types": [
-        "Roca",
-        "Volador"
-      ],
-      "ability": "Mal Sueño",
-      "nature": "Firme",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Pájaro Osado",
-        "Tajo Metralla",
-        "Salazón",
-        "Puño Fuego"
-      ],
-      "iv": [
-        14,
-        24,
-        15,
-        23,
-        26,
-        12
-      ],
-      "ev": [
-        0,
-        1,
-        0,
-        1,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Mal Sueño"
-      ],
-      "abilHidden": [],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Luz Lunar"
-        },
-        {
-          "lvl": 1,
-          "m": "Electrificación"
-        },
-        {
-          "lvl": 1,
-          "m": "Decalcomanía"
-        },
-        {
-          "lvl": 1,
-          "m": "Embargo"
-        },
-        {
-          "lvl": 8,
-          "m": "Legado"
-        },
-        {
-          "lvl": 9,
-          "m": "Persecución"
-        },
-        {
-          "lvl": 12,
-          "m": "Abrecaminos"
-        },
-        {
-          "lvl": 15,
-          "m": "Doble Patada"
-        },
-        {
-          "lvl": 18,
-          "m": "Puño Mareo"
-        },
-        {
-          "lvl": 21,
-          "m": "Burbuja"
-        },
-        {
-          "lvl": 24,
-          "m": "Enrosque"
-        },
-        {
-          "lvl": 27,
-          "m": "Ladrón"
-        },
-        {
-          "lvl": 28,
-          "m": "Trampa Rocas"
-        },
-        {
-          "lvl": 30,
-          "m": "Tajo Metralla"
-        },
-        {
-          "lvl": 33,
-          "m": "Salazón"
-        },
-        {
-          "lvl": 36,
-          "m": "Energibola"
-        },
-        {
-          "lvl": 41,
-          "m": "Lanzallamas"
-        },
-        {
-          "lvl": 46,
-          "m": "Pulso Cura"
-        },
-        {
-          "lvl": 51,
-          "m": "Terratemblor"
-        }
-      ],
-      "tmMoves": [
-        "Agilidad",
-        "Aguante",
-        "Aguijón Letal",
-        "Brecha Negra",
-        "Detección",
-        "Meteorobola",
-        "Nitrochoque",
-        "Obstrucción",
-        "Pájaro Osado",
-        "Polvo Mágico",
-        "Refugio",
-        "Residuos",
-        "Rodar",
-        "Sacrificio",
-        "Tormenta Arena"
-      ]
-    },
     {
       "nickname": "Shogun",
       "species": "Samurott (Hisui)",
@@ -167,12 +33,12 @@
         13
       ],
       "ev": [
+        4,
+        3,
+        2,
+        2,
         0,
-        0,
-        0,
-        0,
-        0,
-        0
+        2
       ],
       "abilPool": [
         "Electromotor"
@@ -294,12 +160,12 @@
         0
       ],
       "ev": [
+        4,
+        4,
+        2,
+        3,
         0,
-        1,
-        0,
-        1,
-        0,
-        0
+        2
       ],
       "abilPool": [
         "Combustible"
@@ -417,7 +283,7 @@
     {
       "nickname": "Pinchos",
       "species": "Pyukumuku",
-      "level": 31,
+      "level": 32,
       "types": [
         "Agua"
       ],
@@ -440,12 +306,12 @@
         27
       ],
       "ev": [
-        3,
-        13,
-        2,
-        17,
+        7,
+        16,
+        4,
+        19,
         8,
-        15
+        17
       ],
       "abilPool": [
         "Competitivo"
@@ -543,7 +409,7 @@
     {
       "nickname": "Dumbo",
       "species": "Donphan",
-      "level": 30,
+      "level": 31,
       "types": [
         "Tierra"
       ],
@@ -566,12 +432,12 @@
         23
       ],
       "ev": [
-        21,
-        37,
-        20,
-        43,
+        25,
+        40,
+        22,
+        45,
         23,
-        45
+        47
       ],
       "abilPool": [
         "Espada Indómita",
@@ -720,7 +586,7 @@
     {
       "nickname": "Vampi",
       "species": "Crobat",
-      "level": 30,
+      "level": 31,
       "types": [
         "Veneno",
         "Volador"
@@ -744,12 +610,12 @@
         15
       ],
       "ev": [
-        18,
-        33,
-        15,
-        39,
+        22,
+        36,
+        17,
+        41,
         24,
-        38
+        40
       ],
       "abilPool": [
         "Baba"
@@ -841,6 +707,136 @@
       ],
       "tmMoves": [
         "Agilidad"
+      ]
+    },
+    {
+      "nickname": "Emboar",
+      "species": "Emboar",
+      "level": 36,
+      "types": [
+        "Fuego",
+        "Lucha"
+      ],
+      "ability": "Electromotor",
+      "nature": "Floja",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Resarcimiento",
+        "Corte",
+        "Golpe Calor",
+        "Guardia Baja"
+      ],
+      "iv": [
+        30,
+        0,
+        4,
+        19,
+        22,
+        27
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Electromotor"
+      ],
+      "abilHidden": [
+        "Huida"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Tajo Umbrío"
+        },
+        {
+          "lvl": -1,
+          "m": "Vasta Guardia"
+        },
+        {
+          "lvl": 1,
+          "m": "Velo Aurora"
+        },
+        {
+          "lvl": 1,
+          "m": "Robo"
+        },
+        {
+          "lvl": 1,
+          "m": "Onda Simple"
+        },
+        {
+          "lvl": 1,
+          "m": "Puño Mareo"
+        },
+        {
+          "lvl": 9,
+          "m": "Pistola Agua"
+        },
+        {
+          "lvl": 13,
+          "m": "Espabila"
+        },
+        {
+          "lvl": 15,
+          "m": "Neblina"
+        },
+        {
+          "lvl": 17,
+          "m": "Danza Aleteo"
+        },
+        {
+          "lvl": 20,
+          "m": "Rastreo"
+        },
+        {
+          "lvl": 23,
+          "m": "Polvo Veneno"
+        },
+        {
+          "lvl": 28,
+          "m": "Disparo Lodo"
+        },
+        {
+          "lvl": 31,
+          "m": "Onda Ígnea"
+        },
+        {
+          "lvl": 38,
+          "m": "Espada Lamento"
+        },
+        {
+          "lvl": 38,
+          "m": "Electrorrayo"
+        },
+        {
+          "lvl": 43,
+          "m": "Hipnosis"
+        },
+        {
+          "lvl": 50,
+          "m": "Latigazo"
+        },
+        {
+          "lvl": 55,
+          "m": "Bramido Dragón"
+        },
+        {
+          "lvl": 55,
+          "m": "Chupavidas"
+        },
+        {
+          "lvl": 62,
+          "m": "Tecno Shock"
+        }
+      ],
+      "tmMoves": [
+        "Pájaro Osado"
       ]
     }
   ],
@@ -1430,6 +1426,140 @@
       ]
     },
     {
+      "nickname": "Macizo",
+      "species": "Archeops",
+      "level": 37,
+      "types": [
+        "Roca",
+        "Volador"
+      ],
+      "ability": "Mal Sueño",
+      "nature": "Firme",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Pájaro Osado",
+        "Tajo Metralla",
+        "Salazón",
+        "Puño Fuego"
+      ],
+      "iv": [
+        14,
+        24,
+        15,
+        23,
+        26,
+        12
+      ],
+      "ev": [
+        4,
+        4,
+        2,
+        3,
+        0,
+        2
+      ],
+      "abilPool": [
+        "Mal Sueño"
+      ],
+      "abilHidden": [],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Luz Lunar"
+        },
+        {
+          "lvl": 1,
+          "m": "Electrificación"
+        },
+        {
+          "lvl": 1,
+          "m": "Decalcomanía"
+        },
+        {
+          "lvl": 1,
+          "m": "Embargo"
+        },
+        {
+          "lvl": 8,
+          "m": "Legado"
+        },
+        {
+          "lvl": 9,
+          "m": "Persecución"
+        },
+        {
+          "lvl": 12,
+          "m": "Abrecaminos"
+        },
+        {
+          "lvl": 15,
+          "m": "Doble Patada"
+        },
+        {
+          "lvl": 18,
+          "m": "Puño Mareo"
+        },
+        {
+          "lvl": 21,
+          "m": "Burbuja"
+        },
+        {
+          "lvl": 24,
+          "m": "Enrosque"
+        },
+        {
+          "lvl": 27,
+          "m": "Ladrón"
+        },
+        {
+          "lvl": 28,
+          "m": "Trampa Rocas"
+        },
+        {
+          "lvl": 30,
+          "m": "Tajo Metralla"
+        },
+        {
+          "lvl": 33,
+          "m": "Salazón"
+        },
+        {
+          "lvl": 36,
+          "m": "Energibola"
+        },
+        {
+          "lvl": 41,
+          "m": "Lanzallamas"
+        },
+        {
+          "lvl": 46,
+          "m": "Pulso Cura"
+        },
+        {
+          "lvl": 51,
+          "m": "Terratemblor"
+        }
+      ],
+      "tmMoves": [
+        "Agilidad",
+        "Aguante",
+        "Aguijón Letal",
+        "Brecha Negra",
+        "Detección",
+        "Meteorobola",
+        "Nitrochoque",
+        "Obstrucción",
+        "Pájaro Osado",
+        "Polvo Mágico",
+        "Refugio",
+        "Residuos",
+        "Rodar",
+        "Sacrificio",
+        "Tormenta Arena"
+      ]
+    },
+    {
       "nickname": "Skiper",
       "species": "Empoleon",
       "level": 36,
@@ -1553,30 +1683,30 @@
       ]
     },
     {
-      "nickname": "Emboar",
-      "species": "Emboar",
-      "level": 36,
+      "nickname": "Zangetsu",
+      "species": "Doublade",
+      "level": 26,
       "types": [
-        "Fuego",
-        "Lucha"
+        "Acero",
+        "Fantasma"
       ],
-      "ability": "Electromotor",
-      "nature": "Floja",
+      "ability": "Combustible",
+      "nature": "Firme",
       "item": "",
       "shiny": false,
       "moves": [
-        "Resarcimiento",
-        "Corte",
-        "Golpe Calor",
-        "Guardia Baja"
+        "Rabia",
+        "Truco",
+        "Punzada Rama",
+        "Agitacola"
       ],
       "iv": [
         30,
-        0,
-        4,
-        19,
-        22,
-        27
+        12,
+        18,
+        17,
+        29,
+        9
       ],
       "ev": [
         0,
@@ -1587,95 +1717,69 @@
         0
       ],
       "abilPool": [
-        "Electromotor"
+        "Combustible"
       ],
-      "abilHidden": [
-        "Huida"
-      ],
+      "abilHidden": [],
       "learnset": [
         {
-          "lvl": -1,
-          "m": "Tajo Umbrío"
-        },
-        {
-          "lvl": -1,
-          "m": "Vasta Guardia"
+          "lvl": 1,
+          "m": "Rompecoraza"
         },
         {
           "lvl": 1,
-          "m": "Velo Aurora"
+          "m": "Afilar"
         },
         {
           "lvl": 1,
-          "m": "Robo"
+          "m": "Onda Trueno"
         },
         {
           "lvl": 1,
-          "m": "Onda Simple"
+          "m": "Deseo Cura"
         },
         {
-          "lvl": 1,
-          "m": "Puño Mareo"
-        },
-        {
-          "lvl": 9,
-          "m": "Pistola Agua"
+          "lvl": 12,
+          "m": "Maldición"
         },
         {
           "lvl": 13,
-          "m": "Espabila"
+          "m": "Rabia"
         },
         {
-          "lvl": 15,
-          "m": "Neblina"
-        },
-        {
-          "lvl": 17,
-          "m": "Danza Aleteo"
+          "lvl": 16,
+          "m": "Truco"
         },
         {
           "lvl": 20,
-          "m": "Rastreo"
+          "m": "Punzada Rama"
         },
         {
-          "lvl": 23,
-          "m": "Polvo Veneno"
+          "lvl": 24,
+          "m": "Agitacola"
         },
         {
           "lvl": 28,
-          "m": "Disparo Lodo"
+          "m": "Amnesia"
         },
         {
-          "lvl": 31,
-          "m": "Onda Ígnea"
-        },
-        {
-          "lvl": 38,
-          "m": "Espada Lamento"
+          "lvl": 32,
+          "m": "Cabeza Sorpresa"
         },
         {
           "lvl": 38,
-          "m": "Electrorrayo"
+          "m": "Conjuro Funesto"
         },
         {
-          "lvl": 43,
-          "m": "Hipnosis"
+          "lvl": 44,
+          "m": "Mazazo"
         },
         {
           "lvl": 50,
-          "m": "Latigazo"
+          "m": "Cuchilla Solar"
         },
         {
-          "lvl": 55,
-          "m": "Bramido Dragón"
-        },
-        {
-          "lvl": 55,
-          "m": "Chupavidas"
-        },
-        {
-          "lvl": 62,
-          "m": "Tecno Shock"
+          "lvl": 56,
+          "m": "Robasombra"
         }
       ]
     },
@@ -3125,17 +3229,6 @@
   ],
   "captures": [
     {
-      "route": "ruta_2_sur",
-      "where": "Ruta 2 Sur",
-      "species": "Archeops",
-      "nickname": "Macizo",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 6,
-      "mon": "Archeops"
-    },
-    {
       "route": "ruta_15",
       "where": "Ruta 15",
       "species": "Samurott",
@@ -3189,6 +3282,17 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Crobat"
+    },
+    {
+      "route": "",
+      "where": "S.S Anne",
+      "species": "Emboar",
+      "nickname": "",
+      "shiny": false,
+      "status": "captured",
+      "category": "intercambio",
+      "level": 21,
+      "mon": "Emboar"
     },
     {
       "route": "",
@@ -3246,6 +3350,17 @@
       "mon": "Shroodle"
     },
     {
+      "route": "ruta_2_sur",
+      "where": "Ruta 2 Sur",
+      "species": "Archeops",
+      "nickname": "Macizo",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 6,
+      "mon": "Archeops"
+    },
+    {
       "route": "ruta_9",
       "where": "Ruta 9",
       "species": "Empoleon",
@@ -3257,15 +3372,15 @@
       "mon": "Empoleon"
     },
     {
-      "route": "",
-      "where": "S.S Anne",
-      "species": "Emboar",
-      "nickname": "",
+      "route": "ruta_10_norte",
+      "where": "Ruta 10 Norte",
+      "species": "Doublade",
+      "nickname": "Zangetsu",
       "shiny": false,
       "status": "captured",
-      "category": "intercambio",
-      "level": 21,
-      "mon": "Emboar"
+      "category": "salvaje",
+      "level": 26,
+      "mon": "Doublade"
     },
     {
       "route": "monte_moon_exterior",
@@ -3420,14 +3535,15 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_2_sur": true,
       "ruta_15": true,
       "ruta_5": true,
       "ciudad_verde": true,
       "ruta_2_norte": true,
       "ciudad_plateada": true,
       "ruta_22": true,
+      "ruta_2_sur": true,
       "ruta_9": true,
+      "ruta_10_norte": true,
       "monte_moon_exterior": true,
       "ruta_6": true,
       "ruta_1": true,
@@ -3453,7 +3569,8 @@
       "bosque_verde": true,
       "ruta_15": true,
       "tunel_diglett": true,
-      "ruta_9": true
+      "ruta_9": true,
+      "ruta_10_norte": true
     }
   }
 }
