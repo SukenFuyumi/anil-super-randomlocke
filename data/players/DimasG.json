@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 5h 19m jugadas · 69,100₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 5h 24m jugadas · 73,600₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Pinchos",
       "species": "Pyukumuku",
-      "level": 28,
+      "level": 29,
       "types": [
         "Agua"
       ],
@@ -33,11 +33,11 @@
       ],
       "ev": [
         3,
-        10,
-        1,
-        10,
-        5,
-        6
+        11,
+        2,
+        11,
+        6,
+        7
       ],
       "abilPool": [
         "Competitivo"
@@ -135,7 +135,7 @@
     {
       "nickname": "Dumbo",
       "species": "Donphan",
-      "level": 28,
+      "level": 29,
       "types": [
         "Tierra"
       ],
@@ -159,11 +159,11 @@
       ],
       "ev": [
         21,
-        34,
-        19,
-        36,
+        35,
         20,
-        36
+        37,
+        21,
+        37
       ],
       "abilPool": [
         "Espada Indómita",
@@ -312,7 +312,7 @@
     {
       "nickname": "Vampi",
       "species": "Crobat",
-      "level": 28,
+      "level": 29,
       "types": [
         "Veneno",
         "Volador"
@@ -337,11 +337,11 @@
       ],
       "ev": [
         18,
-        30,
-        14,
-        32,
-        21,
-        29
+        31,
+        15,
+        33,
+        22,
+        30
       ],
       "abilPool": [
         "Baba"
@@ -438,7 +438,7 @@
     {
       "nickname": "Calenton",
       "species": "Magmar",
-      "level": 28,
+      "level": 29,
       "types": [
         "Fuego"
       ],
@@ -462,11 +462,11 @@
       ],
       "ev": [
         7,
-        16,
-        4,
-        13,
-        10,
-        14
+        17,
+        5,
+        14,
+        11,
+        15
       ],
       "abilPool": [
         "Don Floral"
@@ -562,7 +562,7 @@
     {
       "nickname": "Taxi",
       "species": "Corvisquire",
-      "level": 28,
+      "level": 29,
       "types": [
         "Volador"
       ],
@@ -586,11 +586,11 @@
       ],
       "ev": [
         13,
-        27,
-        12,
-        23,
-        19,
-        23
+        28,
+        13,
+        24,
+        20,
+        24
       ],
       "abilPool": [
         "Recogida",
@@ -662,7 +662,7 @@
     {
       "nickname": "Reymo",
       "species": "Nidorino",
-      "level": 28,
+      "level": 29,
       "types": [
         "Veneno"
       ],
@@ -671,7 +671,7 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Rodillo de Púas",
+        "Nitrocarga",
         "Superdiente",
         "Aguijón Letal",
         "Red Viscosa"
@@ -686,11 +686,11 @@
       ],
       "ev": [
         6,
-        14,
-        5,
         15,
-        12,
-        14
+        6,
+        16,
+        13,
+        15
       ],
       "abilPool": [
         "Teracaparazón",
@@ -3211,7 +3211,8 @@
   "progress": {
     "gyms": {
       "gym1": true,
-      "gym2": true
+      "gym2": true,
+      "gym3": true
     },
     "bosses": {},
     "npcs": {},
