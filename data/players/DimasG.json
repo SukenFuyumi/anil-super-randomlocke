@@ -4,134 +4,127 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 6h 56m jugadas · 123,850₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 7h 25m jugadas · 477,000₽ · vidas en el juego: ?",
   "team": [
     {
-      "nickname": "Shogun",
-      "species": "Samurott (Hisui)",
-      "level": 37,
+      "nickname": "Rotoplas",
+      "species": "Rotom",
+      "level": 36,
       "types": [
-        "Agua",
-        "Siniestro"
+        "Eléctrico",
+        "Fantasma"
       ],
-      "ability": "Electromotor",
-      "nature": "Seria",
+      "ability": "Caldero Debacle",
+      "nature": "Firme",
       "item": "",
       "shiny": false,
       "moves": [
-        "Viraje",
-        "Hachazo Pétreo",
-        "Deslizamiento",
-        "Triple Inmersión"
+        "Marcha Espectral",
+        "Electrotela",
+        "Niebla Clara",
+        "Sofoco"
       ],
       "iv": [
-        21,
-        26,
+        5,
         18,
-        8,
-        0,
-        13
+        25,
+        19,
+        5,
+        10
       ],
       "ev": [
-        6,
-        9,
-        18,
-        14,
-        8,
-        14
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
       "abilPool": [
-        "Electromotor"
+        "Caldero Debacle"
       ],
-      "abilHidden": [
-        "Latido Oricalco"
-      ],
+      "abilHidden": [],
       "learnset": [
         {
-          "lvl": 0,
-          "m": "Triple Inmersión"
+          "lvl": 1,
+          "m": "Trapicheo"
         },
         {
           "lvl": 1,
-          "m": "Clavo Cañón"
+          "m": "Copión"
         },
         {
-          "lvl": 1,
-          "m": "Fortaleza"
+          "lvl": 5,
+          "m": "Marcha Espectral"
         },
         {
-          "lvl": 1,
-          "m": "Sol Matinal"
+          "lvl": 10,
+          "m": "Meteorobola"
         },
         {
-          "lvl": 1,
-          "m": "Tajo Acuático"
+          "lvl": 15,
+          "m": "Onda Trueno"
         },
         {
-          "lvl": 1,
-          "m": "Onda Vacío"
-        },
-        {
-          "lvl": 1,
-          "m": "Tragar"
-        },
-        {
-          "lvl": 13,
-          "m": "Rayo Carga"
-        },
-        {
-          "lvl": 18,
-          "m": "Bastión Final"
-        },
-        {
-          "lvl": 21,
-          "m": "Shuriken de Agua"
+          "lvl": 20,
+          "m": "Mundo Gélido"
         },
         {
           "lvl": 25,
-          "m": "Mismo Destino"
+          "m": "Arrumaco"
         },
         {
           "lvl": 29,
-          "m": "Chirrido"
+          "m": "Clavo Cañón"
         },
         {
-          "lvl": 34,
-          "m": "Foco"
+          "lvl": 30,
+          "m": "Niebla Clara"
         },
         {
-          "lvl": 39,
-          "m": "Hidrovapor"
+          "lvl": 35,
+          "m": "Triple Axel"
         },
         {
-          "lvl": 46,
-          "m": "Carga Dragón"
+          "lvl": 40,
+          "m": "Finta"
         },
         {
-          "lvl": 51,
-          "m": "Puño Jet"
+          "lvl": 40,
+          "m": "Granizo"
         },
         {
-          "lvl": 58,
-          "m": "Agua Lodosa"
+          "lvl": 45,
+          "m": "Pirotecnia"
         },
         {
-          "lvl": 63,
-          "m": "Choque Anímico"
+          "lvl": 50,
+          "m": "Psicocarga"
+        },
+        {
+          "lvl": 55,
+          "m": "Electrificación"
         }
       ],
       "tmMoves": [
-        "Acua Aro",
-        "Aguijón Letal",
-        "Brecha Negra",
-        "Condena Silvana",
-        "Descanso",
-        "Electroderrape",
+        "Agilidad",
+        "Aura Magnética",
+        "Capa Mágica",
+        "Despejar",
+        "Electrotela",
         "Espora",
+        "Foco Energía",
+        "Obstrucción",
         "Onda Anómala",
-        "Polvo Mágico"
-      ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10236.png"
+        "Onda Tóxica",
+        "Polvo Mágico",
+        "Refugio",
+        "Rencor",
+        "Residuos",
+        "Rodar",
+        "Sacrificio",
+        "Voto Fuego"
+      ]
     },
     {
       "nickname": "Pinchos",
@@ -258,7 +251,8 @@
         "Rencor",
         "Residuos",
         "Rodar",
-        "Sacrificio"
+        "Sacrificio",
+        "Voto Fuego"
       ]
     },
     {
@@ -711,140 +705,137 @@
       "tmMoves": [
         "Agilidad",
         "Aura Magnética",
-        "Electroderrape"
+        "Electroderrape",
+        "Voto Fuego"
       ]
     },
     {
-      "nickname": "Emboar",
-      "species": "Emboar",
-      "level": 38,
+      "nickname": "Shogun",
+      "species": "Samurott (Hisui)",
+      "level": 37,
       "types": [
-        "Fuego",
-        "Lucha"
+        "Agua",
+        "Siniestro"
       ],
       "ability": "Electromotor",
-      "nature": "Floja",
+      "nature": "Seria",
       "item": "",
       "shiny": false,
       "moves": [
-        "Resarcimiento",
-        "Corte",
-        "Golpe Calor",
-        "Guardia Baja"
+        "Viraje",
+        "Hachazo Pétreo",
+        "Deslizamiento",
+        "Triple Inmersión"
       ],
       "iv": [
-        30,
+        21,
+        26,
+        18,
+        8,
         0,
-        4,
-        19,
-        22,
-        27
+        13
       ],
       "ev": [
-        2,
         6,
-        16,
-        12,
+        9,
+        18,
+        14,
         8,
-        12
+        14
       ],
       "abilPool": [
         "Electromotor"
       ],
       "abilHidden": [
-        "Huida"
+        "Latido Oricalco"
       ],
       "learnset": [
         {
-          "lvl": -1,
-          "m": "Tajo Umbrío"
-        },
-        {
-          "lvl": -1,
-          "m": "Vasta Guardia"
+          "lvl": 0,
+          "m": "Triple Inmersión"
         },
         {
           "lvl": 1,
-          "m": "Velo Aurora"
+          "m": "Clavo Cañón"
         },
         {
           "lvl": 1,
-          "m": "Robo"
+          "m": "Fortaleza"
         },
         {
           "lvl": 1,
-          "m": "Onda Simple"
+          "m": "Sol Matinal"
         },
         {
           "lvl": 1,
-          "m": "Puño Mareo"
+          "m": "Tajo Acuático"
         },
         {
-          "lvl": 9,
-          "m": "Pistola Agua"
+          "lvl": 1,
+          "m": "Onda Vacío"
+        },
+        {
+          "lvl": 1,
+          "m": "Tragar"
         },
         {
           "lvl": 13,
-          "m": "Espabila"
+          "m": "Rayo Carga"
         },
         {
-          "lvl": 15,
-          "m": "Neblina"
+          "lvl": 18,
+          "m": "Bastión Final"
         },
         {
-          "lvl": 17,
-          "m": "Danza Aleteo"
+          "lvl": 21,
+          "m": "Shuriken de Agua"
         },
         {
-          "lvl": 20,
-          "m": "Rastreo"
+          "lvl": 25,
+          "m": "Mismo Destino"
         },
         {
-          "lvl": 23,
-          "m": "Polvo Veneno"
+          "lvl": 29,
+          "m": "Chirrido"
         },
         {
-          "lvl": 28,
-          "m": "Disparo Lodo"
+          "lvl": 34,
+          "m": "Foco"
         },
         {
-          "lvl": 31,
-          "m": "Onda Ígnea"
+          "lvl": 39,
+          "m": "Hidrovapor"
         },
         {
-          "lvl": 38,
-          "m": "Espada Lamento"
+          "lvl": 46,
+          "m": "Carga Dragón"
         },
         {
-          "lvl": 38,
-          "m": "Electrorrayo"
+          "lvl": 51,
+          "m": "Puño Jet"
         },
         {
-          "lvl": 43,
-          "m": "Hipnosis"
+          "lvl": 58,
+          "m": "Agua Lodosa"
         },
         {
-          "lvl": 50,
-          "m": "Latigazo"
-        },
-        {
-          "lvl": 55,
-          "m": "Bramido Dragón"
-        },
-        {
-          "lvl": 55,
-          "m": "Chupavidas"
-        },
-        {
-          "lvl": 62,
-          "m": "Tecno Shock"
+          "lvl": 63,
+          "m": "Choque Anímico"
         }
       ],
       "tmMoves": [
-        "Aura Magnética",
-        "Deslizamiento",
-        "Pájaro Osado"
-      ]
+        "Acua Aro",
+        "Aguijón Letal",
+        "Brecha Negra",
+        "Condena Silvana",
+        "Descanso",
+        "Electroderrape",
+        "Espora",
+        "Onda Anómala",
+        "Polvo Mágico",
+        "Voto Fuego"
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10236.png"
     }
   ],
   "box": [
@@ -2429,104 +2420,135 @@
       ]
     },
     {
-      "nickname": "Rotoplas",
-      "species": "Rotom",
-      "level": 26,
+      "nickname": "Emboar",
+      "species": "Emboar",
+      "level": 38,
       "types": [
-        "Eléctrico",
-        "Fantasma"
+        "Fuego",
+        "Lucha"
       ],
-      "ability": "Inmunidad",
-      "nature": "Firme",
+      "ability": "Electromotor",
+      "nature": "Floja",
       "item": "",
       "shiny": false,
       "moves": [
-        "Meteorobola",
-        "Onda Trueno",
-        "Mundo Gélido",
-        "Arrumaco"
+        "Resarcimiento",
+        "Corte",
+        "Golpe Calor",
+        "Guardia Baja"
       ],
       "iv": [
-        5,
-        18,
-        25,
+        30,
+        0,
+        4,
         19,
-        5,
-        10
+        22,
+        27
       ],
       "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        2,
+        6,
+        16,
+        12,
+        8,
+        12
       ],
       "abilPool": [
-        "Inmunidad"
+        "Electromotor"
       ],
-      "abilHidden": [],
+      "abilHidden": [
+        "Huida"
+      ],
       "learnset": [
         {
-          "lvl": 1,
-          "m": "Trapicheo"
+          "lvl": -1,
+          "m": "Tajo Umbrío"
+        },
+        {
+          "lvl": -1,
+          "m": "Vasta Guardia"
         },
         {
           "lvl": 1,
-          "m": "Copión"
+          "m": "Velo Aurora"
         },
         {
-          "lvl": 5,
-          "m": "Marcha Espectral"
+          "lvl": 1,
+          "m": "Robo"
         },
         {
-          "lvl": 10,
-          "m": "Meteorobola"
+          "lvl": 1,
+          "m": "Onda Simple"
+        },
+        {
+          "lvl": 1,
+          "m": "Puño Mareo"
+        },
+        {
+          "lvl": 9,
+          "m": "Pistola Agua"
+        },
+        {
+          "lvl": 13,
+          "m": "Espabila"
         },
         {
           "lvl": 15,
-          "m": "Onda Trueno"
+          "m": "Neblina"
+        },
+        {
+          "lvl": 17,
+          "m": "Danza Aleteo"
         },
         {
           "lvl": 20,
-          "m": "Mundo Gélido"
+          "m": "Rastreo"
         },
         {
-          "lvl": 25,
-          "m": "Arrumaco"
+          "lvl": 23,
+          "m": "Polvo Veneno"
         },
         {
-          "lvl": 29,
-          "m": "Clavo Cañón"
+          "lvl": 28,
+          "m": "Disparo Lodo"
         },
         {
-          "lvl": 30,
-          "m": "Niebla Clara"
+          "lvl": 31,
+          "m": "Onda Ígnea"
         },
         {
-          "lvl": 35,
-          "m": "Triple Axel"
+          "lvl": 38,
+          "m": "Espada Lamento"
         },
         {
-          "lvl": 40,
-          "m": "Finta"
+          "lvl": 38,
+          "m": "Electrorrayo"
         },
         {
-          "lvl": 40,
-          "m": "Granizo"
-        },
-        {
-          "lvl": 45,
-          "m": "Pirotecnia"
+          "lvl": 43,
+          "m": "Hipnosis"
         },
         {
           "lvl": 50,
-          "m": "Psicocarga"
+          "m": "Latigazo"
         },
         {
           "lvl": 55,
-          "m": "Electrificación"
+          "m": "Bramido Dragón"
+        },
+        {
+          "lvl": 55,
+          "m": "Chupavidas"
+        },
+        {
+          "lvl": 62,
+          "m": "Tecno Shock"
         }
+      ],
+      "tmMoves": [
+        "Aura Magnética",
+        "Deslizamiento",
+        "Pájaro Osado"
       ]
     },
     {
@@ -3249,6 +3271,230 @@
       ]
     },
     {
+      "nickname": "Pajaroto",
+      "species": "Fearow",
+      "level": 25,
+      "types": [
+        "Normal",
+        "Volador"
+      ],
+      "ability": "",
+      "nature": "Seria",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Truco Floral",
+        "Rabia",
+        "Viento Plata",
+        "Paralizador"
+      ],
+      "iv": [
+        9,
+        11,
+        27,
+        20,
+        13,
+        10
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Pelusa"
+      ],
+      "abilHidden": [
+        "Rumia"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Rizo Defensa"
+        },
+        {
+          "lvl": 1,
+          "m": "Agarrón"
+        },
+        {
+          "lvl": 1,
+          "m": "Clemencia"
+        },
+        {
+          "lvl": 4,
+          "m": "Bofetón Lodo"
+        },
+        {
+          "lvl": 8,
+          "m": "Foco"
+        },
+        {
+          "lvl": 11,
+          "m": "Ronquido"
+        },
+        {
+          "lvl": 13,
+          "m": "Adaptación"
+        },
+        {
+          "lvl": 15,
+          "m": "Truco Floral"
+        },
+        {
+          "lvl": 18,
+          "m": "Rabia"
+        },
+        {
+          "lvl": 23,
+          "m": "Viento Plata"
+        },
+        {
+          "lvl": 23,
+          "m": "Paralizador"
+        },
+        {
+          "lvl": 27,
+          "m": "Tajo Metralla"
+        },
+        {
+          "lvl": 32,
+          "m": "Fuerza G"
+        },
+        {
+          "lvl": 36,
+          "m": "Acua Aro"
+        },
+        {
+          "lvl": 38,
+          "m": "Llama Gélida"
+        },
+        {
+          "lvl": 41,
+          "m": "Hidrovapor"
+        },
+        {
+          "lvl": 45,
+          "m": "Fachada"
+        }
+      ]
+    },
+    {
+      "nickname": "Panzon",
+      "species": "Qwilfish (Hisui)",
+      "level": 35,
+      "types": [
+        "Siniestro",
+        "Veneno"
+      ],
+      "ability": "",
+      "nature": "Grosera",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Seducción",
+        "Chirrido",
+        "Doble Golpe",
+        "Castigo"
+      ],
+      "iv": [
+        0,
+        29,
+        18,
+        29,
+        21,
+        10
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Aura Oscura",
+        "Camorrista"
+      ],
+      "abilHidden": [
+        "Tablilla Debacle"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Geocontrol"
+        },
+        {
+          "lvl": 1,
+          "m": "Anticura"
+        },
+        {
+          "lvl": 4,
+          "m": "Trapicheo"
+        },
+        {
+          "lvl": 8,
+          "m": "Llanto Falso"
+        },
+        {
+          "lvl": 12,
+          "m": "Corpulencia"
+        },
+        {
+          "lvl": 16,
+          "m": "Beso Drenaje"
+        },
+        {
+          "lvl": 20,
+          "m": "Seducción"
+        },
+        {
+          "lvl": 24,
+          "m": "Chirrido"
+        },
+        {
+          "lvl": 28,
+          "m": "Doble Golpe"
+        },
+        {
+          "lvl": 32,
+          "m": "Castigo"
+        },
+        {
+          "lvl": 36,
+          "m": "Gas Venenoso"
+        },
+        {
+          "lvl": 40,
+          "m": "Mil Púas Tóxicas"
+        },
+        {
+          "lvl": 40,
+          "m": "Rayo Burbuja"
+        },
+        {
+          "lvl": 44,
+          "m": "Rueda Doble"
+        },
+        {
+          "lvl": 48,
+          "m": "Camelo"
+        },
+        {
+          "lvl": 52,
+          "m": "Pulimento"
+        },
+        {
+          "lvl": 56,
+          "m": "Infortunio"
+        }
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10234.png"
+    },
+    {
       "nickname": "Taxi",
       "species": "Corvisquire",
       "level": 31,
@@ -3711,15 +3957,15 @@
   ],
   "captures": [
     {
-      "route": "ruta_15",
-      "where": "Ruta 15",
-      "species": "Samurott",
-      "nickname": "Shogun",
+      "route": "tunel_diglett",
+      "where": "Túnel Diglett",
+      "species": "Rotom",
+      "nickname": "Rotoplas",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 25,
-      "mon": "Samurott"
+      "level": 26,
+      "mon": "Rotom"
     },
     {
       "route": "ruta_5",
@@ -3766,15 +4012,15 @@
       "mon": "Crobat"
     },
     {
-      "route": "",
-      "where": "S.S Anne",
-      "species": "Emboar",
-      "nickname": "",
+      "route": "ruta_15",
+      "where": "Ruta 15",
+      "species": "Samurott",
+      "nickname": "Shogun",
       "shiny": false,
       "status": "captured",
-      "category": "intercambio",
-      "level": 21,
-      "mon": "Emboar"
+      "category": "salvaje",
+      "level": 25,
+      "mon": "Samurott"
     },
     {
       "route": "",
@@ -3931,15 +4177,15 @@
       "mon": "Magmar"
     },
     {
-      "route": "tunel_diglett",
-      "where": "Túnel Diglett",
-      "species": "Rotom",
-      "nickname": "Rotoplas",
+      "route": "",
+      "where": "S.S Anne",
+      "species": "Emboar",
+      "nickname": "",
       "shiny": false,
       "status": "captured",
-      "category": "salvaje",
-      "level": 26,
-      "mon": "Rotom"
+      "category": "intercambio",
+      "level": 21,
+      "mon": "Emboar"
     },
     {
       "route": "ruta_5",
@@ -4008,6 +4254,28 @@
       "mon": "Luvdisc"
     },
     {
+      "route": "",
+      "where": "Edificio Azulona",
+      "species": "Fearow",
+      "nickname": "Pajaroto",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 25,
+      "mon": "Fearow"
+    },
+    {
+      "route": "",
+      "where": "Casino Azulona",
+      "species": "Qwilfish",
+      "nickname": "Panzon",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 35,
+      "mon": "Qwilfish"
+    },
+    {
       "route": "ruta_3",
       "where": "Ruta 3",
       "species": "Corvisquire",
@@ -4061,9 +4329,10 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_15": true,
+      "tunel_diglett": true,
       "ruta_5": true,
       "ciudad_verde": true,
+      "ruta_15": true,
       "ruta_2_norte": true,
       "ciudad_plateada": true,
       "ruta_22": true,
@@ -4076,7 +4345,6 @@
       "bosque_verde": true,
       "pueblo_paleta": true,
       "ciudad_celeste": true,
-      "tunel_diglett": true,
       "monte_moon": true,
       "tunel_roca": true,
       "ruta_10_sur": true,
@@ -4087,7 +4355,9 @@
       "ruta_4": true,
       "ciudad_carmin": true,
       "pueblo_lavanda": true,
+      "ciudad_azulona": true,
       "ruta_12": true,
+      "ruta_11": true,
       "ruta_21": true
     },
     "items": {},
