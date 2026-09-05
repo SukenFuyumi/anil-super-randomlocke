@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 5h 13m jugadas · 66,300₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 5h 15m jugadas · 66,300₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Pinchos",
@@ -114,6 +114,22 @@
           "lvl": 60,
           "m": "Humareda"
         }
+      ],
+      "tmMoves": [
+        "Acua Aro",
+        "Amnesia",
+        "Cascabel Cura",
+        "Descanso",
+        "Deslizamiento",
+        "Drenadoras",
+        "Espora",
+        "Estruendo Escama",
+        "Onda Anómala",
+        "Refugio",
+        "Rencor",
+        "Residuos",
+        "Rodar",
+        "Sacrificio"
       ]
     },
     {
@@ -277,6 +293,20 @@
           "lvl": 58,
           "m": "Estoicismo"
         }
+      ],
+      "tmMoves": [
+        "Acua Aro",
+        "Agilidad",
+        "Aguante",
+        "Brecha Negra",
+        "Capa Mágica",
+        "Condena Silvana",
+        "Descanso",
+        "Detección",
+        "Estruendo Escama",
+        "Rencor",
+        "Tormenta Arena",
+        "Truco"
       ]
     },
     {
@@ -400,6 +430,9 @@
           "lvl": 69,
           "m": "Ascenso Draco"
         }
+      ],
+      "tmMoves": [
+        "Agilidad"
       ]
     },
     {
@@ -514,6 +547,16 @@
           "lvl": 64,
           "m": "Pirotecnia"
         }
+      ],
+      "tmMoves": [
+        "Acua Aro",
+        "Aguante",
+        "Aguijón Letal",
+        "Capa Mágica",
+        "Drenadoras",
+        "Infortunio",
+        "Meteorobola",
+        "Tormenta Arena"
       ]
     },
     {
@@ -605,6 +648,15 @@
           "lvl": 46,
           "m": "Deseo Cura"
         }
+      ],
+      "tmMoves": [
+        "Aguante",
+        "Bramido Dragón",
+        "Brecha Negra",
+        "Deslizamiento",
+        "Giro Mortífero",
+        "Motivación",
+        "Onda Anómala"
       ]
     },
     {
@@ -712,6 +764,14 @@
           "lvl": 71,
           "m": "Llama Protectora"
         }
+      ],
+      "tmMoves": [
+        "Brecha Negra",
+        "Descanso",
+        "Estruendo Escama",
+        "Infortunio",
+        "Motivación",
+        "Sacrificio"
       ]
     }
   ],
@@ -824,6 +884,10 @@
           "lvl": 48,
           "m": "Chapoteo Lodo"
         }
+      ],
+      "tmMoves": [
+        "Agilidad",
+        "Deslizamiento"
       ]
     },
     {
@@ -939,6 +1003,14 @@
           "lvl": 48,
           "m": "Ataque Arena"
         }
+      ],
+      "tmMoves": [
+        "Agilidad",
+        "Bramido Dragón",
+        "Detección",
+        "Giro Mortífero",
+        "Meteorobola",
+        "Señuelo"
       ]
     },
     {
@@ -1055,6 +1127,11 @@
           "lvl": 52,
           "m": "Pájaro Osado"
         }
+      ],
+      "tmMoves": [
+        "Agilidad",
+        "Deslizamiento",
+        "Detección"
       ]
     },
     {
@@ -1159,6 +1236,15 @@
           "lvl": 45,
           "m": "Escupir"
         }
+      ],
+      "tmMoves": [
+        "Aguante",
+        "Bramido Dragón",
+        "Deslizamiento",
+        "Detección",
+        "Giro Mortífero",
+        "Polvo Mágico",
+        "Señuelo"
       ]
     },
     {
@@ -1263,6 +1349,15 @@
           "lvl": 45,
           "m": "Escupir"
         }
+      ],
+      "tmMoves": [
+        "Aguante",
+        "Bramido Dragón",
+        "Deslizamiento",
+        "Detección",
+        "Giro Mortífero",
+        "Polvo Mágico",
+        "Señuelo"
       ]
     },
     {
@@ -1601,6 +1696,21 @@
           "lvl": 46,
           "m": "Cañón Dinamax"
         }
+      ],
+      "tmMoves": [
+        "Aguijón Letal",
+        "Amnesia",
+        "Brecha Negra",
+        "Cascabel Cura",
+        "Drenadoras",
+        "Espora",
+        "Estruendo Escama",
+        "Motivación",
+        "Refugio",
+        "Rencor",
+        "Residuos",
+        "Señuelo",
+        "Truco"
       ]
     },
     {
@@ -1707,6 +1817,14 @@
           "lvl": 46,
           "m": "Rayo Meteórico"
         }
+      ],
+      "tmMoves": [
+        "Agilidad",
+        "Aguante",
+        "Bramido Dragón",
+        "Estruendo Escama",
+        "Infortunio",
+        "Rodar"
       ]
     },
     {
@@ -1938,6 +2056,14 @@
           "lvl": 52,
           "m": "Relevo"
         }
+      ],
+      "tmMoves": [
+        "Agilidad",
+        "Bramido Dragón",
+        "Deslizamiento",
+        "Motivación",
+        "Onda Anómala",
+        "Polvo Mágico"
       ]
     },
     {
@@ -2213,6 +2339,21 @@
           "lvl": 55,
           "m": "Tajo Acuático"
         }
+      ],
+      "tmMoves": [
+        "Acua Aro",
+        "Aguijón Letal",
+        "Amnesia",
+        "Bramido Dragón",
+        "Descanso",
+        "Detección",
+        "Drenadoras",
+        "Giro Mortífero",
+        "Meteorobola",
+        "Motivación",
+        "Residuos",
+        "Sacrificio",
+        "Señuelo"
       ]
     },
     {
@@ -2539,6 +2680,9 @@
           "lvl": 55,
           "m": "Hipercolmillo"
         }
+      ],
+      "tmMoves": [
+        "Aguante"
       ]
     }
   ],
@@ -2656,6 +2800,9 @@
           "lvl": 55,
           "m": "Hipercolmillo"
         }
+      ],
+      "tmMoves": [
+        "Aguante"
       ],
       "cause": "",
       "route": "Ciudad Plateada",
