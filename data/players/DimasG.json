@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 6h 21m jugadas · 91,240₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 6h 25m jugadas · 94,340₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Shogun",
@@ -35,9 +35,9 @@
       "ev": [
         4,
         3,
-        2,
-        2,
-        0,
+        4,
+        6,
+        3,
         2
       ],
       "abilPool": [
@@ -162,9 +162,9 @@
       "ev": [
         4,
         4,
-        2,
+        4,
+        7,
         3,
-        0,
         2
       ],
       "abilPool": [
@@ -308,9 +308,9 @@
       "ev": [
         7,
         16,
-        4,
-        19,
-        8,
+        6,
+        23,
+        11,
         17
       ],
       "abilPool": [
@@ -409,7 +409,7 @@
     {
       "nickname": "Dumbo",
       "species": "Donphan",
-      "level": 31,
+      "level": 32,
       "types": [
         "Tierra"
       ],
@@ -434,9 +434,9 @@
       "ev": [
         25,
         40,
-        22,
-        45,
-        23,
+        24,
+        49,
+        26,
         47
       ],
       "abilPool": [
@@ -586,7 +586,7 @@
     {
       "nickname": "Vampi",
       "species": "Crobat",
-      "level": 31,
+      "level": 32,
       "types": [
         "Veneno",
         "Volador"
@@ -612,9 +612,9 @@
       "ev": [
         22,
         36,
-        17,
-        41,
-        24,
+        19,
+        45,
+        27,
         40
       ],
       "abilPool": [
@@ -738,9 +738,9 @@
       "ev": [
         0,
         0,
-        0,
-        0,
-        0,
+        2,
+        4,
+        3,
         0
       ],
       "abilPool": [
