@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 11h 43m jugadas · 571,355₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 11h 48m jugadas · 571,355₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Midas",
@@ -143,162 +143,6 @@
         "Shuriken de Agua",
         "Tenaza",
         "Viento Hielo",
-        "Viento Plata"
-      ]
-    },
-    {
-      "nickname": "Miguelito",
-      "species": "Rillaboom",
-      "level": 49,
-      "types": [
-        "Planta"
-      ],
-      "ability": "Agallas",
-      "nature": "Audaz",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Pikaturbo",
-        "Terremoto",
-        "Limpieza General",
-        "Tormenta Floral"
-      ],
-      "iv": [
-        20,
-        10,
-        7,
-        25,
-        3,
-        14
-      ],
-      "ev": [
-        41,
-        78,
-        37,
-        44,
-        27,
-        56
-      ],
-      "abilPool": [
-        "Agallas"
-      ],
-      "abilHidden": [
-        "Defensa Hoja"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Niebla"
-        },
-        {
-          "lvl": 1,
-          "m": "Condena Silvana"
-        },
-        {
-          "lvl": 1,
-          "m": "Ataque Furia"
-        },
-        {
-          "lvl": 1,
-          "m": "Megaagotar"
-        },
-        {
-          "lvl": 1,
-          "m": "Sísmico"
-        },
-        {
-          "lvl": 1,
-          "m": "Autotomía"
-        },
-        {
-          "lvl": 1,
-          "m": "Limpieza General"
-        },
-        {
-          "lvl": 1,
-          "m": "Abatidoras"
-        },
-        {
-          "lvl": 1,
-          "m": "Barrera Espinosa"
-        },
-        {
-          "lvl": 12,
-          "m": "Fría Acogida"
-        },
-        {
-          "lvl": 19,
-          "m": "Eco Voz"
-        },
-        {
-          "lvl": 24,
-          "m": "Terratemblor"
-        },
-        {
-          "lvl": 30,
-          "m": "Tornado"
-        },
-        {
-          "lvl": 36,
-          "m": "Psicohojas"
-        },
-        {
-          "lvl": 38,
-          "m": "Terremoto"
-        },
-        {
-          "lvl": 40,
-          "m": "Tormenta Floral"
-        },
-        {
-          "lvl": 46,
-          "m": "Transformación"
-        },
-        {
-          "lvl": 54,
-          "m": "Martillo Colosal"
-        },
-        {
-          "lvl": 62,
-          "m": "Viento Cortante"
-        }
-      ],
-      "tmMoves": [
-        "Abrecaminos",
-        "Absorber",
-        "Agarrón",
-        "Allanador Férreo",
-        "Anticura",
-        "Autosugestión",
-        "Auxilio",
-        "Cepo",
-        "Cola Dragón",
-        "Colmillo Rayo",
-        "Colmillo Veneno",
-        "Día de Pago",
-        "Electrificación",
-        "Embargo",
-        "Espada Lamento",
-        "Falso Tortazo",
-        "Golpe Cuerpo",
-        "Golpes Furia",
-        "Ladrón",
-        "Llama Protectora",
-        "Masa Cósmica",
-        "Meditación",
-        "Mofa",
-        "Onda Voltio",
-        "Palma Rauda",
-        "Pikaturbo",
-        "Psicoonda",
-        "Rabia",
-        "Refugio",
-        "Remolino",
-        "Sorpresa",
-        "Supersónico",
-        "Tajo Umbrío",
-        "Tenaza",
-        "Tóxico",
         "Viento Plata"
       ]
     },
@@ -586,76 +430,52 @@
       ]
     },
     {
-      "nickname": "Curita",
-      "species": "Florges",
+      "nickname": "Miguelito",
+      "species": "Rillaboom",
       "level": 49,
       "types": [
-        "Hada"
+        "Planta"
       ],
-      "ability": "",
-      "nature": "Pícara",
+      "ability": "Agallas",
+      "nature": "Audaz",
       "item": "",
       "shiny": false,
       "moves": [
-        "Pulso Primigenio",
-        "Cañón Dinamax",
-        "Auxilio",
-        "Luz Aniquiladora"
+        "Pikaturbo",
+        "Terremoto",
+        "Limpieza General",
+        "Tormenta Floral"
       ],
       "iv": [
-        22,
+        20,
         10,
-        14,
-        23,
-        26,
-        23
+        7,
+        25,
+        3,
+        14
       ],
       "ev": [
-        14,
-        49,
-        15,
-        26,
-        9,
-        33
+        41,
+        78,
+        37,
+        44,
+        27,
+        56
       ],
       "abilPool": [
-        "Cortante"
+        "Agallas"
       ],
       "abilHidden": [
-        "Batería"
+        "Defensa Hoja"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Palma Rauda"
+          "m": "Niebla"
         },
         {
           "lvl": 1,
-          "m": "Deslome"
-        },
-        {
-          "lvl": 1,
-          "m": "Kinético"
-        },
-        {
-          "lvl": 1,
-          "m": "Ataque Ala"
-        },
-        {
-          "lvl": 1,
-          "m": "Fachada"
-        },
-        {
-          "lvl": 1,
-          "m": "Autosugestión"
-        },
-        {
-          "lvl": 1,
-          "m": "Gravedad"
-        },
-        {
-          "lvl": 1,
-          "m": "Vendetta"
+          "m": "Condena Silvana"
         },
         {
           "lvl": 1,
@@ -663,80 +483,106 @@
         },
         {
           "lvl": 1,
-          "m": "Picotazo"
+          "m": "Megaagotar"
         },
         {
           "lvl": 1,
-          "m": "Profecía"
+          "m": "Sísmico"
         },
         {
           "lvl": 1,
-          "m": "Carámbano"
+          "m": "Autotomía"
         },
         {
           "lvl": 1,
-          "m": "Disparo Lodo"
+          "m": "Limpieza General"
         },
         {
           "lvl": 1,
-          "m": "Alivio"
+          "m": "Abatidoras"
         },
         {
           "lvl": 1,
-          "m": "Camaradería"
+          "m": "Barrera Espinosa"
         },
         {
-          "lvl": 1,
-          "m": "Venganza"
+          "lvl": 12,
+          "m": "Fría Acogida"
         },
         {
-          "lvl": 5,
-          "m": "Asalto Barrera"
+          "lvl": 19,
+          "m": "Eco Voz"
+        },
+        {
+          "lvl": 24,
+          "m": "Terratemblor"
+        },
+        {
+          "lvl": 30,
+          "m": "Tornado"
+        },
+        {
+          "lvl": 36,
+          "m": "Psicohojas"
+        },
+        {
+          "lvl": 38,
+          "m": "Terremoto"
         },
         {
           "lvl": 40,
-          "m": "Pulso Primigenio"
+          "m": "Tormenta Floral"
         },
         {
-          "lvl": 50,
-          "m": "Cautivapor"
+          "lvl": 46,
+          "m": "Transformación"
+        },
+        {
+          "lvl": 54,
+          "m": "Martillo Colosal"
+        },
+        {
+          "lvl": 62,
+          "m": "Viento Cortante"
         }
       ],
       "tmMoves": [
+        "Abrecaminos",
         "Absorber",
         "Agarrón",
-        "Alud",
+        "Allanador Férreo",
         "Anticura",
-        "Atizar",
         "Autosugestión",
         "Auxilio",
-        "Bucle Arena",
-        "Campo Psíquico",
-        "Cañón Dinamax",
-        "Colmillo Hielo",
+        "Cepo",
+        "Cola Dragón",
         "Colmillo Rayo",
-        "Daño Secreto",
+        "Colmillo Veneno",
+        "Día de Pago",
+        "Electrificación",
         "Embargo",
-        "Genufendiente",
-        "Giro Mortífero",
+        "Espada Lamento",
+        "Falso Tortazo",
         "Golpe Cuerpo",
-        "Limpieza General",
+        "Golpes Furia",
+        "Ladrón",
+        "Llama Protectora",
+        "Masa Cósmica",
+        "Meditación",
         "Mofa",
-        "Ojos Llorosos",
-        "Onda Anómala",
-        "Picotazo",
+        "Onda Voltio",
+        "Palma Rauda",
         "Pikaturbo",
-        "Plancha Corporal",
+        "Psicoonda",
+        "Rabia",
         "Refugio",
-        "Simún de Arena",
+        "Remolino",
         "Sorpresa",
+        "Supersónico",
+        "Tajo Umbrío",
         "Tenaza",
         "Tóxico",
-        "Triturar",
-        "Último Lugar",
-        "Vaho Gélido",
-        "Viento Plata",
-        "Zumbido"
+        "Viento Plata"
       ]
     },
     {
@@ -900,6 +746,160 @@
         "Viento Hielo",
         "Viraje",
         "Voto Fuego"
+      ]
+    },
+    {
+      "nickname": "Curita",
+      "species": "Florges",
+      "level": 49,
+      "types": [
+        "Hada"
+      ],
+      "ability": "",
+      "nature": "Pícara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Pulso Primigenio",
+        "Cañón Dinamax",
+        "Auxilio",
+        "Luz Aniquiladora"
+      ],
+      "iv": [
+        22,
+        10,
+        14,
+        23,
+        26,
+        23
+      ],
+      "ev": [
+        14,
+        49,
+        15,
+        26,
+        9,
+        33
+      ],
+      "abilPool": [
+        "Cortante"
+      ],
+      "abilHidden": [
+        "Batería"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Palma Rauda"
+        },
+        {
+          "lvl": 1,
+          "m": "Deslome"
+        },
+        {
+          "lvl": 1,
+          "m": "Kinético"
+        },
+        {
+          "lvl": 1,
+          "m": "Ataque Ala"
+        },
+        {
+          "lvl": 1,
+          "m": "Fachada"
+        },
+        {
+          "lvl": 1,
+          "m": "Autosugestión"
+        },
+        {
+          "lvl": 1,
+          "m": "Gravedad"
+        },
+        {
+          "lvl": 1,
+          "m": "Vendetta"
+        },
+        {
+          "lvl": 1,
+          "m": "Ataque Furia"
+        },
+        {
+          "lvl": 1,
+          "m": "Picotazo"
+        },
+        {
+          "lvl": 1,
+          "m": "Profecía"
+        },
+        {
+          "lvl": 1,
+          "m": "Carámbano"
+        },
+        {
+          "lvl": 1,
+          "m": "Disparo Lodo"
+        },
+        {
+          "lvl": 1,
+          "m": "Alivio"
+        },
+        {
+          "lvl": 1,
+          "m": "Camaradería"
+        },
+        {
+          "lvl": 1,
+          "m": "Venganza"
+        },
+        {
+          "lvl": 5,
+          "m": "Asalto Barrera"
+        },
+        {
+          "lvl": 40,
+          "m": "Pulso Primigenio"
+        },
+        {
+          "lvl": 50,
+          "m": "Cautivapor"
+        }
+      ],
+      "tmMoves": [
+        "Absorber",
+        "Agarrón",
+        "Alud",
+        "Anticura",
+        "Atizar",
+        "Autosugestión",
+        "Auxilio",
+        "Bucle Arena",
+        "Campo Psíquico",
+        "Cañón Dinamax",
+        "Colmillo Hielo",
+        "Colmillo Rayo",
+        "Daño Secreto",
+        "Embargo",
+        "Genufendiente",
+        "Giro Mortífero",
+        "Golpe Cuerpo",
+        "Limpieza General",
+        "Mofa",
+        "Ojos Llorosos",
+        "Onda Anómala",
+        "Picotazo",
+        "Pikaturbo",
+        "Plancha Corporal",
+        "Refugio",
+        "Simún de Arena",
+        "Sorpresa",
+        "Tenaza",
+        "Tóxico",
+        "Triturar",
+        "Último Lugar",
+        "Vaho Gélido",
+        "Viento Plata",
+        "Zumbido"
       ]
     }
   ],
@@ -6759,17 +6759,6 @@
     },
     {
       "route": "",
-      "where": "Laboratorio",
-      "species": "Rillaboom",
-      "nickname": "Miguelito",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 5,
-      "mon": "Rillaboom"
-    },
-    {
-      "route": "",
       "where": "Museo Pokémon",
       "species": "Garganacl",
       "nickname": "Cobblemon",
@@ -6791,15 +6780,15 @@
       "mon": "Throh"
     },
     {
-      "route": "bosque_verde",
-      "where": "Bosque Verde",
-      "species": "Florges",
-      "nickname": "Curita",
+      "route": "",
+      "where": "Laboratorio",
+      "species": "Rillaboom",
+      "nickname": "Miguelito",
       "shiny": false,
       "status": "captured",
-      "category": "salvaje",
-      "level": 8,
-      "mon": "Florges"
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Rillaboom"
     },
     {
       "route": "",
@@ -6811,6 +6800,17 @@
       "category": "intercambio",
       "level": 11,
       "mon": "Alakazam"
+    },
+    {
+      "route": "bosque_verde",
+      "where": "Bosque Verde",
+      "species": "Florges",
+      "nickname": "Curita",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 8,
+      "mon": "Florges"
     },
     {
       "route": "ciudad_plateada",
