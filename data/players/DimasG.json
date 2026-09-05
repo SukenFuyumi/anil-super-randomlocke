@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 5h 15m jugadas · 66,300₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 5h 19m jugadas · 69,100₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Pinchos",
@@ -33,10 +33,10 @@
       ],
       "ev": [
         3,
-        9,
+        10,
         1,
         10,
-        4,
+        5,
         6
       ],
       "abilPool": [
@@ -159,10 +159,10 @@
       ],
       "ev": [
         21,
-        33,
+        34,
         19,
         36,
-        19,
+        20,
         36
       ],
       "abilPool": [
@@ -337,10 +337,10 @@
       ],
       "ev": [
         18,
-        29,
+        30,
         14,
         32,
-        20,
+        21,
         29
       ],
       "abilPool": [
@@ -462,10 +462,10 @@
       ],
       "ev": [
         7,
-        15,
+        16,
         4,
         13,
-        9,
+        10,
         14
       ],
       "abilPool": [
@@ -568,7 +568,7 @@
       ],
       "ability": "Recogida",
       "nature": "Floja",
-      "item": "",
+      "item": "Repelente",
       "shiny": false,
       "moves": [
         "Ataque Ala",
@@ -586,10 +586,10 @@
       ],
       "ev": [
         13,
-        26,
+        27,
         12,
         23,
-        18,
+        19,
         23
       ],
       "abilPool": [
@@ -686,10 +686,10 @@
       ],
       "ev": [
         6,
-        13,
+        14,
         5,
         15,
-        11,
+        12,
         14
       ],
       "abilPool": [
