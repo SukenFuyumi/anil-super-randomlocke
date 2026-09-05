@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 2,
   "champion": false,
-  "notes": "Importado del save · 5h 35m jugadas · 79,330₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 5h 38m jugadas · 82,330₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Dumbo",
@@ -37,7 +37,7 @@
         20,
         39,
         23,
-        39
+        40
       ],
       "abilPool": [
         "Espada Indómita",
@@ -214,7 +214,7 @@
         2,
         13,
         8,
-        9
+        10
       ],
       "abilPool": [
         "Competitivo"
@@ -341,7 +341,7 @@
         15,
         35,
         24,
-        32
+        33
       ],
       "abilPool": [
         "Baba"
@@ -466,7 +466,7 @@
         5,
         16,
         13,
-        17
+        18
       ],
       "abilPool": [
         "Don Floral"
@@ -590,7 +590,7 @@
         13,
         26,
         22,
-        26
+        27
       ],
       "abilPool": [
         "Recogida",
@@ -690,7 +690,7 @@
         6,
         18,
         15,
-        17
+        18
       ],
       "abilPool": [
         "Teracaparazón",
@@ -3236,6 +3236,8 @@
       "monte_moon": true,
       "ruta_4": true,
       "ciudad_carmin": true,
+      "ruta_9": true,
+      "ruta_12": true,
       "ruta_21": true
     },
     "items": {},
