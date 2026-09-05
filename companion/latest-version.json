@@ -1,4 +1,4 @@
 {
-  "version": "1.2.3",
-  "notes": "Ahora incluye los MTs (máquinas técnicas) aprendibles randomizados de cada Pokémon en la sección Recuerda movimientos."
+  "version": "1.2.4",
+  "notes": "Corrige las habilidades cuando se usa el item Randomizador de Habilidad: ahora muestra el set individual de cada Pokémon y la habilidad activa correcta."
 }
