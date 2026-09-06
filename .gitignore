@@ -11,3 +11,6 @@ node_modules/
 Thumbs.db
 *.log
 companion/release-stage/
+
+# Skills locales (no versionadas)
+.claude/skills/
