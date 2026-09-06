@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 5,
   "champion": false,
-  "notes": "Importado del save · 20h 53m jugadas · 486,350₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 21h 6m jugadas · 466,350₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -312,20 +312,19 @@
     },
     {
       "nickname": "ISRAELÍ",
-      "species": "Voltorb (Hisui)",
-      "level": 21,
+      "species": "Electrode",
+      "level": 49,
       "types": [
-        "Eléctrico",
-        "Planta"
+        "Eléctrico"
       ],
-      "ability": "Clorofila",
+      "ability": "Electromotor",
       "nature": "Pícara",
       "item": "",
       "shiny": false,
       "moves": [
-        "Pikaturbo",
-        "Rodillo de Púas",
-        "Rencor",
+        "Onda Anómala",
+        "Electropico",
+        "Absorbefuerza",
         "Espora"
       ],
       "iv": [
@@ -339,134 +338,133 @@
       "ev": [
         42,
         89,
-        51,
-        55,
+        53,
+        57,
         23,
         72
       ],
       "abilPool": [
-        "Clorofila"
+        "Electromotor"
       ],
       "abilHidden": [
-        "Chorro Arena"
+        "Intimidación"
       ],
       "learnset": [
         {
-          "lvl": 1,
-          "m": "Onda Anómala"
+          "lvl": 0,
+          "m": "Abatidoras"
         },
         {
           "lvl": 1,
-          "m": "Represión Metal"
+          "m": "Electrotela"
+        },
+        {
+          "lvl": 1,
+          "m": "Danza Lluvia"
         },
         {
           "lvl": 4,
-          "m": "Rodillo de Púas"
+          "m": "Calcinación"
         },
         {
           "lvl": 6,
-          "m": "Plegaria Lunar"
+          "m": "Zona Extraña"
         },
         {
           "lvl": 9,
-          "m": "Semilladora"
+          "m": "Reciclaje"
         },
         {
           "lvl": 11,
-          "m": "Afilar"
+          "m": "Anticipo"
         },
         {
           "lvl": 13,
-          "m": "Dulce Aroma"
+          "m": "Ráfaga Escamas"
         },
         {
           "lvl": 16,
-          "m": "Rencor"
+          "m": "Bálsamo Osado"
         },
         {
           "lvl": 20,
-          "m": "Paralizador"
+          "m": "Gravedad"
         },
         {
           "lvl": 22,
-          "m": "Rugido"
+          "m": "Somnífero"
         },
         {
           "lvl": 26,
-          "m": "Ayuda"
+          "m": "Cambiafuerza"
         },
         {
           "lvl": 29,
-          "m": "Bloqueo"
+          "m": "Golpe Calor"
         },
         {
           "lvl": 34,
-          "m": "Pulso Noche"
+          "m": "Levitón"
         },
         {
           "lvl": 34,
-          "m": "Enrosque"
+          "m": "Premonición"
         },
         {
           "lvl": 41,
-          "m": "Ácido Málico"
+          "m": "Electormenta"
         },
         {
           "lvl": 46,
-          "m": "Reserva"
+          "m": "Campo Psíquico"
         },
         {
           "lvl": 50,
-          "m": "Bomba Caramelo"
+          "m": "Estruendo Escama"
         }
       ],
       "tmMoves": [
-        "Absorbefuerza",
-        "Amnesia",
-        "Atadura",
-        "Bomba Ígnea",
+        "Antojo",
+        "Asta Drenaje",
         "Cabeza Sorpresa",
         "Cadena Virulenta",
-        "Campo de Hierba",
-        "Clemencia",
-        "Conversión",
-        "Danza Acuática",
-        "Danza Caos",
+        "Carámbano",
+        "Choque Anímico",
+        "Confusión",
+        "Copión",
         "Deslome",
-        "Doble Golpe",
-        "Eco Metálico",
         "Electropico",
-        "Embate Supremo",
-        "Estruendo Escama",
-        "Finta",
+        "Espabila",
+        "Espora",
+        "Flarembestida",
         "Fuerza Lunar",
-        "Golpe Oscuro",
-        "Hueso Sombrío",
+        "Golpe Roca",
+        "Golpe Umbrío",
         "Infortunio",
-        "Isoguardia",
-        "Láser Prisma",
+        "Láser Doble",
         "Lengüetazo",
-        "Malicioso",
-        "Maquinación",
+        "Llama Protectora",
         "Megapuño",
         "Mismo Destino",
-        "Moluscañón",
+        "Núcleo Castigo",
         "Patada Baja",
-        "Picotazo Veneno",
         "Pirueta Helada",
-        "Psicocolmillo",
+        "Plancha",
+        "Plancha Corporal",
+        "Psicocarga",
+        "Pulso Cura",
         "Puño Cometa",
         "Puño Drenaje",
-        "Puntapié",
-        "Relevo",
+        "Puya Nociva",
+        "Relajo",
         "Retracción",
+        "Rodillo de Púas",
         "Sol Matinal",
-        "Tajo Umbrío",
-        "Trampa Rocas",
+        "Tajo Metralla",
         "Transformación",
-        "Voltio Cruel"
-      ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10231.png"
+        "Último Lugar",
+        "Vendaval"
+      ]
     },
     {
       "nickname": "RACHEL",
@@ -604,6 +602,7 @@
         "Absorbefuerza",
         "Alud",
         "Amnesia",
+        "Antojo",
         "Cabeza Sorpresa",
         "Campo de Hierba",
         "Danza Acuática",
@@ -624,6 +623,7 @@
         "Niebla Aromática",
         "Nitrocarga",
         "Picotazo Veneno",
+        "Pin Misil",
         "Pirueta Helada",
         "Plancha",
         "Psicocarga",
@@ -632,6 +632,7 @@
         "Puño Incremento",
         "Puya Nociva",
         "Sol Matinal",
+        "Tajo Metralla",
         "Taladradora",
         "Trampa Rocas",
         "Trampa Venenosa",
@@ -8181,13 +8182,13 @@
     {
       "route": "ruta_21",
       "where": "Ruta 21",
-      "species": "Voltorb",
+      "species": "Electrode",
       "nickname": "ISRAELÍ",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
       "level": 20,
-      "mon": "Voltorb"
+      "mon": "Electrode"
     },
     {
       "route": "ciudad_fucsia",
