@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 5,
   "champion": false,
-  "notes": "Importado del save · 21h 21m jugadas · 466,350₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 21h 29m jugadas · 466,350₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "ISRAELÍ",
@@ -160,6 +160,223 @@
         "Transformación",
         "Último Lugar",
         "Vendaval"
+      ]
+    },
+    {
+      "nickname": "Mr MIKE",
+      "species": "Mrmime",
+      "level": 49,
+      "types": [
+        "Psíquico",
+        "Hada"
+      ],
+      "ability": "Espejo Mágico",
+      "nature": "Activa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Mirada Heladora",
+        "Chorro de Vapor",
+        "Luz Aniquiladora",
+        "Paz Mental"
+      ],
+      "iv": [
+        13,
+        24,
+        6,
+        31,
+        15,
+        8
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Roca Solida",
+        "Espejo Mágico"
+      ],
+      "abilHidden": [
+        "Humedad"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Agilidad"
+        },
+        {
+          "lvl": 1,
+          "m": "Clemencia"
+        },
+        {
+          "lvl": 1,
+          "m": "Yo Primero"
+        },
+        {
+          "lvl": 1,
+          "m": "Campo Psíquico"
+        },
+        {
+          "lvl": 1,
+          "m": "Hueso Palo"
+        },
+        {
+          "lvl": 1,
+          "m": "Garra Metal"
+        },
+        {
+          "lvl": 1,
+          "m": "Cuerno Certero"
+        },
+        {
+          "lvl": 1,
+          "m": "Seducción"
+        },
+        {
+          "lvl": 1,
+          "m": "Paz Mental"
+        },
+        {
+          "lvl": 1,
+          "m": "Despejar"
+        },
+        {
+          "lvl": 4,
+          "m": "Brecha Negra"
+        },
+        {
+          "lvl": 8,
+          "m": "Capa Mágica"
+        },
+        {
+          "lvl": 11,
+          "m": "Motivación"
+        },
+        {
+          "lvl": 12,
+          "m": "Truco Defensa"
+        },
+        {
+          "lvl": 15,
+          "m": "Infortunio"
+        },
+        {
+          "lvl": 16,
+          "m": "Fachada"
+        },
+        {
+          "lvl": 20,
+          "m": "Geocontrol"
+        },
+        {
+          "lvl": 22,
+          "m": "Bucle Arena"
+        },
+        {
+          "lvl": 24,
+          "m": "Pirotecnia"
+        },
+        {
+          "lvl": 28,
+          "m": "Telépata"
+        },
+        {
+          "lvl": 29,
+          "m": "Hipnosis"
+        },
+        {
+          "lvl": 32,
+          "m": "Luz Aniquiladora"
+        },
+        {
+          "lvl": 32,
+          "m": "Golpe Bis"
+        },
+        {
+          "lvl": 36,
+          "m": "Agarre"
+        },
+        {
+          "lvl": 36,
+          "m": "Rayo Solar"
+        },
+        {
+          "lvl": 36,
+          "m": "Sol Matinal"
+        },
+        {
+          "lvl": 36,
+          "m": "Púas"
+        },
+        {
+          "lvl": 40,
+          "m": "Camaradería"
+        },
+        {
+          "lvl": 44,
+          "m": "Cabeza Sorpresa"
+        },
+        {
+          "lvl": 48,
+          "m": "Supersónico"
+        },
+        {
+          "lvl": 50,
+          "m": "Ala Mortífera"
+        },
+        {
+          "lvl": 52,
+          "m": "Canto Mortal"
+        }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Absorber",
+        "Amnesia",
+        "Asta Drenaje",
+        "Atadura",
+        "Bomba Ígnea",
+        "Choque Anímico",
+        "Chorro de Vapor",
+        "Clemencia",
+        "Confusión",
+        "Conversión",
+        "Danza Acuática",
+        "Decoración",
+        "Desarme",
+        "Eco Metálico",
+        "Espabila",
+        "Finta",
+        "Golpe Umbrío",
+        "Hachazo Pétreo",
+        "Infortunio",
+        "Láser Doble",
+        "Láser Prisma",
+        "Malicioso",
+        "Maquinación",
+        "Mirada Heladora",
+        "Niebla Aromática",
+        "Nitrochoque",
+        "Núcleo Castigo",
+        "Picotazo",
+        "Plancha",
+        "Psicocarga",
+        "Psicocolmillo",
+        "Pulso Cura",
+        "Puño Drenaje",
+        "Puntapié",
+        "Puya Nociva",
+        "Relajo",
+        "Relevo",
+        "Represalia",
+        "Rizo Defensa",
+        "Sol Matinal",
+        "Taladradora",
+        "Tinieblas"
       ]
     }
   ],
@@ -3803,223 +4020,6 @@
           "lvl": 55,
           "m": "Onda Certera"
         }
-      ]
-    },
-    {
-      "nickname": "Mr MIKE",
-      "species": "Mrmime",
-      "level": 49,
-      "types": [
-        "Psíquico",
-        "Hada"
-      ],
-      "ability": "Espejo Mágico",
-      "nature": "Activa",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Mirada Heladora",
-        "Chorro de Vapor",
-        "Luz Aniquiladora",
-        "Paz Mental"
-      ],
-      "iv": [
-        13,
-        24,
-        6,
-        31,
-        15,
-        8
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Roca Solida",
-        "Espejo Mágico"
-      ],
-      "abilHidden": [
-        "Humedad"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Agilidad"
-        },
-        {
-          "lvl": 1,
-          "m": "Clemencia"
-        },
-        {
-          "lvl": 1,
-          "m": "Yo Primero"
-        },
-        {
-          "lvl": 1,
-          "m": "Campo Psíquico"
-        },
-        {
-          "lvl": 1,
-          "m": "Hueso Palo"
-        },
-        {
-          "lvl": 1,
-          "m": "Garra Metal"
-        },
-        {
-          "lvl": 1,
-          "m": "Cuerno Certero"
-        },
-        {
-          "lvl": 1,
-          "m": "Seducción"
-        },
-        {
-          "lvl": 1,
-          "m": "Paz Mental"
-        },
-        {
-          "lvl": 1,
-          "m": "Despejar"
-        },
-        {
-          "lvl": 4,
-          "m": "Brecha Negra"
-        },
-        {
-          "lvl": 8,
-          "m": "Capa Mágica"
-        },
-        {
-          "lvl": 11,
-          "m": "Motivación"
-        },
-        {
-          "lvl": 12,
-          "m": "Truco Defensa"
-        },
-        {
-          "lvl": 15,
-          "m": "Infortunio"
-        },
-        {
-          "lvl": 16,
-          "m": "Fachada"
-        },
-        {
-          "lvl": 20,
-          "m": "Geocontrol"
-        },
-        {
-          "lvl": 22,
-          "m": "Bucle Arena"
-        },
-        {
-          "lvl": 24,
-          "m": "Pirotecnia"
-        },
-        {
-          "lvl": 28,
-          "m": "Telépata"
-        },
-        {
-          "lvl": 29,
-          "m": "Hipnosis"
-        },
-        {
-          "lvl": 32,
-          "m": "Luz Aniquiladora"
-        },
-        {
-          "lvl": 32,
-          "m": "Golpe Bis"
-        },
-        {
-          "lvl": 36,
-          "m": "Agarre"
-        },
-        {
-          "lvl": 36,
-          "m": "Rayo Solar"
-        },
-        {
-          "lvl": 36,
-          "m": "Sol Matinal"
-        },
-        {
-          "lvl": 36,
-          "m": "Púas"
-        },
-        {
-          "lvl": 40,
-          "m": "Camaradería"
-        },
-        {
-          "lvl": 44,
-          "m": "Cabeza Sorpresa"
-        },
-        {
-          "lvl": 48,
-          "m": "Supersónico"
-        },
-        {
-          "lvl": 50,
-          "m": "Ala Mortífera"
-        },
-        {
-          "lvl": 52,
-          "m": "Canto Mortal"
-        }
-      ],
-      "tmMoves": [
-        "A Defender",
-        "Absorber",
-        "Amnesia",
-        "Asta Drenaje",
-        "Atadura",
-        "Bomba Ígnea",
-        "Choque Anímico",
-        "Chorro de Vapor",
-        "Clemencia",
-        "Confusión",
-        "Conversión",
-        "Danza Acuática",
-        "Decoración",
-        "Desarme",
-        "Eco Metálico",
-        "Espabila",
-        "Finta",
-        "Golpe Umbrío",
-        "Hachazo Pétreo",
-        "Infortunio",
-        "Láser Doble",
-        "Láser Prisma",
-        "Malicioso",
-        "Maquinación",
-        "Mirada Heladora",
-        "Niebla Aromática",
-        "Nitrochoque",
-        "Núcleo Castigo",
-        "Picotazo",
-        "Plancha",
-        "Psicocarga",
-        "Psicocolmillo",
-        "Pulso Cura",
-        "Puño Drenaje",
-        "Puntapié",
-        "Puya Nociva",
-        "Relajo",
-        "Relevo",
-        "Represalia",
-        "Rizo Defensa",
-        "Sol Matinal",
-        "Taladradora",
-        "Tinieblas"
       ]
     },
     {
@@ -8169,6 +8169,17 @@
       "mon": "Electrode"
     },
     {
+      "route": "ruta_17",
+      "where": "Ruta 17",
+      "species": "Mrmime",
+      "nickname": "Mr MIKE",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 44,
+      "mon": "Mrmime"
+    },
+    {
       "route": "ciudad_carmin",
       "where": "Ciudad Carmín",
       "species": "Staravia",
@@ -8464,17 +8475,6 @@
       "category": "estatico_regalo",
       "level": 1,
       "mon": "Farigiraf"
-    },
-    {
-      "route": "ruta_17",
-      "where": "Ruta 17",
-      "species": "Mrmime",
-      "nickname": "Mr MIKE",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 44,
-      "mon": "Mrmime"
     },
     {
       "route": "pueblo_paleta",
@@ -8796,6 +8796,7 @@
     "npcs": {},
     "routes": {
       "ruta_21": true,
+      "ruta_17": true,
       "ciudad_carmin": true,
       "ruta_14": true,
       "ciudad_celeste": true,
@@ -8814,7 +8815,6 @@
       "pueblo_lavanda": true,
       "zona_safari": true,
       "ruta_7": true,
-      "ruta_17": true,
       "pueblo_paleta": true,
       "pueblo_marengo": true,
       "bosque_verde": true,
