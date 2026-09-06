@@ -4,311 +4,8 @@
   "lives": 30,
   "livesUsed": 5,
   "champion": false,
-  "notes": "Importado del save · 20h 1m jugadas · 486,350₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 20h 53m jugadas · 486,350₽ · vidas en el juego: -1",
   "team": [
-    {
-      "nickname": "ISRAELÍ",
-      "species": "Voltorb (Hisui)",
-      "level": 20,
-      "types": [
-        "Eléctrico",
-        "Planta"
-      ],
-      "ability": "Clorofila",
-      "nature": "Pícara",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Pikaturbo",
-        "Rodillo de Púas",
-        "Rencor",
-        "Espora"
-      ],
-      "iv": [
-        31,
-        19,
-        7,
-        16,
-        26,
-        25
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Clorofila"
-      ],
-      "abilHidden": [
-        "Chorro Arena"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Onda Anómala"
-        },
-        {
-          "lvl": 1,
-          "m": "Represión Metal"
-        },
-        {
-          "lvl": 4,
-          "m": "Rodillo de Púas"
-        },
-        {
-          "lvl": 6,
-          "m": "Plegaria Lunar"
-        },
-        {
-          "lvl": 9,
-          "m": "Semilladora"
-        },
-        {
-          "lvl": 11,
-          "m": "Afilar"
-        },
-        {
-          "lvl": 13,
-          "m": "Dulce Aroma"
-        },
-        {
-          "lvl": 16,
-          "m": "Rencor"
-        },
-        {
-          "lvl": 20,
-          "m": "Paralizador"
-        },
-        {
-          "lvl": 22,
-          "m": "Rugido"
-        },
-        {
-          "lvl": 26,
-          "m": "Ayuda"
-        },
-        {
-          "lvl": 29,
-          "m": "Bloqueo"
-        },
-        {
-          "lvl": 34,
-          "m": "Pulso Noche"
-        },
-        {
-          "lvl": 34,
-          "m": "Enrosque"
-        },
-        {
-          "lvl": 41,
-          "m": "Ácido Málico"
-        },
-        {
-          "lvl": 46,
-          "m": "Reserva"
-        },
-        {
-          "lvl": 50,
-          "m": "Bomba Caramelo"
-        }
-      ],
-      "tmMoves": [
-        "Absorbefuerza",
-        "Amnesia",
-        "Atadura",
-        "Bomba Ígnea",
-        "Cabeza Sorpresa",
-        "Cadena Virulenta",
-        "Campo de Hierba",
-        "Clemencia",
-        "Conversión",
-        "Danza Acuática",
-        "Danza Caos",
-        "Deslome",
-        "Doble Golpe",
-        "Eco Metálico",
-        "Electropico",
-        "Embate Supremo",
-        "Estruendo Escama",
-        "Finta",
-        "Fuerza Lunar",
-        "Golpe Oscuro",
-        "Hueso Sombrío",
-        "Infortunio",
-        "Isoguardia",
-        "Láser Prisma",
-        "Lengüetazo",
-        "Malicioso",
-        "Maquinación",
-        "Megapuño",
-        "Mismo Destino",
-        "Moluscañón",
-        "Patada Baja",
-        "Picotazo Veneno",
-        "Pirueta Helada",
-        "Psicocolmillo",
-        "Puño Cometa",
-        "Puño Drenaje",
-        "Puntapié",
-        "Relevo",
-        "Retracción",
-        "Sol Matinal",
-        "Tajo Umbrío",
-        "Trampa Rocas",
-        "Transformación",
-        "Voltio Cruel"
-      ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10231.png"
-    },
-    {
-      "nickname": "CHALAN",
-      "species": "Conkeldurr",
-      "level": 49,
-      "types": [
-        "Lucha"
-      ],
-      "ability": "Escama de Hielo",
-      "nature": "Fuerte",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Anclaje",
-        "Golpe Oscuro",
-        "Enrosque",
-        "Puño Drenaje"
-      ],
-      "iv": [
-        1,
-        11,
-        8,
-        19,
-        16,
-        28
-      ],
-      "ev": [
-        18,
-        77,
-        36,
-        56,
-        19,
-        50
-      ],
-      "abilPool": [
-        "Carrillo",
-        "Escama de Hielo"
-      ],
-      "abilHidden": [
-        "Aura Feérica"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Bomba Fango"
-        },
-        {
-          "lvl": 1,
-          "m": "Viraje"
-        },
-        {
-          "lvl": 1,
-          "m": "Triple Patada"
-        },
-        {
-          "lvl": 1,
-          "m": "Paralizador"
-        },
-        {
-          "lvl": 1,
-          "m": "Magnitud"
-        },
-        {
-          "lvl": 12,
-          "m": "Canon"
-        },
-        {
-          "lvl": 16,
-          "m": "Ladrón"
-        },
-        {
-          "lvl": 20,
-          "m": "Enrosque"
-        },
-        {
-          "lvl": 20,
-          "m": "Anulación"
-        },
-        {
-          "lvl": 24,
-          "m": "Tumba Rocas"
-        },
-        {
-          "lvl": 24,
-          "m": "Embargo"
-        },
-        {
-          "lvl": 30,
-          "m": "Cambio de Cancha"
-        },
-        {
-          "lvl": 36,
-          "m": "Puño Trueno"
-        },
-        {
-          "lvl": 41,
-          "m": "Rizo Algodón"
-        },
-        {
-          "lvl": 42,
-          "m": "Adaptación"
-        },
-        {
-          "lvl": 48,
-          "m": "Mal de Ojo"
-        },
-        {
-          "lvl": 54,
-          "m": "Bruma Explosiva"
-        },
-        {
-          "lvl": 60,
-          "m": "Puño Certero"
-        }
-      ],
-      "tmMoves": [
-        "Amnesia",
-        "Anclaje",
-        "Asta Drenaje",
-        "Cabeza Sorpresa",
-        "Ciclón",
-        "Danza Caos",
-        "Desarme",
-        "Espabila",
-        "Golpe Oscuro",
-        "Golpe Roca",
-        "Golpe Umbrío",
-        "Hueso Sombrío",
-        "Infortunio",
-        "Malicioso",
-        "Mismo Destino",
-        "Nitrocarga",
-        "Nitrochoque",
-        "Patada Baja",
-        "Picotazo Veneno",
-        "Pirueta Helada",
-        "Pulso Cura",
-        "Puño Drenaje",
-        "Puño Incremento",
-        "Puntapié",
-        "Retracción",
-        "Rizo Defensa",
-        "Rodillo de Púas",
-        "Vendaval"
-      ]
-    },
     {
       "nickname": "MERYL STRYFE",
       "species": "Blastoise",
@@ -321,10 +18,10 @@
       "item": "Blastoisinitex",
       "shiny": false,
       "moves": [
-        "Flarembestida",
+        "Tinieblas",
         "Truco Floral",
         "Danza Acuática",
-        "Tinieblas"
+        "Flarembestida"
       ],
       "iv": [
         17,
@@ -335,12 +32,12 @@
         21
       ],
       "ev": [
-        23,
-        88,
-        38,
-        65,
-        21,
-        54
+        53,
+        152,
+        63,
+        103,
+        33,
+        106
       ],
       "abilPool": [
         "Teracaparazón"
@@ -469,6 +166,309 @@
       ]
     },
     {
+      "nickname": "CHALAN",
+      "species": "Conkeldurr",
+      "level": 49,
+      "types": [
+        "Lucha"
+      ],
+      "ability": "Escama de Hielo",
+      "nature": "Fuerte",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Anclaje",
+        "Golpe Oscuro",
+        "Enrosque",
+        "Puño Drenaje"
+      ],
+      "iv": [
+        1,
+        11,
+        8,
+        19,
+        16,
+        28
+      ],
+      "ev": [
+        50,
+        149,
+        73,
+        101,
+        33,
+        104
+      ],
+      "abilPool": [
+        "Carrillo",
+        "Escama de Hielo"
+      ],
+      "abilHidden": [
+        "Aura Feérica"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Bomba Fango"
+        },
+        {
+          "lvl": 1,
+          "m": "Viraje"
+        },
+        {
+          "lvl": 1,
+          "m": "Triple Patada"
+        },
+        {
+          "lvl": 1,
+          "m": "Paralizador"
+        },
+        {
+          "lvl": 1,
+          "m": "Magnitud"
+        },
+        {
+          "lvl": 12,
+          "m": "Canon"
+        },
+        {
+          "lvl": 16,
+          "m": "Ladrón"
+        },
+        {
+          "lvl": 20,
+          "m": "Enrosque"
+        },
+        {
+          "lvl": 20,
+          "m": "Anulación"
+        },
+        {
+          "lvl": 24,
+          "m": "Tumba Rocas"
+        },
+        {
+          "lvl": 24,
+          "m": "Embargo"
+        },
+        {
+          "lvl": 30,
+          "m": "Cambio de Cancha"
+        },
+        {
+          "lvl": 36,
+          "m": "Puño Trueno"
+        },
+        {
+          "lvl": 41,
+          "m": "Rizo Algodón"
+        },
+        {
+          "lvl": 42,
+          "m": "Adaptación"
+        },
+        {
+          "lvl": 48,
+          "m": "Mal de Ojo"
+        },
+        {
+          "lvl": 54,
+          "m": "Bruma Explosiva"
+        },
+        {
+          "lvl": 60,
+          "m": "Puño Certero"
+        }
+      ],
+      "tmMoves": [
+        "Amnesia",
+        "Anclaje",
+        "Asta Drenaje",
+        "Cabeza Sorpresa",
+        "Ciclón",
+        "Danza Caos",
+        "Desarme",
+        "Espabila",
+        "Golpe Oscuro",
+        "Golpe Roca",
+        "Golpe Umbrío",
+        "Hueso Sombrío",
+        "Infortunio",
+        "Malicioso",
+        "Mismo Destino",
+        "Nitrocarga",
+        "Nitrochoque",
+        "Patada Baja",
+        "Picotazo Veneno",
+        "Pirueta Helada",
+        "Pulso Cura",
+        "Puño Drenaje",
+        "Puño Incremento",
+        "Puntapié",
+        "Retracción",
+        "Rizo Defensa",
+        "Rodillo de Púas",
+        "Vendaval"
+      ]
+    },
+    {
+      "nickname": "ISRAELÍ",
+      "species": "Voltorb (Hisui)",
+      "level": 21,
+      "types": [
+        "Eléctrico",
+        "Planta"
+      ],
+      "ability": "Clorofila",
+      "nature": "Pícara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Pikaturbo",
+        "Rodillo de Púas",
+        "Rencor",
+        "Espora"
+      ],
+      "iv": [
+        31,
+        19,
+        7,
+        16,
+        26,
+        25
+      ],
+      "ev": [
+        42,
+        89,
+        51,
+        55,
+        23,
+        72
+      ],
+      "abilPool": [
+        "Clorofila"
+      ],
+      "abilHidden": [
+        "Chorro Arena"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Onda Anómala"
+        },
+        {
+          "lvl": 1,
+          "m": "Represión Metal"
+        },
+        {
+          "lvl": 4,
+          "m": "Rodillo de Púas"
+        },
+        {
+          "lvl": 6,
+          "m": "Plegaria Lunar"
+        },
+        {
+          "lvl": 9,
+          "m": "Semilladora"
+        },
+        {
+          "lvl": 11,
+          "m": "Afilar"
+        },
+        {
+          "lvl": 13,
+          "m": "Dulce Aroma"
+        },
+        {
+          "lvl": 16,
+          "m": "Rencor"
+        },
+        {
+          "lvl": 20,
+          "m": "Paralizador"
+        },
+        {
+          "lvl": 22,
+          "m": "Rugido"
+        },
+        {
+          "lvl": 26,
+          "m": "Ayuda"
+        },
+        {
+          "lvl": 29,
+          "m": "Bloqueo"
+        },
+        {
+          "lvl": 34,
+          "m": "Pulso Noche"
+        },
+        {
+          "lvl": 34,
+          "m": "Enrosque"
+        },
+        {
+          "lvl": 41,
+          "m": "Ácido Málico"
+        },
+        {
+          "lvl": 46,
+          "m": "Reserva"
+        },
+        {
+          "lvl": 50,
+          "m": "Bomba Caramelo"
+        }
+      ],
+      "tmMoves": [
+        "Absorbefuerza",
+        "Amnesia",
+        "Atadura",
+        "Bomba Ígnea",
+        "Cabeza Sorpresa",
+        "Cadena Virulenta",
+        "Campo de Hierba",
+        "Clemencia",
+        "Conversión",
+        "Danza Acuática",
+        "Danza Caos",
+        "Deslome",
+        "Doble Golpe",
+        "Eco Metálico",
+        "Electropico",
+        "Embate Supremo",
+        "Estruendo Escama",
+        "Finta",
+        "Fuerza Lunar",
+        "Golpe Oscuro",
+        "Hueso Sombrío",
+        "Infortunio",
+        "Isoguardia",
+        "Láser Prisma",
+        "Lengüetazo",
+        "Malicioso",
+        "Maquinación",
+        "Megapuño",
+        "Mismo Destino",
+        "Moluscañón",
+        "Patada Baja",
+        "Picotazo Veneno",
+        "Pirueta Helada",
+        "Psicocolmillo",
+        "Puño Cometa",
+        "Puño Drenaje",
+        "Puntapié",
+        "Relevo",
+        "Retracción",
+        "Sol Matinal",
+        "Tajo Umbrío",
+        "Trampa Rocas",
+        "Transformación",
+        "Voltio Cruel"
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10231.png"
+    },
+    {
       "nickname": "RACHEL",
       "species": "Scizor",
       "level": 49,
@@ -495,12 +495,12 @@
         7
       ],
       "ev": [
-        18,
-        77,
-        36,
-        56,
-        19,
-        50
+        50,
+        149,
+        73,
+        101,
+        33,
+        104
       ],
       "abilPool": [
         "Puño Férreo",
@@ -664,12 +664,12 @@
         11
       ],
       "ev": [
-        18,
-        77,
-        36,
-        56,
-        19,
-        50
+        50,
+        149,
+        73,
+        101,
+        33,
+        104
       ],
       "abilPool": [
         "Fuente Energía",
@@ -829,12 +829,12 @@
         1
       ],
       "ev": [
-        18,
-        77,
-        36,
-        56,
-        19,
-        50
+        50,
+        149,
+        73,
+        101,
+        33,
+        104
       ],
       "abilPool": [
         "Clorofila"
@@ -8157,15 +8157,15 @@
   ],
   "captures": [
     {
-      "route": "ruta_21",
-      "where": "Ruta 21",
-      "species": "Voltorb",
-      "nickname": "ISRAELÍ",
+      "route": "ruta_13",
+      "where": "Ruta 13",
+      "species": "Blastoise",
+      "nickname": "MERYL STRYFE",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 20,
-      "mon": "Voltorb"
+      "level": 41,
+      "mon": "Blastoise"
     },
     {
       "route": "pueblo_paleta",
@@ -8179,15 +8179,15 @@
       "mon": "Conkeldurr"
     },
     {
-      "route": "ruta_13",
-      "where": "Ruta 13",
-      "species": "Blastoise",
-      "nickname": "MERYL STRYFE",
+      "route": "ruta_21",
+      "where": "Ruta 21",
+      "species": "Voltorb",
+      "nickname": "ISRAELÍ",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 41,
-      "mon": "Blastoise"
+      "level": 20,
+      "mon": "Voltorb"
     },
     {
       "route": "ciudad_fucsia",
@@ -8794,9 +8794,9 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_21": true,
-      "pueblo_paleta": true,
       "ruta_13": true,
+      "pueblo_paleta": true,
+      "ruta_21": true,
       "ciudad_fucsia": true,
       "ruta_4": true,
       "ruta_10_sur": true,
