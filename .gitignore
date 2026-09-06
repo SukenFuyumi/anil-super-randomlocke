@@ -12,5 +12,5 @@ Thumbs.db
 *.log
 companion/release-stage/
 
-# Skills locales (no versionadas)
-.claude/skills/
+# Configuración local de Claude Code (no versionada)
+.claude/
