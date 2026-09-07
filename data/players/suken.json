@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 5,
   "champion": false,
-  "notes": "Importado del save · 21h 59m jugadas · 466,350₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 22h 1m jugadas · 466,350₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "ISRAELÍ",
@@ -723,7 +723,7 @@
         "Fuego",
         "Fantasma"
       ],
-      "ability": "Clorofila",
+      "ability": "Cadena Tóxica",
       "nature": "Modesta",
       "item": "",
       "shiny": false,
@@ -750,11 +750,12 @@
         104
       ],
       "abilPool": [
-        "Clorofila"
+        "Expulsarena"
       ],
       "abilHidden": [
-        "Espejo Mágico"
+        "Cadena Tóxica"
       ],
+      "abilCapsule": true,
       "learnset": [
         {
           "lvl": 0,
