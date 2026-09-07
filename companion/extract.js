@@ -41,17 +41,23 @@ function mon(p) {
   const form = iv(p, '@form');
   const fd = form ? FORMS[species + '_' + form] : null; // forma regional (Alola/Galar/Hisui/Paldea)
   const moves = (iv(p, '@moves') || []).map(m => moveName(m && m.ivars ? sname(m.ivars['@id']) : sname(m))).filter(Boolean);
+  // Naturaleza: si se usó una Menta, el efecto en stats está en @nature_for_stats (la original
+  // se conserva en @nature). El valor que importa para sube/baja es el de la Menta.
+  const natBaseSym = sname(iv(p, '@nature'));
+  const natMintSym = sname(iv(p, '@nature_for_stats'));
+  const natSym = natMintSym || natBaseSym;
   const out = {
     nickname: nick || pretty(species),
     species: pretty(species) + (fd ? ` (${fd.region})` : ''),
     level: iv(p, '@level') ?? null,
     types: fd ? fd.types : speciesTypes(species),
     ability: abilityName(sname(iv(p, '@ability'))), // puede recalcularse abajo si se usó el item randomizador
-    nature: NATURES[sname(iv(p, '@nature'))] || pretty(sname(iv(p, '@nature'))),
+    nature: NATURES[natSym] || pretty(natSym),
     item: itemName(sname(iv(p, '@item'))),
     shiny: !!iv(p, '@shiny'),
     moves,
   };
+  if (natMintSym) { out.natureMint = true; out.natureBase = NATURES[natBaseSym] || pretty(natBaseSym); }
   const ivArr = statArr(iv(p, '@iv')), evArr = statArr(iv(p, '@ev'));
   if (ivArr) out.iv = ivArr;
   if (evArr) out.ev = evArr;

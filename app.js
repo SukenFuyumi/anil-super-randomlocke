@@ -450,10 +450,10 @@ async function openMonPopup(mon, ctx = {}) {
       <tbody>${rows}<tr class="pm-total"><td class="pm-slbl">Total</td><td class="pm-sval">${total}</td><td></td>${hasIV ? "<td></td>" : ""}${hasEV ? "<td></td>" : ""}</tr></tbody></table>`;
   }
 
-  // Naturaleza
+  // Naturaleza (si se usó Menta, mon.nature ya es la efectiva; se indica el origen)
   const fx = NATURE_FX[mon.nature];
   const natHtml = mon.nature
-    ? `<b>${escapeHtml(mon.nature)}</b>` + (fx
+    ? `<b>${escapeHtml(mon.nature)}</b>` + (mon.natureMint ? ` <span class="pm-hid">Menta</span>` : "") + (fx
         ? ` <span class="pm-up">▲ ${STAT_LBL6[fx.up]}</span> <span class="pm-down">▼ ${STAT_LBL6[fx.down]}</span>`
         : ` <span class="muted">(sin efecto en stats)</span>`)
     : "—";

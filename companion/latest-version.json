@@ -1,4 +1,4 @@
 {
-  "version": "1.2.4",
-  "notes": "Corrige las habilidades cuando se usa el item Randomizador de Habilidad: ahora muestra el set individual de cada Pokémon y la habilidad activa correcta."
+  "version": "1.2.5",
+  "notes": "Ahora la naturaleza refleja el cambio por Menta (nature_for_stats): se muestra la naturaleza efectiva y se marca con la etiqueta Menta."
 }
