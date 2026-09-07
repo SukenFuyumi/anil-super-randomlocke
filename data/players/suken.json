@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 5,
   "champion": false,
-  "notes": "Importado del save · 22h 31m jugadas · 466,350₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 22h 40m jugadas · 466,350₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "ISRAELÍ",
@@ -5384,7 +5384,7 @@
       ],
       "ability": "Filtro",
       "nature": "Osada",
-      "item": "Garra Afilada",
+      "item": "",
       "shiny": false,
       "moves": [
         "Pataleta",
@@ -5553,7 +5553,7 @@
       ],
       "ability": "Trampa Arena",
       "nature": "Firme",
-      "item": "Telescopio",
+      "item": "",
       "shiny": false,
       "moves": [
         "Tajo Umbrío",
@@ -5724,7 +5724,7 @@
       ],
       "ability": "Alma Acerada",
       "nature": "Serena",
-      "item": "Restos",
+      "item": "",
       "shiny": false,
       "moves": [
         "Desquite",
@@ -5874,7 +5874,7 @@
       ],
       "ability": "Trampa Arena",
       "nature": "Huraña",
-      "item": "Gafas Especiales",
+      "item": "",
       "shiny": false,
       "moves": [
         "Luz Aniquiladora",
