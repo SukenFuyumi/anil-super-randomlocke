@@ -389,7 +389,7 @@
         "Acero"
       ],
       "ability": "Firmeza",
-      "nature": "Amable",
+      "nature": "Grosera",
       "item": "Casco Dentado",
       "shiny": false,
       "moves": [
@@ -398,6 +398,8 @@
         "Tajo Metralla",
         "Hachazo Pétreo"
       ],
+      "natureMint": true,
+      "natureBase": "Amable",
       "iv": [
         27,
         7,
@@ -561,7 +563,7 @@
         "Agua"
       ],
       "ability": "Amor Filial",
-      "nature": "Alocada",
+      "nature": "Firme",
       "item": "Blastoisinitex",
       "shiny": false,
       "moves": [
@@ -570,6 +572,8 @@
         "Danza Acuática",
         "Flarembestida"
       ],
+      "natureMint": true,
+      "natureBase": "Alocada",
       "iv": [
         17,
         24,
@@ -884,7 +888,7 @@
         "Lucha"
       ],
       "ability": "Escama de Hielo",
-      "nature": "Fuerte",
+      "nature": "Cauta",
       "item": "Restos",
       "shiny": false,
       "moves": [
@@ -893,6 +897,8 @@
         "Enrosque",
         "Puño Drenaje"
       ],
+      "natureMint": true,
+      "natureBase": "Fuerte",
       "iv": [
         1,
         11,
