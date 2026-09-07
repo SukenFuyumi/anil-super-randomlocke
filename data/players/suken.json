@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 5,
   "champion": false,
-  "notes": "Importado del save · 21h 51m jugadas · 466,350₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 21h 51m jugadas · 466350₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "ISRAELÍ",
@@ -388,7 +388,7 @@
         "Bicho",
         "Acero"
       ],
-      "ability": "Firmeza",
+      "ability": "Desconocida",
       "nature": "Amable",
       "item": "",
       "shiny": false,
@@ -6691,7 +6691,7 @@
       "types": [
         "Agua"
       ],
-      "ability": "Amor Filial",
+      "ability": "Desconocida",
       "nature": "Alocada",
       "item": "Blastoisinitex",
       "shiny": false,
