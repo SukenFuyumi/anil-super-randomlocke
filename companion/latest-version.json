@@ -1,4 +1,4 @@
 {
-  "version": "1.3.0",
-  "notes": "Nuevas etiquetas en el tracker: 'Extra' (capturas de más del Contador de Capturas / shinies) y 'Repetido' (Pokémon de una familia ya presente en equipo, PC o cementerio; el original no se marca)."
+  "version": "1.3.1",
+  "notes": "La etiqueta 'Repetido' ahora agrupa por FAMILIA evolutiva (como el juego): si tienes p. ej. un Darmanitan original y luego te salen Darumaka por fósil, esos cuentan como repetidos. El original (el más antiguo de la línea) nunca se marca."
 }

@@ -6,6 +6,9 @@ const TYPES = require('./pokemon-types.json');
 const ABILITIES_ES = require('./ability-es.json');
 const ITEMS_ES = require('./item-es.json');
 let FORMS = {}; try { FORMS = require('./forms.json'); } catch (e) {}
+// Mapa de familias evolutivas: nombre normalizado -> id de la especie raíz de la línea.
+// Sirve para marcar "Repetido" por FAMILIA (como el juego), no solo por especie exacta.
+let FAMILIES = {}; try { FAMILIES = require('./families.json'); } catch (e) {}
 let RAND_ABIL = {}; // habilidades randomizadas por especie/forma: { SPECIES[_form]: {base:[nombres], hidden:[nombres]} }
 let RAND_ABIL_MON = {}; // habilidades randomizadas por Pokémon individual (item Randomizador de Habilidad): { monId: {base:[nombres], hidden:[nombres]} }
 let RAND_MOVES = {}; // movimientos aprendibles randomizados: { SPECIES: { form: [ {lvl, m} ] } }
@@ -245,14 +248,16 @@ function extract(buf, playerId, opts = {}) {
   party.forEach(p => pushMon(p, 'party'));
   boxes.forEach(b => (iv(b, '@pokemon') || []).forEach(p => pushMon(p, 'box')));
 
-  // "Repetido": misma especie presente 2+ veces entre equipo + PC + cementerio (los muertos
-  // cuentan). El MÁS ANTIGUO de cada especie (por [timeReceived, personalID]) es el ORIGINAL y
-  // NO se marca; solo las copias posteriores llevan dup:true. (El juego usa familia evolutiva;
-  // la web aproxima por especie, que cubre el caso típico de fósiles repetidos.)
+  // "Repetido": misma FAMILIA evolutiva presente 2+ veces entre equipo + PC + cementerio (los
+  // muertos cuentan), igual que el juego. El MÁS ANTIGUO de cada familia (por [timeReceived,
+  // personalID]) es el ORIGINAL y NO se marca; solo las copias posteriores llevan dup:true.
+  // (Ej.: si tienes un Darmanitan original y luego te salen Darumaka por fósil, esos son dup.)
   {
+    const norm = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]/g, '');
     const baseSp = (m) => String((m && m.species) || '').split(' (')[0].trim();
+    const famKey = (m) => { const k = norm(baseSp(m)); return String(FAMILIES[k] != null ? FAMILIES[k] : k); };
     const groups = {};
-    [...team, ...box, ...graveyard].forEach(m => { const k = baseSp(m); if (k) (groups[k] = groups[k] || []).push(m); });
+    [...team, ...box, ...graveyard].forEach(m => { const k = famKey(m); if (k) (groups[k] = groups[k] || []).push(m); });
     Object.values(groups).forEach(list => {
       if (list.length < 2) return;
       list.sort((a, b) => (a._t - b._t) || (a._pid - b._pid)); // más antiguo primero = original
