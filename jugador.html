@@ -15,7 +15,7 @@
     <p class="muted">Cargando…</p>
   </main>
 
-  <script src="app.js?v=2"></script>
+  <script src="app.js?v=3"></script>
   <script>
     (async function () {
       const cfg = await loadConfig();
@@ -192,6 +192,9 @@
       const multiCount = Object.values(capsByRoute).filter((l)=>l.length>1).length;
       const ec = extraCaptures(data);
       const allMons = [...(data.team||[]), ...(data.box||[]), ...(data.graveyard||[])];
+      // Contador de Capturas (regla Nuzlocke): capturas marcadas como "Extra" en el juego.
+      const extraFlagged = allMons.filter((m)=>m.extra);
+      const extraFlaggedList = extraFlagged.map((m)=>escapeHtml((m.nickname||m.species)+" ("+m.species+")")).join(", ");
       const shinyList = allMons.filter((m)=>m.shiny);
       const bySpecies = {};
       allMons.forEach((m)=>{ const k = normName(m.species); if(k){ (bySpecies[k]=bySpecies[k]||[]).push(m); } });
@@ -206,21 +209,34 @@
 
       // estado de cada zona: capturada / quemada / pendiente / sin visitar
       let stCap = 0, stBurn = 0, stPend = 0, stUnseen = 0;
+      const pendRoutes = [], unseenRoutesList = [];
       (cfg.routes || []).forEach((r) => {
         const oc = routeOutcomes[r.id];
         if ((capsByRoute[r.id] || []).length) stCap++;
         else if (encountersUsed[r.id] || (oc && (oc.status === "dead" || oc.status === "fled"))) stBurn++;
-        else if (data.progress?.routes?.[r.id]) stPend++;
-        else stUnseen++;
+        else if (data.progress?.routes?.[r.id]) { stPend++; pendRoutes.push(r); }
+        else { stUnseen++; unseenRoutesList.push(r); }
       });
+      const pendPill = (r) => `<span class="pill" style="margin:.1rem .15rem;padding:.05rem .5rem">${escapeHtml(r.name)}</span>`;
+      const pendingBlock = `
+        <h3>Te falta capturar <span class="muted">(${pendRoutes.length} disponibles${unseenRoutesList.length?` · ${unseenRoutesList.length} sin visitar`:""})</span></h3>
+        ${pendRoutes.length
+          ? `<p class="muted" style="font-size:.82rem">Zonas ya visitadas donde aún puedes conseguir tu captura:</p><div>${pendRoutes.map(pendPill).join("")}</div>`
+          : `<p class="muted">¡No te queda ninguna zona visitada pendiente! 🎉</p>`}
+        ${unseenRoutesList.length
+          ? `<details style="margin-top:.5rem"><summary style="cursor:pointer">Zonas que aún no has visitado (${unseenRoutesList.length})</summary><div style="margin-top:.35rem;opacity:.75">${unseenRoutesList.map(pendPill).join("")}</div></details>`
+          : ""}`;
       document.getElementById("tab-capturas").innerHTML = `
         <div class="stat-row">
           <div class="stat-tile"><div class="num ok">${stCap}</div><div class="lbl">Zonas capturadas</div></div>
           <div class="stat-tile"><div class="num" style="color:var(--accent)">${stPend}</div><div class="lbl">Puedes capturar</div></div>
           <div class="stat-tile"><div class="num" style="color:var(--warn)">${stBurn}</div><div class="lbl">Quemadas</div></div>
           <div class="stat-tile"><div class="num" style="color:var(--text-muted)">${stUnseen}</div><div class="lbl">Sin visitar</div></div>
+          ${extraFlagged.length ? `<div class="stat-tile"><div class="num" style="color:var(--type-normal,#8a8a99)">${extraFlagged.length}</div><div class="lbl">Capturas extra</div></div>` : ""}
         </div>
+        ${extraFlagged.length ? `<div class="callout"><strong>Capturas extra (Contador de Capturas): ${extraFlagged.length}</strong><div class="muted" style="font-size:.82rem;margin-top:.3rem">Capturas hechas de más en una zona ya usada (o shiny), marcadas como "Extra" dentro del juego.</div><div style="margin-top:.4rem">${extraFlaggedList}</div></div>` : ""}
         ${extraDetail}
+        ${pendingBlock}
         <h3>Capturas por ruta</h3>
         <div class="prog-legend">
           <span><span class="pill ok" style="padding:.02rem .4rem">✓</span> capturado</span>

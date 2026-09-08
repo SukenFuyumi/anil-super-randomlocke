@@ -1,4 +1,4 @@
 {
-  "version": "1.2.5",
-  "notes": "Ahora la naturaleza refleja el cambio por Menta (nature_for_stats): se muestra la naturaleza efectiva y se marca con la etiqueta Menta."
+  "version": "1.3.0",
+  "notes": "Nuevas etiquetas en el tracker: 'Extra' (capturas de más del Contador de Capturas / shinies) y 'Repetido' (Pokémon de una familia ya presente en equipo, PC o cementerio; el original no se marca)."
 }

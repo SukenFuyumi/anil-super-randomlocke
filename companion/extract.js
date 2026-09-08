@@ -58,6 +58,8 @@ function mon(p) {
     moves,
   };
   if (natMintSym) { out.natureMint = true; out.natureBase = NATURES[natBaseSym] || pretty(natBaseSym); }
+  // Contador de Capturas (Nuzlocke EX): capturas hechas de más en una zona ya usada.
+  if (iv(p, '@anil_extra_capture')) out.extra = true;
   const ivArr = statArr(iv(p, '@iv')), evArr = statArr(iv(p, '@ev'));
   if (ivArr) out.iv = ivArr;
   if (evArr) out.ev = evArr;
@@ -88,6 +90,9 @@ function mon(p) {
   const tmList = RAND_TM[species];
   if (tmList && tmList.length) out.tmMoves = tmList;
   if (fd && fd.spriteId) out.sprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${fd.spriteId}.png`;
+  // Campos temporales para calcular "Repetido" (orden de obtención). Se borran antes de guardar.
+  out._t = iv(p, '@timeReceived') || 0;
+  out._pid = iv(p, '@personalID') || 0;
   return out;
 }
 
@@ -239,6 +244,22 @@ function extract(buf, playerId, opts = {}) {
   };
   party.forEach(p => pushMon(p, 'party'));
   boxes.forEach(b => (iv(b, '@pokemon') || []).forEach(p => pushMon(p, 'box')));
+
+  // "Repetido": misma especie presente 2+ veces entre equipo + PC + cementerio (los muertos
+  // cuentan). El MÁS ANTIGUO de cada especie (por [timeReceived, personalID]) es el ORIGINAL y
+  // NO se marca; solo las copias posteriores llevan dup:true. (El juego usa familia evolutiva;
+  // la web aproxima por especie, que cubre el caso típico de fósiles repetidos.)
+  {
+    const baseSp = (m) => String((m && m.species) || '').split(' (')[0].trim();
+    const groups = {};
+    [...team, ...box, ...graveyard].forEach(m => { const k = baseSp(m); if (k) (groups[k] = groups[k] || []).push(m); });
+    Object.values(groups).forEach(list => {
+      if (list.length < 2) return;
+      list.sort((a, b) => (a._t - b._t) || (a._pid - b._pid)); // más antiguo primero = original
+      list.slice(1).forEach(m => { m.dup = true; });           // el resto = repetidos
+    });
+    [...team, ...box, ...graveyard].forEach(m => { delete m._t; delete m._pid; });
+  }
 
   // rutas visitadas desde visitedMaps (índice = id de mapa, valor true)
   const vm = iv(gm, '@visitedMaps');

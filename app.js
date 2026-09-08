@@ -501,7 +501,7 @@ async function openMonPopup(mon, ctx = {}) {
       ${spriteEl(mon, "mon-sprite pm-sprite")}
       <div class="pm-headinfo">
         <div class="pm-nick">${escapeHtml(mon.nickname || mon.species || "?")}${mon.shiny ? " " + shinyStar(14) : ""}</div>
-        <div class="pm-species">${escapeHtml(mon.species || "")} <span class="pm-lvl">Nv. ${escapeHtml(mon.level ?? "?")}</span></div>
+        <div class="pm-species">${escapeHtml(mon.species || "")} <span class="pm-lvl">Nv. ${escapeHtml(mon.level ?? "?")}</span>${mon.dup ? ` <span class="pm-hid" title="Repetido (misma especie ya presente en equipo/PC/cementerio)">Repetido</span>` : (mon.extra ? ` <span class="pm-hid" title="Captura extra (Contador de Capturas)">Extra</span>` : "")}</div>
         <div class="pm-types">${types}</div>
       </div>
     </div>
@@ -651,6 +651,9 @@ function monCard(mon, opts = {}) {
       return `<span class="mon-move" title="${escapeHtml(nm)}">${escapeHtml(nm)}</span>`;
     }).join("");
   const shiny = mon.shiny ? `<span class="pill shiny" style="padding:.02rem .45rem;font-size:.58rem">${shinyStar(11)} SHINY</span>` : "";
+  const extraTag = mon.dup
+    ? `<span class="pill" title="Repetido (misma especie ya presente en equipo/PC/cementerio)" style="padding:.02rem .45rem;font-size:.58rem;background:#8a7dbf;color:#fff">REPETIDO</span>`
+    : (mon.extra ? `<span class="pill" title="Captura extra (Contador de Capturas)" style="padding:.02rem .45rem;font-size:.58rem;background:var(--type-normal,#8a8a99);color:#fff">EXTRA</span>` : "");
   const owner = opts.owner ? `<div class="mon-owner">de ${escapeHtml(opts.owner)}</div>` : "";
   const mi = registerMon(mon, { player: opts.player });
   const sprite = `<a href="#" class="mon-open" data-monopen="${mi}" title="Ver ficha detallada">${spriteEl(mon)}</a>`;
@@ -661,7 +664,7 @@ function monCard(mon, opts = {}) {
       <div class="mon-top">
         ${sprite}
         <div class="mon-id grow">
-          <div class="mon-nick">${escapeHtml(mon.nickname || "—")} ${shiny}</div>
+          <div class="mon-nick">${escapeHtml(mon.nickname || "—")} ${shiny}${extraTag}</div>
           <div class="mon-species">${speciesHtml}</div>
           ${owner}
           <div class="mon-types">${types}</div>
