@@ -6607,7 +6607,8 @@
         "Trampa Venenosa",
         "Transformación",
         "Voltio Cruel"
-      ]
+      ],
+      "dup": true
     },
     {
       "nickname": "REPETIDO2",
