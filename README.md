@@ -9,7 +9,7 @@ Incluye **auto-save**: el programa en [`companion/`](companion/) lee la partida 
 > 🧩 **¿Quieres montar una web así para tu propio grupo?**
 > Guía fácil y visual: **https://sukenfuyumi.github.io/anil-super-randomlocke/guia.html**
 > · Descargar **AnilSync**: **[AnilSync.exe](https://github.com/SukenFuyumi/anil-super-randomlocke/releases/latest/download/AnilSync.exe)**
-> · Copiar la plantilla: pulsa **"Use this template"** arriba · Versión texto: **[SETUP.md](SETUP.md)**
+> · Copiar la plantilla (limpia y lista): **https://github.com/SukenFuyumi/anil-tracker-template** · Versión texto: **[SETUP.md](SETUP.md)**
 
 ## Estructura
 

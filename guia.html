@@ -42,7 +42,7 @@
       <p class="lead" style="margin:.2rem auto;max-width:640px">Monta un tracker como este para tu grupo. Es <b>gratis</b> y no necesitas saber programar: solo seguir los pasos. 👇</p>
       <div class="dl-row">
         <a class="big-btn primary" href="https://github.com/SukenFuyumi/anil-super-randomlocke/releases/latest/download/AnilSync.exe">⬇️ Descargar AnilSync</a>
-        <a class="big-btn ghost" href="https://github.com/SukenFuyumi/anil-super-randomlocke/generate" target="_blank" rel="noopener">🌐 Crear mi web (copiar plantilla)</a>
+        <a class="big-btn ghost" href="https://github.com/SukenFuyumi/anil-tracker-template/generate" target="_blank" rel="noopener">🌐 Crear mi web (copiar plantilla)</a>
       </div>
       <p class="mini" style="margin-top:.7rem">AnilSync es el programita que sube tu partida a la web automáticamente. El botón azul te lo descarga al instante.</p>
     </div>
@@ -58,19 +58,15 @@
       <p class="mini">Necesitas una cuenta de <b>GitHub</b> (gratis). Créala en <span class="kbd">github.com</span> si no tienes.</p>
 
       <div class="step"><div class="num">1</div><div class="body">
-        Pulsa <a href="https://github.com/SukenFuyumi/anil-super-randomlocke/generate" target="_blank" rel="noopener"><b>este botón para copiar la plantilla</b></a>. Ponle un <b>nombre</b> (ej. <span class="kbd">mi-randomlocke</span>), déjalo en <b>Public</b> y pulsa <span class="kbd">Create repository</span>.
+        Pulsa <a href="https://github.com/SukenFuyumi/anil-tracker-template/generate" target="_blank" rel="noopener"><b>este botón para copiar la plantilla</b></a>. Ponle un <b>nombre</b> (ej. <span class="kbd">mi-randomlocke</span>), déjalo en <b>Public</b> y pulsa <span class="kbd">Create repository</span>.
       </div></div>
 
       <div class="step"><div class="num">2</div><div class="body">
         Enciende la web: en tu copia ve a <span class="kbd">Settings</span> → <span class="kbd">Pages</span>. En <i>Source</i> elige <span class="kbd">Deploy from a branch</span>, rama <span class="kbd">main</span>, carpeta <span class="kbd">/ (root)</span> y pulsa <span class="kbd">Save</span>. En 1–2 min aparece tu dirección: <span class="kbd">tu-usuario.github.io/mi-randomlocke</span>.
+        <div class="callout" style="margin-top:.5rem;font-size:.9rem">💡 La plantilla ya viene <b>vacía y lista</b>. <b>No hace falta configurar jugadores:</b> cada uno se registra solo al sincronizar con AnilSync. (Si quieres cambiar el título del grupo, edita <span class="kbd">title</span> en <span class="kbd">data/config.json</span> — es opcional.)</div>
       </div></div>
 
       <div class="step"><div class="num">3</div><div class="body">
-        Pon el nombre de tu grupo: abre <span class="kbd">data/config.json</span>, pulsa el lápiz ✏️, cambia el <span class="kbd">title</span> (y lo que quieras) y <b>vacía la lista de jugadores de ejemplo</b> dejándola así: <span class="kbd">"players": []</span>. Pulsa <span class="kbd">Commit changes</span>.
-        <div class="callout" style="margin-top:.5rem;font-size:.9rem">💡 <b>No tienes que añadir a los jugadores a mano.</b> Cada jugador <b>se registra solo</b> en la web la primera vez que sincroniza con AnilSync (con su nombre y un avatar automático).</div>
-      </div></div>
-
-      <div class="step"><div class="num">4</div><div class="body">
         Crea una <b>llave (token)</b> para cada jugador y pásasela. Entra a <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">este enlace</a> → <span class="kbd">Generate new token</span>:
         <ul class="rules-list" style="margin:.4rem 0">
           <li><i>Token name</i>: el nombre del jugador (ej. <span class="kbd">anilsync-ash</span>).</li>

@@ -20,25 +20,19 @@ Esta web es **estática y gratis**: se aloja en **GitHub Pages** y el programa *
 Necesitas una cuenta de **GitHub** (gratis, créala en github.com si no tienes).
 
 ## Paso 1 — Copia esta web a tu cuenta
-1. En la página del repo, pulsa el botón verde **"Use this template" → "Create a new repository"**.
+1. Abre la plantilla: **https://github.com/SukenFuyumi/anil-tracker-template** → botón verde **"Use this template" → "Create a new repository"**.
 2. Ponle un **nombre** (ej. `mi-randomlocke`), déjalo en **Public** (para que Pages sea gratis) y pulsa **Create repository**.
+
+La plantilla ya viene **vacía y lista**: no hay que configurar jugadores.
 
 ## Paso 2 — Activa la web (GitHub Pages)
 1. En **tu** repo: **Settings** → **Pages**.
 2. En *Source* elige **Deploy from a branch** → rama **main** → carpeta **/(root)** → **Save**.
 3. Espera 1–2 minutos. Aparecerá tu URL: `https://TU-USUARIO.github.io/mi-randomlocke`
 
-## Paso 3 — Pon el nombre de tu grupo (`data/config.json`)
-En tu repo, entra a **`data/config.json`** y pulsa el lápiz ✏️. Cambia:
-- `title`, `subtitle`, `season`, `region`, `totalLives` → a tu gusto.
-- `repo` → **tu** repo: `"repo": { "owner": "TU-USUARIO", "name": "mi-randomlocke", "branch": "main" }`
-- `players` → **déjala vacía**: `"players": []` (así borras los jugadores de ejemplo de la plantilla).
+> 💡 **No añadas jugadores a mano.** Cada jugador **se registra solo** en la web la primera vez que sincroniza con AnilSync (con su nombre y un avatar automático). *(Opcional: si quieres cambiar el título del grupo, edita `title` en `data/config.json`.)*
 
-Pulsa **Commit changes**.
-
-> 💡 **No añadas jugadores a mano.** Cada jugador **se registra solo** en la web la primera vez que sincroniza con AnilSync (con su nombre y un avatar automático de la lista `_avatarsDisponibles`). Tú solo pones el título y borras los de ejemplo.
-
-## Paso 4 — Crea una “llave” (token) para cada jugador y repártela
+## Paso 3 — Crea una “llave” (token) para cada jugador y repártela
 1. Entra a **https://github.com/settings/tokens?type=beta** → **Generate new token** (*fine-grained*).
 2. *Token name*: el nombre del jugador (ej. `anilsync-ash`). *Expiration*: 90 días o *No expiration*.
 3. *Repository access* → **Only select repositories** → tu repo del grupo.
@@ -60,7 +54,7 @@ Baja **`AnilSync.exe`** (enlace directo): https://github.com/SukenFuyumi/anil-su
 Ponlo en una carpeta cualquiera.
 
 ## Paso 2 — Pide tu llave al organizador
-Es un código que empieza con `github_pat_...`. El organizador te lo genera y te lo pasa (Paso 4 de arriba). Guárdalo en privado.
+Es un código que empieza con `github_pat_...`. El organizador te lo genera y te lo pasa (Paso 3 de arriba). Guárdalo en privado.
 
 ## Paso 3 — Crea tu `config.json`
 Junto al `AnilSync.exe`, crea un archivo **`config.json`** con esto (cambia lo que va entre `<>`):
