@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>Crea tu tracker · Pokémon Añil Randomlocke</title>
+  <meta name="description" content="Guía fácil para montar tu propia web de seguimiento de Pokémon Añil y descargar AnilSync." />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="stylesheet" href="styles.css?v=1" />
+  <style>
+    .guia-hero{background:linear-gradient(180deg,color-mix(in srgb,var(--accent) 16%,var(--panel)),var(--panel));border:1px solid var(--border);border-radius:16px;padding:1.6rem;text-align:center;margin-bottom:1.4rem}
+    .guia-hero h1{margin:.2rem 0 .4rem}
+    .dl-row{display:flex;flex-wrap:wrap;gap:.7rem;justify-content:center;margin-top:1rem}
+    .big-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.85rem 1.3rem;border-radius:12px;font-weight:700;font-size:1.02rem;text-decoration:none;border:2px solid transparent;transition:transform .08s ease,filter .15s ease}
+    .big-btn:hover{transform:translateY(-1px);filter:brightness(1.06)}
+    .big-btn.primary{background:var(--accent);color:#fff}
+    .big-btn.ghost{background:var(--panel);color:var(--text);border-color:var(--border)}
+    .role-tag{display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.03em;text-transform:uppercase;padding:.15rem .6rem;border-radius:999px;margin-bottom:.5rem}
+    .role-org{background:#2a75bb;color:#fff}
+    .role-play{background:#3aa757;color:#fff}
+    .step{display:flex;gap:.9rem;padding:.7rem 0;border-top:1px dashed var(--border)}
+    .step:first-of-type{border-top:0}
+    .step .num{flex:0 0 auto;width:2rem;height:2rem;border-radius:50%;background:var(--accent);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center}
+    .step .body{flex:1;min-width:0}
+    .step .body b{color:var(--text)}
+    .kbd{font-family:Consolas,"Courier New",monospace;background:color-mix(in srgb,var(--accent) 12%,var(--panel));border:1px solid var(--border);border-radius:6px;padding:.05rem .4rem;font-size:.9em;white-space:nowrap}
+    pre.cfg{background:#1b1f24;color:#e6e6e6;border-radius:10px;padding:.9rem 1rem;overflow-x:auto;font-size:.86rem;line-height:1.5}
+    pre.cfg .c{color:#7fd1b9}
+    .mini{font-size:.85rem;color:var(--text-muted)}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="breadcrumb"><a href="index.html">← Inicio</a></div>
+
+    <div class="guia-hero">
+      <div style="font-size:2.2rem">🧩</div>
+      <h1>Crea tu propia web de seguimiento</h1>
+      <p class="lead" style="margin:.2rem auto;max-width:640px">Monta un tracker como este para tu grupo. Es <b>gratis</b> y no necesitas saber programar: solo seguir los pasos. 👇</p>
+      <div class="dl-row">
+        <a class="big-btn primary" href="https://github.com/SukenFuyumi/anil-super-randomlocke/releases/latest/download/AnilSync.exe">⬇️ Descargar AnilSync</a>
+        <a class="big-btn ghost" href="https://github.com/SukenFuyumi/anil-super-randomlocke/generate" target="_blank" rel="noopener">🌐 Crear mi web (copiar plantilla)</a>
+      </div>
+      <p class="mini" style="margin-top:.7rem">AnilSync es el programita que sube tu partida a la web automáticamente. El botón azul te lo descarga al instante.</p>
+    </div>
+
+    <div class="callout" style="margin-bottom:1.2rem">
+      <b>¿Cómo se reparten los roles?</b> Solo <b>UNA persona</b> (el organizador) crea la web una vez. Cada jugador solo descarga AnilSync y lo configura una vez. ¡Nada más!
+    </div>
+
+    <!-- ============ ORGANIZADOR ============ -->
+    <div class="panel" style="margin-bottom:1.2rem">
+      <span class="role-tag role-org">Solo el organizador · una vez</span>
+      <h2 style="margin:.2rem 0 .6rem">Parte 1 — Crear la web del grupo</h2>
+      <p class="mini">Necesitas una cuenta de <b>GitHub</b> (gratis). Créala en <span class="kbd">github.com</span> si no tienes.</p>
+
+      <div class="step"><div class="num">1</div><div class="body">
+        Pulsa <a href="https://github.com/SukenFuyumi/anil-super-randomlocke/generate" target="_blank" rel="noopener"><b>este botón para copiar la plantilla</b></a>. Ponle un <b>nombre</b> (ej. <span class="kbd">mi-randomlocke</span>), déjalo en <b>Public</b> y pulsa <span class="kbd">Create repository</span>.
+      </div></div>
+
+      <div class="step"><div class="num">2</div><div class="body">
+        Enciende la web: en tu copia ve a <span class="kbd">Settings</span> → <span class="kbd">Pages</span>. En <i>Source</i> elige <span class="kbd">Deploy from a branch</span>, rama <span class="kbd">main</span>, carpeta <span class="kbd">/ (root)</span> y pulsa <span class="kbd">Save</span>. En 1–2 min aparece tu dirección: <span class="kbd">tu-usuario.github.io/mi-randomlocke</span>.
+      </div></div>
+
+      <div class="step"><div class="num">3</div><div class="body">
+        Pon los datos de tu grupo: abre el archivo <span class="kbd">data/config.json</span>, pulsa el lápiz ✏️ y cambia el <b>título</b> y la lista de <b>jugadores</b> (un <span class="kbd">id</span> único por persona). Pulsa <span class="kbd">Commit changes</span>.
+        <details style="margin-top:.4rem"><summary class="mini" style="cursor:pointer">Ver ejemplo de jugadores</summary>
+<pre class="cfg">"players": [
+  { "id": "ash",  "name": "Ash",  "avatar": "assets/avatars/red.png" },
+  { "id": "gary", "name": "Gary", "avatar": "assets/avatars/blue.png" }
+]</pre></details>
+      </div></div>
+
+      <div class="step"><div class="num">4</div><div class="body">
+        Da acceso a tus amigos: <span class="kbd">Settings</span> → <span class="kbd">Collaborators</span> → <span class="kbd">Add people</span> y agrega el usuario de GitHub de cada uno (ellos aceptan la invitación por correo).
+      </div></div>
+    </div>
+
+    <!-- ============ JUGADOR ============ -->
+    <div class="panel" style="margin-bottom:1.2rem">
+      <span class="role-tag role-play">Cada jugador · una vez</span>
+      <h2 style="margin:.2rem 0 .6rem">Parte 2 — Conecta tu partida</h2>
+
+      <div class="step"><div class="num">1</div><div class="body">
+        <b>Descarga AnilSync</b> con el botón azul de arriba (o <a href="https://github.com/SukenFuyumi/anil-super-randomlocke/releases/latest/download/AnilSync.exe">aquí</a>). Ponlo en una carpeta cualquiera.
+      </div></div>
+
+      <div class="step"><div class="num">2</div><div class="body">
+        Crea tu <b>llave</b> (token): entra a <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">este enlace</a> → <span class="kbd">Generate new token</span>. En <i>Repository access</i> elige <b>Only select repositories</b> → el repo del grupo. En <i>Permissions</i> → <b>Contents</b> → <b>Read and write</b>. Pulsa <span class="kbd">Generate token</span> y <b>copia el código</b> (empieza con <span class="kbd">github_pat_…</span>).
+        <div class="mini" style="margin-top:.3rem">🔒 El token es como una contraseña: solo va en tu archivo local, no lo compartas.</div>
+      </div></div>
+
+      <div class="step"><div class="num">3</div><div class="body">
+        Junto al <span class="kbd">AnilSync.exe</span> crea un archivo <span class="kbd">config.json</span> con esto (cambia lo <span style="color:var(--accent)">resaltado</span>):
+<pre class="cfg">{
+  "playerId": "<span class="c">ash</span>",              <span class="c">// tu id de la lista</span>
+  "saveFolder": "",
+  "saveSlot": "ask",
+  "github": {
+    "owner": "<span class="c">tu-usuario</span>",       <span class="c">// dueño del repo del grupo</span>
+    "repo": "<span class="c">mi-randomlocke</span>",     <span class="c">// nombre del repo</span>
+    "branch": "main",
+    "token": "<span class="c">github_pat_TU_TOKEN</span>",
+    "pathTemplate": "data/players/{id}.json"
+  },
+  "watch": true,
+  "dryRun": false
+}</pre>
+      </div></div>
+
+      <div class="step"><div class="num">4</div><div class="body">
+        <b>Doble clic en <span class="kbd">AnilSync.exe</span></b>. Si te pregunta, elige tu ranura de partida. Deja la ventana abierta mientras juegas: cada vez que <b>guardes</b> en el juego, tu progreso sube solo. 🎉
+      </div></div>
+    </div>
+
+    <!-- ============ PROBLEMAS ============ -->
+    <div class="panel">
+      <h2 style="margin:.2rem 0 .6rem">¿Algo no funciona?</h2>
+      <ul class="rules-list">
+        <li><b>La web da error 404:</b> espera unos minutos tras encender Pages; revisa rama <span class="kbd">main</span> y carpeta <span class="kbd">/ (root)</span>.</li>
+        <li><b>AnilSync dice error 403 (permisos):</b> tu token no tiene <b>Contents: Read and write</b>, o no eres <i>Collaborator</i>, o escribiste mal <span class="kbd">owner</span>/<span class="kbd">repo</span>.</li>
+        <li><b>No sube nada:</b> tu <span class="kbd">playerId</span> debe existir en la lista de jugadores, y el juego debe guardar en la partida correcta.</li>
+        <li><b>No aparece un jugador:</b> falta su entrada en <span class="kbd">players</span> de <span class="kbd">data/config.json</span>.</li>
+      </ul>
+      <p class="mini">Versión en texto de esta guía: <a href="https://github.com/SukenFuyumi/anil-super-randomlocke/blob/main/SETUP.md" target="_blank" rel="noopener">SETUP.md</a>.</p>
+    </div>
+  </main>
+
+  <script src="app.js?v=5"></script>
+  <script>renderHeader("guia.html"); renderFooter();</script>
+</body>
+</html>

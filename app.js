@@ -43,6 +43,7 @@ const NAV = [
   { href: "habilidades.html", label: "Habilidades" },
   { href: "torneos.html", label: "Torneos" },
   { href: "reglas.html", label: "Reglas" },
+  { href: "guia.html", label: "🧩 Crea tu tracker" },
 ];
 
 function renderHeader(active) {
@@ -77,13 +78,7 @@ function renderFooter() {
   document.body.appendChild(f);
   // Enlace "¿Quieres tu propio tracker?" — fork-agnóstico: arma el link al SETUP.md del repo
   // definido en data/config.json (así funciona en la copia de cualquier grupo).
-  loadJSON("data/config.json").then((c) => {
-    const r = c && c.repo;
-    const href = (r && r.owner && r.name)
-      ? `https://github.com/${r.owner}/${r.name}/blob/${r.branch || "main"}/SETUP.md`
-      : "SETUP.md";
-    f.innerHTML = `Pokémon Añil — Super Randomlocke · 2026. · <a href="${href}" target="_blank" rel="noopener">🧩 ¿Quieres tu propio tracker?</a>`;
-  }).catch(() => {});
+  f.innerHTML = `Pokémon Añil — Super Randomlocke · 2026. · <a href="guia.html">🧩 ¿Quieres tu propio tracker?</a>`;
 }
 
 /* ---------- Carga de datos ---------- */

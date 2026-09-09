@@ -1,5 +1,8 @@
 # 🧩 Monta tu propia web de seguimiento (tracker)
 
+> **🟢 Guía fácil y visual (recomendada):** https://sukenfuyumi.github.io/anil-super-randomlocke/guia.html
+> **⬇️ Descargar AnilSync (1 clic):** https://github.com/SukenFuyumi/anil-super-randomlocke/releases/latest/download/AnilSync.exe
+
 Esta web es **estática y gratis**: se aloja en **GitHub Pages** y el programa **AnilSync** sube tu partida automáticamente. No necesitas servidores ni saber programar. Sigue estos pasos y tendrás tu propio tracker para tu grupo.
 
 > Cada grupo tiene su propia copia y sus propios datos, totalmente independiente.
