@@ -6,6 +6,8 @@ Web estática para seguir un randomlocke de Pokémon Añil: equipos, cajas, ceme
 
 Incluye **auto-save**: el programa en [`companion/`](companion/) lee la partida `.rxdata` de Pokémon Añil y sube la ficha de cada jugador a la web automáticamente. Ver [companion/README.md](companion/README.md).
 
+> 🧩 **¿Quieres montar una web así para tu propio grupo?** Pulsa **"Use this template"** arriba y sigue la guía paso a paso: **[SETUP.md](SETUP.md)**.
+
 ## Estructura
 
 ```
