@@ -28,18 +28,15 @@ Necesitas una cuenta de **GitHub** (gratis, créala en github.com si no tienes).
 2. En *Source* elige **Deploy from a branch** → rama **main** → carpeta **/(root)** → **Save**.
 3. Espera 1–2 minutos. Aparecerá tu URL: `https://TU-USUARIO.github.io/mi-randomlocke`
 
-## Paso 3 — Personaliza tu grupo (`data/config.json`)
+## Paso 3 — Pon el nombre de tu grupo (`data/config.json`)
 En tu repo, entra a **`data/config.json`** y pulsa el lápiz ✏️. Cambia:
 - `title`, `subtitle`, `season`, `region`, `totalLives` → a tu gusto.
 - `repo` → **tu** repo: `"repo": { "owner": "TU-USUARIO", "name": "mi-randomlocke", "branch": "main" }`
-- `players` → tu grupo. **El `id` es único y NO se cambia** una vez creado:
-  ```json
-  "players": [
-    { "id": "ash",  "name": "Ash",  "avatar": "assets/avatars/red.png" },
-    { "id": "gary", "name": "Gary", "avatar": "assets/avatars/blue.png" }
-  ]
-  ```
+- `players` → **déjala vacía**: `"players": []` (así borras los jugadores de ejemplo de la plantilla).
+
 Pulsa **Commit changes**.
+
+> 💡 **No añadas jugadores a mano.** Cada jugador **se registra solo** en la web la primera vez que sincroniza con AnilSync (con su nombre y un avatar automático de la lista `_avatarsDisponibles`). Tú solo pones el título y borras los de ejemplo.
 
 ## Paso 4 — Crea una “llave” (token) para cada jugador y repártela
 1. Entra a **https://github.com/settings/tokens?type=beta** → **Generate new token** (*fine-grained*).

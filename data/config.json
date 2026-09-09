@@ -9,6 +9,7 @@
     "name": "anil-super-randomlocke",
     "branch": "main"
   },
+  "_ayuda": "¿Copiaste esta plantilla para tu grupo? Cambia el 'title' y deja 'players' vacío ([]) para borrar los de ejemplo. NO hace falta añadir jugadores a mano: cada uno se registra solo al sincronizar con AnilSync. Guía completa: guia.html",
   "_comentario": "Los líderes van randomizados en equipo pero mantienen identidad, orden y ciudad de Kanto. Edita a tu gusto; los 'id' deben ser únicos y no cambiar una vez creados.",
   "players": [
     {
