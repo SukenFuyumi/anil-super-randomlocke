@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 5,
   "champion": false,
-  "notes": "Importado del save · 25h 42m jugadas · 466,250₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 27h 33m jugadas · 466,250₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "Mr MIKE",
@@ -34,11 +34,11 @@
       ],
       "ev": [
         0,
-        0,
-        0,
-        0,
-        0,
-        0
+        1,
+        2,
+        3,
+        1,
+        2
       ],
       "abilPool": [
         "Roca Solida",
@@ -225,343 +225,6 @@
       ]
     },
     {
-      "nickname": "FLAMAS",
-      "species": "Typhlosion (Hisui)",
-      "level": 49,
-      "types": [
-        "Fuego",
-        "Fantasma"
-      ],
-      "ability": "Cadena Tóxica",
-      "nature": "Modesta",
-      "item": "Vidasfera",
-      "shiny": false,
-      "moves": [
-        "Núcleo Castigo",
-        "Rayo Umbrío",
-        "Cadena Virulenta",
-        "Bomba Ígnea"
-      ],
-      "iv": [
-        9,
-        10,
-        22,
-        28,
-        5,
-        1
-      ],
-      "ev": [
-        50,
-        149,
-        73,
-        101,
-        33,
-        104
-      ],
-      "abilPool": [
-        "Expulsarena"
-      ],
-      "abilHidden": [
-        "Cadena Tóxica"
-      ],
-      "abilCapsule": true,
-      "learnset": [
-        {
-          "lvl": 0,
-          "m": "Cerrojo Feérico"
-        },
-        {
-          "lvl": 1,
-          "m": "Celebración"
-        },
-        {
-          "lvl": 1,
-          "m": "Prensa Metálica"
-        },
-        {
-          "lvl": 1,
-          "m": "Pirotecnia"
-        },
-        {
-          "lvl": 1,
-          "m": "Marcha Espectral"
-        },
-        {
-          "lvl": 1,
-          "m": "Garra Umbría"
-        },
-        {
-          "lvl": 1,
-          "m": "Polvo Mágico"
-        },
-        {
-          "lvl": 1,
-          "m": "Robo"
-        },
-        {
-          "lvl": 13,
-          "m": "Protección"
-        },
-        {
-          "lvl": 20,
-          "m": "Aguzar"
-        },
-        {
-          "lvl": 24,
-          "m": "Colmillo Hielo"
-        },
-        {
-          "lvl": 31,
-          "m": "Rayo Umbrío"
-        },
-        {
-          "lvl": 35,
-          "m": "Llama Protectora"
-        },
-        {
-          "lvl": 43,
-          "m": "Anulación"
-        },
-        {
-          "lvl": 48,
-          "m": "Carga Dragón"
-        },
-        {
-          "lvl": 56,
-          "m": "Rueda Doble"
-        },
-        {
-          "lvl": 61,
-          "m": "Aguante"
-        },
-        {
-          "lvl": 74,
-          "m": "Aerochorro"
-        }
-      ],
-      "tmMoves": [
-        "A Defender",
-        "Absorber",
-        "Anclaje",
-        "Atadura",
-        "Bomba Ígnea",
-        "Campo de Hierba",
-        "Choque Anímico",
-        "Clemencia",
-        "Confusión",
-        "Danza Acuática",
-        "Desarme",
-        "Deslome",
-        "Electropico",
-        "Embate Supremo",
-        "Estruendo Escama",
-        "Finta",
-        "Fotosíntesis",
-        "Garra Dragón",
-        "Golpe Umbrío",
-        "Hachazo Pétreo",
-        "Hoja Aguda",
-        "Hueso Sombrío",
-        "Isoguardia",
-        "Láser Prisma",
-        "Lengüetazo",
-        "Malicioso",
-        "Maquinación",
-        "Marcha Espectral",
-        "Mil Temblores",
-        "Nitrocarga",
-        "Plancha Corporal",
-        "Puño Drenaje",
-        "Puya Nociva",
-        "Retracción",
-        "Rizo Defensa",
-        "Tajo Umbrío",
-        "Taladradora",
-        "Trampa Rocas",
-        "Trampa Venenosa",
-        "Transformación",
-        "Umbreozona",
-        "Vendaval"
-      ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10233.png"
-    },
-    {
-      "nickname": "RACHEL",
-      "species": "Scizor",
-      "level": 49,
-      "types": [
-        "Bicho",
-        "Acero"
-      ],
-      "ability": "Firmeza",
-      "nature": "Grosera",
-      "item": "Casco Dentado",
-      "shiny": false,
-      "moves": [
-        "Absorbefuerza",
-        "Llama Protectora",
-        "Tajo Metralla",
-        "Hachazo Pétreo"
-      ],
-      "natureMint": true,
-      "natureBase": "Amable",
-      "iv": [
-        27,
-        7,
-        24,
-        8,
-        3,
-        7
-      ],
-      "ev": [
-        50,
-        149,
-        73,
-        101,
-        33,
-        104
-      ],
-      "abilPool": [
-        "Puño Férreo",
-        "Mudar"
-      ],
-      "abilHidden": [
-        "Firmeza"
-      ],
-      "abilCapsule": true,
-      "learnset": [
-        {
-          "lvl": -1,
-          "m": "Nitrocarga"
-        },
-        {
-          "lvl": 1,
-          "m": "Cuerpo Pesado"
-        },
-        {
-          "lvl": 1,
-          "m": "A Defender"
-        },
-        {
-          "lvl": 1,
-          "m": "Bomba Caramelo"
-        },
-        {
-          "lvl": 1,
-          "m": "Corte Furia"
-        },
-        {
-          "lvl": 1,
-          "m": "Campo Psíquico"
-        },
-        {
-          "lvl": 1,
-          "m": "Palmeo"
-        },
-        {
-          "lvl": 1,
-          "m": "Hilo Venenoso"
-        },
-        {
-          "lvl": 9,
-          "m": "Clonatipo"
-        },
-        {
-          "lvl": 12,
-          "m": "Seducción"
-        },
-        {
-          "lvl": 16,
-          "m": "Ojos Llorosos"
-        },
-        {
-          "lvl": 20,
-          "m": "Viento Plata"
-        },
-        {
-          "lvl": 24,
-          "m": "Meteorobola"
-        },
-        {
-          "lvl": 28,
-          "m": "Antojo"
-        },
-        {
-          "lvl": 32,
-          "m": "Lengüetazo"
-        },
-        {
-          "lvl": 33,
-          "m": "Llama Final"
-        },
-        {
-          "lvl": 36,
-          "m": "Ala de Acero"
-        },
-        {
-          "lvl": 40,
-          "m": "Bomba Fango"
-        },
-        {
-          "lvl": 44,
-          "m": "Batería Asalto"
-        },
-        {
-          "lvl": 44,
-          "m": "Espada Lamento"
-        },
-        {
-          "lvl": 45,
-          "m": "Martillo Hielo"
-        },
-        {
-          "lvl": 61,
-          "m": "Truco Fuerza"
-        }
-      ],
-      "tmMoves": [
-        "Absorbefuerza",
-        "Alud",
-        "Amnesia",
-        "Antojo",
-        "Cabeza Sorpresa",
-        "Campo de Hierba",
-        "Danza Acuática",
-        "Decoración",
-        "Deslome",
-        "Eco Metálico",
-        "Electropico",
-        "Embate Supremo",
-        "Espabila",
-        "Espeaura",
-        "Estruendo Escama",
-        "Finta",
-        "Garra Dragón",
-        "Glaceoprisma",
-        "Malicioso",
-        "Maquinación",
-        "Megapuño",
-        "Mismo Destino",
-        "Niebla Aromática",
-        "Nitrocarga",
-        "Picotazo Veneno",
-        "Pin Misil",
-        "Pirueta Helada",
-        "Plancha",
-        "Psicocarga",
-        "Pulso Cura",
-        "Puño Drenaje",
-        "Puño Incremento",
-        "Puya Nociva",
-        "Sol Matinal",
-        "Tajo Metralla",
-        "Taladradora",
-        "Trampa Rocas",
-        "Trampa Venenosa",
-        "Transformación"
-      ]
-    },
-    {
       "nickname": "ISRAELÍ",
       "species": "Electrode",
       "level": 49,
@@ -588,11 +251,11 @@
       ],
       "ev": [
         42,
-        89,
-        53,
-        57,
-        23,
-        72
+        90,
+        55,
+        60,
+        24,
+        74
       ],
       "abilPool": [
         "Electromotor"
@@ -1030,6 +693,343 @@
         "Rodillo de Púas",
         "Tajo Metralla",
         "Vendaval"
+      ]
+    },
+    {
+      "nickname": "FLAMAS",
+      "species": "Typhlosion (Hisui)",
+      "level": 49,
+      "types": [
+        "Fuego",
+        "Fantasma"
+      ],
+      "ability": "Cadena Tóxica",
+      "nature": "Modesta",
+      "item": "Vidasfera",
+      "shiny": false,
+      "moves": [
+        "Núcleo Castigo",
+        "Rayo Umbrío",
+        "Cadena Virulenta",
+        "Bomba Ígnea"
+      ],
+      "iv": [
+        9,
+        10,
+        22,
+        28,
+        5,
+        1
+      ],
+      "ev": [
+        50,
+        149,
+        73,
+        101,
+        33,
+        104
+      ],
+      "abilPool": [
+        "Expulsarena"
+      ],
+      "abilHidden": [
+        "Cadena Tóxica"
+      ],
+      "abilCapsule": true,
+      "learnset": [
+        {
+          "lvl": 0,
+          "m": "Cerrojo Feérico"
+        },
+        {
+          "lvl": 1,
+          "m": "Celebración"
+        },
+        {
+          "lvl": 1,
+          "m": "Prensa Metálica"
+        },
+        {
+          "lvl": 1,
+          "m": "Pirotecnia"
+        },
+        {
+          "lvl": 1,
+          "m": "Marcha Espectral"
+        },
+        {
+          "lvl": 1,
+          "m": "Garra Umbría"
+        },
+        {
+          "lvl": 1,
+          "m": "Polvo Mágico"
+        },
+        {
+          "lvl": 1,
+          "m": "Robo"
+        },
+        {
+          "lvl": 13,
+          "m": "Protección"
+        },
+        {
+          "lvl": 20,
+          "m": "Aguzar"
+        },
+        {
+          "lvl": 24,
+          "m": "Colmillo Hielo"
+        },
+        {
+          "lvl": 31,
+          "m": "Rayo Umbrío"
+        },
+        {
+          "lvl": 35,
+          "m": "Llama Protectora"
+        },
+        {
+          "lvl": 43,
+          "m": "Anulación"
+        },
+        {
+          "lvl": 48,
+          "m": "Carga Dragón"
+        },
+        {
+          "lvl": 56,
+          "m": "Rueda Doble"
+        },
+        {
+          "lvl": 61,
+          "m": "Aguante"
+        },
+        {
+          "lvl": 74,
+          "m": "Aerochorro"
+        }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Absorber",
+        "Anclaje",
+        "Atadura",
+        "Bomba Ígnea",
+        "Campo de Hierba",
+        "Choque Anímico",
+        "Clemencia",
+        "Confusión",
+        "Danza Acuática",
+        "Desarme",
+        "Deslome",
+        "Electropico",
+        "Embate Supremo",
+        "Estruendo Escama",
+        "Finta",
+        "Fotosíntesis",
+        "Garra Dragón",
+        "Golpe Umbrío",
+        "Hachazo Pétreo",
+        "Hoja Aguda",
+        "Hueso Sombrío",
+        "Isoguardia",
+        "Láser Prisma",
+        "Lengüetazo",
+        "Malicioso",
+        "Maquinación",
+        "Marcha Espectral",
+        "Mil Temblores",
+        "Nitrocarga",
+        "Plancha Corporal",
+        "Puño Drenaje",
+        "Puya Nociva",
+        "Retracción",
+        "Rizo Defensa",
+        "Tajo Umbrío",
+        "Taladradora",
+        "Trampa Rocas",
+        "Trampa Venenosa",
+        "Transformación",
+        "Umbreozona",
+        "Vendaval"
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10233.png"
+    },
+    {
+      "nickname": "RACHEL",
+      "species": "Scizor",
+      "level": 49,
+      "types": [
+        "Bicho",
+        "Acero"
+      ],
+      "ability": "Firmeza",
+      "nature": "Grosera",
+      "item": "Casco Dentado",
+      "shiny": false,
+      "moves": [
+        "Absorbefuerza",
+        "Llama Protectora",
+        "Tajo Metralla",
+        "Hachazo Pétreo"
+      ],
+      "natureMint": true,
+      "natureBase": "Amable",
+      "iv": [
+        27,
+        7,
+        24,
+        8,
+        3,
+        7
+      ],
+      "ev": [
+        50,
+        149,
+        73,
+        101,
+        33,
+        104
+      ],
+      "abilPool": [
+        "Puño Férreo",
+        "Mudar"
+      ],
+      "abilHidden": [
+        "Firmeza"
+      ],
+      "abilCapsule": true,
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Nitrocarga"
+        },
+        {
+          "lvl": 1,
+          "m": "Cuerpo Pesado"
+        },
+        {
+          "lvl": 1,
+          "m": "A Defender"
+        },
+        {
+          "lvl": 1,
+          "m": "Bomba Caramelo"
+        },
+        {
+          "lvl": 1,
+          "m": "Corte Furia"
+        },
+        {
+          "lvl": 1,
+          "m": "Campo Psíquico"
+        },
+        {
+          "lvl": 1,
+          "m": "Palmeo"
+        },
+        {
+          "lvl": 1,
+          "m": "Hilo Venenoso"
+        },
+        {
+          "lvl": 9,
+          "m": "Clonatipo"
+        },
+        {
+          "lvl": 12,
+          "m": "Seducción"
+        },
+        {
+          "lvl": 16,
+          "m": "Ojos Llorosos"
+        },
+        {
+          "lvl": 20,
+          "m": "Viento Plata"
+        },
+        {
+          "lvl": 24,
+          "m": "Meteorobola"
+        },
+        {
+          "lvl": 28,
+          "m": "Antojo"
+        },
+        {
+          "lvl": 32,
+          "m": "Lengüetazo"
+        },
+        {
+          "lvl": 33,
+          "m": "Llama Final"
+        },
+        {
+          "lvl": 36,
+          "m": "Ala de Acero"
+        },
+        {
+          "lvl": 40,
+          "m": "Bomba Fango"
+        },
+        {
+          "lvl": 44,
+          "m": "Batería Asalto"
+        },
+        {
+          "lvl": 44,
+          "m": "Espada Lamento"
+        },
+        {
+          "lvl": 45,
+          "m": "Martillo Hielo"
+        },
+        {
+          "lvl": 61,
+          "m": "Truco Fuerza"
+        }
+      ],
+      "tmMoves": [
+        "Absorbefuerza",
+        "Alud",
+        "Amnesia",
+        "Antojo",
+        "Cabeza Sorpresa",
+        "Campo de Hierba",
+        "Danza Acuática",
+        "Decoración",
+        "Deslome",
+        "Eco Metálico",
+        "Electropico",
+        "Embate Supremo",
+        "Espabila",
+        "Espeaura",
+        "Estruendo Escama",
+        "Finta",
+        "Garra Dragón",
+        "Glaceoprisma",
+        "Malicioso",
+        "Maquinación",
+        "Megapuño",
+        "Mismo Destino",
+        "Niebla Aromática",
+        "Nitrocarga",
+        "Picotazo Veneno",
+        "Pin Misil",
+        "Pirueta Helada",
+        "Plancha",
+        "Psicocarga",
+        "Pulso Cura",
+        "Puño Drenaje",
+        "Puño Incremento",
+        "Puya Nociva",
+        "Sol Matinal",
+        "Tajo Metralla",
+        "Taladradora",
+        "Trampa Rocas",
+        "Trampa Venenosa",
+        "Transformación"
       ]
     }
   ],
@@ -5118,6 +5118,194 @@
       ]
     },
     {
+      "nickname": "Majin Buu",
+      "species": "Weavile",
+      "level": 2,
+      "types": [
+        "Siniestro",
+        "Hielo"
+      ],
+      "ability": "Piel Milagro",
+      "nature": "Seria",
+      "item": "",
+      "shiny": true,
+      "moves": [
+        "Megapatada",
+        "Canto Mortal",
+        "Cambio de Cancha",
+        "Ofrenda"
+      ],
+      "extra": true,
+      "iv": [
+        14,
+        8,
+        2,
+        31,
+        31,
+        17
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Piel Milagro",
+        "Hidrorrefuerzo"
+      ],
+      "abilHidden": [
+        "Silvano"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Destello"
+        },
+        {
+          "lvl": 1,
+          "m": "Ladrón"
+        },
+        {
+          "lvl": 1,
+          "m": "Palmeo"
+        },
+        {
+          "lvl": 1,
+          "m": "Drenadoras"
+        },
+        {
+          "lvl": 1,
+          "m": "Reciclaje"
+        },
+        {
+          "lvl": 1,
+          "m": "Desarme"
+        },
+        {
+          "lvl": 1,
+          "m": "Bostezo"
+        },
+        {
+          "lvl": 1,
+          "m": "Foco"
+        },
+        {
+          "lvl": 1,
+          "m": "Canto Mortal"
+        },
+        {
+          "lvl": 1,
+          "m": "Cambio de Cancha"
+        },
+        {
+          "lvl": 1,
+          "m": "Ofrenda"
+        },
+        {
+          "lvl": 10,
+          "m": "Mal de Ojo"
+        },
+        {
+          "lvl": 18,
+          "m": "Púas Tóxicas"
+        },
+        {
+          "lvl": 24,
+          "m": "Ataque Furia"
+        },
+        {
+          "lvl": 28,
+          "m": "Fijar Blanco"
+        },
+        {
+          "lvl": 30,
+          "m": "Brecha Negra"
+        },
+        {
+          "lvl": 36,
+          "m": "Estallido"
+        },
+        {
+          "lvl": 40,
+          "m": "Eevimpacto"
+        },
+        {
+          "lvl": 42,
+          "m": "Patada Salto"
+        },
+        {
+          "lvl": 44,
+          "m": "Paso Dimensional"
+        },
+        {
+          "lvl": 48,
+          "m": "Triataque"
+        },
+        {
+          "lvl": 54,
+          "m": "Poder Pasado"
+        },
+        {
+          "lvl": 60,
+          "m": "Puño Drenaje"
+        },
+        {
+          "lvl": 66,
+          "m": "Prensa Metálica"
+        }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Absorbefuerza",
+        "Absorber",
+        "Alud",
+        "Campo de Hierba",
+        "Carámbano",
+        "Confusión",
+        "Conversión",
+        "Danza Acuática",
+        "Desarme",
+        "Eco Metálico",
+        "Embate Supremo",
+        "Espora",
+        "Estruendo Escama",
+        "Finta",
+        "Flarembestida",
+        "Glaceoprisma",
+        "Golpe Oscuro",
+        "Golpe Umbrío",
+        "Hoja Aguda",
+        "Isoguardia",
+        "Lanzarrocas",
+        "Láser Doble",
+        "Malicioso",
+        "Maquinación",
+        "Marcha Espectral",
+        "Mil Temblores",
+        "Mismo Destino",
+        "Moluscañón",
+        "Núcleo Castigo",
+        "Patada Baja",
+        "Picotazo",
+        "Pulso Cura",
+        "Puño Drenaje",
+        "Puya Nociva",
+        "Relajo",
+        "Rodillo de Púas",
+        "Tajo Metralla",
+        "Tajo Umbrío",
+        "Taladradora",
+        "Trampa Venenosa",
+        "Transformación",
+        "Último Lugar",
+        "Umbreozona",
+        "Vendaval"
+      ]
+    },
+    {
       "nickname": "PUTA MIERDA3",
       "species": "Greedent",
       "level": 46,
@@ -8192,28 +8380,6 @@
       "mon": "Mrmime"
     },
     {
-      "route": "ruta_10_sur",
-      "where": "Ruta 10 Sur",
-      "species": "Typhlosion",
-      "nickname": "FLAMAS",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 28,
-      "mon": "Typhlosion"
-    },
-    {
-      "route": "ciudad_fucsia",
-      "where": "Ciudad Fucsia",
-      "species": "Scizor",
-      "nickname": "RACHEL",
-      "shiny": false,
-      "status": "captured",
-      "category": "ciudad",
-      "level": 43,
-      "mon": "Scizor"
-    },
-    {
       "route": "ruta_21",
       "where": "Ruta 21",
       "species": "Electrode",
@@ -8245,6 +8411,28 @@
       "category": "ciudad",
       "level": 4,
       "mon": "Conkeldurr"
+    },
+    {
+      "route": "ruta_10_sur",
+      "where": "Ruta 10 Sur",
+      "species": "Typhlosion",
+      "nickname": "FLAMAS",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 28,
+      "mon": "Typhlosion"
+    },
+    {
+      "route": "ciudad_fucsia",
+      "where": "Ciudad Fucsia",
+      "species": "Scizor",
+      "nickname": "RACHEL",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 43,
+      "mon": "Scizor"
     },
     {
       "route": "ciudad_carmin",
@@ -8577,6 +8765,17 @@
       "mon": "Flamigo"
     },
     {
+      "route": "pueblo_paleta",
+      "where": "Pueblo Paleta",
+      "species": "Weavile",
+      "nickname": "Majin Buu",
+      "shiny": true,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 2,
+      "mon": "Weavile"
+    },
+    {
       "route": "",
       "where": "Camino de Bicis",
       "species": "Greedent",
@@ -8819,11 +9018,11 @@
     "npcs": {},
     "routes": {
       "ruta_17": true,
-      "ruta_10_sur": true,
-      "ciudad_fucsia": true,
       "ruta_21": true,
       "ruta_13": true,
       "pueblo_paleta": true,
+      "ruta_10_sur": true,
+      "ciudad_fucsia": true,
       "ciudad_carmin": true,
       "ruta_14": true,
       "ciudad_celeste": true,
