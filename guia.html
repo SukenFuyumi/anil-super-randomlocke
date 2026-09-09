@@ -48,7 +48,7 @@
     </div>
 
     <div class="callout" style="margin-bottom:1.2rem">
-      <b>¿Cómo se reparten los roles?</b> Solo <b>UNA persona</b> (el organizador) crea la web una vez. Cada jugador solo descarga AnilSync y lo configura una vez. ¡Nada más!
+      <b>¿Cómo se reparten los roles?</b> Solo <b>UNA persona</b> (el organizador) usa GitHub y crea la web + las "llaves" una vez. Cada jugador <b>NO necesita cuenta de GitHub</b>: solo descarga AnilSync y pega la llave que le pasa el organizador. ¡Nada más!
     </div>
 
     <!-- ============ ORGANIZADOR ============ -->
@@ -75,7 +75,15 @@
       </div></div>
 
       <div class="step"><div class="num">4</div><div class="body">
-        Da acceso a tus amigos: <span class="kbd">Settings</span> → <span class="kbd">Collaborators</span> → <span class="kbd">Add people</span> y agrega el usuario de GitHub de cada uno (ellos aceptan la invitación por correo).
+        Crea una <b>llave (token)</b> para cada jugador y pásasela. Entra a <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">este enlace</a> → <span class="kbd">Generate new token</span>:
+        <ul class="rules-list" style="margin:.4rem 0">
+          <li><i>Token name</i>: el nombre del jugador (ej. <span class="kbd">anilsync-ash</span>).</li>
+          <li><i>Repository access</i> → <b>Only select repositories</b> → tu repo del grupo.</li>
+          <li><i>Permissions</i> → <b>Contents</b> → <b>Read and write</b>.</li>
+          <li><span class="kbd">Generate token</span> → <b>copia el código</b> (empieza con <span class="kbd">github_pat_…</span>) y dáselo a ese jugador.</li>
+        </ul>
+        Repite para cada jugador. <span class="mini">(Si quieres lo más simple, puedes crear una sola llave y dársela a todos — pero una por jugador es más seguro y puedes revocarlas por separado.)</span>
+        <div class="mini" style="margin-top:.3rem">🔒 Las llaves son como contraseñas de tu repo. Pásalas en privado; si una se filtra, bórrala desde el mismo enlace.</div>
       </div></div>
     </div>
 
@@ -89,8 +97,8 @@
       </div></div>
 
       <div class="step"><div class="num">2</div><div class="body">
-        Crea tu <b>llave</b> (token): entra a <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">este enlace</a> → <span class="kbd">Generate new token</span>. En <i>Repository access</i> elige <b>Only select repositories</b> → el repo del grupo. En <i>Permissions</i> → <b>Contents</b> → <b>Read and write</b>. Pulsa <span class="kbd">Generate token</span> y <b>copia el código</b> (empieza con <span class="kbd">github_pat_…</span>).
-        <div class="mini" style="margin-top:.3rem">🔒 El token es como una contraseña: solo va en tu archivo local, no lo compartas.</div>
+        Pídele al organizador tu <b>llave (token)</b> — un código que empieza con <span class="kbd">github_pat_…</span>. <b>No necesitas cuenta de GitHub</b>: el organizador te la genera y te la pasa.
+        <div class="mini" style="margin-top:.3rem">🔒 Guárdala en privado: solo va en tu archivo local.</div>
       </div></div>
 
       <div class="step"><div class="num">3</div><div class="body">
@@ -103,7 +111,7 @@
     "owner": "<span class="c">tu-usuario</span>",       <span class="c">// dueño del repo del grupo</span>
     "repo": "<span class="c">mi-randomlocke</span>",     <span class="c">// nombre del repo</span>
     "branch": "main",
-    "token": "<span class="c">github_pat_TU_TOKEN</span>",
+    "token": "<span class="c">github_pat_LA_LLAVE_QUE_TE_DIERON</span>",
     "pathTemplate": "data/players/{id}.json"
   },
   "watch": true,
@@ -121,7 +129,7 @@
       <h2 style="margin:.2rem 0 .6rem">¿Algo no funciona?</h2>
       <ul class="rules-list">
         <li><b>La web da error 404:</b> espera unos minutos tras encender Pages; revisa rama <span class="kbd">main</span> y carpeta <span class="kbd">/ (root)</span>.</li>
-        <li><b>AnilSync dice error 403 (permisos):</b> tu token no tiene <b>Contents: Read and write</b>, o no eres <i>Collaborator</i>, o escribiste mal <span class="kbd">owner</span>/<span class="kbd">repo</span>.</li>
+        <li><b>AnilSync dice error 403 (permisos):</b> la llave (token) no tiene <b>Contents: Read and write</b> o no apunta a ese repo, o escribiste mal <span class="kbd">owner</span>/<span class="kbd">repo</span>. Pídele al organizador que te regenere la llave.</li>
         <li><b>No sube nada:</b> tu <span class="kbd">playerId</span> debe existir en la lista de jugadores, y el juego debe guardar en la partida correcta.</li>
         <li><b>No aparece un jugador:</b> falta su entrada en <span class="kbd">players</span> de <span class="kbd">data/config.json</span>.</li>
       </ul>
