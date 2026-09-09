@@ -13,7 +13,12 @@ const { extract } = require('./extract.js');
 const IS_PKG = !!process.pkg;
 const BASE_DIR = IS_PKG ? path.dirname(process.execPath) : __dirname;
 const CONFIG_PATH = path.join(BASE_DIR, 'config.json');
-const VERSION = '1.3.1';
+const VERSION = '1.3.2';
+
+// Fuente OFICIAL de actualizaciones del programa (NO depende del repo del grupo).
+// Así, cualquier mejora de AnilSync que se publique aquí llega a TODOS los grupos,
+// sin importar a qué repo suban sus datos. Se puede sobreescribir con cfg.updateFrom.
+const UPSTREAM = { owner: 'SukenFuyumi', repo: 'anil-super-randomlocke', branch: 'main' };
 
 function log(...a) { const t = new Date().toLocaleTimeString('es'); console.log(`[${t}]`, ...a); }
 function err(...a) { const t = new Date().toLocaleTimeString('es'); console.error(`[${t}] ⚠`, ...a); }
@@ -233,7 +238,11 @@ function cmpVer(a, b) {
 }
 async function checkForUpdate(cfg) {
   try {
-    const r = cfg.github; if (!r || !r.owner || !r.repo) return;
+    // Las actualizaciones del PROGRAMA vienen del repo oficial (upstream), no del repo del
+    // grupo (que solo recibe los datos de la partida). Un grupo puede fijar otra fuente con
+    // "updateFrom" en su config.json si algún día quisiera su propio canal de versiones.
+    const r = (cfg.updateFrom && cfg.updateFrom.owner && cfg.updateFrom.repo) ? cfg.updateFrom : UPSTREAM;
+    if (!r || !r.owner || !r.repo) return;
     const branch = r.branch || 'main';
     const vurl = `https://raw.githubusercontent.com/${r.owner}/${r.repo}/${branch}/companion/latest-version.json?t=` + Date.now();
     const resp = await httpsGet(vurl);
