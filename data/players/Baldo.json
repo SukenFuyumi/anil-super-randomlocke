@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 3h 37m jugadas · 48,830₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 41m jugadas · 48,830₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "faker",
@@ -20,7 +20,7 @@
       "moves": [
         "Espora",
         "Punzada Rama",
-        "Púas",
+        "Vasto Impacto",
         "Fotosíntesis"
       ]
     },
@@ -72,7 +72,7 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Golpe Roca",
+        "Patada Giro",
         "Puño Jet",
         "Acoso",
         "Colmillo Ígneo"
@@ -90,9 +90,9 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Legado",
+        "Vasto Impacto",
         "Vasta Guardia",
-        "Pulso Cura",
+        "Puño Jet",
         "Psicocorte"
       ]
     },
@@ -109,7 +109,7 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Sustituto",
+        "Sombra Vil",
         "Defensa Férrea",
         "Veneno X",
         "Lengüetazo"
