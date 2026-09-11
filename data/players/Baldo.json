@@ -137,24 +137,6 @@
       ]
     },
     {
-      "nickname": "juan",
-      "species": "Seadra",
-      "level": 39,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Gula",
-      "nature": "Alocada",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Bomba Fango",
-        "Bola Hielo",
-        "Tenaza",
-        "Megaagotar"
-      ]
-    },
-    {
       "nickname": "gato",
       "species": "Skitty",
       "level": 23,
@@ -225,6 +207,24 @@
         "Lengüetazo",
         "Sorpresa",
         "Hoja Mágica"
+      ]
+    },
+    {
+      "nickname": "juan",
+      "species": "Seadra",
+      "level": 39,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Gula",
+      "nature": "Alocada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Bomba Fango",
+        "Bola Hielo",
+        "Tenaza",
+        "Megaagotar"
       ]
     }
   ],
@@ -342,17 +342,6 @@
       "mon": "Hitmonlee"
     },
     {
-      "route": "ruta_3",
-      "where": "Ruta 3",
-      "species": "Seadra",
-      "nickname": "juan",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 12,
-      "mon": "Seadra"
-    },
-    {
       "route": "ruta_2_sur",
       "where": "Ruta 2 Sur",
       "species": "Skitty",
@@ -395,6 +384,17 @@
       "category": "salvaje",
       "level": 3,
       "mon": "Pumpkaboo"
+    },
+    {
+      "route": "ruta_3",
+      "where": "Ruta 3",
+      "species": "Seadra",
+      "nickname": "juan",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 12,
+      "mon": "Seadra"
     }
   ],
   "progress": {
@@ -413,11 +413,11 @@
       "ruta_15": true,
       "ruta_2_norte": true,
       "ciudad_carmin": true,
-      "ruta_3": true,
       "ruta_2_sur": true,
       "ciudad_celeste": true,
       "ruta_21": true,
       "ruta_1": true,
+      "ruta_3": true,
       "pueblo_paleta": true,
       "ruta_22": true,
       "ciudad_plateada": true,
