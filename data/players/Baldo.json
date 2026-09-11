@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 4h 14m jugadas · 32,130₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 4h 15m jugadas · 32,130₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "faker",
@@ -226,6 +226,25 @@
         "Tenaza",
         "Megaagotar"
       ]
+    },
+    {
+      "nickname": "kkkk",
+      "species": "Palossand",
+      "level": 25,
+      "types": [
+        "Fantasma",
+        "Tierra"
+      ],
+      "ability": "Herbívoro",
+      "nature": "Serena",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Clavo Cañón",
+        "Alarido",
+        "Aura Magnética",
+        "Deslumbrar"
+      ]
     }
   ],
   "graveyard": [
@@ -395,6 +414,17 @@
       "category": "salvaje",
       "level": 12,
       "mon": "Seadra"
+    },
+    {
+      "route": "tunel_diglett",
+      "where": "Túnel Diglett",
+      "species": "Palossand",
+      "nickname": "kkkk",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 25,
+      "mon": "Palossand"
     }
   ],
   "progress": {
@@ -418,6 +448,7 @@
       "ruta_21": true,
       "ruta_1": true,
       "ruta_3": true,
+      "tunel_diglett": true,
       "pueblo_paleta": true,
       "ruta_22": true,
       "ciudad_plateada": true,
