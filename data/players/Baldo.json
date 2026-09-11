@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 3h 1m jugadas · 37,120₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 14m jugadas · 38,820₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "faker",
@@ -52,32 +52,13 @@
       ],
       "ability": "Ímpetu Tóxico",
       "nature": "Osada",
-      "item": "",
+      "item": "Imán",
       "shiny": false,
       "moves": [
         "Truco Floral",
         "Clavo Cañón",
         "Onda Voltio",
         "Drenadoras"
-      ]
-    },
-    {
-      "nickname": "lola",
-      "species": "Pumpkaboo",
-      "level": 30,
-      "types": [
-        "Fantasma",
-        "Planta"
-      ],
-      "ability": "Mandíbula Dragón",
-      "nature": "Alocada",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Masa Cósmica",
-        "Lengüetazo",
-        "Sorpresa",
-        "Hoja Mágica"
       ]
     },
     {
@@ -114,6 +95,24 @@
         "Puño Jet",
         "Acoso",
         "Colmillo Ígneo"
+      ]
+    },
+    {
+      "nickname": "toño",
+      "species": "Quilava",
+      "level": 20,
+      "types": [
+        "Fuego"
+      ],
+      "ability": "Abalorio Debacle",
+      "nature": "Audaz",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Legado",
+        "Vasta Guardia",
+        "Pulso Cura",
+        "Psicocorte"
       ]
     }
   ],
@@ -170,6 +169,25 @@
         "Isofuerza",
         "Cosquillas",
         "Meteoros"
+      ]
+    },
+    {
+      "nickname": "lola",
+      "species": "Pumpkaboo",
+      "level": 30,
+      "types": [
+        "Fantasma",
+        "Planta"
+      ],
+      "ability": "Mandíbula Dragón",
+      "nature": "Alocada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Masa Cósmica",
+        "Lengüetazo",
+        "Sorpresa",
+        "Hoja Mágica"
       ]
     }
   ],
@@ -232,17 +250,6 @@
       "mon": "Voltorb"
     },
     {
-      "route": "ruta_1",
-      "where": "Ruta 1",
-      "species": "Pumpkaboo",
-      "nickname": "lola",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 3,
-      "mon": "Pumpkaboo"
-    },
-    {
       "route": "ruta_3",
       "where": "Ruta 3",
       "species": "Horsea",
@@ -263,6 +270,17 @@
       "category": "salvaje",
       "level": 16,
       "mon": "Seel"
+    },
+    {
+      "route": "ruta_6",
+      "where": "Ruta 6",
+      "species": "Quilava",
+      "nickname": "toño",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 18,
+      "mon": "Quilava"
     },
     {
       "route": "ruta_2_norte",
@@ -307,6 +325,17 @@
       "category": "salvaje",
       "level": 19,
       "mon": "Duosion"
+    },
+    {
+      "route": "ruta_1",
+      "where": "Ruta 1",
+      "species": "Pumpkaboo",
+      "nickname": "lola",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 3,
+      "mon": "Pumpkaboo"
     }
   ],
   "progress": {
@@ -319,19 +348,21 @@
     "routes": {
       "ciudad_verde": true,
       "bosque_verde": true,
-      "ruta_1": true,
       "ruta_3": true,
       "monte_moon_exterior": true,
+      "ruta_6": true,
       "ruta_2_norte": true,
       "ruta_2_sur": true,
       "ciudad_celeste": true,
       "ruta_21": true,
+      "ruta_1": true,
       "pueblo_paleta": true,
       "ruta_22": true,
       "ciudad_plateada": true,
       "monte_moon": true,
       "ruta_4": true,
-      "ruta_20": true
+      "ruta_20": true,
+      "ruta_5": true
     },
     "items": {}
   }
