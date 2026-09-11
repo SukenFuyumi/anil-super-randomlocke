@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 3h 47m jugadas · 51,630₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 52m jugadas · 56,130₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "faker",
@@ -341,7 +341,8 @@
   "progress": {
     "gyms": {
       "gym1": true,
-      "gym2": true
+      "gym2": true,
+      "gym3": true
     },
     "bosses": {},
     "npcs": {},
