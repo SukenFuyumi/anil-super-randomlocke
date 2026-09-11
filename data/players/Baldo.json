@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 3h 20m jugadas · 41,020₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 37m jugadas · 48,830₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "faker",
@@ -22,25 +22,6 @@
         "Punzada Rama",
         "Púas",
         "Fotosíntesis"
-      ]
-    },
-    {
-      "nickname": "goku",
-      "species": "Monferno",
-      "level": 30,
-      "types": [
-        "Fuego",
-        "Lucha"
-      ],
-      "ability": "Ignífugo",
-      "nature": "Ingenua",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Sustituto",
-        "Defensa Férrea",
-        "Veneno X",
-        "Lengüetazo"
       ]
     },
     {
@@ -100,7 +81,7 @@
     {
       "nickname": "toño",
       "species": "Quilava",
-      "level": 22,
+      "level": 24,
       "types": [
         "Fuego"
       ],
@@ -113,6 +94,25 @@
         "Vasta Guardia",
         "Pulso Cura",
         "Psicocorte"
+      ]
+    },
+    {
+      "nickname": "goku",
+      "species": "Monferno",
+      "level": 30,
+      "types": [
+        "Fuego",
+        "Lucha"
+      ],
+      "ability": "Ignífugo",
+      "nature": "Ingenua",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Sustituto",
+        "Defensa Férrea",
+        "Veneno X",
+        "Lengüetazo"
       ]
     }
   ],
@@ -228,17 +228,6 @@
       "mon": "Skiddo"
     },
     {
-      "route": "",
-      "where": "Laboratorio",
-      "species": "Monferno",
-      "nickname": "goku",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 5,
-      "mon": "Monferno"
-    },
-    {
       "route": "bosque_verde",
       "where": "Bosque Verde",
       "species": "Voltorb",
@@ -281,6 +270,17 @@
       "category": "salvaje",
       "level": 18,
       "mon": "Quilava"
+    },
+    {
+      "route": "",
+      "where": "Laboratorio",
+      "species": "Monferno",
+      "nickname": "goku",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Monferno"
     },
     {
       "route": "ruta_2_norte",
