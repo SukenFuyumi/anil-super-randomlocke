@@ -4,16 +4,16 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 3h 52m jugadas · 56,130₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 56m jugadas · 56,130₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "faker",
-      "species": "Skiddo",
-      "level": 30,
+      "species": "Gogoat",
+      "level": 39,
       "types": [
         "Planta"
       ],
-      "ability": "Piel Seca",
+      "ability": "Poder Solar",
       "nature": "Audaz",
       "item": "Incienso Floral",
       "shiny": false,
@@ -21,13 +21,13 @@
         "Espora",
         "Punzada Rama",
         "Vasto Impacto",
-        "Fotosíntesis"
+        "Concha Filo"
       ]
     },
     {
       "nickname": "toni",
       "species": "Voltorb",
-      "level": 30,
+      "level": 39,
       "types": [
         "Eléctrico"
       ],
@@ -44,12 +44,12 @@
     },
     {
       "nickname": "juan",
-      "species": "Horsea",
-      "level": 30,
+      "species": "Seadra",
+      "level": 39,
       "types": [
         "Agua"
       ],
-      "ability": "Piel Celeste",
+      "ability": "Gula",
       "nature": "Alocada",
       "item": "",
       "shiny": false,
@@ -62,49 +62,50 @@
     },
     {
       "nickname": "gabumon",
-      "species": "Seel",
-      "level": 30,
+      "species": "Dewgong",
+      "level": 39,
       "types": [
-        "Agua"
+        "Agua",
+        "Hielo"
       ],
-      "ability": "Mudar",
+      "ability": "Momia",
       "nature": "Pícara",
       "item": "",
       "shiny": false,
       "moves": [
         "Patada Giro",
-        "Puño Jet",
-        "Acoso",
+        "Psicoonda",
+        "Salpikasurf",
         "Colmillo Ígneo"
       ]
     },
     {
       "nickname": "toño",
-      "species": "Quilava",
-      "level": 30,
+      "species": "Typhlosion",
+      "level": 39,
       "types": [
         "Fuego"
       ],
-      "ability": "Abalorio Debacle",
+      "ability": "",
       "nature": "Audaz",
       "item": "",
       "shiny": false,
       "moves": [
         "Vasto Impacto",
-        "Vasta Guardia",
+        "Golpe Oscuro",
         "Puño Jet",
         "Psicocorte"
       ]
     },
     {
       "nickname": "goku",
-      "species": "Monferno",
-      "level": 30,
+      "species": "Infernape",
+      "level": 39,
       "types": [
         "Fuego",
         "Lucha"
       ],
-      "ability": "Ignífugo",
+      "ability": "",
       "nature": "Ingenua",
       "item": "Cascabel Concha",
       "shiny": false,
@@ -219,13 +220,13 @@
     {
       "route": "ciudad_verde",
       "where": "Ciudad Verde",
-      "species": "Skiddo",
+      "species": "Gogoat",
       "nickname": "faker",
       "shiny": false,
       "status": "captured",
       "category": "ciudad",
       "level": 4,
-      "mon": "Skiddo"
+      "mon": "Gogoat"
     },
     {
       "route": "bosque_verde",
@@ -241,46 +242,46 @@
     {
       "route": "ruta_3",
       "where": "Ruta 3",
-      "species": "Horsea",
+      "species": "Seadra",
       "nickname": "juan",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
       "level": 12,
-      "mon": "Horsea"
+      "mon": "Seadra"
     },
     {
       "route": "monte_moon_exterior",
       "where": "Monte Moon Exterior",
-      "species": "Seel",
+      "species": "Dewgong",
       "nickname": "gabumon",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
       "level": 16,
-      "mon": "Seel"
+      "mon": "Dewgong"
     },
     {
       "route": "ruta_6",
       "where": "Ruta 6",
-      "species": "Quilava",
+      "species": "Typhlosion",
       "nickname": "toño",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
       "level": 18,
-      "mon": "Quilava"
+      "mon": "Typhlosion"
     },
     {
       "route": "",
       "where": "Laboratorio",
-      "species": "Monferno",
+      "species": "Infernape",
       "nickname": "goku",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
       "level": 5,
-      "mon": "Monferno"
+      "mon": "Infernape"
     },
     {
       "route": "ruta_2_norte",
