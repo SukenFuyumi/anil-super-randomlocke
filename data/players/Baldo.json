@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 4h 0m jugadas · 32,130₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 4h 14m jugadas · 32,130₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "faker",
@@ -40,24 +40,6 @@
         "Clavo Cañón",
         "Onda Voltio",
         "Drenadoras"
-      ]
-    },
-    {
-      "nickname": "juan",
-      "species": "Seadra",
-      "level": 39,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Gula",
-      "nature": "Alocada",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Bomba Fango",
-        "Bola Hielo",
-        "Tenaza",
-        "Megaagotar"
       ]
     },
     {
@@ -115,6 +97,24 @@
         "Veneno X",
         "Lengüetazo"
       ]
+    },
+    {
+      "nickname": "sabanero",
+      "species": "Mudbray",
+      "level": 25,
+      "types": [
+        "Tierra"
+      ],
+      "ability": "Líbero",
+      "nature": "Audaz",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Metrónomo",
+        "Púas",
+        "Salazón",
+        "Vasta Guardia"
+      ]
     }
   ],
   "box": [
@@ -134,6 +134,24 @@
         "Onda Vacío",
         "Maquinación",
         "Ácido"
+      ]
+    },
+    {
+      "nickname": "juan",
+      "species": "Seadra",
+      "level": 39,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Gula",
+      "nature": "Alocada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Bomba Fango",
+        "Bola Hielo",
+        "Tenaza",
+        "Megaagotar"
       ]
     },
     {
@@ -258,17 +276,6 @@
       "mon": "Voltorb"
     },
     {
-      "route": "ruta_3",
-      "where": "Ruta 3",
-      "species": "Seadra",
-      "nickname": "juan",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 12,
-      "mon": "Seadra"
-    },
-    {
       "route": "monte_moon_exterior",
       "where": "Monte Moon Exterior",
       "species": "Dewgong",
@@ -302,6 +309,17 @@
       "mon": "Infernape"
     },
     {
+      "route": "ruta_15",
+      "where": "Ruta 15",
+      "species": "Mudbray",
+      "nickname": "sabanero",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 25,
+      "mon": "Mudbray"
+    },
+    {
       "route": "ruta_2_norte",
       "where": "Ruta 2 Norte",
       "species": "Ledyba",
@@ -322,6 +340,17 @@
       "category": "ciudad",
       "level": 24,
       "mon": "Hitmonlee"
+    },
+    {
+      "route": "ruta_3",
+      "where": "Ruta 3",
+      "species": "Seadra",
+      "nickname": "juan",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 12,
+      "mon": "Seadra"
     },
     {
       "route": "ruta_2_sur",
@@ -379,11 +408,12 @@
     "routes": {
       "ciudad_verde": true,
       "bosque_verde": true,
-      "ruta_3": true,
       "monte_moon_exterior": true,
       "ruta_6": true,
+      "ruta_15": true,
       "ruta_2_norte": true,
       "ciudad_carmin": true,
+      "ruta_3": true,
       "ruta_2_sur": true,
       "ciudad_celeste": true,
       "ruta_21": true,
