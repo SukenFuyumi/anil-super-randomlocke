@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 3h 41m jugadas · 48,830₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 47m jugadas · 51,630₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "faker",
@@ -15,7 +15,7 @@
       ],
       "ability": "Piel Seca",
       "nature": "Audaz",
-      "item": "",
+      "item": "Incienso Floral",
       "shiny": false,
       "moves": [
         "Espora",
@@ -81,7 +81,7 @@
     {
       "nickname": "toño",
       "species": "Quilava",
-      "level": 24,
+      "level": 30,
       "types": [
         "Fuego"
       ],
@@ -106,7 +106,7 @@
       ],
       "ability": "Ignífugo",
       "nature": "Ingenua",
-      "item": "",
+      "item": "Cascabel Concha",
       "shiny": false,
       "moves": [
         "Sombra Vil",
