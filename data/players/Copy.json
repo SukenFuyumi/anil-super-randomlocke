@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 14h 37m jugadas · 571,365₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 14h 40m jugadas · 571,365₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Pimpi",
@@ -626,7 +626,7 @@
       "shiny": false,
       "moves": [
         "Espeaura",
-        "Vaho Gélido",
+        "Shuriken de Agua",
         "Danza Despertar",
         "Tóxico"
       ],
@@ -722,6 +722,7 @@
         "Colmillo Rayo",
         "Confidencia",
         "Danza Despertar",
+        "Decoración",
         "Electrificación",
         "Espada Lamento",
         "Espeaura",
