@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 5,
   "champion": false,
-  "notes": "Importado del save · 29h 39m jugadas · 314,650₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 29h 41m jugadas · 314,650₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "EL FLAMAS",
@@ -16,7 +16,7 @@
       ],
       "ability": "Unidad Ecuestre",
       "nature": "Plácida",
-      "item": "",
+      "item": "Vidasfera",
       "shiny": false,
       "moves": [
         "Flarembestida",
@@ -172,7 +172,7 @@
       ],
       "ability": "Alma Acerada",
       "nature": "Serena",
-      "item": "",
+      "item": "Globo Helio",
       "shiny": false,
       "moves": [
         "Desquite",
@@ -328,7 +328,7 @@
       ],
       "ability": "Receptor",
       "nature": "Plácida",
-      "item": "",
+      "item": "Telescopio",
       "shiny": false,
       "moves": [
         "Cadena Virulenta",
@@ -498,7 +498,7 @@
       ],
       "ability": "Funda",
       "nature": "Agitada",
-      "item": "",
+      "item": "Casco Dentado",
       "shiny": false,
       "moves": [
         "Prensa Metálica",
@@ -674,7 +674,7 @@
       ],
       "ability": "Firmeza",
       "nature": "Grosera",
-      "item": "",
+      "item": "Restos",
       "shiny": false,
       "moves": [
         "Absorbefuerza",
@@ -850,7 +850,7 @@
       ],
       "ability": "Unidad Ecuestre",
       "nature": "Ingenua",
-      "item": "",
+      "item": "Restos",
       "shiny": false,
       "moves": [
         "Espora",
@@ -4996,7 +4996,7 @@
       ],
       "ability": "Escama de Hielo",
       "nature": "Cauta",
-      "item": "Restos",
+      "item": "",
       "shiny": false,
       "moves": [
         "Anclaje",
