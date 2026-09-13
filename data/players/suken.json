@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 5,
   "champion": false,
-  "notes": "Importado del save · 29h 41m jugadas · 314,650₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 29h 43m jugadas · 314,650₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "EL FLAMAS",
@@ -190,10 +190,10 @@
       ],
       "ev": [
         252,
-        252,
+        0,
         6,
         0,
-        0,
+        252,
         0
       ],
       "abilPool": [
@@ -346,11 +346,11 @@
       ],
       "ev": [
         252,
+        0,
+        0,
         252,
-        0,
-        0,
-        0,
-        6
+        6,
+        0
       ],
       "abilPool": [
         "Receptor"
@@ -517,8 +517,8 @@
       "ev": [
         252,
         0,
-        0,
         252,
+        0,
         6,
         0
       ],
@@ -868,10 +868,10 @@
       ],
       "ev": [
         252,
-        252,
-        6,
         0,
+        126,
         0,
+        132,
         0
       ],
       "abilPool": [
