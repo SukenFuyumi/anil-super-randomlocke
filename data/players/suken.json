@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 5,
   "champion": false,
-  "notes": "Importado del save · 28h 32m jugadas · 314,750₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 28h 36m jugadas · 314,750₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "LUIGI",
@@ -16,7 +16,7 @@
       ],
       "ability": "Recogebolas",
       "nature": "Mansa",
-      "item": "",
+      "item": "Banda Aguante",
       "shiny": false,
       "moves": [
         "Espora",
@@ -200,7 +200,7 @@
       ],
       "ability": "Mano Rápida",
       "nature": "Tímida",
-      "item": "",
+      "item": "Restos",
       "shiny": false,
       "moves": [
         "Espora",
@@ -319,6 +319,8 @@
         "Electropico",
         "Embate Supremo",
         "Espabila",
+        "Espeaura",
+        "Espora",
         "Estruendo Escama",
         "Finta",
         "Fotosíntesis",
@@ -340,7 +342,8 @@
         "Taladradora",
         "Trampa Rocas",
         "Trampa Venenosa",
-        "Transformación"
+        "Transformación",
+        "Última Palabra"
       ]
     },
     {
@@ -353,7 +356,7 @@
       ],
       "ability": "Medicina Extraña",
       "nature": "Floja",
-      "item": "",
+      "item": "Gafas de Sol",
       "shiny": false,
       "moves": [
         "Umbreozona",
@@ -582,7 +585,7 @@
       ],
       "ability": "Trampa Arena",
       "nature": "Huraña",
-      "item": "",
+      "item": "Chaleco Asalto",
       "shiny": false,
       "moves": [
         "Luz Aniquiladora",
@@ -890,13 +893,13 @@
     {
       "nickname": "BONES",
       "species": "Marowak",
-      "level": 34,
+      "level": 49,
       "types": [
         "Tierra"
       ],
       "ability": "Ojo Compuesto",
       "nature": "Mansa",
-      "item": "",
+      "item": "Hueso Grueso",
       "shiny": false,
       "moves": [
         "Mil Temblores",
@@ -4677,7 +4680,7 @@
       ],
       "ability": "Intimidación",
       "nature": "Pícara",
-      "item": "Banda Aguante",
+      "item": "",
       "shiny": false,
       "moves": [
         "Última Palabra",
@@ -4998,7 +5001,7 @@
       ],
       "ability": "Cadena Tóxica",
       "nature": "Modesta",
-      "item": "Vidasfera",
+      "item": "",
       "shiny": false,
       "moves": [
         "Núcleo Castigo",
@@ -5159,7 +5162,7 @@
       ],
       "ability": "Firmeza",
       "nature": "Grosera",
-      "item": "Casco Dentado",
+      "item": "",
       "shiny": false,
       "moves": [
         "Absorbefuerza",
