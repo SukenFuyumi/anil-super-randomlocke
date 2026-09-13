@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 14h 50m jugadas · 571,365₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 15h 7m jugadas · 571,365₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Pimpi",
@@ -16,7 +16,7 @@
       ],
       "ability": "Títere Tóxico",
       "nature": "Osada",
-      "item": "Gafas Especiales",
+      "item": "",
       "shiny": false,
       "moves": [
         "Giro Mortífero",
@@ -25,20 +25,20 @@
         "Vaho Gélido"
       ],
       "iv": [
-        31,
-        31,
-        31,
-        31,
-        31,
-        31
+        15,
+        21,
+        9,
+        28,
+        28,
+        6
       ],
       "ev": [
-        6,
         0,
         0,
-        252,
+        2,
+        2,
         0,
-        252
+        0
       ],
       "abilPool": [
         "Títere Tóxico",
@@ -187,7 +187,7 @@
       ],
       "ability": "Momia",
       "nature": "Audaz",
-      "item": "Garra Afilada",
+      "item": "",
       "shiny": false,
       "moves": [
         "Espada Lamento",
@@ -196,20 +196,20 @@
         "Llama Protectora"
       ],
       "iv": [
-        31,
-        31,
-        31,
-        31,
-        31,
-        31
+        28,
+        19,
+        3,
+        16,
+        0,
+        28
       ],
       "ev": [
-        6,
-        252,
+        3,
         0,
         0,
-        0,
-        252
+        4,
+        1,
+        0
       ],
       "abilPool": [
         "Momia",
@@ -330,7 +330,7 @@
       ],
       "ability": "Experto",
       "nature": "Huraña",
-      "item": "Periscopio",
+      "item": "",
       "shiny": false,
       "moves": [
         "Hoja Afilada",
@@ -341,20 +341,20 @@
       "natureMint": true,
       "natureBase": "Afable",
       "iv": [
-        31,
-        31,
-        31,
-        31,
-        31,
-        31
+        16,
+        17,
+        26,
+        4,
+        25,
+        30
       ],
       "ev": [
-        6,
-        252,
-        0,
-        0,
-        0,
-        252
+        26,
+        51,
+        14,
+        28,
+        13,
+        40
       ],
       "abilPool": [
         "Experto",
@@ -485,7 +485,7 @@
       ],
       "ability": "Experto",
       "nature": "Floja",
-      "item": "Mineral Evol",
+      "item": "",
       "shiny": false,
       "moves": [
         "Puño Bala",
@@ -494,19 +494,19 @@
         "Abrecaminos"
       ],
       "iv": [
-        31,
-        31,
-        31,
-        31,
-        31,
-        31
+        0,
+        1,
+        30,
+        19,
+        18,
+        20
       ],
       "ev": [
-        252,
-        252,
         0,
         0,
-        6,
+        0,
+        2,
+        0,
         0
       ],
       "abilPool": [
@@ -622,7 +622,7 @@
       ],
       "ability": "Piel Eléctrica",
       "nature": "Miedosa",
-      "item": "Cascabel Concha",
+      "item": "",
       "shiny": false,
       "moves": [
         "Espeaura",
@@ -631,20 +631,20 @@
         "Tóxico"
       ],
       "iv": [
-        31,
-        31,
-        31,
-        31,
-        31,
-        31
+        23,
+        14,
+        15,
+        11,
+        16,
+        7
       ],
       "ev": [
         0,
+        11,
         0,
-        6,
-        252,
-        252,
-        0
+        10,
+        4,
+        3
       ],
       "abilPool": [
         "Piel Eléctrica",
@@ -760,7 +760,7 @@
       ],
       "ability": "Mutatipo",
       "nature": "Plácida",
-      "item": "Banda Aguante",
+      "item": "",
       "shiny": false,
       "moves": [
         "Espora",
@@ -769,20 +769,20 @@
         "Tajo Metralla"
       ],
       "iv": [
-        31,
-        31,
-        31,
-        31,
-        31,
-        31
+        12,
+        9,
+        5,
+        17,
+        24,
+        22
       ],
       "ev": [
-        6,
-        252,
-        0,
-        0,
-        0,
-        252
+        5,
+        16,
+        7,
+        8,
+        4,
+        10
       ],
       "abilPool": [
         "Mutatipo",
@@ -905,10 +905,13 @@
         "Cede Paso",
         "Colmillo Rayo",
         "Conjuro Funesto",
+        "Cornada",
         "Embargo",
+        "Espeaura",
         "Falso Tortazo",
         "Furia",
         "Giro Mortífero",
+        "Limpieza General",
         "Meditación",
         "Mofa",
         "Ojos Llorosos",
@@ -918,9 +921,11 @@
         "Psicoonda",
         "Rabia",
         "Remolino",
+        "Sorpresa",
         "Tajo Umbrío",
         "Tenaza",
         "Tóxico",
+        "Triturar",
         "Zumbido"
       ]
     }
