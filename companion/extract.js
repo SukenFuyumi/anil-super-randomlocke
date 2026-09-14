@@ -63,6 +63,23 @@ function mon(p) {
   if (natMintSym) { out.natureMint = true; out.natureBase = NATURES[natBaseSym] || pretty(natBaseSym); }
   // Contador de Capturas (Nuzlocke EX): capturas hechas de más en una zona ya usada.
   if (iv(p, '@anil_extra_capture')) out.extra = true;
+  // Origen (Añil): cómo se obtuvo (misma lógica que el juego). Intercambios por
+  // obtain_method 2 (Don Prodigio se distingue por su OT); el resto por @anil_origin,
+  // y las capturas legítimas por @anil_first_route.
+  {
+    const om = iv(p, '@obtain_method');
+    let origin = null;
+    if (om === 2) {
+      const owner = iv(p, '@owner');
+      const otName = owner ? sname(iv(owner, '@name')) : null;
+      origin = (otName === 'Don Prodigio') ? 'don_prodigio' : 'intercambio';
+    } else {
+      const ao = sname(iv(p, '@anil_origin'));
+      if (ao) origin = ao;
+      else if (iv(p, '@anil_first_route')) origin = 'primer_ruta';
+    }
+    if (origin) out.origin = origin;
+  }
   const ivArr = statArr(iv(p, '@iv')), evArr = statArr(iv(p, '@ev'));
   if (ivArr) out.iv = ivArr;
   if (evArr) out.ev = evArr;

@@ -505,7 +505,7 @@ async function openMonPopup(mon, ctx = {}) {
       ${spriteEl(mon, "mon-sprite pm-sprite")}
       <div class="pm-headinfo">
         <div class="pm-nick">${escapeHtml(mon.nickname || mon.species || "?")}${mon.shiny ? " " + shinyStar(14) : ""}</div>
-        <div class="pm-species">${escapeHtml(mon.species || "")} <span class="pm-lvl">Nv. ${escapeHtml(mon.level ?? "?")}</span>${mon.dup ? ` <span class="pm-hid" title="Repetido (misma especie ya presente en equipo/PC/cementerio)">Repetido</span>` : (mon.extra ? ` <span class="pm-hid" title="Captura extra (Contador de Capturas)">Extra</span>` : "")}</div>
+        <div class="pm-species">${escapeHtml(mon.species || "")} <span class="pm-lvl">Nv. ${escapeHtml(mon.level ?? "?")}</span>${mon.dup ? ` <span class="pm-hid" title="Repetido (misma especie ya presente en equipo/PC/cementerio)">Repetido</span>` : (mon.extra ? ` <span class="pm-hid" title="Captura extra (Contador de Capturas)">Extra</span>` : "")}${mon.origin && ORIGIN_LABELS[mon.origin] ? ` <span class="pm-hid" title="Origen">${escapeHtml(ORIGIN_LABELS[mon.origin].t)}</span>` : ""}</div>
         <div class="pm-types">${types}</div>
       </div>
     </div>
@@ -642,6 +642,25 @@ async function openMoveInfo(name) {
 function closeMoveInfo() { const ov = document.getElementById("miOverlay"); if (ov) ov.classList.remove("show"); document.removeEventListener("keydown", miEsc); }
 function miEsc(e) { if (e.key === "Escape") closeMoveInfo(); }
 
+// Marcas de ORIGEN (Añil): cómo se obtuvo cada Pokémon. Cada una con su color de pastilla.
+const ORIGIN_LABELS = {
+  fossil:       { t: "FÓSIL",        c: "#7a5c3e" },
+  magikarp_500: { t: "MAGIKARP",     c: "#c9702e" },
+  casino:       { t: "CASINO",       c: "#b5327a" },
+  regalo:       { t: "REGALO",       c: "#2e9c6a" },
+  starter:      { t: "INICIAL",      c: "#3a7bd5" },
+  intercambio:  { t: "INTERC. NPC",  c: "#5a8f9c" },
+  don_prodigio: { t: "DON PRODIGIO", c: "#c9a227" },
+  primer_ruta:  { t: "1.º RUTA",     c: "#6b8e23" },
+  magnemite:    { t: "INTERC. REP.", c: "#8a7dbf" },
+  static:       { t: "ESTÁTICO",     c: "#8a8a99" },
+};
+function originPill(origin) {
+  const o = ORIGIN_LABELS[origin];
+  if (!o) return "";
+  return `<span class="pill" title="Origen: ${escapeHtml(o.t)}" style="padding:.02rem .45rem;font-size:.58rem;background:${o.c};color:#fff">${escapeHtml(o.t)}</span>`;
+}
+
 function monCard(mon, opts = {}) {
   const dead = opts.dead;
   const types = (mon.types || []).map((t) => typeBadge(t, true)).join("");
@@ -668,7 +687,7 @@ function monCard(mon, opts = {}) {
       <div class="mon-top">
         ${sprite}
         <div class="mon-id grow">
-          <div class="mon-nick">${escapeHtml(mon.nickname || "—")} ${shiny}${extraTag}</div>
+          <div class="mon-nick">${escapeHtml(mon.nickname || "—")} ${shiny}${extraTag}${originPill(mon.origin)}</div>
           <div class="mon-species">${speciesHtml}</div>
           ${owner}
           <div class="mon-types">${types}</div>
