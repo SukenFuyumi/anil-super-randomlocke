@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 5,
   "champion": false,
-  "notes": "Importado del save · 30h 44m jugadas · 314,650₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 30h 55m jugadas · 314,650₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "Mr MIKE",
@@ -396,7 +396,7 @@
       "item": "Blastoisinitex",
       "shiny": false,
       "moves": [
-        "Embate Supremo",
+        "Alud",
         "Truco Floral",
         "Danza Acuática",
         "Flarembestida"
@@ -876,7 +876,7 @@
       "shiny": false,
       "moves": [
         "Absorbefuerza",
-        "Llama Protectora",
+        "Plancha",
         "Tajo Metralla",
         "Hachazo Pétreo"
       ],
