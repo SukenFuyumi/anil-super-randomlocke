@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 5,
   "champion": false,
-  "notes": "Importado del save · 30h 12m jugadas · 314,650₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 30h 23m jugadas · 314,650₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "LUIGI",
@@ -24,6 +24,7 @@
         "Nitrochoque",
         "Enrosque"
       ],
+      "origin": "primer_ruta",
       "iv": [
         14,
         10,
@@ -34,8 +35,8 @@
       ],
       "ev": [
         0,
-        0,
-        0,
+        1,
+        1,
         0,
         0,
         0
@@ -189,6 +190,179 @@
         "Tinieblas",
         "Trampa Venenosa"
       ]
+    },
+    {
+      "nickname": "BLAZE",
+      "species": "Mawile",
+      "level": 49,
+      "types": [
+        "Acero",
+        "Hada"
+      ],
+      "ability": "Sombra Trampa",
+      "nature": "Serena",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Viento Aciago",
+        "Amago",
+        "Obstrucción",
+        "Arraigo"
+      ],
+      "origin": "primer_ruta",
+      "iv": [
+        26,
+        8,
+        16,
+        26,
+        0,
+        11
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Sombra Trampa",
+        "Intimidación"
+      ],
+      "abilHidden": [
+        "Piel Seca"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Viento Aciago"
+        },
+        {
+          "lvl": 1,
+          "m": "Amago"
+        },
+        {
+          "lvl": 4,
+          "m": "Obstrucción"
+        },
+        {
+          "lvl": 8,
+          "m": "Arraigo"
+        },
+        {
+          "lvl": 12,
+          "m": "Veneno X"
+        },
+        {
+          "lvl": 16,
+          "m": "Giro Bola"
+        },
+        {
+          "lvl": 16,
+          "m": "Carga Tóxica"
+        },
+        {
+          "lvl": 16,
+          "m": "Cuerno Certero"
+        },
+        {
+          "lvl": 20,
+          "m": "Defensa Floral"
+        },
+        {
+          "lvl": 21,
+          "m": "Zona Mágica"
+        },
+        {
+          "lvl": 24,
+          "m": "Pantalla de Humo"
+        },
+        {
+          "lvl": 26,
+          "m": "Deseo Cura"
+        },
+        {
+          "lvl": 28,
+          "m": "Beso Drenaje"
+        },
+        {
+          "lvl": 32,
+          "m": "Retracción"
+        },
+        {
+          "lvl": 34,
+          "m": "Cortina Plasma"
+        },
+        {
+          "lvl": 36,
+          "m": "Pistola Agua"
+        },
+        {
+          "lvl": 40,
+          "m": "Rayo Meteórico"
+        },
+        {
+          "lvl": 43,
+          "m": "Corte"
+        },
+        {
+          "lvl": 44,
+          "m": "Carga Dragón"
+        },
+        {
+          "lvl": 48,
+          "m": "Fijar Blanco"
+        }
+      ],
+      "tmMoves": [
+        "Absorbefuerza",
+        "Absorber",
+        "Alud",
+        "Campo de Hierba",
+        "Choque Anímico",
+        "Ciclón",
+        "Danza Acuática",
+        "Decoración",
+        "Desarme",
+        "Deslome",
+        "Doble Golpe",
+        "Eco Metálico",
+        "Espeaura",
+        "Espora",
+        "Esquirla Helada",
+        "Estruendo Escama",
+        "Finta",
+        "Fotosíntesis",
+        "Fuerza Lunar",
+        "Garra Dragón",
+        "Glaceoprisma",
+        "Golpe Roca",
+        "Golpe Umbrío",
+        "Hueso Sombrío",
+        "Infortunio",
+        "Isoguardia",
+        "Láser Doble",
+        "Llama Protectora",
+        "Malicioso",
+        "Maquinación",
+        "Marcha Espectral",
+        "Mirada Heladora",
+        "Moluscañón",
+        "Niebla Aromática",
+        "Nitrocarga",
+        "Picotazo",
+        "Psicocolmillo",
+        "Puya Nociva",
+        "Retracción",
+        "Rodillo de Púas",
+        "Sol Matinal",
+        "Tinieblas",
+        "Trampa Rocas",
+        "Transformación",
+        "Último Lugar",
+        "Umbreozona"
+      ]
     }
   ],
   "box": [
@@ -209,6 +383,7 @@
         "Megaagotar",
         "Otra Vez"
       ],
+      "origin": "don_prodigio",
       "iv": [
         20,
         29,
@@ -309,6 +484,7 @@
         "Flarembestida",
         "Magnitud"
       ],
+      "origin": "don_prodigio",
       "iv": [
         23,
         19,
@@ -541,6 +717,7 @@
         "Psicorrayo",
         "Canto Mortal"
       ],
+      "origin": "primer_ruta",
       "iv": [
         3,
         31,
@@ -810,6 +987,7 @@
         "Pirueta Helada",
         "Puño Furia"
       ],
+      "origin": "primer_ruta",
       "iv": [
         8,
         3,
@@ -966,6 +1144,7 @@
         "Ciclón",
         "Marcha Espectral"
       ],
+      "origin": "primer_ruta",
       "iv": [
         25,
         28,
@@ -1111,6 +1290,7 @@
         "Megaagotar",
         "Onda Simple"
       ],
+      "origin": "primer_ruta",
       "iv": [
         15,
         16,
@@ -1203,6 +1383,7 @@
         "Danza Caos",
         "Represión Metal"
       ],
+      "origin": "don_prodigio",
       "iv": [
         4,
         6,
@@ -2373,6 +2554,7 @@
         "Esporagodón",
         "Latigazo"
       ],
+      "origin": "primer_ruta",
       "iv": [
         24,
         22,
@@ -2476,6 +2658,7 @@
         "Puño Bala",
         "Ataque Aéreo"
       ],
+      "origin": "primer_ruta",
       "iv": [
         5,
         16,
@@ -2626,6 +2809,7 @@
         "Contraataque",
         "Chulería"
       ],
+      "origin": "primer_ruta",
       "iv": [
         25,
         22,
@@ -3156,6 +3340,7 @@
         "Veneno X",
         "Tajo Umbrío"
       ],
+      "origin": "primer_ruta",
       "iv": [
         20,
         8,
@@ -3480,6 +3665,7 @@
         "Absorbefuerza",
         "Maquinación"
       ],
+      "origin": "primer_ruta",
       "iv": [
         10,
         2,
@@ -3620,6 +3806,7 @@
         "Luz Aniquiladora",
         "Paz Mental"
       ],
+      "origin": "primer_ruta",
       "iv": [
         13,
         24,
@@ -3995,6 +4182,7 @@
       ],
       "natureMint": true,
       "natureBase": "Alocada",
+      "origin": "primer_ruta",
       "iv": [
         17,
         24,
@@ -4309,6 +4497,7 @@
         "Cadena Virulenta",
         "Bomba Ígnea"
       ],
+      "origin": "primer_ruta",
       "iv": [
         9,
         10,
@@ -4472,6 +4661,7 @@
       ],
       "natureMint": true,
       "natureBase": "Amable",
+      "origin": "primer_ruta",
       "iv": [
         27,
         7,
@@ -4802,6 +4992,7 @@
         "Absorbefuerza",
         "A Defender"
       ],
+      "origin": "primer_ruta",
       "iv": [
         18,
         29,
@@ -5142,6 +5333,7 @@
         "Hachazo Pétreo",
         "Umbreozona"
       ],
+      "origin": "primer_ruta",
       "iv": [
         21,
         14,
@@ -5446,6 +5638,7 @@
         "Flarembestida",
         "Puño Drenaje"
       ],
+      "origin": "primer_ruta",
       "iv": [
         17,
         26,
@@ -5591,6 +5784,7 @@
         "Golpe Oscuro",
         "Desarme"
       ],
+      "origin": "primer_ruta",
       "iv": [
         7,
         5,
@@ -6355,6 +6549,7 @@
         "Testarazo",
         "Plegaria Lunar"
       ],
+      "origin": "primer_ruta",
       "iv": [
         27,
         8,
@@ -6493,6 +6688,7 @@
         "Hueso Sombrío",
         "Garra Dragón"
       ],
+      "origin": "primer_ruta",
       "iv": [
         19,
         27,
@@ -6645,6 +6841,7 @@
         "Fitoimpulso",
         "Placaje"
       ],
+      "origin": "primer_ruta",
       "iv": [
         11,
         1,
@@ -8224,6 +8421,17 @@
       "mon": "Breloom"
     },
     {
+      "route": "ciudad_plateada",
+      "where": "Ciudad Plateada",
+      "species": "Mawile",
+      "nickname": "BLAZE",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 10,
+      "mon": "Mawile"
+    },
+    {
       "route": "",
       "where": "Centro Comercial",
       "species": "Cherrim",
@@ -8818,13 +9026,13 @@
     "npcs": {},
     "routes": {
       "ruta_7": true,
+      "ciudad_plateada": true,
       "ciudad_azulona": true,
       "pueblo_lavanda": true,
       "tunel_roca": true,
       "ruta_10_norte": true,
       "ruta_3": true,
       "ciudad_celeste": true,
-      "ciudad_plateada": true,
       "pueblo_paleta": true,
       "pueblo_marengo": true,
       "ruta_11": true,
@@ -8880,7 +9088,8 @@
       "ciudad_fucsia": true,
       "zona_safari": true,
       "ruta_16": true,
-      "ruta_17": true
+      "ruta_17": true,
+      "ciudad_plateada": true
     }
   }
 }
