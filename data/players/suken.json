@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 5,
   "champion": false,
-  "notes": "Importado del save · 30h 36m jugadas · 314,650₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 30h 38m jugadas · 314,650₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "Mr MIKE",
@@ -21,7 +21,7 @@
       "moves": [
         "Espeaura",
         "Umbreozona",
-        "Luz Aniquiladora",
+        "Beso Drenaje",
         "Paz Mental"
       ],
       "origin": "primer_ruta",
@@ -184,6 +184,7 @@
         "Amnesia",
         "Asta Drenaje",
         "Atadura",
+        "Beso Drenaje",
         "Bomba Ígnea",
         "Choque Anímico",
         "Chorro de Vapor",
@@ -351,6 +352,7 @@
         "Deslome",
         "Electropico",
         "Espabila",
+        "Espeaura",
         "Espora",
         "Flarembestida",
         "Fuerza Lunar",
@@ -399,8 +401,6 @@
         "Danza Acuática",
         "Flarembestida"
       ],
-      "natureMint": true,
-      "natureBase": "Alocada",
       "origin": "primer_ruta",
       "iv": [
         17,
@@ -517,6 +517,7 @@
         "Eco Metálico",
         "Embate Supremo",
         "Espabila",
+        "Espeaura",
         "Esquirla Helada",
         "Fuerza Lunar",
         "Glaceoprisma",
@@ -564,8 +565,6 @@
         "Enrosque",
         "Puño Drenaje"
       ],
-      "natureMint": true,
-      "natureBase": "Fuerte",
       "iv": [
         1,
         11,
@@ -829,6 +828,8 @@
         "Deslome",
         "Electropico",
         "Embate Supremo",
+        "Espeaura",
+        "Espora",
         "Estruendo Escama",
         "Finta",
         "Fotosíntesis",
@@ -878,8 +879,6 @@
         "Tajo Metralla",
         "Hachazo Pétreo"
       ],
-      "natureMint": true,
-      "natureBase": "Amable",
       "origin": "primer_ruta",
       "iv": [
         27,
