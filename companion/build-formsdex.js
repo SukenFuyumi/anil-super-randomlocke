@@ -49,7 +49,8 @@ for(const b of blocks){
   const dexId=DEX[norm(b.sp)]; if(!dexId||!PDEX[dexId])continue;
   const base=PDEX[dexId];
   const types=b.f.Types?b.f.Types.split(',').map(x=>typeEs(x.trim())).filter(Boolean):base.t;
-  const stats=b.f.BaseStats?b.f.BaseStats.split(',').map(Number):base.st;
+  // PBS BaseStats vienen en orden [PS,Atk,Def,Vel,AtE,DeE]; la web usa [PS,Atk,Def,AtE,DeE,Vel].
+  const stats=b.f.BaseStats?(p=>[p[0],p[1],p[2],p[4],p[5],p[3]])(b.f.BaseStats.split(',').map(Number)):base.st;
   const ab=b.f.Abilities?[...new Set(b.f.Abilities.split(',').map(x=>abEs(x.trim())).filter(Boolean))]:base.ab;
   const abh=b.f.HiddenAbilities?[...new Set(b.f.HiddenAbilities.split(',').map(x=>abEs(x.trim())).filter(Boolean))]:(Array.isArray(base.abh)?base.abh:base.abh?[base.abh]:[]);
   const name=(b.f.FormName||'').trim()||(isReg?('Forma '+b.f.Region):'Forma');
