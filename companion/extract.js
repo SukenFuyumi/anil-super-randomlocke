@@ -21,6 +21,18 @@ const hget = (h, key) => { if (!h || !h.__isHash) return undefined; for (const [
 const iv = (o, n) => o && o.ivars ? o.ivars[n] : undefined;
 const sname = s => s instanceof RSymbol ? s.name : (Buffer.isBuffer(s) ? s.toString('utf8') : (s == null ? null : String(s)));
 
+// --- Recordar movimientos de PREEVOLUCIONES ------------------------------------
+// El juego permite recordar los movimientos RANDOMIZADOS de las preevoluciones
+// (p. ej. Blastoise recuerda el Escaldar randomizado de Wartortle). Sin esto el
+// learnset queda incompleto. Cadena evolutiva: data/pokedex.json (campo em, hacia adelante).
+let RAND_MOVES_N = {};        // norm(SÍMBOLO especie) -> { form: [ {lvl,m} ] }
+let PDEX_EVO = {}, PREEVO = {}; const DEXID_BY_NORM = {};
+try {
+  PDEX_EVO = require('../data/pokedex.json');
+  for (const id in PDEX_EVO) { const e = PDEX_EVO[id]; if (e && e.n) DEXID_BY_NORM[norm(e.n)] = +id; }
+  for (const id in PDEX_EVO) { const e = PDEX_EVO[id]; ((e && e.em) || []).forEach(ev => { if (ev && ev.toId) (PREEVO[ev.toId] = PREEVO[ev.toId] || []).push(+id); }); }
+} catch (e) {}
+
 function pretty(sym) {
   if (!sym) return '';
   return String(sym).toLowerCase().split(/[_\s]+/).map(w => w ? w[0].toUpperCase() + w.slice(1) : '').join(' ');
@@ -100,11 +112,27 @@ function mon(p) {
     const ra = RAND_ABIL[raKey];
     if (ra) { out.abilPool = ra.base; out.abilHidden = ra.hidden; }
   }
-  // Movimientos aprendibles randomizados (recuerda-movimientos)
-  const rmForms = RAND_MOVES[species];
-  if (rmForms) {
-    const lset = rmForms[String(form || 0)] || rmForms['0'];
-    if (lset && lset.length) out.learnset = lset;
+  // Movimientos aprendibles randomizados (recuerda-movimientos): del propio Pokémon
+  // MÁS los de sus preevoluciones (el juego permite recordarlos; p. ej. Escaldar de Wartortle).
+  {
+    const getL = (nameOrSym, fk) => { const rf = RAND_MOVES_N[norm(nameOrSym)]; return rf ? (rf[String(fk)] || rf['0'] || []) : []; };
+    const all = getL(species, form || 0).slice();
+    let cur = DEXID_BY_NORM[norm(species)];
+    const seen = new Set();
+    while (cur != null && PREEVO[cur]) {
+      const pres = PREEVO[cur]; cur = null;
+      for (const pid of pres) {
+        if (seen.has(pid)) continue; seen.add(pid);
+        const pn = PDEX_EVO[pid] && PDEX_EVO[pid].n;
+        if (pn) getL(pn, 0).forEach(x => all.push(x));
+        cur = pid; // seguir la cadena hacia atrás (preevo de la preevo)
+      }
+    }
+    if (all.length) {
+      const byName = {};
+      all.forEach(x => { if (x && x.m && (!byName[x.m] || (x.lvl || 0) < (byName[x.m].lvl || 0))) byName[x.m] = x; });
+      out.learnset = Object.values(byName);
+    }
   }
   // MTs aprendibles randomizados
   const tmList = RAND_TM[species];
@@ -194,6 +222,8 @@ function extract(buf, playerId, opts = {}) {
       RAND_MOVES[sname(spk)] = byForm;
     }
   }
+  RAND_MOVES_N = {};
+  for (const k in RAND_MOVES) RAND_MOVES_N[norm(k)] = RAND_MOVES[k];
 
   // MTs aprendibles randomizados: global_metadata.@tm_compatibility_random[ESPECIE] = ["MOVE,true"/"MOVE,false", ...]
   RAND_TM = {};
