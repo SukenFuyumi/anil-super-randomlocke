@@ -37,12 +37,10 @@ function themeIcon(theme) {
 const NAV = [
   { href: "index.html", label: "Inicio" },
   { href: "progresion.html", label: "Progresión" },
-  { href: "objetos.html", label: "Objetos" },
   { href: "pokedex.html", label: "Pokédex" },
   { href: "movimientos.html", label: "Movimientos" },
   { href: "habilidades.html", label: "Habilidades" },
   { href: "torneos.html", label: "Torneos" },
-  { href: "reglas.html", label: "Reglas" },
   { href: "guia.html", label: "🧩 Crea tu tracker" },
 ];
 

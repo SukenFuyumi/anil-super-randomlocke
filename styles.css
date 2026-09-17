@@ -340,6 +340,16 @@ img.player-avatar.xl { padding: 6px; }
 .check-item.done .dot { background: var(--ok); }
 .check-item .tag { margin-left: auto; font-size: .62rem; color: var(--text-muted); }
 
+/* Mochila (pestaña Objetos del jugador): icono del juego + nombre + cantidad */
+.bag-grid { display: grid; gap: .4rem; grid-template-columns: repeat(auto-fill, minmax(min(190px,100%),1fr)); margin-bottom: .5rem; }
+.bag-item {
+  display: flex; align-items: center; gap: .5rem; padding: .35rem .55rem;
+  border: 1px solid var(--border); border-radius: 6px; background: var(--subtle-bg); font-size: .85rem;
+}
+.bag-icon { width: 32px; height: 32px; object-fit: contain; image-rendering: pixelated; flex-shrink: 0; }
+.bag-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bag-qty { margin-left: auto; font-weight: 700; color: var(--accent); flex-shrink: 0; }
+
 /* progress matrix (progresion.html) */
 .matrix-wrap { overflow-x: auto; }
 .matrix { border-collapse: collapse; font-size: .98rem; }

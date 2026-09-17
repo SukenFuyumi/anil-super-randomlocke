@@ -347,6 +347,25 @@ function extract(buf, playerId, opts = {}) {
       .sort((a, b) => a.localeCompare(b, 'es'));
   }
 
+  // Mochila ACTUAL: cantidad real que el jugador tiene ahora de cada objeto, por bolsillo.
+  // Cada entrada es [SÍMBOLO_INTERNO, cantidad]. id = símbolo (para el icono del juego,
+  // assets/items/<ID>.png), name = nombre ES, qty = cantidad, pocket = nº de bolsillo.
+  const POCKET_NAMES = ['', 'Objetos', 'Medicinas', 'Poké Balls', 'MTs y MOs', 'Bayas', 'Piedras Mega', 'Objetos de combate', 'Objetos clave'];
+  const pockets = iv(hget(root, 'bag'), '@pockets');
+  const bag = [];
+  if (Array.isArray(pockets)) {
+    pockets.forEach((pk, pi) => {
+      if (!Array.isArray(pk)) return;
+      pk.forEach((entry) => {
+        if (!Array.isArray(entry)) return;
+        const id = sname(entry[0]);
+        const qty = typeof entry[1] === 'number' ? entry[1] : parseInt(entry[1], 10) || 0;
+        if (!id || qty <= 0) return;
+        bag.push({ id, name: itemName(id), qty, pocket: POCKET_NAMES[pi] || 'Otros' });
+      });
+    });
+  }
+
   const money = iv(player, '@money') || 0;
   const playSecs = Math.round(iv(stats, '@play_time') || 0);
   const gameLives = iv(gm, '@challenge_lives');
@@ -361,7 +380,7 @@ function extract(buf, playerId, opts = {}) {
     notes: `Importado del save · ${hh}h ${mm}m jugadas · ${money.toLocaleString('es')}₽ · vidas en el juego: ${gameLives ?? '?'}`,
     team, box, graveyard,
     captures,
-    progress: { gyms, bosses: {}, npcs: {}, routes: routesVisited, items: {}, encounters, switches: switchesOn, foundItems },
+    progress: { gyms, bosses: {}, npcs: {}, routes: routesVisited, items: {}, encounters, switches: switchesOn, foundItems, bag },
   };
 }
 
