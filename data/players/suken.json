@@ -161,6 +161,12 @@
         "Transformación",
         "Último Lugar",
         "Vendaval"
+      ],
+      "firstMoves": [
+        "Pikaturbo",
+        "Dulce Aroma",
+        "Rencor",
+        "Paralizador"
       ]
     },
     {
@@ -325,6 +331,12 @@
         "Transformación",
         "Umbreozona",
         "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Refugio",
+        "Ovocuración",
+        "Escaldar",
+        "Trampa Rocas"
       ]
     },
     {
@@ -475,6 +487,12 @@
         "Rodillo de Púas",
         "Tajo Metralla",
         "Vendaval"
+      ],
+      "firstMoves": [
+        "Viraje",
+        "Triple Patada",
+        "Paralizador",
+        "Magnitud"
       ]
     },
     {
@@ -650,6 +668,12 @@
         "Trampa Rocas",
         "Trampa Venenosa",
         "Transformación"
+      ],
+      "firstMoves": [
+        "Lengüetazo",
+        "Llama Final",
+        "Ala de Acero",
+        "Bomba Fango"
       ]
     },
     {
@@ -871,6 +895,12 @@
         "Sol Matinal",
         "Taladradora",
         "Tinieblas"
+      ],
+      "firstMoves": [
+        "Sol Matinal",
+        "Púas",
+        "Camaradería",
+        "Cabeza Sorpresa"
       ]
     },
     {
@@ -1037,6 +1067,12 @@
         "Transformación",
         "Última Palabra",
         "Último Lugar"
+      ],
+      "firstMoves": [
+        "Patada Tropical",
+        "Ascuas",
+        "Telequinesis",
+        "Salmuera"
       ]
     }
   ],
@@ -1140,6 +1176,12 @@
           "lvl": 62,
           "m": "Cañón Floral"
         }
+      ],
+      "firstMoves": [
+        "Absorbefuerza",
+        "Estrujón",
+        "Megaagotar",
+        "Otra Vez"
       ]
     },
     {
@@ -1256,6 +1298,12 @@
           "lvl": 53,
           "m": "Bostezo"
         }
+      ],
+      "firstMoves": [
+        "Fuerza Lunar",
+        "Golpe Aéreo",
+        "Fachada",
+        "Lanzarrocas"
       ]
     },
     {
@@ -1372,6 +1420,12 @@
           "lvl": 55,
           "m": "Onda Certera"
         }
+      ],
+      "firstMoves": [
+        "Arenas Ardientes",
+        "Afilar",
+        "Rugido de Guerra",
+        "Bomba Imán"
       ]
     },
     {
@@ -1509,6 +1563,12 @@
         "Tinieblas",
         "Trampa Venenosa",
         "Transformación"
+      ],
+      "firstMoves": [
+        "Avivar",
+        "Refugio",
+        "Psicorrayo",
+        "Psicohojas"
       ]
     },
     {
@@ -1643,6 +1703,12 @@
         "Tajo Umbrío",
         "Tinieblas",
         "Último Lugar"
+      ],
+      "firstMoves": [
+        "Alto Voltaje",
+        "Homenaje Póstumo",
+        "Cascabel Cura",
+        "Impactrueno"
       ]
     },
     {
@@ -1799,6 +1865,12 @@
         "Transformación",
         "Último Lugar",
         "Vendaval"
+      ],
+      "firstMoves": [
+        "Rayo Burbuja",
+        "Pedrada",
+        "Limpieza General",
+        "Hidropulso"
       ]
     },
     {
@@ -1945,6 +2017,12 @@
         "Sol Matinal",
         "Trampa Rocas",
         "Transformación"
+      ],
+      "firstMoves": [
+        "Colmillo Ígneo",
+        "Relajo",
+        "Presente",
+        "Condena Silvana"
       ]
     },
     {
@@ -2038,6 +2116,12 @@
           "lvl": 55,
           "m": "Decalcomanía"
         }
+      ],
+      "firstMoves": [
+        "Alud",
+        "Cascabel Cura",
+        "Megaagotar",
+        "Onda Simple"
       ]
     },
     {
@@ -2152,6 +2236,12 @@
           "lvl": 61,
           "m": "Estruendo Escama"
         }
+      ],
+      "firstMoves": [
+        "Reducción",
+        "Poder Pasado",
+        "Danza Caos",
+        "Represión Metal"
       ]
     },
     {
@@ -2299,6 +2389,12 @@
         "Rizo Defensa",
         "Sol Matinal",
         "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Tajo Metralla",
+        "Conjuro",
+        "Mandato",
+        "Psicocorte"
       ]
     },
     {
@@ -2482,6 +2578,12 @@
         "Transformación",
         "Última Palabra",
         "Vendaval"
+      ],
+      "firstMoves": [
+        "Deslizamiento",
+        "Empapar",
+        "Rugido de Guerra",
+        "Reciclaje"
       ]
     },
     {
@@ -2647,6 +2749,10 @@
         "Trampa Rocas",
         "Vendaval",
         "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Trampa Rocas",
+        "Destructor"
       ]
     },
     {
@@ -2754,6 +2860,12 @@
         "Isoguardia",
         "Marcha Espectral",
         "Mismo Destino"
+      ],
+      "firstMoves": [
+        "Puño Mareo",
+        "Contraataque",
+        "Impresionar",
+        "Campo Psíquico"
       ]
     },
     {
@@ -2866,6 +2978,11 @@
         "Lengüetazo",
         "Maquinación",
         "Marcha Espectral"
+      ],
+      "firstMoves": [
+        "Patada Baja",
+        "Colmillo Veneno",
+        "Destello"
       ]
     },
     {
@@ -3054,6 +3171,12 @@
         "Último Lugar",
         "Umbreozona",
         "Vendaval"
+      ],
+      "firstMoves": [
+        "Megapatada",
+        "Canto Mortal",
+        "Cambio de Cancha",
+        "Ofrenda"
       ]
     },
     {
@@ -3210,6 +3333,10 @@
         "Transformación",
         "Umbreozona",
         "Vendaval"
+      ],
+      "firstMoves": [
+        "Batido",
+        "Retribución"
       ]
     },
     {
@@ -3313,6 +3440,12 @@
           "lvl": 55,
           "m": "Feerichoque"
         }
+      ],
+      "firstMoves": [
+        "Fanfarronear",
+        "Trampa Rocas",
+        "Esporagodón",
+        "Latigazo"
       ]
     },
     {
@@ -3465,6 +3598,12 @@
         "Tajo Umbrío",
         "Transformación",
         "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Golpe Aéreo",
+        "Colmillo Ígneo",
+        "Puño Bala",
+        "Ataque Aéreo"
       ]
     },
     {
@@ -3601,6 +3740,12 @@
           "lvl": 63,
           "m": "Ascenso Draco"
         }
+      ],
+      "firstMoves": [
+        "Aullido",
+        "Desahogo",
+        "Contraataque",
+        "Chulería"
       ]
     },
     {
@@ -3716,6 +3861,12 @@
           "lvl": 48,
           "m": "Llama Embrujada"
         }
+      ],
+      "firstMoves": [
+        "Alarido",
+        "Finta",
+        "Gran Ojo",
+        "Torbellino"
       ]
     },
     {
@@ -3825,6 +3976,12 @@
           "lvl": 64,
           "m": "Tormenta Floral"
         }
+      ],
+      "firstMoves": [
+        "Isofuerza",
+        "Pikaturbo",
+        "Amago",
+        "Defensa Férrea"
       ]
     },
     {
@@ -3995,6 +4152,12 @@
         "Trampa Venenosa",
         "Último Lugar",
         "Vendaval"
+      ],
+      "firstMoves": [
+        "Follaje",
+        "Barrera Espinosa",
+        "Mil Púas Tóxicas",
+        "Aguzar"
       ]
     },
     {
@@ -4151,6 +4314,12 @@
         "Sol Matinal",
         "Umbreozona",
         "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Giro Bola",
+        "Sombra Vil",
+        "Ofrenda",
+        "Veneno X"
       ]
     },
     {
@@ -4321,6 +4490,12 @@
         "Último Lugar",
         "Umbreozona",
         "Vendaval"
+      ],
+      "firstMoves": [
+        "Placaje",
+        "Llave Giro",
+        "Clavo Cañón",
+        "Puño Bala"
       ]
     },
     {
@@ -4461,6 +4636,12 @@
         "Rizo Defensa",
         "Tinieblas",
         "Transformación"
+      ],
+      "firstMoves": [
+        "Salazón",
+        "Cambio de Banda",
+        "Telequinesis",
+        "Gas Venenoso"
       ]
     },
     {
@@ -4646,6 +4827,12 @@
         "Sol Matinal",
         "Tinieblas",
         "Trampa Venenosa"
+      ],
+      "firstMoves": [
+        "Día Soleado",
+        "Antojo",
+        "Voto Planta",
+        "Llamarada"
       ]
     },
     {
@@ -4810,6 +4997,12 @@
         "Umbreozona",
         "Vendaval"
       ],
+      "firstMoves": [
+        "Danza Amiga",
+        "Cambiapoder",
+        "Rayo Carga",
+        "Camaradería"
+      ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10233.png"
     },
     {
@@ -4966,6 +5159,12 @@
         "Trampa Venenosa",
         "Última Palabra",
         "Último Lugar"
+      ],
+      "firstMoves": [
+        "Colmillo Hielo",
+        "Danza Caos",
+        "Adaptación",
+        "Día Soleado"
       ]
     },
     {
@@ -5143,6 +5342,12 @@
         "Umbreozona",
         "Vendaval",
         "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Ala de Acero",
+        "Prensa Metálica",
+        "Poder Místico",
+        "Pistola Agua"
       ]
     },
     {
@@ -5307,6 +5512,11 @@
         "Rodillo de Púas",
         "Último Lugar",
         "Umbreozona"
+      ],
+      "firstMoves": [
+        "Conjuro",
+        "Bastión Final",
+        "Bombardeo"
       ]
     },
     {
@@ -5456,6 +5666,12 @@
           "lvl": 55,
           "m": "Cañón Armadura"
         }
+      ],
+      "firstMoves": [
+        "Respiro",
+        "Antiaéreo",
+        "Cortina Plasma",
+        "Avivar"
       ]
     },
     {
@@ -5612,6 +5828,12 @@
         "Trampa Venenosa",
         "Transformación",
         "Última Palabra"
+      ],
+      "firstMoves": [
+        "Campo Eléctrico",
+        "Encanto",
+        "Bote",
+        "Ácido Málico"
       ]
     },
     {
@@ -5785,6 +6007,12 @@
         "Transformación",
         "Último Lugar",
         "Umbreozona"
+      ],
+      "firstMoves": [
+        "Viento Aciago",
+        "Amago",
+        "Obstrucción",
+        "Arraigo"
       ]
     },
     {
@@ -5931,6 +6159,12 @@
         "Trampa Venenosa",
         "Umbreozona",
         "Vendaval"
+      ],
+      "firstMoves": [
+        "Homenaje Póstumo",
+        "Golpe Kárate",
+        "Seducción",
+        "Relevo"
       ]
     },
     {
@@ -6162,6 +6396,12 @@
         "Umbreozona",
         "Vendaval",
         "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Caída Libre",
+        "Yo Primero",
+        "Campo de Hierba",
+        "Última Palabra"
       ]
     },
     {
@@ -6340,6 +6580,11 @@
         "Trampa Venenosa",
         "Transformación",
         "Último Lugar"
+      ],
+      "firstMoves": [
+        "Cuerpo Pesado",
+        "Capa Mágica",
+        "Bomba Caramelo"
       ]
     },
     {
@@ -6527,6 +6772,12 @@
         "Trampa Venenosa",
         "Umbreozona",
         "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Canto Mortal",
+        "Ofrenda",
+        "Camaradería",
+        "Ráfaga Escamas"
       ]
     },
     {
@@ -6697,6 +6948,12 @@
         "Última Palabra",
         "Umbreozona",
         "Vendaval"
+      ],
+      "firstMoves": [
+        "Cornada",
+        "Confusión",
+        "Corpulencia",
+        "Furia"
       ]
     },
     {
@@ -6836,6 +7093,12 @@
         "Retracción",
         "Rodillo de Púas",
         "Tajo Umbrío"
+      ],
+      "firstMoves": [
+        "Voltiocambio",
+        "Triple Golpe",
+        "Testarazo",
+        "Plegaria Lunar"
       ]
     },
     {
@@ -6988,6 +7251,12 @@
         "Sol Matinal",
         "Tinieblas",
         "Trampa Venenosa"
+      ],
+      "firstMoves": [
+        "Arenas Ardientes",
+        "Viento Hielo",
+        "Ascuas",
+        "Deslome"
       ]
     },
     {
@@ -7148,6 +7417,12 @@
         "Trampa Venenosa",
         "Transformación",
         "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Cura Floral",
+        "Meteoros",
+        "Fitoimpulso",
+        "Placaje"
       ]
     },
     {
@@ -7312,6 +7587,12 @@
         "Taladradora",
         "Trampa Venenosa",
         "Vendaval"
+      ],
+      "firstMoves": [
+        "Cepo",
+        "Geocontrol",
+        "Rabia",
+        "Foco Energía"
       ]
     },
     {
@@ -7468,6 +7749,12 @@
         "Tinieblas",
         "Trampa Venenosa",
         "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Estímulo",
+        "Giro Rápido",
+        "Deslumbrar",
+        "Rizo Algodón"
       ]
     },
     {
@@ -7631,6 +7918,12 @@
         "Transformación",
         "Último Lugar",
         "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Meditación",
+        "Agilidad",
+        "Sorpresa",
+        "Halloween"
       ]
     },
     {
@@ -7828,6 +8121,12 @@
         "Transformación",
         "Última Palabra",
         "Umbreozona"
+      ],
+      "firstMoves": [
+        "Cabeza Sorpresa",
+        "Cambiadefensa",
+        "Encanto",
+        "Deseo Cura"
       ]
     },
     {
@@ -7931,6 +8230,12 @@
           "lvl": 67,
           "m": "Atizar"
         }
+      ],
+      "firstMoves": [
+        "Velo Sagrado",
+        "Fotosíntesis",
+        "Destructor",
+        "Doble Golpe"
       ]
     },
     {
@@ -8092,6 +8397,12 @@
         "Última Palabra",
         "Último Lugar",
         "Vendaval"
+      ],
+      "firstMoves": [
+        "Tormento",
+        "Doble Patada",
+        "Cola Veneno",
+        "Acupresión"
       ]
     },
     {
@@ -8270,6 +8581,12 @@
         "Trampa Rocas",
         "Última Palabra",
         "Umbreozona"
+      ],
+      "firstMoves": [
+        "Espacio Raro",
+        "Fortaleza",
+        "Acua Jet",
+        "Alto Voltaje"
       ]
     },
     {
@@ -8414,6 +8731,12 @@
         "Trampa Venenosa",
         "Transformación",
         "Último Lugar"
+      ],
+      "firstMoves": [
+        "Tajo Metralla",
+        "Onda Trueno",
+        "Arraigo",
+        "Enrosque"
       ]
     },
     {
@@ -8611,6 +8934,12 @@
         "Último Lugar",
         "Umbreozona",
         "Vendaval"
+      ],
+      "firstMoves": [
+        "Legado",
+        "Ultrapuño",
+        "Daño Secreto",
+        "Puntapié"
       ]
     },
     {
@@ -8800,6 +9129,12 @@
         "Taladradora",
         "Umbreozona",
         "Vendaval"
+      ],
+      "firstMoves": [
+        "Detección",
+        "Neblina",
+        "Canon",
+        "Barrera"
       ]
     },
     {
@@ -8969,6 +9304,12 @@
         "Última Palabra",
         "Último Lugar",
         "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Pistola Agua",
+        "Trampa Rocas",
+        "Picadura",
+        "Levitón"
       ]
     },
     {
@@ -9084,6 +9425,12 @@
           "lvl": 56,
           "m": "Puño Sombra"
         }
+      ],
+      "firstMoves": [
+        "Llave Vital",
+        "Terratemblor",
+        "Destello",
+        "Acua Jet"
       ]
     },
     {
@@ -9277,6 +9624,12 @@
         "Trampa Venenosa",
         "Vendaval",
         "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Poder Oculto",
+        "Bola Voltio",
+        "Autosugestión",
+        "Deseo Cura"
       ]
     },
     {
@@ -9443,6 +9796,12 @@
         "Última Palabra",
         "Umbreozona",
         "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Cuerpo Pesado",
+        "Rencor",
+        "Tajo Umbrío",
+        "Danza Lunar"
       ]
     },
     {
@@ -9556,6 +9915,12 @@
           "lvl": 64,
           "m": "Tajo Umbrío"
         }
+      ],
+      "firstMoves": [
+        "Ronquido",
+        "Rugido de Guerra",
+        "Antiaéreo",
+        "Bilis"
       ]
     },
     {
@@ -9676,6 +10041,12 @@
           "lvl": 66,
           "m": "Capa Mágica"
         }
+      ],
+      "firstMoves": [
+        "Fotosíntesis",
+        "Camuflaje",
+        "Ataque Rápido",
+        "Halloween"
       ]
     },
     {
@@ -9850,6 +10221,12 @@
         "Umbreozona",
         "Vendaval",
         "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Colmillo Ígneo",
+        "Viento Feérico",
+        "Aligerar",
+        "Deseo Cura"
       ]
     }
   ],
@@ -9983,6 +10360,12 @@
         "Isoguardia",
         "Puntapié"
       ],
+      "firstMoves": [
+        "Brazo Pincho",
+        "Tragar",
+        "Arraigo",
+        "Imitación"
+      ],
       "cause": "",
       "route": "Ciudad Verde",
       "date": ""
@@ -10104,6 +10487,11 @@
         "Lanzarrocas",
         "Maquinación",
         "Patada Baja"
+      ],
+      "firstMoves": [
+        "Viento Feérico",
+        "Levitón",
+        "Canto"
       ],
       "cause": "",
       "route": "Ruta 22",
@@ -10285,6 +10673,12 @@
         "Umbreozona",
         "Vendaval"
       ],
+      "firstMoves": [
+        "Represión Metal",
+        "Danza Lluvia",
+        "Chulería",
+        "Alud"
+      ],
       "cause": "",
       "route": "Pueblo Paleta",
       "date": ""
@@ -10416,6 +10810,11 @@
         "Tinieblas",
         "Transformación",
         "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Magnitud",
+        "Patada Tropical",
+        "Cepo"
       ],
       "cause": "",
       "route": "Museo Pokémon",
@@ -10590,6 +10989,12 @@
         "Trampa Venenosa",
         "Último Lugar",
         "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Rodillo de Púas",
+        "Deslumbrar",
+        "Bola Hielo",
+        "Defensa Floral"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png",
       "cause": "",
