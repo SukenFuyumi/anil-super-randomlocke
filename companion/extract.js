@@ -28,7 +28,19 @@ function pretty(sym) {
 const moveName = sym => sym ? (MOVES_ES[norm(sym)] || pretty(sym)) : null;
 const speciesTypes = sym => TYPES[norm(sym)] || [];
 const abilityName = sym => sym ? (ABILITIES_ES[norm(sym)] || pretty(sym)) : '';
-const itemName = sym => sym ? (ITEMS_ES[norm(sym)] || pretty(sym)) : '';
+// Nombres ES de objetos custom de Añil que no están en item-es.json (item_log los registra
+// por su símbolo interno). Sin esto saldrían como "Supereviolite", "Greninjite", etc.
+const CUSTOM_ITEMS = {
+  vial:'Vial', pokerider:'Poké Montura', trufa:'Trufa', rocksmashitem:'MO Golpe Roca',
+  cenizassagradas:'Cenizas Sagradas', musclefeather:'Pluma Músculo', ticketbarco:'Ticket Barco',
+  egghatcher:'Incubadora', bonobici:'Bono Bici', flashitem:'MO Destello', cutitem:'MO Corte',
+  leek:'Puerro', albumfotos:'Álbum de Fotos', supereviolite:'Supereviolita', dcapsula:'Cápsula D',
+  decapsula:'Cápsula DE', healthfeather:'Pluma Salud', llaverocket:'Llave Rocket',
+  visorsilph:'Visor Silph', randomabilitycapsule:'Randomizador de Habilidad', resguardo:'Resguardo',
+  blastoisinitex:'Blastoisita X', greninjite:'Greninjita', inteleonite:'Inteleonita',
+  supercapsule:'Supercápsula', anillo:'Anillo', lensoftruth:'Lente de la Verdad',
+};
+const itemName = sym => sym ? (ITEMS_ES[norm(sym)] || CUSTOM_ITEMS[norm(sym)] || pretty(sym)) : '';
 
 // Convierte un hash de stats del save ({HP,ATTACK,...}) al orden [PS,Atk,Def,SpA,SpD,Vel]
 const STAT_KEYS = ['HP', 'ATTACK', 'DEFENSE', 'SPECIAL_ATTACK', 'SPECIAL_DEFENSE', 'SPEED'];
@@ -320,6 +332,21 @@ function extract(buf, playerId, opts = {}) {
   const gyms = {};
   badges.forEach((b, i) => { if (b) gyms['gym' + (i + 1)] = true; });
 
+  // Switches globales del juego que están en ON (índices). La web mapea cada boss/npc a su
+  // switch (config.json) y así resuelve qué combates clave están hechos — dato real del save.
+  const swData = iv(hget(root, 'switches'), '@data');
+  const switchesOn = [];
+  if (Array.isArray(swData)) swData.forEach((v, i) => { if (v) switchesOn.push(i); });
+
+  // Objetos obtenidos: registro propio del juego (item_log.@found_items). Es la fuente de
+  // verdad de qué objetos ha recogido el jugador; robusto aunque el save se edite con pokehex.
+  const foundRaw = iv(hget(root, 'item_log'), '@found_items');
+  let foundItems = [];
+  if (Array.isArray(foundRaw)) {
+    foundItems = [...new Set(foundRaw.map(x => itemName(sname(x))).filter(Boolean))]
+      .sort((a, b) => a.localeCompare(b, 'es'));
+  }
+
   const money = iv(player, '@money') || 0;
   const playSecs = Math.round(iv(stats, '@play_time') || 0);
   const gameLives = iv(gm, '@challenge_lives');
@@ -334,7 +361,7 @@ function extract(buf, playerId, opts = {}) {
     notes: `Importado del save · ${hh}h ${mm}m jugadas · ${money.toLocaleString('es')}₽ · vidas en el juego: ${gameLives ?? '?'}`,
     team, box, graveyard,
     captures,
-    progress: { gyms, bosses: {}, npcs: {}, routes: routesVisited, items: {}, encounters },
+    progress: { gyms, bosses: {}, npcs: {}, routes: routesVisited, items: {}, encounters, switches: switchesOn, foundItems },
   };
 }
 

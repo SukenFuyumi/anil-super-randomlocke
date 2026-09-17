@@ -142,161 +142,160 @@
   ],
   "bosses": [
     {
-      "id": "rival1",
-      "name": "Rival Azul — 1er combate",
+      "id": "rival_lab",
+      "name": "Rival Azul — Laboratorio",
       "location": "Pueblo Paleta",
-      "image": "assets/trainers/azul.png"
+      "image": "assets/trainers/azul.png",
+      "switch": 66
     },
     {
-      "id": "rival_ruta",
-      "name": "Rival Azul — combates de ruta",
-      "location": "Kanto",
-      "image": "assets/trainers/azul.png"
+      "id": "rival_r22",
+      "name": "Rival Azul — Ruta 22",
+      "location": "Ruta 22",
+      "image": "assets/trainers/azul.png",
+      "switch": 70
     },
     {
-      "id": "giovanni",
-      "name": "Giovanni — Team Rocket",
-      "location": "Guarida Rocket",
-      "image": "assets/trainers/giovanni_a.png"
+      "id": "rival_moon",
+      "name": "Rival Azul — Monte Moon",
+      "location": "Monte Moon",
+      "image": "assets/trainers/azul.png",
+      "switch": 72
     },
     {
-      "id": "eliterocket",
-      "name": "Élite Rocket",
+      "id": "rival_celeste",
+      "name": "Rival Azul — Ciudad Celeste",
+      "location": "Ciudad Celeste",
+      "image": "assets/trainers/azul.png",
+      "switch": 76
+    },
+    {
+      "id": "rival_ssanne",
+      "name": "Rival Azul — S.S. Anne",
+      "location": "Ciudad Carmín",
+      "image": "assets/trainers/azul.png",
+      "switch": 87
+    },
+    {
+      "id": "rival_torre",
+      "name": "Rival Azul — Torre Pokémon",
+      "location": "Pueblo Lavanda",
+      "image": "assets/trainers/azul.png",
+      "switch": 93
+    },
+    {
+      "id": "rival_r14",
+      "name": "Rival Azul — Ruta 14",
+      "location": "Ruta 14",
+      "image": "assets/trainers/azul.png",
+      "switch": 189
+    },
+    {
+      "id": "rival_cueva_celeste",
+      "name": "Rival Azul — Cueva Celeste",
+      "location": "Cueva Celeste",
+      "image": "assets/trainers/azul.png",
+      "switch": 234
+    },
+    {
+      "id": "ash",
+      "name": "Ash",
+      "location": "Combate especial",
+      "image": "assets/trainers/red.png",
+      "switch": 143
+    },
+    {
+      "id": "giovanni_azulona",
+      "name": "Giovanni — Casino Azulona",
+      "location": "Ciudad Azulona",
+      "image": "assets/trainers/giovanni_a.png",
+      "switch": 97
+    },
+    {
+      "id": "giovanni_final",
+      "name": "Giovanni — combate final",
       "location": "Team Rocket",
-      "image": "assets/trainers/eliterocket.png"
-    },
-    {
-      "id": "surya",
-      "name": "Surya",
-      "location": "Villano",
-      "image": "assets/trainers/surya.png"
-    },
-    {
-      "id": "atlas",
-      "name": "Atlas",
-      "location": "Villano",
-      "image": "assets/trainers/atlas.png"
+      "image": "assets/trainers/giovanni.png",
+      "switch": 239
     },
     {
       "id": "atenea",
       "name": "Atenea",
       "location": "Villano",
-      "image": "assets/trainers/atenea.png"
+      "image": "assets/trainers/atenea.png",
+      "switch": 88
     },
     {
-      "id": "urano_villano",
-      "name": "Urano — combate especial",
+      "id": "surya",
+      "name": "Surya",
       "location": "Villano",
-      "image": "assets/trainers/urano.png"
+      "image": "assets/trainers/surya.png",
+      "switch": 210
     },
     {
-      "id": "e4_lorelei",
-      "name": "Alto Mando — Lorelei",
-      "type": "Hielo",
+      "id": "surya_final",
+      "name": "Surya — combate final",
+      "location": "Villano",
+      "image": "assets/trainers/surya.png",
+      "switch": 237
+    },
+    {
+      "id": "atlas_atenea",
+      "name": "Atlas y Atenea",
+      "location": "Villano",
+      "image": "assets/trainers/atlas.png",
+      "switch": 236
+    },
+    {
+      "id": "atlas_atenea_final",
+      "name": "Atlas y Atenea — combate final",
+      "location": "Villano",
+      "image": "assets/trainers/atlas.png",
+      "switch": 243
+    },
+    {
+      "id": "vito_leti",
+      "name": "Vito y Leti (Hoenn)",
+      "location": "Hoenn",
+      "image": "assets/trainers/hoenn8.png",
+      "switch": 246
+    },
+    {
+      "id": "alto_mando",
+      "name": "Alto Mando",
       "location": "Liga Pokémon",
-      "image": "assets/trainers/e4_1.png"
-    },
-    {
-      "id": "e4_bruno",
-      "name": "Alto Mando — Bruno",
-      "type": "Lucha",
-      "location": "Liga Pokémon",
-      "image": "assets/trainers/e4_2.png"
-    },
-    {
-      "id": "e4_agatha",
-      "name": "Alto Mando — Agatha",
-      "type": "Fantasma",
-      "location": "Liga Pokémon",
-      "image": "assets/trainers/e4_3.png"
-    },
-    {
-      "id": "e4_lance",
-      "name": "Alto Mando — Lance",
-      "type": "Dragon",
-      "location": "Liga Pokémon",
-      "image": "assets/trainers/e4_4.png"
-    },
-    {
-      "id": "campeon",
-      "name": "Campeón — Azul",
-      "location": "Liga Pokémon",
-      "image": "assets/trainers/campeon.png"
-    },
-    {
-      "id": "hoenn_norman",
-      "name": "Gimnasio Hoenn — Norman",
-      "type": "Normal",
-      "location": "Hoenn",
-      "image": "assets/trainers/hoenn1.png"
-    },
-    {
-      "id": "hoenn_candela",
-      "name": "Gimnasio Hoenn — Candela",
-      "location": "Hoenn",
-      "image": "assets/trainers/hoenn2.png"
-    },
-    {
-      "id": "hoenn_alana",
-      "name": "Gimnasio Hoenn — Alana",
-      "location": "Hoenn",
-      "image": "assets/trainers/hoenn3.png"
-    },
-    {
-      "id": "hoenn_erico",
-      "name": "Gimnasio Hoenn — Erico",
-      "location": "Hoenn",
-      "image": "assets/trainers/hoenn4.png"
-    },
-    {
-      "id": "hoenn_petra",
-      "name": "Gimnasio Hoenn — Petra",
-      "location": "Hoenn",
-      "image": "assets/trainers/hoenn5.png"
-    },
-    {
-      "id": "hoenn_marcial",
-      "name": "Gimnasio Hoenn — Marcial",
-      "location": "Hoenn",
-      "image": "assets/trainers/hoenn6.png"
-    },
-    {
-      "id": "hoenn_plubio",
-      "name": "Gimnasio Hoenn — Plubio",
-      "location": "Hoenn",
-      "image": "assets/trainers/hoenn7.png"
-    },
-    {
-      "id": "hoenn_vito_leti",
-      "name": "Gimnasio Hoenn — Vito y Leti",
-      "location": "Hoenn",
-      "image": "assets/trainers/hoenn8.png"
+      "image": "assets/trainers/e4_1.png",
+      "switch": 248
     }
   ],
   "npcs": [
     {
-      "id": "npc_r1",
-      "name": "Entrenadores Ruta 1",
-      "location": "Ruta 1",
-      "image": "assets/trainers/youngster.png"
+      "id": "npc_bill",
+      "name": "Bill (rescatado)",
+      "location": "Ruta 25",
+      "image": "assets/trainers/youngster.png",
+      "switch": 82
     },
     {
-      "id": "npc_bosque",
-      "name": "Cazabichos del Bosque Verde",
-      "location": "Bosque Verde",
-      "image": "assets/trainers/bugcatcher.png"
+      "id": "npc_fuji",
+      "name": "Sr. Fuji (Pueblo Lavanda)",
+      "location": "Pueblo Lavanda",
+      "image": "assets/trainers/youngster.png",
+      "switch": 104
     },
     {
-      "id": "npc_montemoon",
-      "name": "Entrenadores del Monte Moon",
-      "location": "Monte Moon",
-      "image": "assets/trainers/lass.png"
+      "id": "npc_snorlax",
+      "name": "Snorlax (despertado)",
+      "location": "Rutas 12/16",
+      "image": "assets/trainers/youngster.png",
+      "switch": 107
     },
     {
-      "id": "npc_puente",
-      "name": "Puente de la Curva (Nugget Bridge)",
-      "location": "Ruta 24",
-      "image": "assets/trainers/camper.png"
+      "id": "npc_motoristas",
+      "name": "Motoristas (Ruta Ciclista)",
+      "location": "Ruta Ciclista",
+      "image": "assets/trainers/camper.png",
+      "switch": 208
     }
   ],
   "routes": [

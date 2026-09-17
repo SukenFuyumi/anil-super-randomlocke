@@ -396,6 +396,16 @@ function extraCaptures(pdata) {
 }
 
 /* Checklist de retos con imagen de entrenador (gimnasios / bosses / npcs) */
+// Resuelve el progreso de bosses/npcs a partir de los switches del juego que trae el save
+// (data.progress.switches = índices en ON). Cada entrada de config lleva su "switch".
+// Devuelve un mapa { id: true } compatible con trainerChecklist / la matriz de progresión.
+function resolveSwitchMap(entries, data) {
+  const on = new Set((data && data.progress && data.progress.switches) || []);
+  const out = {};
+  (entries || []).forEach((e) => { if (e.switch != null && on.has(e.switch)) out[e.id] = true; });
+  return out;
+}
+
 function trainerChecklist(items, doneMap) {
   if (!items || !items.length) return `<p class="muted" style="font-size:.85rem">— nada configurado —</p>`;
   return `<div class="trainer-check-grid">${items.map((it) => {

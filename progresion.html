@@ -41,12 +41,33 @@
       renderFooter();
     })();
 
+    // Objetos: no hay matriz por-objeto (el registro del juego es una lista libre por jugador);
+    // mostramos cuántos objetos ha obtenido cada uno.
+    function renderItemsSummary(el) {
+      const header = `<tr><th class="rowhead">Jugador</th><th>Objetos obtenidos</th></tr>`;
+      const rows = PLAYERS.map((p)=>`<tr><td class="rowhead">${escapeHtml(p.name)}</td><td><strong>${(p.data.progress?.foundItems||[]).length}</strong></td></tr>`).join("");
+      el.innerHTML = `<div class="matrix-wrap"><table class="matrix"><thead>${header}</thead><tbody>${rows}</tbody></table></div>`;
+    }
+    // done de una casilla según la categoría (bosses/npcs = por switch del juego)
+    function cellDone(cat, it, p) {
+      if (cat === "bosses" || cat === "npcs") {
+        return it.switch != null && (p.data.progress?.switches || []).includes(it.switch);
+      }
+      let done = !!p.data.progress?.[cat]?.[it.id];
+      if (cat === "routes" && !done) {
+        const c = (p.data.captures||[]).find((x)=>x.route===it.id);
+        if (c && c.status === "captured") done = true;
+      }
+      return done;
+    }
+
     function render(cat) {
-      const items = cat === "items" ? (CFG.groundItems || []) : (CFG[cat] || []);
       const el = document.getElementById("matrix");
+      if (cat === "items") { renderItemsSummary(el); return; }
+      const items = CFG[cat] || [];
       if (!items.length) { el.innerHTML = `<p class="empty-state">Nada configurado en esta categoría (edita <code>data/config.json</code>).</p>`; return; }
 
-      const headLabel = cat === "items" ? "Objeto / pista" : cat === "routes" ? "Ruta / zona" : "Reto";
+      const headLabel = cat === "routes" ? "Ruta / zona" : "Reto";
       const header = `<tr><th class="rowhead">${headLabel}</th>${
         PLAYERS.map((p)=>`<th title="${escapeHtml(p.name)}">${escapeHtml(p.name)}</th>`).join("")
       }<th>Total</th></tr>`;
@@ -54,12 +75,7 @@
       const rows = items.map((it) => {
         let clears = 0;
         const cells = PLAYERS.map((p) => {
-          let done = !!p.data.progress?.[cat]?.[it.id];
-          // rutas: cuenta también captura registrada
-          if (cat === "routes" && !done) {
-            const c = (p.data.captures||[]).find((x)=>x.route===it.id);
-            if (c && c.status === "captured") done = true;
-          }
+          const done = cellDone(cat, it, p);
           if (done) clears++;
           return `<td class="${done?"yes":"no"}">${done?"✓":"·"}</td>`;
         }).join("");
@@ -74,11 +90,7 @@
       const totalsRow = `<tr><td class="rowhead"><strong>Total superado</strong></td>${
         PLAYERS.map((p)=>{
           let n = 0;
-          items.forEach((it)=>{
-            let done = !!p.data.progress?.[cat]?.[it.id];
-            if (cat === "routes" && !done) { const c=(p.data.captures||[]).find((x)=>x.route===it.id); if (c&&c.status==="captured") done=true; }
-            if (done) n++;
-          });
+          items.forEach((it)=>{ if (cellDone(cat, it, p)) n++; });
           return `<td><strong>${n}</strong></td>`;
         }).join("")
       }<td></td></tr>`;

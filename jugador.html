@@ -75,7 +75,7 @@
           <button data-tab="cementerio">Cementerio (${(data.graveyard||[]).length})</button>
           <button data-tab="capturas">Capturas (${(data.captures||[]).length})</button>
           <button data-tab="recuerda">Recuerda mov.</button>
-          <button data-tab="objetos">Objetos (${(cfg.groundItems||[]).filter((it)=>data.progress?.items?.[it.id]).length}/${(cfg.groundItems||[]).length})</button>
+          <button data-tab="objetos">Objetos (${(data.progress?.foundItems||[]).length})</button>
           <button data-tab="progreso">Progreso</button>
         </div>
 
@@ -101,19 +101,15 @@
         ? `<div class="mon-team">${data.graveyard.map((m)=>monCard(m,{dead:true,player:id})).join("")}</div>`
         : `<p class="empty-state">Cementerio vacío.</p>`;
 
-      const gItems = cfg.groundItems || [];
-      if (!gItems.length) {
-        document.getElementById("tab-objetos").innerHTML = `<p class="empty-state">No hay ubicaciones de objetos configuradas. Agrégalas en <code>data/config.json</code>.</p>`;
+      // Objetos REALES obtenidos, leídos del registro del juego (item_log). Se agrupan por
+      // inicial para hojear rápido. Es el dato de verdad del save (no una lista manual).
+      const foundItems = (data.progress?.foundItems || []).slice().sort((a,b)=>a.localeCompare(b,"es"));
+      if (!foundItems.length) {
+        document.getElementById("tab-objetos").innerHTML = `<p class="empty-state">Aún no hay objetos registrados. Se llenan al sincronizar con AnilSync (v1.3.6+). Consulta las ubicaciones de la guía en <a href="objetos.html">Objetos</a>.</p>`;
       } else {
-        const gotN = gItems.filter((it)=>data.progress?.items?.[it.id]).length;
-        const zones=[], byZone={};
-        gItems.forEach((it)=>{ const z=it.zone||"Otros"; if(!byZone[z]){byZone[z]=[];zones.push(z);} byZone[z].push(it); });
         document.getElementById("tab-objetos").innerHTML =
-          `<p class="lead">Objetos obtenidos: <strong>${gotN}/${gItems.length}</strong>. Verde = ya obtenido · gris = pendiente. Consulta todas las ubicaciones en <a href="objetos.html">Objetos</a>.</p>` +
-          zones.map((z)=>`<h3>${escapeHtml(z)}</h3><div class="check-grid">${byZone[z].map((it)=>{
-            const done=!!data.progress?.items?.[it.id];
-            return `<div class="check-item${done?" done":""}"><span class="dot"></span>${escapeHtml(it.note||it.id)}${done?'<span class="tag">✓ obtenido</span>':""}</div>`;
-          }).join("")}</div>`).join("");
+          `<p class="lead">Objetos obtenidos: <strong>${foundItems.length}</strong> (registro del juego). Guía de ubicaciones en <a href="objetos.html">Objetos</a>.</p>` +
+          `<div class="check-grid">${foundItems.map((it)=>`<div class="check-item done"><span class="dot"></span>${escapeHtml(it)}</div>`).join("")}</div>`;
       }
 
       // ----- Progreso -----
@@ -129,9 +125,9 @@
         <h3>Gimnasios</h3>
         ${trainerChecklist(cfg.gyms||[], data.progress?.gyms)}
         <h3>Bosses / combates clave</h3>
-        ${trainerChecklist(cfg.bosses||[], data.progress?.bosses)}
+        ${trainerChecklist(cfg.bosses||[], resolveSwitchMap(cfg.bosses, data))}
         <h3>NPCs</h3>
-        ${trainerChecklist(cfg.npcs||[], data.progress?.npcs)}`;
+        ${trainerChecklist(cfg.npcs||[], resolveSwitchMap(cfg.npcs, data))}`;
 
       // ----- Capturas (pestaña propia) -----
       // correcciones manuales del organizador (el save no distingue regalo/comprado de salvaje)
