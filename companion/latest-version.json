@@ -1,4 +1,4 @@
 {
-  "version": "1.3.3",
-  "notes": "Nuevas marcas de ORIGEN en el tracker: cada Pokémon muestra cómo lo conseguiste (Primer de ruta, Fósil, Regalo, Premio del casino, Comprado, Intercambio NPC, Don Prodigio, Inicial)."
+  "version": "1.3.4",
+  "notes": "Corregidas las MTs del recuerda-movimientos: ahora se muestran bien en la web y el team builder (antes se perdían todas por un error de formato)."
 }

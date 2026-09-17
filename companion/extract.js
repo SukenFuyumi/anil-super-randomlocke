@@ -195,7 +195,9 @@ function extract(buf, playerId, opts = {}) {
     }
   }
 
-  // MTs aprendibles randomizados: global_metadata.@tm_compatibility_random[ESPECIE] = ["MOVE,true"/"MOVE,false", ...]
+  // MTs aprendibles randomizados: global_metadata.@tm_compatibility_random[ESPECIE]
+  // FORMATO REAL (verificado en save): [ [Symbol("MOVE"), true/false], ... ] -> PARES,
+  // no strings "MOVE,true". Se toleran ambos formatos por retro-compatibilidad.
   RAND_TM = {};
   const tmc = iv(gm, '@tm_compatibility_random');
   if (tmc && tmc.__isHash) {
@@ -204,11 +206,17 @@ function extract(buf, playerId, opts = {}) {
       const seen = new Set();
       const learnable = [];
       for (const e of arr) {
-        const str = sname(e); if (!str) continue;
-        const c = str.lastIndexOf(',');
-        if (c < 0) continue;
-        const mv = str.slice(0, c), flag = str.slice(c + 1);
-        if (flag === 'true' && mv && !seen.has(mv)) {
+        let mv, flag;
+        if (Array.isArray(e)) {                 // formato pares [move, bool]
+          mv = sname(e[0]);
+          flag = (e[1] === true || e[1] === 'true');
+        } else {                                 // formato viejo string "MOVE,true"
+          const str = sname(e); if (!str) continue;
+          const c = str.lastIndexOf(','); if (c < 0) continue;
+          mv = str.slice(0, c);
+          flag = (str.slice(c + 1) === 'true');
+        }
+        if (flag && mv && !seen.has(mv)) {
           seen.add(mv);
           const nm = moveName(mv);
           if (nm) learnable.push(nm);
