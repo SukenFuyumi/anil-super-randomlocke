@@ -270,12 +270,14 @@
           : `<span class="lm-ini">${escapeHtml(ini)}</span>`;
         const ls = Array.isArray(m.learnset) ? m.learnset : null;
         const tm = Array.isArray(m.tmMoves) ? m.tmMoves : null;
+        const fm = Array.isArray(m.firstMoves) ? m.firstMoves : null;
         let body = "";
+        if (fm && fm.length) body += `<div class="lm-sub">Iniciales (siempre disponibles)</div><div class="lm-moves">${fm.map((nm) => chip(nm, "Inicial")).join("")}</div>`;
         if (ls && ls.length) body += `<div class="lm-sub">Por nivel</div><div class="lm-moves">${learnChips(ls)}</div>`;
         if (tm && tm.length) body += `<div class="lm-sub">Por MT (aleatorio)</div><div class="lm-moves">${tmChips(tm)}</div>`;
         else if (ls && ls.length) body += `<div class="lm-sub">Por MT (aleatorio)</div><p class="lm-note">MTs sin revelar. En Añil, la compatibilidad con MTs de cada especie se decide al azar la primera vez que la consultas: mete un ${escapeHtml((m.species || "").replace(/\s*\(.*\)/, ""))} al equipo y abre el menú de una MT para que el juego las fije; luego vuelve a guardar con AnilSync.</p>`;
         if (!body) body = `<p class="muted" style="padding:.4rem .2rem;font-size:.82rem">Sin datos de movimientos. El jugador debe actualizar AnilSync y volver a guardar.</p>`;
-        const total = (ls ? ls.length : 0) + (tm ? tm.length : 0);
+        const total = (fm ? fm.length : 0) + (ls ? ls.length : 0) + (tm ? tm.length : 0);
         const key = (m.nickname || "") + "|" + (m.species || "");
         return `<details class="lm-mon"${dead ? "" : " open"} data-key="${escapeHtml(key)}">
           <summary><span class="lm-spr">${img}</span>

@@ -109,6 +109,14 @@ function mon(p) {
   // MTs aprendibles randomizados
   const tmList = RAND_TM[species];
   if (tmList && tmList.length) out.tmMoves = tmList;
+  // Movimientos INICIALES (first_moves): el recuerda-movimientos SIEMPRE los ofrece
+  // (los que el Pokémon tenía al obtenerlo), aunque no tengas la MT. Es un campo
+  // por-Pokémon guardado en el save (sin RNG ni cacheo) -> siempre exacto.
+  const fmArr = iv(p, '@first_moves');
+  if (Array.isArray(fmArr) && fmArr.length) {
+    const fmNames = [...new Set(fmArr.map(x => moveName(sname(x))).filter(Boolean))];
+    if (fmNames.length) out.firstMoves = fmNames;
+  }
   if (fd && fd.spriteId) out.sprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${fd.spriteId}.png`;
   // Campos temporales para calcular "Repetido" (orden de obtención). Se borran antes de guardar.
   out._t = iv(p, '@timeReceived') || 0;

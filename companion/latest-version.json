@@ -1,4 +1,4 @@
 {
-  "version": "1.3.4",
-  "notes": "Corregidas las MTs del recuerda-movimientos: ahora se muestran bien en la web y el team builder (antes se perdían todas por un error de formato)."
+  "version": "1.3.5",
+  "notes": "El recuerda-movimientos ahora muestra también los movimientos INICIALES de cada Pokémon (los que siempre puede re-aprender sin MT, como Escaldar en algunos). Web y team builder actualizados."
 }
