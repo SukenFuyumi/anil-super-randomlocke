@@ -146,126 +146,144 @@
       "name": "Rival Azul — Laboratorio",
       "location": "Pueblo Paleta",
       "image": "assets/trainers/azul.png",
-      "switch": 66
+      "switch": 66,
+      "switchName": "Azul Lab Auxiliar"
     },
     {
       "id": "rival_r22",
       "name": "Rival Azul — Ruta 22",
       "location": "Ruta 22",
       "image": "assets/trainers/azul.png",
-      "switch": 70
+      "switch": 70,
+      "switchName": "Azul Ruta 22"
     },
     {
       "id": "rival_moon",
       "name": "Rival Azul — Monte Moon",
       "location": "Monte Moon",
       "image": "assets/trainers/azul.png",
-      "switch": 72
+      "switch": 72,
+      "switchName": "Rival Mt Moon"
     },
     {
       "id": "rival_celeste",
       "name": "Rival Azul — Ciudad Celeste",
       "location": "Ciudad Celeste",
       "image": "assets/trainers/azul.png",
-      "switch": 76
+      "switch": 76,
+      "switchName": "Rival Celeste"
     },
     {
       "id": "rival_ssanne",
       "name": "Rival Azul — S.S. Anne",
       "location": "Ciudad Carmín",
       "image": "assets/trainers/azul.png",
-      "switch": 87
+      "switch": 87,
+      "switchName": "Rivales en Ss Anne"
     },
     {
       "id": "rival_torre",
       "name": "Rival Azul — Torre Pokémon",
       "location": "Pueblo Lavanda",
       "image": "assets/trainers/azul.png",
-      "switch": 93
+      "switch": 93,
+      "switchName": "Rival en Torre"
     },
     {
       "id": "rival_r14",
       "name": "Rival Azul — Ruta 14",
       "location": "Ruta 14",
       "image": "assets/trainers/azul.png",
-      "switch": 189
+      "switch": 189,
+      "switchName": "Rival Ruta 14"
     },
     {
       "id": "rival_cueva_celeste",
       "name": "Rival Azul — Cueva Celeste",
       "location": "Cueva Celeste",
       "image": "assets/trainers/azul.png",
-      "switch": 234
+      "switch": 234,
+      "switchName": "Azul Celeste"
     },
     {
       "id": "ash",
       "name": "Ash",
       "location": "Combate especial",
       "image": "assets/trainers/red.png",
-      "switch": 143
+      "switch": 143,
+      "switchName": "Ash derrotado"
     },
     {
       "id": "giovanni_azulona",
       "name": "Giovanni — Casino Azulona",
       "location": "Ciudad Azulona",
       "image": "assets/trainers/giovanni_a.png",
-      "switch": 97
+      "switch": 97,
+      "switchName": "Giovanni Azulona derrotado"
     },
     {
       "id": "giovanni_final",
       "name": "Giovanni — combate final",
       "location": "Team Rocket",
       "image": "assets/trainers/giovanni.png",
-      "switch": 239
+      "switch": 239,
+      "switchName": "Giovanni vencido"
     },
     {
       "id": "atenea",
       "name": "Atenea",
       "location": "Villano",
       "image": "assets/trainers/atenea.png",
-      "switch": 88
+      "switch": 88,
+      "switchName": "Atenea derrotada"
     },
     {
       "id": "surya",
       "name": "Surya",
       "location": "Villano",
       "image": "assets/trainers/surya.png",
-      "switch": 210
+      "switch": 210,
+      "switchName": "Surya vencida"
     },
     {
       "id": "surya_final",
       "name": "Surya — combate final",
       "location": "Villano",
       "image": "assets/trainers/surya.png",
-      "switch": 237
+      "switch": 237,
+      "switchName": "Surya Final"
     },
     {
       "id": "atlas_atenea",
       "name": "Atlas y Atenea",
       "location": "Villano",
       "image": "assets/trainers/atlas.png",
-      "switch": 236
+      "switch": 236,
+      "switchName": "Atlas y Atenea"
     },
     {
       "id": "atlas_atenea_final",
       "name": "Atlas y Atenea — combate final",
       "location": "Villano",
       "image": "assets/trainers/atlas.png",
-      "switch": 243
+      "switch": 243,
+      "switchName": "Atlas y Ateana Final"
     },
     {
       "id": "vito_leti",
       "name": "Vito y Leti (Hoenn)",
       "location": "Hoenn",
       "image": "assets/trainers/hoenn8.png",
-      "switch": 246
+      "switch": 246,
+      "switchName": "Vito y Leti"
     },
     {
       "id": "alto_mando",
       "name": "Alto Mando",
       "location": "Liga Pokémon",
       "image": "assets/trainers/e4_1.png",
-      "switch": 248
+      "switch": 248,
+      "switchName": "Alto Mando vencido"
     }
   ],
   "npcs": [
@@ -274,28 +292,32 @@
       "name": "Bill (rescatado)",
       "location": "Ruta 25",
       "image": "assets/trainers/youngster.png",
-      "switch": 82
+      "switch": 82,
+      "switchName": "Bill salvado"
     },
     {
       "id": "npc_fuji",
       "name": "Sr. Fuji (Pueblo Lavanda)",
       "location": "Pueblo Lavanda",
       "image": "assets/trainers/youngster.png",
-      "switch": 104
+      "switch": 104,
+      "switchName": "Fuji salvado"
     },
     {
       "id": "npc_snorlax",
       "name": "Snorlax (despertado)",
       "location": "Rutas 12/16",
       "image": "assets/trainers/youngster.png",
-      "switch": 107
+      "switch": 107,
+      "switchName": "Snorlax 1"
     },
     {
       "id": "npc_motoristas",
       "name": "Motoristas (Ruta Ciclista)",
       "location": "Ruta Ciclista",
       "image": "assets/trainers/camper.png",
-      "switch": 208
+      "switch": 208,
+      "switchName": "Motoristas vencidos"
     }
   ],
   "routes": [
