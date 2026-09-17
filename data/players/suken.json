@@ -12204,6 +12204,1658 @@
       "Vial",
       "Vidasfera",
       "Visor Silph"
+    ],
+    "bag": [
+      {
+        "id": "MYSTICWATER",
+        "name": "Agua Mística",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "OLDAMBER",
+        "name": "Ámbar Viejo",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "CLEARAMULET",
+        "name": "Amuleto Puro",
+        "qty": 2,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "HEAVYDUTYBOOTS",
+        "name": "Botas Gruesas",
+        "qty": 2,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "EJECTBUTTON",
+        "name": "Botón Escape",
+        "qty": 3,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "MACHOBRACE",
+        "name": "Brazal Firme",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "SHELLBELL",
+        "name": "Cascabel Concha",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "ASSAULTVEST",
+        "name": "Chaleco Asalto",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "CHOICEBAND",
+        "name": "Cinta Elección",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "BLACKBELT",
+        "name": "Cinturón Negro",
+        "qty": 2,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "DRAGONFANG",
+        "name": "Colmillo de Dragón",
+        "qty": 2,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "LINKINGCORD",
+        "name": "Cordón Unión",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "GALARICAWREATH",
+        "name": "Corona Galanuez",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "DEEPSEATOOTH",
+        "name": "Diente Marino",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "DUBIOUSDISC",
+        "name": "Disco Extraño",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "FOSSILIZEDDRAKE",
+        "name": "Dracofósil",
+        "qty": 4,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "ELECTIRIZER",
+        "name": "Electrizador",
+        "qty": 2,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "RUSTEDSHIELD",
+        "name": "Escudo Oxidado",
+        "qty": 2,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "THROATSPRAY",
+        "name": "Espray Bucal",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "SAFETYGOGGLES",
+        "name": "Gafa Protectora",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "BLACKGLASSES",
+        "name": "Gafas de Sol",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "CHOICESPECS",
+        "name": "Gafas Elección",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "WISEGLASSES",
+        "name": "Gafas Especiales",
+        "qty": 3,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "RAZORCLAW",
+        "name": "Garra Afilada",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "STEELGEM",
+        "name": "Gema Acero",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "DRAGONGEM",
+        "name": "Gema Dragón",
+        "qty": 2,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "GHOSTGEM",
+        "name": "Gema Fantasma",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "ICEGEM",
+        "name": "Gema Hielo",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "NORMALGEM",
+        "name": "Gema Normal",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "GRASSGEM",
+        "name": "Gema Planta",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "PSYCHICGEM",
+        "name": "Gema Psíquica",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "DARKGEM",
+        "name": "Gema Siniestra",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "POISONGEM",
+        "name": "Gema Veneno",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "AIRBALLOON",
+        "name": "Globo Helio",
+        "qty": 2,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "GRISEOUSORB",
+        "name": "Griseosfera",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "THICKCLUB",
+        "name": "Hueso Grueso",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "ROSEINCENSE",
+        "name": "Incienso Floral",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "PUREINCENSE",
+        "name": "Incienso Puro",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "LAXINCENSE",
+        "name": "Incienso Suave",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "WIDELENS",
+        "name": "Lupa",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "HEARTHFLAMEMASK",
+        "name": "Máscara Horno",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "METRONOME",
+        "name": "Metrónomo",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "TINYMUSHROOM",
+        "name": "Miniseta",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "CHOICESCARF",
+        "name": "Pañuelo Elección",
+        "qty": 2,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "BLUESHARD",
+        "name": "Parte Azul",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "SCOPELENS",
+        "name": "Periscopio",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "WATERSTONE",
+        "name": "Piedra Agua",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "SHINYSTONE",
+        "name": "Piedra Día",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "HARDSTONE",
+        "name": "Piedra Dura",
+        "qty": 2,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "MOONSTONE",
+        "name": "Piedra Lunar",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "FOSSILIZEDDINO",
+        "name": "Plesiofósil",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "QUICKPOWDER",
+        "name": "Polvo Veloz",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "LEEK",
+        "name": "Puerro",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "LUCKYPUNCH",
+        "name": "Puño Suerte",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "LIGHTCLAY",
+        "name": "Refleluz",
+        "qty": 2,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "LEFTOVERS",
+        "name": "Restos",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "METALCOAT",
+        "name": "Revest. Metálico",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "KINGSROCK",
+        "name": "Roca del Rey",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "DAMPROCK",
+        "name": "Roca Lluvia",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "GRASSYSEED",
+        "name": "Semilla Hierba",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "MIRACLESEED",
+        "name": "Semilla Milagro",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "ROOMSERVICE",
+        "name": "Servicio Raro",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "SUPEREVIOLITE",
+        "name": "Supereviolita",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "IRONPLATE",
+        "name": "Tabla Acero",
+        "qty": 2,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "SKYPLATE",
+        "name": "Tabla Cielo",
+        "qty": 2,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "PIXIEPLATE",
+        "name": "Tabla Duende",
+        "qty": 2,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "FISTPLATE",
+        "name": "Tabla Fuerte",
+        "qty": 2,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "BLANKPLATE",
+        "name": "Tabla Neutra",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "REAPERCLOTH",
+        "name": "Tela Terrible",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "ZOOMLENS",
+        "name": "Telescopio",
+        "qty": 2,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "TOXICORB",
+        "name": "Toxisfera",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "ABSORBBULB",
+        "name": "Tubérculo",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "RARECANDY",
+        "name": "Caramelo Raro",
+        "qty": 673,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "TRUFA",
+        "name": "Trufa",
+        "qty": 2,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "HASTYMINT",
+        "name": "Menta Activa",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "SHALOURSABLE",
+        "name": "Galleta Yantra",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "PPMAX",
+        "name": "PP Máximos",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "CENIZASSAGRADAS",
+        "name": "Cenizas Sagradas",
+        "qty": 4,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "CARBOS",
+        "name": "Carburante",
+        "qty": 2,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "ANTIDOTE",
+        "name": "Antídoto",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "QUIETMINT",
+        "name": "Menta Mansa",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "MUSCLEFEATHER",
+        "name": "Pluma Músculo",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "GENTLEMINT",
+        "name": "Menta Amable",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "IRON",
+        "name": "Hierro",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "LAVACOOKIE",
+        "name": "Galleta Lava",
+        "qty": 2,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "DCapsula",
+        "name": "Cápsula D",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "REVIVALHERB",
+        "name": "Hierba Revivir",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "BIGMALASADA",
+        "name": "Malasada Maxi",
+        "qty": 2,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "POTION",
+        "name": "Poción",
+        "qty": 2,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "PARALYZEHEAL",
+        "name": "Antiparalizador",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "FRESHWATER",
+        "name": "Agua Fresca",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "DECapsula",
+        "name": "Cápsula DE",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "HEALTHFEATHER",
+        "name": "Pluma Salud",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "HYPERPOTION",
+        "name": "Hiperpoción",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "RANDOMABILITYCAPSULE",
+        "name": "Randomizador de Habilidad",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "REVIVE",
+        "name": "Revivir",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "ENERGYPOWDER",
+        "name": "Polvo Energía",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "SWEETHEART",
+        "name": "Corazón Dulce",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "RESISTMOCHI",
+        "name": "Mochi Aguante",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "MAXETHER",
+        "name": "Éter Máximo",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "HEAVYBALL",
+        "name": "Peso Ball",
+        "qty": 2,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "GREATBALL",
+        "name": "Super Ball",
+        "qty": 41,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "PREMIERBALL",
+        "name": "Honor Ball",
+        "qty": 14,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "REPEATBALL",
+        "name": "Acopio Ball",
+        "qty": 1,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "FRIENDBALL",
+        "name": "Amigo Ball",
+        "qty": 2,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "DREAMBALL",
+        "name": "Ensueño Ball",
+        "qty": 1,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "TIMERBALL",
+        "name": "Turno Ball",
+        "qty": 2,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "CHERISHBALL",
+        "name": "Gloria Ball",
+        "qty": 1,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "MOONBALL",
+        "name": "Luna Ball",
+        "qty": 1,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "ULTRABALL",
+        "name": "Ultra Ball",
+        "qty": 21,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "NETBALL",
+        "name": "Malla Ball",
+        "qty": 5,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "LUREBALL",
+        "name": "Cebo Ball",
+        "qty": 5,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "QUICKBALL",
+        "name": "Veloz Ball",
+        "qty": 10,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "HEALBALL",
+        "name": "Sana Ball",
+        "qty": 1,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "NESTBALL",
+        "name": "Nido Ball",
+        "qty": 1,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "TM01",
+        "name": "MT01",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM03",
+        "name": "MT03",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM04",
+        "name": "MT04",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM05",
+        "name": "MT05",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM06",
+        "name": "MT06",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM10",
+        "name": "MT10",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM11",
+        "name": "MT11",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM12",
+        "name": "MT12",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM13",
+        "name": "MT13",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM14",
+        "name": "MT14",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM15",
+        "name": "MT15",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM16",
+        "name": "MT16",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM17",
+        "name": "MT17",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM18",
+        "name": "MT18",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM21",
+        "name": "MT21",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM23",
+        "name": "MT23",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM24",
+        "name": "MT24",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM25",
+        "name": "MT25",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM26",
+        "name": "MT26",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM27",
+        "name": "MT27",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM28",
+        "name": "MT28",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM29",
+        "name": "MT29",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM30",
+        "name": "MT30",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM31",
+        "name": "MT31",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM33",
+        "name": "MT33",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM34",
+        "name": "MT34",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM35",
+        "name": "MT35",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM36",
+        "name": "MT36",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM37",
+        "name": "MT37",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM38",
+        "name": "MT38",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM39",
+        "name": "MT39",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM40",
+        "name": "MT40",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM41",
+        "name": "MT41",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM42",
+        "name": "MT42",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM43",
+        "name": "MT43",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM44",
+        "name": "MT44",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM45",
+        "name": "MT45",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM46",
+        "name": "MT46",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM47",
+        "name": "MT47",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM50",
+        "name": "MT50",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM51",
+        "name": "MT51",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM52",
+        "name": "MT52",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM53",
+        "name": "MT53",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM54",
+        "name": "MT54",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM55",
+        "name": "MT55",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM56",
+        "name": "MT56",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM57",
+        "name": "MT57",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM59",
+        "name": "MT59",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM60",
+        "name": "MT60",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM62",
+        "name": "MT62",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM63",
+        "name": "MT63",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM66",
+        "name": "MT66",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM67",
+        "name": "MT67",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM69",
+        "name": "MT69",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM70",
+        "name": "MT70",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM71",
+        "name": "MT71",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM72",
+        "name": "MT72",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM73",
+        "name": "MT73",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM74",
+        "name": "MT74",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM75",
+        "name": "MT75",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM76",
+        "name": "MT76",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM77",
+        "name": "MT77",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM78",
+        "name": "MT78",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM79",
+        "name": "MT79",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM80",
+        "name": "MT80",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM81",
+        "name": "MT81",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM82",
+        "name": "MT82",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM83",
+        "name": "MT83",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM84",
+        "name": "MT84",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM85",
+        "name": "MT85",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM86",
+        "name": "MT86",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM88",
+        "name": "MT88",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM89",
+        "name": "MT89",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM90",
+        "name": "MT90",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM92",
+        "name": "MT92",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM93",
+        "name": "MT93",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM94",
+        "name": "MT94",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM95",
+        "name": "MT95",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM96",
+        "name": "MT96",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM97",
+        "name": "MT97",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM99",
+        "name": "MT99",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM100",
+        "name": "MT100",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM101",
+        "name": "MT101",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM102",
+        "name": "MT102",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM103",
+        "name": "MT103",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM104",
+        "name": "MT104",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM105",
+        "name": "MT105",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM106",
+        "name": "MT106",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM107",
+        "name": "MT107",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM108",
+        "name": "MT108",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM110",
+        "name": "MT110",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM113",
+        "name": "MT113",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM114",
+        "name": "MT114",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM116",
+        "name": "MT116",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM117",
+        "name": "MT117",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM119",
+        "name": "MT119",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM120",
+        "name": "MT120",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM122",
+        "name": "MT122",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM123",
+        "name": "MT123",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM124",
+        "name": "MT124",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM125",
+        "name": "MT125",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "LEPPABERRY",
+        "name": "Baya Zanama",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "LUMBERRY",
+        "name": "Baya Ziuela",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "SITRUSBERRY",
+        "name": "Baya Zidra",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "MAGOBERRY",
+        "name": "Baya Ango",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "PINAPBERRY",
+        "name": "Baya Pinia",
+        "qty": 2,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "POMEGBERRY",
+        "name": "Baya Grana",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "PASSHOBERRY",
+        "name": "Baya Pasio",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "WACANBERRY",
+        "name": "Baya Gualot",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "CHOPLEBERRY",
+        "name": "Baya Pomaro",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "TANGABERRY",
+        "name": "Baya Yecana",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "ROSELIBERRY",
+        "name": "Baya Hibis",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "CHILANBERRY",
+        "name": "Baya Chilan",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "LANSATBERRY",
+        "name": "Baya Zonlan",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "STARFBERRY",
+        "name": "Baya Arabol",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "ENIGMABERRY",
+        "name": "Baya Enigma",
+        "qty": 2,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "ROWAPBERRY",
+        "name": "Baya Magua",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "MARANGABERRY",
+        "name": "Baya Maranga",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "SWAMPERTITE",
+        "name": "Swampertita",
+        "qty": 1,
+        "pocket": "Piedras Mega"
+      },
+      {
+        "id": "GRENINJITE",
+        "name": "Greninjita",
+        "qty": 1,
+        "pocket": "Piedras Mega"
+      },
+      {
+        "id": "INTELEONITE",
+        "name": "Inteleonita",
+        "qty": 1,
+        "pocket": "Piedras Mega"
+      },
+      {
+        "id": "HOUNDOOMINITE",
+        "name": "Houndoomita",
+        "qty": 1,
+        "pocket": "Piedras Mega"
+      },
+      {
+        "id": "SCIZORITE",
+        "name": "Scizorita",
+        "qty": 1,
+        "pocket": "Piedras Mega"
+      },
+      {
+        "id": "CHARIZARDITEX",
+        "name": "Charizardita X",
+        "qty": 1,
+        "pocket": "Piedras Mega"
+      },
+      {
+        "id": "EXCADRITE",
+        "name": "Excadrite",
+        "qty": 1,
+        "pocket": "Piedras Mega"
+      },
+      {
+        "id": "STARAPTITE",
+        "name": "Staraptite",
+        "qty": 1,
+        "pocket": "Piedras Mega"
+      },
+      {
+        "id": "RESETURGE",
+        "name": "Quitaestado",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "XSPATK",
+        "name": "At. Especial X",
+        "qty": 2,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "XACCURACY",
+        "name": "Precisión X",
+        "qty": 2,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "XDEFENSE2",
+        "name": "Defensa X 2",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "XATTACK2",
+        "name": "Ataque X 2",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "DIREHIT3",
+        "name": "Crítico X 3",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "XSPDEF2",
+        "name": "Def. Esp. X 2",
+        "qty": 3,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "XSPATK3",
+        "name": "At. Esp. X 3",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "XATTACK3",
+        "name": "Ataque X 3",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "ITEMURGE",
+        "name": "Activaobjeto",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "XACCURACY3",
+        "name": "Precisión X 3",
+        "qty": 2,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "XSPATK6",
+        "name": "At. Esp. X 6",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "XATTACK",
+        "name": "Ataque X",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "FLUFFYTAIL",
+        "name": "Cola Skitty",
+        "qty": 2,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "POKETOY",
+        "name": "Pokéseñuelo",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "ITEMDROP",
+        "name": "Tiraobjeto",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "RULEBOOK",
+        "name": "Reglamento",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "SUPERROD",
+        "name": "Supercaña",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "VIAL",
+        "name": "Vial",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "POKERIDER",
+        "name": "Poké Montura",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "ROCKSMASHITEM",
+        "name": "MO Golpe Roca",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "ESCAPEROPE",
+        "name": "Cuerda Huida",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "TICKETBARCO",
+        "name": "Ticket Barco",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "EGGHATCHER",
+        "name": "Incubadora",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "BICYCLE",
+        "name": "Bici",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "FLASHITEM",
+        "name": "MO Destello",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "CUTITEM",
+        "name": "MO Corte",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "ALBUMFOTOS",
+        "name": "Álbum de Fotos",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "COINCASE",
+        "name": "Monedero",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "LLAVEROCKET",
+        "name": "Llave Rocket",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "VISORSILPH",
+        "name": "Visor Silph",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "POKEFLUTE",
+        "name": "Poké Flauta",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "MEGARING",
+        "name": "Mega-Aro",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "LENSOFTRUTH",
+        "name": "Lente de la Verdad",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      }
     ]
   }
 }
