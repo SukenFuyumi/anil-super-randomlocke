@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 5,
   "champion": false,
-  "notes": "Importado del save · 32h 5m jugadas · 264,650₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 32h 14m jugadas · 264,650₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "ISRAELÍ",
@@ -33,7 +33,7 @@
       ],
       "ev": [
         42,
-        90,
+        92,
         59,
         60,
         24,
@@ -192,7 +192,7 @@
       ],
       "ev": [
         0,
-        1,
+        3,
         6,
         3,
         1,
@@ -874,31 +874,31 @@
       ]
     },
     {
-      "nickname": "Baldo",
-      "species": "Slowbro",
+      "nickname": "TANQUE",
+      "species": "Swampert",
       "level": 49,
       "types": [
         "Agua",
-        "Psíquico"
+        "Tierra"
       ],
-      "ability": "Justiciero",
-      "nature": "Huraña",
+      "ability": "",
+      "nature": "Agitada",
       "item": "",
       "shiny": false,
       "moves": [
-        "Espeaura",
-        "Chorro de Vapor",
-        "Masa Cósmica",
-        "Luminicola"
+        "Absorbefuerza",
+        "Espora",
+        "Puño Jet",
+        "Taladradora"
       ],
       "origin": "primer_ruta",
       "iv": [
-        13,
-        13,
-        4,
-        25,
-        3,
-        18
+        30,
+        20,
+        10,
+        2,
+        16,
+        4
       ],
       "ev": [
         0,
@@ -909,142 +909,146 @@
         0
       ],
       "abilPool": [
-        "Peluche",
-        "Justiciero"
+        "Terravoltaje"
       ],
       "abilHidden": [
-        "Anticipación"
+        "Voz Fluida"
       ],
       "learnset": [
         {
-          "lvl": 0,
+          "lvl": -1,
+          "m": "Chapoteo Lodo"
+        },
+        {
+          "lvl": -1,
+          "m": "Polvo Ira"
+        },
+        {
+          "lvl": -1,
+          "m": "Gota Vital"
+        },
+        {
+          "lvl": -1,
+          "m": "Relámpago Súbito"
+        },
+        {
+          "lvl": 1,
           "m": "Doble Golpe"
         },
         {
           "lvl": 1,
-          "m": "Sol Matinal"
+          "m": "Disparo Espejo"
         },
         {
           "lvl": 1,
-          "m": "Colmillo Ígneo"
+          "m": "Kinético"
         },
         {
           "lvl": 1,
-          "m": "Viento Feérico"
+          "m": "Acoso"
         },
         {
           "lvl": 1,
-          "m": "Aligerar"
-        },
-        {
-          "lvl": 1,
-          "m": "Deseo Cura"
+          "m": "Homenaje Póstumo"
         },
         {
           "lvl": 9,
-          "m": "Pulimento"
+          "m": "Danza Lluvia"
         },
         {
           "lvl": 12,
-          "m": "Luminicola"
+          "m": "Fertilizante"
         },
         {
           "lvl": 15,
-          "m": "Magnitud"
+          "m": "Cuerno Certero"
         },
         {
-          "lvl": 18,
-          "m": "Isofuerza"
+          "lvl": 20,
+          "m": "Corte"
         },
         {
-          "lvl": 21,
-          "m": "Mandato"
+          "lvl": 20,
+          "m": "Picoteo"
         },
         {
-          "lvl": 24,
-          "m": "Falso Tortazo"
+          "lvl": 25,
+          "m": "Rayo Burbuja"
         },
         {
-          "lvl": 27,
-          "m": "Canto Mortal"
+          "lvl": 25,
+          "m": "Isoguardia"
         },
         {
           "lvl": 30,
-          "m": "Masa Cósmica"
+          "m": "Despejar"
         },
         {
-          "lvl": 33,
-          "m": "Encanto"
-        },
-        {
-          "lvl": 36,
-          "m": "Púas"
-        },
-        {
-          "lvl": 39,
-          "m": "Agarre"
+          "lvl": 35,
+          "m": "Psicorrayo"
         },
         {
           "lvl": 42,
-          "m": "Follaje"
+          "m": "Cepo"
         },
         {
-          "lvl": 45,
-          "m": "Moluscañón"
+          "lvl": 46,
+          "m": "Absorber"
+        },
+        {
+          "lvl": 49,
+          "m": "Agarre"
+        },
+        {
+          "lvl": 56,
+          "m": "Puño Incremento"
+        },
+        {
+          "lvl": 63,
+          "m": "Simún de Arena"
         }
       ],
       "tmMoves": [
+        "Absorbefuerza",
         "Absorber",
         "Alud",
-        "Amnesia",
-        "Anclaje",
         "Asta Drenaje",
-        "Beso Drenaje",
-        "Bomba Ígnea",
-        "Cabeza Sorpresa",
+        "Cadena Virulenta",
+        "Campo de Hierba",
+        "Carámbano",
         "Chorro de Vapor",
-        "Ciclón",
-        "Clemencia",
         "Conversión",
-        "Danza Caos",
-        "Electropico",
-        "Embate Supremo",
-        "Espeaura",
+        "Danza Acuática",
+        "Decoración",
+        "Doble Golpe",
+        "Eco Metálico",
         "Espora",
+        "Estruendo Escama",
         "Finta",
-        "Garra Dragón",
+        "Fuerza Lunar",
+        "Golpe Roca",
         "Hoja Aguda",
         "Infortunio",
-        "Isoguardia",
+        "Lanzarrocas",
         "Láser Doble",
         "Láser Prisma",
-        "Lengüetazo",
-        "Niebla Aromática",
+        "Malicioso",
+        "Megapuño",
+        "Mil Temblores",
+        "Mirada Heladora",
+        "Moluscañón",
         "Nitrocarga",
-        "Nitrochoque",
+        "Núcleo Castigo",
         "Patada Baja",
-        "Picotazo Veneno",
-        "Pin Misil",
-        "Pirueta Helada",
-        "Psicocarga",
-        "Psicocolmillo",
-        "Pulso Cura",
-        "Puño Drenaje",
-        "Puño Incremento",
+        "Picotazo",
+        "Plancha",
         "Relajo",
-        "Relevo",
-        "Rizo Defensa",
-        "Tajo Metralla",
+        "Represalia",
         "Tajo Umbrío",
-        "Tinieblas",
+        "Taladradora",
         "Trampa Rocas",
-        "Trampa Venenosa",
-        "Transformación",
         "Última Palabra",
-        "Último Lugar",
-        "Umbreozona",
-        "Vendaval",
-        "Voltio Cruel"
+        "Umbreozona"
       ]
     }
   ],
@@ -4990,6 +4994,180 @@
       ]
     },
     {
+      "nickname": "Baldo",
+      "species": "Slowbro",
+      "level": 49,
+      "types": [
+        "Agua",
+        "Psíquico"
+      ],
+      "ability": "Justiciero",
+      "nature": "Huraña",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Espeaura",
+        "Chorro de Vapor",
+        "Masa Cósmica",
+        "Luminicola"
+      ],
+      "origin": "primer_ruta",
+      "iv": [
+        13,
+        13,
+        4,
+        25,
+        3,
+        18
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Peluche",
+        "Justiciero"
+      ],
+      "abilHidden": [
+        "Anticipación"
+      ],
+      "learnset": [
+        {
+          "lvl": 0,
+          "m": "Doble Golpe"
+        },
+        {
+          "lvl": 1,
+          "m": "Sol Matinal"
+        },
+        {
+          "lvl": 1,
+          "m": "Colmillo Ígneo"
+        },
+        {
+          "lvl": 1,
+          "m": "Viento Feérico"
+        },
+        {
+          "lvl": 1,
+          "m": "Aligerar"
+        },
+        {
+          "lvl": 1,
+          "m": "Deseo Cura"
+        },
+        {
+          "lvl": 9,
+          "m": "Pulimento"
+        },
+        {
+          "lvl": 12,
+          "m": "Luminicola"
+        },
+        {
+          "lvl": 15,
+          "m": "Magnitud"
+        },
+        {
+          "lvl": 18,
+          "m": "Isofuerza"
+        },
+        {
+          "lvl": 21,
+          "m": "Mandato"
+        },
+        {
+          "lvl": 24,
+          "m": "Falso Tortazo"
+        },
+        {
+          "lvl": 27,
+          "m": "Canto Mortal"
+        },
+        {
+          "lvl": 30,
+          "m": "Masa Cósmica"
+        },
+        {
+          "lvl": 33,
+          "m": "Encanto"
+        },
+        {
+          "lvl": 36,
+          "m": "Púas"
+        },
+        {
+          "lvl": 39,
+          "m": "Agarre"
+        },
+        {
+          "lvl": 42,
+          "m": "Follaje"
+        },
+        {
+          "lvl": 45,
+          "m": "Moluscañón"
+        }
+      ],
+      "tmMoves": [
+        "Absorber",
+        "Alud",
+        "Amnesia",
+        "Anclaje",
+        "Asta Drenaje",
+        "Beso Drenaje",
+        "Bomba Ígnea",
+        "Cabeza Sorpresa",
+        "Chorro de Vapor",
+        "Ciclón",
+        "Clemencia",
+        "Conversión",
+        "Danza Caos",
+        "Electropico",
+        "Embate Supremo",
+        "Espeaura",
+        "Espora",
+        "Finta",
+        "Garra Dragón",
+        "Hoja Aguda",
+        "Infortunio",
+        "Isoguardia",
+        "Láser Doble",
+        "Láser Prisma",
+        "Lengüetazo",
+        "Niebla Aromática",
+        "Nitrocarga",
+        "Nitrochoque",
+        "Patada Baja",
+        "Picotazo Veneno",
+        "Pin Misil",
+        "Pirueta Helada",
+        "Psicocarga",
+        "Psicocolmillo",
+        "Pulso Cura",
+        "Puño Drenaje",
+        "Puño Incremento",
+        "Relajo",
+        "Relevo",
+        "Rizo Defensa",
+        "Tajo Metralla",
+        "Tajo Umbrío",
+        "Tinieblas",
+        "Trampa Rocas",
+        "Trampa Venenosa",
+        "Transformación",
+        "Última Palabra",
+        "Último Lugar",
+        "Umbreozona",
+        "Vendaval",
+        "Voltio Cruel"
+      ]
+    },
+    {
       "nickname": "DERP INVERSO",
       "species": "Clodsire",
       "level": 49,
@@ -8809,15 +8987,15 @@
       "mon": "Scizor"
     },
     {
-      "route": "ciudad_verde",
-      "where": "Ciudad Verde",
-      "species": "Slowbro",
-      "nickname": "Baldo",
+      "route": "ruta_3",
+      "where": "Ruta 3",
+      "species": "Swampert",
+      "nickname": "TANQUE",
       "shiny": false,
       "status": "captured",
-      "category": "ciudad",
-      "level": 4,
-      "mon": "Slowbro"
+      "category": "salvaje",
+      "level": 13,
+      "mon": "Swampert"
     },
     {
       "route": "",
@@ -9128,6 +9306,17 @@
       "mon": "Toxapex"
     },
     {
+      "route": "ciudad_verde",
+      "where": "Ciudad Verde",
+      "species": "Slowbro",
+      "nickname": "Baldo",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 4,
+      "mon": "Slowbro"
+    },
+    {
       "route": "tunel_diglett",
       "where": "Túnel Diglett",
       "species": "Clodsire",
@@ -9396,12 +9585,11 @@
       "ruta_13": true,
       "pueblo_paleta": true,
       "ciudad_fucsia": true,
-      "ciudad_verde": true,
+      "ruta_3": true,
       "ciudad_azulona": true,
       "pueblo_lavanda": true,
       "tunel_roca": true,
       "ruta_10_norte": true,
-      "ruta_3": true,
       "ciudad_celeste": true,
       "ciudad_plateada": true,
       "pueblo_marengo": true,
@@ -9412,6 +9600,7 @@
       "ruta_2_sur": true,
       "ruta_7": true,
       "ruta_10_sur": true,
+      "ciudad_verde": true,
       "tunel_diglett": true,
       "zona_safari": true,
       "ruta_12": true,
@@ -9457,7 +9646,8 @@
       "ruta_17": true,
       "ciudad_plateada": true,
       "ciudad_celeste": true,
-      "ciudad_verde": true
+      "ciudad_verde": true,
+      "ruta_3": true
     }
   }
 }
