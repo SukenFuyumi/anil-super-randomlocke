@@ -4,169 +4,205 @@
   "lives": 30,
   "livesUsed": 5,
   "champion": false,
-  "notes": "Importado del save · 33h 24m jugadas · 248,650₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 33h 25m jugadas · 248,650₽ · vidas en el juego: -1",
   "team": [
     {
-      "nickname": "ISRAELÍ",
-      "species": "Electrode",
+      "nickname": "KILLER POLLO",
+      "species": "Blaziken",
       "level": 49,
       "types": [
-        "Eléctrico"
+        "Fuego",
+        "Lucha"
       ],
-      "ability": "Intimidación",
-      "nature": "Pícara",
-      "item": "Banda Aguante",
+      "ability": "Líbero",
+      "nature": "Floja",
+      "item": "",
       "shiny": false,
       "moves": [
-        "Última Palabra",
-        "Electropico",
-        "Absorbefuerza",
-        "Espora"
+        "Pirueta Helada",
+        "Nitrochoque",
+        "Flarembestida",
+        "Electropico"
       ],
+      "origin": "primer_ruta",
       "iv": [
-        31,
-        19,
-        7,
-        16,
-        26,
-        25
+        17,
+        23,
+        4,
+        18,
+        30,
+        4
       ],
       "ev": [
-        49,
-        96,
-        62,
-        64,
-        25,
-        77
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
       "abilPool": [
-        "Electromotor"
+        "Líbero",
+        "Mutatipo"
       ],
       "abilHidden": [
-        "Intimidación"
+        "Acero Templado"
       ],
       "learnset": [
         {
-          "lvl": 0,
-          "m": "Abatidoras"
+          "lvl": -1,
+          "m": "Campo de Hierba"
+        },
+        {
+          "lvl": -1,
+          "m": "Estrujón"
+        },
+        {
+          "lvl": -1,
+          "m": "Cambiapoder"
+        },
+        {
+          "lvl": -1,
+          "m": "Otra Vez"
+        },
+        {
+          "lvl": -1,
+          "m": "Doble Ataque"
         },
         {
           "lvl": 1,
-          "m": "Electrotela"
+          "m": "Alto Voltaje"
         },
         {
           "lvl": 1,
-          "m": "Danza Lluvia"
+          "m": "Ovocuración"
         },
         {
-          "lvl": 4,
-          "m": "Calcinación"
+          "lvl": 1,
+          "m": "Gas Venenoso"
         },
         {
-          "lvl": 6,
-          "m": "Zona Extraña"
+          "lvl": 1,
+          "m": "Maquinación"
+        },
+        {
+          "lvl": 1,
+          "m": "Enrosque"
+        },
+        {
+          "lvl": 1,
+          "m": "Contraataque"
         },
         {
           "lvl": 9,
-          "m": "Reciclaje"
+          "m": "Voltiocambio"
         },
         {
-          "lvl": 11,
-          "m": "Anticipo"
+          "lvl": 12,
+          "m": "Buena Baza"
         },
         {
-          "lvl": 13,
-          "m": "Ráfaga Escamas"
+          "lvl": 15,
+          "m": "Pistola Agua"
         },
         {
-          "lvl": 16,
-          "m": "Bálsamo Osado"
+          "lvl": 17,
+          "m": "Destructor"
         },
         {
           "lvl": 20,
-          "m": "Gravedad"
+          "m": "Detección"
         },
         {
-          "lvl": 22,
-          "m": "Somnífero"
+          "lvl": 25,
+          "m": "Hipnosis"
         },
         {
-          "lvl": 26,
-          "m": "Cambiafuerza"
+          "lvl": 30,
+          "m": "Geocontrol"
         },
         {
-          "lvl": 29,
-          "m": "Golpe Calor"
+          "lvl": 35,
+          "m": "Camaradería"
         },
         {
-          "lvl": 34,
-          "m": "Levitón"
+          "lvl": 42,
+          "m": "Día Soleado"
         },
         {
-          "lvl": 34,
-          "m": "Premonición"
+          "lvl": 49,
+          "m": "Vendaval"
         },
         {
-          "lvl": 41,
-          "m": "Electormenta"
+          "lvl": 56,
+          "m": "Derribo"
         },
         {
-          "lvl": 46,
-          "m": "Campo Psíquico"
+          "lvl": 59,
+          "m": "Follaje"
         },
         {
-          "lvl": 50,
-          "m": "Estruendo Escama"
+          "lvl": 63,
+          "m": "Hidrobomba"
         }
       ],
       "tmMoves": [
+        "A Defender",
+        "Amnesia",
+        "Anclaje",
         "Antojo",
-        "Asta Drenaje",
-        "Cabeza Sorpresa",
-        "Cadena Virulenta",
-        "Carámbano",
-        "Choque Anímico",
+        "Atadura",
+        "Beso Drenaje",
+        "Bomba Ígnea",
+        "Ciclón",
         "Confusión",
-        "Copión",
-        "Deslome",
-        "Electropico",
+        "Conversión",
+        "Danza Acuática",
+        "Decoración",
+        "Eco Metálico",
+        "Embate Supremo",
         "Espabila",
         "Espeaura",
         "Espora",
-        "Flarembestida",
-        "Fuerza Lunar",
-        "Golpe Roca",
+        "Finta",
+        "Fotosíntesis",
+        "Golpe Oscuro",
         "Golpe Umbrío",
-        "Infortunio",
+        "Hachazo Pétreo",
+        "Hueso Sombrío",
+        "Lanzarrocas",
         "Láser Doble",
-        "Lengüetazo",
         "Llama Protectora",
+        "Malicioso",
+        "Maquinación",
+        "Marcha Espectral",
         "Megapuño",
-        "Mismo Destino",
-        "Núcleo Castigo",
+        "Mil Temblores",
+        "Moluscañón",
+        "Nitrocarga",
         "Patada Baja",
-        "Pirueta Helada",
-        "Plancha",
+        "Picotazo",
+        "Placaje",
         "Plancha Corporal",
         "Psicocarga",
-        "Pulso Cura",
-        "Puño Cometa",
+        "Psicocolmillo",
         "Puño Drenaje",
+        "Puño Incremento",
+        "Puntapié",
         "Puya Nociva",
-        "Relajo",
         "Retracción",
         "Rodillo de Púas",
-        "Sol Matinal",
-        "Tajo Metralla",
-        "Transformación",
-        "Último Lugar",
-        "Vendaval"
+        "Tinieblas",
+        "Trampa Rocas",
+        "Trampa Venenosa",
+        "Vendaval",
+        "Voltio Cruel"
       ],
       "firstMoves": [
-        "Pikaturbo",
-        "Dulce Aroma",
-        "Rencor",
-        "Paralizador"
+        "Poder Oculto",
+        "Bola Voltio",
+        "Autosugestión",
+        "Deseo Cura"
       ]
     },
     {
@@ -772,202 +808,166 @@
       ]
     },
     {
-      "nickname": "KILLER POLLO",
-      "species": "Blaziken",
+      "nickname": "ISRAELÍ",
+      "species": "Electrode",
       "level": 49,
       "types": [
-        "Fuego",
-        "Lucha"
+        "Eléctrico"
       ],
-      "ability": "Líbero",
-      "nature": "Floja",
-      "item": "",
+      "ability": "Intimidación",
+      "nature": "Pícara",
+      "item": "Banda Aguante",
       "shiny": false,
       "moves": [
-        "Pirueta Helada",
-        "Nitrochoque",
-        "Flarembestida",
-        "Electropico"
+        "Última Palabra",
+        "Electropico",
+        "Absorbefuerza",
+        "Espora"
       ],
-      "origin": "primer_ruta",
       "iv": [
-        17,
-        23,
-        4,
-        18,
-        30,
-        4
+        31,
+        19,
+        7,
+        16,
+        26,
+        25
       ],
       "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        49,
+        96,
+        62,
+        64,
+        25,
+        77
       ],
       "abilPool": [
-        "Líbero",
-        "Mutatipo"
+        "Electromotor"
       ],
       "abilHidden": [
-        "Acero Templado"
+        "Intimidación"
       ],
       "learnset": [
         {
-          "lvl": -1,
-          "m": "Campo de Hierba"
-        },
-        {
-          "lvl": -1,
-          "m": "Estrujón"
-        },
-        {
-          "lvl": -1,
-          "m": "Cambiapoder"
-        },
-        {
-          "lvl": -1,
-          "m": "Otra Vez"
-        },
-        {
-          "lvl": -1,
-          "m": "Doble Ataque"
+          "lvl": 0,
+          "m": "Abatidoras"
         },
         {
           "lvl": 1,
-          "m": "Alto Voltaje"
+          "m": "Electrotela"
         },
         {
           "lvl": 1,
-          "m": "Ovocuración"
+          "m": "Danza Lluvia"
         },
         {
-          "lvl": 1,
-          "m": "Gas Venenoso"
+          "lvl": 4,
+          "m": "Calcinación"
         },
         {
-          "lvl": 1,
-          "m": "Maquinación"
-        },
-        {
-          "lvl": 1,
-          "m": "Enrosque"
-        },
-        {
-          "lvl": 1,
-          "m": "Contraataque"
+          "lvl": 6,
+          "m": "Zona Extraña"
         },
         {
           "lvl": 9,
-          "m": "Voltiocambio"
+          "m": "Reciclaje"
         },
         {
-          "lvl": 12,
-          "m": "Buena Baza"
+          "lvl": 11,
+          "m": "Anticipo"
         },
         {
-          "lvl": 15,
-          "m": "Pistola Agua"
+          "lvl": 13,
+          "m": "Ráfaga Escamas"
         },
         {
-          "lvl": 17,
-          "m": "Destructor"
+          "lvl": 16,
+          "m": "Bálsamo Osado"
         },
         {
           "lvl": 20,
-          "m": "Detección"
+          "m": "Gravedad"
         },
         {
-          "lvl": 25,
-          "m": "Hipnosis"
+          "lvl": 22,
+          "m": "Somnífero"
         },
         {
-          "lvl": 30,
-          "m": "Geocontrol"
+          "lvl": 26,
+          "m": "Cambiafuerza"
         },
         {
-          "lvl": 35,
-          "m": "Camaradería"
+          "lvl": 29,
+          "m": "Golpe Calor"
         },
         {
-          "lvl": 42,
-          "m": "Día Soleado"
+          "lvl": 34,
+          "m": "Levitón"
         },
         {
-          "lvl": 49,
-          "m": "Vendaval"
+          "lvl": 34,
+          "m": "Premonición"
         },
         {
-          "lvl": 56,
-          "m": "Derribo"
+          "lvl": 41,
+          "m": "Electormenta"
         },
         {
-          "lvl": 59,
-          "m": "Follaje"
+          "lvl": 46,
+          "m": "Campo Psíquico"
         },
         {
-          "lvl": 63,
-          "m": "Hidrobomba"
+          "lvl": 50,
+          "m": "Estruendo Escama"
         }
       ],
       "tmMoves": [
-        "A Defender",
-        "Amnesia",
-        "Anclaje",
         "Antojo",
-        "Atadura",
-        "Beso Drenaje",
-        "Bomba Ígnea",
-        "Ciclón",
+        "Asta Drenaje",
+        "Cabeza Sorpresa",
+        "Cadena Virulenta",
+        "Carámbano",
+        "Choque Anímico",
         "Confusión",
-        "Conversión",
-        "Danza Acuática",
-        "Decoración",
-        "Eco Metálico",
-        "Embate Supremo",
+        "Copión",
+        "Deslome",
+        "Electropico",
         "Espabila",
         "Espeaura",
         "Espora",
-        "Finta",
-        "Fotosíntesis",
-        "Golpe Oscuro",
+        "Flarembestida",
+        "Fuerza Lunar",
+        "Golpe Roca",
         "Golpe Umbrío",
-        "Hachazo Pétreo",
-        "Hueso Sombrío",
-        "Lanzarrocas",
+        "Infortunio",
         "Láser Doble",
+        "Lengüetazo",
         "Llama Protectora",
-        "Malicioso",
-        "Maquinación",
-        "Marcha Espectral",
         "Megapuño",
-        "Mil Temblores",
-        "Moluscañón",
-        "Nitrocarga",
+        "Mismo Destino",
+        "Núcleo Castigo",
         "Patada Baja",
-        "Picotazo",
-        "Placaje",
+        "Pirueta Helada",
+        "Plancha",
         "Plancha Corporal",
         "Psicocarga",
-        "Psicocolmillo",
+        "Pulso Cura",
+        "Puño Cometa",
         "Puño Drenaje",
-        "Puño Incremento",
-        "Puntapié",
         "Puya Nociva",
+        "Relajo",
         "Retracción",
         "Rodillo de Púas",
-        "Tinieblas",
-        "Trampa Rocas",
-        "Trampa Venenosa",
-        "Vendaval",
-        "Voltio Cruel"
+        "Sol Matinal",
+        "Tajo Metralla",
+        "Transformación",
+        "Último Lugar",
+        "Vendaval"
       ],
       "firstMoves": [
-        "Poder Oculto",
-        "Bola Voltio",
-        "Autosugestión",
-        "Deseo Cura"
+        "Pikaturbo",
+        "Dulce Aroma",
+        "Rencor",
+        "Paralizador"
       ]
     }
   ],
@@ -11005,15 +11005,15 @@
   ],
   "captures": [
     {
-      "route": "ruta_21",
-      "where": "Ruta 21",
-      "species": "Electrode",
-      "nickname": "ISRAELÍ",
+      "route": "ruta_20",
+      "where": "Ruta 20",
+      "species": "Blaziken",
+      "nickname": "KILLER POLLO",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 20,
-      "mon": "Electrode"
+      "level": 19,
+      "mon": "Blaziken"
     },
     {
       "route": "ruta_21",
@@ -11049,15 +11049,15 @@
       "mon": "Mawile"
     },
     {
-      "route": "ruta_20",
-      "where": "Ruta 20",
-      "species": "Blaziken",
-      "nickname": "KILLER POLLO",
+      "route": "ruta_21",
+      "where": "Ruta 21",
+      "species": "Electrode",
+      "nickname": "ISRAELÍ",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 19,
-      "mon": "Blaziken"
+      "level": 20,
+      "mon": "Electrode"
     },
     {
       "route": "",
@@ -11774,10 +11774,10 @@
     "bosses": {},
     "npcs": {},
     "routes": {
+      "ruta_20": true,
       "ruta_21": true,
       "ruta_17": true,
       "ciudad_plateada": true,
-      "ruta_20": true,
       "ciudad_azulona": true,
       "pueblo_lavanda": true,
       "tunel_roca": true,
