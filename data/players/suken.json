@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 5,
   "champion": false,
-  "notes": "Importado del save · 34h 15m jugadas · 248,650₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 34h 27m jugadas · 248,650₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "ISRAELÍ",
@@ -167,7 +167,8 @@
         "Dulce Aroma",
         "Rencor",
         "Paralizador"
-      ]
+      ],
+      "spriteKey": "ELECTRODE"
     },
     {
       "nickname": "FLAMAS",
@@ -337,7 +338,8 @@
         "Rayo Carga",
         "Camaradería"
       ],
-      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10233.png"
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10233.png",
+      "spriteKey": "TYPHLOSION_1"
     },
     {
       "nickname": "CHALAN",
@@ -352,7 +354,7 @@
       "shiny": false,
       "moves": [
         "Anclaje",
-        "Golpe Oscuro",
+        "Viraje",
         "Enrosque",
         "Puño Drenaje"
       ],
@@ -493,7 +495,8 @@
         "Triple Patada",
         "Paralizador",
         "Magnitud"
-      ]
+      ],
+      "spriteKey": "CONKELDURR"
     },
     {
       "nickname": "RACHEL",
@@ -509,7 +512,7 @@
       "shiny": false,
       "moves": [
         "Absorbefuerza",
-        "Plancha",
+        "Taladradora",
         "Tajo Metralla",
         "Hachazo Pétreo"
       ],
@@ -674,7 +677,8 @@
         "Llama Final",
         "Ala de Acero",
         "Bomba Fango"
-      ]
+      ],
+      "spriteKey": "SCIZOR"
     },
     {
       "nickname": "Mr MIKE",
@@ -901,7 +905,8 @@
         "Púas",
         "Camaradería",
         "Cabeza Sorpresa"
-      ]
+      ],
+      "spriteKey": "MRMIME"
     },
     {
       "nickname": "MERYL STRYFE",
@@ -915,7 +920,7 @@
       "item": "Blastoisita X",
       "shiny": false,
       "moves": [
-        "Alud",
+        "Embate Supremo",
         "Truco Floral",
         "Danza Acuática",
         "Flarembestida"
@@ -1071,7 +1076,8 @@
         "Ovocuración",
         "Escaldar",
         "Trampa Rocas"
-      ]
+      ],
+      "spriteKey": "BLASTOISE"
     }
   ],
   "box": [
@@ -1180,7 +1186,8 @@
         "Estrujón",
         "Megaagotar",
         "Otra Vez"
-      ]
+      ],
+      "spriteKey": "CHERRIM"
     },
     {
       "nickname": "Mudsdale",
@@ -1302,7 +1309,8 @@
         "Golpe Aéreo",
         "Fachada",
         "Lanzarrocas"
-      ]
+      ],
+      "spriteKey": "MUDSDALE"
     },
     {
       "nickname": "JIRAFALES",
@@ -1424,7 +1432,8 @@
         "Afilar",
         "Rugido de Guerra",
         "Bomba Imán"
-      ]
+      ],
+      "spriteKey": "FARIGIRAF"
     },
     {
       "nickname": "SANDMAN",
@@ -1567,7 +1576,8 @@
         "Refugio",
         "Psicorrayo",
         "Psicohojas"
-      ]
+      ],
+      "spriteKey": "PALOSSAND"
     },
     {
       "nickname": "EL PRO",
@@ -1707,7 +1717,8 @@
         "Homenaje Póstumo",
         "Cascabel Cura",
         "Impactrueno"
-      ]
+      ],
+      "spriteKey": "ROTOM"
     },
     {
       "nickname": "CALAMIDAD",
@@ -1869,7 +1880,8 @@
         "Pedrada",
         "Limpieza General",
         "Hidropulso"
-      ]
+      ],
+      "spriteKey": "BASCULIN_3"
     },
     {
       "nickname": "JIM",
@@ -2021,7 +2033,8 @@
         "Relajo",
         "Presente",
         "Condena Silvana"
-      ]
+      ],
+      "spriteKey": "LARVESTA"
     },
     {
       "nickname": "DRAGONA",
@@ -2120,7 +2133,8 @@
         "Cascabel Cura",
         "Megaagotar",
         "Onda Simple"
-      ]
+      ],
+      "spriteKey": "ARCTIBAX"
     },
     {
       "nickname": "Gengar",
@@ -2235,12 +2249,62 @@
           "m": "Estruendo Escama"
         }
       ],
+      "tmMoves": [
+        "A Defender",
+        "Absorbefuerza",
+        "Absorber",
+        "Amnesia",
+        "Atadura",
+        "Cadena Virulenta",
+        "Confusión",
+        "Conversión",
+        "Danza Caos",
+        "Deslome",
+        "Doble Golpe",
+        "Eco Metálico",
+        "Espabila",
+        "Espora",
+        "Esquirla Helada",
+        "Estruendo Escama",
+        "Finta",
+        "Glaceoprisma",
+        "Golpe Oscuro",
+        "Golpe Roca",
+        "Golpe Umbrío",
+        "Hoja Aguda",
+        "Hueso Sombrío",
+        "Isoguardia",
+        "Láser Doble",
+        "Láser Prisma",
+        "Malicioso",
+        "Mismo Destino",
+        "Moluscañón",
+        "Niebla Aromática",
+        "Nitrocarga",
+        "Patada Baja",
+        "Picotazo Veneno",
+        "Placaje",
+        "Pulso Cura",
+        "Puntapié",
+        "Puya Nociva",
+        "Relajo",
+        "Relevo",
+        "Represalia",
+        "Rizo Defensa",
+        "Sol Matinal",
+        "Tajo Metralla",
+        "Tinieblas",
+        "Trampa Rocas",
+        "Trampa Venenosa",
+        "Vendaval"
+      ],
       "firstMoves": [
         "Reducción",
         "Poder Pasado",
         "Danza Caos",
         "Represión Metal"
-      ]
+      ],
+      "spriteKey": "GENGAR"
     },
     {
       "nickname": "BLAZE",
@@ -2353,12 +2417,17 @@
         "Absorber",
         "Alud",
         "Anclaje",
+        "Antojo",
         "Asta Drenaje",
+        "Beso Drenaje",
         "Campo de Hierba",
         "Carámbano",
+        "Choque Anímico",
         "Chorro de Vapor",
         "Ciclón",
+        "Clemencia",
         "Confusión",
+        "Copión",
         "Danza Acuática",
         "Danza Caos",
         "Decoración",
@@ -2366,6 +2435,11 @@
         "Deslome",
         "Doble Golpe",
         "Eco Metálico",
+        "Embate Supremo",
+        "Espeaura",
+        "Espora",
+        "Esquirla Helada",
+        "Estruendo Escama",
         "Finta",
         "Flarembestida",
         "Fotosíntesis",
@@ -2373,6 +2447,7 @@
         "Golpe Roca",
         "Hueso Sombrío",
         "Infortunio",
+        "Láser Prisma",
         "Lengüetazo",
         "Maquinación",
         "Niebla Aromática",
@@ -2381,11 +2456,14 @@
         "Placaje",
         "Psicocarga",
         "Puño Cometa",
+        "Puño Drenaje",
         "Puño Incremento",
         "Puntapié",
         "Retracción",
         "Rizo Defensa",
         "Sol Matinal",
+        "Última Palabra",
+        "Umbreozona",
         "Voltio Cruel"
       ],
       "firstMoves": [
@@ -2393,7 +2471,8 @@
         "Conjuro",
         "Mandato",
         "Psicocorte"
-      ]
+      ],
+      "spriteKey": "TINKATUFF"
     },
     {
       "nickname": "PSI",
@@ -2582,7 +2661,8 @@
         "Empapar",
         "Rugido de Guerra",
         "Reciclaje"
-      ]
+      ],
+      "spriteKey": "GOLDUCK"
     },
     {
       "nickname": "Cocun",
@@ -2751,7 +2831,8 @@
       "firstMoves": [
         "Trampa Rocas",
         "Destructor"
-      ]
+      ],
+      "spriteKey": "DUSTOX"
     },
     {
       "nickname": "TAZA",
@@ -2864,7 +2945,8 @@
         "Contraataque",
         "Impresionar",
         "Campo Psíquico"
-      ]
+      ],
+      "spriteKey": "SINISTEA_1"
     },
     {
       "nickname": "GREYMON",
@@ -2981,7 +3063,8 @@
         "Patada Baja",
         "Colmillo Veneno",
         "Destello"
-      ]
+      ],
+      "spriteKey": "DRATINI"
     },
     {
       "nickname": "Majin Buu",
@@ -3175,7 +3258,8 @@
         "Canto Mortal",
         "Cambio de Cancha",
         "Ofrenda"
-      ]
+      ],
+      "spriteKey": "WEAVILE"
     },
     {
       "nickname": "joto",
@@ -3335,7 +3419,8 @@
       "firstMoves": [
         "Batido",
         "Retribución"
-      ]
+      ],
+      "spriteKey": "PIDGEOT"
     },
     {
       "nickname": "PUTA MIERDA3",
@@ -3444,7 +3529,8 @@
         "Trampa Rocas",
         "Esporagodón",
         "Latigazo"
-      ]
+      ],
+      "spriteKey": "GREEDENT"
     },
     {
       "nickname": "AMINGO",
@@ -3602,7 +3688,8 @@
         "Colmillo Ígneo",
         "Puño Bala",
         "Ataque Aéreo"
-      ]
+      ],
+      "spriteKey": "FLAMIGO"
     },
     {
       "nickname": "FANGS",
@@ -3744,7 +3831,8 @@
         "Desahogo",
         "Contraataque",
         "Chulería"
-      ]
+      ],
+      "spriteKey": "ARBOK"
     },
     {
       "nickname": "MIRACULOS",
@@ -3865,7 +3953,8 @@
         "Finta",
         "Gran Ojo",
         "Torbellino"
-      ]
+      ],
+      "spriteKey": "ORBEETLE"
     },
     {
       "nickname": "CAMION",
@@ -3980,7 +4069,8 @@
         "Pikaturbo",
         "Amago",
         "Defensa Férrea"
-      ]
+      ],
+      "spriteKey": "CHARJABUG"
     },
     {
       "nickname": "AL",
@@ -4156,7 +4246,8 @@
         "Barrera Espinosa",
         "Mil Púas Tóxicas",
         "Aguzar"
-      ]
+      ],
+      "spriteKey": "SUDOWOODO"
     },
     {
       "nickname": "DUNAS",
@@ -4318,7 +4409,8 @@
         "Sombra Vil",
         "Ofrenda",
         "Veneno X"
-      ]
+      ],
+      "spriteKey": "BRAMBLEGHAST"
     },
     {
       "nickname": "CRAWLER",
@@ -4494,7 +4586,8 @@
         "Llave Giro",
         "Clavo Cañón",
         "Puño Bala"
-      ]
+      ],
+      "spriteKey": "CRAWDAUNT"
     },
     {
       "nickname": "KING",
@@ -4640,7 +4733,8 @@
         "Cambio de Banda",
         "Telequinesis",
         "Gas Venenoso"
-      ]
+      ],
+      "spriteKey": "POLIWHIRL"
     },
     {
       "nickname": "KILLER POLLO",
@@ -4839,7 +4933,8 @@
         "Bola Voltio",
         "Autosugestión",
         "Deseo Cura"
-      ]
+      ],
+      "spriteKey": "BLAZIKEN"
     },
     {
       "nickname": "LUIGI",
@@ -5030,7 +5125,8 @@
         "Antojo",
         "Voto Planta",
         "Llamarada"
-      ]
+      ],
+      "spriteKey": "BRELOOM"
     },
     {
       "nickname": "CHESPIRITOMB",
@@ -5202,7 +5298,8 @@
         "Rencor",
         "Tajo Umbrío",
         "Danza Lunar"
-      ]
+      ],
+      "spriteKey": "SPIRITOMB"
     },
     {
       "nickname": "BLAZE",
@@ -5382,7 +5479,8 @@
         "Amago",
         "Obstrucción",
         "Arraigo"
-      ]
+      ],
+      "spriteKey": "MAWILE"
     },
     {
       "nickname": "DERP INVERSO",
@@ -5483,6 +5581,7 @@
         "Anclaje",
         "Asta Drenaje",
         "Atadura",
+        "Beso Drenaje",
         "Cadena Virulenta",
         "Campo de Hierba",
         "Carámbano",
@@ -5544,7 +5643,8 @@
         "Danza Caos",
         "Adaptación",
         "Día Soleado"
-      ]
+      ],
+      "spriteKey": "CLODSIRE_1"
     },
     {
       "nickname": "FERRAS",
@@ -5727,7 +5827,8 @@
         "Prensa Metálica",
         "Poder Místico",
         "Pistola Agua"
-      ]
+      ],
+      "spriteKey": "FERROTHORN"
     },
     {
       "nickname": "ZEN",
@@ -5896,7 +5997,8 @@
         "Conjuro",
         "Bastión Final",
         "Bombardeo"
-      ]
+      ],
+      "spriteKey": "DARMANITAN"
     },
     {
       "nickname": "EL 12 MI APA",
@@ -6051,7 +6153,8 @@
         "Antiaéreo",
         "Cortina Plasma",
         "Avivar"
-      ]
+      ],
+      "spriteKey": "PROBOPASS"
     },
     {
       "nickname": "VISIOMANGOS",
@@ -6213,7 +6316,8 @@
         "Encanto",
         "Bote",
         "Ácido Málico"
-      ]
+      ],
+      "spriteKey": "TORTERRA"
     },
     {
       "nickname": "RUNIAR",
@@ -6408,7 +6512,8 @@
         "Neblina",
         "Canon",
         "Barrera"
-      ]
+      ],
+      "spriteKey": "REUNICLUS"
     },
     {
       "nickname": "KILLER POLLO",
@@ -6560,7 +6665,8 @@
         "Golpe Kárate",
         "Seducción",
         "Relevo"
-      ]
+      ],
+      "spriteKey": "STARAPTOR"
     },
     {
       "nickname": "ELXOKAS",
@@ -6797,7 +6903,8 @@
         "Yo Primero",
         "Campo de Hierba",
         "Última Palabra"
-      ]
+      ],
+      "spriteKey": "SHIFTRY"
     },
     {
       "nickname": "TIFÓN",
@@ -6980,7 +7087,8 @@
         "Cuerpo Pesado",
         "Capa Mágica",
         "Bomba Caramelo"
-      ]
+      ],
+      "spriteKey": "GYARADOS"
     },
     {
       "nickname": "DILUVIO",
@@ -7173,7 +7281,8 @@
         "Ofrenda",
         "Camaradería",
         "Ráfaga Escamas"
-      ]
+      ],
+      "spriteKey": "SAMUROTT"
     },
     {
       "nickname": "TECATA",
@@ -7349,7 +7458,8 @@
         "Confusión",
         "Corpulencia",
         "Furia"
-      ]
+      ],
+      "spriteKey": "VENUSAUR"
     },
     {
       "nickname": "XD",
@@ -7494,7 +7604,8 @@
         "Triple Golpe",
         "Testarazo",
         "Plegaria Lunar"
-      ]
+      ],
+      "spriteKey": "BELLIBOLT"
     },
     {
       "nickname": "BONES",
@@ -7652,7 +7763,8 @@
         "Viento Hielo",
         "Ascuas",
         "Deslome"
-      ]
+      ],
+      "spriteKey": "MAROWAK"
     },
     {
       "nickname": "FUERZA G",
@@ -7818,7 +7930,8 @@
         "Meteoros",
         "Fitoimpulso",
         "Placaje"
-      ]
+      ],
+      "spriteKey": "EXCADRILL"
     },
     {
       "nickname": "ABRAMERO",
@@ -7988,7 +8101,8 @@
         "Geocontrol",
         "Rabia",
         "Foco Energía"
-      ]
+      ],
+      "spriteKey": "ALAKAZAM"
     },
     {
       "nickname": "EL FLAMAS",
@@ -8150,7 +8264,8 @@
         "Giro Rápido",
         "Deslumbrar",
         "Rizo Algodón"
-      ]
+      ],
+      "spriteKey": "TALONFLAME"
     },
     {
       "nickname": "DREAMS",
@@ -8319,7 +8434,8 @@
         "Agilidad",
         "Sorpresa",
         "Halloween"
-      ]
+      ],
+      "spriteKey": "HYPNO"
     },
     {
       "nickname": "MONARCA",
@@ -8522,7 +8638,8 @@
         "Cambiadefensa",
         "Encanto",
         "Deseo Cura"
-      ]
+      ],
+      "spriteKey": "CLAYDOL"
     },
     {
       "nickname": "NIDRANA",
@@ -8631,7 +8748,8 @@
         "Fotosíntesis",
         "Destructor",
         "Doble Golpe"
-      ]
+      ],
+      "spriteKey": "SHELGON"
     },
     {
       "nickname": "CORAJE",
@@ -8798,7 +8916,8 @@
         "Doble Patada",
         "Cola Veneno",
         "Acupresión"
-      ]
+      ],
+      "spriteKey": "HOUNDSTONE"
     },
     {
       "nickname": "TANQUE",
@@ -8982,7 +9101,8 @@
         "Fortaleza",
         "Acua Jet",
         "Alto Voltaje"
-      ]
+      ],
+      "spriteKey": "SWAMPERT"
     },
     {
       "nickname": "PIPOMAN",
@@ -9132,7 +9252,8 @@
         "Onda Trueno",
         "Arraigo",
         "Enrosque"
-      ]
+      ],
+      "spriteKey": "POIPOLE"
     },
     {
       "nickname": "VICBOOM",
@@ -9335,7 +9456,8 @@
         "Ultrapuño",
         "Daño Secreto",
         "Puntapié"
-      ]
+      ],
+      "spriteKey": "OVERQWIL_1"
     },
     {
       "nickname": "Wolfy",
@@ -9510,7 +9632,8 @@
         "Trampa Rocas",
         "Picadura",
         "Levitón"
-      ]
+      ],
+      "spriteKey": "TOXAPEX"
     },
     {
       "nickname": "PUTA MIERDA4",
@@ -9631,7 +9754,8 @@
         "Terratemblor",
         "Destello",
         "Acua Jet"
-      ]
+      ],
+      "spriteKey": "FURRET"
     },
     {
       "nickname": "OBDCALAMORSA",
@@ -9750,7 +9874,8 @@
         "Rugido de Guerra",
         "Antiaéreo",
         "Bilis"
-      ]
+      ],
+      "spriteKey": "SEALEO"
     },
     {
       "nickname": "QUE COJONES",
@@ -9876,7 +10001,8 @@
         "Camuflaje",
         "Ataque Rápido",
         "Halloween"
-      ]
+      ],
+      "spriteKey": "SWALOT"
     },
     {
       "nickname": "Baldo",
@@ -10056,7 +10182,8 @@
         "Viento Feérico",
         "Aligerar",
         "Deseo Cura"
-      ]
+      ],
+      "spriteKey": "SLOWBRO"
     },
     {
       "nickname": "TITANIC",
@@ -10228,7 +10355,8 @@
         "Ascuas",
         "Telequinesis",
         "Salmuera"
-      ]
+      ],
+      "spriteKey": "DONDOZO"
     }
   ],
   "graveyard": [
@@ -10367,6 +10495,7 @@
         "Arraigo",
         "Imitación"
       ],
+      "spriteKey": "DIGGERSBY",
       "cause": "",
       "route": "Ciudad Verde",
       "date": ""
@@ -10494,6 +10623,7 @@
         "Levitón",
         "Canto"
       ],
+      "spriteKey": "FLOETTE",
       "cause": "",
       "route": "Ruta 22",
       "date": ""
@@ -10680,6 +10810,7 @@
         "Chulería",
         "Alud"
       ],
+      "spriteKey": "HOUNDOOM",
       "cause": "",
       "route": "Pueblo Paleta",
       "date": ""
@@ -10817,6 +10948,7 @@
         "Patada Tropical",
         "Cepo"
       ],
+      "spriteKey": "POLTCHAGEIST_1",
       "cause": "",
       "route": "Museo Pokémon",
       "date": ""
@@ -10998,6 +11130,7 @@
         "Defensa Floral"
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png",
+      "spriteKey": "RATICATE_1",
       "cause": "",
       "route": "Monte Moon",
       "date": ""
