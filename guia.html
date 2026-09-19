@@ -127,6 +127,28 @@
       </ul>
       <p class="mini">Versión en texto de esta guía: <a href="https://github.com/SukenFuyumi/anil-super-randomlocke/blob/main/SETUP.md" target="_blank" rel="noopener">SETUP.md</a>.</p>
     </div>
+
+    <!-- ============ ACTUALIZAR ============ -->
+    <div class="panel">
+      <h2 style="margin:.2rem 0 .6rem">Mantener tu web al día</h2>
+      <p style="margin:.2rem 0 .7rem">Cuando salgan mejoras de la web (nuevas pestañas, arreglos…), tu copia no se actualiza sola. Pero es fácil, y se divide en dos:</p>
+      <ul class="rules-list">
+        <li><b>Los datos se actualizan solos ✅.</b> AnilSync se auto-actualiza para todos los grupos, así que las mejoras que dependen de la partida (mochila, objetos, combates…) le llegan a tus jugadores en cuanto vuelven a sincronizar. No tienes que hacer nada.</li>
+        <li><b>Solo hay que refrescar el <u>código</u> de la web</b>, y la regla de oro es: <b>reemplaza todo MENOS la carpeta <span class="kbd">data/</span></b> (ahí viven tu <span class="kbd">config.json</span> y las partidas de tus jugadores).</li>
+      </ul>
+      <div class="step"><div class="num">A</div><div class="body">
+        <b>Método fácil (sin programas).</b> Abre la <a href="https://github.com/SukenFuyumi/anil-tracker-template" target="_blank" rel="noopener">plantilla</a> → botón verde <span class="kbd">Code</span> → <span class="kbd">Download ZIP</span>. Descomprímelo y, en TU repo, usa <span class="kbd">Add file → Upload files</span> para arrastrar los archivos nuevos (los <span class="kbd">.html</span>, <span class="kbd">app.js</span>, <span class="kbd">styles.css</span> y la carpeta <span class="kbd">assets</span>). <b>No subas la carpeta <span class="kbd">data/</span>.</b> Confirma (Commit) y en ~1 min tu web ya tiene lo nuevo, con tus datos intactos.
+      </div></div>
+      <div class="step"><div class="num">B</div><div class="body">
+        <b>Método rápido (si usas git).</b> Trae solo el código y respeta tu <span class="kbd">data/</span>:
+        <pre class="kbd" style="display:block;white-space:pre-wrap;padding:.6rem;margin:.5rem 0">git remote add plantilla https://github.com/SukenFuyumi/anil-tracker-template.git
+git fetch plantilla
+git checkout plantilla/main -- '*.html' app.js styles.css assets
+git commit -m "Actualiza la web a la última versión"
+git push</pre>
+      </div></div>
+      <p class="mini">💡 Tu <span class="kbd">data/config.json</span> es tuyo: si una actualización añade campos nuevos al config, cópialos a mano; tus jugadores y tu título no se tocan.</p>
+    </div>
   </main>
 
   <script src="app.js?v=6"></script>
