@@ -191,6 +191,10 @@ async function loadAbilities() { if (!ABILITIES) ABILITIES = (await loadJSON("da
 async function loadForms() { if (!FORMSD) FORMSD = (await loadJSON("data/forms.json")) || {}; return FORMSD; }
 let TCHART = null;
 async function loadTypesChart() { if (!TCHART) TCHART = (await loadJSON("data/types-chart.json")) || {}; return TCHART; }
+// Nº de fotogramas por sprite (clave -> N) para animar las hojas del juego. Solo entra en
+// juego si N>1; los que no están en el manifest se muestran estáticos (frame recortado).
+let FRAMES = null;
+async function loadFrames() { if (!FRAMES) FRAMES = (await loadJSON("data/frames.json")) || {}; return FRAMES; }
 /* Los 18 tipos (clave css -> nombre ES) en orden de tabla */
 const TYPES_CSS_ES = {
   normal: "Normal", fire: "Fuego", water: "Agua", grass: "Planta", electric: "Eléctrico", ice: "Hielo",
@@ -375,6 +379,36 @@ function spriteEl(mon, cls = "mon-sprite") {
   return `<span class="${cls}"><img src="${escapeHtml(primary)}"${superHueStyle(mon)} alt="${escapeHtml(mon.species || "")}" loading="lazy" data-fb='${fb}' data-ini="${escapeHtml(ini)}" onerror="imgFallback(this)"></span>`;
 }
 
+// Sprite ANIMADO (hoja del juego reproducida con Web Animations API). Si el sprite no tiene
+// animación (o no hay manifest), cae al sprite estático normal. Pensado para la ficha grande.
+function animatedSpriteEl(mon, cls = "mon-sprite") {
+  const gkey = mon.spriteKey;
+  const n = (gkey && FRAMES) ? (FRAMES[gkey] || FRAMES[gkey.split("_")[0]] || 1) : 1;
+  if (n <= 1) return spriteEl(mon, cls);
+  const shiny = !!mon.shiny;
+  const sheetKey = FRAMES[gkey] ? gkey : gkey.split("_")[0];
+  const sheet = `${ANIL_SPRITES}/${shiny ? "anim-shiny" : "anim"}/${encodeURIComponent(sheetKey)}.png`;
+  const fbStatic = (spriteChain(mon)[0]) || "";
+  return `<span class="${cls} gspr-anim" data-n="${n}"${superHueStyle(mon)}><img src="${escapeHtml(sheet)}" alt="${escapeHtml(mon.species || "")}" data-static="${escapeHtml(fbStatic)}" onerror="gsprToStatic(this)"></span>`;
+}
+// Si la hoja falla, vuelve al sprite estático sin animación.
+function gsprToStatic(img) {
+  img.onerror = null;
+  const span = img.parentNode; if (span) span.classList.remove("gspr-anim");
+  img.style.animation = "none"; img.style.height = ""; img.style.width = "";
+  if (img.dataset.static) img.src = img.dataset.static;
+}
+// Arranca la animación de todos los .gspr-anim dentro de root (una vez cargada la hoja).
+function initSpriteAnim(root) {
+  (root || document).querySelectorAll(".gspr-anim").forEach((span) => {
+    if (span.dataset.animInit) return; span.dataset.animInit = "1";
+    const img = span.querySelector("img"); const n = +span.dataset.n || 1;
+    if (n <= 1 || !img) return;
+    const go = () => { try { img.animate([{ transform: "translateX(0)" }, { transform: "translateX(-100%)" }], { duration: Math.max(600, n * 80), easing: `steps(${n})`, iterations: Infinity }); } catch (e) {} };
+    if (img.complete && img.naturalWidth) go(); else img.addEventListener("load", go, { once: true });
+  });
+}
+
 /* Fila de mini-sprites del equipo (para tarjetas de jugador).
    opts.labels = muestra mote + especie bajo cada sprite. */
 function teamSpritesRow(team, opts = {}) {
@@ -471,7 +505,7 @@ function formDataFor(species) {
 }
 
 async function openMonPopup(mon, ctx = {}) {
-  await Promise.all([loadPokedex(), loadPokedexFull(), loadMovesFull(), loadAbilities(), loadForms(), loadTypesChart()]);
+  await Promise.all([loadPokedex(), loadPokedexFull(), loadMovesFull(), loadAbilities(), loadForms(), loadTypesChart(), loadFrames()]);
   const id = speciesDexId(mon.species);
   const dex = (PDEX && PDEX[id]) || null;
   const fd = formDataFor(mon.species);
@@ -549,7 +583,7 @@ async function openMonPopup(mon, ctx = {}) {
   const html = `<div class="pm-modal" role="dialog" aria-modal="true" style="border-top:5px solid var(--type-${t0})">
     <button type="button" class="pm-close" aria-label="Cerrar" onclick="closeMonPopup()">✕</button>
     <div class="pm-head" style="background:linear-gradient(180deg, color-mix(in srgb, var(--type-${t0}) 20%, var(--panel)), var(--panel))">
-      ${spriteEl(mon, "mon-sprite pm-sprite")}
+      ${animatedSpriteEl(mon, "mon-sprite pm-sprite")}
       <div class="pm-headinfo">
         <div class="pm-nick">${escapeHtml(mon.nickname || mon.species || "?")}${mon.shiny ? " " + shinyStar(14) : ""}</div>
         <div class="pm-species">${escapeHtml(mon.species || "")} <span class="pm-lvl">Nv. ${escapeHtml(mon.level ?? "?")}</span>${mon.dup ? ` <span class="pm-hid" title="Repetido (misma especie ya presente en equipo/PC/cementerio)">Repetido</span>` : (mon.extra ? ` <span class="pm-hid" title="Captura extra (Contador de Capturas)">Extra</span>` : "")}${mon.origin && ORIGIN_LABELS[mon.origin] ? ` <span class="pm-hid" title="Origen">${escapeHtml(ORIGIN_LABELS[mon.origin].t)}</span>` : ""}</div>
@@ -584,6 +618,7 @@ async function openMonPopup(mon, ctx = {}) {
   ov.classList.add("show");
   ov.onclick = (e) => { if (e.target === ov) closeMonPopup(); };
   document.addEventListener("keydown", pmEsc);
+  initSpriteAnim(ov); // arranca la animación del sprite de la ficha
 
   // interacción: movimientos y habilidades muestran descripción
   const detail = ov.querySelector("#pmDetail");

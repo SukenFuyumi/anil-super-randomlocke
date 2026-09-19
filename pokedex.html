@@ -8,7 +8,7 @@
   <meta http-equiv="Expires" content="0" />
 <title>Pokédex · Pokémon Añil Randomlocke</title>
   <meta name="color-scheme" content="light dark" />
-  <link rel="stylesheet" href="styles.css?v=3" />
+  <link rel="stylesheet" href="styles.css?v=4" />
   <style>
     .dex-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(150px,100%),1fr)); gap:.6rem; margin-top:1rem; }
     .dex-card { background:var(--panel); border:1px solid var(--border); border-radius:var(--radius); padding:.6rem; text-align:center; color:var(--text); display:block; }
@@ -40,7 +40,7 @@
     <label class="dex-forms-toggle"><input type="checkbox" id="showForms" checked> Mostrar formas (megas y regionales)</label>
     <div class="dex-grid" id="grid"><p class="muted">Cargando…</p></div>
   </main>
-  <script src="app.js?v=8"></script>
+  <script src="app.js?v=9"></script>
   <script>
     const TYPES_ES = ["Normal","Fuego","Agua","Planta","Eléctrico","Hielo","Lucha","Veneno","Tierra","Volador","Psíquico","Bicho","Roca","Fantasma","Dragón","Siniestro","Acero","Hada"];
     let DEXF, FORMS, entries, activeType = "", query = "", showForms = true;
