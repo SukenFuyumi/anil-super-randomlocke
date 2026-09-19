@@ -493,6 +493,14 @@ img.player-avatar.xl { padding: 6px; }
 .pm-foot { padding: 0 1.2rem 1.1rem; display: flex; justify-content: flex-end; flex-wrap: wrap; gap: .4rem 1.2rem; }
 .pm-foot a { font-weight: 700; font-size: .85rem; }
 
+/* Tipo defensivo (debilidades/resistencias/inmunidades) en el popup de ficha */
+.pm-eff { margin: 0 1.2rem .4rem; }
+.pm-eff-row { display: flex; align-items: flex-start; gap: .5rem; margin-top: .35rem; }
+.pm-eff-lbl { flex: 0 0 4.5rem; font-size: .78rem; font-weight: 700; color: var(--text-muted); padding-top: .18rem; }
+.pm-eff-list { display: flex; flex-wrap: wrap; gap: .3rem; }
+.pm-eff-chip { display: inline-flex; align-items: center; gap: .25rem; padding: .12rem .45rem; border-radius: 999px; font-size: .72rem; font-weight: 600; color: #fff; text-shadow: 0 1px 1px #0004; }
+.pm-eff-chip b { font-weight: 800; }
+
 /* modal de info de un movimiento */
 .mi-modal { position: relative; background: var(--panel); border: 1px solid var(--border); border-radius: 14px; width: min(420px, 100%); box-shadow: 0 12px 40px #0006; margin: auto; padding: 1.1rem 1.2rem 1.2rem; }
 .mi-name { font-size: 1.35rem; font-weight: 800; margin-bottom: .4rem; }

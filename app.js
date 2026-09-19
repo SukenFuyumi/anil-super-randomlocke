@@ -442,7 +442,7 @@ function formDataFor(species) {
 }
 
 async function openMonPopup(mon, ctx = {}) {
-  await Promise.all([loadPokedex(), loadPokedexFull(), loadMovesFull(), loadAbilities(), loadForms()]);
+  await Promise.all([loadPokedex(), loadPokedexFull(), loadMovesFull(), loadAbilities(), loadForms(), loadTypesChart()]);
   const id = speciesDexId(mon.species);
   const dex = (PDEX && PDEX[id]) || null;
   const fd = formDataFor(mon.species);
@@ -500,6 +500,16 @@ async function openMonPopup(mon, ctx = {}) {
   const typesArr = fd ? fd.types : (mon.types || []);
   const t0 = typeKey(typesArr[0] || "");
   const types = typesArr.map((t) => typeBadge(t, true)).join(" ");
+
+  // Tipo defensivo: debilidades / resistencias / inmunidades (según los tipos del Pokémon)
+  const eff = typeMatchups(typesArr);
+  const multLbl = (m) => m === 0 ? "×0" : m === 0.25 ? "×¼" : m === 0.5 ? "×½" : m === 4 ? "×4" : "×" + m;
+  const effChip = (o) => `<span class="pm-eff-chip" style="background:var(--type-${o.key})">${TYPES_CSS_ES[o.key]} <b>${multLbl(o.m)}</b></span>`;
+  const effRow = (lbl, arr) => `<div class="pm-eff-row"><span class="pm-eff-lbl">${lbl}</span><div class="pm-eff-list">${arr.length ? arr.map(effChip).join("") : '<span class="muted">—</span>'}</div></div>`;
+  const effHtml = typesArr.length
+    ? `<div class="pm-field pm-eff"><div class="pm-k">Tipo defensivo <span class="muted">· cómo le pegan los ataques</span></div>
+        ${effRow("Débil", eff.weak)}${effRow("Resiste", eff.resist)}${effRow("Inmune", eff.immune)}</div>`
+    : "";
   const href = pokemonHref(mon.species);
   const recuerdaHref = (ctx.player && Array.isArray(mon.learnset))
     ? `jugador.html?id=${encodeURIComponent(ctx.player)}&mon=${encodeURIComponent((mon.nickname || "") + "|" + (mon.species || ""))}#recuerda`
@@ -535,6 +545,7 @@ async function openMonPopup(mon, ctx = {}) {
         <div class="pm-detail show" id="pmDetail"><p class="pm-detail-hint">Toca una habilidad o un movimiento para ver qué hace.</p></div>
       </div>
     </div>
+    ${effHtml}
     ${(recuerdaHref || href) ? `<div class="pm-foot">${recuerdaHref ? `<a href="${recuerdaHref}">Ver recuerda movimientos →</a>` : ""}${href ? `<a href="${href}">Ver ficha completa en la Pokédex →</a>` : ""}</div>` : ""}
   </div>`;
 
