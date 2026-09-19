@@ -135,6 +135,37 @@ function speciesDexId(species) {
   if (/^\d+$/.test(key)) return +key;
   return null;
 }
+// Sprites del JUEGO (repo compartido anil-sprites, servido por GitHub Pages). Fieles al
+// juego: incluyen shiny reales, fakemon y megas/formas custom. La clave (mon.spriteKey) la
+// exporta AnilSync (ID interno + forma). Si falta el archivo, se cae a PokeAPI (ver spriteChain).
+const ANIL_SPRITES = "https://sukenfuyumi.github.io/anil-sprites";
+// Únicas 3 especies con matiz propio de super-shiny (el resto: super-shiny = shiny).
+const SUPER_SHINY_HUE = { ABOMASNOW: 100, ACCELGOR: -160, DARKRAI_1: -85 };
+function gameSpriteURL(key, shiny) { return `${ANIL_SPRITES}/${shiny ? "front-shiny" : "front"}/${encodeURIComponent(key)}.png`; }
+// Cadena de URLs de sprite para un Pokémon: primero el del juego (forma → base, versión shiny
+// si aplica), luego respaldos de PokeAPI. La usa imgFallback vía data-fb.
+function spriteChain(mon) {
+  const shiny = !!mon.shiny;
+  const ani = speciesAniSprite(mon.species), stat = speciesSprite(mon.species);
+  const chain = [];
+  const gkey = mon.spriteKey;
+  if (gkey) {
+    const base = gkey.split("_")[0];
+    chain.push(gameSpriteURL(gkey, shiny));
+    if (base !== gkey) chain.push(gameSpriteURL(base, shiny));
+    if (shiny) { chain.push(gameSpriteURL(gkey, false)); if (base !== gkey) chain.push(gameSpriteURL(base, false)); }
+  }
+  if (mon.sprite) chain.push(mon.sprite);
+  if (ani) chain.push(ani);
+  if (stat) chain.push(stat);
+  return [...new Set(chain.filter(Boolean))];
+}
+// Estilo de recoloreo para las 3 especies super-shiny con matiz propio (resto: sin filtro).
+function superHueStyle(mon) {
+  if (!mon || !mon.superShiny || !mon.spriteKey) return "";
+  const h = SUPER_SHINY_HUE[mon.spriteKey];
+  return h != null ? ` style="filter:hue-rotate(${h}deg)"` : "";
+}
 function speciesSprite(species) {
   const id = speciesDexId(species);
   return id ? `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png` : null;
@@ -336,14 +367,12 @@ function imgFallback(img) {
 
 function spriteEl(mon, cls = "mon-sprite") {
   const ini = initials(mon.species || mon.nickname);
-  const ani = speciesAniSprite(mon.species), stat = speciesSprite(mon.species);
-  let primary, fb;
-  if (mon.sprite) { primary = mon.sprite; fb = [ani, stat]; }
-  else if (ani) { primary = ani; fb = [stat]; }
-  else { return `<div class="${cls}">${escapeHtml(ini)}</div>`; }
-  fb = JSON.stringify(fb.filter((u) => u && u !== primary));
+  const chain = spriteChain(mon);
+  if (!chain.length) return `<div class="${cls}">${escapeHtml(ini)}</div>`;
+  const primary = chain[0];
+  const fb = JSON.stringify(chain.slice(1));
   // envuelto en un círculo que NO recorta el sprite (overflow visible)
-  return `<span class="${cls}"><img src="${escapeHtml(primary)}" alt="${escapeHtml(mon.species || "")}" loading="lazy" data-fb='${fb}' data-ini="${escapeHtml(ini)}" onerror="imgFallback(this)"></span>`;
+  return `<span class="${cls}"><img src="${escapeHtml(primary)}"${superHueStyle(mon)} alt="${escapeHtml(mon.species || "")}" loading="lazy" data-fb='${fb}' data-ini="${escapeHtml(ini)}" onerror="imgFallback(this)"></span>`;
 }
 
 /* Fila de mini-sprites del equipo (para tarjetas de jugador).
@@ -353,12 +382,12 @@ function teamSpritesRow(team, opts = {}) {
   const labels = !!opts.labels;
   return `<div class="team-mini${labels ? " labeled" : ""}">${team.slice(0, 6).map((m) => {
     const ini = initials(m.species || m.nickname);
-    const ani = speciesAniSprite(m.species), stat = speciesSprite(m.species);
-    const primary = m.sprite || ani || stat;
+    const chain = spriteChain(m);
+    const primary = chain[0];
     const title = escapeHtml((m.nickname || "") + (m.species ? " (" + m.species + ")" : ""));
-    const fb = JSON.stringify([m.sprite ? ani : null, stat].filter((u) => u && u !== primary));
+    const fb = JSON.stringify(chain.slice(1));
     const img = primary
-      ? `<img src="${escapeHtml(primary)}" alt="" title="${title}" loading="lazy" data-fb='${fb}' data-ini="${escapeHtml(ini)}" data-fbclass="team-mini-x" onerror="imgFallback(this)">`
+      ? `<img src="${escapeHtml(primary)}"${superHueStyle(m)} alt="" title="${title}" loading="lazy" data-fb='${fb}' data-ini="${escapeHtml(ini)}" data-fbclass="team-mini-x" onerror="imgFallback(this)">`
       : `<span class="team-mini-x" title="${escapeHtml(m.nickname || "")}">${escapeHtml(ini)}</span>`;
     if (!labels) return img;
     return `<span class="tm-cell">${img}<span class="tm-nick">${escapeHtml(m.nickname || m.species || "?")}${m.shiny ? " " + shinyStar(9) : ""}</span><span class="tm-sp">${escapeHtml(m.species || "")}</span></span>`;

@@ -13,7 +13,7 @@ const { extract } = require('./extract.js');
 const IS_PKG = !!process.pkg;
 const BASE_DIR = IS_PKG ? path.dirname(process.execPath) : __dirname;
 const CONFIG_PATH = path.join(BASE_DIR, 'config.json');
-const VERSION = '1.3.7';
+const VERSION = '1.3.8';
 
 // Fuente OFICIAL de actualizaciones del programa (NO depende del repo del grupo).
 // Así, cualquier mejora de AnilSync que se publique aquí llega a TODOS los grupos,

@@ -64,7 +64,7 @@
 </head>
 <body>
   <main class="container" id="root"><p class="muted">Cargando…</p></main>
-  <script src="app.js?v=7"></script>
+  <script src="app.js?v=8"></script>
   <script>
     const STAT_LBL = ["PS", "Ataque", "Defensa", "At. Esp.", "Def. Esp.", "Velocidad"];
     (async function () {
@@ -90,7 +90,9 @@
       document.title = p.n + " · Pokédex Añil";
       const t0 = typeKey(p.t[0]);
       const total = (p.st || []).reduce((a, b) => a + (b || 0), 0);
-      const staticSprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${formSpriteId}.png`;
+      // Megas/formas custom de Añil usan el sprite del JUEGO (gspr); el resto, PokeAPI.
+      const staticSprite = (fm && fm.gspr) ? `${ANIL_SPRITES}/front/${fm.gspr}.png`
+        : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${formSpriteId}.png`;
       const aniSprite = fm ? staticSprite : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${id}.gif`;
       const baseStaticSprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
       const barColor = (v) => v >= 100 ? "var(--ok)" : v >= 60 ? "var(--accent)" : v >= 35 ? "var(--warn)" : "var(--bad)";
@@ -164,7 +166,7 @@
         const cur = formIdx != null && +formIdx === idx;
         return `<a class="form-card${cur ? " cur" : ""}" href="pokemon.html?id=${id}&form=${idx}">
           <div class="form-art" style="background:color-mix(in srgb, var(--type-${k0}) 16%, var(--subtle-bg))">
-            <img src="${spr(fm.spr || id)}" alt="${escapeHtml(fm.n)}" loading="lazy" onerror="this.onerror=null;this.src='${spr(id)}'">
+            <img src="${fm.gspr ? `${ANIL_SPRITES}/front/${fm.gspr}.png` : spr(fm.spr || id)}" alt="${escapeHtml(fm.n)}" loading="lazy" onerror="this.onerror=null;this.src='${spr(id)}'">
           </div>
           <div class="form-body">
             <div class="form-name">${escapeHtml(fm.n)} ${kindBadge}</div>

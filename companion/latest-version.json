@@ -1,4 +1,4 @@
 {
-  "version": "1.3.7",
-  "notes": "La pestaña Objetos ahora muestra tu mochila real con iconos del juego y la cantidad de cada objeto. Vuelve a sincronizar para verla."
+  "version": "1.3.8",
+  "notes": "Los sprites de la web ahora son los del propio juego: shiny y super-shiny reales, fakemon y megas/formas custom. Vuelve a sincronizar para que tu equipo se vea con los sprites correctos."
 }
