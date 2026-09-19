@@ -130,6 +130,20 @@ function mon(p) {
     if (fmNames.length) out.firstMoves = fmNames;
   }
   if (fd && fd.spriteId) out.sprite = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${fd.spriteId}.png`;
+  // Sprite del JUEGO (repo anil-sprites): clave = ID interno + forma (BLASTOISE, BLASTOISE_2...).
+  // La web arma front/<key>.png o front-shiny/<key>.png; así shiny y fakemon/megas salen fieles.
+  out.spriteKey = species + (form ? '_' + form : '');
+  // Super-shiny: mismo cálculo que el juego (personalID ^ ownerID; si el XOR de sus dos
+  // mitades de 16 bits es 0). Implica shiny. La web recolorea las 3 especies con matiz propio.
+  {
+    const pid = iv(p, '@personalID');
+    const owner = iv(p, '@owner');
+    const oid = owner ? iv(owner, '@id') : null;
+    if (pid != null && oid != null) {
+      const a = (pid ^ oid) >>> 0;
+      if (((a & 0xFFFF) ^ ((a >>> 16) & 0xFFFF)) === 0) out.superShiny = true;
+    }
+  }
   // Campos temporales para calcular "Repetido" (orden de obtención). Se borran antes de guardar.
   out._t = iv(p, '@timeReceived') || 0;
   out._pid = iv(p, '@personalID') || 0;
