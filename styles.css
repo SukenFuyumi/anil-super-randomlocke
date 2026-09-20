@@ -438,6 +438,8 @@ img.player-avatar.xl { padding: 6px; }
 .gspr-anim { overflow: visible; }
 .gspr-anim .gspr-frame { height: 78%; aspect-ratio: 1; overflow: hidden; display: flex; align-items: center; justify-content: flex-start; border-radius: inherit; }
 .gspr-anim .gspr-frame img { flex: none; height: 100%; width: auto; max-width: none; object-fit: fill; image-rendering: pixelated; will-change: transform; }
+/* gana a reglas más específicas del contexto (p.ej. .team-mini.labeled .tm-cell img fija cuadrado) */
+.team-mini .gspr-frame img, .team-mini.labeled .tm-cell .gspr-frame img { height: 100%; width: auto; }
 .gspr-static img, img.gspr-static-img { transform: scale(.78); }
 .team-mini .gspr-anim { width: 80px; height: 80px; flex: 0 0 auto; display: inline-flex; align-items: center; justify-content: center; }
 .team-mini.labeled .tm-cell .gspr-anim { width: 62px; height: 62px; }
