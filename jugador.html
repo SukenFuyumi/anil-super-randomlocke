@@ -15,7 +15,7 @@
     <p class="muted">Cargando…</p>
   </main>
 
-  <script src="app.js?v=9"></script>
+  <script src="app.js?v=10"></script>
   <script>
     (async function () {
       const cfg = await loadConfig();
@@ -32,6 +32,7 @@
       }
 
       const data = (await loadPlayer(id)) || emptyPlayerData(meta);
+      await loadFrames(); // nº de fotogramas para animar los sprites de las tarjetas
       const dispName = meta.displayName || data.name || meta.name;
       document.title = dispName + " · Randomlocke";
       const s = playerStats(data, meta.revividos);
@@ -100,6 +101,7 @@
       document.getElementById("tab-cementerio").innerHTML = (data.graveyard||[]).length
         ? `<div class="mon-team">${data.graveyard.map((m)=>monCard(m,{dead:true,player:id})).join("")}</div>`
         : `<p class="empty-state">Cementerio vacío.</p>`;
+      initSpriteAnim(document); // anima los sprites de las tarjetas (equipo/caja/cementerio)
 
       // Mochila REAL del jugador: icono del juego + nombre + cantidad, agrupada por bolsillo.
       // Es el contenido actual del save (assets/items/<ID>.png = mismo icono que en el juego).

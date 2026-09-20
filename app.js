@@ -369,42 +369,48 @@ function imgFallback(img) {
   }
 }
 
+// Sprite del juego. Si tiene animación (>1 fotograma en el manifest) usa la HOJA y se anima
+// con initSpriteAnim; si no, muestra el frame estático con cadena de fallback a PokeAPI.
 function spriteEl(mon, cls = "mon-sprite") {
   const ini = initials(mon.species || mon.nickname);
+  const gkey = mon.spriteKey;
+  const n = (gkey && FRAMES) ? (FRAMES[gkey] || FRAMES[gkey.split("_")[0]] || 1) : 1;
+  if (n > 1) {
+    const shiny = !!mon.shiny;
+    const sheetKey = FRAMES[gkey] ? gkey : gkey.split("_")[0];
+    const sheet = `${ANIL_SPRITES}/${shiny ? "anim-shiny" : "anim"}/${encodeURIComponent(sheetKey)}.png`;
+    const fbStatic = spriteChain(mon)[0] || "";
+    return `<span class="${cls} gspr-anim"${superHueStyle(mon)}><img src="${escapeHtml(sheet)}" alt="${escapeHtml(mon.species || "")}" loading="lazy" data-static="${escapeHtml(fbStatic)}" onerror="gsprToStatic(this)"></span>`;
+  }
   const chain = spriteChain(mon);
   if (!chain.length) return `<div class="${cls}">${escapeHtml(ini)}</div>`;
   const primary = chain[0];
   const fb = JSON.stringify(chain.slice(1));
-  // envuelto en un círculo que NO recorta el sprite (overflow visible)
   return `<span class="${cls}"><img src="${escapeHtml(primary)}"${superHueStyle(mon)} alt="${escapeHtml(mon.species || "")}" loading="lazy" data-fb='${fb}' data-ini="${escapeHtml(ini)}" onerror="imgFallback(this)"></span>`;
 }
-
-// Sprite ANIMADO (hoja del juego reproducida con Web Animations API). Si el sprite no tiene
-// animación (o no hay manifest), cae al sprite estático normal. Pensado para la ficha grande.
-function animatedSpriteEl(mon, cls = "mon-sprite") {
-  const gkey = mon.spriteKey;
-  const n = (gkey && FRAMES) ? (FRAMES[gkey] || FRAMES[gkey.split("_")[0]] || 1) : 1;
-  if (n <= 1) return spriteEl(mon, cls);
-  const shiny = !!mon.shiny;
-  const sheetKey = FRAMES[gkey] ? gkey : gkey.split("_")[0];
-  const sheet = `${ANIL_SPRITES}/${shiny ? "anim-shiny" : "anim"}/${encodeURIComponent(sheetKey)}.png`;
-  const fbStatic = (spriteChain(mon)[0]) || "";
-  return `<span class="${cls} gspr-anim" data-n="${n}"${superHueStyle(mon)}><img src="${escapeHtml(sheet)}" alt="${escapeHtml(mon.species || "")}" data-static="${escapeHtml(fbStatic)}" onerror="gsprToStatic(this)"></span>`;
-}
+function animatedSpriteEl(mon, cls = "mon-sprite") { return spriteEl(mon, cls); }
 // Si la hoja falla, vuelve al sprite estático sin animación.
 function gsprToStatic(img) {
   img.onerror = null;
   const span = img.parentNode; if (span) span.classList.remove("gspr-anim");
-  img.style.animation = "none"; img.style.height = ""; img.style.width = "";
+  const a = img.getAnimations ? img.getAnimations()[0] : null; if (a) a.cancel();
+  img.style.height = ""; img.style.width = "";
   if (img.dataset.static) img.src = img.dataset.static;
 }
-// Arranca la animación de todos los .gspr-anim dentro de root (una vez cargada la hoja).
+// Arranca la animación de cada .gspr-anim. N se calcula de la imagen REAL cargada (no del
+// manifest), así el shiny —que puede tener otro nº de fotogramas que el normal— sale bien.
 function initSpriteAnim(root) {
   (root || document).querySelectorAll(".gspr-anim").forEach((span) => {
     if (span.dataset.animInit) return; span.dataset.animInit = "1";
-    const img = span.querySelector("img"); const n = +span.dataset.n || 1;
-    if (n <= 1 || !img) return;
-    const go = () => { try { img.animate([{ transform: "translateX(0)" }, { transform: "translateX(-100%)" }], { duration: Math.max(600, n * 80), easing: `steps(${n})`, iterations: Infinity }); } catch (e) {} };
+    const img = span.querySelector("img"); if (!img) return;
+    const go = () => {
+      const fh = img.naturalHeight, sw = img.naturalWidth;
+      if (!fh || !sw) return;
+      const n = Math.max(1, Math.floor(sw / fh));
+      if (n <= 1) return;
+      const endPct = -(n * fh / sw) * 100; // desplazamiento exacto hasta el último frame
+      try { img.animate([{ transform: "translateX(0)" }, { transform: `translateX(${endPct}%)` }], { duration: Math.max(600, n * 80), easing: `steps(${n})`, iterations: Infinity }); } catch (e) {}
+    };
     if (img.complete && img.naturalWidth) go(); else img.addEventListener("load", go, { once: true });
   });
 }
