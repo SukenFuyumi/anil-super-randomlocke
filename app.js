@@ -381,19 +381,21 @@ function spriteEl(mon, cls = "mon-sprite") {
     const shiny = !!mon.shiny;
     const sheet = `${ANIL_SPRITES}/${shiny ? "anim-shiny" : "anim"}/${encodeURIComponent(gkey)}.png`;
     const fbStatic = spriteChain(mon)[0] || "";
-    return `<span class="${cls} gspr-anim"${superHueStyle(mon)}><img src="${escapeHtml(sheet)}" alt="${escapeHtml(mon.species || "")}" loading="lazy" data-static="${escapeHtml(fbStatic)}" onerror="gsprToStatic(this)"></span>`;
+    // marco interno (.gspr-frame) recorta a 1 fotograma; el <img> se desplaza a pasos
+    return `<span class="${cls} gspr-anim"><span class="gspr-frame"><img src="${escapeHtml(sheet)}"${superHueStyle(mon)} alt="${escapeHtml(mon.species || "")}" loading="lazy" data-static="${escapeHtml(fbStatic)}" onerror="gsprToStatic(this)"></span></span>`;
   }
   const chain = spriteChain(mon);
   if (!chain.length) return `<div class="${cls}">${escapeHtml(ini)}</div>`;
   const primary = chain[0];
   const fb = JSON.stringify(chain.slice(1));
-  return `<span class="${cls}"><img src="${escapeHtml(primary)}"${superHueStyle(mon)} alt="${escapeHtml(mon.species || "")}" loading="lazy" data-fb='${fb}' data-ini="${escapeHtml(ini)}" onerror="imgFallback(this)"></span>`;
+  const isGame = !!mon.spriteKey && primary.indexOf(ANIL_SPRITES) === 0; // sprite del juego (para escalarlo)
+  return `<span class="${cls}${isGame ? " gspr-static" : ""}"><img src="${escapeHtml(primary)}"${superHueStyle(mon)} alt="${escapeHtml(mon.species || "")}" loading="lazy" data-fb='${fb}' data-ini="${escapeHtml(ini)}" onerror="imgFallback(this)"></span>`;
 }
 function animatedSpriteEl(mon, cls = "mon-sprite") { return spriteEl(mon, cls); }
 // Si la hoja falla, vuelve al sprite estático sin animación.
 function gsprToStatic(img) {
   img.onerror = null;
-  const span = img.parentNode; if (span) span.classList.remove("gspr-anim");
+  const wrap = img.closest ? img.closest(".gspr-anim") : null; if (wrap) wrap.classList.remove("gspr-anim");
   const a = img.getAnimations ? img.getAnimations()[0] : null; if (a) a.cancel();
   img.style.height = ""; img.style.width = "";
   if (img.dataset.static) img.src = img.dataset.static;
@@ -423,13 +425,24 @@ function teamSpritesRow(team, opts = {}) {
   const labels = !!opts.labels;
   return `<div class="team-mini${labels ? " labeled" : ""}">${team.slice(0, 6).map((m) => {
     const ini = initials(m.species || m.nickname);
-    const chain = spriteChain(m);
-    const primary = chain[0];
     const title = escapeHtml((m.nickname || "") + (m.species ? " (" + m.species + ")" : ""));
-    const fb = JSON.stringify(chain.slice(1));
-    const img = primary
-      ? `<img src="${escapeHtml(primary)}"${superHueStyle(m)} alt="" title="${title}" loading="lazy" data-fb='${fb}' data-ini="${escapeHtml(ini)}" data-fbclass="team-mini-x" onerror="imgFallback(this)">`
-      : `<span class="team-mini-x" title="${escapeHtml(m.nickname || "")}">${escapeHtml(ini)}</span>`;
+    const gkey = m.spriteKey;
+    const n = (gkey && FRAMES) ? (FRAMES[gkey] || 1) : 1;
+    let img;
+    if (n > 1) {
+      const shiny = !!m.shiny;
+      const sheet = `${ANIL_SPRITES}/${shiny ? "anim-shiny" : "anim"}/${encodeURIComponent(gkey)}.png`;
+      const fbStatic = spriteChain(m)[0] || "";
+      img = `<span class="team-mini-x gspr-anim" title="${title}"><span class="gspr-frame"><img src="${escapeHtml(sheet)}"${superHueStyle(m)} alt="" loading="lazy" data-static="${escapeHtml(fbStatic)}" onerror="gsprToStatic(this)"></span></span>`;
+    } else {
+      const chain = spriteChain(m);
+      const primary = chain[0];
+      const fb = JSON.stringify(chain.slice(1));
+      const isGame = !!gkey && primary && primary.indexOf(ANIL_SPRITES) === 0;
+      img = primary
+        ? `<img class="${isGame ? "gspr-static-img" : ""}" src="${escapeHtml(primary)}"${superHueStyle(m)} alt="" title="${title}" loading="lazy" data-fb='${fb}' data-ini="${escapeHtml(ini)}" data-fbclass="team-mini-x" onerror="imgFallback(this)">`
+        : `<span class="team-mini-x" title="${escapeHtml(m.nickname || "")}">${escapeHtml(ini)}</span>`;
+    }
     if (!labels) return img;
     return `<span class="tm-cell">${img}<span class="tm-nick">${escapeHtml(m.nickname || m.species || "?")}${m.shiny ? " " + shinyStar(9) : ""}</span><span class="tm-sp">${escapeHtml(m.species || "")}</span></span>`;
   }).join("")}</div>`;

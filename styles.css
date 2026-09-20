@@ -432,10 +432,15 @@ img.player-avatar.xl { padding: 6px; }
 .pm-head { display: flex; gap: 1rem; align-items: center; padding: 1.1rem 1.2rem; border-bottom: 1px solid var(--border); }
 .pm-sprite { width: 116px; height: 116px; }
 .pm-sprite img { width: 116px; height: 116px; }
-/* Sprite animado (hoja del juego reproducida por Web Animations API): recorta a 1 frame y
-   el <img> se desplaza a pasos. La animación la aplica initSpriteAnim() en JS. */
-.gspr-anim { overflow: hidden; justify-content: flex-start; }
-.gspr-anim > img { flex: none; height: 100%; width: auto; max-width: none; object-fit: fill; image-rendering: pixelated; will-change: transform; }
+/* Sprites del juego escalados a ~78% para igualar el tamaño aparente anterior (los frames del
+   juego llenan más el marco que los de PokeAPI). Animado: un marco interno (.gspr-frame)
+   recorta a 1 fotograma y el <img> se desplaza a pasos (initSpriteAnim con Web Animations API). */
+.gspr-anim { overflow: visible; }
+.gspr-anim .gspr-frame { height: 78%; aspect-ratio: 1; overflow: hidden; display: flex; align-items: center; justify-content: flex-start; border-radius: inherit; }
+.gspr-anim .gspr-frame img { flex: none; height: 100%; width: auto; max-width: none; object-fit: fill; image-rendering: pixelated; will-change: transform; }
+.gspr-static img, img.gspr-static-img { transform: scale(.78); }
+.team-mini .gspr-anim { width: 80px; height: 80px; flex: 0 0 auto; display: inline-flex; align-items: center; justify-content: center; }
+.team-mini.labeled .tm-cell .gspr-anim { width: 62px; height: 62px; }
 .pm-nick { font-size: 1.5rem; font-weight: 800; line-height: 1.1; }
 .pm-species { font-size: .92rem; color: var(--text-muted); margin: .15rem 0 .45rem; }
 .pm-lvl { display: inline-block; background: var(--panel); border: 1px solid var(--border); border-radius: 999px; padding: .02rem .5rem; font-weight: 700; font-size: .78rem; color: var(--text); }
