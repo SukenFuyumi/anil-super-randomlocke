@@ -36,6 +36,7 @@
       renderFooter();
 
       const players = await loadAllPlayers(cfg);
+      await loadFrames(); // para animar los sprites de las tarjetas de jugador
 
       // ---- Stats globales ----
       let totalAlive = 0, totalDead = 0, gymsCleared = 0, champs = 0;
@@ -86,6 +87,7 @@
             ${teamSpritesRow(p.data.team, { labels: true })}
           </a>`;
       }).join("");
+      initSpriteAnim(document); // anima los sprites de las tarjetas de jugador
 
       // ---- Cementerio global ----
       const graves = [];
