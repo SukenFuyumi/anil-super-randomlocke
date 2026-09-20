@@ -374,11 +374,12 @@ function imgFallback(img) {
 function spriteEl(mon, cls = "mon-sprite") {
   const ini = initials(mon.species || mon.nickname);
   const gkey = mon.spriteKey;
-  const n = (gkey && FRAMES) ? (FRAMES[gkey] || FRAMES[gkey.split("_")[0]] || 1) : 1;
+  // Solo animamos con la hoja de ESTE sprite exacto (nunca la de su base: una forma
+  // regional no debe reproducir la animación de la especie base).
+  const n = (gkey && FRAMES) ? (FRAMES[gkey] || 1) : 1;
   if (n > 1) {
     const shiny = !!mon.shiny;
-    const sheetKey = FRAMES[gkey] ? gkey : gkey.split("_")[0];
-    const sheet = `${ANIL_SPRITES}/${shiny ? "anim-shiny" : "anim"}/${encodeURIComponent(sheetKey)}.png`;
+    const sheet = `${ANIL_SPRITES}/${shiny ? "anim-shiny" : "anim"}/${encodeURIComponent(gkey)}.png`;
     const fbStatic = spriteChain(mon)[0] || "";
     return `<span class="${cls} gspr-anim"${superHueStyle(mon)}><img src="${escapeHtml(sheet)}" alt="${escapeHtml(mon.species || "")}" loading="lazy" data-static="${escapeHtml(fbStatic)}" onerror="gsprToStatic(this)"></span>`;
   }
