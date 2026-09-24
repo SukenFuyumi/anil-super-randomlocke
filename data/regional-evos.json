@@ -1,0 +1,31 @@
+{
+  "_comment": "Evoluciones de formas regionales que van a un Pokémon DISTINTO (cross-entry). Las Alola/mismo-ID ya se resuelven con la cadena base. Clave 'id:form' = forma regional (form = índice en forms-dex.json); clave 'id' = entrada evolucionada (sin forma). 'to'/'from' enlazan la cadena; 'how' = método.",
+
+  "52:1":  { "to": [ { "id": 863, "how": "Nivel 28" } ] },
+  "863":   { "from": { "id": 52, "form": 1, "how": "Nivel 28" } },
+
+  "83:0":  { "to": [ { "id": 865, "how": "tras 3 golpes críticos en un combate" } ] },
+  "865":   { "from": { "id": 83, "form": 0, "how": "tras 3 golpes críticos en un combate" } },
+
+  "122:0": { "to": [ { "id": 866, "how": "Nivel 42" } ] },
+  "866":   { "from": { "id": 122, "form": 0, "how": "Nivel 42" } },
+
+  "222:0": { "to": [ { "id": 864, "how": "Nivel 38 (con menos de la mitad de PS)" } ] },
+  "864":   { "from": { "id": 222, "form": 0, "how": "Nivel 38 (con menos de la mitad de PS)" } },
+
+  "263:0": { "to": [ { "id": 264, "form": 0, "how": "Nivel 20" } ] },
+  "264:0": { "from": { "id": 263, "form": 0, "how": "Nivel 20" }, "to": [ { "id": 862, "how": "Nivel 35 (de noche)" } ] },
+  "862":   { "from": { "id": 264, "form": 0, "how": "Nivel 35 (de noche)" } },
+
+  "562:0": { "to": [ { "id": 867, "how": "recibe 49+ de daño y pasa bajo el arco de piedra sin curarte" } ] },
+  "867":   { "from": { "id": 562, "form": 0, "how": "recibe 49+ de daño y pasa bajo el arco de piedra sin curarte" } },
+
+  "211:0": { "to": [ { "id": 904, "how": "usa Bomba Barbas 20 veces en estilo fuerte" } ] },
+  "904":   { "from": { "id": 211, "form": 0, "how": "usa Bomba Barbas 20 veces en estilo fuerte" } },
+
+  "215:0": { "to": [ { "id": 903, "how": "con Garra Afilada, de día" } ] },
+  "903":   { "from": { "id": 215, "form": 0, "how": "con Garra Afilada, de día" } },
+
+  "194:0": { "to": [ { "id": 980, "how": "Nivel 20" } ] },
+  "980":   { "from": { "id": 194, "form": 0, "how": "Nivel 20" } }
+}

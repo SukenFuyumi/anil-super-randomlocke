@@ -185,10 +185,12 @@ function pokemonHref(speciesOrId) {
 }
 
 /* ---------- Wiki de movimientos / habilidades / formas ---------- */
-let MOVESF = null, ABILITIES = null, FORMSD = null;
+let MOVESF = null, ABILITIES = null, FORMSD = null, FORMSDEX = null, REVO = null;
 async function loadMovesFull() { if (!MOVESF) MOVESF = (await loadJSON("data/moves.json")) || {}; return MOVESF; }
 async function loadAbilities() { if (!ABILITIES) ABILITIES = (await loadJSON("data/abilities.json")) || {}; return ABILITIES; }
 async function loadForms() { if (!FORMSD) FORMSD = (await loadJSON("data/forms.json")) || {}; return FORMSD; }
+async function loadFormsDex() { if (!FORMSDEX) FORMSDEX = (await loadJSON("data/forms-dex.json")) || {}; return FORMSDEX; }
+async function loadRegionalEvos() { if (!REVO) REVO = (await loadJSON("data/regional-evos.json")) || {}; return REVO; }
 let TCHART = null;
 async function loadTypesChart() { if (!TCHART) TCHART = (await loadJSON("data/types-chart.json")) || {}; return TCHART; }
 // Nº de fotogramas por sprite (clave -> N) para animar las hojas del juego. Solo entra en
@@ -525,7 +527,7 @@ function formDataFor(species) {
 }
 
 async function openMonPopup(mon, ctx = {}) {
-  await Promise.all([loadPokedex(), loadPokedexFull(), loadMovesFull(), loadAbilities(), loadForms(), loadTypesChart(), loadFrames()]);
+  await Promise.all([loadPokedex(), loadPokedexFull(), loadMovesFull(), loadAbilities(), loadForms(), loadFormsDex(), loadRegionalEvos(), loadTypesChart(), loadFrames()]);
   const id = speciesDexId(mon.species);
   const dex = (PDEX && PDEX[id]) || null;
   const fd = formDataFor(mon.species);
@@ -695,6 +697,36 @@ function formSpriteFor(baseName, region) {
 function evoChainHtml(id, region) {
   const dex = PDEX; if (!dex || !dex[id]) return "";
   const p = dex[id];
+  // --- Cadena de FORMA REGIONAL (cross-entry) con data/regional-evos.json ---
+  let __curKey = null;
+  if (REVO) {
+    if (region && FORMSDEX && FORMSDEX[id]) {
+      const fi = FORMSDEX[id].findIndex((f) => f.k === "regional" && normName(f.region) === normName(region));
+      if (fi >= 0 && REVO[id + ":" + fi]) __curKey = id + ":" + fi;
+    }
+    if (!__curKey && REVO["" + id]) __curKey = "" + id;
+  }
+  if (__curKey) {
+    const regSpr = (eid, fmd) => fmd ? (fmd.gspr ? `${ANIL_SPRITES}/front/${fmd.gspr}.png` : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${fmd.spr || eid}.png`) : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${eid}.png`;
+    const regNode = (node) => {
+      const parts = node.key.split(":"); const eid = +parts[0]; const fi = parts.length > 1 ? +parts[1] : null;
+      const fmd = fi != null ? ((FORMSDEX && FORMSDEX[eid]) || [])[fi] : null;
+      const nm = fmd ? `${dex[eid] ? dex[eid].n : eid} de ${fmd.region || ""}`.trim() : (dex[eid] ? dex[eid].n : node.key);
+      const href = fi != null ? `pokemon.html?id=${eid}&form=${fi}` : `pokemon.html?id=${eid}`;
+      const inner = `<img src="${regSpr(eid, fmd)}" alt="" loading="lazy"><div class="evo-nm">${escapeHtml(nm)}</div>${node.how ? `<div class="evo-how">${escapeHtml(node.how)}</div>` : ""}`;
+      return `<a class="evo-mon${node.key === __curKey ? " cur" : ""}" href="${href}">${inner}</a>`;
+    };
+    let key = __curKey, guard = 0;
+    while (REVO[key] && REVO[key].from && guard++ < 12) { const fr = REVO[key].from; key = fr.form != null ? fr.id + ":" + fr.form : "" + fr.id; }
+    const stages = []; let frontier = [{ key, how: "" }]; const seen = new Set(); let depth = 0;
+    while (frontier.length && depth++ < 8) {
+      stages.push(frontier); const next = [];
+      for (const node of frontier) { if (seen.has(node.key)) continue; seen.add(node.key); const e = REVO[node.key]; if (e && e.to) for (const t of e.to) next.push({ key: t.form != null ? t.id + ":" + t.form : "" + t.id, how: t.how || "" }); }
+      frontier = next;
+    }
+    const col = (st) => `<span class="evo-col">${st.map(regNode).join("")}</span>`;
+    return `<div class="evo-line">${stages.map(col).join(`<span class="evo-arrow">→</span>`)}</div>`;
+  }
   if (!p.pe && !(p.em && p.em.length)) return "";
   const spr = (eid, name) => `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${formSpriteFor(name, region) || eid}.png`;
   const evoMon = (eid, name, how, cur) => {

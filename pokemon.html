@@ -64,7 +64,7 @@
 </head>
 <body>
   <main class="container" id="root"><p class="muted">Cargando…</p></main>
-  <script src="app.js?v=12"></script>
+  <script src="app.js?v=13"></script>
   <script>
     const STAT_LBL = ["PS", "Ataque", "Defensa", "At. Esp.", "Def. Esp.", "Velocidad"];
     (async function () {
@@ -73,6 +73,7 @@
       const dex = await loadPokedexFull();
       await loadTypesChart();
       const FORMSDEX = (await loadJSON("data/forms-dex.json")) || {};
+      const REVO = (await loadJSON("data/regional-evos.json")) || {};
       const root = document.getElementById("root");
       let id = parseInt(param("id"), 10);
       if (!id && param("sp")) id = speciesDexId(param("sp"));
@@ -82,9 +83,17 @@
       const formIdx = param("form");
       const allForms = FORMSDEX[id] || [];
       const fm = (formIdx != null && allForms[+formIdx]) ? allForms[+formIdx] : null;
+      // Nombre a mostrar: para formas regionales, "<Especie> de <Región>" (p. ej. "Sneasel de Hisui")
+      // en vez del genérico "Forma Hisui". Para mega/otras formas, usa el nombre de la forma
+      // (anteponiendo la especie si no la incluye).
+      const displayName = fm
+        ? (fm.k === "regional"
+            ? `${base.n} de ${fm.region || "?"}`
+            : (fm.n && base.n && fm.n.indexOf(base.n) >= 0 ? fm.n : `${base.n} · ${fm.n}`))
+        : base.n;
       // "view" = datos a mostrar (la forma sobreescribe a la base; hereda categoría/altura/peso/desc/evolución)
       const p = fm
-        ? { n: fm.n, t: fm.t, st: fm.st, ab: fm.ab, abh: fm.abh, cat: base.cat, h: base.h, w: base.w, fl: base.fl, em: base.em, pe: base.pe }
+        ? { n: displayName, t: fm.t, st: fm.st, ab: fm.ab, abh: fm.abh, cat: base.cat, h: base.h, w: base.w, fl: base.fl, em: base.em, pe: base.pe }
         : base;
       const formSpriteId = fm ? (fm.spr || id) : id;
       document.title = p.n + " · Pokédex Añil";
@@ -116,8 +125,44 @@
         }
         return [...map.values()].map((x) => ({ toId: x.toId, to: x.to, how: x.hows.join(" / ") }));
       };
+      // --- Evolución de FORMAS REGIONALES (cross-entry) desde data/regional-evos.json ---
+      // Camina hacia arriba por 'from' hasta la raíz regional y luego hacia abajo por 'to'.
+      const regChain = (startKey) => {
+        let key = startKey, guard = 0;
+        while (REVO[key] && REVO[key].from && guard++ < 12) {
+          const fr = REVO[key].from; key = fr.form != null ? fr.id + ":" + fr.form : "" + fr.id;
+        }
+        const stages = []; let frontier = [{ key, how: "" }]; const seen = new Set(); let depth = 0;
+        while (frontier.length && depth++ < 8) {
+          stages.push(frontier); const next = [];
+          for (const node of frontier) {
+            if (seen.has(node.key)) continue; seen.add(node.key);
+            const e = REVO[node.key];
+            if (e && e.to) for (const t of e.to) next.push({ key: t.form != null ? t.id + ":" + t.form : "" + t.id, how: t.how || "" });
+          }
+          frontier = next;
+        }
+        return stages;
+      };
+      const regNode = (node, curKey) => {
+        const parts = node.key.split(":"); const eid = +parts[0]; const fi = parts.length > 1 ? +parts[1] : null;
+        const fmd = fi != null ? (FORMSDEX[eid] || [])[fi] : null;
+        const nm = fmd ? `${dex[eid] ? dex[eid].n : eid} de ${fmd.region || ""}`.trim() : (dex[eid] ? dex[eid].n : node.key);
+        const img = fmd ? (fmd.gspr ? `${ANIL_SPRITES}/front/${fmd.gspr}.png` : spr(fmd.spr || eid)) : spr(eid);
+        const href = fi != null ? `pokemon.html?id=${eid}&form=${fi}` : `pokemon.html?id=${eid}`;
+        const inner = `<img src="${img}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${spr(eid)}'"><div class="nm">${escapeHtml(nm)}</div>${node.how ? `<div class="tm-sp" style="max-width:120px;white-space:normal">${escapeHtml(node.how)}</div>` : ""}`;
+        return `<a class="evo-mon${node.key === curKey ? " cur" : ""}" href="${href}">${inner}</a>`;
+      };
+      const curKey = fm
+        ? (REVO[id + ":" + formIdx] ? id + ":" + formIdx : null)
+        : (REVO["" + id] ? "" + id : null);
+
       let evoHtml;
-      if (p.pe || (p.em && p.em.length)) {
+      if (curKey) {
+        const stages = regChain(curKey);
+        const col = (stage) => `<span style="display:flex;flex-direction:column;gap:.4rem">${stage.map((n) => regNode(n, curKey)).join("")}</span>`;
+        evoHtml = `<h2>Evolución</h2><div class="evo-line">${stages.map(col).join(`<span class="evo-arrow">→</span>`)}</div>`;
+      } else if (p.pe || (p.em && p.em.length)) {
         // subir hasta la base
         let root = id, guard = 0;
         while (dex[root] && dex[root].pe && guard++ < 12) root = dex[root].pe.id;
