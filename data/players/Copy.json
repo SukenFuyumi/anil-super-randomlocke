@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 3h 25m jugadas · 571,365₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 3h 28m jugadas · 571,365₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "Midas",
@@ -15,7 +15,7 @@
       ],
       "ability": "Ultraimpulso",
       "nature": "Firme",
-      "item": "",
+      "item": "Baya Zidra",
       "shiny": false,
       "moves": [
         "Auxilio",
@@ -164,7 +164,7 @@
       ],
       "ability": "Experto",
       "nature": "Alegre",
-      "item": "",
+      "item": "Banda Aguante",
       "shiny": true,
       "moves": [
         "Llave Corsé",
@@ -381,7 +381,7 @@
       ],
       "ability": "Experto",
       "nature": "Plácida",
-      "item": "",
+      "item": "Cascabel Concha",
       "shiny": false,
       "moves": [
         "Búnker",
@@ -537,7 +537,7 @@
       ],
       "ability": "Roca Solida",
       "nature": "Serena",
-      "item": "",
+      "item": "Gafas Especiales",
       "shiny": false,
       "moves": [
         "Pulso Primigenio",
@@ -702,7 +702,7 @@
       ],
       "ability": "Poder Sabio",
       "nature": "Seria",
-      "item": "",
+      "item": "Staraptite",
       "shiny": false,
       "moves": [
         "Pirueta Helada",
@@ -851,7 +851,7 @@
       ],
       "ability": "Tinovictoria",
       "nature": "Miedosa",
-      "item": "",
+      "item": "Hierba Blanca",
       "shiny": false,
       "moves": [
         "Relajo",
@@ -11467,6 +11467,12 @@
         "pocket": "Objetos"
       },
       {
+        "id": "REDCARD",
+        "name": "Tarjeta Roja",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "AMULETCOIN",
         "name": "Moneda Amuleto",
         "qty": 1,
@@ -11509,12 +11515,6 @@
         "pocket": "Objetos"
       },
       {
-        "id": "WHITEHERB",
-        "name": "Hierba Blanca",
-        "qty": 1,
-        "pocket": "Objetos"
-      },
-      {
         "id": "POWERHERB",
         "name": "Hierba Única",
         "qty": 1,
@@ -11539,14 +11539,38 @@
         "pocket": "Objetos"
       },
       {
+        "id": "RAZORCLAW",
+        "name": "Garra Afilada",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "SCOPELENS",
+        "name": "Periscopio",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "ZOOMLENS",
         "name": "Telescopio",
         "qty": 1,
         "pocket": "Objetos"
       },
       {
+        "id": "KINGSROCK",
+        "name": "Roca del Rey",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "RINGTARGET",
         "name": "Blanco",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "POISONBARB",
+        "name": "Flecha Venenosa",
         "qty": 1,
         "pocket": "Objetos"
       },
@@ -11667,54 +11691,6 @@
       {
         "id": "MONEDAPRODIG",
         "name": "Monedaprodig",
-        "qty": 1,
-        "pocket": "Objetos"
-      },
-      {
-        "id": "POISONBARB",
-        "name": "Flecha Venenosa",
-        "qty": 1,
-        "pocket": "Objetos"
-      },
-      {
-        "id": "REDCARD",
-        "name": "Tarjeta Roja",
-        "qty": 1,
-        "pocket": "Objetos"
-      },
-      {
-        "id": "KINGSROCK",
-        "name": "Roca del Rey",
-        "qty": 1,
-        "pocket": "Objetos"
-      },
-      {
-        "id": "WISEGLASSES",
-        "name": "Gafas Especiales",
-        "qty": 1,
-        "pocket": "Objetos"
-      },
-      {
-        "id": "RAZORCLAW",
-        "name": "Garra Afilada",
-        "qty": 1,
-        "pocket": "Objetos"
-      },
-      {
-        "id": "SCOPELENS",
-        "name": "Periscopio",
-        "qty": 1,
-        "pocket": "Objetos"
-      },
-      {
-        "id": "SHELLBELL",
-        "name": "Cascabel Concha",
-        "qty": 1,
-        "pocket": "Objetos"
-      },
-      {
-        "id": "FOCUSSASH",
-        "name": "Banda Aguante",
         "qty": 1,
         "pocket": "Objetos"
       },
@@ -12295,12 +12271,6 @@
         "pocket": "Bayas"
       },
       {
-        "id": "SITRUSBERRY",
-        "name": "Baya Zidra",
-        "qty": 1,
-        "pocket": "Bayas"
-      },
-      {
         "id": "MAGOBERRY",
         "name": "Baya Ango",
         "qty": 1,
@@ -12435,12 +12405,6 @@
       {
         "id": "CHARIZARDITEX",
         "name": "Charizardita X",
-        "qty": 1,
-        "pocket": "Piedras Mega"
-      },
-      {
-        "id": "STARAPTITE",
-        "name": "Staraptite",
         "qty": 1,
         "pocket": "Piedras Mega"
       },
