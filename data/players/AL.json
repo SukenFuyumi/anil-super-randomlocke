@@ -4,156 +4,158 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 9h 4m jugadas · 55,850₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 9h 51m jugadas · 70,440₽ · vidas en el juego: ?",
   "team": [
     {
-      "nickname": "AuraFarmer",
-      "species": "Krokorok",
+      "nickname": "McPato",
+      "species": "Golduck",
       "level": 39,
       "types": [
-        "Tierra",
-        "Siniestro"
+        "Agua"
       ],
-      "ability": "Corrosión",
-      "nature": "Afable",
-      "item": "",
+      "ability": "Mandíbula dragón",
+      "nature": "Alegre",
+      "item": "Telescopio",
       "shiny": false,
       "moves": [
-        "Clavo Cañón",
-        "Picoteo",
-        "Ataque Óseo",
-        "Empujón"
+        "Asalto Barrera",
+        "Tormenta Floral",
+        "Calamidad",
+        "Viraje"
       ],
-      "origin": "primer_ruta",
       "iv": [
-        22,
-        22,
-        25,
-        22,
-        2,
-        18
+        23,
+        13,
+        3,
+        19,
+        23,
+        21
       ],
       "ev": [
-        4,
-        4,
-        3,
-        2,
-        2,
-        7
+        34,
+        40,
+        29,
+        26,
+        23,
+        44
       ],
       "abilPool": [
-        "Corrosión",
-        "Ilusión"
+        "Autoestima",
+        "Mandíbula dragón"
       ],
       "abilHidden": [
-        "Tinovictoria"
+        "Cosecha"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Picoteo"
+          "m": "Espejo"
         },
         {
           "lvl": 1,
-          "m": "Clavo Cañón"
+          "m": "Doble Bofetón"
         },
         {
           "lvl": 1,
-          "m": "Paz Mental"
+          "m": "Truco"
         },
         {
           "lvl": 1,
-          "m": "Ataque Óseo"
+          "m": "Tinieblas"
         },
         {
           "lvl": 1,
-          "m": "Atracción"
+          "m": "Empapar"
+        },
+        {
+          "lvl": 1,
+          "m": "Golpe Rastrero"
+        },
+        {
+          "lvl": 1,
+          "m": "Salmuera"
         },
         {
           "lvl": 9,
-          "m": "Empujón"
+          "m": "Asalto Barrera"
         },
         {
           "lvl": 12,
-          "m": "Tornado"
+          "m": "Cambiafuerza"
         },
         {
           "lvl": 15,
-          "m": "Escupir"
-        },
-        {
-          "lvl": 16,
-          "m": "Camelo"
+          "m": "Tumba Rocas"
         },
         {
           "lvl": 18,
-          "m": "Último Lugar"
-        },
-        {
-          "lvl": 19,
-          "m": "Legado"
+          "m": "Bloqueo"
         },
         {
           "lvl": 21,
-          "m": "Clemencia"
-        },
-        {
-          "lvl": 22,
-          "m": "Paliza"
+          "m": "Tornado"
         },
         {
           "lvl": 24,
-          "m": "Dragoaliento"
+          "m": "Espacio Raro"
         },
         {
           "lvl": 27,
+          "m": "Giro Fuego"
+        },
+        {
+          "lvl": 30,
+          "m": "Tambor"
+        },
+        {
+          "lvl": 36,
+          "m": "Infierno"
+        },
+        {
+          "lvl": 38,
+          "m": "Tormenta Floral"
+        },
+        {
+          "lvl": 40,
+          "m": "Corte"
+        },
+        {
+          "lvl": 40,
+          "m": "Paranormal"
+        },
+        {
+          "lvl": 45,
+          "m": "Onda Tóxica"
+        },
+        {
+          "lvl": 52,
           "m": "Fanfarronear"
-        },
-        {
-          "lvl": 32,
-          "m": "Hidropulso"
-        },
-        {
-          "lvl": 32,
-          "m": "Aromaterapia"
-        },
-        {
-          "lvl": 35,
-          "m": "Golpes Furia"
-        },
-        {
-          "lvl": 42,
-          "m": "Puntada Sombría"
-        },
-        {
-          "lvl": 47,
-          "m": "Arraigo"
         }
       ],
       "tmMoves": [
-        "Abatidoras",
         "Afilagarras",
         "Aguante",
-        "Alivio",
         "Atiborramiento",
+        "Bomba Imán",
         "Camelo",
         "Campo Psíquico",
         "Ciclón",
+        "Corpulencia",
+        "Hipnosis",
         "Isofuerza",
-        "Mil Púas Tóxicas",
-        "Niebla Aromática",
+        "Luz Lunar",
+        "Ofrenda",
         "Placaje",
-        "Plegaria Vital",
         "Prensa Metálica",
-        "Tormenta Arena"
+        "Viento Feérico"
       ],
       "firstMoves": [
-        "Clavo Cañón",
-        "Paz Mental",
-        "Ataque Óseo",
-        "Atracción"
+        "Tornado",
+        "Confidencia",
+        "Prensa Metálica",
+        "Doble Patada"
       ],
-      "spriteKey": "KROKOROK"
+      "spriteKey": "GOLDUCK"
     },
     {
       "nickname": "ElFokas",
@@ -183,11 +185,11 @@
       ],
       "ev": [
         34,
+        40,
         31,
         27,
-        27,
-        20,
-        40
+        23,
+        45
       ],
       "abilPool": [
         "Velo Flor"
@@ -297,7 +299,7 @@
       ],
       "ability": "Humo Blanco",
       "nature": "Rara",
-      "item": "",
+      "item": "Baya Caoca",
       "shiny": false,
       "moves": [
         "Danza Espada",
@@ -315,11 +317,11 @@
       ],
       "ev": [
         7,
-        13,
-        7,
+        22,
+        11,
         3,
-        3,
-        14
+        6,
+        19
       ],
       "abilPool": [
         "Humo Blanco"
@@ -436,7 +438,7 @@
       ],
       "ability": "Raíz robusta",
       "nature": "Serena",
-      "item": "",
+      "item": "Baya Arabol",
       "shiny": false,
       "moves": [
         "Bastión Final",
@@ -454,11 +456,11 @@
       ],
       "ev": [
         34,
-        31,
-        26,
+        40,
+        30,
         27,
-        20,
-        39
+        23,
+        44
       ],
       "abilPool": [
         "Raíz robusta"
@@ -607,11 +609,11 @@
       ],
       "ev": [
         10,
-        21,
-        14,
+        30,
+        18,
         8,
-        8,
-        20
+        11,
+        25
       ],
       "abilPool": [
         "Pelusa",
@@ -710,155 +712,153 @@
       "spriteKey": "GURDURR"
     },
     {
-      "nickname": "McPato",
-      "species": "Golduck",
+      "nickname": "AuraFarmer",
+      "species": "Krokorok",
       "level": 39,
       "types": [
-        "Agua"
+        "Tierra",
+        "Siniestro"
       ],
-      "ability": "Mandíbula dragón",
-      "nature": "Alegre",
-      "item": "",
+      "ability": "Corrosión",
+      "nature": "Afable",
+      "item": "Baya Enigma",
       "shiny": false,
       "moves": [
-        "Asalto Barrera",
-        "Tormenta Floral",
-        "Calamidad",
-        "Viraje"
+        "Clavo Cañón",
+        "Picoteo",
+        "Ataque Óseo",
+        "Empujón"
       ],
+      "origin": "primer_ruta",
       "iv": [
-        23,
-        13,
-        3,
-        19,
-        23,
-        21
+        22,
+        22,
+        25,
+        22,
+        2,
+        18
       ],
       "ev": [
-        34,
-        31,
-        25,
-        26,
-        20,
-        39
+        4,
+        13,
+        7,
+        2,
+        5,
+        12
       ],
       "abilPool": [
-        "Autoestima",
-        "Mandíbula dragón"
+        "Corrosión",
+        "Ilusión"
       ],
       "abilHidden": [
-        "Cosecha"
+        "Tinovictoria"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Espejo"
+          "m": "Picoteo"
         },
         {
           "lvl": 1,
-          "m": "Doble Bofetón"
+          "m": "Clavo Cañón"
         },
         {
           "lvl": 1,
-          "m": "Truco"
+          "m": "Paz Mental"
         },
         {
           "lvl": 1,
-          "m": "Tinieblas"
+          "m": "Ataque Óseo"
         },
         {
           "lvl": 1,
-          "m": "Empapar"
-        },
-        {
-          "lvl": 1,
-          "m": "Golpe Rastrero"
-        },
-        {
-          "lvl": 1,
-          "m": "Salmuera"
+          "m": "Atracción"
         },
         {
           "lvl": 9,
-          "m": "Asalto Barrera"
+          "m": "Empujón"
         },
         {
           "lvl": 12,
-          "m": "Cambiafuerza"
-        },
-        {
-          "lvl": 15,
-          "m": "Tumba Rocas"
-        },
-        {
-          "lvl": 18,
-          "m": "Bloqueo"
-        },
-        {
-          "lvl": 21,
           "m": "Tornado"
         },
         {
+          "lvl": 15,
+          "m": "Escupir"
+        },
+        {
+          "lvl": 16,
+          "m": "Camelo"
+        },
+        {
+          "lvl": 18,
+          "m": "Último Lugar"
+        },
+        {
+          "lvl": 19,
+          "m": "Legado"
+        },
+        {
+          "lvl": 21,
+          "m": "Clemencia"
+        },
+        {
+          "lvl": 22,
+          "m": "Paliza"
+        },
+        {
           "lvl": 24,
-          "m": "Espacio Raro"
+          "m": "Dragoaliento"
         },
         {
           "lvl": 27,
-          "m": "Giro Fuego"
-        },
-        {
-          "lvl": 30,
-          "m": "Tambor"
-        },
-        {
-          "lvl": 36,
-          "m": "Infierno"
-        },
-        {
-          "lvl": 38,
-          "m": "Tormenta Floral"
-        },
-        {
-          "lvl": 40,
-          "m": "Corte"
-        },
-        {
-          "lvl": 40,
-          "m": "Paranormal"
-        },
-        {
-          "lvl": 45,
-          "m": "Onda Tóxica"
-        },
-        {
-          "lvl": 52,
           "m": "Fanfarronear"
+        },
+        {
+          "lvl": 32,
+          "m": "Hidropulso"
+        },
+        {
+          "lvl": 32,
+          "m": "Aromaterapia"
+        },
+        {
+          "lvl": 35,
+          "m": "Golpes Furia"
+        },
+        {
+          "lvl": 42,
+          "m": "Puntada Sombría"
+        },
+        {
+          "lvl": 47,
+          "m": "Arraigo"
         }
       ],
       "tmMoves": [
+        "Abatidoras",
         "Afilagarras",
         "Aguante",
+        "Alivio",
         "Atiborramiento",
-        "Bomba Imán",
         "Camelo",
         "Campo Psíquico",
         "Ciclón",
-        "Corpulencia",
-        "Hipnosis",
         "Isofuerza",
-        "Luz Lunar",
-        "Ofrenda",
+        "Mil Púas Tóxicas",
+        "Niebla Aromática",
         "Placaje",
+        "Plegaria Vital",
         "Prensa Metálica",
-        "Viento Feérico"
+        "Tormenta Arena"
       ],
       "firstMoves": [
-        "Tornado",
-        "Confidencia",
-        "Prensa Metálica",
-        "Doble Patada"
+        "Clavo Cañón",
+        "Paz Mental",
+        "Ataque Óseo",
+        "Atracción"
       ],
-      "spriteKey": "GOLDUCK"
+      "spriteKey": "KROKOROK"
     }
   ],
   "box": [
@@ -5342,6 +5342,140 @@
       "spriteKey": "TRUBBISH"
     },
     {
+      "nickname": "Flowey",
+      "species": "Lurantis",
+      "level": 28,
+      "types": [
+        "Planta"
+      ],
+      "ability": "Espanto",
+      "nature": "Tímida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Llanto Falso",
+        "Corte",
+        "Ronquido",
+        "Campo de Niebla"
+      ],
+      "origin": "primer_ruta",
+      "iv": [
+        9,
+        2,
+        19,
+        23,
+        6,
+        11
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Espanto"
+      ],
+      "abilHidden": [
+        "Poder Fúngico"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Barrera Espinosa"
+        },
+        {
+          "lvl": 1,
+          "m": "Puño Incremento"
+        },
+        {
+          "lvl": 1,
+          "m": "Alivio"
+        },
+        {
+          "lvl": 1,
+          "m": "Somnífero"
+        },
+        {
+          "lvl": 1,
+          "m": "Danza Espada"
+        },
+        {
+          "lvl": 1,
+          "m": "Isofuerza"
+        },
+        {
+          "lvl": 1,
+          "m": "Puño Bala"
+        },
+        {
+          "lvl": 1,
+          "m": "Truco Floral"
+        },
+        {
+          "lvl": 1,
+          "m": "Punzada Rama"
+        },
+        {
+          "lvl": 5,
+          "m": "Llanto Falso"
+        },
+        {
+          "lvl": 15,
+          "m": "Corte"
+        },
+        {
+          "lvl": 20,
+          "m": "Ronquido"
+        },
+        {
+          "lvl": 25,
+          "m": "Campo de Niebla"
+        },
+        {
+          "lvl": 30,
+          "m": "Encanto"
+        },
+        {
+          "lvl": 32,
+          "m": "Obstrucción"
+        },
+        {
+          "lvl": 37,
+          "m": "Reciclaje"
+        },
+        {
+          "lvl": 38,
+          "m": "Tormenta Floral"
+        },
+        {
+          "lvl": 40,
+          "m": "Velo Sagrado"
+        },
+        {
+          "lvl": 44,
+          "m": "Pin Misil"
+        },
+        {
+          "lvl": 51,
+          "m": "Rayo Señal"
+        },
+        {
+          "lvl": 63,
+          "m": "Gota Vital"
+        }
+      ],
+      "firstMoves": [
+        "Llanto Falso",
+        "Corte",
+        "Ronquido",
+        "Campo de Niebla"
+      ],
+      "spriteKey": "LURANTIS"
+    },
+    {
       "nickname": "Carnitas",
       "species": "Pignite",
       "level": 30,
@@ -5489,13 +5623,13 @@
     {
       "route": "ruta_22",
       "where": "Ruta 22",
-      "species": "Krokorok",
-      "nickname": "AuraFarmer",
+      "species": "Golduck",
+      "nickname": "McPato",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
       "level": 4,
-      "mon": "Krokorok"
+      "mon": "Golduck"
     },
     {
       "route": "",
@@ -5544,13 +5678,13 @@
     {
       "route": "ruta_22",
       "where": "Ruta 22",
-      "species": "Golduck",
-      "nickname": "McPato",
+      "species": "Krokorok",
+      "nickname": "AuraFarmer",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
       "level": 4,
-      "mon": "Golduck"
+      "mon": "Krokorok"
     },
     {
       "route": "ruta_21",
@@ -5971,6 +6105,17 @@
       "mon": "Trubbish"
     },
     {
+      "route": "ruta_9",
+      "where": "Ruta 9",
+      "species": "Lurantis",
+      "nickname": "Flowey",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 28,
+      "mon": "Lurantis"
+    },
+    {
       "route": "monte_moon",
       "where": "Monte Moon",
       "species": "Pignite",
@@ -6010,7 +6155,10 @@
       "ruta_15": true,
       "tunel_diglett": true,
       "pueblo_paleta": true,
-      "ruta_3": true
+      "ruta_3": true,
+      "ruta_9": true,
+      "ruta_10_norte": true,
+      "ruta_12": true
     },
     "items": {},
     "encounters": {
@@ -6033,7 +6181,8 @@
       "ciudad_carmin": true,
       "ruta_22": true,
       "ruta_15": true,
-      "tunel_diglett": true
+      "tunel_diglett": true,
+      "ruta_9": true
     },
     "switches": [
       48,
@@ -6059,10 +6208,12 @@
       87,
       88,
       89,
+      92,
       110,
       112,
       113,
       114,
+      120,
       121,
       129,
       138,
@@ -6077,6 +6228,7 @@
       184,
       185,
       186,
+      301,
       323,
       338,
       363,
@@ -6085,12 +6237,16 @@
     "foundItems": [
       "Acopio Ball",
       "Agua Fresca",
+      "Álbum de Fotos",
       "Antiparalizador",
       "Ataque X 2",
+      "Banda Recia",
       "Barrita Plus",
       "Baya Arabol",
       "Baya Caoca",
       "Baya Caquic",
+      "Baya Chilan",
+      "Baya Enigma",
       "Baya Pasio",
       "Bici",
       "Bono Bici",
@@ -6098,6 +6254,7 @@
       "Brazal Recio",
       "Cenizas Sagradas",
       "Cinturón Negro",
+      "Colmillo de Dragón",
       "Corona Galanuez",
       "Cubresuelos",
       "Cuerda Huida",
@@ -6113,12 +6270,15 @@
       "Gema Hada",
       "Gema Psíquica",
       "Gema Siniestra",
+      "Gema Tierra",
       "Gema Voladora",
       "Gran Lustresfera",
       "Guante de Boxeo",
+      "Hierba Mental",
       "Hierba Revivir",
       "Incienso Suave",
       "Incubadora",
+      "Más PS",
       "Máscara Cimiento",
       "Maxipanal",
       "Menta Audaz",
@@ -6127,6 +6287,7 @@
       "Menta Serena",
       "Miniseta",
       "MO Corte",
+      "MO Destello",
       "MO Golpe Roca",
       "MT02",
       "MT10",
@@ -6134,11 +6295,14 @@
       "MT102",
       "MT104",
       "MT105",
+      "MT110",
+      "MT113",
       "MT122",
       "MT17",
       "MT23",
       "MT27",
       "MT29",
+      "MT31",
       "MT32",
       "MT39",
       "MT43",
@@ -6148,12 +6312,15 @@
       "MT48",
       "MT51",
       "MT52",
+      "MT57",
       "MT59",
       "MT62",
+      "MT68",
       "MT69",
       "MT72",
       "MT73",
       "MT74",
+      "MT78",
       "MT83",
       "MT85",
       "MT86",
@@ -6169,10 +6336,12 @@
       "Piedra Dura",
       "Piedra Hielo",
       "Piedra Lunar",
+      "Piedra Solar",
       "Poké Montura",
       "Pokéseñuelo",
       "Porcehelado",
       "PP Máximos",
+      "Precisión X 2",
       "Prettyfeather",
       "Radar",
       "Randomizador de Habilidad",
@@ -6301,12 +6470,6 @@
         "pocket": "Objetos"
       },
       {
-        "id": "ZOOMLENS",
-        "name": "Telescopio",
-        "qty": 1,
-        "pocket": "Objetos"
-      },
-      {
         "id": "FAIRYGEM",
         "name": "Gema Hada",
         "qty": 1,
@@ -6333,7 +6496,7 @@
       {
         "id": "HEATROCK",
         "name": "Roca Calor",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Objetos"
       },
       {
@@ -6393,6 +6556,36 @@
       {
         "id": "RELICBAND",
         "name": "Brazal",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "DRAGONFANG",
+        "name": "Colmillo de Dragón",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "GROUNDGEM",
+        "name": "Gema Tierra",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "MENTALHERB",
+        "name": "Hierba Mental",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "POWERBAND",
+        "name": "Banda Recia",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "SUNSTONE",
+        "name": "Piedra Solar",
         "qty": 1,
         "pocket": "Objetos"
       },
@@ -6483,7 +6676,7 @@
       {
         "id": "CASTELIACONE",
         "name": "Porcehelado",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Medicinas"
       },
       {
@@ -6547,6 +6740,12 @@
         "pocket": "Medicinas"
       },
       {
+        "id": "HPUP",
+        "name": "Más PS",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
         "id": "GREATBALL",
         "name": "Super Ball",
         "qty": 12,
@@ -6555,7 +6754,7 @@
       {
         "id": "POKEBALL",
         "name": "Poké Ball",
-        "qty": 19,
+        "qty": 17,
         "pocket": "Poké Balls"
       },
       {
@@ -6619,6 +6818,12 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM31",
+        "name": "MT31",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM32",
         "name": "MT32",
         "qty": 1,
@@ -6673,6 +6878,12 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM57",
+        "name": "MT57",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM59",
         "name": "MT59",
         "qty": 1,
@@ -6681,6 +6892,12 @@
       {
         "id": "TM62",
         "name": "MT62",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM68",
+        "name": "MT68",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
@@ -6705,6 +6922,12 @@
       {
         "id": "TM74",
         "name": "MT74",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM78",
+        "name": "MT78",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
@@ -6781,6 +7004,18 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM110",
+        "name": "MT110",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM113",
+        "name": "MT113",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM122",
         "name": "MT122",
         "qty": 1,
@@ -6805,15 +7040,15 @@
         "pocket": "Bayas"
       },
       {
-        "id": "STARFBERRY",
-        "name": "Baya Arabol",
+        "id": "CHILANBERRY",
+        "name": "Baya Chilan",
         "qty": 1,
         "pocket": "Bayas"
       },
       {
         "id": "XSPDEF6",
         "name": "Def. Esp. X 6",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Objetos de combate"
       },
       {
@@ -6837,6 +7072,12 @@
       {
         "id": "XATTACK2",
         "name": "Ataque X 2",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "XACCURACY2",
+        "name": "Precisión X 2",
         "qty": 1,
         "pocket": "Objetos de combate"
       },
@@ -6903,6 +7144,18 @@
       {
         "id": "CUTITEM",
         "name": "MO Corte",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "FLASHITEM",
+        "name": "MO Destello",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "ALBUMFOTOS",
+        "name": "Álbum de Fotos",
         "qty": 1,
         "pocket": "Objetos clave"
       }
