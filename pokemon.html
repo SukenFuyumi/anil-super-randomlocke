@@ -15,10 +15,10 @@
     .pk-art img { width:180px; height:180px; object-fit:contain; image-rendering:pixelated; }
     .pk-num { color:var(--text-muted); font-weight:800; font-size:1rem; }
     .pk-name { font-size:2.2rem; font-weight:800; margin:.1rem 0 .4rem; }
-    .pk-stats { display:grid; grid-template-columns:auto auto 1fr; gap:.3rem .6rem; align-items:center; max-width:520px; }
+    .pk-stats { display:grid; grid-template-columns:auto 3rem 1fr auto; gap:.3rem .6rem; align-items:center; max-width:540px; }
     .pk-stats .lbl { color:var(--text-muted); font-size:.85rem; }
-    .pk-stats .val { text-align:right; font-weight:700; font-variant-numeric:tabular-nums; white-space:nowrap; }
-    .stat-delta { font-size:.68rem; font-weight:800; margin-left:.3rem; vertical-align:middle; }
+    .pk-stats .val { text-align:right; font-weight:700; font-variant-numeric:tabular-nums; }
+    .stat-delta { font-size:.68rem; font-weight:800; white-space:nowrap; text-align:right; }
     .stat-delta.up, .up { color:#2ec77a; }
     .stat-delta.down, .down { color:#ff5d5d; }
     .rebal-note { font-size:.7rem; font-weight:600; color:var(--text-muted); }
@@ -115,8 +115,8 @@
       const statsHtml = STAT_LBL.map((l, i) => {
         const v = p.st[i] || 0;
         const dv = stChg ? (stChg[i] || 0) : 0;
-        const delta = dv ? `<b class="stat-delta ${dv > 0 ? "up" : "down"}" title="Añil ${dv > 0 ? "subió" : "bajó"} este stat (oficial: ${v - dv})">${dv > 0 ? "▲+" + dv : "▼" + dv}</b>` : "";
-        return `<span class="lbl">${l}</span><span class="val">${v}${delta}</span><span class="pk-bar"><span style="width:${Math.min(100, v / 2)}%;background:${barColor(v)}"></span></span>`;
+        const delta = dv ? `<b class="stat-delta ${dv > 0 ? "up" : "down"}" title="Añil ${dv > 0 ? "subió" : "bajó"} este stat (oficial: ${v - dv})">${dv > 0 ? "▲+" + dv : "▼" + dv}</b>` : `<span></span>`;
+        return `<span class="lbl">${l}</span><span class="val">${v}</span><span class="pk-bar"><span style="width:${Math.min(100, v / 2)}%;background:${barColor(v)}"></span></span>${delta}`;
       }).join("");
       const spr = (eid) => `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${eid}.png`;
       const evoMon = (eid, name, how, cur) => {
@@ -263,7 +263,7 @@
         <h2>Estadísticas base${stChg ? ` <span class="rebal-note">Rebalanceado en Añil · <span class="up">▲ buff</span> / <span class="down">▼ nerf</span> vs. oficial</span>` : ""}</h2>
         <div class="panel">
           <div class="pk-stats">${statsHtml}
-            <span class="lbl" style="font-weight:800;color:var(--text)">Total</span><span class="val">${total}</span><span></span>
+            <span class="lbl" style="font-weight:800;color:var(--text)">Total</span><span class="val">${total}</span><span></span><span></span>
           </div>
         </div>
         ${muHtml}
