@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 5,
   "champion": false,
-  "notes": "Importado del save · 1h 20m jugadas · 280,450₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 1h 25m jugadas · 287,800₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -11909,7 +11909,8 @@
       "gym1": true,
       "gym2": true,
       "gym3": true,
-      "gym4": true
+      "gym4": true,
+      "gym5": true
     },
     "bosses": {},
     "npcs": {},
@@ -12064,6 +12065,8 @@
       189,
       190,
       191,
+      192,
+      193,
       208,
       209,
       214,
@@ -12193,6 +12196,7 @@
       "Malasada Maxi",
       "Malla Ball",
       "Máscara Horno",
+      "Master Ball",
       "Mega-Aro",
       "Menta Activa",
       "Menta Amable",
@@ -12305,6 +12309,7 @@
       "Poké Flauta",
       "Poké Montura",
       "Pokéseñuelo",
+      "Polvo Brillo",
       "Polvo Energía",
       "Polvo Veloz",
       "PP Máximos",
@@ -12340,6 +12345,7 @@
       "Tabla Neutra",
       "Tela Terrible",
       "Telescopio",
+      "Tesecreto",
       "Ticket Barco",
       "Tiraobjeto",
       "Toxisfera",
@@ -12785,6 +12791,12 @@
         "pocket": "Objetos"
       },
       {
+        "id": "BRIGHTPOWDER",
+        "name": "Polvo Brillo",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
         "qty": 673,
@@ -12817,7 +12829,7 @@
       {
         "id": "CENIZASSAGRADAS",
         "name": "Cenizas Sagradas",
-        "qty": 4,
+        "qty": 5,
         "pocket": "Medicinas"
       },
       {
@@ -13021,6 +13033,12 @@
       {
         "id": "NESTBALL",
         "name": "Nido Ball",
+        "qty": 1,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "MASTERBALL",
+        "name": "Master Ball",
         "qty": 1,
         "pocket": "Poké Balls"
       },
@@ -13867,7 +13885,7 @@
       {
         "id": "XATTACK",
         "name": "Ataque X",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Objetos de combate"
       },
       {
@@ -13901,8 +13919,8 @@
         "pocket": "Objetos clave"
       },
       {
-        "id": "EMPTYVIAL",
-        "name": "Emptyvial",
+        "id": "VIAL",
+        "name": "Vial",
         "qty": 1,
         "pocket": "Objetos clave"
       },
@@ -13993,6 +14011,12 @@
       {
         "id": "LENSOFTRUTH",
         "name": "Lente de la Verdad",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "TESECRETO",
+        "name": "Tesecreto",
         "qty": 1,
         "pocket": "Objetos clave"
       }
