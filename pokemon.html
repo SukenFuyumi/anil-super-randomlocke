@@ -26,6 +26,7 @@
     .pk-bar > span { position:absolute; top:0; left:0; height:100%; }
     .bar-buff { background:#2ec77a; }
     .bar-nerf { background:rgba(255,93,93,.6); }
+    .bar-mark { width:2px; background:rgba(255,255,255,.9); z-index:2; }
     .pk-facts { display:flex; gap:1.5rem; flex-wrap:wrap; margin:.6rem 0; }
     .pk-facts .f { }
     .pk-facts .f .k { color:var(--text-muted); font-size:.65rem; text-transform:uppercase; letter-spacing:.04em; }
@@ -123,10 +124,15 @@
         const w = (x) => Math.max(0, Math.min(100, x / 2));
         const off = v - dv;
         let overlay = "";
-        if (dv > 0) overlay = `<span class="bar-buff" style="left:${w(off)}%;width:${w(v) - w(off)}%"></span>`;
-        else if (dv < 0) overlay = `<span class="bar-nerf" style="left:${w(v)}%;width:${w(off) - w(v)}%"></span>`;
-        // Base neutra (azul): el verde/rojo queda EXCLUSIVO para el tramo buff/nerf.
-        return `<span class="lbl">${l}</span><span class="val">${v}</span><span class="pk-bar"><span class="bar-fill" style="width:${w(v)}%;background:var(--accent)"></span>${overlay}</span>${delta}`;
+        if (dv > 0) {
+          // Buff: el tramo de oficial→Añil en verde, con una línea blanca en el valor oficial
+          overlay = `<span class="bar-buff" style="left:${w(off)}%;width:${w(v) - w(off)}%"></span><span class="bar-mark" style="left:${w(off)}%"></span>`;
+        } else if (dv < 0) {
+          // Nerf: el tramo perdido (Añil→oficial) en rojo, sobre la parte vacía de la barra
+          overlay = `<span class="bar-nerf" style="left:${w(v)}%;width:${w(off) - w(v)}%"></span>`;
+        }
+        // Base con color por nivel de stat (barColor); verde/rojo marcan el buff/nerf.
+        return `<span class="lbl">${l}</span><span class="val">${v}</span><span class="pk-bar"><span class="bar-fill" style="width:${w(v)}%;background:${barColor(v)}"></span>${overlay}</span>${delta}`;
       }).join("");
       const spr = (eid) => `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${eid}.png`;
       const evoMon = (eid, name, how, cur) => {
