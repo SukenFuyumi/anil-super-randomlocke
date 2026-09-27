@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 9h 51m jugadas · 70,440₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 10h 40m jugadas · 88,560₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "McPato",
@@ -33,11 +33,11 @@
       ],
       "ev": [
         34,
-        40,
-        29,
+        51,
+        31,
+        30,
         26,
-        23,
-        44
+        57
       ],
       "abilPool": [
         "Autoestima",
@@ -158,136 +158,153 @@
       "spriteKey": "GOLDUCK"
     },
     {
-      "nickname": "ElFokas",
-      "species": "Primarina",
+      "nickname": "AuraFarmer",
+      "species": "Krokorok",
       "level": 39,
       "types": [
-        "Agua",
-        "Hada"
+        "Tierra",
+        "Siniestro"
       ],
-      "ability": "Velo Flor",
-      "nature": "Seria",
-      "item": "Incienso Suave",
+      "ability": "Corrosión",
+      "nature": "Afable",
+      "item": "Baya Enigma",
       "shiny": false,
       "moves": [
-        "Luz Lunar",
-        "Rayo Burbuja",
-        "Arenas Ardientes",
-        "Empapar"
+        "Clavo Cañón",
+        "Picoteo",
+        "Ataque Óseo",
+        "Empujón"
       ],
+      "origin": "primer_ruta",
       "iv": [
-        24,
-        17,
-        4,
-        30,
-        7,
-        12
+        22,
+        22,
+        25,
+        22,
+        2,
+        18
       ],
       "ev": [
-        34,
-        40,
-        31,
-        27,
-        23,
-        45
+        4,
+        24,
+        9,
+        6,
+        8,
+        25
       ],
       "abilPool": [
-        "Velo Flor"
+        "Corrosión",
+        "Ilusión"
       ],
       "abilHidden": [
-        "Ráfaga Delta"
+        "Tinovictoria"
       ],
       "learnset": [
         {
-          "lvl": -1,
-          "m": "Giro Mortífero"
+          "lvl": 1,
+          "m": "Picoteo"
         },
         {
           "lvl": 1,
-          "m": "Ofrenda"
+          "m": "Clavo Cañón"
         },
         {
           "lvl": 1,
-          "m": "Hoja Afilada"
+          "m": "Paz Mental"
         },
         {
           "lvl": 1,
-          "m": "Asalto Barrera"
+          "m": "Ataque Óseo"
         },
         {
           "lvl": 1,
-          "m": "Escudo Real"
-        },
-        {
-          "lvl": 1,
-          "m": "Autotomía"
+          "m": "Atracción"
         },
         {
           "lvl": 9,
-          "m": "Geocontrol"
-        },
-        {
-          "lvl": 11,
-          "m": "Telépata"
+          "m": "Empujón"
         },
         {
           "lvl": 12,
-          "m": "Bostezo"
+          "m": "Tornado"
         },
         {
           "lvl": 15,
-          "m": "Kinético"
+          "m": "Escupir"
         },
         {
-          "lvl": 20,
-          "m": "Profecía"
+          "lvl": 16,
+          "m": "Camelo"
         },
         {
-          "lvl": 25,
-          "m": "Telatrampa"
+          "lvl": 18,
+          "m": "Último Lugar"
         },
         {
-          "lvl": 30,
-          "m": "Viento Feérico"
+          "lvl": 19,
+          "m": "Legado"
         },
         {
-          "lvl": 33,
-          "m": "Transformación"
+          "lvl": 21,
+          "m": "Clemencia"
         },
         {
-          "lvl": 37,
-          "m": "Fría Acogida"
+          "lvl": 22,
+          "m": "Paliza"
+        },
+        {
+          "lvl": 24,
+          "m": "Dragoaliento"
+        },
+        {
+          "lvl": 27,
+          "m": "Fanfarronear"
+        },
+        {
+          "lvl": 32,
+          "m": "Hidropulso"
+        },
+        {
+          "lvl": 32,
+          "m": "Aromaterapia"
+        },
+        {
+          "lvl": 35,
+          "m": "Golpes Furia"
         },
         {
           "lvl": 42,
-          "m": "Furia Natural"
+          "m": "Puntada Sombría"
         },
         {
-          "lvl": 44,
-          "m": "Chapoteo Lodo"
-        },
-        {
-          "lvl": 49,
-          "m": "Finta"
-        },
-        {
-          "lvl": 51,
-          "m": "Luz Aniquiladora"
-        },
-        {
-          "lvl": 58,
-          "m": "Acua Aro"
-        },
-        {
-          "lvl": 60,
-          "m": "Gigaimpacto"
+          "lvl": 47,
+          "m": "Arraigo"
         }
       ],
-      "firstMoves": [
-        "Impresionar",
-        "Cambiafuerza"
+      "tmMoves": [
+        "Abatidoras",
+        "Afilagarras",
+        "Aguante",
+        "Alivio",
+        "Atiborramiento",
+        "Camelo",
+        "Campo Psíquico",
+        "Ciclón",
+        "Isofuerza",
+        "Mil Púas Tóxicas",
+        "Niebla Aromática",
+        "Placaje",
+        "Plegaria Vital",
+        "Prensa Metálica",
+        "Tormenta Arena"
       ],
-      "spriteKey": "PRIMARINA"
+      "firstMoves": [
+        "Clavo Cañón",
+        "Paz Mental",
+        "Ataque Óseo",
+        "Atracción"
+      ],
+      "spriteKey": "KROKOROK"
     },
     {
       "nickname": "Tortilla",
@@ -317,11 +334,11 @@
       ],
       "ev": [
         7,
-        22,
-        11,
-        3,
-        6,
-        19
+        33,
+        13,
+        7,
+        9,
+        32
       ],
       "abilPool": [
         "Humo Blanco"
@@ -456,11 +473,11 @@
       ],
       "ev": [
         34,
-        40,
-        30,
-        27,
-        23,
-        44
+        51,
+        32,
+        31,
+        26,
+        57
       ],
       "abilPool": [
         "Raíz robusta"
@@ -609,11 +626,11 @@
       ],
       "ev": [
         10,
-        30,
-        18,
-        8,
-        11,
-        25
+        41,
+        20,
+        12,
+        14,
+        38
       ],
       "abilPool": [
         "Pelusa",
@@ -712,153 +729,136 @@
       "spriteKey": "GURDURR"
     },
     {
-      "nickname": "AuraFarmer",
-      "species": "Krokorok",
+      "nickname": "ElFokas",
+      "species": "Primarina",
       "level": 39,
       "types": [
-        "Tierra",
-        "Siniestro"
+        "Agua",
+        "Hada"
       ],
-      "ability": "Corrosión",
-      "nature": "Afable",
-      "item": "Baya Enigma",
+      "ability": "Velo Flor",
+      "nature": "Seria",
+      "item": "Incienso Suave",
       "shiny": false,
       "moves": [
-        "Clavo Cañón",
-        "Picoteo",
-        "Ataque Óseo",
-        "Empujón"
+        "Luz Lunar",
+        "Rayo Burbuja",
+        "Arenas Ardientes",
+        "Empapar"
       ],
-      "origin": "primer_ruta",
       "iv": [
-        22,
-        22,
-        25,
-        22,
-        2,
-        18
-      ],
-      "ev": [
+        24,
+        17,
         4,
-        13,
+        30,
         7,
-        2,
-        5,
         12
       ],
+      "ev": [
+        34,
+        51,
+        33,
+        31,
+        26,
+        58
+      ],
       "abilPool": [
-        "Corrosión",
-        "Ilusión"
+        "Velo Flor"
       ],
       "abilHidden": [
-        "Tinovictoria"
+        "Ráfaga Delta"
       ],
       "learnset": [
         {
-          "lvl": 1,
-          "m": "Picoteo"
+          "lvl": -1,
+          "m": "Giro Mortífero"
         },
         {
           "lvl": 1,
-          "m": "Clavo Cañón"
+          "m": "Ofrenda"
         },
         {
           "lvl": 1,
-          "m": "Paz Mental"
+          "m": "Hoja Afilada"
         },
         {
           "lvl": 1,
-          "m": "Ataque Óseo"
+          "m": "Asalto Barrera"
         },
         {
           "lvl": 1,
-          "m": "Atracción"
+          "m": "Escudo Real"
+        },
+        {
+          "lvl": 1,
+          "m": "Autotomía"
         },
         {
           "lvl": 9,
-          "m": "Empujón"
+          "m": "Geocontrol"
+        },
+        {
+          "lvl": 11,
+          "m": "Telépata"
         },
         {
           "lvl": 12,
-          "m": "Tornado"
+          "m": "Bostezo"
         },
         {
           "lvl": 15,
-          "m": "Escupir"
+          "m": "Kinético"
         },
         {
-          "lvl": 16,
-          "m": "Camelo"
+          "lvl": 20,
+          "m": "Profecía"
         },
         {
-          "lvl": 18,
-          "m": "Último Lugar"
+          "lvl": 25,
+          "m": "Telatrampa"
         },
         {
-          "lvl": 19,
-          "m": "Legado"
+          "lvl": 30,
+          "m": "Viento Feérico"
         },
         {
-          "lvl": 21,
-          "m": "Clemencia"
+          "lvl": 33,
+          "m": "Transformación"
         },
         {
-          "lvl": 22,
-          "m": "Paliza"
-        },
-        {
-          "lvl": 24,
-          "m": "Dragoaliento"
-        },
-        {
-          "lvl": 27,
-          "m": "Fanfarronear"
-        },
-        {
-          "lvl": 32,
-          "m": "Hidropulso"
-        },
-        {
-          "lvl": 32,
-          "m": "Aromaterapia"
-        },
-        {
-          "lvl": 35,
-          "m": "Golpes Furia"
+          "lvl": 37,
+          "m": "Fría Acogida"
         },
         {
           "lvl": 42,
-          "m": "Puntada Sombría"
+          "m": "Furia Natural"
         },
         {
-          "lvl": 47,
-          "m": "Arraigo"
+          "lvl": 44,
+          "m": "Chapoteo Lodo"
+        },
+        {
+          "lvl": 49,
+          "m": "Finta"
+        },
+        {
+          "lvl": 51,
+          "m": "Luz Aniquiladora"
+        },
+        {
+          "lvl": 58,
+          "m": "Acua Aro"
+        },
+        {
+          "lvl": 60,
+          "m": "Gigaimpacto"
         }
       ],
-      "tmMoves": [
-        "Abatidoras",
-        "Afilagarras",
-        "Aguante",
-        "Alivio",
-        "Atiborramiento",
-        "Camelo",
-        "Campo Psíquico",
-        "Ciclón",
-        "Isofuerza",
-        "Mil Púas Tóxicas",
-        "Niebla Aromática",
-        "Placaje",
-        "Plegaria Vital",
-        "Prensa Metálica",
-        "Tormenta Arena"
-      ],
       "firstMoves": [
-        "Clavo Cañón",
-        "Paz Mental",
-        "Ataque Óseo",
-        "Atracción"
+        "Impresionar",
+        "Cambiafuerza"
       ],
-      "spriteKey": "KROKOROK"
+      "spriteKey": "PRIMARINA"
     }
   ],
   "box": [
@@ -5476,6 +5476,264 @@
       "spriteKey": "LURANTIS"
     },
     {
+      "nickname": "Alex Lora",
+      "species": "Linoone (Galar)",
+      "level": 30,
+      "types": [
+        "Siniestro",
+        "Normal"
+      ],
+      "ability": "Antídoto",
+      "nature": "Huraña",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Alivio",
+        "Doble Golpe",
+        "Impactrueno",
+        "Viento Feérico"
+      ],
+      "origin": "primer_ruta",
+      "iv": [
+        20,
+        20,
+        23,
+        4,
+        25,
+        14
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Psicogénesis",
+        "Antídoto"
+      ],
+      "abilHidden": [
+        "Impasible"
+      ],
+      "learnset": [
+        {
+          "lvl": 0,
+          "m": "Acupresión"
+        },
+        {
+          "lvl": 1,
+          "m": "Alud"
+        },
+        {
+          "lvl": 1,
+          "m": "Llave Corsé"
+        },
+        {
+          "lvl": 1,
+          "m": "Bruma Explosiva"
+        },
+        {
+          "lvl": 1,
+          "m": "Atracción"
+        },
+        {
+          "lvl": 1,
+          "m": "Púas"
+        },
+        {
+          "lvl": 1,
+          "m": "A Defender"
+        },
+        {
+          "lvl": 1,
+          "m": "Roca Veloz"
+        },
+        {
+          "lvl": 9,
+          "m": "Golpe Aéreo"
+        },
+        {
+          "lvl": 12,
+          "m": "Salpicadura"
+        },
+        {
+          "lvl": 15,
+          "m": "Alivio"
+        },
+        {
+          "lvl": 18,
+          "m": "Doble Golpe"
+        },
+        {
+          "lvl": 23,
+          "m": "Impactrueno"
+        },
+        {
+          "lvl": 28,
+          "m": "Viento Feérico"
+        },
+        {
+          "lvl": 33,
+          "m": "Envidia ardiente"
+        },
+        {
+          "lvl": 38,
+          "m": "Llama Protectora"
+        },
+        {
+          "lvl": 43,
+          "m": "Coraza Trampa"
+        },
+        {
+          "lvl": 48,
+          "m": "Malicioso"
+        }
+      ],
+      "firstMoves": [
+        "Alivio",
+        "Doble Golpe",
+        "Impactrueno",
+        "Viento Feérico"
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10175.png",
+      "spriteKey": "LINOONE_1"
+    },
+    {
+      "nickname": "GrimReaper",
+      "species": "Cinccino",
+      "level": 39,
+      "types": [
+        "Normal"
+      ],
+      "ability": "Respondón",
+      "nature": "Modesta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Brinco",
+        "Refuerzo",
+        "Maquinación",
+        "Esfuerzo"
+      ],
+      "origin": "primer_ruta",
+      "iv": [
+        12,
+        30,
+        21,
+        15,
+        5,
+        25
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Silvano",
+        "Respondón"
+      ],
+      "abilHidden": [
+        "Remoto"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Estruendo Escama"
+        },
+        {
+          "lvl": -1,
+          "m": "Disparo Espejo"
+        },
+        {
+          "lvl": -1,
+          "m": "Niebla"
+        },
+        {
+          "lvl": -1,
+          "m": "Vendetta"
+        },
+        {
+          "lvl": -1,
+          "m": "Agilidad"
+        },
+        {
+          "lvl": -1,
+          "m": "Fachada"
+        },
+        {
+          "lvl": -1,
+          "m": "Mimético"
+        },
+        {
+          "lvl": -1,
+          "m": "Rastreo"
+        },
+        {
+          "lvl": -1,
+          "m": "Estoicismo"
+        },
+        {
+          "lvl": -1,
+          "m": "Yo Primero"
+        },
+        {
+          "lvl": -1,
+          "m": "Puño Mareo"
+        },
+        {
+          "lvl": 1,
+          "m": "Aguante"
+        },
+        {
+          "lvl": 1,
+          "m": "Brinco"
+        },
+        {
+          "lvl": 1,
+          "m": "Refuerzo"
+        },
+        {
+          "lvl": 1,
+          "m": "Maquinación"
+        },
+        {
+          "lvl": 1,
+          "m": "Esfuerzo"
+        }
+      ],
+      "tmMoves": [
+        "Abatidoras",
+        "Afilagarras",
+        "Aguante",
+        "Alivio",
+        "Corpulencia",
+        "Furia Natural",
+        "Impactrueno",
+        "Lanzarrocas",
+        "Luz Lunar",
+        "Ofrenda",
+        "Pájaro Osado",
+        "Plegaria Vital",
+        "Puño Incremento",
+        "Rayo Fusión",
+        "Viento Carámbano",
+        "Viento Feérico"
+      ],
+      "firstMoves": [
+        "Brinco",
+        "Refuerzo",
+        "Maquinación",
+        "Esfuerzo"
+      ],
+      "spriteKey": "CINCCINO"
+    },
+    {
       "nickname": "Carnitas",
       "species": "Pignite",
       "level": 30,
@@ -5632,15 +5890,15 @@
       "mon": "Golduck"
     },
     {
-      "route": "",
-      "where": "Laboratorio",
-      "species": "Primarina",
-      "nickname": "ElFokas",
+      "route": "ruta_22",
+      "where": "Ruta 22",
+      "species": "Krokorok",
+      "nickname": "AuraFarmer",
       "shiny": false,
       "status": "captured",
-      "category": "estatico_regalo",
-      "level": 5,
-      "mon": "Primarina"
+      "category": "salvaje",
+      "level": 4,
+      "mon": "Krokorok"
     },
     {
       "route": "ruta_6",
@@ -5676,15 +5934,15 @@
       "mon": "Gurdurr"
     },
     {
-      "route": "ruta_22",
-      "where": "Ruta 22",
-      "species": "Krokorok",
-      "nickname": "AuraFarmer",
+      "route": "",
+      "where": "Laboratorio",
+      "species": "Primarina",
+      "nickname": "ElFokas",
       "shiny": false,
       "status": "captured",
-      "category": "salvaje",
-      "level": 4,
-      "mon": "Krokorok"
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Primarina"
     },
     {
       "route": "ruta_21",
@@ -6116,6 +6374,28 @@
       "mon": "Lurantis"
     },
     {
+      "route": "tunel_roca",
+      "where": "Túnel Roca",
+      "species": "Linoone",
+      "nickname": "Alex Lora",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 30,
+      "mon": "Linoone"
+    },
+    {
+      "route": "ruta_10_norte",
+      "where": "Ruta 10 Norte",
+      "species": "Cinccino",
+      "nickname": "GrimReaper",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 29,
+      "mon": "Cinccino"
+    },
+    {
       "route": "monte_moon",
       "where": "Monte Moon",
       "species": "Pignite",
@@ -6157,6 +6437,7 @@
       "pueblo_paleta": true,
       "ruta_3": true,
       "ruta_9": true,
+      "tunel_roca": true,
       "ruta_10_norte": true,
       "ruta_12": true
     },
@@ -6182,7 +6463,9 @@
       "ruta_22": true,
       "ruta_15": true,
       "tunel_diglett": true,
-      "ruta_9": true
+      "ruta_9": true,
+      "ruta_10_norte": true,
+      "tunel_roca": true
     },
     "switches": [
       48,
@@ -6208,6 +6491,7 @@
       87,
       88,
       89,
+      90,
       92,
       110,
       112,
@@ -6238,6 +6522,7 @@
       "Acopio Ball",
       "Agua Fresca",
       "Álbum de Fotos",
+      "Ánfora",
       "Antiparalizador",
       "Ataque X 2",
       "Banda Recia",
@@ -6247,6 +6532,8 @@
       "Baya Caquic",
       "Baya Chilan",
       "Baya Enigma",
+      "Baya Jaboca",
+      "Baya Magua",
       "Baya Pasio",
       "Bici",
       "Bono Bici",
@@ -6258,6 +6545,7 @@
       "Corona Galanuez",
       "Cubresuelos",
       "Cuerda Huida",
+      "Cura Total",
       "Def. Esp. X 6",
       "Def. Especial X",
       "Escudo Habilidad",
@@ -6276,6 +6564,7 @@
       "Guante de Boxeo",
       "Hierba Mental",
       "Hierba Revivir",
+      "Incienso Lento",
       "Incienso Suave",
       "Incubadora",
       "Más PS",
@@ -6285,6 +6574,7 @@
       "Menta Floja",
       "Menta Grosera",
       "Menta Serena",
+      "Mineral Evol",
       "Miniseta",
       "MO Corte",
       "MO Destello",
@@ -6321,6 +6611,8 @@
       "MT73",
       "MT74",
       "MT78",
+      "MT80",
+      "MT81",
       "MT83",
       "MT85",
       "MT86",
@@ -6330,6 +6622,7 @@
       "MT96",
       "MT99",
       "Muda Concha",
+      "Musgo Brillante",
       "Pañuelo de Seda",
       "Parasol Multiuso",
       "Pesa Recia",
@@ -6343,6 +6636,8 @@
       "PP Máximos",
       "Precisión X 2",
       "Prettyfeather",
+      "Protector",
+      "Puño Suerte",
       "Radar",
       "Randomizador de Habilidad",
       "Real Cobre",
@@ -6355,6 +6650,7 @@
       "Revest. Metálico",
       "Roca Calor",
       "Sana Ball",
+      "Seguro Debilidad",
       "Supercaña",
       "Tabla Acero",
       "Tabla Helada",
@@ -6590,6 +6886,54 @@
         "pocket": "Objetos"
       },
       {
+        "id": "RELICVASE",
+        "name": "Ánfora",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "EVIOLITE",
+        "name": "Mineral Evol",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "PROTECTOR",
+        "name": "Protector",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "WELLSPRINGMASK",
+        "name": "Máscara Fuente",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "WEAKNESSPOLICY",
+        "name": "Seguro Debilidad",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "LUMINOUSMOSS",
+        "name": "Musgo Brillante",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "FULLINCENSE",
+        "name": "Incienso Lento",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "LUCKYPUNCH",
+        "name": "Puño Suerte",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "REVIVALHERB",
         "name": "Hierba Revivir",
         "qty": 1,
@@ -6598,7 +6942,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 685,
+        "qty": 675,
         "pocket": "Medicinas"
       },
       {
@@ -6746,21 +7090,27 @@
         "pocket": "Medicinas"
       },
       {
+        "id": "FULLHEAL",
+        "name": "Cura Total",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
         "id": "GREATBALL",
         "name": "Super Ball",
-        "qty": 12,
+        "qty": 14,
         "pocket": "Poké Balls"
       },
       {
         "id": "POKEBALL",
         "name": "Poké Ball",
-        "qty": 17,
+        "qty": 32,
         "pocket": "Poké Balls"
       },
       {
         "id": "PREMIERBALL",
         "name": "Honor Ball",
-        "qty": 3,
+        "qty": 5,
         "pocket": "Poké Balls"
       },
       {
@@ -6932,6 +7282,18 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM80",
+        "name": "MT80",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM81",
+        "name": "MT81",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM83",
         "name": "MT83",
         "qty": 1,
@@ -7042,6 +7404,18 @@
       {
         "id": "CHILANBERRY",
         "name": "Baya Chilan",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "JABOCABERRY",
+        "name": "Baya Jaboca",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "ROWAPBERRY",
+        "name": "Baya Magua",
         "qty": 1,
         "pocket": "Bayas"
       },
