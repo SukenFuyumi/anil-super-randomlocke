@@ -22,8 +22,10 @@
     .stat-delta.up, .up { color:#2ec77a; }
     .stat-delta.down, .down { color:#ff5d5d; }
     .rebal-note { font-size:.7rem; font-weight:600; color:var(--text-muted); }
-    .pk-bar { height:12px; border-radius:999px; background:var(--subtle-bg); overflow:hidden; }
-    .pk-bar > span { display:block; height:100%; }
+    .pk-bar { position:relative; height:12px; border-radius:999px; background:var(--subtle-bg); overflow:hidden; }
+    .pk-bar > span { position:absolute; top:0; left:0; height:100%; }
+    .bar-buff { background:#2ec77a; }
+    .bar-nerf { background:rgba(255,93,93,.6); }
     .pk-facts { display:flex; gap:1.5rem; flex-wrap:wrap; margin:.6rem 0; }
     .pk-facts .f { }
     .pk-facts .f .k { color:var(--text-muted); font-size:.65rem; text-transform:uppercase; letter-spacing:.04em; }
@@ -116,7 +118,15 @@
         const v = p.st[i] || 0;
         const dv = stChg ? (stChg[i] || 0) : 0;
         const delta = dv ? `<b class="stat-delta ${dv > 0 ? "up" : "down"}" title="Añil ${dv > 0 ? "subió" : "bajó"} este stat (oficial: ${v - dv})">${dv > 0 ? "▲+" + dv : "▼" + dv}</b>` : `<span></span>`;
-        return `<span class="lbl">${l}</span><span class="val">${v}</span><span class="pk-bar"><span style="width:${Math.min(100, v / 2)}%;background:${barColor(v)}"></span></span>${delta}`;
+        // Barra: relleno normal hasta el valor de Añil; encima, el tramo BUFFADO en verde
+        // (de oficial a Añil) o, si fue NERF, el tramo perdido en rojo (de Añil a oficial).
+        const w = (x) => Math.max(0, Math.min(100, x / 2));
+        const off = v - dv;
+        let overlay = "";
+        if (dv > 0) overlay = `<span class="bar-buff" style="left:${w(off)}%;width:${w(v) - w(off)}%"></span>`;
+        else if (dv < 0) overlay = `<span class="bar-nerf" style="left:${w(v)}%;width:${w(off) - w(v)}%"></span>`;
+        // Base neutra (azul): el verde/rojo queda EXCLUSIVO para el tramo buff/nerf.
+        return `<span class="lbl">${l}</span><span class="val">${v}</span><span class="pk-bar"><span class="bar-fill" style="width:${w(v)}%;background:var(--accent)"></span>${overlay}</span>${delta}`;
       }).join("");
       const spr = (eid) => `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${eid}.png`;
       const evoMon = (eid, name, how, cur) => {
