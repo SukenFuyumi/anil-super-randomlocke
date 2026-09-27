@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 13h 29m jugadas · 76,420₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 13h 40m jugadas · 85,310₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "ElFokas",
@@ -33,12 +33,12 @@
         12
       ],
       "ev": [
-        45,
-        86,
-        49,
-        43,
+        46,
+        94,
+        52,
+        44,
         34,
-        82
+        86
       ],
       "abilPool": [
         "Velo Flor"
@@ -182,12 +182,12 @@
         14
       ],
       "ev": [
-        33,
-        40,
-        22,
-        27,
+        34,
+        48,
+        25,
+        28,
         16,
-        36
+        40
       ],
       "abilPool": [
         "Mar del Albor",
@@ -315,12 +315,12 @@
         0
       ],
       "ev": [
-        18,
-        68,
-        29,
         19,
+        76,
+        32,
+        20,
         17,
-        56
+        60
       ],
       "abilPool": [
         "Humo Blanco"
@@ -462,12 +462,12 @@
         13
       ],
       "ev": [
-        21,
-        76,
-        36,
-        24,
         22,
-        62
+        84,
+        39,
+        25,
+        22,
+        66
       ],
       "abilPool": [
         "Efecto Espora",
@@ -583,12 +583,12 @@
         21
       ],
       "ev": [
-        45,
-        86,
-        47,
-        42,
+        46,
+        94,
+        50,
+        43,
         34,
-        81
+        85
       ],
       "abilPool": [
         "Autoestima",
@@ -735,12 +735,12 @@
         19
       ],
       "ev": [
-        45,
-        86,
-        48,
-        43,
+        46,
+        94,
+        51,
+        44,
         34,
-        81
+        85
       ],
       "abilPool": [
         "Raíz robusta"
@@ -7859,9 +7859,13 @@
       96,
       97,
       98,
-      99,
       100,
       101,
+      102,
+      103,
+      104,
+      105,
+      106,
       110,
       112,
       113,
@@ -7991,6 +7995,7 @@
       "MT113",
       "MT12",
       "MT122",
+      "MT14",
       "MT17",
       "MT20",
       "MT23",
@@ -8048,6 +8053,7 @@
       "Piedra Lunar",
       "Piedra Solar",
       "Poción",
+      "Poké Flauta",
       "Poké Montura",
       "Pokéseñuelo",
       "Polvo Metálico",
@@ -8687,6 +8693,12 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM14",
+        "name": "MT14",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM17",
         "name": "MT17",
         "qty": 1,
@@ -9265,6 +9277,12 @@
       {
         "id": "VISORSILPH",
         "name": "Visor Silph",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "POKEFLUTE",
+        "name": "Poké Flauta",
         "qty": 1,
         "pocket": "Objetos clave"
       }
