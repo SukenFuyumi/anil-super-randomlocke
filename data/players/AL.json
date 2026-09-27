@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 12h 34m jugadas · 90,420₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 13h 29m jugadas · 76,420₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "ElFokas",
       "species": "Primarina",
-      "level": 39,
+      "level": 49,
       "types": [
         "Agua",
         "Hada"
@@ -33,12 +33,12 @@
         12
       ],
       "ev": [
-        38,
-        67,
+        45,
+        86,
+        49,
         43,
         34,
-        32,
-        68
+        82
       ],
       "abilPool": [
         "Velo Flor"
@@ -159,7 +159,7 @@
     {
       "nickname": "Pronebone",
       "species": "Marowak",
-      "level": 39,
+      "level": 49,
       "types": [
         "Tierra"
       ],
@@ -182,12 +182,12 @@
         14
       ],
       "ev": [
-        26,
-        21,
+        33,
+        40,
+        22,
+        27,
         16,
-        18,
-        14,
-        22
+        36
       ],
       "abilPool": [
         "Mar del Albor",
@@ -278,6 +278,9 @@
           "m": "Anclaje"
         }
       ],
+      "tmMoves": [
+        "Plegaria Vital"
+      ],
       "firstMoves": [
         "Anticipo",
         "Danza Dragón",
@@ -288,7 +291,7 @@
     {
       "nickname": "Tortilla",
       "species": "Torterra",
-      "level": 39,
+      "level": 49,
       "types": [
         "Planta",
         "Tierra"
@@ -312,12 +315,12 @@
         0
       ],
       "ev": [
-        11,
-        49,
-        23,
-        10,
-        15,
-        42
+        18,
+        68,
+        29,
+        19,
+        17,
+        56
       ],
       "abilPool": [
         "Humo Blanco"
@@ -435,17 +438,17 @@
     },
     {
       "nickname": "GYMBRO",
-      "species": "Gurdurr",
-      "level": 39,
+      "species": "Conkeldurr",
+      "level": 49,
       "types": [
         "Lucha"
       ],
-      "ability": "Don Floral",
+      "ability": "Muro Mágico",
       "nature": "Cauta",
       "item": "Cinturón Negro",
       "shiny": false,
       "moves": [
-        "Bomba Imán",
+        "Pirueta Helada",
         "Tóxico",
         "Llave Giro",
         "Puño Incremento"
@@ -459,113 +462,105 @@
         13
       ],
       "ev": [
-        14,
-        57,
-        30,
-        15,
-        20,
-        48
+        21,
+        76,
+        36,
+        24,
+        22,
+        62
       ],
       "abilPool": [
-        "Pelusa",
-        "Don Floral"
+        "Efecto Espora",
+        "Muro Mágico"
       ],
       "abilHidden": [
-        "Reacción Química"
+        "Garra Dura"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Relevo"
+          "m": "Púas Tóxicas"
         },
         {
           "lvl": 1,
-          "m": "Ofrenda"
+          "m": "Bostezo"
         },
         {
           "lvl": 1,
-          "m": "Hidrochorro"
+          "m": "Imitación"
         },
         {
           "lvl": 1,
-          "m": "Plegaria Vital"
+          "m": "Cara Susto"
         },
         {
           "lvl": 1,
-          "m": "Empujón"
+          "m": "Detección"
         },
         {
           "lvl": 12,
-          "m": "Antojo"
+          "m": "Levitón"
         },
         {
           "lvl": 16,
-          "m": "Tóxico"
+          "m": "Niebla Clara"
         },
         {
           "lvl": 20,
-          "m": "Bola Hielo"
+          "m": "Carámbano"
         },
         {
           "lvl": 20,
-          "m": "Enrosque"
+          "m": "Refugio"
         },
         {
           "lvl": 24,
-          "m": "Cerrojo Feérico"
+          "m": "Llave Vital"
         },
         {
           "lvl": 24,
-          "m": "Escudo Tatami"
+          "m": "Corte"
         },
         {
           "lvl": 30,
-          "m": "Polvo Ira"
+          "m": "Escudo Real"
         },
         {
           "lvl": 36,
-          "m": "Espacio Raro"
+          "m": "Foco Energía"
+        },
+        {
+          "lvl": 41,
+          "m": "Tormenta Arena"
         },
         {
           "lvl": 42,
-          "m": "Voltio Cruel"
+          "m": "Reversión"
         },
         {
           "lvl": 48,
-          "m": "Cortina Plasma"
+          "m": "Castigo"
         },
         {
           "lvl": 54,
-          "m": "Gancho Alto"
+          "m": "Testarazo"
         },
         {
           "lvl": 60,
-          "m": "Humareda"
+          "m": "Espabila"
         }
-      ],
-      "tmMoves": [
-        "Aguante",
-        "Bramido Dragón",
-        "Campo Psíquico",
-        "Corpulencia",
-        "Fría Acogida",
-        "Lanzarrocas",
-        "Placaje",
-        "Plegaria Vital",
-        "Tormenta Arena",
-        "Truco Fuerza"
       ],
       "firstMoves": [
         "Embargo",
         "Somnífero",
         "Llave Giro"
       ],
-      "spriteKey": "GURDURR"
+      "spriteKey": "CONKELDURR"
     },
     {
       "nickname": "McPato",
       "species": "Golduck",
-      "level": 39,
+      "level": 49,
       "types": [
         "Agua"
       ],
@@ -588,12 +583,12 @@
         21
       ],
       "ev": [
-        38,
-        67,
-        41,
-        33,
-        32,
-        67
+        45,
+        86,
+        47,
+        42,
+        34,
+        81
       ],
       "abilPool": [
         "Autoestima",
@@ -716,7 +711,7 @@
     {
       "nickname": "Mojarra",
       "species": "Gyarados",
-      "level": 39,
+      "level": 49,
       "types": [
         "Agua",
         "Volador"
@@ -740,12 +735,12 @@
         19
       ],
       "ev": [
-        38,
-        67,
-        42,
+        45,
+        86,
+        48,
+        43,
         34,
-        32,
-        67
+        81
       ],
       "abilPool": [
         "Raíz robusta"
@@ -6001,6 +5996,254 @@
       "spriteKey": "SQUAWKABILLY_3"
     },
     {
+      "nickname": "Hank",
+      "species": "Toedscruel",
+      "level": 35,
+      "types": [
+        "Tierra",
+        "Planta"
+      ],
+      "ability": "Encadenado",
+      "nature": "Cauta",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Telequinesis",
+        "A Defender",
+        "Cola Veneno",
+        "Huesomerang"
+      ],
+      "origin": "casino",
+      "iv": [
+        26,
+        10,
+        11,
+        29,
+        20,
+        12
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Encadenado"
+      ],
+      "abilHidden": [],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Nieve Polvo"
+        },
+        {
+          "lvl": 1,
+          "m": "Fitoimpulso"
+        },
+        {
+          "lvl": 1,
+          "m": "Empujón"
+        },
+        {
+          "lvl": 4,
+          "m": "Agitacola"
+        },
+        {
+          "lvl": 8,
+          "m": "Rencor"
+        },
+        {
+          "lvl": 8,
+          "m": "Falso Tortazo"
+        },
+        {
+          "lvl": 12,
+          "m": "Bucle Arena"
+        },
+        {
+          "lvl": 15,
+          "m": "Bomba Ácida"
+        },
+        {
+          "lvl": 16,
+          "m": "Divide Dolor"
+        },
+        {
+          "lvl": 20,
+          "m": "Telequinesis"
+        },
+        {
+          "lvl": 24,
+          "m": "A Defender"
+        },
+        {
+          "lvl": 28,
+          "m": "Cola Veneno"
+        },
+        {
+          "lvl": 34,
+          "m": "Huesomerang"
+        },
+        {
+          "lvl": 40,
+          "m": "Fuerza Equina"
+        },
+        {
+          "lvl": 44,
+          "m": "Represión Metal"
+        },
+        {
+          "lvl": 48,
+          "m": "Fertilizante"
+        },
+        {
+          "lvl": 54,
+          "m": "Ciclón de Hojas"
+        },
+        {
+          "lvl": 58,
+          "m": "Amnesia"
+        }
+      ],
+      "tmMoves": [
+        "Lanzarrocas"
+      ],
+      "firstMoves": [
+        "Telequinesis",
+        "A Defender",
+        "Cola Veneno",
+        "Huesomerang"
+      ],
+      "spriteKey": "TOEDSCRUEL"
+    },
+    {
+      "nickname": "Modesto",
+      "species": "Farigiraf",
+      "level": 32,
+      "types": [
+        "Normal",
+        "Psíquico"
+      ],
+      "ability": "Gélido",
+      "nature": "Rara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Psicocorte",
+        "Rabia",
+        "Bostezo",
+        "Amago"
+      ],
+      "origin": "primer_ruta",
+      "iv": [
+        30,
+        9,
+        12,
+        31,
+        31,
+        25
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Cura Natural",
+        "Gélido"
+      ],
+      "abilHidden": [
+        "Realeza"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Pantalla de Humo"
+        },
+        {
+          "lvl": 1,
+          "m": "Vendetta"
+        },
+        {
+          "lvl": 1,
+          "m": "Bucle Arena"
+        },
+        {
+          "lvl": 1,
+          "m": "Cola Veneno"
+        },
+        {
+          "lvl": 1,
+          "m": "Yo Primero"
+        },
+        {
+          "lvl": 5,
+          "m": "Telequinesis"
+        },
+        {
+          "lvl": 10,
+          "m": "Cambiavelocidad"
+        },
+        {
+          "lvl": 14,
+          "m": "Otra Vez"
+        },
+        {
+          "lvl": 19,
+          "m": "Psicocorte"
+        },
+        {
+          "lvl": 23,
+          "m": "Rabia"
+        },
+        {
+          "lvl": 28,
+          "m": "Bostezo"
+        },
+        {
+          "lvl": 32,
+          "m": "Amago"
+        },
+        {
+          "lvl": 37,
+          "m": "Empapar"
+        },
+        {
+          "lvl": 39,
+          "m": "Cascada"
+        },
+        {
+          "lvl": 41,
+          "m": "Frustración"
+        },
+        {
+          "lvl": 46,
+          "m": "Clonatipo"
+        },
+        {
+          "lvl": 50,
+          "m": "Latigazo"
+        },
+        {
+          "lvl": 55,
+          "m": "Atiborramiento"
+        }
+      ],
+      "firstMoves": [
+        "Psicocorte",
+        "Rabia",
+        "Bostezo",
+        "Amago"
+      ],
+      "spriteKey": "FARIGIRAF"
+    },
+    {
       "nickname": "La Gorda",
       "species": "Chansey",
       "level": 39,
@@ -6917,13 +7160,13 @@
     {
       "route": "",
       "where": "Museo Pokémon",
-      "species": "Gurdurr",
+      "species": "Conkeldurr",
       "nickname": "GYMBRO",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
       "level": 1,
-      "mon": "Gurdurr"
+      "mon": "Conkeldurr"
     },
     {
       "route": "ruta_22",
@@ -7421,6 +7664,28 @@
       "mon": "Squawkabilly"
     },
     {
+      "route": "",
+      "where": "Casino Azulona",
+      "species": "Toedscruel",
+      "nickname": "Hank",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 35,
+      "mon": "Toedscruel"
+    },
+    {
+      "route": "torre_pokemon",
+      "where": "Torre Pokémon",
+      "species": "Farigiraf",
+      "nickname": "Modesto",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 32,
+      "mon": "Farigiraf"
+    },
+    {
       "route": "ruta_8",
       "where": "Ruta 8",
       "species": "Chansey",
@@ -7522,10 +7787,10 @@
       "ruta_10_sur": true,
       "pueblo_lavanda": true,
       "ciudad_azulona": true,
+      "torre_pokemon": true,
       "ruta_8": true,
       "ruta_10_norte": true,
       "ruta_7": true,
-      "torre_pokemon": true,
       "ruta_12": true,
       "ruta_11": true
     },
@@ -7558,7 +7823,8 @@
       "pueblo_lavanda": true,
       "ruta_8": true,
       "ruta_7": true,
-      "ciudad_azulona": true
+      "ciudad_azulona": true,
+      "torre_pokemon": true
     },
     "switches": [
       48,
@@ -7591,11 +7857,20 @@
       94,
       95,
       96,
+      97,
+      98,
+      99,
+      100,
+      101,
       110,
       112,
       113,
       114,
       115,
+      116,
+      117,
+      118,
+      119,
       120,
       121,
       129,
@@ -7621,6 +7896,7 @@
     ],
     "foundItems": [
       "Acopio Ball",
+      "Aecapsula",
       "Agua Fresca",
       "Álbum de Fotos",
       "Ánfora",
@@ -7630,7 +7906,9 @@
       "Banda Recia",
       "Barrita Plus",
       "Baya Algama",
+      "Baya Anjiro",
       "Baya Arabol",
+      "Baya Aslac",
       "Baya Caoca",
       "Baya Caquic",
       "Baya Chilan",
@@ -7651,7 +7929,9 @@
       "Cinturón Negro",
       "Colmillo de Dragón",
       "Competi Ball",
+      "Corazón Dulce",
       "Corona Galanuez",
+      "Crítico X 3",
       "Cubresuelos",
       "Cuerda Huida",
       "Cura Total",
@@ -7681,12 +7961,14 @@
       "Incienso Suave",
       "Incubadora",
       "Llamasfera",
+      "Llave Rocket",
       "Manuscrito Sombras",
       "Más PS",
       "Máscara Cimiento",
       "Maxipanal",
       "Menta Alocada",
       "Menta Audaz",
+      "Menta Cauta",
       "Menta Floja",
       "Menta Grosera",
       "Menta Serena",
@@ -7698,12 +7980,14 @@
       "MO Golpe Roca",
       "Monedero",
       "MT02",
+      "MT03",
       "MT10",
       "MT101",
       "MT102",
       "MT104",
       "MT105",
       "MT110",
+      "MT111",
       "MT113",
       "MT12",
       "MT122",
@@ -7712,8 +7996,11 @@
       "MT23",
       "MT27",
       "MT29",
+      "MT30",
       "MT31",
       "MT32",
+      "MT35",
+      "MT36",
       "MT39",
       "MT42",
       "MT43",
@@ -7723,11 +8010,14 @@
       "MT48",
       "MT51",
       "MT52",
+      "MT55",
       "MT57",
+      "MT58",
       "MT59",
       "MT60",
       "MT62",
       "MT63",
+      "MT66",
       "MT68",
       "MT69",
       "MT70",
@@ -7738,10 +8028,12 @@
       "MT80",
       "MT81",
       "MT83",
+      "MT84",
       "MT85",
       "MT86",
       "MT87",
       "MT89",
+      "MT93",
       "MT94",
       "MT96",
       "MT99",
@@ -7774,6 +8066,7 @@
       "Repelente Máximo",
       "Resistfeather",
       "Restaurar Todo",
+      "Restos",
       "Revest. Metálico",
       "Roca Calor",
       "Sana Ball",
@@ -7786,9 +8079,11 @@
       "Telescopio",
       "Ticket Barco",
       "Trozo Estrella",
+      "Velocidad X",
       "Velocidad X 3",
       "Veloz Ball",
-      "Vial"
+      "Vial",
+      "Visor Silph"
     ],
     "bag": [
       {
@@ -8134,6 +8429,18 @@
         "pocket": "Objetos"
       },
       {
+        "id": "LEFTOVERS",
+        "name": "Restos",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "ARMORFOSSIL",
+        "name": "Fósil Coraza",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "REVIVALHERB",
         "name": "Hierba Revivir",
         "qty": 1,
@@ -8142,7 +8449,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 652,
+        "qty": 591,
         "pocket": "Medicinas"
       },
       {
@@ -8214,7 +8521,7 @@
       {
         "id": "CASTELIACONE",
         "name": "Porcehelado",
-        "qty": 2,
+        "qty": 3,
         "pocket": "Medicinas"
       },
       {
@@ -8256,7 +8563,7 @@
       {
         "id": "LAXMINT",
         "name": "Menta Floja",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Medicinas"
       },
       {
@@ -8290,15 +8597,33 @@
         "pocket": "Medicinas"
       },
       {
+        "id": "CAREFULMINT",
+        "name": "Menta Cauta",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "SWEETHEART",
+        "name": "Corazón Dulce",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "AECapsula",
+        "name": "Aecapsula",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
         "id": "GREATBALL",
         "name": "Super Ball",
-        "qty": 34,
+        "qty": 27,
         "pocket": "Poké Balls"
       },
       {
         "id": "POKEBALL",
         "name": "Poké Ball",
-        "qty": 35,
+        "qty": 34,
         "pocket": "Poké Balls"
       },
       {
@@ -8328,7 +8653,7 @@
       {
         "id": "ULTRABALL",
         "name": "Ultra Ball",
-        "qty": 10,
+        "qty": 9,
         "pocket": "Poké Balls"
       },
       {
@@ -8340,6 +8665,12 @@
       {
         "id": "TM02",
         "name": "MT02",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM03",
+        "name": "MT03",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
@@ -8386,6 +8717,12 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM30",
+        "name": "MT30",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM31",
         "name": "MT31",
         "qty": 1,
@@ -8394,6 +8731,18 @@
       {
         "id": "TM32",
         "name": "MT32",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM35",
+        "name": "MT35",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM36",
+        "name": "MT36",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
@@ -8458,6 +8807,12 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM55",
+        "name": "MT55",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM56",
         "name": "MT56",
         "qty": 1,
@@ -8466,6 +8821,12 @@
       {
         "id": "TM57",
         "name": "MT57",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM58",
+        "name": "MT58",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
@@ -8496,6 +8857,12 @@
       {
         "id": "TM64",
         "name": "MT64",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM66",
+        "name": "MT66",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
@@ -8560,6 +8927,12 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM84",
+        "name": "MT84",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM85",
         "name": "MT85",
         "qty": 1,
@@ -8580,6 +8953,12 @@
       {
         "id": "TM89",
         "name": "MT89",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM93",
+        "name": "MT93",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
@@ -8638,6 +9017,12 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM111",
+        "name": "MT111",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM113",
         "name": "MT113",
         "qty": 1,
@@ -8686,6 +9071,12 @@
         "pocket": "Bayas"
       },
       {
+        "id": "HABANBERRY",
+        "name": "Baya Anjiro",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
         "id": "COLBURBERRY",
         "name": "Baya Dillo",
         "qty": 1,
@@ -8694,6 +9085,24 @@
       {
         "id": "CHILANBERRY",
         "name": "Baya Chilan",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "SALACBERRY",
+        "name": "Baya Aslac",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "STARFBERRY",
+        "name": "Baya Arabol",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "ENIGMABERRY",
+        "name": "Baya Enigma",
         "qty": 1,
         "pocket": "Bayas"
       },
@@ -8748,6 +9157,18 @@
       {
         "id": "XATTACK6",
         "name": "Ataque X 6",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "DIREHIT3",
+        "name": "Crítico X 3",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "XSPEED",
+        "name": "Velocidad X",
         "qty": 1,
         "pocket": "Objetos de combate"
       },
@@ -8832,6 +9253,18 @@
       {
         "id": "COINCASE",
         "name": "Monedero",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "LLAVEROCKET",
+        "name": "Llave Rocket",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "VISORSILPH",
+        "name": "Visor Silph",
         "qty": 1,
         "pocket": "Objetos clave"
       }
