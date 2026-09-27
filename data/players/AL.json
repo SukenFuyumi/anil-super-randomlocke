@@ -4,158 +4,157 @@
   "lives": 30,
   "livesUsed": 1,
   "champion": false,
-  "notes": "Importado del save · 12h 12m jugadas · 65,850₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 12h 34m jugadas · 90,420₽ · vidas en el juego: ?",
   "team": [
     {
-      "nickname": "McPato",
-      "species": "Golduck",
+      "nickname": "ElFokas",
+      "species": "Primarina",
       "level": 39,
       "types": [
-        "Agua"
+        "Agua",
+        "Hada"
       ],
-      "ability": "Mandíbula dragón",
-      "nature": "Alegre",
+      "ability": "Velo Flor",
+      "nature": "Seria",
       "item": "Telescopio",
       "shiny": false,
       "moves": [
-        "Asalto Barrera",
-        "Tormenta Floral",
-        "Calamidad",
-        "Viraje"
+        "Luz Lunar",
+        "Pulso Primigenio",
+        "Arenas Ardientes",
+        "Shuriken de Agua"
       ],
       "iv": [
-        23,
-        13,
-        3,
-        19,
-        23,
-        21
+        24,
+        17,
+        4,
+        30,
+        7,
+        12
       ],
       "ev": [
-        36,
-        57,
-        39,
+        38,
+        67,
+        43,
+        34,
         32,
-        32,
-        64
+        68
       ],
       "abilPool": [
-        "Autoestima",
-        "Mandíbula dragón"
+        "Velo Flor"
       ],
       "abilHidden": [
-        "Cosecha"
+        "Ráfaga Delta"
       ],
       "learnset": [
         {
-          "lvl": 1,
-          "m": "Espejo"
+          "lvl": -1,
+          "m": "Giro Mortífero"
         },
         {
           "lvl": 1,
-          "m": "Doble Bofetón"
+          "m": "Ofrenda"
         },
         {
           "lvl": 1,
-          "m": "Truco"
+          "m": "Hoja Afilada"
         },
         {
           "lvl": 1,
-          "m": "Tinieblas"
-        },
-        {
-          "lvl": 1,
-          "m": "Empapar"
-        },
-        {
-          "lvl": 1,
-          "m": "Golpe Rastrero"
-        },
-        {
-          "lvl": 1,
-          "m": "Salmuera"
-        },
-        {
-          "lvl": 9,
           "m": "Asalto Barrera"
         },
         {
+          "lvl": 1,
+          "m": "Escudo Real"
+        },
+        {
+          "lvl": 1,
+          "m": "Autotomía"
+        },
+        {
+          "lvl": 9,
+          "m": "Geocontrol"
+        },
+        {
+          "lvl": 11,
+          "m": "Telépata"
+        },
+        {
           "lvl": 12,
-          "m": "Cambiafuerza"
+          "m": "Bostezo"
         },
         {
           "lvl": 15,
-          "m": "Tumba Rocas"
+          "m": "Kinético"
         },
         {
-          "lvl": 18,
-          "m": "Bloqueo"
+          "lvl": 20,
+          "m": "Profecía"
         },
         {
-          "lvl": 21,
-          "m": "Tornado"
-        },
-        {
-          "lvl": 24,
-          "m": "Espacio Raro"
-        },
-        {
-          "lvl": 27,
-          "m": "Giro Fuego"
+          "lvl": 25,
+          "m": "Telatrampa"
         },
         {
           "lvl": 30,
-          "m": "Tambor"
+          "m": "Viento Feérico"
         },
         {
-          "lvl": 36,
-          "m": "Infierno"
+          "lvl": 33,
+          "m": "Transformación"
         },
         {
-          "lvl": 38,
-          "m": "Tormenta Floral"
+          "lvl": 37,
+          "m": "Fría Acogida"
         },
         {
-          "lvl": 40,
-          "m": "Corte"
+          "lvl": 42,
+          "m": "Furia Natural"
         },
         {
-          "lvl": 40,
-          "m": "Paranormal"
+          "lvl": 44,
+          "m": "Chapoteo Lodo"
         },
         {
-          "lvl": 45,
-          "m": "Onda Tóxica"
+          "lvl": 49,
+          "m": "Finta"
         },
         {
-          "lvl": 52,
-          "m": "Fanfarronear"
+          "lvl": 51,
+          "m": "Luz Aniquiladora"
+        },
+        {
+          "lvl": 58,
+          "m": "Acua Aro"
+        },
+        {
+          "lvl": 60,
+          "m": "Gigaimpacto"
         }
       ],
       "tmMoves": [
-        "Afilagarras",
-        "Aguante",
+        "Ala Bis",
         "Atiborramiento",
-        "Bomba Imán",
+        "Bramido Dragón",
         "Camelo",
-        "Campo Psíquico",
         "Ciclón",
-        "Corpulencia",
+        "Concha Filo",
+        "Fría Acogida",
         "Hipnosis",
-        "Isofuerza",
+        "Impactrueno",
         "Luz Lunar",
+        "Niebla Aromática",
         "Ofrenda",
         "Placaje",
-        "Prensa Metálica",
-        "Viento Feérico"
+        "Pulso Primigenio",
+        "Shuriken de Agua",
+        "Tormenta Arena"
       ],
       "firstMoves": [
-        "Tornado",
-        "Confidencia",
-        "Prensa Metálica",
-        "Doble Patada"
+        "Impresionar",
+        "Cambiafuerza"
       ],
-      "spriteKey": "GOLDUCK"
+      "spriteKey": "PRIMARINA"
     },
     {
       "nickname": "Pronebone",
@@ -183,12 +182,12 @@
         14
       ],
       "ev": [
-        24,
-        11,
+        26,
+        21,
+        16,
+        18,
         14,
-        17,
-        14,
-        19
+        22
       ],
       "abilPool": [
         "Mar del Albor",
@@ -313,12 +312,12 @@
         0
       ],
       "ev": [
-        9,
-        39,
-        21,
-        9,
+        11,
+        49,
+        23,
+        10,
         15,
-        39
+        42
       ],
       "abilPool": [
         "Humo Blanco"
@@ -404,17 +403,26 @@
         "Abatidoras",
         "Afilagarras",
         "Aguante",
+        "Ala Bis",
         "Alivio",
         "Arañazo",
         "Bramido Dragón",
         "Camelo",
+        "Cometa Draco",
+        "Coraza Trampa",
+        "Deslizamiento",
+        "Desquite",
         "Hipnosis",
         "Impactrueno",
         "Isofuerza",
         "Lanzarrocas",
         "Ofrenda",
+        "Pulso Primigenio",
+        "Rayo Fusión",
         "Relevo",
+        "Shuriken de Agua",
         "Truco Fuerza",
+        "Viento Carámbano",
         "Viento Hielo"
       ],
       "firstMoves": [
@@ -451,12 +459,12 @@
         13
       ],
       "ev": [
-        12,
-        47,
-        28,
         14,
+        57,
+        30,
+        15,
         20,
-        45
+        48
       ],
       "abilPool": [
         "Pelusa",
@@ -555,136 +563,155 @@
       "spriteKey": "GURDURR"
     },
     {
-      "nickname": "ElFokas",
-      "species": "Primarina",
+      "nickname": "McPato",
+      "species": "Golduck",
       "level": 39,
       "types": [
-        "Agua",
-        "Hada"
+        "Agua"
       ],
-      "ability": "Velo Flor",
-      "nature": "Seria",
-      "item": "Incienso Suave",
+      "ability": "Mandíbula dragón",
+      "nature": "Alegre",
+      "item": "Seguro Debilidad",
       "shiny": false,
       "moves": [
-        "Luz Lunar",
-        "Rayo Burbuja",
-        "Arenas Ardientes",
-        "Empapar"
+        "Asalto Barrera",
+        "Tormenta Floral",
+        "Calamidad",
+        "Viraje"
       ],
       "iv": [
-        24,
-        17,
-        4,
-        30,
-        7,
-        12
+        23,
+        13,
+        3,
+        19,
+        23,
+        21
       ],
       "ev": [
-        36,
-        57,
+        38,
+        67,
         41,
         33,
         32,
-        65
+        67
       ],
       "abilPool": [
-        "Velo Flor"
+        "Autoestima",
+        "Mandíbula dragón"
       ],
       "abilHidden": [
-        "Ráfaga Delta"
+        "Cosecha"
       ],
       "learnset": [
         {
-          "lvl": -1,
-          "m": "Giro Mortífero"
+          "lvl": 1,
+          "m": "Espejo"
         },
         {
           "lvl": 1,
-          "m": "Ofrenda"
+          "m": "Doble Bofetón"
         },
         {
           "lvl": 1,
-          "m": "Hoja Afilada"
+          "m": "Truco"
         },
         {
           "lvl": 1,
-          "m": "Asalto Barrera"
+          "m": "Tinieblas"
         },
         {
           "lvl": 1,
-          "m": "Escudo Real"
+          "m": "Empapar"
         },
         {
           "lvl": 1,
-          "m": "Autotomía"
+          "m": "Golpe Rastrero"
+        },
+        {
+          "lvl": 1,
+          "m": "Salmuera"
         },
         {
           "lvl": 9,
-          "m": "Geocontrol"
-        },
-        {
-          "lvl": 11,
-          "m": "Telépata"
+          "m": "Asalto Barrera"
         },
         {
           "lvl": 12,
-          "m": "Bostezo"
+          "m": "Cambiafuerza"
         },
         {
           "lvl": 15,
-          "m": "Kinético"
+          "m": "Tumba Rocas"
         },
         {
-          "lvl": 20,
-          "m": "Profecía"
+          "lvl": 18,
+          "m": "Bloqueo"
         },
         {
-          "lvl": 25,
-          "m": "Telatrampa"
+          "lvl": 21,
+          "m": "Tornado"
+        },
+        {
+          "lvl": 24,
+          "m": "Espacio Raro"
+        },
+        {
+          "lvl": 27,
+          "m": "Giro Fuego"
         },
         {
           "lvl": 30,
-          "m": "Viento Feérico"
+          "m": "Tambor"
         },
         {
-          "lvl": 33,
-          "m": "Transformación"
+          "lvl": 36,
+          "m": "Infierno"
         },
         {
-          "lvl": 37,
-          "m": "Fría Acogida"
+          "lvl": 38,
+          "m": "Tormenta Floral"
         },
         {
-          "lvl": 42,
-          "m": "Furia Natural"
+          "lvl": 40,
+          "m": "Corte"
         },
         {
-          "lvl": 44,
-          "m": "Chapoteo Lodo"
+          "lvl": 40,
+          "m": "Paranormal"
         },
         {
-          "lvl": 49,
-          "m": "Finta"
+          "lvl": 45,
+          "m": "Onda Tóxica"
         },
         {
-          "lvl": 51,
-          "m": "Luz Aniquiladora"
-        },
-        {
-          "lvl": 58,
-          "m": "Acua Aro"
-        },
-        {
-          "lvl": 60,
-          "m": "Gigaimpacto"
+          "lvl": 52,
+          "m": "Fanfarronear"
         }
       ],
-      "firstMoves": [
-        "Impresionar",
-        "Cambiafuerza"
+      "tmMoves": [
+        "Afilagarras",
+        "Aguante",
+        "Atiborramiento",
+        "Bomba Imán",
+        "Camelo",
+        "Campo Psíquico",
+        "Ciclón",
+        "Corpulencia",
+        "Hipnosis",
+        "Isofuerza",
+        "Luz Lunar",
+        "Ofrenda",
+        "Placaje",
+        "Prensa Metálica",
+        "Viento Feérico"
       ],
-      "spriteKey": "PRIMARINA"
+      "firstMoves": [
+        "Tornado",
+        "Confidencia",
+        "Prensa Metálica",
+        "Doble Patada"
+      ],
+      "spriteKey": "GOLDUCK"
     },
     {
       "nickname": "Mojarra",
@@ -699,10 +726,10 @@
       "item": "Baya Arabol",
       "shiny": false,
       "moves": [
-        "Bastión Final",
+        "Ala Bis",
         "Mordisco",
         "Psicocorte",
-        "Puntapié"
+        "Puño Jet"
       ],
       "iv": [
         19,
@@ -713,12 +740,12 @@
         19
       ],
       "ev": [
-        36,
-        57,
-        40,
-        33,
+        38,
+        67,
+        42,
+        34,
         32,
-        64
+        67
       ],
       "abilPool": [
         "Raíz robusta"
@@ -822,16 +849,22 @@
       ],
       "tmMoves": [
         "Abatidoras",
+        "Acróbata",
+        "Ala Bis",
         "Alivio",
         "Arañazo",
         "Bomba Imán",
         "Bramido Dragón",
         "Campo Psíquico",
+        "Conjuro Funesto",
         "Corpulencia",
         "Impactrueno",
         "Lanzarrocas",
         "Ofrenda",
+        "Pájaro Osado",
         "Prensa Metálica",
+        "Pulso Primigenio",
+        "Puño Jet",
         "Relevo",
         "Truco Fuerza"
       ],
@@ -6849,15 +6882,15 @@
   ],
   "captures": [
     {
-      "route": "ruta_22",
-      "where": "Ruta 22",
-      "species": "Golduck",
-      "nickname": "McPato",
+      "route": "",
+      "where": "Laboratorio",
+      "species": "Primarina",
+      "nickname": "ElFokas",
       "shiny": false,
       "status": "captured",
-      "category": "salvaje",
-      "level": 4,
-      "mon": "Golduck"
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Primarina"
     },
     {
       "route": "ruta_2_sur",
@@ -6893,15 +6926,15 @@
       "mon": "Gurdurr"
     },
     {
-      "route": "",
-      "where": "Laboratorio",
-      "species": "Primarina",
-      "nickname": "ElFokas",
+      "route": "ruta_22",
+      "where": "Ruta 22",
+      "species": "Golduck",
+      "nickname": "McPato",
       "shiny": false,
       "status": "captured",
-      "category": "estatico_regalo",
-      "level": 5,
-      "mon": "Primarina"
+      "category": "salvaje",
+      "level": 4,
+      "mon": "Golduck"
     },
     {
       "route": "ruta_1",
@@ -7458,14 +7491,15 @@
     "gyms": {
       "gym1": true,
       "gym2": true,
-      "gym3": true
+      "gym3": true,
+      "gym4": true
     },
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_22": true,
       "ruta_2_sur": true,
       "ruta_6": true,
+      "ruta_22": true,
       "ruta_1": true,
       "ruta_21": true,
       "ciudad_plateada": true,
@@ -7577,6 +7611,7 @@
       184,
       185,
       186,
+      187,
       271,
       301,
       323,
@@ -7692,6 +7727,7 @@
       "MT59",
       "MT60",
       "MT62",
+      "MT63",
       "MT68",
       "MT69",
       "MT70",
@@ -7914,7 +7950,7 @@
       {
         "id": "DARKGEM",
         "name": "Gema Siniestra",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Objetos"
       },
       {
@@ -7998,12 +8034,6 @@
       {
         "id": "WELLSPRINGMASK",
         "name": "Máscara Fuente",
-        "qty": 1,
-        "pocket": "Objetos"
-      },
-      {
-        "id": "WEAKNESSPOLICY",
-        "name": "Seguro Debilidad",
         "qty": 1,
         "pocket": "Objetos"
       },
@@ -8098,6 +8128,12 @@
         "pocket": "Objetos"
       },
       {
+        "id": "LAXINCENSE",
+        "name": "Incienso Suave",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "REVIVALHERB",
         "name": "Hierba Revivir",
         "qty": 1,
@@ -8172,7 +8208,7 @@
       {
         "id": "CENIZASSAGRADAS",
         "name": "Cenizas Sagradas",
-        "qty": 3,
+        "qty": 4,
         "pocket": "Medicinas"
       },
       {
@@ -8274,7 +8310,7 @@
       {
         "id": "QUICKBALL",
         "name": "Veloz Ball",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Poké Balls"
       },
       {
@@ -8448,6 +8484,12 @@
       {
         "id": "TM62",
         "name": "MT62",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM63",
+        "name": "MT63",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
