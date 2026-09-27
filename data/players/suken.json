@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 5,
   "champion": false,
-  "notes": "Importado del save · 1h 37m jugadas · 287,800₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 1h 40m jugadas · 287,800₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -682,131 +682,181 @@
       "spriteKey": "CLODSIRE_1"
     },
     {
-      "nickname": "COPIAS",
-      "species": "Scyther",
-      "level": 1,
+      "nickname": "AL",
+      "species": "Sudowoodo",
+      "level": 49,
       "types": [
-        "Bicho",
-        "Volador"
+        "Roca"
       ],
-      "ability": "Punta Acero",
-      "nature": "Amable",
-      "item": "",
+      "ability": "Trampa Arena",
+      "nature": "Firme",
+      "item": "Casco Dentado",
       "shiny": false,
       "moves": [
-        "Beso Dulce",
-        "Respiro",
-        "Alud"
+        "Tajo Umbrío",
+        "Filo Potente",
+        "Barrera Espinosa",
+        "Carámbano"
       ],
-      "origin": "fossil",
       "iv": [
-        12,
-        19,
-        11,
-        29,
-        13,
-        25
+        4,
+        2,
+        15,
+        31,
+        15,
+        26
       ],
       "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        48,
+        155,
+        96,
+        80,
+        45,
+        86
       ],
       "abilPool": [
-        "Cola Armadura",
-        "Punta Acero"
+        "Chorro Arena",
+        "Trampa Arena"
       ],
       "abilHidden": [
-        "Guardia Espectro"
+        "Levitación"
       ],
       "learnset": [
         {
-          "lvl": 1,
-          "m": "Beso Dulce"
+          "lvl": -1,
+          "m": "Alarido"
         },
         {
           "lvl": 1,
-          "m": "Respiro"
+          "m": "Cascabel Cura"
         },
         {
           "lvl": 1,
-          "m": "Alud"
+          "m": "Pedrada"
         },
         {
-          "lvl": 4,
-          "m": "Escupir"
+          "lvl": 1,
+          "m": "Tormenta Arena"
         },
         {
-          "lvl": 8,
-          "m": "Pistola Agua"
+          "lvl": 1,
+          "m": "Mismo Destino"
         },
         {
-          "lvl": 9,
-          "m": "Represión Metal"
+          "lvl": 1,
+          "m": "Doble Patada"
+        },
+        {
+          "lvl": 1,
+          "m": "Agitacola"
+        },
+        {
+          "lvl": 1,
+          "m": "Eco Metálico"
+        },
+        {
+          "lvl": 1,
+          "m": "Trampa Rocas"
         },
         {
           "lvl": 12,
-          "m": "Relámpago Súbito"
+          "m": "Cura Selvática"
         },
         {
           "lvl": 16,
-          "m": "Bilis"
+          "m": "Psicoonda"
+        },
+        {
+          "lvl": 19,
+          "m": "Bola Hielo"
         },
         {
           "lvl": 20,
-          "m": "Campo de Hierba"
+          "m": "Polvo Explosivo"
         },
         {
           "lvl": 24,
-          "m": "Pin Misil"
+          "m": "Confidencia"
         },
         {
           "lvl": 28,
-          "m": "Ataque Ala"
+          "m": "Remolino"
         },
         {
           "lvl": 32,
-          "m": "Rayo Señal"
-        },
-        {
-          "lvl": 33,
-          "m": "Oído Cocina"
+          "m": "Filo Potente"
         },
         {
           "lvl": 36,
-          "m": "Giro Fuego"
+          "m": "Resarcimiento"
         },
         {
           "lvl": 40,
-          "m": "Ala Bis"
+          "m": "Vasta Guardia"
+        },
+        {
+          "lvl": 40,
+          "m": "Amnesia"
         },
         {
           "lvl": 44,
-          "m": "Canto Ardiente"
+          "m": "Envite Acuático"
         },
         {
-          "lvl": 44,
-          "m": "Furia Candente"
+          "lvl": 48,
+          "m": "Tajo Cruzado"
         },
         {
-          "lvl": 45,
-          "m": "Plancha"
-        },
-        {
-          "lvl": 61,
-          "m": "Legado"
+          "lvl": 50,
+          "m": "Chupavidas"
         }
       ],
-      "firstMoves": [
-        "Beso Dulce",
-        "Respiro",
-        "Alud"
+      "tmMoves": [
+        "Absorber",
+        "Anclaje",
+        "Asta Drenaje",
+        "Atadura",
+        "Bomba Ígnea",
+        "Campo de Niebla",
+        "Carámbano",
+        "Ciclón",
+        "Confusión",
+        "Conversión",
+        "Decoración",
+        "Doble Golpe",
+        "Electropico",
+        "Estruendo Escama",
+        "Glaceoprisma",
+        "Lanzarrocas",
+        "Láser Doble",
+        "Malicioso",
+        "Megapuño",
+        "Mirada Heladora",
+        "Moluscañón",
+        "Patada Baja",
+        "Picotazo",
+        "Plancha",
+        "Plancha Corporal",
+        "Psicocolmillo",
+        "Pulso Cura",
+        "Pulso Primigenio",
+        "Puño Cometa",
+        "Puño Incremento",
+        "Represalia",
+        "Rizo Defensa",
+        "Tinieblas",
+        "Trampa Rocas",
+        "Trampa Venenosa",
+        "Último Lugar",
+        "Vendaval"
       ],
-      "spriteKey": "SCYTHER",
-      "dup": true
+      "firstMoves": [
+        "Follaje",
+        "Barrera Espinosa",
+        "Mil Púas Tóxicas",
+        "Aguzar"
+      ],
+      "spriteKey": "SUDOWOODO"
     },
     {
       "nickname": "CRAWLER",
@@ -10460,181 +10510,154 @@
       "spriteKey": "GLIGAR"
     },
     {
-      "nickname": "AL",
-      "species": "Sudowoodo",
-      "level": 49,
+      "nickname": "Armaldo",
+      "species": "Armaldo",
+      "level": 54,
       "types": [
-        "Roca"
+        "Roca",
+        "Bicho"
       ],
       "ability": "Trampa Arena",
-      "nature": "Firme",
-      "item": "Casco Dentado",
+      "nature": "Alegre",
+      "item": "",
       "shiny": false,
       "moves": [
-        "Tajo Umbrío",
-        "Filo Potente",
-        "Barrera Espinosa",
-        "Carámbano"
+        "Psicoonda",
+        "Rastreo",
+        "Brinco",
+        "Cuchillada"
       ],
+      "origin": "magnemite",
       "iv": [
-        4,
-        2,
-        15,
-        31,
-        15,
-        26
+        21,
+        19,
+        16,
+        1,
+        11,
+        19
       ],
       "ev": [
-        48,
-        155,
-        96,
-        80,
-        45,
-        86
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
       "abilPool": [
-        "Chorro Arena",
-        "Trampa Arena"
+        "Trampa Arena",
+        "Peluche"
       ],
       "abilHidden": [
-        "Levitación"
+        "Aura Feérica"
       ],
       "learnset": [
         {
-          "lvl": -1,
-          "m": "Alarido"
+          "lvl": 1,
+          "m": "Enrosque"
         },
         {
           "lvl": 1,
-          "m": "Cascabel Cura"
-        },
-        {
-          "lvl": 1,
-          "m": "Pedrada"
-        },
-        {
-          "lvl": 1,
-          "m": "Tormenta Arena"
-        },
-        {
-          "lvl": 1,
-          "m": "Mismo Destino"
-        },
-        {
-          "lvl": 1,
-          "m": "Doble Patada"
-        },
-        {
-          "lvl": 1,
-          "m": "Agitacola"
-        },
-        {
-          "lvl": 1,
-          "m": "Eco Metálico"
-        },
-        {
-          "lvl": 1,
-          "m": "Trampa Rocas"
-        },
-        {
-          "lvl": 12,
-          "m": "Cura Selvática"
-        },
-        {
-          "lvl": 16,
-          "m": "Psicoonda"
-        },
-        {
-          "lvl": 19,
-          "m": "Bola Hielo"
-        },
-        {
-          "lvl": 20,
-          "m": "Polvo Explosivo"
-        },
-        {
-          "lvl": 24,
-          "m": "Confidencia"
-        },
-        {
-          "lvl": 28,
           "m": "Remolino"
         },
         {
+          "lvl": 1,
+          "m": "Psicoonda"
+        },
+        {
+          "lvl": 1,
+          "m": "Rastreo"
+        },
+        {
+          "lvl": 1,
+          "m": "Brinco"
+        },
+        {
+          "lvl": 1,
+          "m": "Cuchillada"
+        },
+        {
+          "lvl": 12,
+          "m": "Polución"
+        },
+        {
+          "lvl": 16,
+          "m": "Doble Patada"
+        },
+        {
+          "lvl": 20,
+          "m": "Tormenta Arena"
+        },
+        {
+          "lvl": 24,
+          "m": "Camaradería"
+        },
+        {
+          "lvl": 28,
+          "m": "Rodar"
+        },
+        {
           "lvl": 32,
-          "m": "Filo Potente"
+          "m": "Viento Plata"
         },
         {
           "lvl": 36,
-          "m": "Resarcimiento"
+          "m": "Orbes Espectro"
         },
         {
           "lvl": 40,
-          "m": "Vasta Guardia"
+          "m": "Doble Ataque"
         },
         {
-          "lvl": 40,
-          "m": "Amnesia"
+          "lvl": 43,
+          "m": "Joltioparálisis"
         },
         {
-          "lvl": 44,
-          "m": "Envite Acuático"
+          "lvl": 46,
+          "m": "Búnker"
         },
         {
           "lvl": 48,
-          "m": "Tajo Cruzado"
-        },
-        {
-          "lvl": 50,
-          "m": "Chupavidas"
+          "m": "Hachazo Pétreo"
         }
       ],
       "tmMoves": [
-        "Absorber",
-        "Anclaje",
+        "A Defender",
+        "Alud",
+        "Antojo",
         "Asta Drenaje",
         "Atadura",
-        "Bomba Ígnea",
-        "Campo de Niebla",
-        "Carámbano",
-        "Ciclón",
-        "Confusión",
+        "Campo de Hierba",
+        "Chorro de Vapor",
         "Conversión",
-        "Decoración",
-        "Doble Golpe",
-        "Electropico",
-        "Estruendo Escama",
-        "Glaceoprisma",
+        "Copión",
+        "Danza Acuática",
+        "Espabila",
+        "Flarembestida",
+        "Fotosíntesis",
+        "Golpe Roca",
+        "Hueso Sombrío",
         "Lanzarrocas",
-        "Láser Doble",
-        "Malicioso",
         "Megapuño",
-        "Mirada Heladora",
+        "Mil Temblores",
+        "Mismo Destino",
         "Moluscañón",
-        "Patada Baja",
-        "Picotazo",
+        "Niebla Aromática",
+        "Nitrocarga",
+        "Núcleo Castigo",
+        "Pin Misil",
+        "Placaje",
         "Plancha",
-        "Plancha Corporal",
         "Psicocolmillo",
-        "Pulso Cura",
-        "Pulso Primigenio",
-        "Puño Cometa",
-        "Puño Incremento",
-        "Represalia",
-        "Rizo Defensa",
+        "Puntapié",
+        "Relajo",
+        "Rodillo de Púas",
+        "Taladradora",
         "Tinieblas",
         "Trampa Rocas",
-        "Trampa Venenosa",
-        "Último Lugar",
-        "Vendaval"
+        "Voltio Cruel"
       ],
-      "firstMoves": [
-        "Follaje",
-        "Barrera Espinosa",
-        "Mil Púas Tóxicas",
-        "Aguzar"
-      ],
-      "spriteKey": "SUDOWOODO"
+      "spriteKey": "ARMALDO"
     }
   ],
   "graveyard": [
@@ -11460,15 +11483,15 @@
       "mon": "Clodsire"
     },
     {
-      "route": "",
-      "where": "Museo Pokémon",
-      "species": "Scyther",
-      "nickname": "COPIAS",
+      "route": "ruta_2_norte",
+      "where": "Ruta 2 Norte",
+      "species": "Sudowoodo",
+      "nickname": "AL",
       "shiny": false,
       "status": "captured",
-      "category": "estatico_regalo",
-      "level": 1,
-      "mon": "Scyther"
+      "category": "salvaje",
+      "level": 8,
+      "mon": "Sudowoodo"
     },
     {
       "route": "ruta_2_sur",
@@ -12131,15 +12154,15 @@
       "mon": "Gligar"
     },
     {
-      "route": "ruta_2_norte",
-      "where": "Ruta 2 Norte",
-      "species": "Sudowoodo",
-      "nickname": "AL",
+      "route": "ciudad_plateada",
+      "where": "Ciudad Plateada",
+      "species": "Armaldo",
+      "nickname": "",
       "shiny": false,
       "status": "captured",
-      "category": "salvaje",
-      "level": 8,
-      "mon": "Sudowoodo"
+      "category": "ciudad",
+      "level": 5,
+      "mon": "Armaldo"
     },
     {
       "route": "ciudad_verde",
@@ -12212,6 +12235,7 @@
       "ruta_5": true,
       "bosque_verde": true,
       "tunel_diglett": true,
+      "ruta_2_norte": true,
       "ruta_2_sur": true,
       "ciudad_azulona": true,
       "pueblo_lavanda": true,
@@ -12237,7 +12261,6 @@
       "ruta_8": true,
       "torre_pokemon": true,
       "ruta_4": true,
-      "ruta_2_norte": true,
       "monte_moon": true,
       "ciudad_verde": true,
       "ciudad_fucsia": true,
@@ -13103,7 +13126,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 673,
+        "qty": 624,
         "pocket": "Medicinas"
       },
       {
