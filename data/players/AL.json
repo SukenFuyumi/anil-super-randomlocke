@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 0,
   "champion": false,
-  "notes": "Importado del save · 10h 40m jugadas · 88,560₽ · vidas en el juego: ?",
+  "notes": "Importado del save · 10h 48m jugadas · 93,260₽ · vidas en el juego: ?",
   "team": [
     {
       "nickname": "McPato",
@@ -33,10 +33,10 @@
       ],
       "ev": [
         34,
-        51,
-        31,
+        53,
+        33,
         30,
-        26,
+        28,
         57
       ],
       "abilPool": [
@@ -186,10 +186,10 @@
       ],
       "ev": [
         4,
-        24,
-        9,
+        26,
+        11,
         6,
-        8,
+        10,
         25
       ],
       "abilPool": [
@@ -334,10 +334,10 @@
       ],
       "ev": [
         7,
-        33,
-        13,
+        35,
+        15,
         7,
-        9,
+        11,
         32
       ],
       "abilPool": [
@@ -473,10 +473,10 @@
       ],
       "ev": [
         34,
-        51,
-        32,
+        53,
+        34,
         31,
-        26,
+        28,
         57
       ],
       "abilPool": [
@@ -626,10 +626,10 @@
       ],
       "ev": [
         10,
-        41,
-        20,
+        43,
+        22,
         12,
-        14,
+        16,
         38
       ],
       "abilPool": [
@@ -756,10 +756,10 @@
       ],
       "ev": [
         34,
-        51,
-        33,
+        53,
+        35,
         31,
-        26,
+        28,
         58
       ],
       "abilPool": [
@@ -6439,6 +6439,7 @@
       "ruta_9": true,
       "tunel_roca": true,
       "ruta_10_norte": true,
+      "ruta_10_sur": true,
       "ruta_12": true
     },
     "items": {},
@@ -6527,6 +6528,7 @@
       "Ataque X 2",
       "Banda Recia",
       "Barrita Plus",
+      "Baya Algama",
       "Baya Arabol",
       "Baya Caoca",
       "Baya Caquic",
@@ -6604,6 +6606,7 @@
       "MT52",
       "MT57",
       "MT59",
+      "MT60",
       "MT62",
       "MT68",
       "MT69",
@@ -6658,6 +6661,7 @@
       "Tela Terrible",
       "Telescopio",
       "Ticket Barco",
+      "Trozo Estrella",
       "Velocidad X 3",
       "Veloz Ball",
       "Vial"
@@ -6774,7 +6778,7 @@
       {
         "id": "TINYMUSHROOM",
         "name": "Miniseta",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Objetos"
       },
       {
@@ -6858,7 +6862,7 @@
       {
         "id": "DRAGONFANG",
         "name": "Colmillo de Dragón",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Objetos"
       },
       {
@@ -6934,6 +6938,12 @@
         "pocket": "Objetos"
       },
       {
+        "id": "STARPIECE",
+        "name": "Trozo Estrella",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "REVIVALHERB",
         "name": "Hierba Revivir",
         "qty": 1,
@@ -7002,12 +7012,6 @@
       {
         "id": "RESISTFEATHER",
         "name": "Resistfeather",
-        "qty": 1,
-        "pocket": "Medicinas"
-      },
-      {
-        "id": "FULLRESTORE",
-        "name": "Restaurar Todo",
         "qty": 1,
         "pocket": "Medicinas"
       },
@@ -7086,12 +7090,6 @@
       {
         "id": "HPUP",
         "name": "Más PS",
-        "qty": 1,
-        "pocket": "Medicinas"
-      },
-      {
-        "id": "FULLHEAL",
-        "name": "Cura Total",
         "qty": 1,
         "pocket": "Medicinas"
       },
@@ -7236,6 +7234,12 @@
       {
         "id": "TM59",
         "name": "MT59",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM60",
+        "name": "MT60",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
@@ -7390,6 +7394,12 @@
         "pocket": "Bayas"
       },
       {
+        "id": "KELPSYBERRY",
+        "name": "Baya Algama",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
         "id": "OCCABERRY",
         "name": "Baya Caoca",
         "qty": 1,
@@ -7462,8 +7472,8 @@
         "pocket": "Objetos clave"
       },
       {
-        "id": "VIAL",
-        "name": "Vial",
+        "id": "EMPTYVIAL",
+        "name": "Emptyvial",
         "qty": 1,
         "pocket": "Objetos clave"
       },
