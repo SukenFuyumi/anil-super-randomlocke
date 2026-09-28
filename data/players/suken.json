@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 4h 3m jugadas · 359,190₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 4h 4m jugadas · 359,190₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -14612,6 +14612,7 @@
       "MT58",
       "MT59",
       "MT60",
+      "MT61",
       "MT63",
       "MT66",
       "MT67",
@@ -15894,6 +15895,12 @@
       {
         "id": "TM60",
         "name": "MT60",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
+        "id": "TM61",
+        "name": "MT61",
         "qty": 1,
         "pocket": "MTs y MOs"
       },
