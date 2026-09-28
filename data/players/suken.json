@@ -2,9 +2,9 @@
   "id": "suken",
   "name": "Suken",
   "lives": 30,
-  "livesUsed": 6,
+  "livesUsed": 7,
   "champion": false,
-  "notes": "Importado del save · 3h 3m jugadas · 282,330₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 3h 6m jugadas · 290,430₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -176,170 +176,6 @@
         "Trampa Rocas"
       ],
       "spriteKey": "BLASTOISE"
-    },
-    {
-      "nickname": "DERP INVERSO",
-      "species": "Clodsire",
-      "level": 54,
-      "types": [
-        "Veneno",
-        "Tierra"
-      ],
-      "ability": "Alma Acerada",
-      "nature": "Serena",
-      "item": "Restos",
-      "shiny": false,
-      "moves": [
-        "Desquite",
-        "Cadena Virulenta",
-        "Respiro",
-        "Mil Temblores"
-      ],
-      "iv": [
-        5,
-        27,
-        10,
-        29,
-        27,
-        10
-      ],
-      "ev": [
-        252,
-        0,
-        212,
-        0,
-        46,
-        0
-      ],
-      "abilPool": [
-        "Viscosecreción",
-        "Alma Acerada"
-      ],
-      "abilHidden": [
-        "Respondón"
-      ],
-      "learnset": [
-        {
-          "lvl": -1,
-          "m": "Fotosíntesis"
-        },
-        {
-          "lvl": 1,
-          "m": "Falso Tortazo"
-        },
-        {
-          "lvl": 1,
-          "m": "Desquite"
-        },
-        {
-          "lvl": 4,
-          "m": "Giro Vil"
-        },
-        {
-          "lvl": 8,
-          "m": "Cara Susto"
-        },
-        {
-          "lvl": 12,
-          "m": "Danza Caos"
-        },
-        {
-          "lvl": 16,
-          "m": "Adaptación"
-        },
-        {
-          "lvl": 21,
-          "m": "Día Soleado"
-        },
-        {
-          "lvl": 24,
-          "m": "Respiro"
-        },
-        {
-          "lvl": 30,
-          "m": "Búnker"
-        },
-        {
-          "lvl": 36,
-          "m": "Aerochorro"
-        },
-        {
-          "lvl": 40,
-          "m": "Aura Magnética"
-        },
-        {
-          "lvl": 48,
-          "m": "Pugnachoque"
-        }
-      ],
-      "tmMoves": [
-        "Anclaje",
-        "Asta Drenaje",
-        "Atadura",
-        "Beso Drenaje",
-        "Cadena Virulenta",
-        "Campo de Hierba",
-        "Carámbano",
-        "Clemencia",
-        "Confusión",
-        "Danza Caos",
-        "Decoración",
-        "Destello",
-        "Doble Golpe",
-        "Eco Metálico",
-        "Embate Supremo",
-        "Espeaura",
-        "Estruendo Escama",
-        "Flarembestida",
-        "Fotocolisión",
-        "Fuerza Lunar",
-        "Glaceoprisma",
-        "Golpe Roca",
-        "Gran Ojo",
-        "Hachazo Pétreo",
-        "Hueso Sombrío",
-        "Irreverencia",
-        "Isoguardia",
-        "Lanzarrocas",
-        "Láser Doble",
-        "Mil Temblores",
-        "Mirada Heladora",
-        "Moluscañón",
-        "Niebla Aromática",
-        "Núcleo Castigo",
-        "Patada Baja",
-        "Picotazo Veneno",
-        "Pirueta Helada",
-        "Placaje",
-        "Plancha",
-        "Psicocarga",
-        "Psicocolmillo",
-        "Pulso Cura",
-        "Puño Cometa",
-        "Puño Incremento",
-        "Puntapié",
-        "Puya Nociva",
-        "Relajo",
-        "Relevo",
-        "Represalia",
-        "Rodillo de Púas",
-        "Simún de Arena",
-        "Sol Matinal",
-        "Tajo Metralla",
-        "Taladradora",
-        "Tinieblas",
-        "Trampa Rocas",
-        "Trampa Venenosa",
-        "Última Palabra",
-        "Último Lugar"
-      ],
-      "firstMoves": [
-        "Colmillo Hielo",
-        "Danza Caos",
-        "Adaptación",
-        "Día Soleado"
-      ],
-      "spriteKey": "CLODSIRE_1"
     },
     {
       "nickname": "AL",
@@ -910,11 +746,11 @@
       ],
       "ev": [
         2,
-        2,
-        4,
         3,
+        7,
+        5,
         2,
-        0
+        4
       ],
       "abilPool": [
         "Respondón"
@@ -1052,6 +888,152 @@
       ],
       "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10104.png",
       "spriteKey": "NINETALES_1"
+    },
+    {
+      "nickname": "XD",
+      "species": "Bellibolt",
+      "level": 43,
+      "types": [
+        "Eléctrico"
+      ],
+      "ability": "Funda",
+      "nature": "Ingenua",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Voltiocambio",
+        "Triple Golpe",
+        "Testarazo",
+        "Plegaria Lunar"
+      ],
+      "origin": "primer_ruta",
+      "iv": [
+        27,
+        8,
+        9,
+        16,
+        25,
+        24
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Funda",
+        "Cromolente"
+      ],
+      "abilHidden": [
+        "Peluche"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Llama Protectora"
+        },
+        {
+          "lvl": 1,
+          "m": "Levitón"
+        },
+        {
+          "lvl": 1,
+          "m": "Rugido"
+        },
+        {
+          "lvl": 7,
+          "m": "Anticipo"
+        },
+        {
+          "lvl": 11,
+          "m": "Danza Espada"
+        },
+        {
+          "lvl": 17,
+          "m": "Bruma Explosiva"
+        },
+        {
+          "lvl": 21,
+          "m": "Electrotela"
+        },
+        {
+          "lvl": 24,
+          "m": "Batido"
+        },
+        {
+          "lvl": 25,
+          "m": "Voltiocambio"
+        },
+        {
+          "lvl": 32,
+          "m": "Triple Golpe"
+        },
+        {
+          "lvl": 36,
+          "m": "Testarazo"
+        },
+        {
+          "lvl": 40,
+          "m": "Plegaria Lunar"
+        },
+        {
+          "lvl": 45,
+          "m": "Punzada Rama"
+        },
+        {
+          "lvl": 50,
+          "m": "Defensa Floral"
+        }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Amnesia",
+        "Asta Drenaje",
+        "Cabeza Sorpresa",
+        "Cadena Virulenta",
+        "Campo de Hierba",
+        "Chorro de Vapor",
+        "Confusión",
+        "Conversión",
+        "Danza Caos",
+        "Eco Metálico",
+        "Electropico",
+        "Espabila",
+        "Flarembestida",
+        "Garra Dragón",
+        "Golpe Umbrío",
+        "Lanzarrocas",
+        "Llama Protectora",
+        "Malicioso",
+        "Maquinación",
+        "Marcha Espectral",
+        "Megapuño",
+        "Mil Temblores",
+        "Mirada Heladora",
+        "Moluscañón",
+        "Niebla Aromática",
+        "Núcleo Castigo",
+        "Picotazo Veneno",
+        "Placaje",
+        "Psicocarga",
+        "Psicocolmillo",
+        "Pulso Cura",
+        "Puño Incremento",
+        "Puntapié",
+        "Retracción",
+        "Rodillo de Púas",
+        "Tajo Umbrío"
+      ],
+      "firstMoves": [
+        "Voltiocambio",
+        "Triple Golpe",
+        "Testarazo",
+        "Plegaria Lunar"
+      ],
+      "spriteKey": "BELLIBOLT"
     }
   ],
   "box": [
@@ -6647,152 +6629,6 @@
       "spriteKey": "VENUSAUR"
     },
     {
-      "nickname": "XD",
-      "species": "Bellibolt",
-      "level": 43,
-      "types": [
-        "Eléctrico"
-      ],
-      "ability": "Funda",
-      "nature": "Ingenua",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Voltiocambio",
-        "Triple Golpe",
-        "Testarazo",
-        "Plegaria Lunar"
-      ],
-      "origin": "primer_ruta",
-      "iv": [
-        27,
-        8,
-        9,
-        16,
-        25,
-        24
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Funda",
-        "Cromolente"
-      ],
-      "abilHidden": [
-        "Peluche"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Llama Protectora"
-        },
-        {
-          "lvl": 1,
-          "m": "Levitón"
-        },
-        {
-          "lvl": 1,
-          "m": "Rugido"
-        },
-        {
-          "lvl": 7,
-          "m": "Anticipo"
-        },
-        {
-          "lvl": 11,
-          "m": "Danza Espada"
-        },
-        {
-          "lvl": 17,
-          "m": "Bruma Explosiva"
-        },
-        {
-          "lvl": 21,
-          "m": "Electrotela"
-        },
-        {
-          "lvl": 24,
-          "m": "Batido"
-        },
-        {
-          "lvl": 25,
-          "m": "Voltiocambio"
-        },
-        {
-          "lvl": 32,
-          "m": "Triple Golpe"
-        },
-        {
-          "lvl": 36,
-          "m": "Testarazo"
-        },
-        {
-          "lvl": 40,
-          "m": "Plegaria Lunar"
-        },
-        {
-          "lvl": 45,
-          "m": "Punzada Rama"
-        },
-        {
-          "lvl": 50,
-          "m": "Defensa Floral"
-        }
-      ],
-      "tmMoves": [
-        "A Defender",
-        "Amnesia",
-        "Asta Drenaje",
-        "Cabeza Sorpresa",
-        "Cadena Virulenta",
-        "Campo de Hierba",
-        "Chorro de Vapor",
-        "Confusión",
-        "Conversión",
-        "Danza Caos",
-        "Eco Metálico",
-        "Electropico",
-        "Espabila",
-        "Flarembestida",
-        "Garra Dragón",
-        "Golpe Umbrío",
-        "Lanzarrocas",
-        "Llama Protectora",
-        "Malicioso",
-        "Maquinación",
-        "Marcha Espectral",
-        "Megapuño",
-        "Mil Temblores",
-        "Mirada Heladora",
-        "Moluscañón",
-        "Niebla Aromática",
-        "Núcleo Castigo",
-        "Picotazo Veneno",
-        "Placaje",
-        "Psicocarga",
-        "Psicocolmillo",
-        "Pulso Cura",
-        "Puño Incremento",
-        "Puntapié",
-        "Retracción",
-        "Rodillo de Púas",
-        "Tajo Umbrío"
-      ],
-      "firstMoves": [
-        "Voltiocambio",
-        "Triple Golpe",
-        "Testarazo",
-        "Plegaria Lunar"
-      ],
-      "spriteKey": "BELLIBOLT"
-    },
-    {
       "nickname": "BONES",
       "species": "Marowak",
       "level": 49,
@@ -11777,6 +11613,173 @@
       "cause": "",
       "route": "Bosque Verde",
       "date": ""
+    },
+    {
+      "nickname": "DERP INVERSO",
+      "species": "Clodsire",
+      "level": 54,
+      "types": [
+        "Veneno",
+        "Tierra"
+      ],
+      "ability": "Alma Acerada",
+      "nature": "Serena",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Desquite",
+        "Cadena Virulenta",
+        "Respiro",
+        "Mil Temblores"
+      ],
+      "iv": [
+        5,
+        27,
+        10,
+        29,
+        27,
+        10
+      ],
+      "ev": [
+        252,
+        0,
+        212,
+        0,
+        46,
+        0
+      ],
+      "abilPool": [
+        "Viscosecreción",
+        "Alma Acerada"
+      ],
+      "abilHidden": [
+        "Respondón"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Fotosíntesis"
+        },
+        {
+          "lvl": 1,
+          "m": "Falso Tortazo"
+        },
+        {
+          "lvl": 1,
+          "m": "Desquite"
+        },
+        {
+          "lvl": 4,
+          "m": "Giro Vil"
+        },
+        {
+          "lvl": 8,
+          "m": "Cara Susto"
+        },
+        {
+          "lvl": 12,
+          "m": "Danza Caos"
+        },
+        {
+          "lvl": 16,
+          "m": "Adaptación"
+        },
+        {
+          "lvl": 21,
+          "m": "Día Soleado"
+        },
+        {
+          "lvl": 24,
+          "m": "Respiro"
+        },
+        {
+          "lvl": 30,
+          "m": "Búnker"
+        },
+        {
+          "lvl": 36,
+          "m": "Aerochorro"
+        },
+        {
+          "lvl": 40,
+          "m": "Aura Magnética"
+        },
+        {
+          "lvl": 48,
+          "m": "Pugnachoque"
+        }
+      ],
+      "tmMoves": [
+        "Anclaje",
+        "Asta Drenaje",
+        "Atadura",
+        "Beso Drenaje",
+        "Cadena Virulenta",
+        "Campo de Hierba",
+        "Carámbano",
+        "Clemencia",
+        "Confusión",
+        "Danza Caos",
+        "Decoración",
+        "Destello",
+        "Doble Golpe",
+        "Eco Metálico",
+        "Embate Supremo",
+        "Espeaura",
+        "Estruendo Escama",
+        "Flarembestida",
+        "Fotocolisión",
+        "Fuerza Lunar",
+        "Glaceoprisma",
+        "Golpe Roca",
+        "Gran Ojo",
+        "Hachazo Pétreo",
+        "Hueso Sombrío",
+        "Irreverencia",
+        "Isoguardia",
+        "Lanzarrocas",
+        "Láser Doble",
+        "Mil Temblores",
+        "Mirada Heladora",
+        "Moluscañón",
+        "Niebla Aromática",
+        "Núcleo Castigo",
+        "Patada Baja",
+        "Picotazo Veneno",
+        "Pirueta Helada",
+        "Placaje",
+        "Plancha",
+        "Psicocarga",
+        "Psicocolmillo",
+        "Pulso Cura",
+        "Puño Cometa",
+        "Puño Incremento",
+        "Puntapié",
+        "Puya Nociva",
+        "Relajo",
+        "Relevo",
+        "Represalia",
+        "Rodillo de Púas",
+        "Simún de Arena",
+        "Sol Matinal",
+        "Tajo Metralla",
+        "Taladradora",
+        "Tinieblas",
+        "Trampa Rocas",
+        "Trampa Venenosa",
+        "Última Palabra",
+        "Último Lugar"
+      ],
+      "firstMoves": [
+        "Colmillo Hielo",
+        "Danza Caos",
+        "Adaptación",
+        "Día Soleado"
+      ],
+      "spriteKey": "CLODSIRE_1",
+      "cause": "",
+      "route": "Túnel Diglett",
+      "date": ""
     }
   ],
   "captures": [
@@ -11790,17 +11793,6 @@
       "category": "salvaje",
       "level": 41,
       "mon": "Blastoise"
-    },
-    {
-      "route": "tunel_diglett",
-      "where": "Túnel Diglett",
-      "species": "Clodsire",
-      "nickname": "DERP INVERSO",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 23,
-      "mon": "Clodsire"
     },
     {
       "route": "ruta_2_norte",
@@ -11845,6 +11837,17 @@
       "category": "estatico_regalo",
       "level": 50,
       "mon": "Ninetales"
+    },
+    {
+      "route": "ruta_14",
+      "where": "Ruta 14",
+      "species": "Bellibolt",
+      "nickname": "XD",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 43,
+      "mon": "Bellibolt"
     },
     {
       "route": "",
@@ -12232,17 +12235,6 @@
       "mon": "Venusaur"
     },
     {
-      "route": "ruta_14",
-      "where": "Ruta 14",
-      "species": "Bellibolt",
-      "nickname": "XD",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 43,
-      "mon": "Bellibolt"
-    },
-    {
       "route": "ruta_8",
       "where": "Ruta 8",
       "species": "Marowak",
@@ -12582,6 +12574,17 @@
       "category": "salvaje",
       "level": 7,
       "mon": "Brambleghast"
+    },
+    {
+      "route": "tunel_diglett",
+      "where": "Túnel Diglett",
+      "species": "Clodsire",
+      "nickname": "DERP INVERSO",
+      "shiny": false,
+      "status": "dead",
+      "category": "salvaje",
+      "level": 23,
+      "mon": "Clodsire"
     }
   ],
   "progress": {
@@ -12590,16 +12593,17 @@
       "gym2": true,
       "gym3": true,
       "gym4": true,
-      "gym5": true
+      "gym5": true,
+      "gym6": true
     },
     "bosses": {},
     "npcs": {},
     "routes": {
       "ruta_13": true,
-      "tunel_diglett": true,
       "ruta_2_norte": true,
       "ruta_2_sur": true,
       "ruta_5": true,
+      "ruta_14": true,
       "ciudad_azulona": true,
       "pueblo_lavanda": true,
       "tunel_roca": true,
@@ -12620,11 +12624,11 @@
       "ciudad_carmin": true,
       "ruta_15": true,
       "ruta_6": true,
-      "ruta_14": true,
       "ruta_8": true,
       "torre_pokemon": true,
       "ruta_4": true,
       "monte_moon": true,
+      "tunel_diglett": true,
       "ciudad_verde": true,
       "ciudad_fucsia": true,
       "ruta_17": true,
@@ -12751,6 +12755,7 @@
       193,
       194,
       195,
+      196,
       197,
       198,
       199,
@@ -12758,6 +12763,7 @@
       208,
       209,
       214,
+      216,
       238,
       271,
       301,
@@ -12803,6 +12809,7 @@
       "Baya Pasio",
       "Baya Pinia",
       "Baya Pomaro",
+      "Baya Safre",
       "Baya Tamar",
       "Baya Yecana",
       "Baya Zanama",
@@ -12996,6 +13003,7 @@
       "Nido Ball",
       "Pañuelo de Seda",
       "Pañuelo Elección",
+      "Parte Amarilla",
       "Parte Azul",
       "Parte Verde",
       "Periscopio",
@@ -13004,6 +13012,7 @@
       "Pico Afilado",
       "Piedra Día",
       "Piedra Dura",
+      "Piedra Eterna",
       "Piedra Hoja",
       "Piedra Lunar",
       "Piedra Noche",
@@ -13046,6 +13055,7 @@
       "Supercaña",
       "Supercápsula",
       "Supereviolita",
+      "Surfitem",
       "Swampertita",
       "Tabla Acero",
       "Tabla Cielo",
@@ -13564,7 +13574,7 @@
       {
         "id": "LEFTOVERS",
         "name": "Restos",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Objetos"
       },
       {
@@ -13576,6 +13586,18 @@
       {
         "id": "SOFTSAND",
         "name": "Arena Fina",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "EVERSTONE",
+        "name": "Piedra Eterna",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "YELLOWSHARD",
+        "name": "Parte Amarilla",
         "qty": 1,
         "pocket": "Objetos"
       },
@@ -13612,7 +13634,7 @@
       {
         "id": "CENIZASSAGRADAS",
         "name": "Cenizas Sagradas",
-        "qty": 5,
+        "qty": 6,
         "pocket": "Medicinas"
       },
       {
@@ -13750,6 +13772,12 @@
       {
         "id": "IMPISHMINT",
         "name": "Menta Agitada",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "SUPERCAPSULE",
+        "name": "Supercápsula",
         "qty": 1,
         "pocket": "Medicinas"
       },
@@ -14468,6 +14496,12 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "RAWSTBERRY",
+        "name": "Baya Safre",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
         "id": "LEPPABERRY",
         "name": "Baya Zanama",
         "qty": 1,
@@ -14506,13 +14540,13 @@
       {
         "id": "POMEGBERRY",
         "name": "Baya Grana",
-        "qty": 999,
+        "qty": 1,
         "pocket": "Bayas"
       },
       {
         "id": "POMEGBERRY",
         "name": "Baya Grana",
-        "qty": 1,
+        "qty": 999,
         "pocket": "Bayas"
       },
       {
@@ -14890,6 +14924,12 @@
       {
         "id": "TMAGN1",
         "name": "Tmagn1",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "SURFITEM",
+        "name": "Surfitem",
         "qty": 1,
         "pocket": "Objetos clave"
       }
