@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 6,
   "champion": false,
-  "notes": "Importado del save · 2h 54m jugadas · 269,180₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 2h 56m jugadas · 269,180₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -882,7 +882,7 @@
       "spriteKey": "HYPNO"
     },
     {
-      "nickname": "ZORRA",
+      "nickname": "FOXCONN",
       "species": "Ninetales (Alola)",
       "level": 54,
       "types": [
@@ -895,9 +895,9 @@
       "shiny": false,
       "moves": [
         "Maquinación",
-        "Atracción",
-        "Clonatipo",
-        "Látigo Ígneo"
+        "Glaceoprisma",
+        "Beso Drenaje",
+        "Bomba Ígnea"
       ],
       "origin": "regalo",
       "iv": [
@@ -11839,7 +11839,7 @@
       "route": "",
       "where": "Silph S.A",
       "species": "Ninetales",
-      "nickname": "ZORRA",
+      "nickname": "FOXCONN",
       "shiny": false,
       "status": "captured",
       "category": "estatico_regalo",
