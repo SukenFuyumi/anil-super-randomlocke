@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 3h 16m jugadas · 300,510₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 3h 18m jugadas · 305,710₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -560,11 +560,11 @@
       ],
       "ev": [
         2,
-        5,
+        8,
         9,
         8,
         4,
-        6
+        9
       ],
       "abilPool": [
         "Respondón"
@@ -712,7 +712,7 @@
       ],
       "ability": "Funda",
       "nature": "Ingenua",
-      "item": "",
+      "item": "Restos",
       "shiny": false,
       "moves": [
         "Voltiocambio",
@@ -731,11 +731,11 @@
       ],
       "ev": [
         0,
-        2,
+        5,
         2,
         3,
         2,
-        2
+        5
       ],
       "abilPool": [
         "Funda",
@@ -860,14 +860,14 @@
     {
       "nickname": "MONARCA",
       "species": "Claydol",
-      "level": 49,
+      "level": 59,
       "types": [
         "Tierra",
         "Psíquico"
       ],
       "ability": "Unidad Ecuestre",
       "nature": "Ingenua",
-      "item": "",
+      "item": "Restos",
       "shiny": false,
       "moves": [
         "Espora",
@@ -885,11 +885,11 @@
       ],
       "ev": [
         18,
-        77,
+        80,
         36,
         56,
         19,
-        50
+        53
       ],
       "abilPool": [
         "Unidad Ecuestre"
@@ -13919,12 +13919,6 @@
         "pocket": "Objetos"
       },
       {
-        "id": "LEFTOVERS",
-        "name": "Restos",
-        "qty": 2,
-        "pocket": "Objetos"
-      },
-      {
         "id": "POWERANKLET",
         "name": "Franja Recia",
         "qty": 1,
@@ -13963,7 +13957,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 545,
+        "qty": 535,
         "pocket": "Medicinas"
       },
       {
