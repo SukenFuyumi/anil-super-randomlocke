@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 5,
   "champion": false,
-  "notes": "Importado del save · 1h 46m jugadas · 309,400₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 1h 48m jugadas · 317,200₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -12531,6 +12531,7 @@
       "MO Golpe Roca",
       "Mochi Aguante",
       "Mochi Músculo",
+      "Monedaprodig",
       "Monedero",
       "MT03",
       "MT04",
@@ -12922,7 +12923,7 @@
       {
         "id": "TINYMUSHROOM",
         "name": "Miniseta",
-        "qty": 2,
+        "qty": 3,
         "pocket": "Objetos"
       },
       {
@@ -13120,6 +13121,12 @@
       {
         "id": "OVALSTONE",
         "name": "Piedra Oval",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "MONEDAPRODIG",
+        "name": "Monedaprodig",
         "qty": 1,
         "pocket": "Objetos"
       },
@@ -13990,7 +13997,7 @@
       {
         "id": "SITRUSBERRY",
         "name": "Baya Zidra",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Bayas"
       },
       {
@@ -14038,7 +14045,7 @@
       {
         "id": "TANGABERRY",
         "name": "Baya Yecana",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Bayas"
       },
       {
@@ -14246,8 +14253,8 @@
         "pocket": "Objetos clave"
       },
       {
-        "id": "VIAL",
-        "name": "Vial",
+        "id": "EMPTYVIAL",
+        "name": "Emptyvial",
         "qty": 1,
         "pocket": "Objetos clave"
       },
