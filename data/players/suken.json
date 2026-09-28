@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 6,
   "champion": false,
-  "notes": "Importado del save · 2h 56m jugadas · 269,180₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 3h 1m jugadas · 277,130₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -909,11 +909,11 @@
         31
       ],
       "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
+        2,
+        2,
+        2,
+        3,
+        2,
         0
       ],
       "abilPool": [
@@ -12753,6 +12753,7 @@
       195,
       197,
       198,
+      199,
       201,
       208,
       209,
@@ -12761,7 +12762,7 @@
       271,
       301,
       323,
-      326,
+      327,
       333,
       341,
       363,
@@ -13562,6 +13563,12 @@
       {
         "id": "LEFTOVERS",
         "name": "Restos",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "POWERANKLET",
+        "name": "Franja Recia",
         "qty": 1,
         "pocket": "Objetos"
       },
