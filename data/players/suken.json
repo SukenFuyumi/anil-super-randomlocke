@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 3h 57m jugadas · 334,440₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 4h 1m jugadas · 349,290₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -205,10 +205,10 @@
       ],
       "ev": [
         24,
-        83,
-        39,
-        62,
-        25,
+        85,
+        40,
+        68,
+        29,
         58
       ],
       "abilPool": [
@@ -587,10 +587,10 @@
       ],
       "ev": [
         8,
-        11,
-        12,
+        13,
+        13,
+        20,
         14,
-        10,
         14
       ],
       "abilPool": [
@@ -758,10 +758,10 @@
       ],
       "ev": [
         6,
-        8,
-        5,
-        9,
-        8,
+        10,
+        6,
+        15,
+        12,
         10
       ],
       "abilPool": [
@@ -14379,6 +14379,7 @@
       198,
       199,
       201,
+      202,
       207,
       208,
       209,
@@ -14420,6 +14421,7 @@
       "Ataque X 3",
       "Banda Aguante",
       "Banda Atadura",
+      "Baya Algama",
       "Baya Ango",
       "Baya Arabol",
       "Baya Chilan",
@@ -14688,8 +14690,10 @@
       "Supercaña",
       "Supercápsula",
       "Supereviolita",
+      "Superpoción",
       "Surfitem",
       "Swampertita",
+      "Swiftfeather",
       "Tabla Acero",
       "Tabla Cielo",
       "Tabla Duende",
@@ -14788,7 +14792,7 @@
       {
         "id": "DUBIOUSDISC",
         "name": "Disco Extraño",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Objetos"
       },
       {
@@ -15172,7 +15176,7 @@
       {
         "id": "POWERLENS",
         "name": "Lente Recia",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Objetos"
       },
       {
@@ -15310,7 +15314,7 @@
       {
         "id": "MUSCLEFEATHER",
         "name": "Pluma Músculo",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Medicinas"
       },
       {
@@ -15452,6 +15456,18 @@
         "pocket": "Medicinas"
       },
       {
+        "id": "SWIFTFEATHER",
+        "name": "Swiftfeather",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "SUPERPOTION",
+        "name": "Superpoción",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
         "id": "HEAVYBALL",
         "name": "Peso Ball",
         "qty": 2,
@@ -15532,7 +15548,7 @@
       {
         "id": "HEALBALL",
         "name": "Sana Ball",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Poké Balls"
       },
       {
@@ -16234,19 +16250,19 @@
       {
         "id": "POMEGBERRY",
         "name": "Baya Grana",
-        "qty": 1,
+        "qty": 999,
         "pocket": "Bayas"
       },
       {
         "id": "POMEGBERRY",
         "name": "Baya Grana",
-        "qty": 999,
+        "qty": 1,
         "pocket": "Bayas"
       },
       {
         "id": "KELPSYBERRY",
         "name": "Baya Algama",
-        "qty": 967,
+        "qty": 968,
         "pocket": "Bayas"
       },
       {
@@ -16526,8 +16542,8 @@
         "pocket": "Objetos clave"
       },
       {
-        "id": "VIAL",
-        "name": "Vial",
+        "id": "EMPTYVIAL",
+        "name": "Emptyvial",
         "qty": 1,
         "pocket": "Objetos clave"
       },
