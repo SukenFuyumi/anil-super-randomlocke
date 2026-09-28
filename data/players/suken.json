@@ -750,7 +750,7 @@
         9,
         5,
         2,
-        4
+        6
       ],
       "abilPool": [
         "Respondón"
@@ -921,7 +921,7 @@
         2,
         0,
         0,
-        0
+        2
       ],
       "abilPool": [
         "Funda",
@@ -4074,6 +4074,142 @@
         "Gas Venenoso"
       ],
       "spriteKey": "POLIWHIRL"
+    },
+    {
+      "nickname": "Carls JR",
+      "species": "Starmie",
+      "level": 51,
+      "types": [
+        "Agua",
+        "Psíquico"
+      ],
+      "ability": "Ventosas",
+      "nature": "Alocada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Vendetta",
+        "Placaje",
+        "Danza Lunar",
+        "Bomba Germen"
+      ],
+      "origin": "primer_ruta",
+      "iv": [
+        10,
+        9,
+        30,
+        21,
+        1,
+        12
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Ventosas",
+        "Aura Oscura"
+      ],
+      "abilHidden": [
+        "Recogebolas"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Reversión"
+        },
+        {
+          "lvl": 1,
+          "m": "Puño Incremento"
+        },
+        {
+          "lvl": 1,
+          "m": "Día de Pago"
+        },
+        {
+          "lvl": 1,
+          "m": "Salmuera"
+        },
+        {
+          "lvl": 1,
+          "m": "Atracción"
+        },
+        {
+          "lvl": 1,
+          "m": "Cambio de Banda"
+        },
+        {
+          "lvl": 1,
+          "m": "Llanto Falso"
+        },
+        {
+          "lvl": 1,
+          "m": "Amago"
+        },
+        {
+          "lvl": 1,
+          "m": "Rayo Carga"
+        },
+        {
+          "lvl": 1,
+          "m": "Kinético"
+        },
+        {
+          "lvl": 1,
+          "m": "Cambiafuerza"
+        },
+        {
+          "lvl": 1,
+          "m": "Tenaza"
+        },
+        {
+          "lvl": 1,
+          "m": "Constricción"
+        },
+        {
+          "lvl": 1,
+          "m": "Psicoonda"
+        },
+        {
+          "lvl": 1,
+          "m": "Ciclón de Hojas"
+        },
+        {
+          "lvl": 1,
+          "m": "Voltiocambio"
+        },
+        {
+          "lvl": 12,
+          "m": "Picotazo Veneno"
+        },
+        {
+          "lvl": 35,
+          "m": "Vendetta"
+        },
+        {
+          "lvl": 40,
+          "m": "Placaje"
+        },
+        {
+          "lvl": 45,
+          "m": "Danza Lunar"
+        },
+        {
+          "lvl": 50,
+          "m": "Bomba Germen"
+        }
+      ],
+      "firstMoves": [
+        "Vendetta",
+        "Placaje",
+        "Danza Lunar",
+        "Bomba Germen"
+      ],
+      "spriteKey": "STARMIE"
     },
     {
       "nickname": "KILLER POLLO",
@@ -12089,6 +12225,17 @@
       "mon": "Poliwhirl"
     },
     {
+      "route": "ruta_18",
+      "where": "Ruta 18",
+      "species": "Starmie",
+      "nickname": "Carls JR",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 51,
+      "mon": "Starmie"
+    },
+    {
       "route": "ruta_20",
       "where": "Ruta 20",
       "species": "Blaziken",
@@ -12623,6 +12770,7 @@
       "pueblo_marengo": true,
       "ruta_11": true,
       "monte_moon_exterior": true,
+      "ruta_18": true,
       "ruta_20": true,
       "ruta_7": true,
       "ruta_22": true,
@@ -12645,8 +12793,7 @@
       "bosque_verde": true,
       "ruta_1": true,
       "ruta_9": true,
-      "ruta_16": true,
-      "ruta_18": true
+      "ruta_16": true
     },
     "items": {},
     "encounters": {
@@ -12688,7 +12835,8 @@
       "ruta_5": true,
       "ruta_6": true,
       "tunel_diglett": true,
-      "ciudad_azafran": true
+      "ciudad_azafran": true,
+      "ruta_18": true
     },
     "switches": [
       48,
@@ -12793,6 +12941,7 @@
       "Álbum de Fotos",
       "Ámbar Viejo",
       "Amigo Ball",
+      "Amor Ball",
       "Amuleto",
       "Amuleto Puro",
       "Ánfora",
@@ -13856,7 +14005,7 @@
       {
         "id": "ULTRABALL",
         "name": "Ultra Ball",
-        "qty": 20,
+        "qty": 19,
         "pocket": "Poké Balls"
       },
       {
@@ -13892,6 +14041,12 @@
       {
         "id": "MASTERBALL",
         "name": "Master Ball",
+        "qty": 1,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "LOVEBALL",
+        "name": "Amor Ball",
         "qty": 1,
         "pocket": "Poké Balls"
       },
