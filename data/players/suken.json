@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 3h 24m jugadas · 316,260₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 3h 27m jugadas · 324,810₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -13339,6 +13339,7 @@
       "Baya Pomaro",
       "Baya Safre",
       "Baya Tamar",
+      "Baya Tamate",
       "Baya Yecana",
       "Baya Zanama",
       "Baya Zidra",
@@ -13482,6 +13483,7 @@
       "MT29",
       "MT30",
       "MT31",
+      "MT32",
       "MT34",
       "MT35",
       "MT36",
@@ -14039,7 +14041,7 @@
       {
         "id": "CHOICESPECS",
         "name": "Gafas Elección",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Objetos"
       },
       {
@@ -14571,6 +14573,12 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM32",
+        "name": "MT32",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM33",
         "name": "MT33",
         "qty": 1,
@@ -15095,13 +15103,13 @@
       {
         "id": "POMEGBERRY",
         "name": "Baya Grana",
-        "qty": 1,
+        "qty": 999,
         "pocket": "Bayas"
       },
       {
         "id": "POMEGBERRY",
         "name": "Baya Grana",
-        "qty": 999,
+        "qty": 1,
         "pocket": "Bayas"
       },
       {
@@ -15131,7 +15139,7 @@
       {
         "id": "TAMATOBERRY",
         "name": "Baya Tamate",
-        "qty": 990,
+        "qty": 991,
         "pocket": "Bayas"
       },
       {
