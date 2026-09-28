@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 4h 1m jugadas · 349,290₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 4h 3m jugadas · 359,190₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -204,12 +204,12 @@
         3
       ],
       "ev": [
-        24,
+        29,
         85,
         40,
-        68,
+        70,
         29,
-        58
+        59
       ],
       "abilPool": [
         "Unidad Ecuestre"
@@ -586,12 +586,12 @@
         31
       ],
       "ev": [
-        8,
         13,
         13,
-        20,
+        13,
+        22,
         14,
-        14
+        15
       ],
       "abilPool": [
         "Respondón"
@@ -757,12 +757,12 @@
         24
       ],
       "ev": [
-        6,
+        11,
         10,
         6,
-        15,
+        17,
         12,
-        10
+        11
       ],
       "abilPool": [
         "Funda",
@@ -14380,6 +14380,8 @@
       199,
       201,
       202,
+      204,
+      205,
       207,
       208,
       209,
@@ -14432,6 +14434,7 @@
       "Baya Magua",
       "Baya Maranga",
       "Baya Pasio",
+      "Baya Perasi",
       "Baya Pinia",
       "Baya Pomaro",
       "Baya Safre",
@@ -14539,6 +14542,7 @@
       "Menta Firme",
       "Menta Grosera",
       "Menta Mansa",
+      "Menta Miedosa",
       "Menta Pícara",
       "Metrónomo",
       "Mineral Evol",
@@ -14756,7 +14760,7 @@
       {
         "id": "CHOICEBAND",
         "name": "Cinta Elección",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Objetos"
       },
       {
@@ -15464,6 +15468,12 @@
       {
         "id": "SUPERPOTION",
         "name": "Superpoción",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "TIMIDMINT",
+        "name": "Menta Miedosa",
         "qty": 1,
         "pocket": "Medicinas"
       },
@@ -16212,6 +16222,12 @@
         "pocket": "Bayas"
       },
       {
+        "id": "ASPEARBERRY",
+        "name": "Baya Perasi",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
         "id": "LEPPABERRY",
         "name": "Baya Zanama",
         "qty": 1,
@@ -16250,13 +16266,13 @@
       {
         "id": "POMEGBERRY",
         "name": "Baya Grana",
-        "qty": 999,
+        "qty": 1,
         "pocket": "Bayas"
       },
       {
         "id": "POMEGBERRY",
         "name": "Baya Grana",
-        "qty": 1,
+        "qty": 999,
         "pocket": "Bayas"
       },
       {
@@ -16322,7 +16338,7 @@
       {
         "id": "ROSELIBERRY",
         "name": "Baya Hibis",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Bayas"
       },
       {
