@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 6,
   "champion": false,
-  "notes": "Importado del save · 2h 51m jugadas · 289,180₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 2h 54m jugadas · 269,180₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -880,6 +880,178 @@
         "Halloween"
       ],
       "spriteKey": "HYPNO"
+    },
+    {
+      "nickname": "ZORRA",
+      "species": "Ninetales (Alola)",
+      "level": 54,
+      "types": [
+        "Hielo",
+        "Hada"
+      ],
+      "ability": "Respondón",
+      "nature": "Firme",
+      "item": "Periscopio",
+      "shiny": false,
+      "moves": [
+        "Maquinación",
+        "Atracción",
+        "Clonatipo",
+        "Látigo Ígneo"
+      ],
+      "origin": "regalo",
+      "iv": [
+        26,
+        9,
+        9,
+        19,
+        25,
+        31
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Respondón"
+      ],
+      "abilHidden": [
+        "Realeza"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Fuego Fatuo"
+        },
+        {
+          "lvl": -1,
+          "m": "Somnífero"
+        },
+        {
+          "lvl": -1,
+          "m": "Ataque Óseo"
+        },
+        {
+          "lvl": -1,
+          "m": "Meteorobola"
+        },
+        {
+          "lvl": -1,
+          "m": "Ataque Rápido"
+        },
+        {
+          "lvl": -1,
+          "m": "Bostezo"
+        },
+        {
+          "lvl": -1,
+          "m": "Llama Protectora"
+        },
+        {
+          "lvl": -1,
+          "m": "Antojo"
+        },
+        {
+          "lvl": -1,
+          "m": "Picotazo Veneno"
+        },
+        {
+          "lvl": -1,
+          "m": "Aguzar"
+        },
+        {
+          "lvl": -1,
+          "m": "Cola Veneno"
+        },
+        {
+          "lvl": -1,
+          "m": "Día Soleado"
+        },
+        {
+          "lvl": 1,
+          "m": "Pirotecnia"
+        },
+        {
+          "lvl": 1,
+          "m": "Nieve Polvo"
+        },
+        {
+          "lvl": 1,
+          "m": "Maquinación"
+        },
+        {
+          "lvl": 1,
+          "m": "Atracción"
+        },
+        {
+          "lvl": 1,
+          "m": "Clonatipo"
+        },
+        {
+          "lvl": 40,
+          "m": "Látigo Ígneo"
+        }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Absorbefuerza",
+        "Alud",
+        "Amnesia",
+        "Beso Drenaje",
+        "Bomba Ígnea",
+        "Cabeza Sorpresa",
+        "Cadena Virulenta",
+        "Carámbano",
+        "Chorro de Vapor",
+        "Ciclón",
+        "Conversión",
+        "Copión",
+        "Danza Acuática",
+        "Danza Caos",
+        "Decoración",
+        "Deslome",
+        "Embate Supremo",
+        "Espeaura",
+        "Esquirla Helada",
+        "Finta",
+        "Fotosíntesis",
+        "Fuerza Lunar",
+        "Glaceoprisma",
+        "Golpe Umbrío",
+        "Hachazo Pétreo",
+        "Hoja Aguda",
+        "Isoguardia",
+        "Láser Prisma",
+        "Llama Protectora",
+        "Megapuño",
+        "Mismo Destino",
+        "Nitrocarga",
+        "Nitrochoque",
+        "Pirueta Helada",
+        "Plancha",
+        "Plancha Corporal",
+        "Psicocarga",
+        "Psicocolmillo",
+        "Pulso Cura",
+        "Puño Drenaje",
+        "Relajo",
+        "Sol Matinal",
+        "Tajo Umbrío",
+        "Transformación",
+        "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Maquinación",
+        "Atracción",
+        "Clonatipo",
+        "Látigo Ígneo"
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10104.png",
+      "spriteKey": "NINETALES_1"
     }
   ],
   "box": [
@@ -11665,6 +11837,17 @@
     },
     {
       "route": "",
+      "where": "Silph S.A",
+      "species": "Ninetales",
+      "nickname": "ZORRA",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 50,
+      "mon": "Ninetales"
+    },
+    {
+      "route": "",
       "where": "Zona Safari",
       "species": "Mudsdale",
       "nickname": "",
@@ -13385,7 +13568,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 590,
+        "qty": 586,
         "pocket": "Medicinas"
       },
       {
