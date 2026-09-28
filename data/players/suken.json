@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 4h 13m jugadas · 369,050₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 5h 21m jugadas · 374,650₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -205,10 +205,10 @@
       ],
       "ev": [
         29,
-        88,
+        90,
         42,
         71,
-        32,
+        36,
         60
       ],
       "abilPool": [
@@ -587,10 +587,10 @@
       ],
       "ev": [
         13,
-        16,
+        18,
         15,
         23,
-        17,
+        21,
         16
       ],
       "abilPool": [
@@ -758,10 +758,10 @@
       ],
       "ev": [
         11,
-        13,
+        15,
         8,
         18,
-        15,
+        19,
         12
       ],
       "abilPool": [
@@ -14387,6 +14387,7 @@
       208,
       209,
       210,
+      211,
       214,
       216,
       238,
@@ -14431,6 +14432,7 @@
       "Baya Chilan",
       "Baya Enigma",
       "Baya Gonlan",
+      "Baya Grana",
       "Baya Guaya",
       "Baya Hibis",
       "Baya Magua",
@@ -16282,13 +16284,13 @@
       {
         "id": "POMEGBERRY",
         "name": "Baya Grana",
-        "qty": 1,
+        "qty": 999,
         "pocket": "Bayas"
       },
       {
         "id": "POMEGBERRY",
         "name": "Baya Grana",
-        "qty": 999,
+        "qty": 2,
         "pocket": "Bayas"
       },
       {
@@ -16574,8 +16576,8 @@
         "pocket": "Objetos clave"
       },
       {
-        "id": "EMPTYVIAL",
-        "name": "Emptyvial",
+        "id": "VIAL",
+        "name": "Vial",
         "qty": 1,
         "pocket": "Objetos clave"
       },
