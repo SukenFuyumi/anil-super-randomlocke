@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 3h 18m jugadas · 305,710₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 3h 21m jugadas · 316,260₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -561,10 +561,10 @@
       "ev": [
         2,
         8,
-        9,
+        11,
         8,
-        4,
-        9
+        7,
+        11
       ],
       "abilPool": [
         "Respondón"
@@ -732,10 +732,10 @@
       "ev": [
         0,
         5,
-        2,
+        4,
         3,
-        2,
-        5
+        5,
+        7
       ],
       "abilPool": [
         "Funda",
@@ -886,10 +886,10 @@
       "ev": [
         18,
         80,
-        36,
+        38,
         56,
-        19,
-        53
+        22,
+        55
       ],
       "abilPool": [
         "Unidad Ecuestre"
@@ -12977,7 +12977,8 @@
       "bosque_verde": true,
       "ruta_1": true,
       "ruta_9": true,
-      "ruta_16": true
+      "ruta_16": true,
+      "isla_canela": true
     },
     "items": {},
     "encounters": {
@@ -13741,7 +13742,7 @@
       {
         "id": "METALCOAT",
         "name": "Revest. Metálico",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Objetos"
       },
       {
@@ -13861,7 +13862,7 @@
       {
         "id": "BRIGHTPOWDER",
         "name": "Polvo Brillo",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Objetos"
       },
       {
@@ -14881,7 +14882,7 @@
       {
         "id": "LUMBERRY",
         "name": "Baya Ziuela",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Bayas"
       },
       {
@@ -14911,13 +14912,13 @@
       {
         "id": "POMEGBERRY",
         "name": "Baya Grana",
-        "qty": 999,
+        "qty": 1,
         "pocket": "Bayas"
       },
       {
         "id": "POMEGBERRY",
         "name": "Baya Grana",
-        "qty": 1,
+        "qty": 999,
         "pocket": "Bayas"
       },
       {
