@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 3h 54m jugadas · 329,490₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 3h 55m jugadas · 329,490₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -732,133 +732,6 @@
     },
     {
       "nickname": "XD",
-      "species": "Polteageist",
-      "level": 1,
-      "types": [
-        "Fantasma"
-      ],
-      "ability": "Efecto Espora",
-      "nature": "Huraña",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Puño Furia",
-        "Golpe Bajo",
-        "Rabia",
-        "Eco Voz"
-      ],
-      "origin": "fossil",
-      "iv": [
-        18,
-        26,
-        7,
-        22,
-        25,
-        31
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Efecto Espora"
-      ],
-      "abilHidden": [
-        "Pompa"
-      ],
-      "learnset": [
-        {
-          "lvl": -1,
-          "m": "Ciclón de Hojas"
-        },
-        {
-          "lvl": 1,
-          "m": "Torbellino"
-        },
-        {
-          "lvl": 1,
-          "m": "Bomba Ácida"
-        },
-        {
-          "lvl": 1,
-          "m": "Llave Corsé"
-        },
-        {
-          "lvl": 1,
-          "m": "Camuflaje"
-        },
-        {
-          "lvl": 1,
-          "m": "Puño Furia"
-        },
-        {
-          "lvl": 1,
-          "m": "Golpe Bajo"
-        },
-        {
-          "lvl": 1,
-          "m": "Rabia"
-        },
-        {
-          "lvl": 1,
-          "m": "Eco Voz"
-        },
-        {
-          "lvl": 18,
-          "m": "Tinieblas"
-        },
-        {
-          "lvl": 24,
-          "m": "Golpe Rastrero"
-        },
-        {
-          "lvl": 30,
-          "m": "Alto Voltaje"
-        },
-        {
-          "lvl": 30,
-          "m": "Prensa Metálica"
-        },
-        {
-          "lvl": 36,
-          "m": "Cascada"
-        },
-        {
-          "lvl": 42,
-          "m": "Garra Nociva"
-        },
-        {
-          "lvl": 48,
-          "m": "Voltiocambio"
-        },
-        {
-          "lvl": 54,
-          "m": "Ataque Aéreo"
-        },
-        {
-          "lvl": 60,
-          "m": "Desquite"
-        },
-        {
-          "lvl": 66,
-          "m": "Azote"
-        }
-      ],
-      "firstMoves": [
-        "Puño Furia",
-        "Golpe Bajo",
-        "Rabia",
-        "Eco Voz"
-      ],
-      "spriteKey": "POLTEAGEIST",
-      "dup": true
-    },
-    {
-      "nickname": "XD",
       "species": "Bellibolt",
       "level": 59,
       "types": [
@@ -1010,6 +883,183 @@
         "Plegaria Lunar"
       ],
       "spriteKey": "BELLIBOLT"
+    },
+    {
+      "nickname": "DREAMS",
+      "species": "Hypno",
+      "level": 59,
+      "types": [
+        "Psíquico"
+      ],
+      "ability": "Trampa Arena",
+      "nature": "Huraña",
+      "item": "Chaleco Asalto",
+      "shiny": false,
+      "moves": [
+        "Luz Aniquiladora",
+        "Marcha Espectral",
+        "Conjuro Funesto",
+        "Flarembestida"
+      ],
+      "iv": [
+        13,
+        24,
+        30,
+        7,
+        12,
+        30
+      ],
+      "ev": [
+        48,
+        158,
+        95,
+        80,
+        46,
+        83
+      ],
+      "abilPool": [
+        "Trampa Arena",
+        "Ignífugo"
+      ],
+      "abilHidden": [
+        "Torrente"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Sorpresa"
+        },
+        {
+          "lvl": 1,
+          "m": "Isoguardia"
+        },
+        {
+          "lvl": 1,
+          "m": "Confusión"
+        },
+        {
+          "lvl": 1,
+          "m": "Cornada"
+        },
+        {
+          "lvl": 1,
+          "m": "Chulería"
+        },
+        {
+          "lvl": 1,
+          "m": "Ascuas"
+        },
+        {
+          "lvl": 13,
+          "m": "Divide Dolor"
+        },
+        {
+          "lvl": 17,
+          "m": "Copión"
+        },
+        {
+          "lvl": 21,
+          "m": "Follaje"
+        },
+        {
+          "lvl": 21,
+          "m": "Bofetón Lodo"
+        },
+        {
+          "lvl": 25,
+          "m": "Hoja Mágica"
+        },
+        {
+          "lvl": 29,
+          "m": "Absorber"
+        },
+        {
+          "lvl": 32,
+          "m": "Terratemblor"
+        },
+        {
+          "lvl": 37,
+          "m": "Conjuro Funesto"
+        },
+        {
+          "lvl": 37,
+          "m": "Luz Aniquiladora"
+        },
+        {
+          "lvl": 42,
+          "m": "Intercambio"
+        },
+        {
+          "lvl": 47,
+          "m": "Hierba Lazo"
+        },
+        {
+          "lvl": 51,
+          "m": "Premonición"
+        },
+        {
+          "lvl": 56,
+          "m": "Nitrochoque"
+        }
+      ],
+      "tmMoves": [
+        "Absorbefuerza",
+        "Absorber",
+        "Alud",
+        "Anclaje",
+        "Bomba Ígnea",
+        "Cadena Virulenta",
+        "Campo de Niebla",
+        "Carámbano",
+        "Choque Anímico",
+        "Chorro de Vapor",
+        "Clemencia",
+        "Confusión",
+        "Copión",
+        "Electropico",
+        "Embate Supremo",
+        "Espeaura",
+        "Flarembestida",
+        "Golpe Roca",
+        "Hoja Aguda",
+        "Hueso Sombrío",
+        "Irreverencia",
+        "Isoguardia",
+        "Lanzarrocas",
+        "Láser Doble",
+        "Láser Prisma",
+        "Lengüetazo",
+        "Luna Roja",
+        "Marcha Espectral",
+        "Mil Temblores",
+        "Niebla Aromática",
+        "Patada Baja",
+        "Picotazo Veneno",
+        "Pin Misil",
+        "Plancha Corporal",
+        "Psicocarga",
+        "Psicocolmillo",
+        "Pulso Cura",
+        "Puño Cometa",
+        "Puntapié",
+        "Puya Nociva",
+        "Represalia",
+        "Retracción",
+        "Rodillo de Púas",
+        "Simún de Arena",
+        "Tinieblas",
+        "Transformación",
+        "Última Palabra",
+        "Último Lugar",
+        "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Meditación",
+        "Agilidad",
+        "Sorpresa",
+        "Halloween"
+      ],
+      "spriteKey": "HYPNO"
     }
   ],
   "box": [
@@ -4874,181 +4924,178 @@
       "spriteKey": "MISMAGIUS"
     },
     {
-      "nickname": "DREAMS",
-      "species": "Hypno",
-      "level": 59,
+      "nickname": "Zoroark",
+      "species": "Zoroark",
+      "level": 5,
       "types": [
-        "Psíquico"
+        "Siniestro"
       ],
-      "ability": "Trampa Arena",
-      "nature": "Huraña",
-      "item": "Chaleco Asalto",
+      "ability": "Carrillo",
+      "nature": "Cauta",
+      "item": "",
       "shiny": false,
       "moves": [
-        "Luz Aniquiladora",
-        "Marcha Espectral",
-        "Conjuro Funesto",
-        "Flarembestida"
+        "Sustituto",
+        "Burbuja",
+        "Doble Equipo",
+        "Autosugestión"
       ],
+      "origin": "magnemite",
       "iv": [
-        13,
+        25,
         24,
-        30,
-        7,
-        12,
-        30
+        13,
+        10,
+        3,
+        0
       ],
       "ev": [
-        48,
-        158,
-        95,
-        80,
-        46,
-        83
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
       "abilPool": [
-        "Trampa Arena",
-        "Ignífugo"
+        "Carrillo"
       ],
-      "abilHidden": [
-        "Torrente"
-      ],
+      "abilHidden": [],
       "learnset": [
         {
-          "lvl": 1,
-          "m": "Sorpresa"
+          "lvl": -1,
+          "m": "Rayo Confuso"
         },
         {
           "lvl": 1,
-          "m": "Isoguardia"
+          "m": "Giro Vil"
         },
         {
           "lvl": 1,
-          "m": "Confusión"
+          "m": "Golpe Rastrero"
         },
         {
           "lvl": 1,
-          "m": "Cornada"
+          "m": "Sustituto"
         },
         {
           "lvl": 1,
-          "m": "Chulería"
+          "m": "Burbuja"
         },
         {
           "lvl": 1,
-          "m": "Ascuas"
+          "m": "Doble Equipo"
         },
         {
-          "lvl": 13,
-          "m": "Divide Dolor"
+          "lvl": 1,
+          "m": "Autosugestión"
+        },
+        {
+          "lvl": 12,
+          "m": "Tragar"
+        },
+        {
+          "lvl": 16,
+          "m": "Reversión"
         },
         {
           "lvl": 17,
-          "m": "Copión"
+          "m": "Gas Corrosivo"
         },
         {
-          "lvl": 21,
-          "m": "Follaje"
+          "lvl": 20,
+          "m": "Cede Paso"
         },
         {
-          "lvl": 21,
-          "m": "Bofetón Lodo"
+          "lvl": 24,
+          "m": "Onda Anómala"
         },
         {
-          "lvl": 25,
-          "m": "Hoja Mágica"
+          "lvl": 28,
+          "m": "Robo"
         },
         {
-          "lvl": 29,
-          "m": "Absorber"
+          "lvl": 34,
+          "m": "Aullido"
         },
         {
-          "lvl": 32,
-          "m": "Terratemblor"
+          "lvl": 40,
+          "m": "Explosion"
         },
         {
-          "lvl": 37,
-          "m": "Conjuro Funesto"
+          "lvl": 44,
+          "m": "Tajo Umbrío"
         },
         {
-          "lvl": 37,
-          "m": "Luz Aniquiladora"
+          "lvl": 46,
+          "m": "Pulso Umbrío"
         },
         {
-          "lvl": 42,
-          "m": "Intercambio"
+          "lvl": 49,
+          "m": "Escalofrío"
         },
         {
-          "lvl": 47,
-          "m": "Hierba Lazo"
+          "lvl": 52,
+          "m": "Telaraña"
         },
         {
-          "lvl": 51,
-          "m": "Premonición"
+          "lvl": 53,
+          "m": "Golpe Bajo"
         },
         {
-          "lvl": 56,
-          "m": "Nitrochoque"
+          "lvl": 58,
+          "m": "Manto Espejo"
         }
       ],
       "tmMoves": [
         "Absorbefuerza",
-        "Absorber",
-        "Alud",
         "Anclaje",
-        "Bomba Ígnea",
-        "Cadena Virulenta",
-        "Campo de Niebla",
+        "Antojo",
+        "Atadura",
+        "Beso Drenaje",
         "Carámbano",
-        "Choque Anímico",
-        "Chorro de Vapor",
         "Clemencia",
-        "Confusión",
+        "Conversión",
         "Copión",
-        "Electropico",
+        "Danza Caos",
+        "Deslome",
+        "Doble Golpe",
         "Embate Supremo",
-        "Espeaura",
-        "Flarembestida",
-        "Golpe Roca",
+        "Espabila",
+        "Espora",
+        "Esquirla Helada",
+        "Fotosíntesis",
         "Hoja Aguda",
         "Hueso Sombrío",
-        "Irreverencia",
-        "Isoguardia",
+        "Infortunio",
         "Lanzarrocas",
-        "Láser Doble",
-        "Láser Prisma",
         "Lengüetazo",
-        "Luna Roja",
-        "Marcha Espectral",
+        "Malicioso",
+        "Megapuño",
         "Mil Temblores",
-        "Niebla Aromática",
-        "Patada Baja",
-        "Picotazo Veneno",
+        "Mirada Heladora",
+        "Mismo Destino",
+        "Nitrocarga",
+        "Nitrochoque",
+        "Núcleo Castigo",
         "Pin Misil",
-        "Plancha Corporal",
+        "Placaje",
         "Psicocarga",
-        "Psicocolmillo",
         "Pulso Cura",
-        "Puño Cometa",
-        "Puntapié",
-        "Puya Nociva",
+        "Puño Incremento",
+        "Relajo",
+        "Relevo",
         "Represalia",
         "Retracción",
-        "Rodillo de Púas",
-        "Simún de Arena",
+        "Sol Matinal",
+        "Tajo Umbrío",
+        "Taladradora",
         "Tinieblas",
+        "Trampa Venenosa",
         "Transformación",
-        "Última Palabra",
-        "Último Lugar",
         "Voltio Cruel"
       ],
-      "firstMoves": [
-        "Meditación",
-        "Agilidad",
-        "Sorpresa",
-        "Halloween"
-      ],
-      "spriteKey": "HYPNO"
+      "spriteKey": "ZOROARK"
     },
     {
       "nickname": "MMAKAKO",
@@ -13291,17 +13338,6 @@
       "mon": "Ninetales"
     },
     {
-      "route": "",
-      "where": "Laboratorio Canela",
-      "species": "Polteageist",
-      "nickname": "XD",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 1,
-      "mon": "Polteageist"
-    },
-    {
       "route": "ruta_14",
       "where": "Ruta 14",
       "species": "Bellibolt",
@@ -13311,6 +13347,17 @@
       "category": "salvaje",
       "level": 43,
       "mon": "Bellibolt"
+    },
+    {
+      "route": "ruta_5",
+      "where": "Ruta 5",
+      "species": "Hypno",
+      "nickname": "DREAMS",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 21,
+      "mon": "Hypno"
     },
     {
       "route": "",
@@ -13599,15 +13646,15 @@
       "mon": "Mismagius"
     },
     {
-      "route": "ruta_5",
-      "where": "Ruta 5",
-      "species": "Hypno",
-      "nickname": "DREAMS",
+      "route": "ciudad_plateada",
+      "where": "Ciudad Plateada",
+      "species": "Zoroark",
+      "nickname": "",
       "shiny": false,
       "status": "captured",
-      "category": "salvaje",
-      "level": 21,
-      "mon": "Hypno"
+      "category": "ciudad",
+      "level": 5,
+      "mon": "Zoroark"
     },
     {
       "route": "ruta_19",
@@ -14165,6 +14212,7 @@
       "pueblo_paleta": true,
       "ruta_2_norte": true,
       "ruta_14": true,
+      "ruta_5": true,
       "ciudad_azulona": true,
       "pueblo_lavanda": true,
       "tunel_roca": true,
@@ -14178,7 +14226,6 @@
       "ruta_18": true,
       "islas_espuma": true,
       "isla_canela": true,
-      "ruta_5": true,
       "ruta_19": true,
       "ruta_20": true,
       "ruta_22": true,
