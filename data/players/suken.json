@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 4h 4m jugadas · 359,190₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 4h 12m jugadas · 369,050₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -205,11 +205,11 @@
       ],
       "ev": [
         29,
-        85,
-        40,
-        70,
-        29,
-        59
+        88,
+        42,
+        71,
+        32,
+        60
       ],
       "abilPool": [
         "Unidad Ecuestre"
@@ -587,11 +587,11 @@
       ],
       "ev": [
         13,
-        13,
-        13,
-        22,
-        14,
-        15
+        16,
+        15,
+        23,
+        17,
+        16
       ],
       "abilPool": [
         "Respondón"
@@ -758,11 +758,11 @@
       ],
       "ev": [
         11,
-        10,
-        6,
-        17,
-        12,
-        11
+        13,
+        8,
+        18,
+        15,
+        12
       ],
       "abilPool": [
         "Funda",
@@ -14382,9 +14382,11 @@
       202,
       204,
       205,
+      206,
       207,
       208,
       209,
+      210,
       214,
       216,
       238,
@@ -14551,6 +14553,7 @@
       "MO Destello",
       "MO Golpe Roca",
       "Mochi Aguante",
+      "Mochi Mente",
       "Mochi Músculo",
       "Monedaprodig",
       "Monedero",
@@ -15475,6 +15478,12 @@
       {
         "id": "TIMIDMINT",
         "name": "Menta Miedosa",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "CLEVERMOCHI",
+        "name": "Mochi Mente",
         "qty": 1,
         "pocket": "Medicinas"
       },
