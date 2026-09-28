@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 5,
   "champion": false,
-  "notes": "Importado del save · 1h 43m jugadas · 287,800₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 1h 45m jugadas · 295,000₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
       "species": "Blastoise",
-      "level": 49,
+      "level": 54,
       "types": [
         "Agua"
       ],
@@ -180,7 +180,7 @@
     {
       "nickname": "DREAMS",
       "species": "Hypno",
-      "level": 49,
+      "level": 54,
       "types": [
         "Psíquico"
       ],
@@ -357,7 +357,7 @@
     {
       "nickname": "DUNAS",
       "species": "Brambleghast",
-      "level": 49,
+      "level": 54,
       "types": [
         "Planta",
         "Fantasma"
@@ -520,7 +520,7 @@
     {
       "nickname": "DERP INVERSO",
       "species": "Clodsire",
-      "level": 49,
+      "level": 54,
       "types": [
         "Veneno",
         "Tierra"
@@ -684,7 +684,7 @@
     {
       "nickname": "AL",
       "species": "Sudowoodo",
-      "level": 49,
+      "level": 54,
       "types": [
         "Roca"
       ],
@@ -861,7 +861,7 @@
     {
       "nickname": "CRAWLER",
       "species": "Crawdaunt",
-      "level": 49,
+      "level": 54,
       "types": [
         "Agua",
         "Siniestro"
@@ -13126,7 +13126,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 624,
+        "qty": 594,
         "pocket": "Medicinas"
       },
       {
