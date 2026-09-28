@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 3h 29m jugadas · 324,810₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 3h 30m jugadas · 324,810₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -6939,30 +6939,30 @@
       "spriteKey": "VENUSAUR"
     },
     {
-      "nickname": "BONES",
-      "species": "Marowak",
-      "level": 49,
+      "nickname": "Meganium",
+      "species": "Meganium",
+      "level": 50,
       "types": [
-        "Tierra"
+        "Planta"
       ],
-      "ability": "Ojo Compuesto",
-      "nature": "Mansa",
+      "ability": "Fuerza Mental",
+      "nature": "Grosera",
       "item": "",
       "shiny": false,
       "moves": [
-        "Mil Temblores",
-        "Danza Acuática",
-        "Hueso Sombrío",
-        "Garra Dragón"
+        "Espora",
+        "Afilagarras",
+        "Ala Aural",
+        "Núcleo Castigo"
       ],
-      "origin": "primer_ruta",
+      "origin": "intercambio",
       "iv": [
-        19,
-        27,
-        18,
         24,
-        15,
-        16
+        12,
+        25,
+        2,
+        12,
+        9
       ],
       "ev": [
         0,
@@ -6973,129 +6973,108 @@
         0
       ],
       "abilPool": [
-        "Ojo Compuesto",
-        "General Supremo"
+        "Fuerza Mental"
       ],
       "abilHidden": [
-        "Sebo"
+        "Intrépido"
       ],
       "learnset": [
         {
-          "lvl": 1,
-          "m": "Terratemblor"
+          "lvl": -1,
+          "m": "Voz Cautivadora"
         },
         {
           "lvl": 1,
-          "m": "Canon"
+          "m": "Espacio Raro"
         },
         {
           "lvl": 1,
-          "m": "Pistola Agua"
+          "m": "Ácido"
         },
         {
           "lvl": 1,
-          "m": "Disparo Lodo"
+          "m": "Triple Patada"
         },
         {
           "lvl": 1,
-          "m": "Confusión"
+          "m": "Viento Feérico"
+        },
+        {
+          "lvl": 1,
+          "m": "Viento Aciago"
         },
         {
           "lvl": 12,
-          "m": "Rayo Burbuja"
+          "m": "Luminicola"
         },
         {
-          "lvl": 13,
-          "m": "Agarre"
+          "lvl": 18,
+          "m": "Polvo Explosivo"
         },
         {
-          "lvl": 16,
-          "m": "Psicocorte"
-        },
-        {
-          "lvl": 20,
-          "m": "Arenas Ardientes"
-        },
-        {
-          "lvl": 23,
-          "m": "Viento Hielo"
+          "lvl": 22,
+          "m": "Señuelo"
         },
         {
           "lvl": 24,
-          "m": "Ascuas"
+          "m": "Bomba Ácida"
         },
         {
-          "lvl": 31,
-          "m": "Deslome"
+          "lvl": 26,
+          "m": "Patada Tropical"
         },
         {
-          "lvl": 36,
-          "m": "Hilo Venenoso"
+          "lvl": 26,
+          "m": "Giro Vil"
         },
         {
-          "lvl": 37,
-          "m": "Nitrochoque"
+          "lvl": 26,
+          "m": "Vasta Guardia"
         },
         {
-          "lvl": 42,
-          "m": "Aura Magnética"
+          "lvl": 34,
+          "m": "Espora"
         },
         {
-          "lvl": 48,
-          "m": "Ala Mortífera"
+          "lvl": 40,
+          "m": "Afilagarras"
         },
         {
-          "lvl": 53,
-          "m": "Fotocolisión"
+          "lvl": 40,
+          "m": "Ala Aural"
+        },
+        {
+          "lvl": 46,
+          "m": "Núcleo Castigo"
         },
         {
           "lvl": 54,
-          "m": "Despejar"
+          "m": "Zona Extraña"
         },
         {
-          "lvl": 59,
-          "m": "Autodestrucción"
+          "lvl": 54,
+          "m": "Pikatormenta"
         },
         {
           "lvl": 60,
-          "m": "Fertilizante"
+          "m": "Espejo"
+        },
+        {
+          "lvl": 60,
+          "m": "Viento Plata"
+        },
+        {
+          "lvl": 65,
+          "m": "Clorofiláser"
         }
       ],
-      "tmMoves": [
-        "Amnesia",
-        "Bomba Ígnea",
-        "Cabeza Sorpresa",
-        "Campo de Hierba",
-        "Conversión",
-        "Danza Acuática",
-        "Desarme",
-        "Fotosíntesis",
-        "Garra Dragón",
-        "Golpe Umbrío",
-        "Hueso Sombrío",
-        "Isoguardia",
-        "Láser Doble",
-        "Maquinación",
-        "Mil Temblores",
-        "Mismo Destino",
-        "Moluscañón",
-        "Niebla Aromática",
-        "Nitrocarga",
-        "Picotazo Veneno",
-        "Puño Cometa",
-        "Puño Incremento",
-        "Puya Nociva",
-        "Sol Matinal",
-        "Tinieblas",
-        "Trampa Venenosa"
-      ],
       "firstMoves": [
-        "Arenas Ardientes",
-        "Viento Hielo",
-        "Ascuas",
-        "Deslome"
+        "Espora",
+        "Afilagarras",
+        "Ala Aural",
+        "Núcleo Castigo"
       ],
-      "spriteKey": "MAROWAK"
+      "spriteKey": "MEGANIUM"
     },
     {
       "nickname": "FUERZA G",
@@ -12744,15 +12723,15 @@
       "mon": "Venusaur"
     },
     {
-      "route": "ruta_8",
-      "where": "Ruta 8",
-      "species": "Marowak",
-      "nickname": "BONES",
+      "route": "",
+      "where": "Laboratorio Canela",
+      "species": "Meganium",
+      "nickname": "",
       "shiny": false,
       "status": "captured",
-      "category": "salvaje",
-      "level": 34,
-      "mon": "Marowak"
+      "category": "intercambio",
+      "level": 50,
+      "mon": "Meganium"
     },
     {
       "route": "torre_pokemon",
@@ -13145,7 +13124,6 @@
       "ciudad_carmin": true,
       "ruta_15": true,
       "ruta_6": true,
-      "ruta_8": true,
       "torre_pokemon": true,
       "ruta_4": true,
       "ruta_7": true,
@@ -13160,6 +13138,7 @@
       "bosque_verde": true,
       "ruta_1": true,
       "ruta_9": true,
+      "ruta_8": true,
       "ruta_16": true
     },
     "items": {},
