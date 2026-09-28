@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 3h 33m jugadas · 324,810₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 3h 37m jugadas · 324,810₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "FOXCONN",
@@ -560,29 +560,30 @@
       "spriteKey": "SUDOWOODO"
     },
     {
-      "nickname": "XD",
-      "species": "Polteageist",
-      "level": 1,
+      "nickname": "Greninja",
+      "species": "Greninja",
+      "level": 59,
       "types": [
-        "Fantasma"
+        "Agua",
+        "Siniestro"
       ],
-      "ability": "Efecto Espora",
-      "nature": "Cauta",
+      "ability": "Sal Purificadora",
+      "nature": "Amable",
       "item": "",
       "shiny": false,
       "moves": [
-        "Puño Furia",
-        "Golpe Bajo",
-        "Rabia",
-        "Eco Voz"
+        "Tajo Acuático",
+        "Chapoteo Lodo",
+        "Cambiavelocidad",
+        "Tinieblas"
       ],
-      "origin": "fossil",
+      "origin": "magnemite",
       "iv": [
-        9,
-        21,
+        30,
+        26,
         2,
-        8,
-        20,
+        26,
+        4,
         2
       ],
       "ev": [
@@ -594,97 +595,139 @@
         0
       ],
       "abilPool": [
-        "Efecto Espora"
+        "Sal Purificadora"
       ],
       "abilHidden": [
-        "Pompa"
+        "Simple"
       ],
       "learnset": [
         {
           "lvl": -1,
-          "m": "Ciclón de Hojas"
+          "m": "Brazo Pincho"
         },
         {
           "lvl": 1,
-          "m": "Torbellino"
+          "m": "Ofrenda"
         },
         {
           "lvl": 1,
-          "m": "Bomba Ácida"
+          "m": "Fertilizante"
         },
         {
           "lvl": 1,
-          "m": "Llave Corsé"
+          "m": "Furia Natural"
         },
         {
           "lvl": 1,
-          "m": "Camuflaje"
+          "m": "Cura Selvática"
         },
         {
           "lvl": 1,
-          "m": "Puño Furia"
+          "m": "Esfuerzo"
         },
         {
           "lvl": 1,
-          "m": "Golpe Bajo"
+          "m": "Tajo Acuático"
         },
         {
           "lvl": 1,
-          "m": "Rabia"
+          "m": "Chapoteo Lodo"
         },
         {
           "lvl": 1,
-          "m": "Eco Voz"
+          "m": "Cambiavelocidad"
         },
         {
-          "lvl": 18,
+          "lvl": 5,
           "m": "Tinieblas"
         },
         {
-          "lvl": 24,
-          "m": "Golpe Rastrero"
+          "lvl": 10,
+          "m": "Foco Energía"
         },
         {
-          "lvl": 30,
-          "m": "Alto Voltaje"
+          "lvl": 14,
+          "m": "Acua Aro"
         },
         {
-          "lvl": 30,
-          "m": "Prensa Metálica"
+          "lvl": 19,
+          "m": "Amago"
         },
         {
-          "lvl": 36,
-          "m": "Cascada"
+          "lvl": 23,
+          "m": "Brecha Negra"
+        },
+        {
+          "lvl": 28,
+          "m": "Puño Mareo"
+        },
+        {
+          "lvl": 33,
+          "m": "Salazón"
+        },
+        {
+          "lvl": 33,
+          "m": "Cuerpo Pesado"
         },
         {
           "lvl": 42,
-          "m": "Garra Nociva"
+          "m": "Dragoaliento"
         },
         {
-          "lvl": 48,
-          "m": "Voltiocambio"
+          "lvl": 49,
+          "m": "Hidrocañón"
         },
         {
-          "lvl": 54,
-          "m": "Ataque Aéreo"
+          "lvl": 56,
+          "m": "Robo"
         },
         {
-          "lvl": 60,
-          "m": "Desquite"
-        },
-        {
-          "lvl": 66,
-          "m": "Azote"
+          "lvl": 68,
+          "m": "Escaldar"
         }
       ],
-      "firstMoves": [
-        "Puño Furia",
-        "Golpe Bajo",
-        "Rabia",
-        "Eco Voz"
+      "tmMoves": [
+        "Absorber",
+        "Campo de Hierba",
+        "Chorro de Vapor",
+        "Ciclón",
+        "Confusión",
+        "Copión",
+        "Danza Acuática",
+        "Decoración",
+        "Desarme",
+        "Doble Golpe",
+        "Eco Metálico",
+        "Embate Supremo",
+        "Espora",
+        "Esquirla Helada",
+        "Flarembestida",
+        "Golpe Oscuro",
+        "Golpe Roca",
+        "Golpe Umbrío",
+        "Lanzarrocas",
+        "Láser Doble",
+        "Maquinación",
+        "Mil Temblores",
+        "Mirada Heladora",
+        "Moluscañón",
+        "Nitrochoque",
+        "Pin Misil",
+        "Pirueta Helada",
+        "Placaje",
+        "Plancha Corporal",
+        "Planta Feroz",
+        "Psicocolmillo",
+        "Puño Drenaje",
+        "Rizo Defensa",
+        "Tajo Metralla",
+        "Tajo Umbrío",
+        "Último Lugar",
+        "Umbreozona",
+        "Vendaval",
+        "Voto Agua"
       ],
-      "spriteKey": "POLTEAGEIST",
-      "dup": true
+      "spriteKey": "GRENINJA"
     },
     {
       "nickname": "Incineroar",
@@ -992,6 +1035,48 @@
           "lvl": 60,
           "m": "Palmeo"
         }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Absorber",
+        "Alud",
+        "Antojo",
+        "Asta Drenaje",
+        "Cadena Virulenta",
+        "Campo de Hierba",
+        "Carámbano",
+        "Choque Anímico",
+        "Chorro de Vapor",
+        "Confusión",
+        "Danza Acuática",
+        "Decoración",
+        "Doble Golpe",
+        "Eco Metálico",
+        "Electropico",
+        "Espeaura",
+        "Espora",
+        "Estruendo Escama",
+        "Finta",
+        "Flarembestida",
+        "Golpe Oscuro",
+        "Hueso Sombrío",
+        "Lanzarrocas",
+        "Malicioso",
+        "Maquinación",
+        "Moluscañón",
+        "Nitrocarga",
+        "Nitrochoque",
+        "Núcleo Castigo",
+        "Picotazo",
+        "Placaje",
+        "Psicocarga",
+        "Psicocolmillo",
+        "Pulso Cura",
+        "Relevo",
+        "Rodillo de Púas",
+        "Sonámbulo",
+        "Taladradora",
+        "Último Lugar"
       ],
       "spriteKey": "CARBINK"
     }
@@ -12719,15 +12804,15 @@
       "mon": "Sudowoodo"
     },
     {
-      "route": "",
-      "where": "Laboratorio Canela",
-      "species": "Polteageist",
-      "nickname": "XD",
+      "route": "ciudad_plateada",
+      "where": "Ciudad Plateada",
+      "species": "Greninja",
+      "nickname": "",
       "shiny": false,
       "status": "captured",
-      "category": "estatico_regalo",
-      "level": 1,
-      "mon": "Polteageist"
+      "category": "ciudad",
+      "level": 5,
+      "mon": "Greninja"
     },
     {
       "route": "ciudad_plateada",
@@ -14592,7 +14677,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 529,
+        "qty": 475,
         "pocket": "Medicinas"
       },
       {
