@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 7,
   "champion": false,
-  "notes": "Importado del save · 3h 10m jugadas · 295,110₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 3h 11m jugadas · 295,110₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -12793,7 +12793,8 @@
       "bosque_verde": true,
       "ruta_1": true,
       "ruta_9": true,
-      "ruta_16": true
+      "ruta_16": true,
+      "islas_espuma": true
     },
     "items": {},
     "encounters": {
@@ -13249,7 +13250,7 @@
       {
         "id": "OLDAMBER",
         "name": "Ámbar Viejo",
-        "qty": 2,
+        "qty": 3,
         "pocket": "Objetos"
       },
       {
@@ -13945,6 +13946,12 @@
       {
         "id": "SUPERCAPSULE",
         "name": "Supercápsula",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "FRESHWATER",
+        "name": "Agua Fresca",
         "qty": 1,
         "pocket": "Medicinas"
       },
@@ -14701,7 +14708,7 @@
       {
         "id": "AGUAVBERRY",
         "name": "Baya Guaya",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Bayas"
       },
       {
@@ -14713,13 +14720,13 @@
       {
         "id": "POMEGBERRY",
         "name": "Baya Grana",
-        "qty": 1,
+        "qty": 999,
         "pocket": "Bayas"
       },
       {
         "id": "POMEGBERRY",
         "name": "Baya Grana",
-        "qty": 999,
+        "qty": 1,
         "pocket": "Bayas"
       },
       {
