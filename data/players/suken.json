@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 3h 32m jugadas · 324,810₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 3h 33m jugadas · 324,810₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "FOXCONN",
@@ -687,30 +687,31 @@
       "dup": true
     },
     {
-      "nickname": "XD",
-      "species": "Polteageist",
-      "level": 1,
+      "nickname": "Incineroar",
+      "species": "Incineroar",
+      "level": 5,
       "types": [
-        "Fantasma"
+        "Fuego",
+        "Siniestro"
       ],
-      "ability": "Efecto Espora",
-      "nature": "Activa",
+      "ability": "Rumia",
+      "nature": "Miedosa",
       "item": "",
       "shiny": false,
       "moves": [
-        "Puño Furia",
-        "Golpe Bajo",
-        "Rabia",
-        "Eco Voz"
+        "Gas Corrosivo",
+        "Ronquido",
+        "Semilladora",
+        "Conjuro"
       ],
-      "origin": "fossil",
+      "origin": "magnemite",
       "iv": [
-        17,
+        23,
+        27,
+        3,
+        26,
         4,
-        22,
-        20,
-        28,
-        9
+        11
       ],
       "ev": [
         0,
@@ -721,97 +722,153 @@
         0
       ],
       "abilPool": [
-        "Efecto Espora"
+        "Rumia"
       ],
       "abilHidden": [
-        "Pompa"
+        "Quitanieves"
       ],
       "learnset": [
         {
           "lvl": -1,
-          "m": "Ciclón de Hojas"
+          "m": "Relámpago Súbito"
+        },
+        {
+          "lvl": -1,
+          "m": "Paliza"
+        },
+        {
+          "lvl": -1,
+          "m": "Cepo"
         },
         {
           "lvl": 1,
-          "m": "Torbellino"
+          "m": "Calcinación"
         },
         {
           "lvl": 1,
-          "m": "Bomba Ácida"
+          "m": "Defensa Floral"
         },
         {
           "lvl": 1,
-          "m": "Llave Corsé"
+          "m": "Gas Corrosivo"
         },
         {
           "lvl": 1,
-          "m": "Camuflaje"
+          "m": "Ronquido"
         },
         {
           "lvl": 1,
-          "m": "Puño Furia"
+          "m": "Semilladora"
         },
         {
           "lvl": 1,
-          "m": "Golpe Bajo"
+          "m": "Conjuro"
         },
         {
-          "lvl": 1,
-          "m": "Rabia"
+          "lvl": 9,
+          "m": "Gota Vital"
         },
         {
-          "lvl": 1,
-          "m": "Eco Voz"
+          "lvl": 11,
+          "m": "Velo Aurora"
         },
         {
-          "lvl": 18,
-          "m": "Tinieblas"
+          "lvl": 12,
+          "m": "Rizo Algodón"
         },
         {
-          "lvl": 24,
-          "m": "Golpe Rastrero"
+          "lvl": 15,
+          "m": "Truco"
+        },
+        {
+          "lvl": 20,
+          "m": "Empapar"
+        },
+        {
+          "lvl": 25,
+          "m": "Tajo Umbrío"
         },
         {
           "lvl": 30,
-          "m": "Alto Voltaje"
+          "m": "Alud"
         },
         {
-          "lvl": 30,
-          "m": "Prensa Metálica"
+          "lvl": 32,
+          "m": "Cañón Batidor"
         },
         {
           "lvl": 36,
-          "m": "Cascada"
+          "m": "Encanto"
         },
         {
-          "lvl": 42,
-          "m": "Garra Nociva"
+          "lvl": 38,
+          "m": "Persecución"
         },
         {
-          "lvl": 48,
-          "m": "Voltiocambio"
+          "lvl": 40,
+          "m": "As Oculto"
         },
         {
-          "lvl": 54,
-          "m": "Ataque Aéreo"
+          "lvl": 44,
+          "m": "Paranormal"
+        },
+        {
+          "lvl": 51,
+          "m": "Legado"
+        },
+        {
+          "lvl": 58,
+          "m": "Espejo"
         },
         {
           "lvl": 60,
-          "m": "Desquite"
-        },
-        {
-          "lvl": 66,
-          "m": "Azote"
+          "m": "Puño Furia"
         }
       ],
-      "firstMoves": [
-        "Puño Furia",
-        "Golpe Bajo",
-        "Rabia",
-        "Eco Voz"
+      "tmMoves": [
+        "Absorbefuerza",
+        "Alud",
+        "Anclaje",
+        "Asta Drenaje",
+        "Atadura",
+        "Bomba Ígnea",
+        "Campo de Hierba",
+        "Choque Anímico",
+        "Chorro de Vapor",
+        "Ciclón",
+        "Confusión",
+        "Conversión",
+        "Copión",
+        "Danza Caos",
+        "Decoración",
+        "Deslome",
+        "Eco Metálico",
+        "Electropico",
+        "Esquirla Helada",
+        "Estruendo Escama",
+        "Fotosíntesis",
+        "Glaceoprisma",
+        "Golpe Roca",
+        "Isoguardia",
+        "Lanzarrocas",
+        "Láser Prisma",
+        "Lengüetazo",
+        "Marcha Espectral",
+        "Megapuño",
+        "Mil Temblores",
+        "Moluscañón",
+        "Nitrocarga",
+        "Pin Misil",
+        "Pirueta Helada",
+        "Plancha",
+        "Puya Nociva",
+        "Relajo",
+        "Retracción",
+        "Tajo Metralla",
+        "Tinieblas",
+        "Última Palabra"
       ],
-      "spriteKey": "POLTEAGEIST",
-      "dup": true
+      "spriteKey": "INCINEROAR"
     },
     {
       "nickname": "XD",
@@ -12675,15 +12732,15 @@
       "mon": "Polteageist"
     },
     {
-      "route": "",
-      "where": "Laboratorio Canela",
-      "species": "Polteageist",
-      "nickname": "XD",
+      "route": "ciudad_plateada",
+      "where": "Ciudad Plateada",
+      "species": "Incineroar",
+      "nickname": "",
       "shiny": false,
       "status": "captured",
-      "category": "estatico_regalo",
-      "level": 1,
-      "mon": "Polteageist"
+      "category": "ciudad",
+      "level": 5,
+      "mon": "Incineroar"
     },
     {
       "route": "",
@@ -13514,13 +13571,13 @@
     "routes": {
       "pueblo_paleta": true,
       "ruta_2_norte": true,
+      "ciudad_plateada": true,
       "ciudad_azulona": true,
       "pueblo_lavanda": true,
       "tunel_roca": true,
       "ruta_10_norte": true,
       "ruta_3": true,
       "ciudad_celeste": true,
-      "ciudad_plateada": true,
       "pueblo_marengo": true,
       "ruta_11": true,
       "monte_moon_exterior": true,
