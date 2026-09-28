@@ -12976,6 +12976,7 @@
       "Baya Zidra",
       "Baya Ziuela",
       "Baya Zonlan",
+      "Baya Zreza",
       "Bici",
       "Blastoisita X",
       "Bono Bici",
@@ -14674,6 +14675,12 @@
         "name": "MT125",
         "qty": 1,
         "pocket": "MTs y MOs"
+      },
+      {
+        "id": "CHERIBERRY",
+        "name": "Baya Zreza",
+        "qty": 1,
+        "pocket": "Bayas"
       },
       {
         "id": "RAWSTBERRY",
