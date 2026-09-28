@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 6,
   "champion": false,
-  "notes": "Importado del save · 3h 1m jugadas · 277,130₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 3h 3m jugadas · 282,330₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -911,7 +911,7 @@
       "ev": [
         2,
         2,
-        2,
+        4,
         3,
         2,
         0
@@ -12783,6 +12783,7 @@
       "Anillo",
       "Antídoto",
       "Antiparalizador",
+      "Arena Fina",
       "At. Esp. X 3",
       "At. Esp. X 6",
       "At. Especial X",
@@ -13569,6 +13570,12 @@
       {
         "id": "POWERANKLET",
         "name": "Franja Recia",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "SOFTSAND",
+        "name": "Arena Fina",
         "qty": 1,
         "pocket": "Objetos"
       },
