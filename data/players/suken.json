@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 3h 57m jugadas · 329,490₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 3h 57m jugadas · 334,440₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -204,12 +204,12 @@
         3
       ],
       "ev": [
-        21,
+        24,
         83,
         39,
         62,
         25,
-        55
+        58
       ],
       "abilPool": [
         "Unidad Ecuestre"
@@ -586,12 +586,12 @@
         31
       ],
       "ev": [
-        5,
+        8,
         11,
         12,
         14,
         10,
-        11
+        14
       ],
       "abilPool": [
         "Respondón"
@@ -757,12 +757,12 @@
         24
       ],
       "ev": [
-        3,
+        6,
         8,
         5,
         9,
         8,
-        7
+        10
       ],
       "abilPool": [
         "Funda",
