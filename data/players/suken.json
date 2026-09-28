@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 3h 21m jugadas · 316,260₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 3h 24m jugadas · 316,260₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -176,183 +176,6 @@
         "Trampa Rocas"
       ],
       "spriteKey": "BLASTOISE"
-    },
-    {
-      "nickname": "AL",
-      "species": "Sudowoodo",
-      "level": 59,
-      "types": [
-        "Roca"
-      ],
-      "ability": "Trampa Arena",
-      "nature": "Firme",
-      "item": "Casco Dentado",
-      "shiny": false,
-      "moves": [
-        "Tajo Umbrío",
-        "Filo Potente",
-        "Barrera Espinosa",
-        "Carámbano"
-      ],
-      "iv": [
-        4,
-        2,
-        15,
-        31,
-        15,
-        26
-      ],
-      "ev": [
-        48,
-        155,
-        96,
-        80,
-        45,
-        86
-      ],
-      "abilPool": [
-        "Chorro Arena",
-        "Trampa Arena"
-      ],
-      "abilHidden": [
-        "Levitación"
-      ],
-      "learnset": [
-        {
-          "lvl": -1,
-          "m": "Alarido"
-        },
-        {
-          "lvl": 1,
-          "m": "Cascabel Cura"
-        },
-        {
-          "lvl": 1,
-          "m": "Pedrada"
-        },
-        {
-          "lvl": 1,
-          "m": "Tormenta Arena"
-        },
-        {
-          "lvl": 1,
-          "m": "Mismo Destino"
-        },
-        {
-          "lvl": 1,
-          "m": "Doble Patada"
-        },
-        {
-          "lvl": 1,
-          "m": "Agitacola"
-        },
-        {
-          "lvl": 1,
-          "m": "Eco Metálico"
-        },
-        {
-          "lvl": 1,
-          "m": "Trampa Rocas"
-        },
-        {
-          "lvl": 12,
-          "m": "Cura Selvática"
-        },
-        {
-          "lvl": 16,
-          "m": "Psicoonda"
-        },
-        {
-          "lvl": 19,
-          "m": "Bola Hielo"
-        },
-        {
-          "lvl": 20,
-          "m": "Polvo Explosivo"
-        },
-        {
-          "lvl": 24,
-          "m": "Confidencia"
-        },
-        {
-          "lvl": 28,
-          "m": "Remolino"
-        },
-        {
-          "lvl": 32,
-          "m": "Filo Potente"
-        },
-        {
-          "lvl": 36,
-          "m": "Resarcimiento"
-        },
-        {
-          "lvl": 40,
-          "m": "Vasta Guardia"
-        },
-        {
-          "lvl": 40,
-          "m": "Amnesia"
-        },
-        {
-          "lvl": 44,
-          "m": "Envite Acuático"
-        },
-        {
-          "lvl": 48,
-          "m": "Tajo Cruzado"
-        },
-        {
-          "lvl": 50,
-          "m": "Chupavidas"
-        }
-      ],
-      "tmMoves": [
-        "Absorber",
-        "Anclaje",
-        "Asta Drenaje",
-        "Atadura",
-        "Bomba Ígnea",
-        "Campo de Niebla",
-        "Carámbano",
-        "Ciclón",
-        "Confusión",
-        "Conversión",
-        "Decoración",
-        "Doble Golpe",
-        "Electropico",
-        "Estruendo Escama",
-        "Glaceoprisma",
-        "Lanzarrocas",
-        "Láser Doble",
-        "Malicioso",
-        "Megapuño",
-        "Mirada Heladora",
-        "Moluscañón",
-        "Patada Baja",
-        "Picotazo",
-        "Plancha",
-        "Plancha Corporal",
-        "Psicocolmillo",
-        "Pulso Cura",
-        "Pulso Primigenio",
-        "Puño Cometa",
-        "Puño Incremento",
-        "Represalia",
-        "Rizo Defensa",
-        "Tinieblas",
-        "Trampa Rocas",
-        "Trampa Venenosa",
-        "Último Lugar",
-        "Vendaval"
-      ],
-      "firstMoves": [
-        "Follaje",
-        "Barrera Espinosa",
-        "Mil Púas Tóxicas",
-        "Aguzar"
-      ],
-      "spriteKey": "SUDOWOODO"
     },
     {
       "nickname": "DREAMS",
@@ -562,8 +385,8 @@
         2,
         8,
         11,
+        9,
         8,
-        7,
         11
       ],
       "abilPool": [
@@ -733,8 +556,8 @@
         0,
         5,
         4,
-        3,
-        5,
+        4,
+        6,
         7
       ],
       "abilPool": [
@@ -887,8 +710,8 @@
         18,
         80,
         38,
-        56,
-        22,
+        57,
+        23,
         55
       ],
       "abilPool": [
@@ -1060,6 +883,183 @@
         "Deseo Cura"
       ],
       "spriteKey": "CLAYDOL"
+    },
+    {
+      "nickname": "AL",
+      "species": "Sudowoodo",
+      "level": 59,
+      "types": [
+        "Roca"
+      ],
+      "ability": "Trampa Arena",
+      "nature": "Firme",
+      "item": "Casco Dentado",
+      "shiny": false,
+      "moves": [
+        "Tajo Umbrío",
+        "Filo Potente",
+        "Barrera Espinosa",
+        "Carámbano"
+      ],
+      "iv": [
+        4,
+        2,
+        15,
+        31,
+        15,
+        26
+      ],
+      "ev": [
+        48,
+        155,
+        96,
+        80,
+        45,
+        86
+      ],
+      "abilPool": [
+        "Chorro Arena",
+        "Trampa Arena"
+      ],
+      "abilHidden": [
+        "Levitación"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Alarido"
+        },
+        {
+          "lvl": 1,
+          "m": "Cascabel Cura"
+        },
+        {
+          "lvl": 1,
+          "m": "Pedrada"
+        },
+        {
+          "lvl": 1,
+          "m": "Tormenta Arena"
+        },
+        {
+          "lvl": 1,
+          "m": "Mismo Destino"
+        },
+        {
+          "lvl": 1,
+          "m": "Doble Patada"
+        },
+        {
+          "lvl": 1,
+          "m": "Agitacola"
+        },
+        {
+          "lvl": 1,
+          "m": "Eco Metálico"
+        },
+        {
+          "lvl": 1,
+          "m": "Trampa Rocas"
+        },
+        {
+          "lvl": 12,
+          "m": "Cura Selvática"
+        },
+        {
+          "lvl": 16,
+          "m": "Psicoonda"
+        },
+        {
+          "lvl": 19,
+          "m": "Bola Hielo"
+        },
+        {
+          "lvl": 20,
+          "m": "Polvo Explosivo"
+        },
+        {
+          "lvl": 24,
+          "m": "Confidencia"
+        },
+        {
+          "lvl": 28,
+          "m": "Remolino"
+        },
+        {
+          "lvl": 32,
+          "m": "Filo Potente"
+        },
+        {
+          "lvl": 36,
+          "m": "Resarcimiento"
+        },
+        {
+          "lvl": 40,
+          "m": "Vasta Guardia"
+        },
+        {
+          "lvl": 40,
+          "m": "Amnesia"
+        },
+        {
+          "lvl": 44,
+          "m": "Envite Acuático"
+        },
+        {
+          "lvl": 48,
+          "m": "Tajo Cruzado"
+        },
+        {
+          "lvl": 50,
+          "m": "Chupavidas"
+        }
+      ],
+      "tmMoves": [
+        "Absorber",
+        "Anclaje",
+        "Asta Drenaje",
+        "Atadura",
+        "Bomba Ígnea",
+        "Campo de Niebla",
+        "Carámbano",
+        "Ciclón",
+        "Confusión",
+        "Conversión",
+        "Decoración",
+        "Doble Golpe",
+        "Electropico",
+        "Estruendo Escama",
+        "Glaceoprisma",
+        "Lanzarrocas",
+        "Láser Doble",
+        "Malicioso",
+        "Megapuño",
+        "Mirada Heladora",
+        "Moluscañón",
+        "Patada Baja",
+        "Picotazo",
+        "Plancha",
+        "Plancha Corporal",
+        "Psicocolmillo",
+        "Pulso Cura",
+        "Pulso Primigenio",
+        "Puño Cometa",
+        "Puño Incremento",
+        "Represalia",
+        "Rizo Defensa",
+        "Tinieblas",
+        "Trampa Rocas",
+        "Trampa Venenosa",
+        "Último Lugar",
+        "Vendaval"
+      ],
+      "firstMoves": [
+        "Follaje",
+        "Barrera Espinosa",
+        "Mil Púas Tóxicas",
+        "Aguzar"
+      ],
+      "spriteKey": "SUDOWOODO"
     }
   ],
   "box": [
@@ -4397,6 +4397,177 @@
         "Danza Triunfal"
       ],
       "spriteKey": "MIENSHAO"
+    },
+    {
+      "nickname": "VEIGAR",
+      "species": "Mismagius",
+      "level": 59,
+      "types": [
+        "Fantasma"
+      ],
+      "ability": "Potencia Bruta",
+      "nature": "Pícara",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Persecución",
+        "Pikaturbo",
+        "Frustración",
+        "Vapodrenaje"
+      ],
+      "origin": "primer_ruta",
+      "iv": [
+        27,
+        26,
+        24,
+        17,
+        14,
+        30
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Potencia Bruta"
+      ],
+      "abilHidden": [],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Furia Natural"
+        },
+        {
+          "lvl": 1,
+          "m": "Psicorrayo"
+        },
+        {
+          "lvl": 1,
+          "m": "Rayo Confuso"
+        },
+        {
+          "lvl": 1,
+          "m": "Aguijón Letal"
+        },
+        {
+          "lvl": 1,
+          "m": "Llave Giro"
+        },
+        {
+          "lvl": 1,
+          "m": "Danza Pluma"
+        },
+        {
+          "lvl": 1,
+          "m": "Hueso Palo"
+        },
+        {
+          "lvl": 1,
+          "m": "Chirrido"
+        },
+        {
+          "lvl": 1,
+          "m": "Niebla Clara"
+        },
+        {
+          "lvl": 1,
+          "m": "Poder Místico"
+        },
+        {
+          "lvl": 1,
+          "m": "Día de Pago"
+        },
+        {
+          "lvl": 1,
+          "m": "Aguante"
+        },
+        {
+          "lvl": 1,
+          "m": "Respiro"
+        },
+        {
+          "lvl": 1,
+          "m": "Danza Caos"
+        },
+        {
+          "lvl": 1,
+          "m": "Corte Furia"
+        },
+        {
+          "lvl": 1,
+          "m": "Prensa Metálica"
+        },
+        {
+          "lvl": 1,
+          "m": "Guardia Baja"
+        },
+        {
+          "lvl": 1,
+          "m": "Persecución"
+        },
+        {
+          "lvl": 1,
+          "m": "Pikaturbo"
+        },
+        {
+          "lvl": 50,
+          "m": "Frustración"
+        },
+        {
+          "lvl": 50,
+          "m": "Vapodrenaje"
+        }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Antojo",
+        "Cabeza Sorpresa",
+        "Cadena Virulenta",
+        "Carámbano",
+        "Confusión",
+        "Decoración",
+        "Deslome",
+        "Doble Golpe",
+        "Eco Metálico",
+        "Embate Supremo",
+        "Flarembestida",
+        "Fuerza Lunar",
+        "Golpe Umbrío",
+        "Hoja Aguda",
+        "Hueso Sombrío",
+        "Infortunio",
+        "Isoguardia",
+        "Lengüetazo",
+        "Marcha Espectral",
+        "Mil Temblores",
+        "Mismo Destino",
+        "Niebla Aromática",
+        "Nitrocarga",
+        "Patada Baja",
+        "Picotazo",
+        "Picotazo Veneno",
+        "Pin Misil",
+        "Pirueta Helada",
+        "Puya Nociva",
+        "Relevo",
+        "Retracción",
+        "Sol Matinal",
+        "Tinieblas",
+        "Último Lugar",
+        "Umbreozona",
+        "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Persecución",
+        "Pikaturbo",
+        "Frustración",
+        "Vapodrenaje"
+      ],
+      "spriteKey": "MISMAGIUS"
     },
     {
       "nickname": "KILLER POLLO",
@@ -12111,17 +12282,6 @@
       "mon": "Blastoise"
     },
     {
-      "route": "ruta_2_norte",
-      "where": "Ruta 2 Norte",
-      "species": "Sudowoodo",
-      "nickname": "AL",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 8,
-      "mon": "Sudowoodo"
-    },
-    {
       "route": "ruta_5",
       "where": "Ruta 5",
       "species": "Hypno",
@@ -12164,6 +12324,17 @@
       "category": "ciudad",
       "level": 3,
       "mon": "Claydol"
+    },
+    {
+      "route": "ruta_2_norte",
+      "where": "Ruta 2 Norte",
+      "species": "Sudowoodo",
+      "nickname": "AL",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 8,
+      "mon": "Sudowoodo"
     },
     {
       "route": "",
@@ -12417,6 +12588,17 @@
       "category": "salvaje",
       "level": 52,
       "mon": "Mienshao"
+    },
+    {
+      "route": "isla_canela",
+      "where": "Isla Canela",
+      "species": "Mismagius",
+      "nickname": "VEIGAR",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 53,
+      "mon": "Mismagius"
     },
     {
       "route": "ruta_20",
@@ -12938,10 +13120,10 @@
     "npcs": {},
     "routes": {
       "ruta_13": true,
-      "ruta_2_norte": true,
       "ruta_5": true,
       "ruta_14": true,
       "pueblo_paleta": true,
+      "ruta_2_norte": true,
       "ciudad_azulona": true,
       "pueblo_lavanda": true,
       "tunel_roca": true,
@@ -12954,6 +13136,7 @@
       "monte_moon_exterior": true,
       "ruta_18": true,
       "islas_espuma": true,
+      "isla_canela": true,
       "ruta_20": true,
       "ruta_22": true,
       "zona_safari": true,
@@ -12977,8 +13160,7 @@
       "bosque_verde": true,
       "ruta_1": true,
       "ruta_9": true,
-      "ruta_16": true,
-      "isla_canela": true
+      "ruta_16": true
     },
     "items": {},
     "encounters": {
@@ -13022,7 +13204,8 @@
       "tunel_diglett": true,
       "ciudad_azafran": true,
       "ruta_18": true,
-      "islas_espuma": true
+      "islas_espuma": true,
+      "isla_canela": true
     },
     "switches": [
       48,
@@ -13958,7 +14141,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 535,
+        "qty": 529,
         "pocket": "Medicinas"
       },
       {
@@ -14198,7 +14381,7 @@
       {
         "id": "ULTRABALL",
         "name": "Ultra Ball",
-        "qty": 17,
+        "qty": 12,
         "pocket": "Poké Balls"
       },
       {
