@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 7,
   "champion": false,
-  "notes": "Importado del save · 3h 7m jugadas · 290,430₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 3h 9m jugadas · 290,430₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -12645,7 +12645,8 @@
       "bosque_verde": true,
       "ruta_1": true,
       "ruta_9": true,
-      "ruta_16": true
+      "ruta_16": true,
+      "ruta_18": true
     },
     "items": {},
     "encounters": {
@@ -12792,6 +12793,7 @@
       "Álbum de Fotos",
       "Ámbar Viejo",
       "Amigo Ball",
+      "Amuleto",
       "Amuleto Puro",
       "Ánfora",
       "Anillo",
@@ -13060,6 +13062,7 @@
       "Scizorita",
       "Semilla Hierba",
       "Servicio Raro",
+      "Slowbronita",
       "Supercaña",
       "Supercápsula",
       "Supereviolita",
@@ -13081,6 +13084,7 @@
       "Trufa",
       "Tubérculo",
       "Turno Ball",
+      "Velocidad X 2",
       "Veloz Ball",
       "Vial",
       "Vidasfera",
@@ -13606,6 +13610,12 @@
       {
         "id": "YELLOWSHARD",
         "name": "Parte Amarilla",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "CLEANSETAG",
+        "name": "Amuleto",
         "qty": 1,
         "pocket": "Objetos"
       },
@@ -14714,6 +14724,12 @@
         "pocket": "Piedras Mega"
       },
       {
+        "id": "SLOWBRONITE",
+        "name": "Slowbronita",
+        "qty": 1,
+        "pocket": "Piedras Mega"
+      },
+      {
         "id": "RESETURGE",
         "name": "Quitaestado",
         "qty": 1,
@@ -14806,6 +14822,12 @@
       {
         "id": "ITEMDROP",
         "name": "Tiraobjeto",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
+        "id": "XSPEED2",
+        "name": "Velocidad X 2",
         "qty": 1,
         "pocket": "Objetos de combate"
       },
