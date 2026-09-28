@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 3h 14m jugadas · 300,510₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 3h 16m jugadas · 300,510₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -856,6 +856,210 @@
         "Plegaria Lunar"
       ],
       "spriteKey": "BELLIBOLT"
+    },
+    {
+      "nickname": "MONARCA",
+      "species": "Claydol",
+      "level": 49,
+      "types": [
+        "Tierra",
+        "Psíquico"
+      ],
+      "ability": "Unidad Ecuestre",
+      "nature": "Ingenua",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Espora",
+        "Cadena Virulenta",
+        "Absorbefuerza",
+        "Mil Temblores"
+      ],
+      "iv": [
+        29,
+        15,
+        9,
+        28,
+        9,
+        3
+      ],
+      "ev": [
+        18,
+        77,
+        36,
+        56,
+        19,
+        50
+      ],
+      "abilPool": [
+        "Unidad Ecuestre"
+      ],
+      "abilHidden": [],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Bomba Imán"
+        },
+        {
+          "lvl": 1,
+          "m": "Espora"
+        },
+        {
+          "lvl": 1,
+          "m": "Doble Ataque"
+        },
+        {
+          "lvl": 1,
+          "m": "Púas"
+        },
+        {
+          "lvl": 1,
+          "m": "Cambiadefensa"
+        },
+        {
+          "lvl": 1,
+          "m": "Encanto"
+        },
+        {
+          "lvl": 1,
+          "m": "Deseo Cura"
+        },
+        {
+          "lvl": 9,
+          "m": "Tormento"
+        },
+        {
+          "lvl": 12,
+          "m": "Descanso"
+        },
+        {
+          "lvl": 15,
+          "m": "Bombardeo"
+        },
+        {
+          "lvl": 18,
+          "m": "Empapar"
+        },
+        {
+          "lvl": 21,
+          "m": "Moflete Estático"
+        },
+        {
+          "lvl": 24,
+          "m": "Disparo Lodo"
+        },
+        {
+          "lvl": 27,
+          "m": "Mandato"
+        },
+        {
+          "lvl": 30,
+          "m": "Plegaria Lunar"
+        },
+        {
+          "lvl": 33,
+          "m": "Rayo Gélido"
+        },
+        {
+          "lvl": 36,
+          "m": "Psicorruido"
+        },
+        {
+          "lvl": 38,
+          "m": "Salmuera"
+        },
+        {
+          "lvl": 38,
+          "m": "Kinético"
+        },
+        {
+          "lvl": 38,
+          "m": "Anticura"
+        },
+        {
+          "lvl": 42,
+          "m": "Golpe Bis"
+        },
+        {
+          "lvl": 43,
+          "m": "Danza Lluvia"
+        },
+        {
+          "lvl": 45,
+          "m": "Calamidad"
+        },
+        {
+          "lvl": 48,
+          "m": "Rodillo de Púas"
+        },
+        {
+          "lvl": 54,
+          "m": "Umbreozona"
+        }
+      ],
+      "tmMoves": [
+        "Absorbefuerza",
+        "Amnesia",
+        "Anclaje",
+        "Antojo",
+        "Asta Drenaje",
+        "Atadura",
+        "Bomba Ígnea",
+        "Cadena Virulenta",
+        "Chorro de Vapor",
+        "Copión",
+        "Desarme",
+        "Destello",
+        "Doble Golpe",
+        "Embate Supremo",
+        "Espeaura",
+        "Esquirla Helada",
+        "Finta",
+        "Fotosíntesis",
+        "Fuerza Lunar",
+        "Glaceoprisma",
+        "Golpe Oscuro",
+        "Golpe Umbrío",
+        "Gran Ojo",
+        "Hoja Aguda",
+        "Infortunio",
+        "Isoguardia",
+        "Lanzarrocas",
+        "Láser Doble",
+        "Láser Prisma",
+        "Llama Protectora",
+        "Maquinación",
+        "Marcha Espectral",
+        "Mil Temblores",
+        "Mirada Heladora",
+        "Mismo Destino",
+        "Núcleo Castigo",
+        "Patada Baja",
+        "Picotazo",
+        "Picotazo Veneno",
+        "Pin Misil",
+        "Placaje",
+        "Plancha",
+        "Plancha Corporal",
+        "Psicocolmillo",
+        "Pulso Cura",
+        "Puño Cometa",
+        "Puño Drenaje",
+        "Relevo",
+        "Retracción",
+        "Sol Matinal",
+        "Trampa Rocas",
+        "Transformación",
+        "Última Palabra",
+        "Umbreozona"
+      ],
+      "firstMoves": [
+        "Cabeza Sorpresa",
+        "Cambiadefensa",
+        "Encanto",
+        "Deseo Cura"
+      ],
+      "spriteKey": "CLAYDOL"
     }
   ],
   "box": [
@@ -4395,198 +4599,6 @@
       "spriteKey": "BLAZIKEN"
     },
     {
-      "nickname": "LUIGI",
-      "species": "Breloom",
-      "level": 49,
-      "types": [
-        "Planta",
-        "Lucha"
-      ],
-      "ability": "Recogebolas",
-      "nature": "Mansa",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Espora",
-        "Hoja Aguda",
-        "Nitrochoque",
-        "Enrosque"
-      ],
-      "origin": "primer_ruta",
-      "iv": [
-        14,
-        10,
-        11,
-        16,
-        28,
-        20
-      ],
-      "ev": [
-        0,
-        1,
-        1,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Huida",
-        "Recogebolas"
-      ],
-      "abilHidden": [
-        "Sebo"
-      ],
-      "learnset": [
-        {
-          "lvl": -1,
-          "m": "Electrotela"
-        },
-        {
-          "lvl": -1,
-          "m": "Sorpresa"
-        },
-        {
-          "lvl": 1,
-          "m": "Golpe Roca"
-        },
-        {
-          "lvl": 1,
-          "m": "Golpe Kárate"
-        },
-        {
-          "lvl": 1,
-          "m": "Megaagotar"
-        },
-        {
-          "lvl": 1,
-          "m": "Patada Tropical"
-        },
-        {
-          "lvl": 1,
-          "m": "Obstrucción"
-        },
-        {
-          "lvl": 1,
-          "m": "Arenas Ardientes"
-        },
-        {
-          "lvl": 1,
-          "m": "Patada Baja"
-        },
-        {
-          "lvl": 1,
-          "m": "Onda Vacío"
-        },
-        {
-          "lvl": 12,
-          "m": "Enrosque"
-        },
-        {
-          "lvl": 15,
-          "m": "Doble Ataque"
-        },
-        {
-          "lvl": 19,
-          "m": "Tormento"
-        },
-        {
-          "lvl": 22,
-          "m": "Supersónico"
-        },
-        {
-          "lvl": 28,
-          "m": "Día Soleado"
-        },
-        {
-          "lvl": 33,
-          "m": "Antojo"
-        },
-        {
-          "lvl": 33,
-          "m": "Voto Planta"
-        },
-        {
-          "lvl": 33,
-          "m": "Llamarada"
-        },
-        {
-          "lvl": 39,
-          "m": "Electropalmas"
-        },
-        {
-          "lvl": 39,
-          "m": "Geocontrol"
-        },
-        {
-          "lvl": 44,
-          "m": "Polvo Mágico"
-        },
-        {
-          "lvl": 50,
-          "m": "Ácido Málico"
-        },
-        {
-          "lvl": 55,
-          "m": "Última Palabra"
-        }
-      ],
-      "tmMoves": [
-        "A Defender",
-        "Absorbefuerza",
-        "Absorber",
-        "Amnesia",
-        "Antojo",
-        "Asta Drenaje",
-        "Atadura",
-        "Bomba Ígnea",
-        "Chorro de Vapor",
-        "Decoración",
-        "Deslome",
-        "Espabila",
-        "Espora",
-        "Esquirla Helada",
-        "Fotosíntesis",
-        "Fuerza Lunar",
-        "Garra Dragón",
-        "Golpe Roca",
-        "Hachazo Pétreo",
-        "Hoja Aguda",
-        "Hueso Sombrío",
-        "Lanzarrocas",
-        "Láser Prisma",
-        "Lengüetazo",
-        "Malicioso",
-        "Maquinación",
-        "Marcha Espectral",
-        "Mismo Destino",
-        "Moluscañón",
-        "Niebla Aromática",
-        "Nitrochoque",
-        "Núcleo Castigo",
-        "Patada Baja",
-        "Picotazo Veneno",
-        "Pirueta Helada",
-        "Plancha Corporal",
-        "Psicocarga",
-        "Puño Cometa",
-        "Puño Drenaje",
-        "Puño Incremento",
-        "Puntapié",
-        "Relevo",
-        "Rodillo de Púas",
-        "Sol Matinal",
-        "Tinieblas",
-        "Trampa Venenosa"
-      ],
-      "firstMoves": [
-        "Día Soleado",
-        "Antojo",
-        "Voto Planta",
-        "Llamarada"
-      ],
-      "spriteKey": "BRELOOM"
-    },
-    {
       "nickname": "CHESPIRITOMB",
       "species": "Spiritomb",
       "level": 49,
@@ -7416,208 +7428,196 @@
       "spriteKey": "TALONFLAME"
     },
     {
-      "nickname": "MONARCA",
-      "species": "Claydol",
+      "nickname": "LUIGI",
+      "species": "Breloom",
       "level": 49,
       "types": [
-        "Tierra",
-        "Psíquico"
+        "Planta",
+        "Lucha"
       ],
-      "ability": "Unidad Ecuestre",
-      "nature": "Ingenua",
+      "ability": "Recogebolas",
+      "nature": "Mansa",
       "item": "",
       "shiny": false,
       "moves": [
         "Espora",
-        "Cadena Virulenta",
-        "Absorbefuerza",
-        "Mil Temblores"
+        "Hoja Aguda",
+        "Nitrochoque",
+        "Enrosque"
       ],
+      "origin": "primer_ruta",
       "iv": [
-        29,
-        15,
-        9,
+        14,
+        10,
+        11,
+        16,
         28,
-        9,
-        3
+        20
       ],
       "ev": [
-        18,
-        77,
-        36,
-        56,
-        19,
-        50
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
       ],
       "abilPool": [
-        "Unidad Ecuestre"
+        "Huida",
+        "Recogebolas"
       ],
-      "abilHidden": [],
+      "abilHidden": [
+        "Sebo"
+      ],
       "learnset": [
         {
-          "lvl": 1,
-          "m": "Bomba Imán"
+          "lvl": -1,
+          "m": "Electrotela"
+        },
+        {
+          "lvl": -1,
+          "m": "Sorpresa"
         },
         {
           "lvl": 1,
-          "m": "Espora"
+          "m": "Golpe Roca"
         },
         {
           "lvl": 1,
-          "m": "Doble Ataque"
+          "m": "Golpe Kárate"
         },
         {
           "lvl": 1,
-          "m": "Púas"
+          "m": "Megaagotar"
         },
         {
           "lvl": 1,
-          "m": "Cambiadefensa"
+          "m": "Patada Tropical"
         },
         {
           "lvl": 1,
-          "m": "Encanto"
+          "m": "Obstrucción"
         },
         {
           "lvl": 1,
-          "m": "Deseo Cura"
+          "m": "Arenas Ardientes"
         },
         {
-          "lvl": 9,
-          "m": "Tormento"
+          "lvl": 1,
+          "m": "Patada Baja"
+        },
+        {
+          "lvl": 1,
+          "m": "Onda Vacío"
         },
         {
           "lvl": 12,
-          "m": "Descanso"
+          "m": "Enrosque"
         },
         {
           "lvl": 15,
-          "m": "Bombardeo"
+          "m": "Doble Ataque"
         },
         {
-          "lvl": 18,
-          "m": "Empapar"
+          "lvl": 19,
+          "m": "Tormento"
         },
         {
-          "lvl": 21,
-          "m": "Moflete Estático"
+          "lvl": 22,
+          "m": "Supersónico"
         },
         {
-          "lvl": 24,
-          "m": "Disparo Lodo"
-        },
-        {
-          "lvl": 27,
-          "m": "Mandato"
-        },
-        {
-          "lvl": 30,
-          "m": "Plegaria Lunar"
+          "lvl": 28,
+          "m": "Día Soleado"
         },
         {
           "lvl": 33,
-          "m": "Rayo Gélido"
+          "m": "Antojo"
         },
         {
-          "lvl": 36,
-          "m": "Psicorruido"
+          "lvl": 33,
+          "m": "Voto Planta"
         },
         {
-          "lvl": 38,
-          "m": "Salmuera"
+          "lvl": 33,
+          "m": "Llamarada"
         },
         {
-          "lvl": 38,
-          "m": "Kinético"
+          "lvl": 39,
+          "m": "Electropalmas"
         },
         {
-          "lvl": 38,
-          "m": "Anticura"
+          "lvl": 39,
+          "m": "Geocontrol"
         },
         {
-          "lvl": 42,
-          "m": "Golpe Bis"
+          "lvl": 44,
+          "m": "Polvo Mágico"
         },
         {
-          "lvl": 43,
-          "m": "Danza Lluvia"
+          "lvl": 50,
+          "m": "Ácido Málico"
         },
         {
-          "lvl": 45,
-          "m": "Calamidad"
-        },
-        {
-          "lvl": 48,
-          "m": "Rodillo de Púas"
-        },
-        {
-          "lvl": 54,
-          "m": "Umbreozona"
+          "lvl": 55,
+          "m": "Última Palabra"
         }
       ],
       "tmMoves": [
+        "A Defender",
         "Absorbefuerza",
+        "Absorber",
         "Amnesia",
-        "Anclaje",
         "Antojo",
         "Asta Drenaje",
         "Atadura",
         "Bomba Ígnea",
-        "Cadena Virulenta",
         "Chorro de Vapor",
-        "Copión",
-        "Desarme",
-        "Destello",
-        "Doble Golpe",
-        "Embate Supremo",
-        "Espeaura",
+        "Decoración",
+        "Deslome",
+        "Espabila",
+        "Espora",
         "Esquirla Helada",
-        "Finta",
         "Fotosíntesis",
         "Fuerza Lunar",
-        "Glaceoprisma",
-        "Golpe Oscuro",
-        "Golpe Umbrío",
-        "Gran Ojo",
+        "Garra Dragón",
+        "Golpe Roca",
+        "Hachazo Pétreo",
         "Hoja Aguda",
-        "Infortunio",
-        "Isoguardia",
+        "Hueso Sombrío",
         "Lanzarrocas",
-        "Láser Doble",
         "Láser Prisma",
-        "Llama Protectora",
+        "Lengüetazo",
+        "Malicioso",
         "Maquinación",
         "Marcha Espectral",
-        "Mil Temblores",
-        "Mirada Heladora",
         "Mismo Destino",
+        "Moluscañón",
+        "Niebla Aromática",
+        "Nitrochoque",
         "Núcleo Castigo",
         "Patada Baja",
-        "Picotazo",
         "Picotazo Veneno",
-        "Pin Misil",
-        "Placaje",
-        "Plancha",
+        "Pirueta Helada",
         "Plancha Corporal",
-        "Psicocolmillo",
-        "Pulso Cura",
+        "Psicocarga",
         "Puño Cometa",
         "Puño Drenaje",
+        "Puño Incremento",
+        "Puntapié",
         "Relevo",
-        "Retracción",
+        "Rodillo de Púas",
         "Sol Matinal",
-        "Trampa Rocas",
-        "Transformación",
-        "Última Palabra",
-        "Umbreozona"
+        "Tinieblas",
+        "Trampa Venenosa"
       ],
       "firstMoves": [
-        "Cabeza Sorpresa",
-        "Cambiadefensa",
-        "Encanto",
-        "Deseo Cura"
+        "Día Soleado",
+        "Antojo",
+        "Voto Planta",
+        "Llamarada"
       ],
-      "spriteKey": "CLAYDOL"
+      "spriteKey": "BRELOOM"
     },
     {
       "nickname": "NIDRANA",
@@ -12155,6 +12155,17 @@
       "mon": "Bellibolt"
     },
     {
+      "route": "pueblo_paleta",
+      "where": "Pueblo Paleta",
+      "species": "Claydol",
+      "nickname": "MONARCA",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 3,
+      "mon": "Claydol"
+    },
+    {
       "route": "",
       "where": "Zona Safari",
       "species": "Mudsdale",
@@ -12419,17 +12430,6 @@
       "mon": "Blaziken"
     },
     {
-      "route": "ruta_7",
-      "where": "Ruta 7",
-      "species": "Breloom",
-      "nickname": "LUIGI",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 35,
-      "mon": "Breloom"
-    },
-    {
       "route": "ruta_22",
       "where": "Ruta 22",
       "species": "Spiritomb",
@@ -12606,15 +12606,15 @@
       "mon": "Talonflame"
     },
     {
-      "route": "pueblo_paleta",
-      "where": "Pueblo Paleta",
-      "species": "Claydol",
-      "nickname": "MONARCA",
+      "route": "ruta_7",
+      "where": "Ruta 7",
+      "species": "Breloom",
+      "nickname": "LUIGI",
       "shiny": false,
       "status": "captured",
-      "category": "ciudad",
-      "level": 3,
-      "mon": "Claydol"
+      "category": "salvaje",
+      "level": 35,
+      "mon": "Breloom"
     },
     {
       "route": "ruta_2_norte",
@@ -12941,6 +12941,7 @@
       "ruta_2_norte": true,
       "ruta_5": true,
       "ruta_14": true,
+      "pueblo_paleta": true,
       "ciudad_azulona": true,
       "pueblo_lavanda": true,
       "tunel_roca": true,
@@ -12948,14 +12949,12 @@
       "ruta_3": true,
       "ciudad_celeste": true,
       "ciudad_plateada": true,
-      "pueblo_paleta": true,
       "pueblo_marengo": true,
       "ruta_11": true,
       "monte_moon_exterior": true,
       "ruta_18": true,
       "islas_espuma": true,
       "ruta_20": true,
-      "ruta_7": true,
       "ruta_22": true,
       "zona_safari": true,
       "ruta_12": true,
@@ -12966,6 +12965,7 @@
       "ruta_8": true,
       "torre_pokemon": true,
       "ruta_4": true,
+      "ruta_7": true,
       "monte_moon": true,
       "ruta_2_sur": true,
       "tunel_diglett": true,
