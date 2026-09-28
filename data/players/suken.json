@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 3h 27m jugadas · 324,810₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 3h 28m jugadas · 324,810₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -13439,6 +13439,7 @@
       "Menta Firme",
       "Menta Grosera",
       "Menta Mansa",
+      "Menta Pícara",
       "Metrónomo",
       "Mineral Evol",
       "Miniseta",
@@ -14323,6 +14324,12 @@
       {
         "id": "FRESHWATER",
         "name": "Agua Fresca",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "NAUGHTYMINT",
+        "name": "Menta Pícara",
         "qty": 1,
         "pocket": "Medicinas"
       },
