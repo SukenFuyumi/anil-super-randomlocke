@@ -2,9 +2,9 @@
   "id": "suken",
   "name": "Suken",
   "lives": 30,
-  "livesUsed": 7,
+  "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 3h 11m jugadas · 295,110₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 3h 14m jugadas · 300,510₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -355,192 +355,6 @@
       "spriteKey": "SUDOWOODO"
     },
     {
-      "nickname": "CRAWLER",
-      "species": "Crawdaunt",
-      "level": 59,
-      "types": [
-        "Agua",
-        "Siniestro"
-      ],
-      "ability": "Filtro",
-      "nature": "Osada",
-      "item": "Puño Suerte",
-      "shiny": false,
-      "moves": [
-        "Pataleta",
-        "Búnker",
-        "Danza Acuática",
-        "Puño Bala"
-      ],
-      "iv": [
-        14,
-        9,
-        27,
-        24,
-        5,
-        15
-      ],
-      "ev": [
-        46,
-        133,
-        96,
-        92,
-        48,
-        95
-      ],
-      "abilPool": [
-        "Filtro",
-        "Poder Sabio"
-      ],
-      "abilHidden": [
-        "Carga Cuark"
-      ],
-      "learnset": [
-        {
-          "lvl": -1,
-          "m": "Sombra Vil"
-        },
-        {
-          "lvl": 1,
-          "m": "Eco Metálico"
-        },
-        {
-          "lvl": 1,
-          "m": "Búnker"
-        },
-        {
-          "lvl": 1,
-          "m": "Doble Patada"
-        },
-        {
-          "lvl": 1,
-          "m": "Cuchillada"
-        },
-        {
-          "lvl": 1,
-          "m": "Campo de Hierba"
-        },
-        {
-          "lvl": 1,
-          "m": "Acua Jet"
-        },
-        {
-          "lvl": 12,
-          "m": "Avivar"
-        },
-        {
-          "lvl": 16,
-          "m": "Shuriken de Agua"
-        },
-        {
-          "lvl": 20,
-          "m": "Nieve Polvo"
-        },
-        {
-          "lvl": 24,
-          "m": "Cornada"
-        },
-        {
-          "lvl": 28,
-          "m": "Megaagotar"
-        },
-        {
-          "lvl": 34,
-          "m": "Pataleta"
-        },
-        {
-          "lvl": 37,
-          "m": "Llamarada"
-        },
-        {
-          "lvl": 40,
-          "m": "Láser Prisma"
-        },
-        {
-          "lvl": 42,
-          "m": "Cola Dragón"
-        },
-        {
-          "lvl": 46,
-          "m": "Brillo Mágico"
-        },
-        {
-          "lvl": 52,
-          "m": "Halloween"
-        },
-        {
-          "lvl": 58,
-          "m": "Onda Mental"
-        },
-        {
-          "lvl": 64,
-          "m": "Bastión Final"
-        }
-      ],
-      "tmMoves": [
-        "Amnesia",
-        "Anclaje",
-        "Beso Drenaje",
-        "Bomba Ígnea",
-        "Cabeza Sorpresa",
-        "Carámbano",
-        "Chorro de Vapor",
-        "Copión",
-        "Danza Acuática",
-        "Danza Caos",
-        "Desarme",
-        "Destello",
-        "Electropico",
-        "Espeaura",
-        "Espora",
-        "Finta",
-        "Fotosíntesis",
-        "Garra Dragón",
-        "Golpe Oscuro",
-        "Golpe Umbrío",
-        "Gran Ojo",
-        "Hachazo Pétreo",
-        "Hueso Sombrío",
-        "Irreverencia",
-        "Isoguardia",
-        "Láser Doble",
-        "Láser Prisma",
-        "Maquinación",
-        "Megapuño",
-        "Niebla Aromática",
-        "Nitrochoque",
-        "Picotazo Veneno",
-        "Pin Misil",
-        "Pirueta Helada",
-        "Placaje",
-        "Plancha",
-        "Plancha Corporal",
-        "Psicocolmillo",
-        "Pulso Cura",
-        "Puya Nociva",
-        "Relajo",
-        "Relevo",
-        "Represalia",
-        "Simún de Arena",
-        "Tajo Metralla",
-        "Taladradora",
-        "Tinieblas",
-        "Trampa Rocas",
-        "Trampa Venenosa",
-        "Última Palabra",
-        "Último Lugar",
-        "Umbreozona",
-        "Vendaval"
-      ],
-      "firstMoves": [
-        "Placaje",
-        "Llave Giro",
-        "Clavo Cañón",
-        "Puño Bala"
-      ],
-      "spriteKey": "CRAWDAUNT"
-    },
-    {
       "nickname": "DREAMS",
       "species": "Hypno",
       "level": 59,
@@ -746,10 +560,10 @@
       ],
       "ev": [
         2,
-        3,
-        9,
         5,
-        2,
+        9,
+        8,
+        4,
         6
       ],
       "abilPool": [
@@ -917,10 +731,10 @@
       ],
       "ev": [
         0,
-        0,
         2,
-        0,
-        0,
+        2,
+        3,
+        2,
         2
       ],
       "abilPool": [
@@ -4210,6 +4024,175 @@
         "Bomba Germen"
       ],
       "spriteKey": "STARMIE"
+    },
+    {
+      "nickname": "SHIFU",
+      "species": "Mienshao",
+      "level": 52,
+      "types": [
+        "Lucha"
+      ],
+      "ability": "Oportunista",
+      "nature": "Amable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Mazazo",
+        "Puño Dinámico",
+        "Deseo Oculto",
+        "Danza Triunfal"
+      ],
+      "origin": "primer_ruta",
+      "iv": [
+        7,
+        28,
+        20,
+        27,
+        7,
+        0
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Oportunista",
+        "Voz Fluida"
+      ],
+      "abilHidden": [
+        "Mar Llamas"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Descanso"
+        },
+        {
+          "lvl": 1,
+          "m": "Mordisco"
+        },
+        {
+          "lvl": 1,
+          "m": "Amago"
+        },
+        {
+          "lvl": 1,
+          "m": "Pantalla de Humo"
+        },
+        {
+          "lvl": 1,
+          "m": "Furia Natural"
+        },
+        {
+          "lvl": 1,
+          "m": "Electrificación"
+        },
+        {
+          "lvl": 15,
+          "m": "Barrera"
+        },
+        {
+          "lvl": 17,
+          "m": "Estoicismo"
+        },
+        {
+          "lvl": 20,
+          "m": "Agilidad"
+        },
+        {
+          "lvl": 21,
+          "m": "Bomba Fango"
+        },
+        {
+          "lvl": 25,
+          "m": "Terratemblor"
+        },
+        {
+          "lvl": 30,
+          "m": "Poder Místico"
+        },
+        {
+          "lvl": 35,
+          "m": "Mazazo"
+        },
+        {
+          "lvl": 37,
+          "m": "Puño Dinámico"
+        },
+        {
+          "lvl": 40,
+          "m": "Deseo Oculto"
+        },
+        {
+          "lvl": 45,
+          "m": "Danza Triunfal"
+        },
+        {
+          "lvl": 53,
+          "m": "Plancha Corporal"
+        },
+        {
+          "lvl": 59,
+          "m": "Camelo"
+        },
+        {
+          "lvl": 66,
+          "m": "Rayo Confuso"
+        }
+      ],
+      "tmMoves": [
+        "Absorber",
+        "Alud",
+        "Choque Anímico",
+        "Ciclón",
+        "Copión",
+        "Danza Acuática",
+        "Danza Caos",
+        "Deslome",
+        "Eco Metálico",
+        "Electropico",
+        "Espabila",
+        "Espeaura",
+        "Espora",
+        "Finta",
+        "Golpe Umbrío",
+        "Hachazo Pétreo",
+        "Hoja Aguda",
+        "Hueso Sombrío",
+        "Infortunio",
+        "Lanzarrocas",
+        "Lengüetazo",
+        "Nitrocarga",
+        "Patada Baja",
+        "Pin Misil",
+        "Pirueta Helada",
+        "Plancha",
+        "Plancha Corporal",
+        "Psicocarga",
+        "Psicocolmillo",
+        "Puño Drenaje",
+        "Relevo",
+        "Rizo Defensa",
+        "Rodillo de Púas",
+        "Sol Matinal",
+        "Tajo Metralla",
+        "Taladradora",
+        "Trampa Venenosa",
+        "Umbreozona",
+        "Vendaval",
+        "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Mazazo",
+        "Puño Dinámico",
+        "Deseo Oculto",
+        "Danza Triunfal"
+      ],
+      "spriteKey": "MIENSHAO"
     },
     {
       "nickname": "KILLER POLLO",
@@ -11924,6 +11907,195 @@
       "cause": "",
       "route": "Túnel Diglett",
       "date": ""
+    },
+    {
+      "nickname": "CRAWLER",
+      "species": "Crawdaunt",
+      "level": 59,
+      "types": [
+        "Agua",
+        "Siniestro"
+      ],
+      "ability": "Filtro",
+      "nature": "Osada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Pataleta",
+        "Búnker",
+        "Danza Acuática",
+        "Puño Bala"
+      ],
+      "iv": [
+        14,
+        9,
+        27,
+        24,
+        5,
+        15
+      ],
+      "ev": [
+        46,
+        133,
+        96,
+        92,
+        48,
+        95
+      ],
+      "abilPool": [
+        "Filtro",
+        "Poder Sabio"
+      ],
+      "abilHidden": [
+        "Carga Cuark"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Sombra Vil"
+        },
+        {
+          "lvl": 1,
+          "m": "Eco Metálico"
+        },
+        {
+          "lvl": 1,
+          "m": "Búnker"
+        },
+        {
+          "lvl": 1,
+          "m": "Doble Patada"
+        },
+        {
+          "lvl": 1,
+          "m": "Cuchillada"
+        },
+        {
+          "lvl": 1,
+          "m": "Campo de Hierba"
+        },
+        {
+          "lvl": 1,
+          "m": "Acua Jet"
+        },
+        {
+          "lvl": 12,
+          "m": "Avivar"
+        },
+        {
+          "lvl": 16,
+          "m": "Shuriken de Agua"
+        },
+        {
+          "lvl": 20,
+          "m": "Nieve Polvo"
+        },
+        {
+          "lvl": 24,
+          "m": "Cornada"
+        },
+        {
+          "lvl": 28,
+          "m": "Megaagotar"
+        },
+        {
+          "lvl": 34,
+          "m": "Pataleta"
+        },
+        {
+          "lvl": 37,
+          "m": "Llamarada"
+        },
+        {
+          "lvl": 40,
+          "m": "Láser Prisma"
+        },
+        {
+          "lvl": 42,
+          "m": "Cola Dragón"
+        },
+        {
+          "lvl": 46,
+          "m": "Brillo Mágico"
+        },
+        {
+          "lvl": 52,
+          "m": "Halloween"
+        },
+        {
+          "lvl": 58,
+          "m": "Onda Mental"
+        },
+        {
+          "lvl": 64,
+          "m": "Bastión Final"
+        }
+      ],
+      "tmMoves": [
+        "Amnesia",
+        "Anclaje",
+        "Beso Drenaje",
+        "Bomba Ígnea",
+        "Cabeza Sorpresa",
+        "Carámbano",
+        "Chorro de Vapor",
+        "Copión",
+        "Danza Acuática",
+        "Danza Caos",
+        "Desarme",
+        "Destello",
+        "Electropico",
+        "Espeaura",
+        "Espora",
+        "Finta",
+        "Fotosíntesis",
+        "Garra Dragón",
+        "Golpe Oscuro",
+        "Golpe Umbrío",
+        "Gran Ojo",
+        "Hachazo Pétreo",
+        "Hueso Sombrío",
+        "Irreverencia",
+        "Isoguardia",
+        "Láser Doble",
+        "Láser Prisma",
+        "Maquinación",
+        "Megapuño",
+        "Niebla Aromática",
+        "Nitrochoque",
+        "Picotazo Veneno",
+        "Pin Misil",
+        "Pirueta Helada",
+        "Placaje",
+        "Plancha",
+        "Plancha Corporal",
+        "Psicocolmillo",
+        "Pulso Cura",
+        "Puya Nociva",
+        "Relajo",
+        "Relevo",
+        "Represalia",
+        "Simún de Arena",
+        "Tajo Metralla",
+        "Taladradora",
+        "Tinieblas",
+        "Trampa Rocas",
+        "Trampa Venenosa",
+        "Última Palabra",
+        "Último Lugar",
+        "Umbreozona",
+        "Vendaval"
+      ],
+      "firstMoves": [
+        "Placaje",
+        "Llave Giro",
+        "Clavo Cañón",
+        "Puño Bala"
+      ],
+      "spriteKey": "CRAWDAUNT",
+      "cause": "",
+      "route": "Ruta 2 Sur",
+      "date": ""
     }
   ],
   "captures": [
@@ -11948,17 +12120,6 @@
       "category": "salvaje",
       "level": 8,
       "mon": "Sudowoodo"
-    },
-    {
-      "route": "ruta_2_sur",
-      "where": "Ruta 2 Sur",
-      "species": "Crawdaunt",
-      "nickname": "CRAWLER",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 5,
-      "mon": "Crawdaunt"
     },
     {
       "route": "ruta_5",
@@ -12234,6 +12395,17 @@
       "category": "salvaje",
       "level": 51,
       "mon": "Starmie"
+    },
+    {
+      "route": "islas_espuma",
+      "where": "Islas Espuma",
+      "species": "Mienshao",
+      "nickname": "SHIFU",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 52,
+      "mon": "Mienshao"
     },
     {
       "route": "ruta_20",
@@ -12740,6 +12912,17 @@
       "category": "salvaje",
       "level": 23,
       "mon": "Clodsire"
+    },
+    {
+      "route": "ruta_2_sur",
+      "where": "Ruta 2 Sur",
+      "species": "Crawdaunt",
+      "nickname": "CRAWLER",
+      "shiny": false,
+      "status": "dead",
+      "category": "salvaje",
+      "level": 5,
+      "mon": "Crawdaunt"
     }
   ],
   "progress": {
@@ -12756,7 +12939,6 @@
     "routes": {
       "ruta_13": true,
       "ruta_2_norte": true,
-      "ruta_2_sur": true,
       "ruta_5": true,
       "ruta_14": true,
       "ciudad_azulona": true,
@@ -12771,6 +12953,7 @@
       "ruta_11": true,
       "monte_moon_exterior": true,
       "ruta_18": true,
+      "islas_espuma": true,
       "ruta_20": true,
       "ruta_7": true,
       "ruta_22": true,
@@ -12784,6 +12967,7 @@
       "torre_pokemon": true,
       "ruta_4": true,
       "monte_moon": true,
+      "ruta_2_sur": true,
       "tunel_diglett": true,
       "ciudad_verde": true,
       "ciudad_fucsia": true,
@@ -12793,8 +12977,7 @@
       "bosque_verde": true,
       "ruta_1": true,
       "ruta_9": true,
-      "ruta_16": true,
-      "islas_espuma": true
+      "ruta_16": true
     },
     "items": {},
     "encounters": {
@@ -12837,7 +13020,8 @@
       "ruta_6": true,
       "tunel_diglett": true,
       "ciudad_azafran": true,
-      "ruta_18": true
+      "ruta_18": true,
+      "islas_espuma": true
     },
     "switches": [
       48,
@@ -13771,6 +13955,12 @@
         "pocket": "Objetos"
       },
       {
+        "id": "LUCKYPUNCH",
+        "name": "Puño Suerte",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
         "qty": 545,
@@ -14013,7 +14203,7 @@
       {
         "id": "ULTRABALL",
         "name": "Ultra Ball",
-        "qty": 19,
+        "qty": 17,
         "pocket": "Poké Balls"
       },
       {
