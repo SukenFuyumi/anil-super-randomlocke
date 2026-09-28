@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 3h 37m jugadas · 324,810₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 3h 40m jugadas · 324,810₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "FOXCONN",
@@ -560,363 +560,9 @@
       "spriteKey": "SUDOWOODO"
     },
     {
-      "nickname": "Greninja",
-      "species": "Greninja",
-      "level": 59,
-      "types": [
-        "Agua",
-        "Siniestro"
-      ],
-      "ability": "Sal Purificadora",
-      "nature": "Amable",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Tajo Acuático",
-        "Chapoteo Lodo",
-        "Cambiavelocidad",
-        "Tinieblas"
-      ],
-      "origin": "magnemite",
-      "iv": [
-        30,
-        26,
-        2,
-        26,
-        4,
-        2
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Sal Purificadora"
-      ],
-      "abilHidden": [
-        "Simple"
-      ],
-      "learnset": [
-        {
-          "lvl": -1,
-          "m": "Brazo Pincho"
-        },
-        {
-          "lvl": 1,
-          "m": "Ofrenda"
-        },
-        {
-          "lvl": 1,
-          "m": "Fertilizante"
-        },
-        {
-          "lvl": 1,
-          "m": "Furia Natural"
-        },
-        {
-          "lvl": 1,
-          "m": "Cura Selvática"
-        },
-        {
-          "lvl": 1,
-          "m": "Esfuerzo"
-        },
-        {
-          "lvl": 1,
-          "m": "Tajo Acuático"
-        },
-        {
-          "lvl": 1,
-          "m": "Chapoteo Lodo"
-        },
-        {
-          "lvl": 1,
-          "m": "Cambiavelocidad"
-        },
-        {
-          "lvl": 5,
-          "m": "Tinieblas"
-        },
-        {
-          "lvl": 10,
-          "m": "Foco Energía"
-        },
-        {
-          "lvl": 14,
-          "m": "Acua Aro"
-        },
-        {
-          "lvl": 19,
-          "m": "Amago"
-        },
-        {
-          "lvl": 23,
-          "m": "Brecha Negra"
-        },
-        {
-          "lvl": 28,
-          "m": "Puño Mareo"
-        },
-        {
-          "lvl": 33,
-          "m": "Salazón"
-        },
-        {
-          "lvl": 33,
-          "m": "Cuerpo Pesado"
-        },
-        {
-          "lvl": 42,
-          "m": "Dragoaliento"
-        },
-        {
-          "lvl": 49,
-          "m": "Hidrocañón"
-        },
-        {
-          "lvl": 56,
-          "m": "Robo"
-        },
-        {
-          "lvl": 68,
-          "m": "Escaldar"
-        }
-      ],
-      "tmMoves": [
-        "Absorber",
-        "Campo de Hierba",
-        "Chorro de Vapor",
-        "Ciclón",
-        "Confusión",
-        "Copión",
-        "Danza Acuática",
-        "Decoración",
-        "Desarme",
-        "Doble Golpe",
-        "Eco Metálico",
-        "Embate Supremo",
-        "Espora",
-        "Esquirla Helada",
-        "Flarembestida",
-        "Golpe Oscuro",
-        "Golpe Roca",
-        "Golpe Umbrío",
-        "Lanzarrocas",
-        "Láser Doble",
-        "Maquinación",
-        "Mil Temblores",
-        "Mirada Heladora",
-        "Moluscañón",
-        "Nitrochoque",
-        "Pin Misil",
-        "Pirueta Helada",
-        "Placaje",
-        "Plancha Corporal",
-        "Planta Feroz",
-        "Psicocolmillo",
-        "Puño Drenaje",
-        "Rizo Defensa",
-        "Tajo Metralla",
-        "Tajo Umbrío",
-        "Último Lugar",
-        "Umbreozona",
-        "Vendaval",
-        "Voto Agua"
-      ],
-      "spriteKey": "GRENINJA"
-    },
-    {
-      "nickname": "Incineroar",
-      "species": "Incineroar",
-      "level": 5,
-      "types": [
-        "Fuego",
-        "Siniestro"
-      ],
-      "ability": "Rumia",
-      "nature": "Miedosa",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Gas Corrosivo",
-        "Ronquido",
-        "Semilladora",
-        "Conjuro"
-      ],
-      "origin": "magnemite",
-      "iv": [
-        23,
-        27,
-        3,
-        26,
-        4,
-        11
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Rumia"
-      ],
-      "abilHidden": [
-        "Quitanieves"
-      ],
-      "learnset": [
-        {
-          "lvl": -1,
-          "m": "Relámpago Súbito"
-        },
-        {
-          "lvl": -1,
-          "m": "Paliza"
-        },
-        {
-          "lvl": -1,
-          "m": "Cepo"
-        },
-        {
-          "lvl": 1,
-          "m": "Calcinación"
-        },
-        {
-          "lvl": 1,
-          "m": "Defensa Floral"
-        },
-        {
-          "lvl": 1,
-          "m": "Gas Corrosivo"
-        },
-        {
-          "lvl": 1,
-          "m": "Ronquido"
-        },
-        {
-          "lvl": 1,
-          "m": "Semilladora"
-        },
-        {
-          "lvl": 1,
-          "m": "Conjuro"
-        },
-        {
-          "lvl": 9,
-          "m": "Gota Vital"
-        },
-        {
-          "lvl": 11,
-          "m": "Velo Aurora"
-        },
-        {
-          "lvl": 12,
-          "m": "Rizo Algodón"
-        },
-        {
-          "lvl": 15,
-          "m": "Truco"
-        },
-        {
-          "lvl": 20,
-          "m": "Empapar"
-        },
-        {
-          "lvl": 25,
-          "m": "Tajo Umbrío"
-        },
-        {
-          "lvl": 30,
-          "m": "Alud"
-        },
-        {
-          "lvl": 32,
-          "m": "Cañón Batidor"
-        },
-        {
-          "lvl": 36,
-          "m": "Encanto"
-        },
-        {
-          "lvl": 38,
-          "m": "Persecución"
-        },
-        {
-          "lvl": 40,
-          "m": "As Oculto"
-        },
-        {
-          "lvl": 44,
-          "m": "Paranormal"
-        },
-        {
-          "lvl": 51,
-          "m": "Legado"
-        },
-        {
-          "lvl": 58,
-          "m": "Espejo"
-        },
-        {
-          "lvl": 60,
-          "m": "Puño Furia"
-        }
-      ],
-      "tmMoves": [
-        "Absorbefuerza",
-        "Alud",
-        "Anclaje",
-        "Asta Drenaje",
-        "Atadura",
-        "Bomba Ígnea",
-        "Campo de Hierba",
-        "Choque Anímico",
-        "Chorro de Vapor",
-        "Ciclón",
-        "Confusión",
-        "Conversión",
-        "Copión",
-        "Danza Caos",
-        "Decoración",
-        "Deslome",
-        "Eco Metálico",
-        "Electropico",
-        "Esquirla Helada",
-        "Estruendo Escama",
-        "Fotosíntesis",
-        "Glaceoprisma",
-        "Golpe Roca",
-        "Isoguardia",
-        "Lanzarrocas",
-        "Láser Prisma",
-        "Lengüetazo",
-        "Marcha Espectral",
-        "Megapuño",
-        "Mil Temblores",
-        "Moluscañón",
-        "Nitrocarga",
-        "Pin Misil",
-        "Pirueta Helada",
-        "Plancha",
-        "Puya Nociva",
-        "Relajo",
-        "Retracción",
-        "Tajo Metralla",
-        "Tinieblas",
-        "Última Palabra"
-      ],
-      "spriteKey": "INCINEROAR"
-    },
-    {
       "nickname": "Carbink",
       "species": "Carbink",
-      "level": 5,
+      "level": 59,
       "types": [
         "Roca",
         "Hada"
@@ -927,9 +573,9 @@
       "shiny": false,
       "moves": [
         "Maquinación",
-        "Detección",
+        "Cambiapoder",
         "Campo de Niebla",
-        "Falso Tortazo"
+        "Drenadoras"
       ],
       "origin": "magnemite",
       "iv": [
@@ -4111,6 +3757,360 @@
         "Gas Venenoso"
       ],
       "spriteKey": "POLIWHIRL"
+    },
+    {
+      "nickname": "Incineroar",
+      "species": "Incineroar",
+      "level": 5,
+      "types": [
+        "Fuego",
+        "Siniestro"
+      ],
+      "ability": "Rumia",
+      "nature": "Miedosa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Gas Corrosivo",
+        "Ronquido",
+        "Semilladora",
+        "Conjuro"
+      ],
+      "origin": "magnemite",
+      "iv": [
+        23,
+        27,
+        3,
+        26,
+        4,
+        11
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Rumia"
+      ],
+      "abilHidden": [
+        "Quitanieves"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Relámpago Súbito"
+        },
+        {
+          "lvl": -1,
+          "m": "Paliza"
+        },
+        {
+          "lvl": -1,
+          "m": "Cepo"
+        },
+        {
+          "lvl": 1,
+          "m": "Calcinación"
+        },
+        {
+          "lvl": 1,
+          "m": "Defensa Floral"
+        },
+        {
+          "lvl": 1,
+          "m": "Gas Corrosivo"
+        },
+        {
+          "lvl": 1,
+          "m": "Ronquido"
+        },
+        {
+          "lvl": 1,
+          "m": "Semilladora"
+        },
+        {
+          "lvl": 1,
+          "m": "Conjuro"
+        },
+        {
+          "lvl": 9,
+          "m": "Gota Vital"
+        },
+        {
+          "lvl": 11,
+          "m": "Velo Aurora"
+        },
+        {
+          "lvl": 12,
+          "m": "Rizo Algodón"
+        },
+        {
+          "lvl": 15,
+          "m": "Truco"
+        },
+        {
+          "lvl": 20,
+          "m": "Empapar"
+        },
+        {
+          "lvl": 25,
+          "m": "Tajo Umbrío"
+        },
+        {
+          "lvl": 30,
+          "m": "Alud"
+        },
+        {
+          "lvl": 32,
+          "m": "Cañón Batidor"
+        },
+        {
+          "lvl": 36,
+          "m": "Encanto"
+        },
+        {
+          "lvl": 38,
+          "m": "Persecución"
+        },
+        {
+          "lvl": 40,
+          "m": "As Oculto"
+        },
+        {
+          "lvl": 44,
+          "m": "Paranormal"
+        },
+        {
+          "lvl": 51,
+          "m": "Legado"
+        },
+        {
+          "lvl": 58,
+          "m": "Espejo"
+        },
+        {
+          "lvl": 60,
+          "m": "Puño Furia"
+        }
+      ],
+      "tmMoves": [
+        "Absorbefuerza",
+        "Alud",
+        "Anclaje",
+        "Asta Drenaje",
+        "Atadura",
+        "Bomba Ígnea",
+        "Campo de Hierba",
+        "Choque Anímico",
+        "Chorro de Vapor",
+        "Ciclón",
+        "Confusión",
+        "Conversión",
+        "Copión",
+        "Danza Caos",
+        "Decoración",
+        "Deslome",
+        "Eco Metálico",
+        "Electropico",
+        "Esquirla Helada",
+        "Estruendo Escama",
+        "Fotosíntesis",
+        "Glaceoprisma",
+        "Golpe Roca",
+        "Isoguardia",
+        "Lanzarrocas",
+        "Láser Prisma",
+        "Lengüetazo",
+        "Marcha Espectral",
+        "Megapuño",
+        "Mil Temblores",
+        "Moluscañón",
+        "Nitrocarga",
+        "Pin Misil",
+        "Pirueta Helada",
+        "Plancha",
+        "Puya Nociva",
+        "Relajo",
+        "Retracción",
+        "Tajo Metralla",
+        "Tinieblas",
+        "Última Palabra"
+      ],
+      "spriteKey": "INCINEROAR"
+    },
+    {
+      "nickname": "Greninja",
+      "species": "Greninja",
+      "level": 59,
+      "types": [
+        "Agua",
+        "Siniestro"
+      ],
+      "ability": "Sal Purificadora",
+      "nature": "Amable",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Tajo Acuático",
+        "Chapoteo Lodo",
+        "Cambiavelocidad",
+        "Tinieblas"
+      ],
+      "origin": "magnemite",
+      "iv": [
+        30,
+        26,
+        2,
+        26,
+        4,
+        2
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Sal Purificadora"
+      ],
+      "abilHidden": [
+        "Simple"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Brazo Pincho"
+        },
+        {
+          "lvl": 1,
+          "m": "Ofrenda"
+        },
+        {
+          "lvl": 1,
+          "m": "Fertilizante"
+        },
+        {
+          "lvl": 1,
+          "m": "Furia Natural"
+        },
+        {
+          "lvl": 1,
+          "m": "Cura Selvática"
+        },
+        {
+          "lvl": 1,
+          "m": "Esfuerzo"
+        },
+        {
+          "lvl": 1,
+          "m": "Tajo Acuático"
+        },
+        {
+          "lvl": 1,
+          "m": "Chapoteo Lodo"
+        },
+        {
+          "lvl": 1,
+          "m": "Cambiavelocidad"
+        },
+        {
+          "lvl": 5,
+          "m": "Tinieblas"
+        },
+        {
+          "lvl": 10,
+          "m": "Foco Energía"
+        },
+        {
+          "lvl": 14,
+          "m": "Acua Aro"
+        },
+        {
+          "lvl": 19,
+          "m": "Amago"
+        },
+        {
+          "lvl": 23,
+          "m": "Brecha Negra"
+        },
+        {
+          "lvl": 28,
+          "m": "Puño Mareo"
+        },
+        {
+          "lvl": 33,
+          "m": "Salazón"
+        },
+        {
+          "lvl": 33,
+          "m": "Cuerpo Pesado"
+        },
+        {
+          "lvl": 42,
+          "m": "Dragoaliento"
+        },
+        {
+          "lvl": 49,
+          "m": "Hidrocañón"
+        },
+        {
+          "lvl": 56,
+          "m": "Robo"
+        },
+        {
+          "lvl": 68,
+          "m": "Escaldar"
+        }
+      ],
+      "tmMoves": [
+        "Absorber",
+        "Campo de Hierba",
+        "Chorro de Vapor",
+        "Ciclón",
+        "Confusión",
+        "Copión",
+        "Danza Acuática",
+        "Decoración",
+        "Desarme",
+        "Doble Golpe",
+        "Eco Metálico",
+        "Embate Supremo",
+        "Espora",
+        "Esquirla Helada",
+        "Flarembestida",
+        "Golpe Oscuro",
+        "Golpe Roca",
+        "Golpe Umbrío",
+        "Lanzarrocas",
+        "Láser Doble",
+        "Maquinación",
+        "Mil Temblores",
+        "Mirada Heladora",
+        "Moluscañón",
+        "Nitrochoque",
+        "Pin Misil",
+        "Pirueta Helada",
+        "Placaje",
+        "Plancha Corporal",
+        "Planta Feroz",
+        "Psicocolmillo",
+        "Puño Drenaje",
+        "Rizo Defensa",
+        "Tajo Metralla",
+        "Tajo Umbrío",
+        "Último Lugar",
+        "Umbreozona",
+        "Vendaval",
+        "Voto Agua"
+      ],
+      "spriteKey": "GRENINJA"
     },
     {
       "nickname": "Carls JR",
@@ -12806,28 +12806,6 @@
     {
       "route": "ciudad_plateada",
       "where": "Ciudad Plateada",
-      "species": "Greninja",
-      "nickname": "",
-      "shiny": false,
-      "status": "captured",
-      "category": "ciudad",
-      "level": 5,
-      "mon": "Greninja"
-    },
-    {
-      "route": "ciudad_plateada",
-      "where": "Ciudad Plateada",
-      "species": "Incineroar",
-      "nickname": "",
-      "shiny": false,
-      "status": "captured",
-      "category": "ciudad",
-      "level": 5,
-      "mon": "Incineroar"
-    },
-    {
-      "route": "ciudad_plateada",
-      "where": "Ciudad Plateada",
       "species": "Carbink",
       "nickname": "",
       "shiny": false,
@@ -13066,6 +13044,28 @@
       "category": "ciudad",
       "level": 3,
       "mon": "Poliwhirl"
+    },
+    {
+      "route": "ciudad_plateada",
+      "where": "Ciudad Plateada",
+      "species": "Incineroar",
+      "nickname": "",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 5,
+      "mon": "Incineroar"
+    },
+    {
+      "route": "ciudad_plateada",
+      "where": "Ciudad Plateada",
+      "species": "Greninja",
+      "nickname": "",
+      "shiny": false,
+      "status": "captured",
+      "category": "ciudad",
+      "level": 5,
+      "mon": "Greninja"
     },
     {
       "route": "ruta_18",
@@ -14677,7 +14677,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 475,
+        "qty": 421,
         "pocket": "Medicinas"
       },
       {
