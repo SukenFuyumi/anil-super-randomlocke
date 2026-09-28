@@ -871,29 +871,30 @@
       "spriteKey": "INCINEROAR"
     },
     {
-      "nickname": "XD",
-      "species": "Polteageist",
-      "level": 1,
+      "nickname": "Carbink",
+      "species": "Carbink",
+      "level": 5,
       "types": [
-        "Fantasma"
+        "Roca",
+        "Hada"
       ],
-      "ability": "Pies Rápidos",
-      "nature": "Activa",
+      "ability": "Energía Pura",
+      "nature": "Firme",
       "item": "",
       "shiny": false,
       "moves": [
-        "Puño Furia",
-        "Golpe Bajo",
-        "Rabia",
-        "Eco Voz"
+        "Maquinación",
+        "Detección",
+        "Campo de Niebla",
+        "Falso Tortazo"
       ],
-      "origin": "fossil",
+      "origin": "magnemite",
       "iv": [
-        23,
-        22,
-        25,
+        26,
         3,
-        2,
+        1,
+        30,
+        24,
         21
       ],
       "ev": [
@@ -905,97 +906,94 @@
         0
       ],
       "abilPool": [
-        "Pies Rápidos"
+        "Energía Pura"
       ],
       "abilHidden": [
-        "Latido Oricalco"
+        "Termoconversión"
       ],
       "learnset": [
         {
-          "lvl": -1,
-          "m": "Ciclón de Hojas"
+          "lvl": 1,
+          "m": "Maquinación"
         },
         {
           "lvl": 1,
-          "m": "Torbellino"
+          "m": "Detección"
         },
         {
-          "lvl": 1,
-          "m": "Bomba Ácida"
+          "lvl": 5,
+          "m": "Campo de Niebla"
         },
         {
-          "lvl": 1,
-          "m": "Llave Corsé"
+          "lvl": 5,
+          "m": "Falso Tortazo"
         },
         {
-          "lvl": 1,
-          "m": "Camuflaje"
+          "lvl": 8,
+          "m": "Poder Reserva"
         },
         {
-          "lvl": 1,
-          "m": "Puño Furia"
+          "lvl": 10,
+          "m": "Extracto Picante"
         },
         {
-          "lvl": 1,
-          "m": "Golpe Bajo"
-        },
-        {
-          "lvl": 1,
-          "m": "Rabia"
-        },
-        {
-          "lvl": 1,
-          "m": "Eco Voz"
+          "lvl": 15,
+          "m": "Drenadoras"
         },
         {
           "lvl": 18,
-          "m": "Tinieblas"
+          "m": "Fría Acogida"
         },
         {
-          "lvl": 24,
-          "m": "Golpe Rastrero"
+          "lvl": 20,
+          "m": "Bálsamo Osado"
+        },
+        {
+          "lvl": 25,
+          "m": "Barrera Espinosa"
         },
         {
           "lvl": 30,
-          "m": "Alto Voltaje"
+          "m": "Cambiapoder"
         },
         {
-          "lvl": 30,
-          "m": "Prensa Metálica"
+          "lvl": 35,
+          "m": "Danza Triunfal"
         },
         {
-          "lvl": 36,
-          "m": "Cascada"
+          "lvl": 35,
+          "m": "Copión"
         },
         {
-          "lvl": 42,
-          "m": "Garra Nociva"
+          "lvl": 40,
+          "m": "Impactrueno"
         },
         {
-          "lvl": 48,
-          "m": "Voltiocambio"
+          "lvl": 45,
+          "m": "Clonatipo"
         },
         {
-          "lvl": 54,
-          "m": "Ataque Aéreo"
+          "lvl": 50,
+          "m": "Aromaterapia"
+        },
+        {
+          "lvl": 55,
+          "m": "Allanador Férreo"
+        },
+        {
+          "lvl": 55,
+          "m": "Dulce Aroma"
         },
         {
           "lvl": 60,
-          "m": "Desquite"
+          "m": "Anclaje"
         },
         {
-          "lvl": 66,
-          "m": "Azote"
+          "lvl": 60,
+          "m": "Palmeo"
         }
       ],
-      "firstMoves": [
-        "Puño Furia",
-        "Golpe Bajo",
-        "Rabia",
-        "Eco Voz"
-      ],
-      "spriteKey": "POLTEAGEIST_1",
-      "dup": true
+      "spriteKey": "CARBINK"
     }
   ],
   "box": [
@@ -12743,15 +12741,15 @@
       "mon": "Incineroar"
     },
     {
-      "route": "",
-      "where": "Laboratorio Canela",
-      "species": "Polteageist",
-      "nickname": "XD",
+      "route": "ciudad_plateada",
+      "where": "Ciudad Plateada",
+      "species": "Carbink",
+      "nickname": "",
       "shiny": false,
       "status": "captured",
-      "category": "estatico_regalo",
-      "level": 1,
-      "mon": "Polteageist"
+      "category": "ciudad",
+      "level": 5,
+      "mon": "Carbink"
     },
     {
       "route": "",
