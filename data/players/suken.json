@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 6,
   "champion": false,
-  "notes": "Importado del save · 2h 50m jugadas · 289,180₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 2h 51m jugadas · 289,180₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -10666,172 +10666,6 @@
   ],
   "graveyard": [
     {
-      "nickname": "DUNAS",
-      "species": "Brambleghast",
-      "level": 54,
-      "types": [
-        "Planta",
-        "Fantasma"
-      ],
-      "ability": "Electromotor",
-      "nature": "Ingenua",
-      "item": "Restos",
-      "shiny": false,
-      "moves": [
-        "Cólera Ardiente",
-        "Sombra Vil",
-        "Veneno X",
-        "Tajo Umbrío"
-      ],
-      "origin": "primer_ruta",
-      "iv": [
-        20,
-        8,
-        20,
-        16,
-        25,
-        31
-      ],
-      "ev": [
-        49,
-        160,
-        91,
-        81,
-        44,
-        85
-      ],
-      "abilPool": [
-        "Electromotor"
-      ],
-      "abilHidden": [
-        "Cuerpo Áureo"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Abatidoras"
-        },
-        {
-          "lvl": 1,
-          "m": "Vendetta"
-        },
-        {
-          "lvl": 1,
-          "m": "Brinco"
-        },
-        {
-          "lvl": 5,
-          "m": "Rodar"
-        },
-        {
-          "lvl": 9,
-          "m": "Profecía"
-        },
-        {
-          "lvl": 13,
-          "m": "Extracto Picante"
-        },
-        {
-          "lvl": 17,
-          "m": "Señuelo"
-        },
-        {
-          "lvl": 21,
-          "m": "Sellar"
-        },
-        {
-          "lvl": 25,
-          "m": "Hilo Venenoso"
-        },
-        {
-          "lvl": 29,
-          "m": "Fanfarronear"
-        },
-        {
-          "lvl": 35,
-          "m": "Golpe Fantasma"
-        },
-        {
-          "lvl": 38,
-          "m": "Cólera Ardiente"
-        },
-        {
-          "lvl": 40,
-          "m": "Puntapié"
-        },
-        {
-          "lvl": 45,
-          "m": "Marcha Espectral"
-        },
-        {
-          "lvl": 50,
-          "m": "Cometa Draco"
-        },
-        {
-          "lvl": 55,
-          "m": "Bola Sombra"
-        }
-      ],
-      "tmMoves": [
-        "A Defender",
-        "Alud",
-        "Amnesia",
-        "Asta Drenaje",
-        "Atadura",
-        "Cabeza Sorpresa",
-        "Campo de Hierba",
-        "Ciclón",
-        "Confusión",
-        "Conversión",
-        "Desarme",
-        "Eco Metálico",
-        "Electropico",
-        "Estruendo Escama",
-        "Finta",
-        "Fuerza Lunar",
-        "Garra Dragón",
-        "Golpe Roca",
-        "Golpe Umbrío",
-        "Hoja Aguda",
-        "Infortunio",
-        "Isoguardia",
-        "Lengüetazo",
-        "Llama Protectora",
-        "Marcha Espectral",
-        "Mismo Destino",
-        "Moluscañón",
-        "Niebla Aromática",
-        "Núcleo Castigo",
-        "Picotazo",
-        "Picotazo Veneno",
-        "Placaje",
-        "Plancha Corporal",
-        "Pulso Dragón",
-        "Puño Cometa",
-        "Puntapié",
-        "Puya Nociva",
-        "Relajo",
-        "Relevo",
-        "Represalia",
-        "Retracción",
-        "Rizo Defensa",
-        "Rodillo de Púas",
-        "Sol Matinal",
-        "Umbreozona",
-        "Voltio Cruel"
-      ],
-      "firstMoves": [
-        "Giro Bola",
-        "Sombra Vil",
-        "Ofrenda",
-        "Veneno X"
-      ],
-      "spriteKey": "BRAMBLEGHAST",
-      "cause": "",
-      "route": "Bosque Verde",
-      "date": ""
-    },
-    {
       "nickname": "CONEJO BLAZ",
       "species": "Diggersby",
       "level": 23,
@@ -11605,6 +11439,172 @@
       "cause": "",
       "route": "Monte Moon",
       "date": ""
+    },
+    {
+      "nickname": "DUNAS",
+      "species": "Brambleghast",
+      "level": 54,
+      "types": [
+        "Planta",
+        "Fantasma"
+      ],
+      "ability": "Electromotor",
+      "nature": "Ingenua",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Cólera Ardiente",
+        "Sombra Vil",
+        "Veneno X",
+        "Tajo Umbrío"
+      ],
+      "origin": "primer_ruta",
+      "iv": [
+        20,
+        8,
+        20,
+        16,
+        25,
+        31
+      ],
+      "ev": [
+        49,
+        160,
+        91,
+        81,
+        44,
+        85
+      ],
+      "abilPool": [
+        "Electromotor"
+      ],
+      "abilHidden": [
+        "Cuerpo Áureo"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Abatidoras"
+        },
+        {
+          "lvl": 1,
+          "m": "Vendetta"
+        },
+        {
+          "lvl": 1,
+          "m": "Brinco"
+        },
+        {
+          "lvl": 5,
+          "m": "Rodar"
+        },
+        {
+          "lvl": 9,
+          "m": "Profecía"
+        },
+        {
+          "lvl": 13,
+          "m": "Extracto Picante"
+        },
+        {
+          "lvl": 17,
+          "m": "Señuelo"
+        },
+        {
+          "lvl": 21,
+          "m": "Sellar"
+        },
+        {
+          "lvl": 25,
+          "m": "Hilo Venenoso"
+        },
+        {
+          "lvl": 29,
+          "m": "Fanfarronear"
+        },
+        {
+          "lvl": 35,
+          "m": "Golpe Fantasma"
+        },
+        {
+          "lvl": 38,
+          "m": "Cólera Ardiente"
+        },
+        {
+          "lvl": 40,
+          "m": "Puntapié"
+        },
+        {
+          "lvl": 45,
+          "m": "Marcha Espectral"
+        },
+        {
+          "lvl": 50,
+          "m": "Cometa Draco"
+        },
+        {
+          "lvl": 55,
+          "m": "Bola Sombra"
+        }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Alud",
+        "Amnesia",
+        "Asta Drenaje",
+        "Atadura",
+        "Cabeza Sorpresa",
+        "Campo de Hierba",
+        "Ciclón",
+        "Confusión",
+        "Conversión",
+        "Desarme",
+        "Eco Metálico",
+        "Electropico",
+        "Estruendo Escama",
+        "Finta",
+        "Fuerza Lunar",
+        "Garra Dragón",
+        "Golpe Roca",
+        "Golpe Umbrío",
+        "Hoja Aguda",
+        "Infortunio",
+        "Isoguardia",
+        "Lengüetazo",
+        "Llama Protectora",
+        "Marcha Espectral",
+        "Mismo Destino",
+        "Moluscañón",
+        "Niebla Aromática",
+        "Núcleo Castigo",
+        "Picotazo",
+        "Picotazo Veneno",
+        "Placaje",
+        "Plancha Corporal",
+        "Pulso Dragón",
+        "Puño Cometa",
+        "Puntapié",
+        "Puya Nociva",
+        "Relajo",
+        "Relevo",
+        "Represalia",
+        "Retracción",
+        "Rizo Defensa",
+        "Rodillo de Púas",
+        "Sol Matinal",
+        "Umbreozona",
+        "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Giro Bola",
+        "Sombra Vil",
+        "Ofrenda",
+        "Veneno X"
+      ],
+      "spriteKey": "BRAMBLEGHAST",
+      "cause": "",
+      "route": "Bosque Verde",
+      "date": ""
     }
   ],
   "captures": [
@@ -11618,17 +11618,6 @@
       "category": "salvaje",
       "level": 41,
       "mon": "Blastoise"
-    },
-    {
-      "route": "bosque_verde",
-      "where": "Bosque Verde",
-      "species": "Brambleghast",
-      "nickname": "DUNAS",
-      "shiny": false,
-      "status": "dead",
-      "category": "salvaje",
-      "level": 7,
-      "mon": "Brambleghast"
     },
     {
       "route": "tunel_diglett",
@@ -12399,6 +12388,17 @@
       "category": "salvaje",
       "level": 14,
       "mon": "Raticate"
+    },
+    {
+      "route": "bosque_verde",
+      "where": "Bosque Verde",
+      "species": "Brambleghast",
+      "nickname": "DUNAS",
+      "shiny": false,
+      "status": "dead",
+      "category": "salvaje",
+      "level": 7,
+      "mon": "Brambleghast"
     }
   ],
   "progress": {
@@ -12413,7 +12413,6 @@
     "npcs": {},
     "routes": {
       "ruta_13": true,
-      "bosque_verde": true,
       "tunel_diglett": true,
       "ruta_2_norte": true,
       "ruta_2_sur": true,
@@ -12448,6 +12447,7 @@
       "ruta_17": true,
       "ruta_10_sur": true,
       "ciudad_azafran": true,
+      "bosque_verde": true,
       "ruta_1": true,
       "ruta_9": true,
       "ruta_16": true
@@ -13373,6 +13373,12 @@
       {
         "id": "SILKSCARF",
         "name": "Pañuelo de Seda",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "LEFTOVERS",
+        "name": "Restos",
         "qty": 1,
         "pocket": "Objetos"
       },
