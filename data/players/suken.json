@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 6h 55m jugadas · 447,160₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 6h 58m jugadas · 455,560₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -205,9 +205,9 @@
       ],
       "ev": [
         47,
-        117,
+        125,
         54,
-        86,
+        89,
         42,
         70
       ],
@@ -587,9 +587,9 @@
       ],
       "ev": [
         31,
-        45,
+        53,
         27,
-        38,
+        41,
         27,
         26
       ],
@@ -758,9 +758,9 @@
       ],
       "ev": [
         29,
-        42,
+        50,
         20,
-        33,
+        36,
         25,
         22
       ],
@@ -15822,7 +15822,7 @@
       {
         "id": "LUREBALL",
         "name": "Cebo Ball",
-        "qty": 5,
+        "qty": 6,
         "pocket": "Poké Balls"
       },
       {
@@ -16554,13 +16554,13 @@
       {
         "id": "POMEGBERRY",
         "name": "Baya Grana",
-        "qty": 999,
+        "qty": 2,
         "pocket": "Bayas"
       },
       {
         "id": "POMEGBERRY",
         "name": "Baya Grana",
-        "qty": 2,
+        "qty": 999,
         "pocket": "Bayas"
       },
       {
@@ -16662,7 +16662,7 @@
       {
         "id": "ENIGMABERRY",
         "name": "Baya Enigma",
-        "qty": 2,
+        "qty": 3,
         "pocket": "Bayas"
       },
       {
