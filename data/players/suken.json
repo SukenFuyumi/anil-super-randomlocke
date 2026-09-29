@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 7h 7m jugadas · 466,100₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 7h 13m jugadas · 474,640₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -204,12 +204,12 @@
         3
       ],
       "ev": [
-        51,
-        129,
-        59,
+        55,
+        130,
+        61,
         92,
-        42,
-        70
+        44,
+        72
       ],
       "abilPool": [
         "Unidad Ecuestre"
@@ -586,12 +586,12 @@
         31
       ],
       "ev": [
-        35,
-        57,
-        32,
+        39,
+        58,
+        34,
         44,
-        27,
-        26
+        29,
+        28
       ],
       "abilPool": [
         "Respondón"
@@ -757,12 +757,12 @@
         24
       ],
       "ev": [
-        33,
-        54,
-        25,
+        37,
+        55,
+        27,
         39,
-        25,
-        22
+        27,
+        24
       ],
       "abilPool": [
         "Funda",
@@ -14746,6 +14746,7 @@
       "Baya Grana",
       "Baya Guaya",
       "Baya Hibis",
+      "Baya Jaboca",
       "Baya Magua",
       "Baya Maranga",
       "Baya Meloc",
@@ -15565,7 +15566,7 @@
       {
         "id": "CLEANSETAG",
         "name": "Amuleto",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Objetos"
       },
       {
@@ -16687,13 +16688,13 @@
       {
         "id": "POMEGBERRY",
         "name": "Baya Grana",
-        "qty": 999,
+        "qty": 2,
         "pocket": "Bayas"
       },
       {
         "id": "POMEGBERRY",
         "name": "Baya Grana",
-        "qty": 2,
+        "qty": 999,
         "pocket": "Bayas"
       },
       {
@@ -16807,6 +16808,12 @@
       {
         "id": "CUSTAPBERRY",
         "name": "Baya Chiri",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "JABOCABERRY",
+        "name": "Baya Jaboca",
         "qty": 1,
         "pocket": "Bayas"
       },
@@ -17123,5 +17130,17 @@
         "pocket": "Objetos clave"
       }
     ]
-  }
+  },
+  "deathLog": [
+    "159363021",
+    "2237966223",
+    "1421812115",
+    "3874495655",
+    "1315880707",
+    "21867664",
+    "579153695",
+    "828798380",
+    "2121256269"
+  ],
+  "revividos": 1
 }
