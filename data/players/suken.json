@@ -2,181 +2,10 @@
   "id": "suken",
   "name": "Suken",
   "lives": 30,
-  "livesUsed": 8,
+  "livesUsed": 9,
   "champion": false,
-  "notes": "Importado del save · 5h 34m jugadas · 398,800₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 6h 53m jugadas · 447,160₽ · vidas en el juego: -1",
   "team": [
-    {
-      "nickname": "MERYL STRYFE",
-      "species": "Blastoise",
-      "level": 66,
-      "types": [
-        "Agua"
-      ],
-      "ability": "Amor Filial",
-      "nature": "Firme",
-      "item": "Banda Aguante",
-      "shiny": false,
-      "moves": [
-        "Tinieblas",
-        "Truco Floral",
-        "Danza Acuática",
-        "Flarembestida"
-      ],
-      "origin": "primer_ruta",
-      "iv": [
-        17,
-        24,
-        1,
-        5,
-        6,
-        21
-      ],
-      "ev": [
-        252,
-        4,
-        2,
-        0,
-        0,
-        252
-      ],
-      "abilPool": [
-        "Teracaparazón"
-      ],
-      "abilHidden": [
-        "Amor Filial"
-      ],
-      "abilCapsule": true,
-      "learnset": [
-        {
-          "lvl": -1,
-          "m": "Espejo"
-        },
-        {
-          "lvl": 1,
-          "m": "Patada Tropical"
-        },
-        {
-          "lvl": 1,
-          "m": "Desarme"
-        },
-        {
-          "lvl": 1,
-          "m": "Salazón"
-        },
-        {
-          "lvl": 1,
-          "m": "Mandato"
-        },
-        {
-          "lvl": 1,
-          "m": "Furia"
-        },
-        {
-          "lvl": 9,
-          "m": "Ciclón de Hojas"
-        },
-        {
-          "lvl": 12,
-          "m": "Triple Inmersión"
-        },
-        {
-          "lvl": 15,
-          "m": "Manto Espejo"
-        },
-        {
-          "lvl": 20,
-          "m": "Relevo"
-        },
-        {
-          "lvl": 25,
-          "m": "Bruma Explosiva"
-        },
-        {
-          "lvl": 30,
-          "m": "Viraje"
-        },
-        {
-          "lvl": 35,
-          "m": "Adaptación"
-        },
-        {
-          "lvl": 36,
-          "m": "Impactrueno"
-        },
-        {
-          "lvl": 42,
-          "m": "Hidroariete"
-        },
-        {
-          "lvl": 49,
-          "m": "Telaraña"
-        },
-        {
-          "lvl": 56,
-          "m": "Cabeza Sorpresa"
-        },
-        {
-          "lvl": 56,
-          "m": "Tajo Taquión"
-        }
-      ],
-      "tmMoves": [
-        "A Defender",
-        "Absorbefuerza",
-        "Alud",
-        "Amnesia",
-        "Cabeza Sorpresa",
-        "Cadena Virulenta",
-        "Carámbano",
-        "Clemencia",
-        "Conversión",
-        "Copión",
-        "Danza Acuática",
-        "Desarme",
-        "Deslome",
-        "Destello",
-        "Eco Metálico",
-        "Embate Supremo",
-        "Espabila",
-        "Espeaura",
-        "Esquirla Helada",
-        "Fuerza Lunar",
-        "Glaceoprisma",
-        "Golpe Umbrío",
-        "Hoja Aguda",
-        "Isoguardia",
-        "Lanzarrocas",
-        "Láser Prisma",
-        "Maquinación",
-        "Niebla Aromática",
-        "Núcleo Castigo",
-        "Picotazo",
-        "Picotazo Veneno",
-        "Pin Misil",
-        "Plancha Corporal",
-        "Psicocolmillo",
-        "Pulso Cura",
-        "Puño Cometa",
-        "Puño Incremento",
-        "Relajo",
-        "Represalia",
-        "Tajo Umbrío",
-        "Taladradora",
-        "Tinieblas",
-        "Trampa Rocas",
-        "Transformación",
-        "Umbreozona",
-        "Voltio Cruel"
-      ],
-      "firstMoves": [
-        "Refugio",
-        "Ovocuración",
-        "Escaldar",
-        "Trampa Rocas"
-      ],
-      "spriteKey": "BLASTOISE"
-    },
     {
       "nickname": "MONARCA",
       "species": "Claydol",
@@ -204,12 +33,12 @@
         3
       ],
       "ev": [
-        41,
-        95,
-        45,
-        76,
-        36,
-        64
+        47,
+        117,
+        54,
+        86,
+        42,
+        70
       ],
       "abilPool": [
         "Unidad Ecuestre"
@@ -586,12 +415,12 @@
         31
       ],
       "ev": [
-        25,
-        23,
-        18,
-        28,
-        21,
-        20
+        31,
+        45,
+        27,
+        38,
+        27,
+        26
       ],
       "abilPool": [
         "Respondón"
@@ -757,12 +586,12 @@
         24
       ],
       "ev": [
-        23,
+        29,
+        42,
         20,
-        11,
-        23,
-        19,
-        16
+        33,
+        25,
+        22
       ],
       "abilPool": [
         "Funda",
@@ -1064,6 +893,159 @@
     }
   ],
   "box": [
+    {
+      "nickname": "KILLER POLLO",
+      "species": "Decidueye (Hisui)",
+      "level": 57,
+      "types": [
+        "Planta",
+        "Lucha"
+      ],
+      "ability": "Rizos Rebeldes",
+      "nature": "Tímida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Golpe Rastrero",
+        "Arenas Ardientes",
+        "Poltergeist",
+        "Sombra Vil"
+      ],
+      "origin": "primer_ruta",
+      "iv": [
+        31,
+        17,
+        30,
+        30,
+        18,
+        26
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Mal Sueño",
+        "Rizos Rebeldes"
+      ],
+      "abilHidden": [
+        "Levitación"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Zona Mágica"
+        },
+        {
+          "lvl": 1,
+          "m": "Recogearena"
+        },
+        {
+          "lvl": 1,
+          "m": "Fanfarronear"
+        },
+        {
+          "lvl": 1,
+          "m": "Bombardeo"
+        },
+        {
+          "lvl": 1,
+          "m": "Semilladora"
+        },
+        {
+          "lvl": 1,
+          "m": "Giro Rápido"
+        },
+        {
+          "lvl": 1,
+          "m": "Canto"
+        },
+        {
+          "lvl": 1,
+          "m": "Tumba Rocas"
+        },
+        {
+          "lvl": 1,
+          "m": "Copión"
+        },
+        {
+          "lvl": 1,
+          "m": "Hoja Mágica"
+        },
+        {
+          "lvl": 1,
+          "m": "Tambor"
+        },
+        {
+          "lvl": 1,
+          "m": "Agua Fría"
+        },
+        {
+          "lvl": 9,
+          "m": "Tóxico"
+        },
+        {
+          "lvl": 12,
+          "m": "Rugido de Guerra"
+        },
+        {
+          "lvl": 15,
+          "m": "Presente"
+        },
+        {
+          "lvl": 19,
+          "m": "Refugio"
+        },
+        {
+          "lvl": 20,
+          "m": "Chulería"
+        },
+        {
+          "lvl": 25,
+          "m": "Condena Silvana"
+        },
+        {
+          "lvl": 30,
+          "m": "Autotomía"
+        },
+        {
+          "lvl": 37,
+          "m": "Llave Giro"
+        },
+        {
+          "lvl": 41,
+          "m": "Golpe Rastrero"
+        },
+        {
+          "lvl": 44,
+          "m": "Arenas Ardientes"
+        },
+        {
+          "lvl": 51,
+          "m": "Poltergeist"
+        },
+        {
+          "lvl": 52,
+          "m": "Sombra Vil"
+        },
+        {
+          "lvl": 58,
+          "m": "Onda Certera"
+        }
+      ],
+      "firstMoves": [
+        "Golpe Rastrero",
+        "Arenas Ardientes",
+        "Poltergeist",
+        "Sombra Vil"
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10244.png",
+      "spriteKey": "DECIDUEYE_1"
+    },
     {
       "nickname": "Mudsdale",
       "species": "Mudsdale",
@@ -11996,6 +11978,180 @@
   ],
   "graveyard": [
     {
+      "nickname": "MERYL STRYFE",
+      "species": "Blastoise",
+      "level": 66,
+      "types": [
+        "Agua"
+      ],
+      "ability": "Amor Filial",
+      "nature": "Firme",
+      "item": "Banda Aguante",
+      "shiny": false,
+      "moves": [
+        "Tinieblas",
+        "Truco Floral",
+        "Danza Acuática",
+        "Flarembestida"
+      ],
+      "origin": "primer_ruta",
+      "iv": [
+        17,
+        24,
+        1,
+        5,
+        6,
+        21
+      ],
+      "ev": [
+        252,
+        4,
+        2,
+        0,
+        0,
+        252
+      ],
+      "abilPool": [
+        "Teracaparazón"
+      ],
+      "abilHidden": [
+        "Amor Filial"
+      ],
+      "abilCapsule": true,
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Espejo"
+        },
+        {
+          "lvl": 1,
+          "m": "Patada Tropical"
+        },
+        {
+          "lvl": 1,
+          "m": "Desarme"
+        },
+        {
+          "lvl": 1,
+          "m": "Salazón"
+        },
+        {
+          "lvl": 1,
+          "m": "Mandato"
+        },
+        {
+          "lvl": 1,
+          "m": "Furia"
+        },
+        {
+          "lvl": 9,
+          "m": "Ciclón de Hojas"
+        },
+        {
+          "lvl": 12,
+          "m": "Triple Inmersión"
+        },
+        {
+          "lvl": 15,
+          "m": "Manto Espejo"
+        },
+        {
+          "lvl": 20,
+          "m": "Relevo"
+        },
+        {
+          "lvl": 25,
+          "m": "Bruma Explosiva"
+        },
+        {
+          "lvl": 30,
+          "m": "Viraje"
+        },
+        {
+          "lvl": 35,
+          "m": "Adaptación"
+        },
+        {
+          "lvl": 36,
+          "m": "Impactrueno"
+        },
+        {
+          "lvl": 42,
+          "m": "Hidroariete"
+        },
+        {
+          "lvl": 49,
+          "m": "Telaraña"
+        },
+        {
+          "lvl": 56,
+          "m": "Cabeza Sorpresa"
+        },
+        {
+          "lvl": 56,
+          "m": "Tajo Taquión"
+        }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Absorbefuerza",
+        "Alud",
+        "Amnesia",
+        "Cabeza Sorpresa",
+        "Cadena Virulenta",
+        "Carámbano",
+        "Clemencia",
+        "Conversión",
+        "Copión",
+        "Danza Acuática",
+        "Desarme",
+        "Deslome",
+        "Destello",
+        "Eco Metálico",
+        "Embate Supremo",
+        "Espabila",
+        "Espeaura",
+        "Esquirla Helada",
+        "Fuerza Lunar",
+        "Glaceoprisma",
+        "Golpe Umbrío",
+        "Hoja Aguda",
+        "Isoguardia",
+        "Lanzarrocas",
+        "Láser Prisma",
+        "Maquinación",
+        "Niebla Aromática",
+        "Núcleo Castigo",
+        "Picotazo",
+        "Picotazo Veneno",
+        "Pin Misil",
+        "Plancha Corporal",
+        "Psicocolmillo",
+        "Pulso Cura",
+        "Puño Cometa",
+        "Puño Incremento",
+        "Relajo",
+        "Represalia",
+        "Tajo Umbrío",
+        "Taladradora",
+        "Tinieblas",
+        "Trampa Rocas",
+        "Transformación",
+        "Umbreozona",
+        "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Refugio",
+        "Ovocuración",
+        "Escaldar",
+        "Trampa Rocas"
+      ],
+      "spriteKey": "BLASTOISE",
+      "cause": "",
+      "route": "Ruta 13",
+      "date": ""
+    },
+    {
       "nickname": "CONEJO BLAZ",
       "species": "Diggersby",
       "level": 23,
@@ -13295,17 +13451,6 @@
   ],
   "captures": [
     {
-      "route": "ruta_13",
-      "where": "Ruta 13",
-      "species": "Blastoise",
-      "nickname": "MERYL STRYFE",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 41,
-      "mon": "Blastoise"
-    },
-    {
       "route": "pueblo_paleta",
       "where": "Pueblo Paleta",
       "species": "Claydol",
@@ -13315,6 +13460,17 @@
       "category": "ciudad",
       "level": 3,
       "mon": "Claydol"
+    },
+    {
+      "route": "ruta_13",
+      "where": "Ruta 13",
+      "species": "Blastoise",
+      "nickname": "MERYL STRYFE",
+      "shiny": false,
+      "status": "dead",
+      "category": "salvaje",
+      "level": 41,
+      "mon": "Blastoise"
     },
     {
       "route": "ruta_2_norte",
@@ -13359,6 +13515,17 @@
       "category": "salvaje",
       "level": 21,
       "mon": "Hypno"
+    },
+    {
+      "route": "cueva_celeste",
+      "where": "Cueva Celeste",
+      "species": "Decidueye",
+      "nickname": "KILLER POLLO",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 57,
+      "mon": "Decidueye"
     },
     {
       "route": "",
@@ -14210,11 +14377,12 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_13": true,
       "pueblo_paleta": true,
+      "ruta_13": true,
       "ruta_2_norte": true,
       "ruta_14": true,
       "ruta_5": true,
+      "cueva_celeste": true,
       "ciudad_azulona": true,
       "pueblo_lavanda": true,
       "tunel_roca": true,
@@ -14300,7 +14468,8 @@
       "islas_espuma": true,
       "isla_canela": true,
       "ruta_19": true,
-      "mansion_quemada": true
+      "mansion_quemada": true,
+      "cueva_celeste": true
     },
     "switches": [
       48,
@@ -14394,7 +14563,10 @@
       213,
       214,
       216,
+      231,
+      232,
       238,
+      252,
       271,
       301,
       323,
@@ -14407,6 +14579,7 @@
       557
     ],
     "foundItems": [
+      "Acapsula",
       "Acopio Ball",
       "Activaobjeto",
       "Agua Fresca",
@@ -14434,6 +14607,7 @@
       "Baya Ango",
       "Baya Arabol",
       "Baya Chilan",
+      "Baya Chiri",
       "Baya Enigma",
       "Baya Gonlan",
       "Baya Grana",
@@ -14441,6 +14615,7 @@
       "Baya Hibis",
       "Baya Magua",
       "Baya Maranga",
+      "Baya Meloc",
       "Baya Pasio",
       "Baya Perasi",
       "Baya Pinia",
@@ -14448,6 +14623,7 @@
       "Baya Safre",
       "Baya Tamar",
       "Baya Tamate",
+      "Baya Yapati",
       "Baya Yecana",
       "Baya Zanama",
       "Baya Zidra",
@@ -14485,6 +14661,7 @@
       "Cuerda Huida",
       "Def. Esp. X 2",
       "Defensa X 2",
+      "Defensa X 6",
       "Diente Marino",
       "Disco Extraño",
       "Dracofósil",
@@ -14499,6 +14676,7 @@
       "Fósil Domo",
       "Fósil Garra",
       "Fósil Hélix",
+      "Fósil Tapa",
       "Franja Recia",
       "Gafa Protectora",
       "Gafas de Sol",
@@ -14511,6 +14689,7 @@
       "Gema Bicho",
       "Gema Dragón",
       "Gema Fantasma",
+      "Gema Fuego",
       "Gema Hielo",
       "Gema Lucha",
       "Gema Normal",
@@ -14523,6 +14702,7 @@
       "Gloria Ball",
       "Greninjita",
       "Griseosfera",
+      "Guante de Boxeo",
       "Hierba Revivir",
       "Hierro",
       "Hiperpoción",
@@ -14542,6 +14722,7 @@
       "Lupa",
       "Malasada Maxi",
       "Malla Ball",
+      "Manuscrito Sombras",
       "Máscara Horno",
       "Master Ball",
       "Mega-Aro",
@@ -14666,6 +14847,7 @@
       "Piedra Lunar",
       "Piedra Noche",
       "Piedra Oval",
+      "Piedra Trueno",
       "Plesiofósil",
       "Pluma Músculo",
       "Pluma Salud",
@@ -14698,6 +14880,7 @@
       "Revivir Máximo",
       "Roca del Rey",
       "Roca Lluvia",
+      "Rokikos",
       "Sana Ball",
       "Sarta Perlas",
       "Scizorita",
@@ -14727,6 +14910,7 @@
       "Trufa",
       "Tubérculo",
       "Turno Ball",
+      "Ultra Ball",
       "Velocidad X 2",
       "Veloz Ball",
       "Vial",
@@ -14815,7 +14999,7 @@
       {
         "id": "FOSSILIZEDDRAKE",
         "name": "Dracofósil",
-        "qty": 5,
+        "qty": 6,
         "pocket": "Objetos"
       },
       {
@@ -14911,7 +15095,7 @@
       {
         "id": "POISONGEM",
         "name": "Gema Veneno",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Objetos"
       },
       {
@@ -15287,6 +15471,36 @@
         "pocket": "Objetos"
       },
       {
+        "id": "COVERFOSSIL",
+        "name": "Fósil Tapa",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "PUNCHINGGLOVE",
+        "name": "Guante de Boxeo",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "SCROLLOFDARKNESS",
+        "name": "Manuscrito Sombras",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "THUNDERSTONE",
+        "name": "Piedra Trueno",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "FIREGEM",
+        "name": "Gema Fuego",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
         "qty": 374,
@@ -15385,7 +15599,7 @@
       {
         "id": "PARALYZEHEAL",
         "name": "Antiparalizador",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Medicinas"
       },
       {
@@ -15521,6 +15735,24 @@
         "pocket": "Medicinas"
       },
       {
+        "id": "PROTEIN",
+        "name": "Proteína",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "PEWTERCRUNCHIES",
+        "name": "Rokikos",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "ACapsula",
+        "name": "Acapsula",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
         "id": "HEAVYBALL",
         "name": "Peso Ball",
         "qty": 2,
@@ -15577,7 +15809,7 @@
       {
         "id": "ULTRABALL",
         "name": "Ultra Ball",
-        "qty": 7,
+        "qty": 4,
         "pocket": "Poké Balls"
       },
       {
@@ -16265,6 +16497,12 @@
         "pocket": "Bayas"
       },
       {
+        "id": "PECHABERRY",
+        "name": "Baya Meloc",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
         "id": "RAWSTBERRY",
         "name": "Baya Safre",
         "qty": 1,
@@ -16399,6 +16637,12 @@
       {
         "id": "GANLONBERRY",
         "name": "Baya Gonlan",
+        "qty": 2,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "PETAYABERRY",
+        "name": "Baya Yapati",
         "qty": 1,
         "pocket": "Bayas"
       },
@@ -16418,6 +16662,12 @@
         "id": "ENIGMABERRY",
         "name": "Baya Enigma",
         "qty": 2,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "CUSTAPBERRY",
+        "name": "Baya Chiri",
+        "qty": 1,
         "pocket": "Bayas"
       },
       {
@@ -16495,7 +16745,7 @@
       {
         "id": "RESETURGE",
         "name": "Quitaestado",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Objetos de combate"
       },
       {
@@ -16595,6 +16845,12 @@
         "pocket": "Objetos de combate"
       },
       {
+        "id": "XDEFENSE6",
+        "name": "Defensa X 6",
+        "qty": 1,
+        "pocket": "Objetos de combate"
+      },
+      {
         "id": "RULEBOOK",
         "name": "Reglamento",
         "qty": 1,
@@ -16607,8 +16863,8 @@
         "pocket": "Objetos clave"
       },
       {
-        "id": "VIAL",
-        "name": "Vial",
+        "id": "EMPTYVIAL",
+        "name": "Emptyvial",
         "qty": 1,
         "pocket": "Objetos clave"
       },
