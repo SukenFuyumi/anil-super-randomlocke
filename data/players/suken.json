@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 6h 58m jugadas · 455,560₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 6h 59m jugadas · 455,560₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -14607,6 +14607,7 @@
       "Baya Algama",
       "Baya Ango",
       "Baya Arabol",
+      "Baya Caoca",
       "Baya Chilan",
       "Baya Chiri",
       "Baya Enigma",
@@ -14807,6 +14808,7 @@
       "MT60",
       "MT61",
       "MT63",
+      "MT64",
       "MT66",
       "MT67",
       "MT69",
@@ -16192,6 +16194,12 @@
         "pocket": "MTs y MOs"
       },
       {
+        "id": "TM64",
+        "name": "MT64",
+        "qty": 1,
+        "pocket": "MTs y MOs"
+      },
+      {
         "id": "TM66",
         "name": "MT66",
         "qty": 1,
@@ -16554,13 +16562,13 @@
       {
         "id": "POMEGBERRY",
         "name": "Baya Grana",
-        "qty": 2,
+        "qty": 999,
         "pocket": "Bayas"
       },
       {
         "id": "POMEGBERRY",
         "name": "Baya Grana",
-        "qty": 999,
+        "qty": 2,
         "pocket": "Bayas"
       },
       {
@@ -16591,6 +16599,12 @@
         "id": "TAMATOBERRY",
         "name": "Baya Tamate",
         "qty": 991,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "OCCABERRY",
+        "name": "Baya Caoca",
+        "qty": 1,
         "pocket": "Bayas"
       },
       {
