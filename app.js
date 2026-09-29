@@ -842,10 +842,12 @@ function monCard(mon, opts = {}) {
 /* ---------- Cálculos de estado ---------- */
 /* extraDeaths = muertes que ya no están en el cementerio porque el Pokémon fue
    revivido con Ceniza Sagrada; la vida sigue consumida aunque el juego borre el rastro. */
-function playerStats(pdata, extraDeaths = 0) {
+function playerStats(pdata, extraDeaths) {
   const alive = (pdata.team || []).length + (pdata.box || []).length;
   const dead = (pdata.graveyard || []).length; // los que están en el cementerio ahora
-  const extra = Number(extraDeaths) || 0;       // revividos con ceniza (la vida sigue gastada)
+  // revividos con ceniza (la vida sigue gastada): usa el argumento si viene, si no el dato
+  // sincronizado por el companion (pdata.revividos).
+  const extra = Number(extraDeaths != null ? extraDeaths : (pdata.revividos || 0)) || 0;
   const used = (pdata.livesUsed ?? dead) + extra;
   const livesLeft = Math.max(0, (pdata.lives ?? 30) - used);
   return { alive, dead, revived: extra, used, livesLeft, lives: pdata.lives ?? 30, eliminated: livesLeft <= 0 && used > 0 };

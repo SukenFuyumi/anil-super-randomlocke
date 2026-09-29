@@ -307,6 +307,11 @@ function extract(buf, playerId, opts = {}) {
   party.forEach(p => pushMon(p, 'party'));
   boxes.forEach(b => (iv(b, '@pokemon') || []).forEach(p => pushMon(p, 'box')));
 
+  // IDs únicos (personalID) de los Pokémon actualmente en muerte permanente. El sync los
+  // acumula en un "deathLog" histórico para que una vida gastada NO se recupere aunque
+  // luego revivas al Pokémon con Cenizas Sagradas (Modo Asistido borra el flag del save).
+  const deadIds = graveyard.map(m => m._pid).filter(v => v != null && v !== 0 && v !== '0').map(v => String(v));
+
   // "Repetido": misma FAMILIA evolutiva presente 2+ veces entre equipo + PC + cementerio (los
   // muertos cuentan), igual que el juego. El MÁS ANTIGUO de cada familia (por [timeReceived,
   // personalID]) es el ORIGINAL y NO se marca; solo las copias posteriores llevan dup:true.
@@ -390,6 +395,7 @@ function extract(buf, playerId, opts = {}) {
     name: sname(iv(player, '@name')) || playerId,
     lives: 30,
     livesUsed: graveyard.length,
+    deadIds,
     champion: badges.filter(Boolean).length >= 8,
     notes: `Importado del save · ${hh}h ${mm}m jugadas · ${money.toLocaleString('es')}₽ · vidas en el juego: ${gameLives ?? '?'}`,
     team, box, graveyard,

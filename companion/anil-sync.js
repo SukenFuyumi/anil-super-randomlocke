@@ -13,7 +13,7 @@ const { extract } = require('./extract.js');
 const IS_PKG = !!process.pkg;
 const BASE_DIR = IS_PKG ? path.dirname(process.execPath) : __dirname;
 const CONFIG_PATH = path.join(BASE_DIR, 'config.json');
-const VERSION = '1.3.8';
+const VERSION = '1.3.9';
 
 // Fuente OFICIAL de actualizaciones del programa (NO depende del repo del grupo).
 // Así, cualquier mejora de AnilSync que se publique aquí llega a TODOS los grupos,
@@ -277,6 +277,34 @@ async function syncOnce(cfg, reason) {
   let data;
   try { data = extract(buf, cfg.playerId, { mapNames: loadMapNames() }); }
   catch (e) { err('No pude interpretar el save: ' + e.message); return; }
+
+  // --- Registro histórico de muertes: una vida gastada NO se recupera al revivir ---
+  // Modo Asistido permite resucitar con Cenizas Sagradas y borra el rastro del save, así que
+  // acumulamos por ID único todo Pokémon que alguna vez estuvo en muerte permanente.
+  try {
+    const curDead = Array.isArray(data.deadIds) ? data.deadIds : [];
+    let prevLog = [];
+    try {
+      const prev = JSON.parse(fs.readFileSync(path.join(BASE_DIR, cfg.playerId + '.json'), 'utf8'));
+      if (Array.isArray(prev.deathLog)) prevLog = prev.deathLog;
+    } catch (e) { /* sin copia local previa */ }
+    if (!cfg.dryRun) { // también desde la copia publicada (durabilidad + permite sembrar desde la web)
+      try {
+        const rel = cfg.github.pathTemplate.replace('{id}', cfg.playerId);
+        const g = await apiRequest('GET', `/repos/${cfg.github.owner}/${cfg.github.repo}/contents/${rel}?ref=` + encodeURIComponent(cfg.github.branch), cfg.github.token);
+        if (g.status === 200 && g.body && g.body.content) {
+          const rem = JSON.parse(Buffer.from(g.body.content, 'base64').toString('utf8'));
+          if (Array.isArray(rem.deathLog)) prevLog = Array.from(new Set([...prevLog, ...rem.deathLog]));
+        }
+      } catch (e) { /* remoto no disponible, seguimos con lo local */ }
+    }
+    const log = Array.from(new Set([...prevLog, ...curDead].map(String)));
+    data.deathLog = log;
+    const deadSet = new Set(curDead.map(String));
+    data.revividos = log.filter(pid => !deadSet.has(pid)).length; // murieron pero ya no están en el cementerio
+  } catch (e) { err('Aviso: no pude actualizar el registro de muertes: ' + e.message); }
+  delete data.deadIds;
+
   const jsonStr = JSON.stringify(data, null, 2);
   const hash = crypto.createHash('sha1').update(jsonStr).digest('hex');
   if (hash === lastHash) { log('Sin cambios (' + path.basename(file) + ').'); return; }
