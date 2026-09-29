@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 7h 13m jugadas · 474,640₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 7h 20m jugadas · 484,090₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -204,12 +204,12 @@
         3
       ],
       "ev": [
-        55,
-        130,
+        58,
+        136,
         61,
-        92,
-        44,
-        72
+        98,
+        46,
+        73
       ],
       "abilPool": [
         "Unidad Ecuestre"
@@ -586,12 +586,12 @@
         31
       ],
       "ev": [
-        39,
-        58,
+        42,
+        64,
         34,
-        44,
-        29,
-        28
+        50,
+        31,
+        29
       ],
       "abilPool": [
         "Respondón"
@@ -757,12 +757,12 @@
         24
       ],
       "ev": [
-        37,
-        55,
+        40,
+        61,
         27,
-        39,
-        27,
-        24
+        45,
+        29,
+        25
       ],
       "abilPool": [
         "Funda",
@@ -1685,6 +1685,8 @@
       ],
       "tmMoves": [
         "Amnesia",
+        "Antojo",
+        "Beso Drenaje",
         "Bomba Ígnea",
         "Campo de Hierba",
         "Chorro de Vapor",
@@ -1695,8 +1697,11 @@
         "Electropico",
         "Espabila",
         "Garra Dragón",
+        "Glaceoprisma",
+        "Hoja Aguda",
         "Hueso Sombrío",
         "Infortunio",
+        "Inversión",
         "Isoguardia",
         "Lengüetazo",
         "Malicioso",
@@ -1705,16 +1710,21 @@
         "Mismo Destino",
         "Moluscañón",
         "Picotazo Veneno",
+        "Pirueta Helada",
         "Placaje",
         "Plancha",
+        "Plancha Corporal",
         "Psicocarga",
         "Pulso Cura",
         "Puño Cometa",
         "Represalia",
         "Rodillo de Púas",
+        "Tajo Metralla",
+        "Taladradora",
         "Tinieblas",
         "Trampa Venenosa",
-        "Transformación"
+        "Transformación",
+        "Última Palabra"
       ],
       "firstMoves": [
         "Avivar",
@@ -14690,6 +14700,7 @@
       213,
       214,
       216,
+      229,
       231,
       232,
       233,
@@ -14698,6 +14709,10 @@
       236,
       237,
       238,
+      239,
+      240,
+      241,
+      242,
       252,
       271,
       301,
@@ -15015,6 +15030,7 @@
       "Revivir Máximo",
       "Roca del Rey",
       "Roca Lluvia",
+      "Rockclimbitem",
       "Rokikos",
       "Sana Ball",
       "Sarta Perlas",
@@ -15800,7 +15816,7 @@
       {
         "id": "CALCIUM",
         "name": "Calcio",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Medicinas"
       },
       {
@@ -17010,8 +17026,8 @@
         "pocket": "Objetos clave"
       },
       {
-        "id": "EMPTYVIAL",
-        "name": "Emptyvial",
+        "id": "VIAL",
+        "name": "Vial",
         "qty": 1,
         "pocket": "Objetos clave"
       },
@@ -17126,6 +17142,12 @@
       {
         "id": "SURFITEM",
         "name": "Surfitem",
+        "qty": 1,
+        "pocket": "Objetos clave"
+      },
+      {
+        "id": "ROCKCLIMBITEM",
+        "name": "Rockclimbitem",
         "qty": 1,
         "pocket": "Objetos clave"
       }
