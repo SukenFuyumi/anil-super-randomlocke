@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 5h 26m jugadas · 389,950₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 5h 28m jugadas · 398,800₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -204,12 +204,12 @@
         3
       ],
       "ev": [
-        38,
+        41,
         95,
-        43,
-        71,
+        45,
+        76,
         36,
-        62
+        64
       ],
       "abilPool": [
         "Unidad Ecuestre"
@@ -586,12 +586,12 @@
         31
       ],
       "ev": [
-        22,
+        25,
         23,
-        16,
-        23,
+        18,
+        28,
         21,
-        18
+        20
       ],
       "abilPool": [
         "Respondón"
@@ -757,12 +757,12 @@
         24
       ],
       "ev": [
+        23,
         20,
-        20,
-        9,
-        18,
+        11,
+        23,
         19,
-        14
+        16
       ],
       "abilPool": [
         "Funda",
@@ -14203,7 +14203,8 @@
       "gym3": true,
       "gym4": true,
       "gym5": true,
-      "gym6": true
+      "gym6": true,
+      "gym7": true
     },
     "bosses": {},
     "npcs": {},
@@ -14388,6 +14389,8 @@
       209,
       210,
       211,
+      212,
+      213,
       214,
       216,
       238,
@@ -14528,6 +14531,7 @@
       "Incienso Suave",
       "Incubadora",
       "Inteleonita",
+      "Lazo Destino",
       "Lente de la Verdad",
       "Lente Recia",
       "Limonada",
@@ -14547,6 +14551,7 @@
       "Menta Grosera",
       "Menta Mansa",
       "Menta Miedosa",
+      "Menta Osada",
       "Menta Pícara",
       "Metrónomo",
       "Mineral Evol",
@@ -14685,6 +14690,7 @@
       "Refleluz",
       "Reglamento",
       "Resguardo",
+      "Resistfeather",
       "Restos",
       "Revest. Metálico",
       "Revivir",
@@ -14748,7 +14754,7 @@
       {
         "id": "EJECTBUTTON",
         "name": "Botón Escape",
-        "qty": 3,
+        "qty": 4,
         "pocket": "Objetos"
       },
       {
@@ -15268,6 +15274,18 @@
         "pocket": "Objetos"
       },
       {
+        "id": "LEFTOVERS",
+        "name": "Restos",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "DESTINYKNOT",
+        "name": "Lazo Destino",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
         "qty": 416,
@@ -15300,7 +15318,7 @@
       {
         "id": "CENIZASSAGRADAS",
         "name": "Cenizas Sagradas",
-        "qty": 6,
+        "qty": 7,
         "pocket": "Medicinas"
       },
       {
@@ -15486,6 +15504,18 @@
       {
         "id": "CLEVERMOCHI",
         "name": "Mochi Mente",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "BOLDMINT",
+        "name": "Menta Osada",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "RESISTFEATHER",
+        "name": "Resistfeather",
         "qty": 1,
         "pocket": "Medicinas"
       },
@@ -16576,8 +16606,8 @@
         "pocket": "Objetos clave"
       },
       {
-        "id": "EMPTYVIAL",
-        "name": "Emptyvial",
+        "id": "VIAL",
+        "name": "Vial",
         "qty": 1,
         "pocket": "Objetos clave"
       },
