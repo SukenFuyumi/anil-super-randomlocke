@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 7h 4m jugadas · 466,100₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 7h 5m jugadas · 466,100₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -14418,7 +14418,8 @@
       "ruta_1": true,
       "ruta_9": true,
       "ruta_8": true,
-      "ruta_16": true
+      "ruta_16": true,
+      "bosque_celeste": true
     },
     "items": {},
     "encounters": {
