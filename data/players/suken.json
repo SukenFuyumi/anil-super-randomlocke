@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 6h 59m jugadas · 455,560₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 7h 4m jugadas · 466,100₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -204,9 +204,9 @@
         3
       ],
       "ev": [
-        47,
-        125,
-        54,
+        51,
+        129,
+        59,
         89,
         42,
         70
@@ -586,9 +586,9 @@
         31
       ],
       "ev": [
-        31,
-        53,
-        27,
+        35,
+        57,
+        32,
         41,
         27,
         26
@@ -757,9 +757,9 @@
         24
       ],
       "ev": [
-        29,
-        50,
-        20,
+        33,
+        54,
+        25,
         36,
         25,
         22
@@ -14566,6 +14566,7 @@
       234,
       235,
       236,
+      237,
       238,
       252,
       271,
