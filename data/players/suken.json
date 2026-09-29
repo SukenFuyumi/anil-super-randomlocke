@@ -4,12 +4,12 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": false,
-  "notes": "Importado del save · 5h 32m jugadas · 398,800₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 5h 34m jugadas · 398,800₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
       "species": "Blastoise",
-      "level": 59,
+      "level": 66,
       "types": [
         "Agua"
       ],
@@ -180,7 +180,7 @@
     {
       "nickname": "MONARCA",
       "species": "Claydol",
-      "level": 59,
+      "level": 66,
       "types": [
         "Tierra",
         "Psíquico"
@@ -384,7 +384,7 @@
     {
       "nickname": "AL",
       "species": "Sudowoodo",
-      "level": 59,
+      "level": 66,
       "types": [
         "Roca"
       ],
@@ -561,7 +561,7 @@
     {
       "nickname": "FOXCONN",
       "species": "Ninetales (Alola)",
-      "level": 59,
+      "level": 66,
       "types": [
         "Hielo",
         "Hada"
@@ -733,7 +733,7 @@
     {
       "nickname": "XD",
       "species": "Bellibolt",
-      "level": 59,
+      "level": 66,
       "types": [
         "Eléctrico"
       ],
@@ -887,7 +887,7 @@
     {
       "nickname": "DREAMS",
       "species": "Hypno",
-      "level": 59,
+      "level": 66,
       "types": [
         "Psíquico"
       ],
@@ -1037,6 +1037,7 @@
         "Picotazo Veneno",
         "Pin Misil",
         "Plancha Corporal",
+        "Planta Feroz",
         "Psicocarga",
         "Psicocolmillo",
         "Pulso Cura",
@@ -15288,7 +15289,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 416,
+        "qty": 374,
         "pocket": "Medicinas"
       },
       {
