@@ -3,8 +3,8 @@
   "name": "Suken",
   "lives": 30,
   "livesUsed": 8,
-  "champion": false,
-  "notes": "Importado del save · 7h 20m jugadas · 484,090₽ · vidas en el juego: -1",
+  "champion": true,
+  "notes": "Importado del save · 7h 40m jugadas · 472,000₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "MERYL STRYFE",
@@ -204,12 +204,12 @@
         3
       ],
       "ev": [
-        58,
-        136,
-        61,
-        98,
-        46,
-        73
+        66,
+        146,
+        67,
+        103,
+        52,
+        74
       ],
       "abilPool": [
         "Unidad Ecuestre"
@@ -586,12 +586,12 @@
         31
       ],
       "ev": [
-        42,
-        64,
-        34,
         50,
-        31,
-        29
+        74,
+        40,
+        55,
+        37,
+        30
       ],
       "abilPool": [
         "Respondón"
@@ -757,12 +757,12 @@
         24
       ],
       "ev": [
-        40,
-        61,
-        27,
-        45,
-        29,
-        25
+        48,
+        71,
+        33,
+        50,
+        35,
+        26
       ],
       "abilPool": [
         "Funda",
@@ -10089,30 +10089,31 @@
       "spriteKey": "TOXAPEX"
     },
     {
-      "nickname": "PUTA MIERDA4",
-      "species": "Furret",
+      "nickname": "Marshadow",
+      "species": "Marshadow",
       "level": 21,
       "types": [
-        "Normal"
+        "Lucha",
+        "Fantasma"
       ],
-      "ability": "Transportarrocas",
-      "nature": "Alocada",
+      "ability": "Despiste",
+      "nature": "Floja",
       "item": "",
       "shiny": false,
       "moves": [
-        "Llave Vital",
-        "Terratemblor",
-        "Destello",
-        "Acua Jet"
+        "Antiaéreo",
+        "Aromaterapia",
+        "Bomba Fango",
+        "Aullido"
       ],
-      "origin": "primer_ruta",
+      "origin": "don_prodigio",
       "iv": [
-        9,
-        19,
-        10,
-        29,
-        21,
-        22
+        2,
+        2,
+        28,
+        20,
+        0,
+        25
       ],
       "ev": [
         0,
@@ -10123,92 +10124,285 @@
         0
       ],
       "abilPool": [
-        "Transportarrocas"
+        "Despiste"
       ],
-      "abilHidden": [
-        "Primer Auxilio"
-      ],
+      "abilHidden": [],
       "learnset": [
         {
-          "lvl": -1,
+          "lvl": 1,
           "m": "Brazo Pincho"
         },
         {
           "lvl": 1,
-          "m": "Daño Secreto"
+          "m": "Tajo Acuático"
         },
         {
           "lvl": 1,
-          "m": "Anulación"
+          "m": "Ronquido"
         },
         {
           "lvl": 1,
-          "m": "Rugido"
+          "m": "Giro Rápido"
         },
         {
           "lvl": 1,
-          "m": "Onda Simple"
+          "m": "Pantalla de Luz"
         },
         {
           "lvl": 1,
-          "m": "Otra Vez"
+          "m": "Puño Furia"
         },
         {
           "lvl": 1,
-          "m": "Llave Vital"
+          "m": "Auxilio"
         },
         {
-          "lvl": 13,
-          "m": "Terratemblor"
+          "lvl": 1,
+          "m": "Tormento"
         },
         {
-          "lvl": 17,
+          "lvl": 1,
+          "m": "Magnitud"
+        },
+        {
+          "lvl": 9,
+          "m": "Antiaéreo"
+        },
+        {
+          "lvl": 15,
+          "m": "Aromaterapia"
+        },
+        {
+          "lvl": 18,
+          "m": "Bomba Fango"
+        },
+        {
+          "lvl": 20,
+          "m": "Aullido"
+        },
+        {
+          "lvl": 27,
           "m": "Destello"
         },
         {
-          "lvl": 21,
-          "m": "Acua Jet"
-        },
-        {
-          "lvl": 28,
-          "m": "Tragar"
-        },
-        {
-          "lvl": 32,
-          "m": "Tajo Metralla"
+          "lvl": 35,
+          "m": "Pugnachoque"
         },
         {
           "lvl": 36,
-          "m": "Cañón Batidor"
+          "m": "Aguzar"
         },
         {
-          "lvl": 42,
-          "m": "Puño Jet"
+          "lvl": 45,
+          "m": "Fragor Escamas"
         },
         {
-          "lvl": 46,
-          "m": "Estruendo"
+          "lvl": 45,
+          "m": "Avalancha"
         },
         {
-          "lvl": 50,
-          "m": "Recogearena"
+          "lvl": 54,
+          "m": "Telépata"
         },
         {
-          "lvl": 50,
-          "m": "Carámbano"
+          "lvl": 63,
+          "m": "Puño Dinámico"
         },
         {
-          "lvl": 56,
-          "m": "Puño Sombra"
+          "lvl": 72,
+          "m": "Maldición"
+        },
+        {
+          "lvl": 81,
+          "m": "Filo Potente"
+        },
+        {
+          "lvl": 90,
+          "m": "Nitrochoque"
+        },
+        {
+          "lvl": 99,
+          "m": "Atiborramiento"
         }
       ],
       "firstMoves": [
-        "Llave Vital",
-        "Terratemblor",
-        "Destello",
-        "Acua Jet"
+        "Antiaéreo",
+        "Aromaterapia",
+        "Bomba Fango",
+        "Aullido"
       ],
-      "spriteKey": "FURRET"
+      "spriteKey": "MARSHADOW"
+    },
+    {
+      "nickname": "Uniqua",
+      "species": "Goodra (Hisui)",
+      "level": 66,
+      "types": [
+        "Acero",
+        "Dragón"
+      ],
+      "ability": "Turbollama",
+      "nature": "Firme",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Megacuerno",
+        "Autosugestión",
+        "Superdiente",
+        "Buena Baza"
+      ],
+      "extra": true,
+      "iv": [
+        19,
+        25,
+        20,
+        30,
+        9,
+        8
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Inicio Lento",
+        "Turbollama"
+      ],
+      "abilHidden": [
+        "Toque Ardiente"
+      ],
+      "learnset": [
+        {
+          "lvl": 0,
+          "m": "Salmuera"
+        },
+        {
+          "lvl": 1,
+          "m": "Autotomía"
+        },
+        {
+          "lvl": 1,
+          "m": "Estrujón"
+        },
+        {
+          "lvl": 1,
+          "m": "Yo Primero"
+        },
+        {
+          "lvl": 1,
+          "m": "Conversión2"
+        },
+        {
+          "lvl": 1,
+          "m": "Beso Dulce"
+        },
+        {
+          "lvl": 1,
+          "m": "Tumba Rocas"
+        },
+        {
+          "lvl": 1,
+          "m": "Aligerar"
+        },
+        {
+          "lvl": 1,
+          "m": "Cambiavelocidad"
+        },
+        {
+          "lvl": 15,
+          "m": "Cambio de Marcha"
+        },
+        {
+          "lvl": 20,
+          "m": "Danza Amiga"
+        },
+        {
+          "lvl": 25,
+          "m": "Espora"
+        },
+        {
+          "lvl": 30,
+          "m": "Disparo Espejo"
+        },
+        {
+          "lvl": 35,
+          "m": "Megacuerno"
+        },
+        {
+          "lvl": 43,
+          "m": "Autosugestión"
+        },
+        {
+          "lvl": 49,
+          "m": "Superdiente"
+        },
+        {
+          "lvl": 49,
+          "m": "Buena Baza"
+        },
+        {
+          "lvl": 58,
+          "m": "Conversión"
+        },
+        {
+          "lvl": 67,
+          "m": "Rueda Doble"
+        }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Absorbefuerza",
+        "Alboroto",
+        "Amnesia",
+        "Beso Drenaje",
+        "Cadena Virulenta",
+        "Ciclón",
+        "Danza Caos",
+        "Decoración",
+        "Desarme",
+        "Embate Supremo",
+        "Espeaura",
+        "Estruendo Escama",
+        "Finta",
+        "Garra Dragón",
+        "Golpe Umbrío",
+        "Hoja Aguda",
+        "Inversión",
+        "Láser Doble",
+        "Lengüetazo",
+        "Mismo Destino",
+        "Moluscañón",
+        "Nitrocarga",
+        "Núcleo Castigo",
+        "Patada Baja",
+        "Picotazo Veneno",
+        "Pin Misil",
+        "Pirueta Helada",
+        "Plancha Corporal",
+        "Planta Feroz",
+        "Puya Nociva",
+        "Represalia",
+        "Rodillo de Púas",
+        "Sonámbulo",
+        "Tajo Metralla",
+        "Taladradora",
+        "Tinieblas",
+        "Trampa Rocas",
+        "Última Palabra",
+        "Umbreozona"
+      ],
+      "firstMoves": [
+        "Megacuerno",
+        "Autosugestión",
+        "Superdiente",
+        "Buena Baza"
+      ],
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10242.png",
+      "spriteKey": "GOODRA_1"
     },
     {
       "nickname": "OBDCALAMORSA",
@@ -14257,15 +14451,26 @@
       "mon": "Toxapex"
     },
     {
-      "route": "ruta_6",
-      "where": "Ruta 6",
-      "species": "Furret",
-      "nickname": "PUTA MIERDA4",
+      "route": "",
+      "where": "Isla Canela",
+      "species": "Marshadow",
+      "nickname": "",
+      "shiny": false,
+      "status": "captured",
+      "category": "intercambio",
+      "level": 21,
+      "mon": "Marshadow"
+    },
+    {
+      "route": "isla_canela",
+      "where": "Isla Canela",
+      "species": "Goodra",
+      "nickname": "Uniqua",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 21,
-      "mon": "Furret"
+      "level": 54,
+      "mon": "Goodra"
     },
     {
       "route": "ruta_5",
@@ -14507,7 +14712,8 @@
       "gym4": true,
       "gym5": true,
       "gym6": true,
-      "gym7": true
+      "gym7": true,
+      "gym8": true
     },
     "bosses": {},
     "npcs": {},
@@ -14700,6 +14906,10 @@
       213,
       214,
       216,
+      225,
+      226,
+      227,
+      228,
       229,
       231,
       232,
@@ -14753,6 +14963,7 @@
       "Baya Algama",
       "Baya Ango",
       "Baya Arabol",
+      "Baya Baribá",
       "Baya Caoca",
       "Baya Chilan",
       "Baya Chiri",
@@ -14762,6 +14973,7 @@
       "Baya Guaya",
       "Baya Hibis",
       "Baya Jaboca",
+      "Baya Kebia",
       "Baya Magua",
       "Baya Maranga",
       "Baya Meloc",
@@ -14801,6 +15013,7 @@
       "Cinta Elección",
       "Cinta Fuerte",
       "Cinturón Negro",
+      "Cola Plúmbea",
       "Cola Skitty",
       "Colmillo de Dragón",
       "Corazón Dulce",
@@ -14839,6 +15052,7 @@
       "Gema Dragón",
       "Gema Fantasma",
       "Gema Fuego",
+      "Gema Hada",
       "Gema Hielo",
       "Gema Lucha",
       "Gema Normal",
@@ -14861,6 +15075,7 @@
       "Incienso Suave",
       "Incubadora",
       "Inteleonita",
+      "Laprasite",
       "Lazo Destino",
       "Lente de la Verdad",
       "Lente Recia",
@@ -14981,6 +15196,7 @@
       "MT99",
       "Nerviosfera",
       "Nido Ball",
+      "Ornitofósil",
       "Pañuelo de Seda",
       "Pañuelo Elección",
       "Parte Amarilla",
@@ -15034,6 +15250,7 @@
       "Rokikos",
       "Sana Ball",
       "Sarta Perlas",
+      "Scapsula",
       "Scizorita",
       "Semilla Hierba",
       "Servicio Raro",
@@ -15252,7 +15469,7 @@
       {
         "id": "AIRBALLOON",
         "name": "Globo Helio",
-        "qty": 2,
+        "qty": 3,
         "pocket": "Objetos"
       },
       {
@@ -15486,7 +15703,7 @@
       {
         "id": "SHARPBEAK",
         "name": "Pico Afilado",
-        "qty": 2,
+        "qty": 3,
         "pocket": "Objetos"
       },
       {
@@ -15652,9 +15869,45 @@
         "pocket": "Objetos"
       },
       {
+        "id": "CLAWFOSSIL",
+        "name": "Fósil Garra",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "RELICCOPPER",
+        "name": "Real Cobre",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "REDSHARD",
+        "name": "Parte Roja",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "FAIRYGEM",
+        "name": "Gema Hada",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "FOSSILIZEDBIRD",
+        "name": "Ornitofósil",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
+        "id": "LAGGINGTAIL",
+        "name": "Cola Plúmbea",
+        "qty": 1,
+        "pocket": "Objetos"
+      },
+      {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 374,
+        "qty": 362,
         "pocket": "Medicinas"
       },
       {
@@ -15684,7 +15937,7 @@
       {
         "id": "CENIZASSAGRADAS",
         "name": "Cenizas Sagradas",
-        "qty": 6,
+        "qty": 7,
         "pocket": "Medicinas"
       },
       {
@@ -15904,6 +16157,24 @@
         "pocket": "Medicinas"
       },
       {
+        "id": "LEMONADE",
+        "name": "Limonada",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "SCapsula",
+        "name": "Scapsula",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
+        "id": "POTION",
+        "name": "Poción",
+        "qty": 1,
+        "pocket": "Medicinas"
+      },
+      {
         "id": "HEAVYBALL",
         "name": "Peso Ball",
         "qty": 2,
@@ -15918,7 +16189,7 @@
       {
         "id": "PREMIERBALL",
         "name": "Honor Ball",
-        "qty": 14,
+        "qty": 19,
         "pocket": "Poké Balls"
       },
       {
@@ -15997,6 +16268,12 @@
         "id": "LOVEBALL",
         "name": "Amor Ball",
         "qty": 1,
+        "pocket": "Poké Balls"
+      },
+      {
+        "id": "ULTRABALL",
+        "name": "Ultra Ball",
+        "qty": 48,
         "pocket": "Poké Balls"
       },
       {
@@ -16774,9 +17051,21 @@
         "pocket": "Bayas"
       },
       {
+        "id": "KEBIABERRY",
+        "name": "Baya Kebia",
+        "qty": 1,
+        "pocket": "Bayas"
+      },
+      {
         "id": "TANGABERRY",
         "name": "Baya Yecana",
         "qty": 2,
+        "pocket": "Bayas"
+      },
+      {
+        "id": "BABIRIBERRY",
+        "name": "Baya Baribá",
+        "qty": 1,
         "pocket": "Bayas"
       },
       {
@@ -16906,6 +17195,12 @@
         "pocket": "Piedras Mega"
       },
       {
+        "id": "LAPRASITE",
+        "name": "Laprasite",
+        "qty": 1,
+        "pocket": "Piedras Mega"
+      },
+      {
         "id": "RESETURGE",
         "name": "Quitaestado",
         "qty": 2,
@@ -17010,7 +17305,7 @@
       {
         "id": "XDEFENSE6",
         "name": "Defensa X 6",
-        "qty": 1,
+        "qty": 2,
         "pocket": "Objetos de combate"
       },
       {
