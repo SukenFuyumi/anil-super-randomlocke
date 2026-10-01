@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": true,
-  "notes": "Importado del save · 7h 53m jugadas · 472,000₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 7h 55m jugadas · 472,000₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "NIDRANA",
@@ -195,21 +195,21 @@
     },
     {
       "nickname": "CAMION",
-      "species": "Charjabug",
-      "level": 16,
+      "species": "Vikavolt",
+      "level": 75,
       "types": [
         "Bicho",
         "Eléctrico"
       ],
-      "ability": "Telepatía",
+      "ability": "Poder Fúngico",
       "nature": "Alegre",
       "item": "",
       "shiny": false,
       "moves": [
-        "Isofuerza",
+        "Ida y Vuelta",
         "Pikaturbo",
-        "Amago",
-        "Defensa Férrea"
+        "Luminicola",
+        "Luna Roja"
       ],
       "iv": [
         30,
@@ -228,80 +228,150 @@
         0
       ],
       "abilPool": [
-        "Telepatía"
+        "Poder Fúngico"
       ],
       "abilHidden": [],
       "learnset": [
         {
           "lvl": -1,
-          "m": "Picadura"
+          "m": "Destello"
+        },
+        {
+          "lvl": -1,
+          "m": "Bola Hielo"
+        },
+        {
+          "lvl": -1,
+          "m": "Llama Protectora"
+        },
+        {
+          "lvl": -1,
+          "m": "Aguzar"
         },
         {
           "lvl": 1,
-          "m": "Cola Veneno"
+          "m": "Brinco"
         },
         {
           "lvl": 1,
-          "m": "Isofuerza"
+          "m": "Tóxico"
         },
         {
           "lvl": 1,
-          "m": "Pikaturbo"
+          "m": "Telépata"
         },
         {
           "lvl": 1,
-          "m": "Amago"
+          "m": "Destructor"
+        },
+        {
+          "lvl": 1,
+          "m": "Decalcomanía"
+        },
+        {
+          "lvl": 1,
+          "m": "Fijar Blanco"
+        },
+        {
+          "lvl": 1,
+          "m": "Ronquido"
+        },
+        {
+          "lvl": 1,
+          "m": "Cerrojo Feérico"
         },
         {
           "lvl": 15,
-          "m": "Defensa Férrea"
+          "m": "Eco Metálico"
         },
         {
           "lvl": 19,
-          "m": "Represalia"
+          "m": "Velo Aurora"
         },
         {
           "lvl": 23,
-          "m": "Ida y Vuelta"
+          "m": "Paz Mental"
         },
         {
           "lvl": 29,
-          "m": "Maquinación"
+          "m": "Reserva"
         },
         {
           "lvl": 36,
-          "m": "Escudo Tatami"
-        },
-        {
-          "lvl": 37,
-          "m": "Conversión2"
+          "m": "Danza Lunar"
         },
         {
           "lvl": 43,
-          "m": "Luminicola"
+          "m": "Plancha"
         },
         {
-          "lvl": 49,
-          "m": "Trampa Venenosa"
+          "lvl": 43,
+          "m": "Pataleta"
+        },
+        {
+          "lvl": 45,
+          "m": "Vozarrón"
         },
         {
           "lvl": 50,
-          "m": "Colmillo Rayo"
-        },
-        {
-          "lvl": 54,
-          "m": "Puño Meteoro"
+          "m": "Cepo"
         },
         {
           "lvl": 57,
-          "m": "Luna Roja"
+          "m": "Tijera X"
         },
         {
           "lvl": 64,
-          "m": "Tormenta Floral"
+          "m": "Rompecoraza"
         }
       ],
       "tmMoves": [
+        "A Defender",
+        "Absorber",
+        "Alboroto",
+        "Alud",
+        "Amnesia",
+        "Anclaje",
+        "Asta Drenaje",
+        "Atadura",
+        "Cabeza Sorpresa",
+        "Choque Anímico",
+        "Ciclón",
+        "Conversión",
+        "Danza Acuática",
+        "Desarme",
+        "Doble Golpe",
+        "Eco Metálico",
+        "Electropico",
+        "Espeaura",
+        "Espora",
+        "Estruendo Escama",
+        "Finta",
+        "Garra Dragón",
+        "Golpe Oscuro",
+        "Isoguardia",
+        "Maquinación",
+        "Mil Temblores",
+        "Mirada Heladora",
+        "Nitrocarga",
+        "Nitrochoque",
+        "Núcleo Castigo",
+        "Pin Misil",
+        "Placaje",
+        "Plancha",
+        "Plancha Corporal",
+        "Psicocarga",
+        "Psicocolmillo",
+        "Pulso Cura",
+        "Puntapié",
+        "Relevo",
+        "Represalia",
+        "Rodillo de Púas",
+        "Sol Matinal",
+        "Tajo Umbrío",
+        "Tinieblas",
+        "Último Lugar",
+        "Vendaval",
         "Voltio Cruel"
       ],
       "firstMoves": [
@@ -310,7 +380,7 @@
         "Amago",
         "Defensa Férrea"
       ],
-      "spriteKey": "CHARJABUG"
+      "spriteKey": "VIKAVOLT"
     },
     {
       "nickname": "PIPOMAN",
@@ -13862,13 +13932,13 @@
     {
       "route": "monte_moon_exterior",
       "where": "Monte Moon Exterior",
-      "species": "Charjabug",
+      "species": "Vikavolt",
       "nickname": "CAMION",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
       "level": 16,
-      "mon": "Charjabug"
+      "mon": "Vikavolt"
     },
     {
       "route": "ruta_2_sur",
@@ -15987,7 +16057,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 294,
+        "qty": 735,
         "pocket": "Medicinas"
       },
       {
