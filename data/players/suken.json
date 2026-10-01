@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": true,
-  "notes": "Importado del save · 8h 0m jugadas · 472,000₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 8h 2m jugadas · 472,000₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "NIDRANA",
@@ -384,18 +384,19 @@
     },
     {
       "nickname": "PIPOMAN",
-      "species": "Poipole",
-      "level": 49,
+      "species": "Naganadel",
+      "level": 75,
       "types": [
-        "Veneno"
+        "Veneno",
+        "Dragón"
       ],
-      "ability": "Nado Rápido",
+      "ability": "",
       "nature": "Huraña",
       "item": "",
       "shiny": false,
       "moves": [
         "Glaceoprisma",
-        "Mirada Heladora",
+        "Núcleo Castigo",
         "Cadena Virulenta",
         "Marcha Espectral"
       ],
@@ -417,114 +418,136 @@
         0
       ],
       "abilPool": [
-        "Nado Rápido"
+        "Electromotor"
       ],
       "abilHidden": [],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Refuerzo"
+          "m": "Mismo Destino"
         },
         {
           "lvl": 1,
-          "m": "Tajo Metralla"
+          "m": "Pin Misil"
         },
         {
           "lvl": 1,
-          "m": "Onda Trueno"
+          "m": "Rompecoraza"
         },
         {
           "lvl": 1,
-          "m": "Arraigo"
+          "m": "Carga Parábola"
         },
         {
           "lvl": 1,
-          "m": "Enrosque"
+          "m": "Giro Mortífero"
+        },
+        {
+          "lvl": 1,
+          "m": "Polución"
+        },
+        {
+          "lvl": 1,
+          "m": "Meditación"
         },
         {
           "lvl": 7,
-          "m": "Roca Veloz"
+          "m": "Bramido Dragón"
         },
         {
           "lvl": 14,
-          "m": "Foco"
+          "m": "Gravedad"
         },
         {
           "lvl": 21,
-          "m": "Vasto Impacto"
+          "m": "Kinético"
         },
         {
           "lvl": 28,
-          "m": "Rueda Fuego"
+          "m": "Golpe Rastrero"
         },
         {
           "lvl": 35,
-          "m": "Corpulencia"
-        },
-        {
-          "lvl": 42,
-          "m": "Anticura"
-        },
-        {
-          "lvl": 49,
           "m": "Eructo"
         },
         {
+          "lvl": 42,
+          "m": "Tajo Aéreo"
+        },
+        {
+          "lvl": 47,
+          "m": "Látigo Cepa"
+        },
+        {
+          "lvl": 49,
+          "m": "Mil Púas Tóxicas"
+        },
+        {
           "lvl": 56,
-          "m": "Gigaimpacto"
+          "m": "Colmillo Rayo"
         },
         {
           "lvl": 63,
-          "m": "Danza Dragón"
+          "m": "Cometa Draco"
+        },
+        {
+          "lvl": 70,
+          "m": "Conjuro Funesto"
         }
       ],
       "tmMoves": [
-        "Absorbefuerza",
+        "Alboroto",
         "Amnesia",
         "Antojo",
-        "Atadura",
-        "Cabeza Sorpresa",
+        "Asta Drenaje",
         "Cadena Virulenta",
-        "Campo de Hierba",
-        "Chorro de Vapor",
         "Copión",
+        "Danza Acuática",
         "Danza Caos",
-        "Decoración",
         "Desarme",
+        "Deslome",
         "Doble Golpe",
         "Eco Metálico",
-        "Electropico",
-        "Esquirla Helada",
+        "Espabila",
+        "Estruendo Escama",
+        "Flarembestida",
+        "Fotosíntesis",
+        "Garra Brutal",
+        "Garra Dragón",
         "Glaceoprisma",
         "Hueso Sombrío",
+        "Infortunio",
+        "Inversión",
+        "Isoguardia",
+        "Láser Doble",
         "Láser Prisma",
         "Lengüetazo",
-        "Maquinación",
-        "Marcha Espectral",
+        "Malicioso",
+        "Megapuño",
         "Mil Temblores",
         "Mirada Heladora",
         "Mismo Destino",
         "Moluscañón",
-        "Nitrocarga",
-        "Patada Baja",
-        "Picotazo",
+        "Niebla Aromática",
+        "Núcleo Castigo",
+        "Picotazo Veneno",
         "Pin Misil",
-        "Plancha",
+        "Pirueta Helada",
+        "Placaje",
         "Plancha Corporal",
+        "Planta Feroz",
+        "Pulso Cura",
         "Puño Drenaje",
-        "Puño Incremento",
-        "Puya Nociva",
+        "Puntapié",
         "Relajo",
         "Relevo",
-        "Rizo Defensa",
-        "Sol Matinal",
-        "Sonámbulo",
         "Tajo Metralla",
+        "Tajo Umbrío",
         "Taladradora",
-        "Trampa Rocas",
-        "Trampa Venenosa",
-        "Transformación",
-        "Último Lugar",
+        "Tinieblas",
+        "Umbreozona",
+        "Vendaval",
+        "Voltio Cruel",
         "Voto Agua"
       ],
       "firstMoves": [
@@ -533,7 +556,7 @@
         "Arraigo",
         "Enrosque"
       ],
-      "spriteKey": "POIPOLE"
+      "spriteKey": "NAGANADEL"
     },
     {
       "nickname": "OBDCALAMORSA",
@@ -13945,13 +13968,13 @@
     {
       "route": "ruta_2_sur",
       "where": "Ruta 2 Sur",
-      "species": "Poipole",
+      "species": "Naganadel",
       "nickname": "PIPOMAN",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
       "level": 6,
-      "mon": "Poipole"
+      "mon": "Naganadel"
     },
     {
       "route": "ruta_5",
@@ -16059,7 +16082,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 735,
+        "qty": 709,
         "pocket": "Medicinas"
       },
       {
