@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": true,
-  "notes": "Importado del save · 8h 8m jugadas · 472,000₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 8h 10m jugadas · 472,000₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "NIDRANA",
@@ -737,192 +737,31 @@
       "spriteKey": "WALREIN"
     },
     {
-      "nickname": "GREYMON",
-      "species": "Dratini",
-      "level": 25,
+      "nickname": "DRAGONA",
+      "species": "Arctibax",
+      "level": 26,
       "types": [
-        "Dragón"
+        "Dragón",
+        "Hielo"
       ],
-      "ability": "Don Floral",
-      "nature": "Mansa",
+      "ability": "Cortante",
+      "nature": "Firme",
       "item": "",
       "shiny": false,
       "moves": [
-        "Choque Anímico",
-        "Golpe Oscuro",
-        "Vasto Impacto",
-        "Anclaje"
-      ],
-      "iv": [
-        26,
-        8,
-        26,
-        8,
-        3,
-        11
-      ],
-      "ev": [
-        5,
-        10,
-        2,
-        10,
-        5,
-        5
-      ],
-      "abilPool": [
-        "Don Floral"
-      ],
-      "abilHidden": [
-        "Dinamo"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Patada Baja"
-        },
-        {
-          "lvl": 1,
-          "m": "Colmillo Veneno"
-        },
-        {
-          "lvl": 5,
-          "m": "Destello"
-        },
-        {
-          "lvl": 10,
-          "m": "Gravedad"
-        },
-        {
-          "lvl": 15,
-          "m": "Bola Voltio"
-        },
-        {
-          "lvl": 15,
-          "m": "Impresionar"
-        },
-        {
-          "lvl": 20,
-          "m": "Eco Voz"
-        },
-        {
-          "lvl": 25,
-          "m": "Vasto Impacto"
-        },
-        {
-          "lvl": 31,
-          "m": "Ácido Málico"
-        },
-        {
-          "lvl": 35,
-          "m": "Cura Floral"
-        },
-        {
-          "lvl": 40,
-          "m": "Relevo"
-        },
-        {
-          "lvl": 45,
-          "m": "Huesomerang"
-        },
-        {
-          "lvl": 50,
-          "m": "Luminicola"
-        },
-        {
-          "lvl": 55,
-          "m": "Isofuerza"
-        },
-        {
-          "lvl": 60,
-          "m": "Buena Baza"
-        }
-      ],
-      "tmMoves": [
-        "Absorbefuerza",
-        "Absorber",
         "Alud",
-        "Amnesia",
-        "Anclaje",
-        "Cadena Virulenta",
-        "Choque Anímico",
-        "Clemencia",
-        "Copión",
-        "Danza Acuática",
-        "Danza Caos",
-        "Decoración",
-        "Desarme",
-        "Eco Metálico",
-        "Electropico",
-        "Estruendo Escama",
-        "Fotosíntesis",
-        "Fuerza Lunar",
-        "Garra Brutal",
-        "Garra Dragón",
-        "Golpe Oscuro",
-        "Golpe Roca",
-        "Inversión",
-        "Isoguardia",
-        "Láser Doble",
-        "Láser Prisma",
-        "Lengüetazo",
-        "Malicioso",
-        "Maquinación",
-        "Marcha Espectral",
-        "Megapuño",
-        "Mirada Heladora",
-        "Niebla Aromática",
-        "Nitrocarga",
-        "Nitrochoque",
-        "Núcleo Castigo",
-        "Picotazo",
-        "Pin Misil",
-        "Psicocarga",
-        "Puño Incremento",
-        "Puya Nociva",
-        "Relajo",
-        "Retracción",
-        "Rodillo de Púas",
-        "Sol Matinal",
-        "Sonámbulo",
-        "Tajo Metralla",
-        "Trampa Rocas",
-        "Trampa Venenosa",
-        "Transformación",
-        "Voto Agua"
-      ],
-      "firstMoves": [
-        "Patada Baja",
-        "Colmillo Veneno",
-        "Destello"
-      ],
-      "spriteKey": "DRATINI"
-    },
-    {
-      "nickname": "JIM",
-      "species": "Larvesta",
-      "level": 29,
-      "types": [
-        "Bicho",
-        "Fuego"
-      ],
-      "ability": "Espada Indómita",
-      "nature": "Plácida",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Cadena Virulenta",
-        "Láser Doble",
-        "Ciclón",
-        "Marcha Espectral"
+        "Vasto Impacto",
+        "Taladradora",
+        "Carámbano"
       ],
       "origin": "primer_ruta",
       "iv": [
-        25,
-        28,
-        12,
-        11,
-        9,
-        11
+        15,
+        16,
+        16,
+        30,
+        29,
+        28
       ],
       "ev": [
         0,
@@ -933,122 +772,122 @@
         0
       ],
       "abilPool": [
-        "Espada Indómita"
+        "Cortante",
+        "Armadura Frágil"
       ],
       "abilHidden": [
-        "Viscosecreción"
+        "Electrogénesis"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Cornada"
+          "m": "Cambiafuerza"
         },
         {
           "lvl": 1,
-          "m": "Corte Furia"
+          "m": "Electrificación"
+        },
+        {
+          "lvl": 1,
+          "m": "Vasto Impacto"
         },
         {
           "lvl": 6,
-          "m": "Colmillo Ígneo"
+          "m": "Alud"
         },
         {
           "lvl": 12,
-          "m": "Relajo"
+          "m": "Cascabel Cura"
         },
         {
           "lvl": 18,
-          "m": "Presente"
+          "m": "Megaagotar"
         },
         {
           "lvl": 24,
-          "m": "Condena Silvana"
+          "m": "Onda Simple"
         },
         {
-          "lvl": 30,
-          "m": "Día Soleado"
+          "lvl": 29,
+          "m": "Truco Floral"
         },
         {
-          "lvl": 36,
-          "m": "Vasta Guardia"
+          "lvl": 40,
+          "m": "Finta"
         },
         {
-          "lvl": 42,
-          "m": "Hidrocañón"
+          "lvl": 45,
+          "m": "Liofilización"
         },
         {
-          "lvl": 48,
-          "m": "Lluvia Ígnea"
+          "lvl": 50,
+          "m": "Orbes Espectro"
         },
         {
-          "lvl": 54,
-          "m": "Gigaimpacto"
-        },
-        {
-          "lvl": 60,
-          "m": "Psicocambio"
-        },
-        {
-          "lvl": 66,
-          "m": "Llama Embrujada"
-        },
-        {
-          "lvl": 80,
-          "m": "Pataleta"
-        },
-        {
-          "lvl": 90,
-          "m": "Triturar"
+          "lvl": 55,
+          "m": "Decalcomanía"
         }
       ],
       "tmMoves": [
-        "A Defender",
+        "Absorber",
+        "Alboroto",
+        "Alud",
+        "Amnesia",
+        "Antojo",
         "Atadura",
-        "Cabeza Sorpresa",
-        "Cadena Virulenta",
+        "Beso Drenaje",
+        "Bomba Ígnea",
+        "Carámbano",
+        "Chorro de Vapor",
         "Ciclón",
-        "Clemencia",
-        "Danza Caos",
+        "Confusión",
+        "Conversión",
+        "Danza Acuática",
         "Decoración",
-        "Desarme",
-        "Electropico",
-        "Flarembestida",
-        "Fotosíntesis",
-        "Fuerza Lunar",
-        "Garra Dragón",
+        "Doble Golpe",
+        "Eco Metálico",
+        "Espabila",
+        "Esquirla Helada",
         "Glaceoprisma",
-        "Hachazo Pétreo",
+        "Golpe Roca",
+        "Golpe Umbrío",
         "Hoja Aguda",
-        "Láser Doble",
+        "Hueso Sombrío",
+        "Infortunio",
+        "Lanzarrocas",
+        "Láser Prisma",
+        "Lengüetazo",
         "Llama Protectora",
-        "Marcha Espectral",
-        "Megapuño",
-        "Mil Temblores",
-        "Niebla Aromática",
-        "Nitrocarga",
-        "Núcleo Castigo",
+        "Maquinación",
+        "Moluscañón",
+        "Nitrochoque",
         "Patada Baja",
-        "Picotazo",
+        "Picotazo Veneno",
+        "Pin Misil",
         "Pirueta Helada",
+        "Placaje",
         "Plancha",
         "Plancha Corporal",
         "Psicocarga",
         "Pulso Cura",
         "Puño Drenaje",
-        "Puntapié",
-        "Represalia",
-        "Retracción",
-        "Rodillo de Púas",
-        "Sol Matinal",
+        "Relevo",
+        "Tajo Metralla",
+        "Taladradora",
+        "Tinieblas",
         "Trampa Rocas",
-        "Transformación"
+        "Transformación",
+        "Último Lugar",
+        "Voltio Cruel",
+        "Voto Agua"
       ],
       "firstMoves": [
-        "Colmillo Ígneo",
-        "Relajo",
-        "Presente",
-        "Condena Silvana"
+        "Alud",
+        "Cascabel Cura",
+        "Megaagotar",
+        "Onda Simple"
       ],
-      "spriteKey": "LARVESTA"
+      "spriteKey": "ARCTIBAX"
     }
   ],
   "box": [
@@ -2027,106 +1866,6 @@
       "spriteKey": "BASCULIN_3"
     },
     {
-      "nickname": "DRAGONA",
-      "species": "Arctibax",
-      "level": 26,
-      "types": [
-        "Dragón",
-        "Hielo"
-      ],
-      "ability": "Cortante",
-      "nature": "Firme",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Alud",
-        "Cascabel Cura",
-        "Megaagotar",
-        "Onda Simple"
-      ],
-      "origin": "primer_ruta",
-      "iv": [
-        15,
-        16,
-        16,
-        30,
-        29,
-        28
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Cortante",
-        "Armadura Frágil"
-      ],
-      "abilHidden": [
-        "Electrogénesis"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Cambiafuerza"
-        },
-        {
-          "lvl": 1,
-          "m": "Electrificación"
-        },
-        {
-          "lvl": 1,
-          "m": "Vasto Impacto"
-        },
-        {
-          "lvl": 6,
-          "m": "Alud"
-        },
-        {
-          "lvl": 12,
-          "m": "Cascabel Cura"
-        },
-        {
-          "lvl": 18,
-          "m": "Megaagotar"
-        },
-        {
-          "lvl": 24,
-          "m": "Onda Simple"
-        },
-        {
-          "lvl": 29,
-          "m": "Truco Floral"
-        },
-        {
-          "lvl": 40,
-          "m": "Finta"
-        },
-        {
-          "lvl": 45,
-          "m": "Liofilización"
-        },
-        {
-          "lvl": 50,
-          "m": "Orbes Espectro"
-        },
-        {
-          "lvl": 55,
-          "m": "Decalcomanía"
-        }
-      ],
-      "firstMoves": [
-        "Alud",
-        "Cascabel Cura",
-        "Megaagotar",
-        "Onda Simple"
-      ],
-      "spriteKey": "ARCTIBAX"
-    },
-    {
       "nickname": "Gengar",
       "species": "Gengar",
       "level": 5,
@@ -2937,6 +2676,325 @@
         "Campo Psíquico"
       ],
       "spriteKey": "SINISTEA_1"
+    },
+    {
+      "nickname": "JIM",
+      "species": "Larvesta",
+      "level": 29,
+      "types": [
+        "Bicho",
+        "Fuego"
+      ],
+      "ability": "Espada Indómita",
+      "nature": "Plácida",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Cadena Virulenta",
+        "Láser Doble",
+        "Ciclón",
+        "Marcha Espectral"
+      ],
+      "origin": "primer_ruta",
+      "iv": [
+        25,
+        28,
+        12,
+        11,
+        9,
+        11
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Espada Indómita"
+      ],
+      "abilHidden": [
+        "Viscosecreción"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Cornada"
+        },
+        {
+          "lvl": 1,
+          "m": "Corte Furia"
+        },
+        {
+          "lvl": 6,
+          "m": "Colmillo Ígneo"
+        },
+        {
+          "lvl": 12,
+          "m": "Relajo"
+        },
+        {
+          "lvl": 18,
+          "m": "Presente"
+        },
+        {
+          "lvl": 24,
+          "m": "Condena Silvana"
+        },
+        {
+          "lvl": 30,
+          "m": "Día Soleado"
+        },
+        {
+          "lvl": 36,
+          "m": "Vasta Guardia"
+        },
+        {
+          "lvl": 42,
+          "m": "Hidrocañón"
+        },
+        {
+          "lvl": 48,
+          "m": "Lluvia Ígnea"
+        },
+        {
+          "lvl": 54,
+          "m": "Gigaimpacto"
+        },
+        {
+          "lvl": 60,
+          "m": "Psicocambio"
+        },
+        {
+          "lvl": 66,
+          "m": "Llama Embrujada"
+        },
+        {
+          "lvl": 80,
+          "m": "Pataleta"
+        },
+        {
+          "lvl": 90,
+          "m": "Triturar"
+        }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Atadura",
+        "Cabeza Sorpresa",
+        "Cadena Virulenta",
+        "Ciclón",
+        "Clemencia",
+        "Danza Caos",
+        "Decoración",
+        "Desarme",
+        "Electropico",
+        "Espeaura",
+        "Esquirla Helada",
+        "Flarembestida",
+        "Fotosíntesis",
+        "Fuerza Lunar",
+        "Garra Brutal",
+        "Garra Dragón",
+        "Glaceoprisma",
+        "Hachazo Pétreo",
+        "Hoja Aguda",
+        "Láser Doble",
+        "Llama Protectora",
+        "Marcha Espectral",
+        "Megapuño",
+        "Mil Temblores",
+        "Niebla Aromática",
+        "Nitrocarga",
+        "Núcleo Castigo",
+        "Patada Baja",
+        "Picotazo",
+        "Pin Misil",
+        "Pirueta Helada",
+        "Plancha",
+        "Plancha Corporal",
+        "Psicocarga",
+        "Pulso Cura",
+        "Puño Drenaje",
+        "Puntapié",
+        "Represalia",
+        "Retracción",
+        "Rodillo de Púas",
+        "Sol Matinal",
+        "Tajo Metralla",
+        "Trampa Rocas",
+        "Transformación"
+      ],
+      "firstMoves": [
+        "Colmillo Ígneo",
+        "Relajo",
+        "Presente",
+        "Condena Silvana"
+      ],
+      "spriteKey": "LARVESTA"
+    },
+    {
+      "nickname": "GREYMON",
+      "species": "Dratini",
+      "level": 25,
+      "types": [
+        "Dragón"
+      ],
+      "ability": "Don Floral",
+      "nature": "Mansa",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Choque Anímico",
+        "Golpe Oscuro",
+        "Vasto Impacto",
+        "Anclaje"
+      ],
+      "iv": [
+        26,
+        8,
+        26,
+        8,
+        3,
+        11
+      ],
+      "ev": [
+        5,
+        10,
+        2,
+        10,
+        5,
+        5
+      ],
+      "abilPool": [
+        "Don Floral"
+      ],
+      "abilHidden": [
+        "Dinamo"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Patada Baja"
+        },
+        {
+          "lvl": 1,
+          "m": "Colmillo Veneno"
+        },
+        {
+          "lvl": 5,
+          "m": "Destello"
+        },
+        {
+          "lvl": 10,
+          "m": "Gravedad"
+        },
+        {
+          "lvl": 15,
+          "m": "Bola Voltio"
+        },
+        {
+          "lvl": 15,
+          "m": "Impresionar"
+        },
+        {
+          "lvl": 20,
+          "m": "Eco Voz"
+        },
+        {
+          "lvl": 25,
+          "m": "Vasto Impacto"
+        },
+        {
+          "lvl": 31,
+          "m": "Ácido Málico"
+        },
+        {
+          "lvl": 35,
+          "m": "Cura Floral"
+        },
+        {
+          "lvl": 40,
+          "m": "Relevo"
+        },
+        {
+          "lvl": 45,
+          "m": "Huesomerang"
+        },
+        {
+          "lvl": 50,
+          "m": "Luminicola"
+        },
+        {
+          "lvl": 55,
+          "m": "Isofuerza"
+        },
+        {
+          "lvl": 60,
+          "m": "Buena Baza"
+        }
+      ],
+      "tmMoves": [
+        "Absorbefuerza",
+        "Absorber",
+        "Alud",
+        "Amnesia",
+        "Anclaje",
+        "Cadena Virulenta",
+        "Choque Anímico",
+        "Clemencia",
+        "Copión",
+        "Danza Acuática",
+        "Danza Caos",
+        "Decoración",
+        "Desarme",
+        "Eco Metálico",
+        "Electropico",
+        "Estruendo Escama",
+        "Fotosíntesis",
+        "Fuerza Lunar",
+        "Garra Brutal",
+        "Garra Dragón",
+        "Golpe Oscuro",
+        "Golpe Roca",
+        "Inversión",
+        "Isoguardia",
+        "Láser Doble",
+        "Láser Prisma",
+        "Lengüetazo",
+        "Malicioso",
+        "Maquinación",
+        "Marcha Espectral",
+        "Megapuño",
+        "Mirada Heladora",
+        "Niebla Aromática",
+        "Nitrocarga",
+        "Nitrochoque",
+        "Núcleo Castigo",
+        "Picotazo",
+        "Pin Misil",
+        "Psicocarga",
+        "Puño Incremento",
+        "Puya Nociva",
+        "Relajo",
+        "Retracción",
+        "Rodillo de Púas",
+        "Sol Matinal",
+        "Sonámbulo",
+        "Tajo Metralla",
+        "Trampa Rocas",
+        "Trampa Venenosa",
+        "Transformación",
+        "Voto Agua"
+      ],
+      "firstMoves": [
+        "Patada Baja",
+        "Colmillo Veneno",
+        "Destello"
+      ],
+      "spriteKey": "DRATINI"
     },
     {
       "nickname": "Majin Buu",
@@ -14089,26 +14147,15 @@
       "mon": "Walrein"
     },
     {
-      "route": "",
-      "where": "Laboratorio",
-      "species": "Dratini",
-      "nickname": "GREYMON",
-      "shiny": false,
-      "status": "captured",
-      "category": "estatico_regalo",
-      "level": 5,
-      "mon": "Dratini"
-    },
-    {
-      "route": "tunel_roca",
-      "where": "Túnel Roca",
-      "species": "Larvesta",
-      "nickname": "JIM",
+      "route": "ruta_10_norte",
+      "where": "Ruta 10 Norte",
+      "species": "Arctibax",
+      "nickname": "DRAGONA",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 29,
-      "mon": "Larvesta"
+      "level": 26,
+      "mon": "Arctibax"
     },
     {
       "route": "cueva_celeste",
@@ -14188,17 +14235,6 @@
       "mon": "Basculin"
     },
     {
-      "route": "ruta_10_norte",
-      "where": "Ruta 10 Norte",
-      "species": "Arctibax",
-      "nickname": "DRAGONA",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 26,
-      "mon": "Arctibax"
-    },
-    {
       "route": "",
       "where": "S.S Anne",
       "species": "Gengar",
@@ -14252,6 +14288,28 @@
       "category": "ciudad",
       "level": 9,
       "mon": "Sinistea"
+    },
+    {
+      "route": "tunel_roca",
+      "where": "Túnel Roca",
+      "species": "Larvesta",
+      "nickname": "JIM",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 29,
+      "mon": "Larvesta"
+    },
+    {
+      "route": "",
+      "where": "Laboratorio",
+      "species": "Dratini",
+      "nickname": "GREYMON",
+      "shiny": false,
+      "status": "captured",
+      "category": "estatico_regalo",
+      "level": 5,
+      "mon": "Dratini"
     },
     {
       "route": "pueblo_paleta",
@@ -14998,15 +15056,15 @@
       "monte_moon_exterior": true,
       "ruta_2_sur": true,
       "ruta_5": true,
-      "tunel_roca": true,
+      "ruta_10_norte": true,
       "cueva_celeste": true,
       "bosque_celeste": true,
       "ciudad_azulona": true,
       "pueblo_lavanda": true,
-      "ruta_10_norte": true,
       "ruta_3": true,
       "ciudad_celeste": true,
       "ciudad_plateada": true,
+      "tunel_roca": true,
       "pueblo_paleta": true,
       "pueblo_marengo": true,
       "ruta_11": true,
