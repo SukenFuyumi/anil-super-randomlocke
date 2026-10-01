@@ -4,910 +4,178 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": true,
-  "notes": "Importado del save · 8h 15m jugadas · 472,000₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 8h 16m jugadas · 472,000₽ · vidas en el juego: -1",
   "team": [
     {
-      "nickname": "NIDRANA",
-      "species": "Salamence",
-      "level": 75,
+      "nickname": "MERYL STRYFE",
+      "species": "Blastoise",
+      "level": 66,
       "types": [
-        "Dragón",
-        "Volador"
+        "Agua"
       ],
-      "ability": "Detonación",
-      "nature": "Floja",
-      "item": "",
+      "ability": "Amor Filial",
+      "nature": "Firme",
+      "item": "Banda Aguante",
       "shiny": false,
       "moves": [
-        "Danza Triunfal",
-        "Garra Dragón",
-        "Flarembestida",
-        "Electropico"
+        "Tinieblas",
+        "Truco Floral",
+        "Danza Acuática",
+        "Flarembestida"
       ],
       "origin": "primer_ruta",
       "iv": [
-        12,
-        23,
-        8,
-        3,
-        12,
-        24
+        17,
+        24,
+        1,
+        5,
+        6,
+        21
       ],
       "ev": [
+        252,
+        4,
+        2,
         0,
         0,
-        0,
-        0,
-        0,
-        0
+        252
       ],
       "abilPool": [
-        "Detonación"
+        "Teracaparazón"
       ],
       "abilHidden": [
-        "Cadena Tóxica"
+        "Amor Filial"
       ],
+      "abilCapsule": true,
       "learnset": [
         {
           "lvl": -1,
-          "m": "Colmillo Ígneo"
-        },
-        {
-          "lvl": 1,
-          "m": "Represalia"
-        },
-        {
-          "lvl": 1,
-          "m": "Colmillo Hielo"
-        },
-        {
-          "lvl": 1,
-          "m": "Puño Mareo"
-        },
-        {
-          "lvl": 1,
-          "m": "Cola Dragón"
-        },
-        {
-          "lvl": 1,
-          "m": "Llave Vital"
-        },
-        {
-          "lvl": 1,
-          "m": "Danza Espada"
-        },
-        {
-          "lvl": 1,
-          "m": "Golpes Furia"
-        },
-        {
-          "lvl": 1,
-          "m": "Plegaria Vital"
-        },
-        {
-          "lvl": 1,
-          "m": "Nitrocarga"
-        },
-        {
-          "lvl": 1,
           "m": "Espejo"
         },
         {
           "lvl": 1,
-          "m": "Último Lugar"
+          "m": "Patada Tropical"
+        },
+        {
+          "lvl": 1,
+          "m": "Desarme"
+        },
+        {
+          "lvl": 1,
+          "m": "Salazón"
+        },
+        {
+          "lvl": 1,
+          "m": "Mandato"
+        },
+        {
+          "lvl": 1,
+          "m": "Furia"
+        },
+        {
+          "lvl": 9,
+          "m": "Ciclón de Hojas"
+        },
+        {
+          "lvl": 12,
+          "m": "Triple Inmersión"
         },
         {
           "lvl": 15,
-          "m": "Paisaje Nevado"
+          "m": "Manto Espejo"
         },
         {
           "lvl": 20,
-          "m": "Mal de Ojo"
+          "m": "Relevo"
         },
         {
           "lvl": 25,
-          "m": "Vasto Impacto"
+          "m": "Bruma Explosiva"
         },
         {
-          "lvl": 33,
-          "m": "Fachada"
-        },
-        {
-          "lvl": 39,
-          "m": "Patada Salto Alta"
-        },
-        {
-          "lvl": 46,
-          "m": "Electrotela"
-        },
-        {
-          "lvl": 55,
-          "m": "Pico Taladro"
-        },
-        {
-          "lvl": 64,
-          "m": "Furia Candente"
-        },
-        {
-          "lvl": 73,
+          "lvl": 30,
           "m": "Viraje"
-        }
-      ],
-      "tmMoves": [
-        "A Defender",
-        "Absorbefuerza",
-        "Absorber",
-        "Cabeza Sorpresa",
-        "Choque Anímico",
-        "Ciclón",
-        "Clemencia",
-        "Confusión",
-        "Conversión",
-        "Danza Acuática",
-        "Desarme",
-        "Embate Supremo",
-        "Espabila",
-        "Espeaura",
-        "Espora",
-        "Esquirla Helada",
-        "Estruendo Escama",
-        "Fuerza Lunar",
-        "Garra Dragón",
-        "Golpe Oscuro",
-        "Golpe Umbrío",
-        "Hachazo Pétreo",
-        "Hoja Aguda",
-        "Hueso Sombrío",
-        "Infortunio",
-        "Inversión",
-        "Láser Doble",
-        "Láser Prisma",
-        "Llama Protectora",
-        "Malicioso",
-        "Mil Temblores",
-        "Moluscañón",
-        "Núcleo Castigo",
-        "Patada Baja",
-        "Picotazo",
-        "Pin Misil",
-        "Placaje",
-        "Plancha",
-        "Planta Feroz",
-        "Psicocarga",
-        "Pulso Cura",
-        "Puño Incremento",
-        "Puntapié",
-        "Puya Nociva",
-        "Relajo",
-        "Rodillo de Púas",
-        "Sonámbulo",
-        "Taladradora",
-        "Trampa Venenosa",
-        "Voto Agua"
-      ],
-      "firstMoves": [
-        "Velo Sagrado",
-        "Fotosíntesis",
-        "Destructor",
-        "Doble Golpe"
-      ],
-      "spriteKey": "SALAMENCE"
-    },
-    {
-      "nickname": "CAMION",
-      "species": "Vikavolt",
-      "level": 75,
-      "types": [
-        "Bicho",
-        "Eléctrico"
-      ],
-      "ability": "Poder Fúngico",
-      "nature": "Alegre",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Ida y Vuelta",
-        "Pikaturbo",
-        "Luminicola",
-        "Luna Roja"
-      ],
-      "iv": [
-        30,
-        1,
-        21,
-        23,
-        3,
-        7
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Poder Fúngico"
-      ],
-      "abilHidden": [],
-      "learnset": [
-        {
-          "lvl": -1,
-          "m": "Destello"
-        },
-        {
-          "lvl": -1,
-          "m": "Bola Hielo"
-        },
-        {
-          "lvl": -1,
-          "m": "Llama Protectora"
-        },
-        {
-          "lvl": -1,
-          "m": "Aguzar"
-        },
-        {
-          "lvl": 1,
-          "m": "Brinco"
-        },
-        {
-          "lvl": 1,
-          "m": "Tóxico"
-        },
-        {
-          "lvl": 1,
-          "m": "Telépata"
-        },
-        {
-          "lvl": 1,
-          "m": "Destructor"
-        },
-        {
-          "lvl": 1,
-          "m": "Decalcomanía"
-        },
-        {
-          "lvl": 1,
-          "m": "Fijar Blanco"
-        },
-        {
-          "lvl": 1,
-          "m": "Ronquido"
-        },
-        {
-          "lvl": 1,
-          "m": "Cerrojo Feérico"
-        },
-        {
-          "lvl": 15,
-          "m": "Eco Metálico"
-        },
-        {
-          "lvl": 19,
-          "m": "Velo Aurora"
-        },
-        {
-          "lvl": 23,
-          "m": "Paz Mental"
-        },
-        {
-          "lvl": 29,
-          "m": "Reserva"
-        },
-        {
-          "lvl": 36,
-          "m": "Danza Lunar"
-        },
-        {
-          "lvl": 43,
-          "m": "Plancha"
-        },
-        {
-          "lvl": 43,
-          "m": "Pataleta"
-        },
-        {
-          "lvl": 45,
-          "m": "Vozarrón"
-        },
-        {
-          "lvl": 50,
-          "m": "Cepo"
-        },
-        {
-          "lvl": 57,
-          "m": "Tijera X"
-        },
-        {
-          "lvl": 64,
-          "m": "Rompecoraza"
-        }
-      ],
-      "tmMoves": [
-        "A Defender",
-        "Absorber",
-        "Alboroto",
-        "Alud",
-        "Amnesia",
-        "Anclaje",
-        "Asta Drenaje",
-        "Atadura",
-        "Cabeza Sorpresa",
-        "Choque Anímico",
-        "Ciclón",
-        "Conversión",
-        "Danza Acuática",
-        "Desarme",
-        "Doble Golpe",
-        "Eco Metálico",
-        "Electropico",
-        "Espeaura",
-        "Espora",
-        "Estruendo Escama",
-        "Finta",
-        "Garra Dragón",
-        "Golpe Oscuro",
-        "Isoguardia",
-        "Maquinación",
-        "Mil Temblores",
-        "Mirada Heladora",
-        "Nitrocarga",
-        "Nitrochoque",
-        "Núcleo Castigo",
-        "Pin Misil",
-        "Placaje",
-        "Plancha",
-        "Plancha Corporal",
-        "Psicocarga",
-        "Psicocolmillo",
-        "Pulso Cura",
-        "Puntapié",
-        "Relevo",
-        "Represalia",
-        "Rodillo de Púas",
-        "Sol Matinal",
-        "Tajo Umbrío",
-        "Tinieblas",
-        "Último Lugar",
-        "Vendaval",
-        "Voltio Cruel"
-      ],
-      "firstMoves": [
-        "Isofuerza",
-        "Pikaturbo",
-        "Amago",
-        "Defensa Férrea"
-      ],
-      "spriteKey": "VIKAVOLT"
-    },
-    {
-      "nickname": "PIPOMAN",
-      "species": "Naganadel",
-      "level": 75,
-      "types": [
-        "Veneno",
-        "Dragón"
-      ],
-      "ability": "Electromotor",
-      "nature": "Huraña",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Glaceoprisma",
-        "Núcleo Castigo",
-        "Cadena Virulenta",
-        "Marcha Espectral"
-      ],
-      "origin": "primer_ruta",
-      "iv": [
-        11,
-        4,
-        17,
-        21,
-        3,
-        28
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Electromotor"
-      ],
-      "abilHidden": [],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Mismo Destino"
-        },
-        {
-          "lvl": 1,
-          "m": "Pin Misil"
-        },
-        {
-          "lvl": 1,
-          "m": "Rompecoraza"
-        },
-        {
-          "lvl": 1,
-          "m": "Carga Parábola"
-        },
-        {
-          "lvl": 1,
-          "m": "Giro Mortífero"
-        },
-        {
-          "lvl": 1,
-          "m": "Polución"
-        },
-        {
-          "lvl": 1,
-          "m": "Meditación"
-        },
-        {
-          "lvl": 7,
-          "m": "Bramido Dragón"
-        },
-        {
-          "lvl": 14,
-          "m": "Gravedad"
-        },
-        {
-          "lvl": 21,
-          "m": "Kinético"
-        },
-        {
-          "lvl": 28,
-          "m": "Golpe Rastrero"
         },
         {
           "lvl": 35,
-          "m": "Eructo"
-        },
-        {
-          "lvl": 42,
-          "m": "Tajo Aéreo"
-        },
-        {
-          "lvl": 47,
-          "m": "Látigo Cepa"
-        },
-        {
-          "lvl": 49,
-          "m": "Mil Púas Tóxicas"
-        },
-        {
-          "lvl": 56,
-          "m": "Colmillo Rayo"
-        },
-        {
-          "lvl": 63,
-          "m": "Cometa Draco"
-        },
-        {
-          "lvl": 70,
-          "m": "Conjuro Funesto"
-        }
-      ],
-      "tmMoves": [
-        "Alboroto",
-        "Amnesia",
-        "Antojo",
-        "Asta Drenaje",
-        "Cadena Virulenta",
-        "Copión",
-        "Danza Acuática",
-        "Danza Caos",
-        "Desarme",
-        "Deslome",
-        "Doble Golpe",
-        "Eco Metálico",
-        "Espabila",
-        "Estruendo Escama",
-        "Flarembestida",
-        "Fotosíntesis",
-        "Garra Brutal",
-        "Garra Dragón",
-        "Glaceoprisma",
-        "Hueso Sombrío",
-        "Infortunio",
-        "Inversión",
-        "Isoguardia",
-        "Láser Doble",
-        "Láser Prisma",
-        "Lengüetazo",
-        "Malicioso",
-        "Megapuño",
-        "Mil Temblores",
-        "Mirada Heladora",
-        "Mismo Destino",
-        "Moluscañón",
-        "Niebla Aromática",
-        "Núcleo Castigo",
-        "Picotazo Veneno",
-        "Pin Misil",
-        "Pirueta Helada",
-        "Placaje",
-        "Plancha Corporal",
-        "Planta Feroz",
-        "Pulso Cura",
-        "Puño Drenaje",
-        "Puntapié",
-        "Relajo",
-        "Relevo",
-        "Tajo Metralla",
-        "Tajo Umbrío",
-        "Taladradora",
-        "Tinieblas",
-        "Umbreozona",
-        "Vendaval",
-        "Voltio Cruel",
-        "Voto Agua"
-      ],
-      "firstMoves": [
-        "Tajo Metralla",
-        "Onda Trueno",
-        "Arraigo",
-        "Enrosque"
-      ],
-      "spriteKey": "NAGANADEL"
-    },
-    {
-      "nickname": "OBDCALAMORSA",
-      "species": "Walrein",
-      "level": 75,
-      "types": [
-        "Hielo",
-        "Agua"
-      ],
-      "ability": "",
-      "nature": "Osada",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Liofilización",
-        "Bomba Ígnea",
-        "Chorro de Vapor",
-        "Relajo"
-      ],
-      "origin": "primer_ruta",
-      "iv": [
-        22,
-        22,
-        11,
-        7,
-        14,
-        17
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Cura Natural",
-        "Manto Frondoso"
-      ],
-      "abilHidden": [
-        "Cabeza Roca"
-      ],
-      "learnset": [
-        {
-          "lvl": 1,
-          "m": "Niebla"
-        },
-        {
-          "lvl": 1,
-          "m": "Paz Mental"
-        },
-        {
-          "lvl": 1,
-          "m": "Carga Parábola"
-        },
-        {
-          "lvl": 1,
-          "m": "Giro Mortífero"
-        },
-        {
-          "lvl": 1,
-          "m": "Búnker"
-        },
-        {
-          "lvl": 1,
-          "m": "Velo Aurora"
-        },
-        {
-          "lvl": 1,
-          "m": "Danza Lluvia"
-        },
-        {
-          "lvl": 12,
-          "m": "Polvo Mágico"
-        },
-        {
-          "lvl": 13,
-          "m": "Infortunio"
-        },
-        {
-          "lvl": 16,
-          "m": "Deslizamiento"
-        },
-        {
-          "lvl": 20,
-          "m": "Viento Hielo"
-        },
-        {
-          "lvl": 24,
-          "m": "Malicioso"
-        },
-        {
-          "lvl": 28,
-          "m": "Mimético"
-        },
-        {
-          "lvl": 35,
-          "m": "Acua Jet"
-        },
-        {
-          "lvl": 40,
-          "m": "Bola Hielo"
-        },
-        {
-          "lvl": 48,
-          "m": "Llama Final"
-        },
-        {
-          "lvl": 50,
-          "m": "Mil Púas Tóxicas"
-        },
-        {
-          "lvl": 56,
-          "m": "Deseo Cura"
-        },
-        {
-          "lvl": 64,
-          "m": "Patada Giro"
-        },
-        {
-          "lvl": 72,
-          "m": "Megacuerno"
-        }
-      ],
-      "tmMoves": [
-        "Absorbefuerza",
-        "Absorber",
-        "Alud",
-        "Amnesia",
-        "Antojo",
-        "Atadura",
-        "Cabeza Sorpresa",
-        "Cadena Virulenta",
-        "Carámbano",
-        "Chorro de Vapor",
-        "Conversión",
-        "Copión",
-        "Decoración",
-        "Desarme",
-        "Eco Metálico",
-        "Electropico",
-        "Esquirla Helada",
-        "Finta",
-        "Flarembestida",
-        "Glaceoprisma",
-        "Golpe Umbrío",
-        "Hachazo Pétreo",
-        "Inversión",
-        "Láser Prisma",
-        "Lengüetazo",
-        "Llama Protectora",
-        "Maquinación",
-        "Megapuño",
-        "Mirada Heladora",
-        "Niebla Aromática",
-        "Nitrocarga",
-        "Nitrochoque",
-        "Patada Baja",
-        "Picotazo",
-        "Picotazo Veneno",
-        "Planta Feroz",
-        "Psicocarga",
-        "Psicocolmillo",
-        "Puño Drenaje",
-        "Puya Nociva",
-        "Rodillo de Púas",
-        "Tajo Metralla",
-        "Trampa Venenosa",
-        "Transformación"
-      ],
-      "firstMoves": [
-        "Ronquido",
-        "Rugido de Guerra",
-        "Antiaéreo",
-        "Bilis"
-      ],
-      "spriteKey": "WALREIN"
-    },
-    {
-      "nickname": "DRAGONA",
-      "species": "Baxcalibur",
-      "level": 75,
-      "types": [
-        "Dragón",
-        "Hielo"
-      ],
-      "ability": "Veleta",
-      "nature": "Firme",
-      "item": "",
-      "shiny": false,
-      "moves": [
-        "Alud",
-        "Vasto Impacto",
-        "Taladradora",
-        "Carámbano"
-      ],
-      "origin": "primer_ruta",
-      "iv": [
-        15,
-        16,
-        16,
-        30,
-        29,
-        28
-      ],
-      "ev": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "abilPool": [
-        "Veleta",
-        "Trampa Arena"
-      ],
-      "abilHidden": [
-        "Mudar"
-      ],
-      "learnset": [
-        {
-          "lvl": -1,
-          "m": "Punzada Rama"
-        },
-        {
-          "lvl": 1,
-          "m": "Rugido"
-        },
-        {
-          "lvl": 1,
-          "m": "Rueda Fuego"
-        },
-        {
-          "lvl": 1,
-          "m": "Batido"
-        },
-        {
-          "lvl": 1,
-          "m": "Condena Silvana"
-        },
-        {
-          "lvl": 1,
-          "m": "Guardia Baja"
-        },
-        {
-          "lvl": 6,
-          "m": "Plumerazo"
-        },
-        {
-          "lvl": 12,
-          "m": "Onda Anómala"
-        },
-        {
-          "lvl": 18,
-          "m": "Niebla Clara"
-        },
-        {
-          "lvl": 24,
           "m": "Adaptación"
         },
         {
-          "lvl": 29,
-          "m": "Protección"
-        },
-        {
-          "lvl": 35,
-          "m": "Distorsión"
+          "lvl": 36,
+          "m": "Impactrueno"
         },
         {
           "lvl": 42,
-          "m": "Metrónomo"
+          "m": "Hidroariete"
         },
         {
-          "lvl": 48,
-          "m": "Superdiente"
+          "lvl": 49,
+          "m": "Telaraña"
         },
         {
-          "lvl": 52,
-          "m": "Placaje Eléctrico"
+          "lvl": 56,
+          "m": "Cabeza Sorpresa"
         },
         {
-          "lvl": 55,
-          "m": "Ariete"
-        },
-        {
-          "lvl": 62,
-          "m": "Púas"
+          "lvl": 56,
+          "m": "Tajo Taquión"
         }
       ],
       "tmMoves": [
         "A Defender",
+        "Absorbefuerza",
         "Alud",
-        "Antojo",
-        "Asta Drenaje",
-        "Atadura",
+        "Amnesia",
         "Cabeza Sorpresa",
+        "Cadena Virulenta",
         "Carámbano",
-        "Ciclón",
-        "Confusión",
+        "Clemencia",
+        "Conversión",
+        "Copión",
         "Danza Acuática",
-        "Danza Caos",
+        "Desarme",
         "Deslome",
+        "Destello",
+        "Eco Metálico",
+        "Embate Supremo",
         "Espabila",
-        "Espora",
+        "Espeaura",
         "Esquirla Helada",
-        "Estruendo Escama",
-        "Flarembestida",
-        "Garra Brutal",
+        "Fuerza Lunar",
         "Glaceoprisma",
-        "Hachazo Pétreo",
+        "Golpe Umbrío",
         "Hoja Aguda",
-        "Hueso Sombrío",
-        "Lengüetazo",
-        "Malicioso",
-        "Megapuño",
-        "Mil Temblores",
-        "Mismo Destino",
-        "Moluscañón",
+        "Isoguardia",
+        "Lanzarrocas",
+        "Láser Prisma",
+        "Maquinación",
         "Niebla Aromática",
-        "Nitrochoque",
+        "Núcleo Castigo",
+        "Picotazo",
         "Picotazo Veneno",
         "Pin Misil",
-        "Pirueta Helada",
-        "Plancha",
-        "Planta Feroz",
-        "Psicocarga",
+        "Plancha Corporal",
+        "Psicocolmillo",
         "Pulso Cura",
-        "Puño Drenaje",
+        "Puño Cometa",
         "Puño Incremento",
-        "Relevo",
-        "Retracción",
-        "Rizo Defensa",
-        "Rodillo de Púas",
-        "Sol Matinal",
-        "Sonámbulo",
+        "Relajo",
+        "Represalia",
         "Tajo Umbrío",
+        "Taladradora",
+        "Tinieblas",
         "Trampa Rocas",
         "Transformación",
-        "Última Palabra",
-        "Último Lugar",
-        "Vendaval"
+        "Umbreozona",
+        "Voltio Cruel"
       ],
       "firstMoves": [
-        "Alud",
-        "Cascabel Cura",
-        "Megaagotar",
-        "Onda Simple"
+        "Refugio",
+        "Ovocuración",
+        "Escaldar",
+        "Trampa Rocas"
       ],
-      "spriteKey": "BAXCALIBUR"
+      "spriteKey": "BLASTOISE"
     }
   ],
   "box": [
@@ -1886,6 +1154,195 @@
       "spriteKey": "BASCULIN_3"
     },
     {
+      "nickname": "CAMION",
+      "species": "Vikavolt",
+      "level": 75,
+      "types": [
+        "Bicho",
+        "Eléctrico"
+      ],
+      "ability": "Poder Fúngico",
+      "nature": "Alegre",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Ida y Vuelta",
+        "Pikaturbo",
+        "Luminicola",
+        "Luna Roja"
+      ],
+      "iv": [
+        30,
+        1,
+        21,
+        23,
+        3,
+        7
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Poder Fúngico"
+      ],
+      "abilHidden": [],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Destello"
+        },
+        {
+          "lvl": -1,
+          "m": "Bola Hielo"
+        },
+        {
+          "lvl": -1,
+          "m": "Llama Protectora"
+        },
+        {
+          "lvl": -1,
+          "m": "Aguzar"
+        },
+        {
+          "lvl": 1,
+          "m": "Brinco"
+        },
+        {
+          "lvl": 1,
+          "m": "Tóxico"
+        },
+        {
+          "lvl": 1,
+          "m": "Telépata"
+        },
+        {
+          "lvl": 1,
+          "m": "Destructor"
+        },
+        {
+          "lvl": 1,
+          "m": "Decalcomanía"
+        },
+        {
+          "lvl": 1,
+          "m": "Fijar Blanco"
+        },
+        {
+          "lvl": 1,
+          "m": "Ronquido"
+        },
+        {
+          "lvl": 1,
+          "m": "Cerrojo Feérico"
+        },
+        {
+          "lvl": 15,
+          "m": "Eco Metálico"
+        },
+        {
+          "lvl": 19,
+          "m": "Velo Aurora"
+        },
+        {
+          "lvl": 23,
+          "m": "Paz Mental"
+        },
+        {
+          "lvl": 29,
+          "m": "Reserva"
+        },
+        {
+          "lvl": 36,
+          "m": "Danza Lunar"
+        },
+        {
+          "lvl": 43,
+          "m": "Plancha"
+        },
+        {
+          "lvl": 43,
+          "m": "Pataleta"
+        },
+        {
+          "lvl": 45,
+          "m": "Vozarrón"
+        },
+        {
+          "lvl": 50,
+          "m": "Cepo"
+        },
+        {
+          "lvl": 57,
+          "m": "Tijera X"
+        },
+        {
+          "lvl": 64,
+          "m": "Rompecoraza"
+        }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Absorber",
+        "Alboroto",
+        "Alud",
+        "Amnesia",
+        "Anclaje",
+        "Asta Drenaje",
+        "Atadura",
+        "Cabeza Sorpresa",
+        "Choque Anímico",
+        "Ciclón",
+        "Conversión",
+        "Danza Acuática",
+        "Desarme",
+        "Doble Golpe",
+        "Eco Metálico",
+        "Electropico",
+        "Espeaura",
+        "Espora",
+        "Estruendo Escama",
+        "Finta",
+        "Garra Dragón",
+        "Golpe Oscuro",
+        "Isoguardia",
+        "Maquinación",
+        "Mil Temblores",
+        "Mirada Heladora",
+        "Nitrocarga",
+        "Nitrochoque",
+        "Núcleo Castigo",
+        "Pin Misil",
+        "Placaje",
+        "Plancha",
+        "Plancha Corporal",
+        "Psicocarga",
+        "Psicocolmillo",
+        "Pulso Cura",
+        "Puntapié",
+        "Relevo",
+        "Represalia",
+        "Rodillo de Púas",
+        "Sol Matinal",
+        "Tajo Umbrío",
+        "Tinieblas",
+        "Último Lugar",
+        "Vendaval",
+        "Voltio Cruel"
+      ],
+      "firstMoves": [
+        "Isofuerza",
+        "Pikaturbo",
+        "Amago",
+        "Defensa Férrea"
+      ],
+      "spriteKey": "VIKAVOLT"
+    },
+    {
       "nickname": "Gengar",
       "species": "Gengar",
       "level": 5,
@@ -2056,6 +1513,184 @@
       "spriteKey": "GENGAR"
     },
     {
+      "nickname": "OBDCALAMORSA",
+      "species": "Walrein",
+      "level": 75,
+      "types": [
+        "Hielo",
+        "Agua"
+      ],
+      "ability": "Cura Natural",
+      "nature": "Osada",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Liofilización",
+        "Bomba Ígnea",
+        "Chorro de Vapor",
+        "Relajo"
+      ],
+      "origin": "primer_ruta",
+      "iv": [
+        22,
+        22,
+        11,
+        7,
+        14,
+        17
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Cura Natural",
+        "Manto Frondoso"
+      ],
+      "abilHidden": [
+        "Cabeza Roca"
+      ],
+      "learnset": [
+        {
+          "lvl": 1,
+          "m": "Niebla"
+        },
+        {
+          "lvl": 1,
+          "m": "Paz Mental"
+        },
+        {
+          "lvl": 1,
+          "m": "Carga Parábola"
+        },
+        {
+          "lvl": 1,
+          "m": "Giro Mortífero"
+        },
+        {
+          "lvl": 1,
+          "m": "Búnker"
+        },
+        {
+          "lvl": 1,
+          "m": "Velo Aurora"
+        },
+        {
+          "lvl": 1,
+          "m": "Danza Lluvia"
+        },
+        {
+          "lvl": 12,
+          "m": "Polvo Mágico"
+        },
+        {
+          "lvl": 13,
+          "m": "Infortunio"
+        },
+        {
+          "lvl": 16,
+          "m": "Deslizamiento"
+        },
+        {
+          "lvl": 20,
+          "m": "Viento Hielo"
+        },
+        {
+          "lvl": 24,
+          "m": "Malicioso"
+        },
+        {
+          "lvl": 28,
+          "m": "Mimético"
+        },
+        {
+          "lvl": 35,
+          "m": "Acua Jet"
+        },
+        {
+          "lvl": 40,
+          "m": "Bola Hielo"
+        },
+        {
+          "lvl": 48,
+          "m": "Llama Final"
+        },
+        {
+          "lvl": 50,
+          "m": "Mil Púas Tóxicas"
+        },
+        {
+          "lvl": 56,
+          "m": "Deseo Cura"
+        },
+        {
+          "lvl": 64,
+          "m": "Patada Giro"
+        },
+        {
+          "lvl": 72,
+          "m": "Megacuerno"
+        }
+      ],
+      "tmMoves": [
+        "Absorbefuerza",
+        "Absorber",
+        "Alud",
+        "Amnesia",
+        "Antojo",
+        "Atadura",
+        "Cabeza Sorpresa",
+        "Cadena Virulenta",
+        "Carámbano",
+        "Chorro de Vapor",
+        "Conversión",
+        "Copión",
+        "Decoración",
+        "Desarme",
+        "Eco Metálico",
+        "Electropico",
+        "Esquirla Helada",
+        "Finta",
+        "Flarembestida",
+        "Glaceoprisma",
+        "Golpe Umbrío",
+        "Hachazo Pétreo",
+        "Inversión",
+        "Láser Prisma",
+        "Lengüetazo",
+        "Llama Protectora",
+        "Maquinación",
+        "Megapuño",
+        "Mirada Heladora",
+        "Niebla Aromática",
+        "Nitrocarga",
+        "Nitrochoque",
+        "Patada Baja",
+        "Picotazo",
+        "Picotazo Veneno",
+        "Planta Feroz",
+        "Psicocarga",
+        "Psicocolmillo",
+        "Puño Drenaje",
+        "Puya Nociva",
+        "Rodillo de Púas",
+        "Tajo Metralla",
+        "Trampa Venenosa",
+        "Transformación"
+      ],
+      "firstMoves": [
+        "Ronquido",
+        "Rugido de Guerra",
+        "Antiaéreo",
+        "Bilis"
+      ],
+      "spriteKey": "WALREIN"
+    },
+    {
       "nickname": "BLAZE",
       "species": "Tinkatuff",
       "level": 49,
@@ -2222,6 +1857,193 @@
         "Psicocorte"
       ],
       "spriteKey": "TINKATUFF"
+    },
+    {
+      "nickname": "NIDRANA",
+      "species": "Salamence",
+      "level": 75,
+      "types": [
+        "Dragón",
+        "Volador"
+      ],
+      "ability": "Detonación",
+      "nature": "Floja",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Danza Triunfal",
+        "Garra Dragón",
+        "Flarembestida",
+        "Electropico"
+      ],
+      "origin": "primer_ruta",
+      "iv": [
+        12,
+        23,
+        8,
+        3,
+        12,
+        24
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Detonación"
+      ],
+      "abilHidden": [
+        "Cadena Tóxica"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Colmillo Ígneo"
+        },
+        {
+          "lvl": 1,
+          "m": "Represalia"
+        },
+        {
+          "lvl": 1,
+          "m": "Colmillo Hielo"
+        },
+        {
+          "lvl": 1,
+          "m": "Puño Mareo"
+        },
+        {
+          "lvl": 1,
+          "m": "Cola Dragón"
+        },
+        {
+          "lvl": 1,
+          "m": "Llave Vital"
+        },
+        {
+          "lvl": 1,
+          "m": "Danza Espada"
+        },
+        {
+          "lvl": 1,
+          "m": "Golpes Furia"
+        },
+        {
+          "lvl": 1,
+          "m": "Plegaria Vital"
+        },
+        {
+          "lvl": 1,
+          "m": "Nitrocarga"
+        },
+        {
+          "lvl": 1,
+          "m": "Espejo"
+        },
+        {
+          "lvl": 1,
+          "m": "Último Lugar"
+        },
+        {
+          "lvl": 15,
+          "m": "Paisaje Nevado"
+        },
+        {
+          "lvl": 20,
+          "m": "Mal de Ojo"
+        },
+        {
+          "lvl": 25,
+          "m": "Vasto Impacto"
+        },
+        {
+          "lvl": 33,
+          "m": "Fachada"
+        },
+        {
+          "lvl": 39,
+          "m": "Patada Salto Alta"
+        },
+        {
+          "lvl": 46,
+          "m": "Electrotela"
+        },
+        {
+          "lvl": 55,
+          "m": "Pico Taladro"
+        },
+        {
+          "lvl": 64,
+          "m": "Furia Candente"
+        },
+        {
+          "lvl": 73,
+          "m": "Viraje"
+        }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Absorbefuerza",
+        "Absorber",
+        "Cabeza Sorpresa",
+        "Choque Anímico",
+        "Ciclón",
+        "Clemencia",
+        "Confusión",
+        "Conversión",
+        "Danza Acuática",
+        "Desarme",
+        "Embate Supremo",
+        "Espabila",
+        "Espeaura",
+        "Espora",
+        "Esquirla Helada",
+        "Estruendo Escama",
+        "Fuerza Lunar",
+        "Garra Dragón",
+        "Golpe Oscuro",
+        "Golpe Umbrío",
+        "Hachazo Pétreo",
+        "Hoja Aguda",
+        "Hueso Sombrío",
+        "Infortunio",
+        "Inversión",
+        "Láser Doble",
+        "Láser Prisma",
+        "Llama Protectora",
+        "Malicioso",
+        "Mil Temblores",
+        "Moluscañón",
+        "Núcleo Castigo",
+        "Patada Baja",
+        "Picotazo",
+        "Pin Misil",
+        "Placaje",
+        "Plancha",
+        "Planta Feroz",
+        "Psicocarga",
+        "Pulso Cura",
+        "Puño Incremento",
+        "Puntapié",
+        "Puya Nociva",
+        "Relajo",
+        "Rodillo de Púas",
+        "Sonámbulo",
+        "Taladradora",
+        "Trampa Venenosa",
+        "Voto Agua"
+      ],
+      "firstMoves": [
+        "Velo Sagrado",
+        "Fotosíntesis",
+        "Destructor",
+        "Doble Golpe"
+      ],
+      "spriteKey": "SALAMENCE"
     },
     {
       "nickname": "PSI",
@@ -3015,6 +2837,179 @@
         "Destello"
       ],
       "spriteKey": "DRATINI"
+    },
+    {
+      "nickname": "DRAGONA",
+      "species": "Baxcalibur",
+      "level": 75,
+      "types": [
+        "Dragón",
+        "Hielo"
+      ],
+      "ability": "Veleta",
+      "nature": "Firme",
+      "item": "",
+      "shiny": false,
+      "moves": [
+        "Alud",
+        "Vasto Impacto",
+        "Taladradora",
+        "Carámbano"
+      ],
+      "origin": "primer_ruta",
+      "iv": [
+        15,
+        16,
+        16,
+        30,
+        29,
+        28
+      ],
+      "ev": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "abilPool": [
+        "Veleta",
+        "Trampa Arena"
+      ],
+      "abilHidden": [
+        "Mudar"
+      ],
+      "learnset": [
+        {
+          "lvl": -1,
+          "m": "Punzada Rama"
+        },
+        {
+          "lvl": 1,
+          "m": "Rugido"
+        },
+        {
+          "lvl": 1,
+          "m": "Rueda Fuego"
+        },
+        {
+          "lvl": 1,
+          "m": "Batido"
+        },
+        {
+          "lvl": 1,
+          "m": "Condena Silvana"
+        },
+        {
+          "lvl": 1,
+          "m": "Guardia Baja"
+        },
+        {
+          "lvl": 6,
+          "m": "Plumerazo"
+        },
+        {
+          "lvl": 12,
+          "m": "Onda Anómala"
+        },
+        {
+          "lvl": 18,
+          "m": "Niebla Clara"
+        },
+        {
+          "lvl": 24,
+          "m": "Adaptación"
+        },
+        {
+          "lvl": 29,
+          "m": "Protección"
+        },
+        {
+          "lvl": 35,
+          "m": "Distorsión"
+        },
+        {
+          "lvl": 42,
+          "m": "Metrónomo"
+        },
+        {
+          "lvl": 48,
+          "m": "Superdiente"
+        },
+        {
+          "lvl": 52,
+          "m": "Placaje Eléctrico"
+        },
+        {
+          "lvl": 55,
+          "m": "Ariete"
+        },
+        {
+          "lvl": 62,
+          "m": "Púas"
+        }
+      ],
+      "tmMoves": [
+        "A Defender",
+        "Alud",
+        "Antojo",
+        "Asta Drenaje",
+        "Atadura",
+        "Cabeza Sorpresa",
+        "Carámbano",
+        "Ciclón",
+        "Confusión",
+        "Danza Acuática",
+        "Danza Caos",
+        "Deslome",
+        "Espabila",
+        "Espora",
+        "Esquirla Helada",
+        "Estruendo Escama",
+        "Flarembestida",
+        "Garra Brutal",
+        "Glaceoprisma",
+        "Hachazo Pétreo",
+        "Hoja Aguda",
+        "Hueso Sombrío",
+        "Lengüetazo",
+        "Malicioso",
+        "Megapuño",
+        "Mil Temblores",
+        "Mismo Destino",
+        "Moluscañón",
+        "Niebla Aromática",
+        "Nitrochoque",
+        "Picotazo Veneno",
+        "Pin Misil",
+        "Pirueta Helada",
+        "Plancha",
+        "Planta Feroz",
+        "Psicocarga",
+        "Pulso Cura",
+        "Puño Drenaje",
+        "Puño Incremento",
+        "Relevo",
+        "Retracción",
+        "Rizo Defensa",
+        "Rodillo de Púas",
+        "Sol Matinal",
+        "Sonámbulo",
+        "Tajo Umbrío",
+        "Trampa Rocas",
+        "Transformación",
+        "Última Palabra",
+        "Último Lugar",
+        "Vendaval"
+      ],
+      "firstMoves": [
+        "Alud",
+        "Cascabel Cura",
+        "Megaagotar",
+        "Onda Simple"
+      ],
+      "spriteKey": "BAXCALIBUR"
     },
     {
       "nickname": "Majin Buu",
@@ -3907,175 +3902,180 @@
       "spriteKey": "ORBEETLE"
     },
     {
-      "nickname": "MERYL STRYFE",
-      "species": "Blastoise",
-      "level": 66,
+      "nickname": "PIPOMAN",
+      "species": "Naganadel",
+      "level": 75,
       "types": [
-        "Agua"
+        "Veneno",
+        "Dragón"
       ],
-      "ability": "Amor Filial",
-      "nature": "Firme",
-      "item": "Banda Aguante",
+      "ability": "Electromotor",
+      "nature": "Huraña",
+      "item": "",
       "shiny": false,
       "moves": [
-        "Tinieblas",
-        "Truco Floral",
-        "Danza Acuática",
-        "Flarembestida"
+        "Glaceoprisma",
+        "Núcleo Castigo",
+        "Cadena Virulenta",
+        "Marcha Espectral"
       ],
       "origin": "primer_ruta",
       "iv": [
+        11,
+        4,
         17,
-        24,
-        1,
-        5,
-        6,
-        21
+        21,
+        3,
+        28
       ],
       "ev": [
-        252,
-        4,
-        2,
         0,
         0,
-        252
+        0,
+        0,
+        0,
+        0
       ],
       "abilPool": [
-        "Teracaparazón"
+        "Electromotor"
       ],
-      "abilHidden": [
-        "Amor Filial"
-      ],
-      "abilCapsule": true,
+      "abilHidden": [],
       "learnset": [
         {
-          "lvl": -1,
-          "m": "Espejo"
+          "lvl": 1,
+          "m": "Mismo Destino"
         },
         {
           "lvl": 1,
-          "m": "Patada Tropical"
+          "m": "Pin Misil"
         },
         {
           "lvl": 1,
-          "m": "Desarme"
+          "m": "Rompecoraza"
         },
         {
           "lvl": 1,
-          "m": "Salazón"
+          "m": "Carga Parábola"
         },
         {
           "lvl": 1,
-          "m": "Mandato"
+          "m": "Giro Mortífero"
         },
         {
           "lvl": 1,
-          "m": "Furia"
+          "m": "Polución"
         },
         {
-          "lvl": 9,
-          "m": "Ciclón de Hojas"
+          "lvl": 1,
+          "m": "Meditación"
         },
         {
-          "lvl": 12,
-          "m": "Triple Inmersión"
+          "lvl": 7,
+          "m": "Bramido Dragón"
         },
         {
-          "lvl": 15,
-          "m": "Manto Espejo"
+          "lvl": 14,
+          "m": "Gravedad"
         },
         {
-          "lvl": 20,
-          "m": "Relevo"
+          "lvl": 21,
+          "m": "Kinético"
         },
         {
-          "lvl": 25,
-          "m": "Bruma Explosiva"
-        },
-        {
-          "lvl": 30,
-          "m": "Viraje"
+          "lvl": 28,
+          "m": "Golpe Rastrero"
         },
         {
           "lvl": 35,
-          "m": "Adaptación"
-        },
-        {
-          "lvl": 36,
-          "m": "Impactrueno"
+          "m": "Eructo"
         },
         {
           "lvl": 42,
-          "m": "Hidroariete"
+          "m": "Tajo Aéreo"
+        },
+        {
+          "lvl": 47,
+          "m": "Látigo Cepa"
         },
         {
           "lvl": 49,
-          "m": "Telaraña"
+          "m": "Mil Púas Tóxicas"
         },
         {
           "lvl": 56,
-          "m": "Cabeza Sorpresa"
+          "m": "Colmillo Rayo"
         },
         {
-          "lvl": 56,
-          "m": "Tajo Taquión"
+          "lvl": 63,
+          "m": "Cometa Draco"
+        },
+        {
+          "lvl": 70,
+          "m": "Conjuro Funesto"
         }
       ],
       "tmMoves": [
-        "A Defender",
-        "Absorbefuerza",
-        "Alud",
+        "Alboroto",
         "Amnesia",
-        "Cabeza Sorpresa",
+        "Antojo",
+        "Asta Drenaje",
         "Cadena Virulenta",
-        "Carámbano",
-        "Clemencia",
-        "Conversión",
         "Copión",
         "Danza Acuática",
+        "Danza Caos",
         "Desarme",
         "Deslome",
-        "Destello",
+        "Doble Golpe",
         "Eco Metálico",
-        "Embate Supremo",
         "Espabila",
-        "Espeaura",
-        "Esquirla Helada",
-        "Fuerza Lunar",
+        "Estruendo Escama",
+        "Flarembestida",
+        "Fotosíntesis",
+        "Garra Brutal",
+        "Garra Dragón",
         "Glaceoprisma",
-        "Golpe Umbrío",
-        "Hoja Aguda",
+        "Hueso Sombrío",
+        "Infortunio",
+        "Inversión",
         "Isoguardia",
-        "Lanzarrocas",
+        "Láser Doble",
         "Láser Prisma",
-        "Maquinación",
+        "Lengüetazo",
+        "Malicioso",
+        "Megapuño",
+        "Mil Temblores",
+        "Mirada Heladora",
+        "Mismo Destino",
+        "Moluscañón",
         "Niebla Aromática",
         "Núcleo Castigo",
-        "Picotazo",
         "Picotazo Veneno",
         "Pin Misil",
+        "Pirueta Helada",
+        "Placaje",
         "Plancha Corporal",
-        "Psicocolmillo",
+        "Planta Feroz",
         "Pulso Cura",
-        "Puño Cometa",
-        "Puño Incremento",
+        "Puño Drenaje",
+        "Puntapié",
         "Relajo",
-        "Represalia",
+        "Relevo",
+        "Tajo Metralla",
         "Tajo Umbrío",
         "Taladradora",
         "Tinieblas",
-        "Trampa Rocas",
-        "Transformación",
         "Umbreozona",
-        "Voltio Cruel"
+        "Vendaval",
+        "Voltio Cruel",
+        "Voto Agua"
       ],
       "firstMoves": [
-        "Refugio",
-        "Ovocuración",
-        "Escaldar",
-        "Trampa Rocas"
+        "Tajo Metralla",
+        "Onda Trueno",
+        "Arraigo",
+        "Enrosque"
       ],
-      "spriteKey": "BLASTOISE"
+      "spriteKey": "NAGANADEL"
     },
     {
       "nickname": "Greninja",
@@ -14123,59 +14123,15 @@
   ],
   "captures": [
     {
-      "route": "ruta_2_norte",
-      "where": "Ruta 2 Norte",
-      "species": "Salamence",
-      "nickname": "NIDRANA",
+      "route": "ruta_13",
+      "where": "Ruta 13",
+      "species": "Blastoise",
+      "nickname": "MERYL STRYFE",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 8,
-      "mon": "Salamence"
-    },
-    {
-      "route": "monte_moon_exterior",
-      "where": "Monte Moon Exterior",
-      "species": "Vikavolt",
-      "nickname": "CAMION",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 16,
-      "mon": "Vikavolt"
-    },
-    {
-      "route": "ruta_2_sur",
-      "where": "Ruta 2 Sur",
-      "species": "Naganadel",
-      "nickname": "PIPOMAN",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 6,
-      "mon": "Naganadel"
-    },
-    {
-      "route": "ruta_5",
-      "where": "Ruta 5",
-      "species": "Walrein",
-      "nickname": "OBDCALAMORSA",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 20,
-      "mon": "Walrein"
-    },
-    {
-      "route": "ruta_10_norte",
-      "where": "Ruta 10 Norte",
-      "species": "Baxcalibur",
-      "nickname": "DRAGONA",
-      "shiny": false,
-      "status": "captured",
-      "category": "salvaje",
-      "level": 26,
-      "mon": "Baxcalibur"
+      "level": 41,
+      "mon": "Blastoise"
     },
     {
       "route": "cueva_celeste",
@@ -14255,6 +14211,17 @@
       "mon": "Basculin"
     },
     {
+      "route": "monte_moon_exterior",
+      "where": "Monte Moon Exterior",
+      "species": "Vikavolt",
+      "nickname": "CAMION",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 16,
+      "mon": "Vikavolt"
+    },
+    {
       "route": "",
       "where": "S.S Anne",
       "species": "Gengar",
@@ -14266,6 +14233,17 @@
       "mon": "Gengar"
     },
     {
+      "route": "ruta_5",
+      "where": "Ruta 5",
+      "species": "Walrein",
+      "nickname": "OBDCALAMORSA",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 20,
+      "mon": "Walrein"
+    },
+    {
       "route": "ruta_3",
       "where": "Ruta 3",
       "species": "Tinkatuff",
@@ -14275,6 +14253,17 @@
       "category": "salvaje",
       "level": 12,
       "mon": "Tinkatuff"
+    },
+    {
+      "route": "ruta_2_norte",
+      "where": "Ruta 2 Norte",
+      "species": "Salamence",
+      "nickname": "NIDRANA",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 8,
+      "mon": "Salamence"
     },
     {
       "route": "ciudad_celeste",
@@ -14330,6 +14319,17 @@
       "category": "estatico_regalo",
       "level": 5,
       "mon": "Dratini"
+    },
+    {
+      "route": "ruta_10_norte",
+      "where": "Ruta 10 Norte",
+      "species": "Baxcalibur",
+      "nickname": "DRAGONA",
+      "shiny": false,
+      "status": "captured",
+      "category": "salvaje",
+      "level": 26,
+      "mon": "Baxcalibur"
     },
     {
       "route": "pueblo_paleta",
@@ -14398,15 +14398,15 @@
       "mon": "Orbeetle"
     },
     {
-      "route": "ruta_13",
-      "where": "Ruta 13",
-      "species": "Blastoise",
-      "nickname": "MERYL STRYFE",
+      "route": "ruta_2_sur",
+      "where": "Ruta 2 Sur",
+      "species": "Naganadel",
+      "nickname": "PIPOMAN",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
-      "level": 41,
-      "mon": "Blastoise"
+      "level": 6,
+      "mon": "Naganadel"
     },
     {
       "route": "ciudad_plateada",
@@ -15072,23 +15072,23 @@
     "bosses": {},
     "npcs": {},
     "routes": {
-      "ruta_2_norte": true,
-      "monte_moon_exterior": true,
-      "ruta_2_sur": true,
-      "ruta_5": true,
-      "ruta_10_norte": true,
+      "ruta_13": true,
       "cueva_celeste": true,
       "bosque_celeste": true,
       "ciudad_azulona": true,
       "pueblo_lavanda": true,
+      "monte_moon_exterior": true,
+      "ruta_5": true,
       "ruta_3": true,
+      "ruta_2_norte": true,
       "ciudad_celeste": true,
       "ciudad_plateada": true,
       "tunel_roca": true,
+      "ruta_10_norte": true,
       "pueblo_paleta": true,
       "pueblo_marengo": true,
       "ruta_11": true,
-      "ruta_13": true,
+      "ruta_2_sur": true,
       "ruta_14": true,
       "ruta_18": true,
       "islas_espuma": true,
