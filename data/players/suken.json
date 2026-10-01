@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": true,
-  "notes": "Importado del save · 8h 10m jugadas · 472,000₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 8h 15m jugadas · 472,000₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "NIDRANA",
@@ -738,13 +738,13 @@
     },
     {
       "nickname": "DRAGONA",
-      "species": "Arctibax",
-      "level": 26,
+      "species": "Baxcalibur",
+      "level": 75,
       "types": [
         "Dragón",
         "Hielo"
       ],
-      "ability": "Cortante",
+      "ability": "Veleta",
       "nature": "Firme",
       "item": "",
       "shiny": false,
@@ -772,114 +772,134 @@
         0
       ],
       "abilPool": [
-        "Cortante",
-        "Armadura Frágil"
+        "Veleta",
+        "Trampa Arena"
       ],
       "abilHidden": [
-        "Electrogénesis"
+        "Mudar"
       ],
       "learnset": [
         {
-          "lvl": 1,
-          "m": "Cambiafuerza"
+          "lvl": -1,
+          "m": "Punzada Rama"
         },
         {
           "lvl": 1,
-          "m": "Electrificación"
+          "m": "Rugido"
         },
         {
           "lvl": 1,
-          "m": "Vasto Impacto"
+          "m": "Rueda Fuego"
+        },
+        {
+          "lvl": 1,
+          "m": "Batido"
+        },
+        {
+          "lvl": 1,
+          "m": "Condena Silvana"
+        },
+        {
+          "lvl": 1,
+          "m": "Guardia Baja"
         },
         {
           "lvl": 6,
-          "m": "Alud"
+          "m": "Plumerazo"
         },
         {
           "lvl": 12,
-          "m": "Cascabel Cura"
+          "m": "Onda Anómala"
         },
         {
           "lvl": 18,
-          "m": "Megaagotar"
+          "m": "Niebla Clara"
         },
         {
           "lvl": 24,
-          "m": "Onda Simple"
+          "m": "Adaptación"
         },
         {
           "lvl": 29,
-          "m": "Truco Floral"
+          "m": "Protección"
         },
         {
-          "lvl": 40,
-          "m": "Finta"
+          "lvl": 35,
+          "m": "Distorsión"
         },
         {
-          "lvl": 45,
-          "m": "Liofilización"
+          "lvl": 42,
+          "m": "Metrónomo"
         },
         {
-          "lvl": 50,
-          "m": "Orbes Espectro"
+          "lvl": 48,
+          "m": "Superdiente"
+        },
+        {
+          "lvl": 52,
+          "m": "Placaje Eléctrico"
         },
         {
           "lvl": 55,
-          "m": "Decalcomanía"
+          "m": "Ariete"
+        },
+        {
+          "lvl": 62,
+          "m": "Púas"
         }
       ],
       "tmMoves": [
-        "Absorber",
-        "Alboroto",
+        "A Defender",
         "Alud",
-        "Amnesia",
         "Antojo",
+        "Asta Drenaje",
         "Atadura",
-        "Beso Drenaje",
-        "Bomba Ígnea",
+        "Cabeza Sorpresa",
         "Carámbano",
-        "Chorro de Vapor",
         "Ciclón",
         "Confusión",
-        "Conversión",
         "Danza Acuática",
-        "Decoración",
-        "Doble Golpe",
-        "Eco Metálico",
+        "Danza Caos",
+        "Deslome",
         "Espabila",
+        "Espora",
         "Esquirla Helada",
+        "Estruendo Escama",
+        "Flarembestida",
+        "Garra Brutal",
         "Glaceoprisma",
-        "Golpe Roca",
-        "Golpe Umbrío",
+        "Hachazo Pétreo",
         "Hoja Aguda",
         "Hueso Sombrío",
-        "Infortunio",
-        "Lanzarrocas",
-        "Láser Prisma",
         "Lengüetazo",
-        "Llama Protectora",
-        "Maquinación",
+        "Malicioso",
+        "Megapuño",
+        "Mil Temblores",
+        "Mismo Destino",
         "Moluscañón",
+        "Niebla Aromática",
         "Nitrochoque",
-        "Patada Baja",
         "Picotazo Veneno",
         "Pin Misil",
         "Pirueta Helada",
-        "Placaje",
         "Plancha",
-        "Plancha Corporal",
+        "Planta Feroz",
         "Psicocarga",
         "Pulso Cura",
         "Puño Drenaje",
+        "Puño Incremento",
         "Relevo",
-        "Tajo Metralla",
-        "Taladradora",
-        "Tinieblas",
+        "Retracción",
+        "Rizo Defensa",
+        "Rodillo de Púas",
+        "Sol Matinal",
+        "Sonámbulo",
+        "Tajo Umbrío",
         "Trampa Rocas",
         "Transformación",
+        "Última Palabra",
         "Último Lugar",
-        "Voltio Cruel",
-        "Voto Agua"
+        "Vendaval"
       ],
       "firstMoves": [
         "Alud",
@@ -887,7 +907,7 @@
         "Megaagotar",
         "Onda Simple"
       ],
-      "spriteKey": "ARCTIBAX"
+      "spriteKey": "BAXCALIBUR"
     }
   ],
   "box": [
@@ -14149,13 +14169,13 @@
     {
       "route": "ruta_10_norte",
       "where": "Ruta 10 Norte",
-      "species": "Arctibax",
+      "species": "Baxcalibur",
       "nickname": "DRAGONA",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
       "level": 26,
-      "mon": "Arctibax"
+      "mon": "Baxcalibur"
     },
     {
       "route": "cueva_celeste",
@@ -16241,7 +16261,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 651,
+        "qty": 602,
         "pocket": "Medicinas"
       },
       {
