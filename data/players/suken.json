@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": true,
-  "notes": "Importado del save · 7h 44m jugadas · 472,000₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 7h 48m jugadas · 472,000₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "NIDRANA",
@@ -18,10 +18,10 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Velo Sagrado",
-        "Fotosíntesis",
-        "Destructor",
-        "Doble Golpe"
+        "Danza Triunfal",
+        "Garra Dragón",
+        "Flarembestida",
+        "Electropico"
       ],
       "origin": "primer_ruta",
       "iv": [
@@ -107,6 +107,49 @@
           "lvl": 67,
           "m": "Atizar"
         }
+      ],
+      "tmMoves": [
+        "Amnesia",
+        "Atadura",
+        "Beso Drenaje",
+        "Bomba Ígnea",
+        "Cadena Virulenta",
+        "Carámbano",
+        "Choque Anímico",
+        "Chorro de Vapor",
+        "Ciclón",
+        "Clemencia",
+        "Copión",
+        "Deslome",
+        "Electropico",
+        "Espeaura",
+        "Espora",
+        "Flarembestida",
+        "Fotosíntesis",
+        "Fuerza Lunar",
+        "Garra Dragón",
+        "Golpe Oscuro",
+        "Golpe Roca",
+        "Hoja Aguda",
+        "Hueso Sombrío",
+        "Láser Doble",
+        "Malicioso",
+        "Maquinación",
+        "Nitrochoque",
+        "Núcleo Castigo",
+        "Patada Baja",
+        "Picotazo",
+        "Picotazo Veneno",
+        "Pirueta Helada",
+        "Plancha Corporal",
+        "Psicocolmillo",
+        "Puño Incremento",
+        "Relajo",
+        "Sol Matinal",
+        "Tajo Umbrío",
+        "Tinieblas",
+        "Trampa Rocas",
+        "Trampa Venenosa"
       ],
       "firstMoves": [
         "Velo Sagrado",
