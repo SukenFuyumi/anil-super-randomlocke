@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": true,
-  "notes": "Importado del save · 8h 7m jugadas · 472,000₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 8h 8m jugadas · 472,000₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "NIDRANA",
@@ -390,7 +390,7 @@
         "Veneno",
         "Dragón"
       ],
-      "ability": "",
+      "ability": "Electromotor",
       "nature": "Huraña",
       "item": "",
       "shiny": false,
@@ -739,7 +739,7 @@
     {
       "nickname": "GREYMON",
       "species": "Dratini",
-      "level": 23,
+      "level": 25,
       "types": [
         "Dragón"
       ],
@@ -750,7 +750,7 @@
       "moves": [
         "Choque Anímico",
         "Golpe Oscuro",
-        "Pin Misil",
+        "Vasto Impacto",
         "Anclaje"
       ],
       "iv": [
@@ -16183,7 +16183,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 653,
+        "qty": 651,
         "pocket": "Medicinas"
       },
       {
