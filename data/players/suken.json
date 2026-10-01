@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": true,
-  "notes": "Importado del save · 8h 4m jugadas · 472,000₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 8h 7m jugadas · 472,000₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "NIDRANA",
@@ -560,19 +560,19 @@
     },
     {
       "nickname": "OBDCALAMORSA",
-      "species": "Sealeo",
-      "level": 20,
+      "species": "Walrein",
+      "level": 75,
       "types": [
         "Hielo",
         "Agua"
       ],
-      "ability": "Piel Tosca",
+      "ability": "",
       "nature": "Osada",
       "item": "",
       "shiny": false,
       "moves": [
-        "Glaceoprisma",
-        "Fuerza Lunar",
+        "Liofilización",
+        "Bomba Ígnea",
         "Chorro de Vapor",
         "Relajo"
       ],
@@ -594,129 +594,139 @@
         0
       ],
       "abilPool": [
-        "Piel Tosca",
-        "Fuente Energía"
+        "Cura Natural",
+        "Manto Frondoso"
       ],
       "abilHidden": [
-        "Mutatipo"
+        "Cabeza Roca"
       ],
       "learnset": [
         {
           "lvl": 1,
-          "m": "Retracción"
+          "m": "Niebla"
         },
         {
           "lvl": 1,
-          "m": "Viento Plata"
+          "m": "Paz Mental"
         },
         {
           "lvl": 1,
-          "m": "Puño Furia"
+          "m": "Carga Parábola"
         },
         {
           "lvl": 1,
-          "m": "Ofrenda"
+          "m": "Giro Mortífero"
         },
         {
           "lvl": 1,
-          "m": "Bola Hielo"
+          "m": "Búnker"
+        },
+        {
+          "lvl": 1,
+          "m": "Velo Aurora"
+        },
+        {
+          "lvl": 1,
+          "m": "Danza Lluvia"
         },
         {
           "lvl": 12,
-          "m": "Ronquido"
+          "m": "Polvo Mágico"
         },
         {
           "lvl": 13,
-          "m": "Rugido de Guerra"
+          "m": "Infortunio"
         },
         {
           "lvl": 16,
-          "m": "Antiaéreo"
+          "m": "Deslizamiento"
         },
         {
           "lvl": 20,
-          "m": "Bilis"
+          "m": "Viento Hielo"
         },
         {
           "lvl": 24,
-          "m": "Cuerno Certero"
+          "m": "Malicioso"
         },
         {
           "lvl": 28,
-          "m": "Barrera Espinosa"
+          "m": "Mimético"
         },
         {
           "lvl": 35,
-          "m": "Danza Acuática"
+          "m": "Acua Jet"
         },
         {
           "lvl": 40,
-          "m": "Cosquillas"
+          "m": "Bola Hielo"
         },
         {
-          "lvl": 46,
-          "m": "Roca Afilada"
+          "lvl": 48,
+          "m": "Llama Final"
         },
         {
-          "lvl": 52,
-          "m": "Proliferación"
+          "lvl": 50,
+          "m": "Mil Púas Tóxicas"
         },
         {
-          "lvl": 58,
-          "m": "Liofilización"
+          "lvl": 56,
+          "m": "Deseo Cura"
         },
         {
           "lvl": 64,
-          "m": "Tajo Umbrío"
+          "m": "Patada Giro"
+        },
+        {
+          "lvl": 72,
+          "m": "Megacuerno"
         }
       ],
       "tmMoves": [
         "Absorbefuerza",
-        "Alboroto",
+        "Absorber",
         "Alud",
         "Amnesia",
-        "Anclaje",
         "Antojo",
-        "Bomba Ígnea",
+        "Atadura",
+        "Cabeza Sorpresa",
+        "Cadena Virulenta",
         "Carámbano",
-        "Choque Anímico",
         "Chorro de Vapor",
-        "Ciclón",
-        "Confusión",
         "Conversión",
-        "Danza Acuática",
-        "Danza Caos",
-        "Espora",
+        "Copión",
+        "Decoración",
+        "Desarme",
+        "Eco Metálico",
+        "Electropico",
         "Esquirla Helada",
-        "Estruendo Escama",
-        "Fuerza Lunar",
-        "Garra Brutal",
-        "Garra Dragón",
+        "Finta",
+        "Flarembestida",
         "Glaceoprisma",
-        "Golpe Oscuro",
+        "Golpe Umbrío",
         "Hachazo Pétreo",
-        "Hoja Aguda",
-        "Lanzarrocas",
+        "Inversión",
+        "Láser Prisma",
         "Lengüetazo",
         "Llama Protectora",
-        "Malicioso",
+        "Maquinación",
         "Megapuño",
-        "Mil Temblores",
-        "Moluscañón",
+        "Mirada Heladora",
         "Niebla Aromática",
         "Nitrocarga",
+        "Nitrochoque",
+        "Patada Baja",
+        "Picotazo",
         "Picotazo Veneno",
-        "Pin Misil",
-        "Plancha",
+        "Planta Feroz",
+        "Psicocarga",
         "Psicocolmillo",
-        "Pulso Cura",
-        "Relajo",
-        "Relevo",
+        "Puño Drenaje",
+        "Puya Nociva",
         "Rodillo de Púas",
-        "Sol Matinal",
-        "Sonámbulo",
-        "Último Lugar",
-        "Umbreozona"
+        "Tajo Metralla",
+        "Trampa Venenosa",
+        "Transformación"
       ],
       "firstMoves": [
         "Ronquido",
@@ -724,7 +734,7 @@
         "Antiaéreo",
         "Bilis"
       ],
-      "spriteKey": "SEALEO"
+      "spriteKey": "WALREIN"
     },
     {
       "nickname": "GREYMON",
@@ -738,10 +748,10 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Golpe Roca",
-        "Colmillo Veneno",
-        "Destello",
-        "Eco Voz"
+        "Choque Anímico",
+        "Golpe Oscuro",
+        "Pin Misil",
+        "Anclaje"
       ],
       "iv": [
         26,
@@ -828,14 +838,57 @@
         }
       ],
       "tmMoves": [
+        "Absorbefuerza",
         "Absorber",
+        "Alud",
+        "Amnesia",
+        "Anclaje",
+        "Cadena Virulenta",
+        "Choque Anímico",
+        "Clemencia",
+        "Copión",
+        "Danza Acuática",
+        "Danza Caos",
         "Decoración",
+        "Desarme",
         "Eco Metálico",
+        "Electropico",
+        "Estruendo Escama",
+        "Fotosíntesis",
+        "Fuerza Lunar",
+        "Garra Brutal",
+        "Garra Dragón",
+        "Golpe Oscuro",
         "Golpe Roca",
+        "Inversión",
         "Isoguardia",
+        "Láser Doble",
+        "Láser Prisma",
         "Lengüetazo",
+        "Malicioso",
         "Maquinación",
-        "Marcha Espectral"
+        "Marcha Espectral",
+        "Megapuño",
+        "Mirada Heladora",
+        "Niebla Aromática",
+        "Nitrocarga",
+        "Nitrochoque",
+        "Núcleo Castigo",
+        "Picotazo",
+        "Pin Misil",
+        "Psicocarga",
+        "Puño Incremento",
+        "Puya Nociva",
+        "Relajo",
+        "Retracción",
+        "Rodillo de Púas",
+        "Sol Matinal",
+        "Sonámbulo",
+        "Tajo Metralla",
+        "Trampa Rocas",
+        "Trampa Venenosa",
+        "Transformación",
+        "Voto Agua"
       ],
       "firstMoves": [
         "Patada Baja",
@@ -14027,13 +14080,13 @@
     {
       "route": "ruta_5",
       "where": "Ruta 5",
-      "species": "Sealeo",
+      "species": "Walrein",
       "nickname": "OBDCALAMORSA",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
       "level": 20,
-      "mon": "Sealeo"
+      "mon": "Walrein"
     },
     {
       "route": "",
@@ -16130,7 +16183,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 709,
+        "qty": 653,
         "pocket": "Medicinas"
       },
       {
