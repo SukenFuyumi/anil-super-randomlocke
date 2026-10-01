@@ -4,7 +4,7 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": true,
-  "notes": "Importado del save · 7h 55m jugadas · 472,000₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 8h 0m jugadas · 472,000₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "NIDRANA",
@@ -394,10 +394,10 @@
       "item": "",
       "shiny": false,
       "moves": [
-        "Tajo Metralla",
-        "Onda Trueno",
-        "Roca Veloz",
-        "Enrosque"
+        "Glaceoprisma",
+        "Mirada Heladora",
+        "Cadena Virulenta",
+        "Marcha Espectral"
       ],
       "origin": "primer_ruta",
       "iv": [
@@ -518,12 +518,14 @@
         "Relevo",
         "Rizo Defensa",
         "Sol Matinal",
+        "Sonámbulo",
         "Tajo Metralla",
         "Taladradora",
         "Trampa Rocas",
         "Trampa Venenosa",
         "Transformación",
-        "Último Lugar"
+        "Último Lugar",
+        "Voto Agua"
       ],
       "firstMoves": [
         "Tajo Metralla",
