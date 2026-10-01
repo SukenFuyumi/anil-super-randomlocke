@@ -4,16 +4,17 @@
   "lives": 30,
   "livesUsed": 8,
   "champion": true,
-  "notes": "Importado del save · 7h 48m jugadas · 472,000₽ · vidas en el juego: -1",
+  "notes": "Importado del save · 7h 53m jugadas · 472,000₽ · vidas en el juego: -1",
   "team": [
     {
       "nickname": "NIDRANA",
-      "species": "Shelgon",
-      "level": 8,
+      "species": "Salamence",
+      "level": 75,
       "types": [
-        "Dragón"
+        "Dragón",
+        "Volador"
       ],
-      "ability": "Manto Níveo",
+      "ability": "Detonación",
       "nature": "Floja",
       "item": "",
       "shiny": false,
@@ -41,115 +42,148 @@
         0
       ],
       "abilPool": [
-        "Manto Níveo"
+        "Detonación"
       ],
       "abilHidden": [
-        "Ímpetu Arena"
+        "Cadena Tóxica"
       ],
       "learnset": [
         {
           "lvl": -1,
-          "m": "Desarrollo"
+          "m": "Colmillo Ígneo"
         },
         {
           "lvl": 1,
-          "m": "Danza Triunfal"
+          "m": "Represalia"
         },
         {
           "lvl": 1,
-          "m": "Velo Sagrado"
+          "m": "Colmillo Hielo"
         },
         {
           "lvl": 1,
-          "m": "Fotosíntesis"
+          "m": "Puño Mareo"
         },
         {
           "lvl": 1,
-          "m": "Destructor"
+          "m": "Cola Dragón"
         },
         {
           "lvl": 1,
-          "m": "Doble Golpe"
+          "m": "Llave Vital"
+        },
+        {
+          "lvl": 1,
+          "m": "Danza Espada"
+        },
+        {
+          "lvl": 1,
+          "m": "Golpes Furia"
+        },
+        {
+          "lvl": 1,
+          "m": "Plegaria Vital"
+        },
+        {
+          "lvl": 1,
+          "m": "Nitrocarga"
+        },
+        {
+          "lvl": 1,
+          "m": "Espejo"
+        },
+        {
+          "lvl": 1,
+          "m": "Último Lugar"
         },
         {
           "lvl": 15,
-          "m": "Defensa Floral"
+          "m": "Paisaje Nevado"
         },
         {
           "lvl": 20,
-          "m": "Carga"
+          "m": "Mal de Ojo"
         },
         {
           "lvl": 25,
-          "m": "Condena Silvana"
+          "m": "Vasto Impacto"
         },
         {
           "lvl": 33,
-          "m": "Cerrojo Feérico"
+          "m": "Fachada"
         },
         {
           "lvl": 39,
-          "m": "Estruendo Escama"
+          "m": "Patada Salto Alta"
         },
         {
           "lvl": 46,
-          "m": "Pulso Dragón"
+          "m": "Electrotela"
         },
         {
-          "lvl": 53,
-          "m": "Estrujón"
+          "lvl": 55,
+          "m": "Pico Taladro"
         },
         {
-          "lvl": 60,
-          "m": "Gas Corrosivo"
+          "lvl": 64,
+          "m": "Furia Candente"
         },
         {
-          "lvl": 67,
-          "m": "Atizar"
+          "lvl": 73,
+          "m": "Viraje"
         }
       ],
       "tmMoves": [
-        "Amnesia",
-        "Atadura",
-        "Beso Drenaje",
-        "Bomba Ígnea",
-        "Cadena Virulenta",
-        "Carámbano",
+        "A Defender",
+        "Absorbefuerza",
+        "Absorber",
+        "Cabeza Sorpresa",
         "Choque Anímico",
-        "Chorro de Vapor",
         "Ciclón",
         "Clemencia",
-        "Copión",
-        "Deslome",
-        "Electropico",
+        "Confusión",
+        "Conversión",
+        "Danza Acuática",
+        "Desarme",
+        "Embate Supremo",
+        "Espabila",
         "Espeaura",
         "Espora",
-        "Flarembestida",
-        "Fotosíntesis",
+        "Esquirla Helada",
+        "Estruendo Escama",
         "Fuerza Lunar",
         "Garra Dragón",
         "Golpe Oscuro",
-        "Golpe Roca",
+        "Golpe Umbrío",
+        "Hachazo Pétreo",
         "Hoja Aguda",
         "Hueso Sombrío",
+        "Infortunio",
+        "Inversión",
         "Láser Doble",
+        "Láser Prisma",
+        "Llama Protectora",
         "Malicioso",
-        "Maquinación",
-        "Nitrochoque",
+        "Mil Temblores",
+        "Moluscañón",
         "Núcleo Castigo",
         "Patada Baja",
         "Picotazo",
-        "Picotazo Veneno",
-        "Pirueta Helada",
-        "Plancha Corporal",
-        "Psicocolmillo",
+        "Pin Misil",
+        "Placaje",
+        "Plancha",
+        "Planta Feroz",
+        "Psicocarga",
+        "Pulso Cura",
         "Puño Incremento",
+        "Puntapié",
+        "Puya Nociva",
         "Relajo",
-        "Sol Matinal",
-        "Tajo Umbrío",
-        "Tinieblas",
-        "Trampa Rocas",
-        "Trampa Venenosa"
+        "Rodillo de Púas",
+        "Sonámbulo",
+        "Taladradora",
+        "Trampa Venenosa",
+        "Voto Agua"
       ],
       "firstMoves": [
         "Velo Sagrado",
@@ -157,7 +191,7 @@
         "Destructor",
         "Doble Golpe"
       ],
-      "spriteKey": "SHELGON"
+      "spriteKey": "SALAMENCE"
     },
     {
       "nickname": "CAMION",
@@ -266,6 +300,9 @@
           "lvl": 64,
           "m": "Tormenta Floral"
         }
+      ],
+      "tmMoves": [
+        "Voltio Cruel"
       ],
       "firstMoves": [
         "Isofuerza",
@@ -13814,13 +13851,13 @@
     {
       "route": "ruta_2_norte",
       "where": "Ruta 2 Norte",
-      "species": "Shelgon",
+      "species": "Salamence",
       "nickname": "NIDRANA",
       "shiny": false,
       "status": "captured",
       "category": "salvaje",
       "level": 8,
-      "mon": "Shelgon"
+      "mon": "Salamence"
     },
     {
       "route": "monte_moon_exterior",
@@ -15950,7 +15987,7 @@
       {
         "id": "RARECANDY",
         "name": "Caramelo Raro",
-        "qty": 362,
+        "qty": 294,
         "pocket": "Medicinas"
       },
       {
